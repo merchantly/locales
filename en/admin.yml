@@ -19,7 +19,7 @@ en:
     properties: 'Properties'
     mail_deliveries: 'Subscriptions'
     mail_templates: 'Mailing templates'
-    vendors: Shops
+    vendors: Stores
     registration_logs: 'Registration log'
     sms_logs: 'SMS log'
     tariffes: 'Tariffes'
