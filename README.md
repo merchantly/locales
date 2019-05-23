@@ -1,2 +1,0 @@
-# locales
-Locales for merchantly
