@@ -44,7 +44,7 @@ ru:
         clients: "Клиенты (%{count}) в CSV"
         yandex: 'Экспорт товаров в Yandex Market (XML)'
         mail: 'Экспорт товаров в Торг@Mail.ru (XML)'
-        amo_crm: Подходит в том числе для AmoCRM
+        amo_crm: 'Подходит в том числе для AmoCRM'
       google_analytics:
         more: 'Подробнее о настройке Google Ecommerce'
       import_photos:
