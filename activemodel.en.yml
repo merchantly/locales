@@ -1,0 +1,20 @@
+en:
+  activemodel:
+    errors:
+      models:
+        vendor:
+          attributes:
+            domain:
+              slug: "Domain can contain only latin letters, numbers or minus sign"
+        vendor_registration_form:
+          attributes:
+            email:
+              email: Invalid e-mail format
+        subscription_form:
+          attributes:
+            email:
+              email: Invalid e-mail format
+        client_registration_form:
+          attributes:
+            email:
+              email: Invalid e-mail format

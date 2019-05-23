@@ -1,0 +1,1893 @@
+en:
+  operator:
+    locales:
+      ru: Русский
+      en: English
+      ar: Arabic
+
+    flashes:
+      rfm_updated: 'RFM metrics recalculated'
+      client_accepted: 'Client accepted'
+      client_denied: 'Client enabled'
+
+    system_api: System API
+    choose_action: Select an action
+    choose_all: 'Select all %{count} position'
+    mark_all_as_read: Mark all as read
+    no_notifications: no notifications
+    add_category: add category
+    settings_instruction: Instructions for setting up the store
+    install_instruction_w1: Connection instructions
+    operator: Technical support
+    landing_dummy: Landing page cap
+    site_ownership_note: All pages automatically added a tag to confirm ownership of the site.
+    per_page: Number of goods on the page
+    w1_send_pin_code: Send
+
+    navigation:
+      dashboard: 'What to do next?'
+      my_shop: 'Web site'
+      goods: 'Goods'
+      orders: 'Orders'
+      clients: 'Customers'
+      content: 'Site management'
+      settings: 'General settings'
+
+    content_navigation:
+      domain: 'Website address'
+      pages: 'Typical pages'
+      elements: 'Items on site'
+      design: 'Design (CSS, HTML)'
+      content_pages: 'Text Pages'
+      blog_posts: 'News or blog'
+      lookbooks: 'Lookbooks'
+      subscriptions: 'E-mail Subscriptions'
+      translations: 'Languages'
+      other: 'SEO and other'
+
+    settings_navigation:
+      legal: 'Legal information'
+      pay: 'Customer payment methods'
+      delivery: 'Delivery Methods'
+      orders: 'Order Settings'
+      products: 'Product Settings'
+      subscriptions: 'E-mail and SMS Notifications'
+      integrations: 'Integration and data sharing'
+      members: 'Employees and access rights'
+      billing: 'Tariff and payment'
+      bells: 'Notifications'
+
+    price_kinds:
+      default: Обычная
+      sale: Распродажа
+
+    toggle_theme_button:
+      slider_visible: Show slider
+      has_auto_menu: Automatic menu
+      instagram_visible: Show Instagram photos from Instagram in the end of page
+      banner_visible: Show message on site
+
+    bells_count:
+      one: '%{count} notification'
+      few: '%{count} notifications'
+      many: '%{count} notifications'
+      other: '%{count} notifications'
+
+    search_options_count:
+      one: '%{count} option'
+      few: '%{count} options'
+      many: '%{count} options'
+      other: '%{count} options'
+
+    seconds_count:
+      one: '%{count} second'
+      few: '%{count} seconds'
+      many: '%{count} seconds'
+      other: '%{count} seconds'
+
+    stucks_count:
+      zero: 'No'
+      one: '%{count} piece'
+      few: '%{count} pieces'
+      many: '%{count} pieces'
+      other: '%{count} pieces'
+
+    dictionary_entities_count:
+      one: '%{count} item'
+      few: '%{count} items'
+      many: '%{count} items'
+      other: '%{count} items'
+
+    records_count:
+      one: '%{count} items'
+      few: '%{count} note'
+      many: '%{count} notes'
+      other: '%{count} notes'
+
+    clients_count:
+      one: '%{count} customer'
+      few: '%{count} customers'
+      many: '%{count} customers'
+      other: '%{count} customers'
+
+    found_products_count:
+      zero: 'Goods not found'
+      one: 'The product <b>%{count}</b> has been found'
+      few: 'The products %{count} have been found'
+      many: 'The products %{count} has been found'
+      other: 'The products %{count} have been found'
+
+    found_orders_count:
+      zero: 'Orders not found'
+      one: 'The order %{count} has been found'
+      few: 'The orders %{count} have been found'
+      many: 'The orders %{count} have been found'
+      other: 'The orders %{count} have been found'
+
+    orders_count:
+      one: '%{count} order'
+      few: '%{count} orders'
+      many: '%{count} orders'
+      other: '%{count} orders'
+
+    products_count:
+      one: '%{count} product'
+      few: '%{count} goods'
+      many: '%{count} goods'
+      other: '%{count} goods'
+
+    delivery_methods_count:
+      one: '%{count} delivery methods'
+      few: '%{count} delivery methods'
+      many: '%{count} delivery methods'
+      other: '%{count} delivery methods'
+
+    payment_methods_count:
+      one: '%{count} method'
+      few: '%{count} methods'
+      many: '%{count} methods'
+      other: '%{count} methods'
+
+    images_count:
+      one: '%{count} image'
+      few: '%{count} images'
+      many: '%{count} images'
+      other: '%{count} images'
+
+    omniauth_buttons:
+      vkontakte: 'Log in to VK'
+      instagram: 'Log in to Instagram'
+      facebook: 'Facebook authorisation '
+
+    second_sidebar_headers:
+      operator_settings: Settings
+      operator_content: Site management
+      products: Goods
+
+    response_states:
+      no_response: 'No answer'
+      ignore: 'Ignored'
+    robots:
+      doc: 'Instruction for robots.txt'
+      reset: Reset robots.txt
+      reset_confirmation: "Are you sure you want to reset robots.txt?"
+      content: 'Robots.txt content'
+      restore_default: 'Restore robots.txt to default'
+    notification_allowness:
+      "true": Allowed
+      "false": Prohibited
+    placeholders:
+      search: Search
+      created_at_from: From
+      created_at_to: To
+    errors:
+      js_missing_semicolon: Not enough semicolon at the end
+
+    deliveries:
+      any: Any
+    payments:
+      any: Any
+    workflow_states:
+      any: Любой
+
+    workflow_state:
+      delete: Delete
+
+    mail_template:
+      cancel: Reset all changes
+
+    locales:
+      ru: Russian
+      en: English
+
+    menu_view:
+      auto_html: 'Displayed in the menu automatically. <a href="%{url}">Change</a>'
+      shown_in: Displayed in menu items
+      not_shown_html: 'Not displayed. <a href="%{url}">Change</a>'
+    names:
+      property:
+        size: Size
+        color: Colour
+        brand: Brand
+
+      dictionary:
+        size: International sizes
+        color: Colors
+        brand: Brands
+    bells_scopes:
+      all: "All (%{count})"
+      unread: "Unread (%{count})"
+      read: "Read (%{count})"
+
+    clients_scopes:
+      pending: "Waiting (%{count})"
+      accepted: "Accepted (%{count})"
+      rejected: "Rejected (%{count})"
+
+    topnavbar:
+      notifications: Notifications
+      new_vendor: Create a new store
+      faq: FAQ
+      profile: 'My profile'
+      vendors: 'My stores (%{count})'
+      logout: Exit
+      negative_balance: 'Balance: %{balance} Must be replenished'
+      positive_balance: 'Balance: %{balance}'
+      sms_balance: 'SMS balance: %{balance}'
+      paid_to: 'Tariff paid to: %{date}'
+      need_paid: 'Pay the tariff for publishing the store'
+      vendor_will_unpublish: 'Immediately pay  service. Store will be stopped soon'
+      vendor_was_unpublish: 'Shop has been disabled %{date}'
+      tariff_absent: Pay the tariff for publishing the store
+      partner_program: Affiliate program
+      edit_profile: Change contacts and password
+      new_shop: Open a new store
+      subscriptions: Personal subscriptions
+      access_keys: 'API access'
+
+    th:
+      vendor_jobs:
+        id: ID
+        created_at: Created
+        state: Status
+        title: Name
+        progress: Process
+        download: Left
+        stats: Statistics
+      transactions:
+        date: Date of operation
+        amount: Amount
+        period: Period
+        details: Decryption
+      slug_redirects:
+        path: Way
+        resource: Redirect
+        last_at: Last visit
+      roles:
+        resource_type: Section of the website
+        can_read: Reading
+        can_create: Creature
+        can_update: Editing
+        can_delete: Deletion
+      pickup_points:
+        city: City
+        address: Address
+        comment: Comment
+      not_founds:
+        last: Last visit
+        count: Attempts
+        path: Way
+        info: Referer / User Agent
+        actions: Actions
+      members:
+        name: Name
+        contacts: Contacts
+        role: Role
+        sms: SMS notifications
+        email: E-mail Notifications
+      bells:
+        subject: Title
+        text: Description
+        datetime: Date
+      clients:
+        created_at: Registered at
+        id: ID
+        name: Name
+        phones: Phones
+        emails: E-mail
+        orders_count: Orders
+        last_order: Last order
+        occupation: Profession
+        company_name: Company name
+        first_order: First order
+        total_orders_price: 'Amount of purchases'
+        category: Category
+        rfm: RFM
+      dictionaries:
+        name: Name
+        entities: Items
+        properties_used: Used in properties
+      dictionary_entities:
+        title: Title
+        products_count: Goods
+        published_products_count: Published products
+        archived_products_count: Archived goods
+        actions: Actions
+        color: Colour
+        order: Order
+      product_secrets:
+        id: ID / Vendor code
+        title: Title
+        warehouse: Source stock
+        balance: Stock residues
+        quantity: Amount
+        sellable: "Saled?"
+        showable: "Shown?"
+        orderable: "Ordered?"
+      shop:
+        title: Store
+        domain: Domain
+        products_count: Goods
+        created: Created by
+        last_update: Last updated settings
+        orders_count: Orders
+        operator: Operator
+        operator_phone: Operator's phone
+        operator_link: Technical support
+      carts:
+        created: Created
+        changed: Changed
+        total_price: Cost
+        city: City
+        products: Goods
+      ms:
+        start: Start
+        time: Time
+        result: Result
+        stats: Statistics
+      products:
+        image: Image
+        desc: Description
+        amount: Amount
+        price: Price
+        state: Status
+      properties:
+        name: Name
+        in_use: Used
+      vendor_sms_log_entities:
+        message: Message
+        phones: Phones
+        result: Result
+        date: Date
+      invoices:
+        account_number: Account number
+        date: Date
+        decryption: Decryption
+        to: Into the account
+        amount: Amount
+        status: Status
+      cities:
+        locale: "City (%{locale})"
+        pickup_points: Points of issue
+      client_categories:
+        name: Name
+      currencies:
+        currencies: Currencies
+        central_bank: Central bank
+        your_currency: Your rate
+    toggle_buttons:
+      disable_with:
+        making_on: Turning on..
+        making_off: Turning off..
+    chevron_tooltips:
+      other: SEO and other
+      elements: Site elements
+      design_settings: "Design (CSS, HTML, Logo, Fonts)"
+      billing: Tariff and payment
+      transactions: Transaction list
+      settings_orders:       Order settings
+      languages:             Language setting
+      settings_others:       Catalog of other settings
+      settings_products:     Product Settings
+      tags:                  Tags
+      currencies:            Exchange rates
+      menu_items:            Menu
+      content:               Content
+      lookbooks:             Lookbooks
+      slider_images:         Images for slider
+      vendor_deliveries:     Delivery Methods
+      vendor_payments:       Payment Methods
+      integrations:          To the list of integrations
+      integration_moysklad: Customize MyStock
+      blog_posts:            Other blog posts
+      categories:            Product Categories
+      products:              Products
+      clients:               Customers
+      translations:          Language and translations
+      properties:            Product Properties
+      dictionaries:          Directories
+      dictionary:            "Reference '%{resource}'"
+      members:               Employees
+      coupons:               Скидочные купоны
+      dictionary_dictionary_entities: "Directory elements '%{resource}'"
+      mail_templates:        Letter and notification templates
+      workflow_states:       Orders statuses
+      order_conditions:      Business processes
+      coupons:               Promotional codes (coupon codes)
+      orders:                Orders
+      content_pages:         Text Pages
+      order_operator_filters: Order filters
+      stock_log_entities:    Import log
+      settings:              General settings
+      pages: Website pages settings
+      css: Styles (CSS)
+      vendor_delivery:        Delivery method
+
+    headings:
+      bells:
+        title: Notifications
+      category_positions:
+        title: Item Position
+      order_conditions:
+        index: Rules
+        edit: We edit the rule
+        new: Add a rule
+      top_banners:
+        edit: Editing the top banner
+      asset_images:
+        index: Images
+      stock_info:
+        title: Data from the stock (MyStock)
+      mail_template:
+        client:
+          edit: "Editing the template '%{key}' for the client"
+          preview: "Preview of the template '%{key}' for the client"
+        merchant:
+          edit: "Edit the template '%{key}' for the seller"
+          preview: "Preview of the template '%{key}' for the seller"
+        index: Letter templates
+      workflow_states:
+        new: Add new order status
+        edit: Editing order status
+        index: Order statuses
+      slugs:
+        index: SEO paths
+      ymls:
+        show: Working with Yandex Market and YML Catalog
+      redirects:
+        index: 301st redirects
+        index_title: Active redirects
+        new: New redirect
+        edit: Edit the redirect
+      not_founds:
+        index: 404th pages
+      seo_block:
+        title: SEO
+      menu_view:
+        title: Display in the menu
+      clients:
+        index: Customers
+        index_title: List of clients
+        edit: 'Editing client #%{id}'
+        manager_comments: Managers Comments
+      translations:
+        edit: Editing the translation
+      menu_items:
+        new: New menu item
+        index: Menu management
+        edit: Editing menu item
+        top: Top Menu
+        bottom_left: Bottom left menu
+        bottom_right: Bottom right menu
+        MenuItemCategory: Category
+        MenuItemDictionary: Directory
+        MenuItemDictionaryEntity: Dictionary item
+        MenuItemPage: Text page
+        MenuItemLink: Direct link
+        MenuItemBlog: Blog
+        MenuItemLookbook: Lookbook
+      carts:
+        index: Order baskets
+        show: 'Add to Card %{id}'
+        created_at: 'Created — %{time}'
+      categories:
+        index: Categories
+        edit: 'Category %{id}'
+        new: New root category
+        new_sub: 'Subcategory in %{parent_category}'
+      content_pages:
+        index: Pages
+        index_title: Pages
+        edit: Editing a text page
+        new: Creating a text page
+      blog_posts:
+        index: Blog (news and articles section)
+        index_title: List of publications
+        edit: Editing a publication
+        new: Creating a publication
+      coupons:
+        index: Promotional codes
+        new_import: Download codes
+      dashboard:
+        index_title: 5 steps to launch a store
+      dictionaries:
+        index: Directories
+        edit: Editing the directory
+        new: Creating a directory
+      dictionary_entities:
+        index: 'Directory elements %{name}'
+        edit: 'Editing a reference item'
+        new: 'Add a reference item'
+        create: Item creation
+        list_title: List of items
+      invites:
+        list_title: "Invitation List (%{count})"
+        invite_member: Connect new employee
+      lookbooks:
+        index: Lookbooks
+        index_title: Lookbooks
+        edit: Edit the book
+        new: New Lookbook
+      orders:
+        stock: Stock
+        log_entities: Magazine
+        manager_comments: Comments of managers for the client
+        items: Order list
+        show: 'Order %{id}'
+        new: Checkout
+        info: Information about order
+        buyer: Customer
+        delivery: Delivery
+        payment: Payment
+        misc: Additionally
+      products:
+        new: Add product
+        edit: Editing product
+        edit_union: Editing product mix
+        edit_part: Editing part of the connection
+        photos: Photo
+        part_photos: Photos of goods
+        stats: Product statistics
+        category_index: "Products category (%{count})"
+        vk_export: Export to Vkontakte.Ru
+        vk_export_change_group_id: Export group updated.
+        ms:
+          product_items: "Product options (sizes, colors, etc.)"
+        ordinary:
+          product_items: "Product options (sizes, colors, etc.)"
+        batch_actions:
+          select_categories: Select categories for a group of products
+          select_tags: Select tags for a group of products
+
+      properties:
+        index: Product properties
+        edit: Property editing
+        new: New property
+      selling:
+        payment_method: Payment system
+        show: Sales and Payment
+        w1: WalletOne
+        install_w1: Connecting the Wallet One payment system
+        notifications: New order notifications
+      #management:
+        #settings:
+          #index: Общие настройки
+        #integrations:
+          #show: Интеграция со сторонними сервисами
+
+        #walletone:
+          #show: Интеграция с платежной системной walletone.com
+          #edit: Изменение данных интеграции с walletone.com
+      settings:
+        #cache: Настройки кеша
+        #robots: robots.txt
+        #analytics: Аналитика
+        #instagram: Instagram
+        #packaging: Упаковка
+        #theme: Оформление
+        favicons_title: Upload images
+        #main_page_seo: Продвижение главной страницы
+        main_page_content: Homepage settings
+        #main: Главное
+        #mails: Настройка уведомлений
+        #accessibility: Доступность
+        domain: Website address
+        #other: Разное
+        #products: Товары
+        #extra_code: Дополнительный код
+        w1_widget: WalletOne widget at the bottom of the site
+        #filter: Фильтр
+      subscriptions:
+        index: Subscription
+        list_title: Active Subscriptions
+        new: New subscription
+      slider_images:
+        edit: Banner editing
+        new: Creating a banner
+        index: Banners
+        index_title: Banners
+      vendor_deliveries:
+        index: Delivery
+        index_title: Delivery Methods
+        edit: Delivery editing
+        new: Delivery creation
+      vendor_payments:
+        index: Payment Methods
+        edit: Edit payment method
+        new: Creating a payment method
+        available_deliveries: Compatible delivery methods
+    selling:
+      w1:
+        notification_address: Set the following address for payment notifications in the cashier settings on the walletone
+        authorized_until: Authorized to
+        unknown: unknown
+        expired: Expired!
+        not_authorized: Not authorized
+        authorize: Log in to Wallet One
+      yandex_kassa:
+        notification_address: Aviso url
+        check_address: Check url
+        success_url: Success URL
+        fail_url: Fail URL
+      rbk_money:
+        notification_address: Payment alert
+      instagram:
+        callback_url: Valid redirect URIs
+    settings:
+      in_use: 'Used by:'
+      reserve_domain: 'Reserve Address:'
+      go_to_category: Go to the category page
+    vendor_delivery:
+      api_access: Access to the delivery service API
+      empty: No delivery
+    asset_images:
+      title: Used in text editors
+      empty: No images
+    vendor_sms_log_entity:
+      empty: No SMS sent
+    bells:
+      read: Familiarized
+      empty: It's empty
+    billing:
+      app_link:
+        title: "We are proud of our project and therefore at the very bottom of every page of the store, there is an inscription that the store is made on our platform."
+        help: "But if it annoys you, you can turn it off for %{price} per month."
+        disable: "Hide title \"Build on %{brand_name_e}\""
+        disable_button: Off
+        disabled: "Disabled until %{date}"
+        disable_confirm: "Cost is %{price} per month. Do you want to disable?"
+      invoice_form:
+        title: 'Top up account:'
+        submit: Pay
+        amount_hint: "Total summ (%{brand_currency})"
+      invoices_list:
+        row:
+          submit: Pay
+          archived: Archived
+          paid: Paid
+      publication:
+        header: Store publishing
+        callout: 'When the store is removed from publication, users will receive the following message:'
+      tabs:
+        invoices: Invoices
+        invoice_operations: Account transactions
+        empty: Absent
+      tariff:
+        month_price: Month
+        submit: Link
+        current: Your current tariff
+      show:
+        paid_to: "Paid up to "
+        shop_locked: Shop locked. Pay the fare to publish the store.
+        expired: "Service period ended (%{paid_to})"
+        transactions: Transactions
+        cards: Linked cards
+        callout_expired:
+          title: Expired service
+          body: 'The store will be locked soon. <br />Urgently pay the bill or select a different rate.'
+        callout_archived:
+          title: 'The store is in the archive'
+          body: 'To restore store you need to pay a tariff'
+        disk_space_used: 'Used disk space:'
+        invoices: Accounts
+      sms_packs:
+        sent_sms_log: Sent SMS Log
+        pack_count: '%{pack_count} SMS'
+        buy:  "Buy for %{price}"
+    cache:
+      http_cache_expires_in:
+        hint: 'The page caching period in the browser (in minutes). <br/>It is used in the HTTP header "Cache-Control max-age =". The number from 1 to 60 minutes. Set to 0 to cancel caching of the web page on the browser side.'
+      callout:
+        body: For each page a <code>Strong ETag HTTP</code> header is automatically generated.
+      clear: 'Clear cache'
+    cities:
+      empty: The list of cities is empty. Create it through loading issue points.
+      load: Download
+      pickup_points: "All issue points (%{count})"
+      delete_all: 'Delete cities'
+      delete_all_confirm: 'Throw all the cities in the basket?'
+    client_categories:
+      form:
+        th:
+          price_kind: Price Type
+          available: Available
+      new_submit: Add customer category
+    clients:
+      empty: No customers found
+      rfm_details:
+        recency:
+          title: "Recency (R) — old, the amount of time since the last purchase"
+          body: '%{days} days and earlier'
+          other: "others <span class=\"text-nowrap\"> (maximum %{days} days) </span>"
+        frequence:
+          title: "Frequency (F) — frequency, total number of purchases"
+          other: others
+          body: '%{value} purchases and more'
+          zero: '%{value} - %{max_orders_count} purchases'
+        monetary:
+          title: "Monetary (M) — money, total amount of purchases"
+          other: others
+          body: '%{value} and more'
+          zero: "(maximum amount %{value})"
+      rfm_segments_info:
+        th:
+          segment: Segment
+          frm: RFM
+          strategy: Strategy
+          clients: Customers
+        empty: no such customers
+      rfm_stats:
+        title: RFM Segmentation
+        more: More
+        recount: Recount
+        date: 'Analytics data is valid on: %{date}'
+      settings:
+        subscriptions: 'Client Subscriptions'
+        rfm: 'RFM Analysis'
+        signup: 'Registration Settings'
+        client_categories: 'Customer categories'
+        archive: "Customer Archive (%{count})"
+      signup_settings:
+        title: Client registration and authorization settings
+        add_occupation: Add profession
+    color:
+      subtitle: These settings are available in the interactive design component.
+    content_pages:
+      form:
+        page: Page
+        seo: SEO
+      show_page: 'View on site'
+      add_button: 'Add text page'
+    coupon_images:
+      coordinates: The coordinates of the certificate code on the image
+      add_button: Add
+    coupons:
+      expires_at: "Until %{expires_at}"
+      coupon_groups: "Coupon Group %{count}"
+      create_processes: "Creates coupon group %{count}"
+      no_used: not used
+      unlimited: Duration is not limited
+      use: Use
+      use_confirm: 'Mark this coupon as used?'
+      form:
+        placeholders:
+          description: 'Comment'
+        labels:
+          use_count: 'Number of generated coupons'
+        hints:
+          use_count: "The number of coupons generated. From 1 to %{count}."
+          minimal_products_count: 'Leave blank for any amount'
+          is_check_address: 'If an order has been placed at the client’s address, the coupon will not be applied'
+        restrictions: 'Restrictions on categories and products:'
+      search: 'Comment'
+      reset: Reset
+      actions:
+        import: 'Bulk download coupons from CSV'
+        add_coupon: 'Add coupon'
+        add_coupon_group: 'Add coupon group'
+      empty: Nothing found
+      import_form:
+        labels:
+          file: 'CSV file'
+          skip_headers: 'Skip title'
+        example: "Sample <a href=\"%{url}\">CSV file</a>"
+      show:
+        title: "Coupon Group %{code}"
+        discount: 'Discount: %{discount}'
+        discount_type: 'Discount type:  %{discount_type)}'
+        validity: 'Deadline: %{validity}'
+        used_count: 'Coupon used times: %{used_count}'
+        use_count: '%{use_count} still remains'
+        coupons_count: "Total coupons in the group: %{count}"
+        used_coupons_count: "Of these, used: %{count}"
+        list: 'CSV Coupon List'
+        unlimited: 'perpetual'
+    css:
+      colors_link: 'Colors and Fonts'
+      form:
+        labels:
+          custom_style_format: 'Format'
+      result: 'Result in CSS'
+    delivery_time_slots:
+      time: "From %{from} to %{to}"
+      from: From&nbsp;
+      to: To&nbsp;
+      default: Default
+      edit:
+        title: 'Editing courier service time'
+        add_submit: 'Add period'
+        save_submit: Save
+        copy_submit: 'Copy'
+        labels:
+          delivery_time_slots_limit: 'Number of displayed timeslots in order'
+        rules:
+          title: Rules for timeslots
+          add_submit: Add a rule
+    currency:
+      currencies: 'Exchange rates'
+    digital_key_import:
+      result: Import result
+      state: Status
+      total_count: Total lines
+      processed_count: Processed
+      form:
+        title: Download a CSV file. The table must have a column 'code' with a list of electronic keys.
+        submit: 'Download'
+        confirm: 'All past keys will be destroyed (key values ​​in orders will save). Do you want to continue?'
+    domain:
+      placeholder: 'Additional domain, for example magazin.ru'
+      add_domain_alias: 'Add an additional domain'
+      header_title: Website address and name
+      is_published: 'Published?'
+      view: View
+      instruction: '%{icon} DNS Setup Guide'
+      current_operator_url: "The current address of the operator panel:&nbsp;"
+      current_home_url: 'Current address (domain) of the site:'
+      form:
+        suggested_domain:
+          label: 'New domain (site address)'
+          hint: 'Domain that you plan to use in the future. Your store will automatically go to this domain as soon as you set up DNS.'
+      pending_domain_binding: 'Domain linking expected: %{link}'
+      additional_domains: Additional domains
+      subdomain: "Technical (backup) address in the zone %{domain_zone}"
+    extra_html:
+      navs:
+        head: 'At the end of <code>&lt;head&gt;</code>'
+        body: 'At the end of <code>&lt;head&gt;</code>'
+        footer: 'Перед <code>&lt;footer&gt;</code>'
+    files:
+      settings_favicons: 'Logo and favicons'
+      robots: 'robots.txt'
+      asset_images: 'Images for content'
+    filter:
+      example: Filter example
+      properties_link: 'property order'
+      callout:
+        body: "Configure %{link} &nbsp; displayed in the filter"
+    footer:
+      middle_html: 'HTML code between lower menu blocks'
+      app_link: 'Title "Build on %{brand_name_e}"'
+      walletone: 'Customize the WalletOne widget'
+      instagram: 'Instagram photo feed'
+    header:
+      form:
+        labels:
+          name: 'Name of shop'
+        hints:
+          name: 'Used in the site title, in the title tag and in letters'
+          is_logo_link: 'If you disable, then the logo will not link'
+          has_client_cabinet: 'Customers can view their orders, and you can make them individual discounts.'
+          title: 'Write here a brief description of the store. Indicate the actual address, if any'
+          contacts: 'We recommend here to write only the phone and email. Contacts will automatically become clickable'
+      see_also: 'See also:'
+      top_banner: 'Banner in the header (promotional message)'
+    top_banners:
+      link_url:
+        label: 'Link to the page that will open when you click on the message'
+        hint: 'Not necessary'
+      subtitle:  This is a message that appears in the header of the site on each page. It is convenient to use for short messages and promotions.
+    history_paths:
+      heading: 'History of visits'
+      warning: All paths are displayed here except the main page.
+    https:
+      allow: 'HTTPS is installed and connected for the address %{url}'
+      callout:
+        title: 'Need to install HTTPS certificate'
+        body: |-
+          It’s free for subscribed merchants
+      instruction: 'Instructions for purchasing an SSL certificate'
+    languages:
+      used_on_site: Language uses on web-site
+      default_locale: Default language
+      select_default_locale: 'Use default'
+      setup: 'Customize translations'
+      disable: Off
+      enable: On
+      first_callout:
+        body: |
+          <p> Users see the site in the language that is configured on their system and is given by the browser in the HTTP header. If such a language does not support the site, then the language is set to "default". </p>
+          <p>In addition, the user can switch the language on his own.  </p>
+      second_callout:
+        body: |+
+          <p> All words and phrases used on the site can be changed in the "Customize translations" section. </p>
+          <p> If you need support for other languages, contact support. </p>
+
+    legal:
+      subtitle: The information is used for invoicing and when working with online cash registers.
+      payment_data: Details for invoice
+      contract_offer: "Offer N%{id} from %{registered_at}"
+      pdf_download: (Download in PDF)
+      coupon_registration: 'Registered by promo code:'
+      shop_is_template: This store is a template.
+      form:
+        labels:
+          legal_name: 'The official name of your organization'
+          invoice_stamp_comment: 'Comment to the account'
+          invoice_stamp_image: 'Image stamp and signature for invoices'
+          remove_invoice_stamp_image: 'Delete image?'
+        hints:
+          invoice_stamp_comment: 'Displayed on top. Specify here phones and additional information.'
+        include_blank: 'Not specified'
+    lookbooks:
+      images_download:  'Upload images'
+      images: Image
+      add_button: 'Add lookbook'
+      new_warning: "Create a lookbook, and then add images."
+      images_empty: There are no images in the lookbook yet. Upload a few.
+      popover:
+        body: |
+          The Lookbook is a catalog of photos created to demonstrate original images created from designer clothes and accessories of one or several brands. 
+          “This is a ready-made solution for your appearance, for every day, a separate event or a special occasion.”
+    mail_templates:
+      system:
+        callout: "Allow to receive platform notifications (negative balance, income payments etc)"
+      last_checkup:  'Last checked at: %{last_checkup_at}'
+      success_changed: Email is changed
+      no_confirmed: Not confirmed
+      example: 'Sample data transfer'
+      mail_header:
+        from: "From:&nbsp; "
+        to: "To:&nbsp;"
+        subject: "Theme of letter:&nbsp;"
+      table_header: Template
+      receivers:
+        title: 'List of recipients of notifications for the seller'
+        phones: 'Notifications are received on the following numbers at the moment:'
+        phones_empty: No one is currently receiving SMS notifications.
+        emails: 'and such emails:'
+        email_empty: No one is currently receiving email notifications.
+      settings:
+        current_vendor_email: Current sender address when notifying customers
+        add_spf: "To change domain add %{link} in the setting in domain provider"
+        spf: 'SPF check'
+        check: Check
+      edit:
+        preview: 'Preview'
+        template:
+          name: "Template Name:&nbsp;"
+          sms:  SMS template
+          email: Email Template
+      index:
+        sms_log: 'Sent SMS Log'
+        tabs:
+          settings: 'Your email address'
+          clients: 'Customer notifications'
+          merchants: 'Notifications for managers'
+          system: 'Platform notifications'
+        callout:
+          title: 'Which employees receive notifications?'
+          body: "See on the page&nbsp; %{link}"
+          operator_members_link: 'employee management'
+      show:
+        change: 'Change'
+        edit: 'Edit template'
+        tabs:
+          sms: 'SMS'
+          html: 'Email (HTML)'
+          txt: 'Email (TXT)'
+        message_length: 'Message length: %{length} symbols.'
+    not_founds:
+      form:
+        include_blank: 'Any'
+        submit: 'Filter out'
+        hints:
+          content_type: 'Request content-type'
+          response_state: 'Status'
+      empty: No such pages.
+    order_operator_filters:
+      add_button: 'Add filter'
+    order_page:
+      currency: 'Currency'
+      form:
+        include_blank:
+          package_category: '(category is not set)'
+          public_offer_page: '- not installed -'
+        hints:
+          show_header_buttons_in_cart: 'The button "Checkout" will be duplicated in the basket header'
+          sorted_cart: 'Sortable shopping bag'
+          show_full_basket_count: 'The default is the number of items'
+    slug_resources:
+      callout: "Paths can be configured on resource editing pages (product, category, text page, etc.)"
+    orders:
+      payment_discount: 'Discount by pay with %{payment_type}'
+      buyer:
+        title: Customer
+        email_empty: Email not specified
+        phone_empty: Phone not specified
+        comment: 'Comment to the order:'
+      settings:
+        duplicate: 'Duplicate order'
+        mail_template: 'Customer Letter Template'
+        order_public_url: 'Order page on the site'
+      delivery:
+        city: City
+        address: Address
+        postal_code: Postcode
+        delivery_time: Time of delivery
+        yandex_delivery: Yandex delivery
+        agent: Delivery agent
+      custom_delivery_price: 'Cost of delivery'
+      transmitted_data: 'Transmitted data'
+      browser_data: 'Browser data'
+      total_price: Total
+      send_email: 'Send by mail'
+      reset_downloaded_count: 'Reset the number of downloads (used %{current} from %{total})'
+      quantity: 'Balance:'
+      delivery_price_empty: Shipping cost not established
+      delivery_price_warning: The order can not be paid until the delivery fee is determined.
+      payment_url: 'Customer order payment page'
+      hints:
+        order_payment:
+          state: 'Attention! When changing the payment status manually, business processes and notifications do not work.'
+      placeholders:
+        search_form:
+          query: 'Product name or customer data'
+      created_at_from: 'Date of creation'
+      order_conditions: 'Business processes'
+      workflow_states: 'Order statuses'
+      operator_filters: 'Order filters'
+      mail_templates: 'Order notifications'
+      archive: "Orders archive (%{count} pcs.)"
+      export: 'Export Orders (CSV)'
+      export_order_items: 'Export order items (CSV)'
+      moysklad: 'Order in MyStock'
+      view_all: 'View all'
+      empty: No orders.
+      empty_with_parameters: No orders with such parameters.
+      client_notify: Notify customer&nbsp;
+      send_order_url: 'Send link to order page'
+      send_payment_url: 'Send payment link'
+      show:
+        title: "Order %{id}"
+        subtitle: "from %{created_at}"
+      stock:
+        title: "Reserve on %{brand_name_e}"
+        remote: MyStock reserves
+        unreserved: 'Out of reserve:'
+    payment_cards:
+      untie: 'Unlink'
+      untied: 'Unlinked'
+
+    vendor_payment:
+      fix: Fix
+      no_deliveries: This payment method is not connected to any delivery method.
+      w1:
+        available_payments: Available payment methods
+
+    dictionary:
+      empty: Directory is empty
+      empty_properties: No properties
+      delete: Delete dictionary
+      add_element: Add item
+      elements: Items
+      select_type:
+        title: Select the type of directory being created.
+        DictionaryColor: 1. Colors
+        Dictionary: 2. List of items (e.g. sizes or brands)
+
+    property:
+      delete: Remove property
+      ms_link: Linking to MyStock
+      use_in_filter: "Do you want to use in the filter?"
+      add: Add a property
+      select_type:
+        title: Select the type of property to be created.
+    ms:
+      sync: 'MyStock synchronization:'
+      product_card: 'MS: Product Map'
+      stock: 'MS: Residual API'
+      product_not_linked: This item is NOT attached to the stock!
+      start_import: Start import right now
+      syncing_not_set: Synchronization is not configured. Specify username and password.
+    text_blocks:
+      add_button: 'Add text block'
+    product:
+      text_blocks: Additional information
+      title: Product
+      video: Video
+      public_shop_link: Product Online
+      editing: Editing
+      archived: In the archive
+      default: Default option
+      uuid: UUID
+      not_linked: No stock
+      not_synced_time: time is not set
+      found_count: Products on request
+      properties: Goods properties
+      custom_attributes: Attributes
+      custom_attributes_empty: There are no established characteristics.
+      linked_custom_attributes_empty: There are no established characteristics. Add features via MyStock.
+      show_filter: Filter
+      delete: Remove item
+      no_delete: Cannot delete archived item or item from my stock
+      delete_confirm: "Remove item permanently? (It will remain in the order history)"
+      last_change: 'Last Modified: %{time}'
+      search: Search by goods
+      reindex_stats: Reindex
+      product_items_count: '%{count} options'
+      authorized_as: Authorized as
+      list_view: 'Products List'
+      blocks_view: 'Goods in blocks'
+      union_item:
+        is_sale: Sale
+        is_published: Visibility
+      union:
+        custom_attributes: General characteristics
+      ms:
+        code: Code
+        custom_attributes_empty: absent
+        info_title: Extended information from MyStock
+        product_title: Product
+        product_card: Card Product
+        weight: Weight
+        volume: Volume
+        product_items: Options
+        product_items_empty: absent
+        sale_note: Set the price in MyStock for sale
+        article: Vendor code
+        actual_time: Information is relevant at the time
+        shared_info:
+          imported: Imported
+          balance: Residual
+          reserve: Reserve
+          stock: Stock
+          article: Vendor code
+          stock_dump: Stock Dump
+          consignment_dump: Consignment Dump
+      export:
+        start: Start export
+        generate: Generate
+        no_file: Not yet generated
+        size: 'Size: %{size}'
+        date: 'Created: %{date}'
+    products:
+      adding: 'Adding goods'
+      categories_select:
+        title: Product Categories
+        breadcrumbs: Breadcrumbs category
+        product_item: Categories can be edited only in base product
+      header:
+        is_manual_published: 'Published?'
+        preview: 'View'
+      other:
+        show_other_products:
+          title: Other goods
+          popover: Displayed on the product page in small photos under its description.
+          callout: 'This block has the following title on the product page:'
+          label: 'Display mode'
+        show_similar_products:
+          title: With this product also buy
+          popover: Displayed at the bottom of the page with large cards.
+          callout: 'On the product page, this block has the following title:'
+          label: 'Display mode'
+      price_kinds_link: 'Setting price types'
+      tabs:
+        common: 'Description'
+        extra: 'Additionally'
+        seo: 'SEO'
+        other: 'Other goods'
+        moysklad: 'MyStock'
+      text_blocks:
+        add_button: 'Add text block'
+        tags: Tags
+      digital_keys_import: 'Download file with keys'
+      coupon_images: 'Certificate templates'
+      archive:  In the archive (editing is impossible)
+      new_product: New product
+      moysklad:
+        attributes: Specifications
+        product_title: "In stock: '%{title}'"
+      range: Price range
+      shared:
+        show: show
+      id: 'Product #%{id}'
+      ordinary:
+        stock_title: "In stock: '%{stock_title}'"
+        total_quantity: 'Remains of goods are set individually for each option.'
+        add_item: 'Add option'
+      union:
+        auto_calculation_quantity: 'Calculated automatically'
+        different_prices: Price range
+      block:
+        is_manual_published: 'Did you publish the product?'
+        more: More
+      has_subcategories_with_products: 'There are no products in this category, but it has subcategories:'
+      linked_categories:
+        help: Categories are set and taken from moysklad.ru
+        empty_help: No category specified. Categories are set and taken from moysklad.ru
+      load_image: 'Upload images'
+      list_view_unknown: "Unknown type list_view %{list_view}"
+      row:
+        article: 'Vendor code'
+        is_manual_published: 'Did you publish the product?'
+        more: More
+        is_product_item: Product items
+      search_form_content:
+        query: 'Product Name or description'
+      archives:
+        title: 'Archived goods'
+        all: "All goods"
+        query: 'Product Name or description'
+      select_categories:
+        add: 'Add goods to the category:'
+        remove: 'Remove goods from categories:'
+      select_tags:
+        add: 'Add tags to goods:'
+        remove: 'Remove tags from goods:'
+    tags:
+      add_button: 'Add a tag'
+    slider_images:
+      alive: Active
+      archive: Archive
+      add: 'Add image'
+      subtitle: The slider is a paged collection of images displayed at the top of the main page of the site.
+    apps:
+      under_construction: In developing
+      refresh: update applications
+    carts:
+      buyer: Customer
+      seen_last_time: Last time was
+      chart_data:
+        carts: Baskets
+        declined: Rejected
+        done: Completed
+    custom_attributes:
+      not_created: You have not created a profile.
+      create: Create feature
+      show_all: 'Show all %{count} specifications'
+    registration:
+      title: Operator registration
+      by_invite: '(at the invitation of %{vendor})'
+    domains:
+      not_connected: This domain is not connected yet.
+      go_to_shop: 'Go to the store %{name}'
+      shop_not_connected_html: "To this '<b>% {domain}</b>' domain no store has yet been attached."
+      empty: No additional domains
+    login:
+      already_registered: "Have you already registered?"
+      auth: Authorization for shop owners
+      no_shop_yet: "No store yet?"
+      already_has_shop: "Have you already got a shop?"
+      register_operator: Sign up without a store
+      register: Sign Up
+      invited: "By invitation?"
+      no_account: "No account?"
+      logged_in_with: 'You are already logged in as<br /><b>%{name}</b>.'
+      continue_logged: 'Continue under this name..'
+      accept_invite: 'Accept invitation'
+
+      forgot_password: "Forgot your password?"
+      restore_password: Restore
+    slug_redirects:
+      empty: No redirects installed
+    blog_post:
+      prev_post: Previous post
+      next_post: Next post
+      status:
+        active: 'Active'
+        hidden: 'Hidden'
+      form:
+        tabs:
+          content: Post in the blog
+          seo: SEO
+      new_submit: 'Add a publication'
+    subscription_email:
+      export: 'Export to CSV'
+    show_subscription_email:
+      title: 'Do you want to collect e-mails? '
+      tooltip: 'Collect e-mails of potential customers for further distribution of promotional information'
+      empty:  No one has subscribed yet.
+    client:
+      found_count: Found customers
+      export: Export to CSV
+      phones:
+        title: Phones
+        empty: No phone
+      emails:
+        title: E-mails
+        empty: No e-mail
+    order:
+      found_count: Orders on request
+      create: Create order
+      items: Order list
+      overall_items: Total goods
+      delivery_price: Cost of delivery
+      payment_link: Link to the payment for the customer
+      created_at: 'Order created — %{time}'
+      will_cancel_at: 'Auto cancel — %{time}'
+      will_cancel_at_tooltip: 'Auto cancel date'
+      external_id: 'External number — <strong>%{external_id}</strong>'
+      send_payment_link: 'Send for payment'
+      duplicate: Duplicate
+      unknown_time: Time unknown
+      no_such_order: No such order
+      unknown_state: unknown status
+      amocrm_export: Export to AmoCRM (CSV)
+      client_phones: 'Customer Phones: %{phones}'
+      actions:
+        accept: Order is accepted
+        done: Order completed
+        cancel: Cancel
+        cancel_order: Cancel the order
+        cancel_confirm: "Do you want to cancel the order?"
+      labels:
+        reserved_badge: Reserved
+        reserved: Reserved
+        local_reserved: "Reserved on %{brand_name_e}"
+        remote_reserved: Reserved on MyStock
+        not_reserved: Not reserved
+        reserve: Reserve in stock
+        show_ms_order: View order in MyStock
+      buttons:
+        accept_and_deliver: Accept and send for delivery
+        accept: Accept
+      data:
+        client: Customer
+        name: Name
+        email: E-mail
+        phone: Phone
+        city: City
+        address: Address
+        comment: Comment to the order
+        delivery_name: Delivery method
+        payment_method: Payment method
+        payment_external_id: "Account number in %{agent}"
+        delivery_state: Delivery status
+        delivery_agent_state: "Order Status in %{agent}"
+        agent: Agent
+        agent_notified: Agent notified
+        agent_notify_state: "Status of notification process %{state}"
+        external_id: External order number
+        delivery_tracking_id: "Tracking order number in %{agent}"
+        ip: IP address
+        ip_location: IP location
+        user_agent: User-Agent
+    stock_log_entities:
+      state: Status
+      period: Lead time
+      stats: Statistics
+    shop:
+      create: Create a shop
+      creation_title: Creating a store
+      w1_registration: Creating a wallet in WalletOne
+      yours_title: Your stores
+    password_reset:
+      title: Password recovery
+      get_password: Get password
+      remembered_password: "Remember the password?"
+      email_instruction_html: 'An email has been sent to the <b>%{login}</b> password recovery instructions'
+      phone_instruction_html: 'A pin code was sent to the phone <b>%{login}</b>'
+      wait_for_email: Wait for the letter with instructions for password recovery
+      pincode_received: "Did the PIN come?"
+    categories:
+      create: New category
+      create_subcategory: New subcategory
+      main: Category for homepage
+      archived: Archived category
+      archive_confirm: "Do you want to archive a category for forever?"
+      in_nested_categories: "Subsidiaries categories (%{count})"
+      not_contain_products: There are no products in this category directly.
+      product_saved: '<a href="%{backurl}">Product %{name} saved successfully</a>'
+      note: 'Categories allow you to break products into sections.'
+      this: 'View category on the site'
+      add_button_title: 'Add product to this category'
+      archive: "Category Archive (%{count})"
+      active: Active Categories
+      products_without_categories: "Products without a category (%{count})"
+      google_product_category: |
+        This parameter is used to export category into facebook catalog. </br>
+        Use values from the list <a href="http://www.google.com/basepages/producttype/taxonomy-with-ids.ru-RU.xls">Google's product taxonomy </a>
+    category_page:
+      form:
+        header: Product List (Category)
+        hints:
+          category_product_columns: 'Number of product columns'
+          category_product_rows: 'Number of product lines'
+          show_next_resource_in_list: 'The category will display a link to the next category.'
+    dashboard:
+      graph_period: Orders for 3 months
+    menu_items:
+      vendor_blog_path: 'Blog page (publication list)'
+      form:
+        hints:
+          custom_title: 'Menu item name'
+      empty: There are no items in the menu
+      current_link: "From this menu item, the link leads to &rarr;"
+      add_button: 'Add menu item'
+      is_menu_top_desktop_sticky:
+        title: 'Sticky menu'
+        tooltip: 'When scrolling down the menu will always stay at the top'
+      auto_menu:
+        disable: 'Disable automatic menu'
+        enable: 'Enable automatic menu'
+      callout:
+        title: 'The menu is formed automatically'
+        body: |+
+          <p> The top categories displays with published products in the top menu.  </p>
+          <p> The bottom menu displays links to text pages. </p>
+          <p> Disable automatic mode if you want to customize menu items yourself. </p>
+
+      new_menu_item_link: 'What the new menu item will refer to:'
+    order_conditions:
+      titles:
+        event: '1. When an event happens to an order:'
+        condition: '2. And if the order meets the following conditions:'
+        action: '3. Then perform the action:'
+      never: never
+      stats: Statistics
+      no_used: This rule has never been applied.
+      add_button: 'Create a rule'
+      alert: "The rules allow you to automatically launch a delivery or reserve a product in stock when certain events occur (placing an order, changing the status of an order or paying) and conditions set (delivery method, payment)"
+      index:
+        event:
+          title: Event&nbsp;
+          explanation: (when)
+        condition:
+          title: Terms&nbsp;
+          explanation: (in which case)
+        action:
+          title: Action&nbsp;
+          explanation: (what to do)
+        applied: Applied
+    dictionaries:
+      empty: No directory
+      no_used: Not used
+      form:
+        tabs:
+          dictionary: Directory
+          seo: SEO
+      edit:
+        dictionary_entities: "Directory elements (#{count} pcs.)"
+      index:
+        properties: Product Properties
+        add_submit: 'Add directory'
+    dictionary_entities:
+      form:
+        tabs:
+          dictionary_entity: Directory item
+          seo: SEO
+      index:
+        sort: 'Sort alphabetically'
+        add_button: 'Add item'
+      empty: No items
+      tooltips:
+        products_count: Total
+        published_products_count: Published
+        archived_products_count: In the archive
+    invites:
+      invite: Invite
+      invite_link: invitation link
+      empty: No invitations
+      cancel: "Do you want to cancel invitation?"
+      invited_at: "Invited %{invited_at}"
+      new_header: Connecting a new employee
+    roles:
+      change_owner_role: The role of the owner can not be changed. Owner can do anything ;)
+      callout: Contact support if you need more roles.
+    members:
+      disable_access: "Disable party access to the store?"
+      edit:
+        name: 'Name:'
+        phone: 'Phone:'
+        email: 'Email'
+      index:
+        roles: 'Employee roles'
+        current_members: 'Current employees:'
+    product_page:
+      form:
+        labels:
+          show_similar_products: 'Show similar products'
+        hints:
+          show_similar_products: 'If enabled, the block “With this product is also purchased” will be displayed on the product page according to the individual settings of the product. If disabled, this block will never be displayed.'
+          has_wishlists: 'Clients can add products to wish lists and share them.'
+          custom_product_html: 'Installed only on the product page'
+      html_title: 'Additional HTML code in <code>&lt;body&gt;</code>'
+    google_drive_import:
+      errors:
+        no_access: "Enter a login, password and spreadsheet_key"
+        prices_conflict: 'The price of the created product %{product_article} (%{product_price}) is not equal to the price of the added option %{item_article} (%{item_price})'
+        no_category: Category not specified
+        no_required_column: "No mandatory column '%{c}'"
+      cols:
+        category: Category
+        article: Vendor code
+        title: Name
+        desc: Description
+        price: Price
+        log: log
+    favicons:
+      files_to_upload: List of uploaded favicon files
+      not_loaded: not loaded
+      needsclick:
+        logo: Click here or drag logo image here
+        favicons: Click here or drag favicons files here
+        bg: Click here or drag background image here
+      preferably_vector: (preferably vector)
+      delete:
+        logo: 'Remove logo'
+      callout:
+        title: 'Use third-party services to generate favicons'
+        body: 'Automatically generate favicons here: <a href="http://realfavicongenerator.net" target="_blank">realfavicongenerator.net</a>'
+    cloudpayments:
+      subscription_desc: 'Monthly subscription on service %{brand_host}'
+    pickup_points:
+      title: "City issue points '%{city}' (%{count})"
+      empty: No issue points on request
+      import_form:
+        empty: You do not have any available issue points yet. Download.
+        submit: 'Download'
+        file: 'CSV file'
+      all: "All items (%{count))"
+      delete_all:
+        confirm: 'Do you want to transfer all items in this city to the cart?'
+        text: 'Throw these items in the basket'
+      load: 'Download the list of items'
+      load_empty:  No issue has been loaded yet
+      load_button: 'Download'
+    price_kinds:
+      name: Name
+      add_button: Add price type
+    sitemap:
+      link: Link to sitemap.xml of your store
+      refresh:
+        title: 'Sitemap.xml update frequency'
+        product_changes: If there are changes in products and residues <code>sitemap.xml</code> is updated every 15 minutes
+        generated_at: Last file generated
+        empty: The file has not yet been generated.
+      useful_links: 'Useful links:'
+      yandex_checker: 'Check sitemap.xml on Yandex Webmaster'
+      doc: 'Sitemap.xml documentation'
+    products_settings:
+      categories:
+        url: operator_categories_path
+        title: Product categories
+        details_html: |
+          <p>As a rule, products are categorized.</p> 
+          <p>Categories have a tree structure, each product can be in several categories at the same time. </p>
+      properties:
+        url: operator_properties_path
+        title: Properties of goods (characteristics)
+        details_html: |
+          <p>Centrally manage the properties of the goods.</p>
+          <p>It will help to make an automatic filter of goods for customers. </p>
+      tags:
+        url: operator_tags_path
+        title: Product Tags
+        details_html: |
+          List of all tags used in products. 
+      dictionaries:
+        url: operator_dictionaries_path
+        title: Directories
+        details_html: |
+          <p>A reference book is a list of property values ​​for a product.</p>
+          <p>For example, a list of brands or sizes.</p> 
+          <p>A single reference can be used in several properties.</p>
+      price_kinds:
+        url: operator_price_kinds_path
+        title: Types of prices
+        details_html: |
+          <p>Types of prices</p>
+    translations:
+      value_redefined: 'Value redefined'
+    vendor_deliveries:
+      yandex_settings: 'For setting values look into Yandex.Delivery'
+      restrictions: 'Limit by categories and products'
+      alive: Active
+      archive: Archive
+      add_button: 'Add delivery method'
+      cities_zero: Not
+      pickup_points_zero: Not
+      no_compatible_payment:
+        title: 'Set a compatible payment, otherwise this delivery will not be able to use'
+        label: No compatible payment!
+      any_city_required: Any required
+      available_agents: Available shipping agents
+      form:
+        change_delivery_times: 'Set a specific time'
+        edit_delivery_time_after_save: You can edit the courier service time only after saving
+        is_comment_required: 'Additional field in the order form (comment)'
+        actions:
+          delivery_cities: "Cities (%{count})"
+          delivery_pickup_points: "Issue Points (%{count})"
+        labels:
+          is_comment_required: 'Is the comment field required?'
+          comment_field_title: 'Field name'
+          comment_field_placeholder: 'Hint in the field'
+          mail_comment: 'Delivery commentary for letters'
+        hints:
+          city_title: 'Delivery within the city. Leave blank if there are no restrictions.'
+          price: "Price in %{currency}. Leave blank if the shipping cost will be determined after the order "
+        placeholders:
+          city_title: 'Moscow'
+    vendor_payments:
+      discount_settings: Discount settings
+      discount_warning: Save payment methods to start
+      alive: Active
+      archive: Archive
+      currency_settings: "Currency setting (%{currency})"
+      add_button:  'Add payment method'
+      no_available_deliveries:
+        title: 'Set a compatible delivery method, otherwise this payment will not be able to use'
+        body: No compatible shipping!
+      available_agents: Available payment agents
+      available_deliveries: 'All delivery methods'
+      available_deliveries_settings: Setting payment delivery compatibility is done on the delivery edit page.
+      cloud_payments:
+        settings: CloudPayments settings
+        notifications:
+          title: Set the following links for notifications in CloudPayments settings on the site
+          pay: 'Pay notifications settings:'
+          fail: 'Fail notification settings:'
+      custom_form:
+        content:
+          title: Template on the payment page
+          help: The payment page displays a message about a successful purchase. But you can set an individual template below.
+        payment_template:
+          title: Sample template
+          help: 'If you, on the template page, install a JavaScript widget for payment (for example, through Yandex.Money), do not forget to set the link to the page with information about successful payment in the settings of the payment system. And also create such a page in the store. A link to the page is recommended to do this: <code>/payments/success</code>'
+      online_kassa:
+        title: Setting up an online cash register
+        life_pay: The following settings are only for life-pay.ru
+        starrys: The following settings are only for starrys
+        hints:
+          online_kassa_cert: 'Starts on: ----- BEGIN CERTIFICATE -----'
+          online_kassa_key: 'Starts on: ----- BEGIN PRIVATE KEY -----'
+      rbk_money:
+        title: RBK Money settings
+      robokassa:
+        title: Robokassa settings
+        notifications:
+          title: Set the following links in Robokassa settings on the site
+          success: 'Success Url (GET):'
+          fail: 'Fail Url (GET):'
+          result: 'Result Url (POST):'
+      sberbank:
+        title: Sberbank setting
+        notifications:
+          title: Use the following links
+          callback: 'Callback URL:'
+      tinkoff:
+        title: Tinkoff settings
+        notification:
+          title: Set the following links in your Tinkoff account
+      walletone:
+        title: Walletone settings
+        redexpress: "If you want the Redexpress deliveryman to accept payment, specify the <b>RedCashRUB</b> in the allowed methods."
+        payment_methods: 'Values ​​of payment methods in Walletone'
+      yandex_kassa:
+        title: Yandex Kassa settings
+    walletone:
+      created: |-
+        <h1>Congratulations!</h1>
+        <p>You are successfully registered in %{brand_host} and got wallet in Walletone with phone number %{phone}</p>
+        </br>
+      load_products: 'Proceed with loading goods &rarr;'
+      form:
+        title: Register Wallet in Walletone
+        submit: 'Register'
+        disable_with: 'Registering..'
+      method_payments: Payment Methods
+    welcome_page:
+      welcome_and_categories_settings: 'Settings for the main page and category page:'
+      only_welcome_settings: 'Only on the main page:'
+      all_products: 'All goods'
+      faq: 'FAQ'
+      products_sort: 'How to set the order of goods on the main page?'
+      slider: The slider is a paged collection of images displayed at the top of the main page of the site.
+      tabs:
+        products: 'List of goods'
+        texts: 'Texts'
+        seo: 'SEO'
+    workflow_states:
+      convead_key_empty: not installed
+      order_conditions: 'Business processes'
+      add_button: Add status
+    base:
+      product_categories_positions:
+        title: Item position in categories
+        save_product_warning: "If there are not enough categories, then save the product first."
+        category: Category
+        position: Item position in category
+      balance:
+        callout: |
+          Current balance::&nbsp;
+          <b>%{balance}<b>
+      google_analytics_example: 'Sample Code for Google E-Commerce'
+      reset_filter: 'Reset filter'
+      ibox_widget:
+        more: 'More'
+      manager_comments:
+        add_button: 'Add'
+      moysklad_info:
+        stock_synced_at: Sync time
+      search:
+        reset: 'reset'
+      search_form:
+        button: 'Search'
+      select_page:
+        title: 'Page'
+      slug_redirects:
+        title: 'Active redirects:'
+      sms_balance:
+        current: "Current SMS Balance:&nbsp;"
+        count: "%{count} pcs."
+        disabled: (Sending SMS is disabled)
+        buy: 'Buy more SMS'
+      stock_info:
+        stock_synced_at: Sync Date
+        stock_stores: Stocks
+        stock_dump:  Data dump
+      translation_sample:
+        change: 'change'
+      vendor_jobs:
+        title:  Download log
+        complete: Loading is complete
+        speed: "%{count} items per hour"
+      walletone:
+        callout: |
+          A meta tag named <code>w1-verification</code> to confirm ownership of the site will be added automatically 
+          after entering the wallet number and secret key in the Walletone payment system
+      yandex_metrika_example:
+        title: 'Sample code for Yandex Metrika'
+    common_pages_widgets:
+      welcome:
+        title: Home page
+        url: operator_welcome_page_path
+        details_html: 'Order of goods, order in one click, slider and other settings of the main page'
+      product:
+        title: Product page
+        url: operator_product_page_path
+        details_html: 'Image display position and other product page settings'
+      category:
+        title: Category Page
+        url: operator_category_page_path
+        details_html: 'Category Page Settings'
+      order:
+        title: Add to card and order page
+        url: operator_order_page_path
+        details_html: 'Add to card and order page settings'
+
+    modules_widgets:
+      header:
+        title: Site header
+        url: operator_header_path
+        details_html: 'Site header displayed on each page. Here the name of the site and contacts for communication.'
+      footer:
+        title: Site footer
+        url: operator_footer_path
+        details_html: 'Site footer displayed on each page'
+      menu:
+        title: Menu on the site
+        url: operator_menu_items_path
+        details_html: 'On each page of the sat menu is shown. By default, it is automatically generated, but you can customize it in your own way.'
+      filter:
+        title: Product Filter
+        url: operator_filter_path
+        details_html: 'A convenient filter of products by price, availability, and any other properties can be displayed on the main page and on the category page.'
+      slider:
+        title: Slider on the head page
+        url: operator_slider_images_path
+        details_html: 'Scrolling image collection attracts attention. Displayed at the top of the home page.'
+      top_banner:
+        title: Banner in the header (promotional message)
+        url: operator_top_banner_path
+        details_html: |
+          <p>This is a one-line message displayed at the top of the site. </p>
+          <p>Good for notification of promotions.</p>
+      asset_images:
+        url: operator_asset_images_path
+        title: Images for content
+        details_html: Full list of images used on the site
+
+    slug_widgets:
+      slug_resources:
+        url: operator_slug_resources_path
+        title: Human readable paths
+        details_html: |
+          <p>Each object in the system can be set in a convenient way that is understandable for people.</p>
+          <p>For example, instead of <code>/products/123</code> use <code>/kofta</code></p>
+      slug_redirects:
+        url: operator_slug_redirects_path
+        title: Redirects (301)
+        details_html: |
+          Install redirects from pages that you have already deleted or to which the user often get so as not to lose clients.
+      robots:
+        url: operator_robots_path
+        title: Robots.txt setup
+        details_html: "robots.txt is automatically generated, but you can correct something if you want"
+
+      sitemap:
+        url: operator_sitemap_path
+        title: Sitemap (sitemap.xml)
+        details_html: "The sitemap (sitemap.xml) is automatically generated, but you can correct something if you want"
+
+      extra_js:
+        title: JavaScript on every page of the site
+        url: operator_extra_js_path
+        details_html: JavaScript code for each page of the site.
+      https:
+        title: Encryption and HTTPS
+        url: operator_https_path
+        details_html: 'Connected SSL encryption will allow search services to evaluate your site better, and causes great trust among customers.'
+
+      cache:
+        title: Caching and optimization
+        url: operator_cache_path
+        details_html: 'Rarely, but sometimes you need to manually update the cache so that the latest changes are applied faster. So here you can configure the time to cache HTTP requests'
+
+    styles_widgets:
+      css:
+        title: Additional Styles (CSS)
+        url: operator_css_path
+        details_html: "Customize the design of the site (styles, colors, background, fonts) to your taste."
+      extra_html:
+        title: Additional HTML
+        url: operator_extra_html_path
+        details_html: Additional HTML code for each page of the site.
+      logo:
+        title: Logo and favicons
+        url: operator_favicons_path
+        details_html: Logo and favicons
+
+      design:
+        title: Interactive design
+        url: design_operator_shop_path
+        details_html: You will be switched to the interactive design widget right on the site.
+
+    orders_settings:
+      workflow_states:
+        url: operator_workflow_states_path
+        title: Order statuses
+        details_html: Set the order statuses that are convenient for you.
+
+      order_operator_filters:
+        url: operator_order_operator_filters_path
+        title: Order filters
+        details_html: Filters of products that the operator has created for themselves.
+
+      order_conditions:
+        url: operator_order_conditions_path
+        title: Business processes
+        details_html: These are the rules by which orders move in the funnel.
+
+      #notify_templates:
+        #feature: notify_templates
+        #url: operator_mail_templates_path
+        #title: Уведомления
+        #details_html: Настраивайте условия и тексты шаблонов SMS и email уведомлений о заказах для клиентов и менеджеров.
+
+      coupons:
+        feature: coupon
+        url: operator_coupons_path
+        title: Coupons
+        details_html: Discount coupons (promotional codes) for your customers.
+
+    properties:
+      show_in_filter: "Do you want to show in the filter?"
+      use_in_short_details: "Do you want to show in the description of the goods <br/> in the catalog and on the main?"
+      display_order: The order in which the property is displayed in the filter
+      values: "Property Values (%{count})"
+      value: Value
+      value_number: 'N'
+      dictionaries: 'Directories'
+      add_button: 'Add a property'

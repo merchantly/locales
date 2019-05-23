@@ -1,0 +1,26 @@
+ru:
+  decorators:
+    stock_importing_stats:
+      attributes:
+        found_goods: 'Товар найдено у нас'
+        total_goods: 'Всего товаров на складе'
+        created_goods: 'Добавлено к нам товаров'
+        processed_goods: 'Обработано товаров'
+        items_to_sync_count: 'Записей на складе'
+        updated_items_count: 'Обновлено вариантов'
+        new_items_count: 'Подтянули со склада'
+        error_items_count: 'Ошибок'
+        processed_items_count: 'Обработано'
+
+    product_decorator:
+      product:
+        states:
+          any:         'Любой'
+          alive:       'Любой'
+          run_out:     'Распродан'
+          single:      'В продаже без вариантов'
+          multiple:    'В продаже с вариантами'
+          not_available: 'Не продается'
+          published:   'Опубликован'
+          unpublished: 'Снят с публикации'
+          archive:     'Архив'

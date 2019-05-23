@@ -1,0 +1,149 @@
+ru:
+  filters:
+    orders:
+      workflow_state_id:
+        name: 'Статус заказа'
+        values:
+          any: 'Любой'
+      coupon_id:
+        name: Промокод
+        values:
+          any: Любой
+      delivery_type_id:
+        name: Доставка
+        values:
+          any: Любая
+      payment_type_id:
+        name: Оплата
+        values:
+          any: Любой
+      client_id:
+        name: Клиент
+        values:
+          any: Любая
+      created_at_from: Найти по дате
+      has_reserved_items:
+        name: Резерв
+        values:
+          'true': Да
+          'false': Нет
+          any: Любой
+
+      delivery_state:
+        name: Статус доставки
+        values:
+          new: Ожидается старт
+          not_needed: Доставка не требуется
+          delivery: Доставляется
+          done: Доставлен
+          canceled: Отменена
+          any: Любой
+
+      payment_state:
+        name: Статус оплаты
+        values:
+          new:     Ожидаем оплату
+          direct:  Ожидаем оплату наличными
+          paid:    Оплачен
+          failed:  Отклонена
+          canceled:  Отменена
+          any: Любой
+
+    products:
+      on_welcome:
+        name: Товары на главной
+
+      without_categories:
+        name: Без категорий
+
+      category_id:
+        name: Категория
+
+      property_id:
+        name: Свойство
+        values:
+          any: Любое
+      dictionary_entity_ids:
+        name: Справочник
+
+      has_ordering_goods:
+        name: Продажность
+        values:
+          'true': Продается
+          'false': Нельзя купить
+          any: Любая
+
+      has_price:
+        name: Цена
+        values:
+          'true': Установлена
+          'false': Не установлена
+          any: Любая
+
+      has_images:
+        name: Фото
+        values:
+          'true': Есть
+          'false': Нет
+          any: Любое
+
+      is_sale:
+        name: Распродажа
+        values:
+          'true': Есть
+          'false': Нет
+          any: Любое
+
+      is_run_out:
+        name: Закончился
+        values:
+          'true': Закончился
+          'false': Есть в наличии
+          any: Любое
+
+      has_items:
+        name: Варианты
+        values:
+          'true': Есть
+          'false': Нет
+          any: Любое
+
+      is_stock_linked:
+        name: Привязка к складу
+        values:
+          'true': Есть
+          'false': Нет
+          any: Любая
+
+      is_archived:
+        name: Состояние
+        values:
+          'true':  В архиве
+          'false': Действующий
+          any: Любое
+
+      quanting:
+        name: Наличие
+        values:
+          positive: Положительное
+          'no': Ноль
+          negative: Отрицательное
+          none: Не известно
+          infinity: Нескончаемый
+          any:   Любые
+
+      product_type:
+        name: Тип
+        values:
+          union:    Составной
+          separate: Самостоятельный
+          common:   Составной или самостоятельный
+          part:     Часть составного
+          any:      Любой
+
+      is_published:
+        name: Видимость
+        values:
+          'true':  Опубликованы
+          'false': Не опубликованы
+          any:  Любая

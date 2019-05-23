@@ -1,0 +1,8 @@
+en:
+  titles:
+    client_categories:
+      anonymous: Unauthenticated
+      registered: Registered
+    price_kinds:
+      default: Default price
+      sale: Discount price

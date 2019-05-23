@@ -1,0 +1,30 @@
+ru:
+  tariff_features:
+    feature_walletone: 'WalletOne'
+    feature_domain: 'Индивидуальный домен'
+    feature_custom_css: 'Редактирование css'
+    feature_convead: 'Convead'
+    feature_pages: 'Текстовые страницы'
+    feature_max_users: 'Количество сотрудников - %{value}'
+    feature_max_products: 'Количество товаров - %{value}'
+    feature_instagram: 'Лента Instagram'
+    feature_export_data: 'Экспорт данных'
+    feature_yandex_kassa: 'Яндекс касса'
+    feature_coupon: 'Промокоды'
+    feature_rbk_money: RBK Money
+    feature_blog: Блог
+    feature_lookbook: Лукбук
+    feature_multilanguage: Мультиязычность
+    feature_delivery_tracking: Трекинг доставки
+    feature_delivery_service: Интеграция со службами доставки
+    feature_moysklad: Интеграция с сервисом МойСклад
+    feature_yandex_market: Выгрузка Яндекс-маркет
+    feature_torg_mail: Выгрузка Торг-мейл
+    feature_amocrm: AmoCRM
+    feature_edit_menu: Ручное редактирование меню
+    feature_notify_templates: Индивидуальные шаблоны оповещений
+    feature_wishlist: Список желаний
+    feature_order_state: Индивидуальные статусы заказов
+    feature_client_cabinet: Кабинет клиента
+    feature_import: Импорт Данных из Google Spreasheet, Yandex Market
+    feature_slider: Слайдер

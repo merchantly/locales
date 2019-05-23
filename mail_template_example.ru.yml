@@ -1,0 +1,24 @@
+ru:
+  mail_template_example:
+    client:
+      name: 'Иванов Василий'
+      email: 'client@kassa.cc'
+      address: 'Чебоксары, ул.Водопроводная, дом 7, кв 20'
+      occupation_name: 'Менеджер'
+    order:
+      address: 'ул. Патриса Лумумба, 19'
+      city_title: 'Москва'
+      name: 'Сергей Субботин'
+      email: 'test@%{brand_host}'
+      phone: '+79001231212'
+    worflow_state:
+      name: 'В доставке'
+    payment_type:
+      description: 'Подробное описание способа оплаты'
+    delivery_type:
+      description: 'Подробное описание способа доставки'
+    vendor:
+      name: 'Магазин шляп'
+    product:
+      name: Носки
+      article: Артикул %{num}

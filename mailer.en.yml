@@ -1,0 +1,67 @@
+en:
+  order_mailer:
+    client:
+      subjects:
+        new_order:    "{{vendor_name}}: New order No.{{order.public_id}}"
+        payment_link: "{{vendor_name}}: Order Payment Information No.{{order.public_id}}"
+        paid:         "{{vendor_name}}: Payment has been received for order No.{{order.public_id}}"
+        workflow_changed: "{{vendor_name}}: Order No.{{order.public_id}} received the status of '{{order.workflow_state.title}}'"
+        delivery_expired: '{{vendor_name}}: Order will be canceled soon'
+        reminder_payment: '{{vendor_name}}: Reserve expires'
+        client_category_changed: '{{client.vendor_name}}: you were transferred to another group {{client.category_name}}'
+    merchant:
+      subjects:
+        new_order:    "{{vendor_name}}: New order No.{{order.public_id}}"
+        paid:      "{{vendor_name}}: Payment has been received for order No.{{order.public_id}}"
+        workflow_changed: "{{vendor_name}}: Order No.{{order.public_id}} received the status of '{{order.workflow_state.title}}'"
+        run_out:   "{{vendor_name}}: Out of stock"
+  invite_mailer:
+    new_invite:
+      subject: "Invitation to the project %{vendor} project"
+  partner_mailer:
+    register_vendor:
+      subject: "Registered new store %{brand_name_e} from Kazahstan"
+  vendor_mailer:
+    unpublish:
+      subject: "Kiiiosk.ru: Store %{host} unfolded"
+    negative_balance:
+      subject: "Kiiiosk.ru: Negative balance in the account at the store %{host}"
+    balance_refill:
+      subject: "Kiiiosk.ru: Top up balance in the store %{host}"
+    balance_subtract:
+      subject: "Kiiiosk.ru: Write-off balance in store %{host}"
+    need_payment:
+      subject: "Kiiiosk.ru: You must pay at the rate in the store %{host}"
+    not_enough_sms_money:
+      subject: 'Kiiiosk.ru: Insufficient funds to send SMS in the %{host} store'
+    sms_money_limit_reached:
+      subject: 'Kiiiosk.ru: Your SMS balance is approaching the shutdown threshold in the %{host} store'
+    shop_will_archive:
+      subject: 'Kiiiosk.ru: Store {{vendor.home_url}} will be transferred to the archive'
+    archive:
+      subject: 'Kiiiosk.ru: Store {{vendor.home_url}} will be transferred to the archive'
+    analytics:
+      subject: 'Kiiiosk.ru: Weekly Store Analyst %{host}'
+    registration:
+      subject: 'Welcome'
+    notify_shop_will_archive:
+      subject: 'Payment Notification'
+    vendor_archived:
+      subject: 'Store archived'
+  support_mailer:
+    support_mail:
+      insufficient_funds: 'Autopayment failed for %{account_id}. Insufficient funds on the card'
+  coupon_image_mailer:
+    send_client_mail:
+      subject: "Gift certificate from the store \"%{vendor_name}\""
+      body: >
+        Hello! <br> Thank you for purchasing a gift certificate from the store "%{vendor_name}"! <br><br>With a certificate you can pay part of the order or the entire purchase in full. When placing an order, enter the individual promotional code from the certificate in the "promotional code" field. After that, the nominal value of the certificate will be automatically deducted from the total payment amount. <br><br>Note! The certificate is valid once, the balance on the certificate is burned. We wish you a pleasant and useful shopping! <br><a href="%{url}" target="_blank">Link to certificate</a>
+  email_confirmation_mailer:
+    send_url:
+      subject: "Email Verification %{vendor_name}"
+      confirmation_url: Email Verification Link
+
+  сlient_reset_password_mailer:
+    send_instructions:
+      subject: "Reset password %{vendor_name}"
+      reset_password_url: Password reset link

@@ -1,0 +1,23 @@
+en:
+  billing:
+    default_invoice_title: 'Payment for service'
+    attach_tariff: "Attach tariff \"%{tariff}\""
+    paid_since: "Paid since %{current_paid_to}"
+    paid_since_to: "Paid since %{current_paid_to} to %{next_paid_to}"
+    paid_to: "Paid to %{next_paid_to}"
+    for_sevice: "For service %{service}"
+    buyer_name: "%{legal_name} (client #%{vendor_id})"
+
+    sms_packet: "SMS bundle (%{sms_count} pc.)"
+    negative_balance: "Negative balance for store %{vendor}"
+    next_month_invoice_by_period: "Payment for service %{vendor} by tariff %{tariff} from %{invoice_date} to %{next_date} (for %{months_count} months)"
+    next_month_invoice: "Payment for service %{vendor} by tariff %{tariff} for %{months_count} months"
+    first_time_invoice: "Payment for service %{vendor} by tariff %{tariff}"
+    free_invoice: Payment for service %{vendor}
+
+    accounts:
+      payments: 'Account from which payment is received'
+      subscriptions: 'Subscription fee'
+      gift: 'Present'
+      development: 'Improvements'
+      sms: 'SMS'

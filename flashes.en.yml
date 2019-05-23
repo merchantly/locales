@@ -1,0 +1,135 @@
+en:
+  flashes:
+    activeadmin:
+      balance:
+        income: Added credits
+        subtract: Debit
+    cabinet:
+      client_form:
+        success: Data updated
+    loaded: Loaded
+    cache:
+      flush: 'Cache cleared'
+    menu_items:
+      created: Menu item has been added
+      updated: Menu item has been updated
+      deleted: Menu item has been deleted
+    roles:
+      created: Role successfully created
+      updated: Role successfully saved
+      deleted: Role has been removed
+      not_destroyed: Role cannot be removed
+    tags:
+      created: Тег успешно создан
+      updated: Tag successfully saved
+      deleted: Tag has been removed
+    batch_actions:
+      nothing: Nothing to group!
+      published: Selected goods have been published
+      unpublished: Selected goods have been hidden
+      deleted: Selected goods have been deleted
+      merged: 'Goods %{ids} has been succssesfully grouped into the group %{union_id} '
+      duplicated: Selected goods have been duplicated
+      duplicated_from_html: 'Product duplicated with <a href="%{url}">%{product}</a>'
+      categories_updated: Categories has been successfully installed for selected goods
+      tags_updated: Selected has been successfully tagged
+      restored: Goods recovered from the archive
+      will_be_restored: Selected goods will soon be restored from the archive
+      will_be_published: Selected goods will be published soon
+      will_be_unpublished: Selected goods will be hidden soon
+      will_be_deleted: Selected goods will be deleted soon
+      will_be_merged: Selected goods will soon be grouped together
+      will_be_duplicated: Selected goods will be duplicated soon
+      will_be_categories_updated: Selected goods will be installed soon
+      will_be_tags_updated: Selected goods will be tagged soon
+      all_unduplicable: You can not duplicate all goods
+      all_undeletable: "It is forbidden to remove all goods in the store for once. Maybe you made a mistake?"
+      all_unmergeable: Cannot group all goods
+      one_unmergeable: One product has no one to group
+      many_unions_merge: Cannot group some already grouped goods
+      maximum_in_union: 'Maximum number of goods in the union: %{max}'
+    items_batch:
+      wrong_params: Invalid parameters for batch processing
+    lookbook_images:
+      deleted: Image has been deleted
+    content_pages:
+      created: Page has been successfully created
+      updated: Page has been successfully saved
+      deleted: Page has been deleted
+    top_banners:
+      updated: "Top banner has been successfully saved "
+    blog_posts:
+      created: Post has been successfully created
+      updated: Post has been successfully saved
+      deleted: Post has been archived
+    order_operator_filters:
+      created: Filter has been successfully created
+      updated: Filter has been successfully saved
+    import_spread_sheet_infos:
+      not_found: 'File not found. Check access settings.'
+      google_drive_error: 'Error: %{message}'
+      empty_table_error: 'There are no rows in the table'
+    bells:
+      read: Read notifications
+    categories:
+      set: Categories have been set
+      products_added: '%{count} goods added to category'
+    invites:
+      members_added: 'The command includes operators: %{operators}'
+      created: Invitation sent
+      deleted: Invitation deleted
+    ms:
+      already_importing: Products are already imported
+      import_started: Imports of goods launched into the queue
+    orders:
+      updated: Order is updated
+      created: Order created
+      accepted: Order is accepted
+      done: Order completed
+      canceled: Order cancelled
+      unreserved: Order removed from reserve
+      reserved: Order placed in reserve
+      start_delivery: 'Delivery has been started'
+    products:
+      created: Product has been added
+      updated: Product has been changed
+      export:
+        started: Export is running
+        error: Export Error
+    products_stats:
+      reindex_started: Reindex started
+    password_reset:
+      change_password: 'You are authorized as %{operator}. Reset password.'
+    sessions:
+      created: You are successfully logged in.
+      unknown_error: Unknown error
+      invalid_signature: Authorisation Error
+    subscriptions:
+      created: Subscription created
+    vk:
+      will_be_exported: Selected items will be exported soon
+    operator:
+      regenerate_api_key: 'Your API key has been updated %{api}'
+      confirmed: Email has been successfully confirmed
+      not_confirmed: No operator found with this e-mail
+      confirmation_sent: Confirmation link has been succesfully sent to your e-mail
+      confirmation_sent_member: "Confirmation link has been succesfully sent "
+      max_users_count_error: 'Reached the maximum number of users at the current tariff'
+      max_products_count_error: 'Reached the maximum number of goods at the current tariff'
+      spf_check_:
+        fail: 'Email is not validated by SPF'
+        success: 'Email is successfully updated'
+    w1:
+      registered: 'You have successfully registered in WalletOne'
+      already_registered: 'The store is already registered in WalletOne'
+    balance:
+      charged: "Payment successfully completed "
+      choose_tariff: Choose a tariff
+      choose_account_billing: Select rechargeable account
+    publish:
+      select_tariff: 'You must select and pay the tariff for publication'
+      success: Store has been successfully published
+    restore:
+      success: Store has been successfully restored
+    unpublish:
+      success: Store unpublished

@@ -1,0 +1,46 @@
+en:
+  services:
+    invite:
+      sms_text: "You were invited to %{vendor}, to register - %{url}"
+    vendor_registration:
+      invalid_phone_code: Invalid PIN
+      operator_name: "Operator of store %{vendor}"
+      first_category: Root category
+      cash_on_delivery: C.O.D
+      cash_on_selfdelivery: Cash on delivery
+      payment_w1: "Online payment (Visa/MasterCard, QIWI, etc.)"
+      delivery: 'Post delivery'
+      product_name: 'Product Name'
+      product_description: 'Product description'
+    pin_sender:
+      sms_text: 'Your PIN to enter: %{pin}'
+    client_pin_sender:
+      sms_text: '%{pin} Your PIN code to log into your account %{cabinet_url}'
+    tariff_payment:
+      fee:
+        per_month:
+          description: 'Subscription fee for %{date} - %{amount}'
+        orders:
+          description: '%{amount} per orders  (%{per_order_amount} per order, %{orders_count}). %{date}'
+        sms:
+          description: '%{amount} for SMS (%{per_sms_amount} for 1 SMS, all sent messages %{sms_count} SMS). %{date}'
+        moysklad:
+          description: '%{amount} for integration with MyStore service'
+
+    vendor_notifications:
+      partner_incoming:
+        sms_text: '%{name}, partner balance in kiiosk.ru replenished by %{amount}.  Current balance: %{current_amount}'
+      not_enough_sms_money:
+        sms_text: '%{url}: Not enough funds to send SMS'
+      sms_money_limit_reached:
+        sms_text: '%{url}: Your SMS balance is approaching the shutdown threshold. Balance: %{amount}'
+      unpublish:
+        sms_text: '%{url}: Store unpublished'
+      negative_balance:
+        sms_text: '%{url}: your balance: %{balance}. With a negative balance, sending SMS will not be available.'
+      balance_refill:
+        sms_text: '%{url}: Your balance has been replenished by %{amount}. Current balance: %{current_amount}'
+      balance_subtract:
+        sms_text: '%{url}: A charge of %{amount} - %{details}. Current balance: %{current_amount}'
+      need_payment:
+        sms_text: '%{url}: The paid service period ends %{unpublish_date}. Total: %{invoice_amount} - %{payment_link}'

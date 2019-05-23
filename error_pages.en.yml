@@ -1,0 +1,33 @@
+en:
+  error_page:
+
+    not_found:
+      title: '404 - not found'
+      subject: '<b>404</b> - Page not found'
+      content_html: "The resource to which you applied was not found"
+
+    maintenance:
+      title: '503 - site is maintenance'
+      subject: '<b>503</b> - Sorry, the service is temporarily unavailable.'
+      content_html: 'The application is under maintenance and is temporarily unavailable. Come in in half an hour'
+
+    error:
+      title: '500 - system error'
+      subject: '<b>500</b> - Upps .. something went wrong'
+      content_html: |
+        <p><br>A system error has occurred. Administrators notified about this.</p>
+        <p><a href="javascript:history.back()"> "Turn back </a>or use the search"</p>
+    authority_forbidden_operator:
+      title: '403 - No access'
+      subject: 'Administrative department of the store. <br/>No access.'
+      content_html: "This page is only available to store managers. <br/>If you are a manager, log in to the system."
+
+    authority_forbidden:
+      title: '403 - No access'
+      subject: '<b>403</b> - No access'
+      content_html: 'You are not authorized to access this page.'
+
+    auth_failure:
+      title: '401 - Login failed'
+      subject: '<b>401</b> - Login failed'
+      content_html: ''

@@ -1,0 +1,262 @@
+en:
+  admin:
+    support: Support
+    reports: Report
+    affiliate_program: Affilates
+    coupons: 'Promotional codes'
+    new_random_code: 'Create random promo code '
+    security: Accesses
+    authentications: 'Authentications'
+    billing: 'Billing'
+    analytics: 'Analytics'
+    products: 'Товары'
+    categories: 'Categories'
+    content: 'Content'
+    member: 'Member'
+    transactions: 'Incomes'
+    charges_logs: 'Withdrawals log'
+    products: 'Products'
+    properties: 'Properties'
+    mail_deliveries: 'Subscriptions'
+    mail_templates: 'Mailing templates'
+    vendors: Shops
+    registration_logs: 'Registration log'
+    sms_logs: 'SMS log'
+    tariffes: 'Tariffes'
+    bank_incoming:
+      contractors: 'Known counteragents '
+      excludes:  'Ignored counteragents'
+      check: 'Check statement'
+      accepted: 'Payment is received'
+      accept: Receive payment by this invoice
+      accept_without_invoice: 'Charge without an invoice.'
+      no_accept: 'Can’t receive payment. No linked invoice'
+      new_contractor: 'New partner'
+      ignore: 'Ignore'
+      ignore_confirm: 'Ignore all transactions by this pathner''s INN'
+      process: 'In process'
+      ignored: 'Ignored'
+      create_transaction: "Transaction %{transaction} was created"
+    billing_dashboard:
+      payments: 'Payments'
+      public_shops: 'Published stores'
+      charges: 'Recurring payments'
+      by_published_at: 'Stores by publish date'
+      unpublic_by_published_at : 'Unpublished stores by publish date'
+    dashboard:
+      marketing_data: 'Payments sheet to CSV'
+      departed_customers: 'Leaved clients'
+      incoming_customers: 'Income clients'
+      registrations: 'Registrations'
+      orders:
+        title: 'Shop orders'
+        all: 'Orders'
+        success: 'Completed orders'
+        payments: 'Payments'
+      new_vendors: 'New stores'
+      index: 'Zip code'
+      goods: "Total items: %{total_count}"
+      reindex_all: 'Reindex'
+      instruction: 'Instruction'
+      mailing_plan: 'Mailing plan'
+      error_pages: 'Error pages'
+    openbill_invoice:
+      not_paid: 'Not paid'
+      paid: 'Paid'
+      not_paid_autochargable: 'Automatically chargeable'
+      all: 'All'
+      pay_link: 'Link to payment'
+      pdf_link: 'Invoice (PDF)'
+      report: 'Signed report (PDF)'
+      nosign_report: 'Not signed report (PDF)'
+      charges: 'Recurrent charges'
+      transactions: 'Transactions'
+      error_form: 'Invoices can be created from the store page'
+      number: 'Unique ID with number and symbols without spaces'
+      tariff: 'Tariff'
+      months_count: 'For months'
+      is_autochargable: 'Automatically withdraw from linked card?'
+      details: 'Detailed description'
+      amount: 'Total sum of whole period'
+    openbill_transaction:
+      charged: 'Withdrew'
+      form:
+        labels:
+          amount: 'Amount'
+          tariff_id: 'Tariff'
+          details: 'Comment'
+          current_paid_to: 'Current expiry date'
+          next_paid_to: 'Next expiration date'
+        hints:
+          amount: '%{brand_currency}'
+    operators:
+      actions:
+        partner_path: Affilate Programm
+        enable_partner: Enable affiliates
+      flashes:
+        partner_created: 'Affiliate created'
+        lets_go: 'doing'
+      attributes: 'Attributes'
+      vendors: 'Establishments'
+    order:
+      order_items: 'Items'
+      delete: 'Delete'
+    sendgrid:
+      export: 'Export merchant emails'
+      registration: 'Sign Up'
+      system_notify: 'Platform notification'
+      some_mail: 'Messages about mistakes'
+      notify_member: 'Operator notification'
+      negative_balance: 'Negative balance'
+      balance_refill: 'Recharge'
+      balance_subtract: 'Withdrawal'
+      need_payment: 'Need to pay tariff'
+      unpublish: 'Unpublicate'
+      not_enought_sms_money: 'SMS finishing'
+      sms_money_limit_reached: 'No enough SMS'
+      analytics: 'Analytics'
+      reset_password: 'Password reset'
+      email_confirmation: 'Password confirmation'
+      system_mail: 'Platform notification'
+      vendor_id:  'Enter store ID'
+      submit:  'Input'
+    system_mail_delivery:
+      drafts: 'Drafts'
+      processes: 'In the process'
+      previews: 'Preview tests'
+      dones: 'Done'
+      archive: 'Archive'
+      restored: 'Restored'
+      archived: 'Moved to archive'
+      recipients: 'Recipients'
+      sent: 'Mails sent'
+      opened:  'Mails open'
+      followed: 'Went by basic link'
+      unsubscribe_clicked: 'Unsubscribed'
+      inputs_recepients: 'Recipients'
+      vendor: 'Store: %{link}'
+      operator_id: 'Operator ID'
+      send_all: 'Send to all merchant operators, if no selected'
+      operator: 'Operator: %{link}'
+      templates: 'Templates'
+      perform: 'Do!'
+      performed: 'Do!'
+      no_editing_allowed: 'Disabled to change'
+      add_receipient:
+        hints:
+          operator_id: 'Send to all merchant operators, if no selected'
+        labels:
+          operator_id: 'Operator ID'
+          vendor_id: 'Store ID'
+    system_mail_recepient:
+      preview: 'Preview'
+      deliver: 'Send'
+      delivered: 'Sending started'
+    system_mail_template:
+      preview: 'Preview'
+      context_example: 'Sample data transfer'
+      mail_examples: 'Mail examples'
+      test: "Test delivery (%{email})"
+    tariff:
+      public: 'Tariff page'
+      for_choose: 'Available'
+      unchagable: 'Individual'
+      additionally: Additionally
+      vendors_without_tariffs: 'Stores without tariff: %{link}'
+      restored: 'Restored'
+      archived: 'Moved to archive'
+    vendor:
+      templates: Templates
+      not_archive: Not archive
+      with_orders: With orders
+      archived: In the archive
+      published: Published
+      no_published: Unpublished
+      settings: Settings
+      all: All
+      domained: 'With domains'
+      as_examples: 'For example'
+      operator: Technical support
+      basic_data: 'Basic data'
+      operators: 'Operators'
+      custom_email: 'Сustom email'
+      source: 'Source'
+      sources: 'Sources'
+      tariff_and_billing: 'Tariff and billing'
+      openbill_invoices: 'Manual incoming'
+      new_period_openbill_invoice: 'Create subscription invoice'
+      new_openbill_invoice: 'Create invoice for additional works'
+      from_main_balance: 'Withdrawal from account (additional works)'
+      from_common_transactions: 'Monthly subscription (setup publication period)'
+      current_cards: 'Active cards'
+      declined_cards: 'Declined cards'
+      charges: 'Recurrent charges'
+      incoiming_transactions: 'Incomes'
+      outdoing_transactions: 'Withdrawals'
+      invoices: 'Accounts'
+      stats: 'Statistics'
+      legal_name: 'Legal information'
+      redirects: 'Warning'
+      domdain: 'Website address'
+      custom_email: 'Custom email'
+      theme: 'Design'
+      screenshots: 'Screenshots'
+      archive_confirm: 'Archive store?'
+      batch:
+        restored: 'Stores have been successfully restored'
+        archived: 'Archived store'
+      actions:
+        restore: Restore
+        destroy: Delete
+        destroy_confirm: "Remove the store?"
+        archive: To archive
+        double: Duplicate
+        show: Store in admin panel
+        screenshot: Make a screenshot
+        reindex: 'Reindex'
+        reindex_all: Reindex all
+        flush_cache: 'Clear cache'
+        operator_url: Technical support
+        preview: Preview store
+        prolongate: Prolongate publication for a week
+        registration: Send mail about registration
+        add_vendor_to_delivery: 'Add into mailing subscription'
+        forbidden_to_edit: 'Disabled to change'
+        add_confirm: 'Add?'
+      flashes:
+        restored: Store has been successfully restored
+        destroy: Removing store
+        archived: Store is archived
+        lets_go: doing
+        prolongated: "Store publicised until %{working_to}"
+        cache_cleared: 'Cache cleared'
+        operator_added: 'Merchant members are added'
+    notify_mail_template:
+      footer: 'Footer'
+      context_example: 'Sample data transfer'
+      actions:
+        preview: Preview
+    sms_log_entity:
+      billing: 'SMS in billing'
+      analytics: 'Analytics'
+    vendor_template:
+      all: 'All'
+      published: 'Published'
+      tests: 'Test'
+      precreate: 'Recreate stores'
+      precreate_notice: 'Process started'
+      clone: 'Create a store based on'
+      doc: 'Documentation'
+      created_shops: "Real stores created: %{count}"
+      precreated_shops: "Precreated stores: %{count}"
+      template: "Store-template: %{vendor} #%{id}"
+      image: 'Picture %{width}x%{height}'
+      available_only_for_admins: 'Available for admins only'
+    archivable:
+      restore: 'Restore'
+      to_archive: 'Move to archive'
+      restored: 'Restored'
+      archived: 'Moved to archive'
+      alive: 'Active (live)'
+      archive: 'Archive'
+      html_archive: 'In&nbsp;archive'

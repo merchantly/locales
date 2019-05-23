@@ -1,0 +1,196 @@
+ru:
+  operator:
+    api:
+      titles:
+        public: 'Публичное API магазина'
+        operator: 'Операторское API магазина'
+        system: 'system API for developers'
+      descriptions:
+        public: 'Для авторизация используется HTTP cookie'
+        operator: 'Для авторизация используется HTTP cookie'
+        system: 'API for stores and clients – %{access_keys_url}'
+      errors:
+        member_not_found: 'Нет сотрудника с таким ключем %{api_key}'
+        operator_not_found: 'Нет оператора с таким ключем #{api_key}'
+      amo_crm:
+        title: 'Методы для управление интеграций с AmoCRM'
+        settings:
+          title: 'Настройка интеграции с AmoCRM'
+          get:
+            desc: 'Получить текущие настройки'
+          update:
+            desc: 'Установить новые'
+        test:
+          desc: 'Протестировать доступ %{brand_name_e} к AmoCRM (выполняет авторизацию и accounts/current в API AmoCRM)'
+      design_settings: 
+        show:
+          desc: 'Возвращаем настройки дизайна'
+        update:
+          desc: 'Изменяем настройки дизайна'
+      delivery_cities:
+        list: 'Города доставки'
+      delivery_time_periods:
+        list: 
+          title: 'Сроки доставки'
+          params:
+            vendor_delivery_id: 'Способ доставки'
+      pickup_points:
+        list: 
+          title: 'Пункты выдачи'
+          params:
+            vendor_delivery_id: 'Способ доставки'
+            delivery_city_id: 'Город. Если не установлен отдаются все пункты выдачи'
+      yandex_deliveries:
+        list:
+          title: 'Варианты доставки Yandex'
+          params:
+            city_title: 'Название города'
+            vendor_delivery_id: 'id доставки'
+            postal_code: 'Почтовый индекс'
+      yandex_pickup_locations:
+        list:
+          title: 'Местоположения яндекс доставки'
+          params: 
+            yandex_delivery_id: 'id службы доставки'
+      subscription_emails:
+        desc: 'Создание подписки'
+        email: 'Email'
+      operator_state:
+        desc: 'Состояние оператора'
+      client_state:
+        desc: 'Состояние клиента'
+      cart:
+        show:
+          desc: Отображение корзины
+      cart_item:
+        create:
+          desc: Добавить товар в корзину
+      good:
+        title:
+          desc: Название товара
+      package:
+        items:
+          desc: Упаковки
+      good_result:
+        items:
+          desc: Обьект товара
+        total_price:
+          desc: Количество записей всего
+        page:
+          desc: Номер текущей страницы
+      order:
+        message:
+          subject: 'Принят заказ №%{order_id}'
+          text: С вами свяжутся в течение нескольких минут
+      product:
+        operator_state:
+          archived: архив
+          published: OK
+          unpublished: снят
+      vendor:
+        mobile_minimal_alert: 'Минимальный заказ от %{money}'
+      categories:
+        list: Список категорий
+        tree: Дерево категорий
+        create:
+          desc: Создаем новую категорию
+          params:
+            name: Название категории
+            position: Позиция
+            parent_id: ID родительской категории
+            filter: Фильтр товаров
+        show:
+          desc: Полные данные о категории
+        edit:
+          desc: Редактируем категорию
+          params:
+            name: Новое название категории
+            position: Новая позиция
+            parent_id: Новый родитель
+        archive:
+          desc: Архивируем
+      goods:
+        autocomplete:
+          desc: Список товаров для автокомплита корзины
+      product_images:
+        params:
+          id: ID изображения
+        add:
+          desc: Добавляет картинку
+          params:
+            image: Файл изображения (jpg, png, gif)
+            product_id: ID товара если известен
+        rotate:
+          desc: Перевернуть картинку
+          params:
+            grad: Градус поворота
+        delete:
+          desc: Удалить картинку
+        position:
+          desc: Меняем позицию картинки
+          params:
+            position: Позиция в карточке товаров
+      content_page_images:
+        params:
+          id: ID изображения
+        list:
+          desc: Список изображений
+        add:
+          desc: Добавляет картинку
+          params:
+            image: Файл изображения (jpg, png, gif)
+      products:
+        autocomplete:
+          desc: Список products для автокомплита
+          params:
+            exclude_by_ids: Исключить товары по id
+            exclude_by_categories: Исключить товары из следующих категорий
+        list:
+          desc: Список товаров
+          params:
+            category_id: Категории, в которых интересуют товары
+            exclude_by_categories: Исключить товары из следующих категорий
+            exclude_subcategories: Исключать товары из подкатегорий
+            page: Номер страницы
+            per_page: Количество на странице
+        change_category:
+          desc: Перемещение товара из одной категории в другую
+        show:
+          desc: Получить данные товара
+        update:
+          desc: Обновить данные товарв
+          params:
+            categories_ids: Категории товара
+        image:
+          desc: Подгрузка индивидуальной картинки
+          params:
+            image: Файл изображения (jpg, png, gif)
+        filtered_count:
+          desc: Количество товаров по фильтру запросу
+          params:
+            category_id: id категории
+      coupon:
+        check:
+          desc: Проверяем актуальность купона
+          params:
+            code: Код купона на проверку
+      wishlist:
+        delete_item:
+          desc: Удалить товар из избранного
+          params:
+            good_id: GlobalID товара
+        add_item:
+          desc: Добавить товар в избранное
+          params:
+            good_id: GlobalID товара
+        remove_item:
+          desc: Удалить товар из избранного
+          params:
+            good_id: GlobalID товара
+      user_requests:
+        desc: Запросы на подключение
+      instagram:
+        feed:
+          desc: Лента Instagram
+          params:
+            limit: Количество изображений

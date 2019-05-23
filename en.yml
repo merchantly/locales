@@ -1,0 +1,13 @@
+en:
+  form_objects:
+    errors:
+      messages:
+        invalid_range: Period of end date must must exceed start date
+        intersection: Period overlaps with another
+  activemodel:
+    errors:
+      models:
+        registration_form:
+          attributes:
+           phone:
+             improbable_phone: Invalid phone number

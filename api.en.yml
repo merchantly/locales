@@ -1,0 +1,196 @@
+en:
+  operator:
+    api:
+      titles:
+        public: 'Public API'
+        operator: 'Merchant API'
+        system: 'Platform API for developers'
+      descriptions:
+        public: 'Used HTTP cookie for authorization'
+        operator: 'Use HTTP cookie for authorization'
+        system: 'API for stores and clients – %{access_keys_url}'
+      errors:
+        member_not_found: 'No member with such key %{api_key}'
+        operator_not_found: 'No member with such key #{api_key}'
+      amo_crm:
+        title: 'Methods to control integration with AmoCRM'
+        settings:
+          title: 'Manage integration with AmoCRM'
+          get:
+            desc: 'Get current settings'
+          update:
+            desc: 'Setup new settings'
+        test:
+          desc: 'Test platform access  %{brand_name_e} to AmoCRM (make an authorization into AmoCRM)'
+      design_settings: 
+        show:
+          desc: 'Get design settings'
+        update:
+          desc: 'Update design settings'
+      delivery_cities:
+        list: 'City of delivery'
+      delivery_time_periods:
+        list: 
+          title: 'Delivery deadlines'
+          params:
+            vendor_delivery_id: 'Delivery method'
+      pickup_points:
+        list: 
+          title: 'Pickup point'
+          params:
+            vendor_delivery_id: 'Delivery method'
+            delivery_city_id: 'Use this city if there are no pickup point selected'
+      yandex_deliveries:
+        list:
+          title: 'Yandex delivery methods'
+          params:
+            city_title: 'City'
+            vendor_delivery_id: 'ID of delivery method'
+            postal_code: 'Postal index (ZIP)'
+      yandex_pickup_locations:
+        list:
+          title: 'Place of yandex delivery'
+          params: 
+            yandex_delivery_id: 'ID of delivery service'
+      subscription_emails:
+        desc: 'Create subscription'
+        email: 'Email'
+      operator_state:
+        desc: 'Operator status'
+      client_state:
+        desc: 'Customer status'
+      cart:
+        show:
+          desc: Recycle add to cart
+      cart_item:
+        create:
+          desc: Add to cart
+      good:
+        title:
+          desc: Product Name
+      package:
+        items:
+          desc: Packaging
+      good_result:
+        items:
+          desc: Product Item
+        total_price:
+          desc: Posts total
+        page:
+          desc: Current page number
+      order:
+        message:
+          subject: 'Accepted order № %{order_id}'
+          text: You will be contacted within a few minutes
+      product:
+        operator_state:
+          archived: archive
+          published: OK
+          unpublished: removed
+      vendor:
+        mobile_minimal_alert: 'Minimum order from %{money}'
+      categories:
+        list: Category List
+        tree: Category Tree
+        create:
+          desc: Create a new category
+          params:
+            name: Name of category
+            position: Position
+            parent_id: Parent Category ID
+            filter: Product Filter
+        show:
+          desc: Complete category data
+        edit:
+          desc: Edit the category
+          params:
+            name: New category name
+            position: New position
+            parent_id: "29\nNew parent"
+        archive:
+          desc: Archiving
+      goods:
+        autocomplete:
+          desc: List of products for autocomplex baskets
+      product_images:
+        params:
+          id: Image ID
+        add:
+          desc: Adds a picture
+          params:
+            image: "Image file (jpg, png, gif)"
+            product_id: Item ID if known
+        rotate:
+          desc: Flip picture
+          params:
+            grad: Degree of rotation
+        delete:
+          desc: Delete picture
+        position:
+          desc: Change the position of the picture
+          params:
+            position: Position in the item card
+      content_page_images:
+        params:
+          id: Image ID
+        list:
+          desc: Image list
+        add:
+          desc: Adds a picture
+          params:
+            image: "Image file (jpg, png, gif)"
+      products:
+        autocomplete:
+          desc: List of products for autocomplete
+          params:
+            exclude_by_ids: Exclude items by id
+            exclude_by_categories: Exclude products from the following categories
+        list:
+          desc: Product List
+          params:
+            category_id: Categories in which products are interested
+            exclude_by_categories: Exclude products from the following categories
+            exclude_subcategories: Exclude items from subcategories
+            page: Page number
+            per_page: Number on page
+        change_category:
+          desc: Moving goods from one category to another
+        show:
+          desc: Get product data
+        update:
+          desc: Update product data
+          params:
+            categories_ids: Product Categories
+        image:
+          desc: Uploading an individual picture
+          params:
+            image: "Image file (jpg, png, gif)"
+        filtered_count:
+          desc: Quantity of goods by filter request
+          params:
+            category_id: category id
+      coupon:
+        check:
+          desc: Check the relevance of the coupon
+          params:
+            code: Coupon code to check
+      wishlist:
+        delete_item:
+          desc: Remove item from favorites
+          params:
+            good_id: GlobalID of product
+        add_item:
+          desc: Add product to favorites
+          params:
+            good_id: GlobalID of product
+        remove_item:
+          desc: Remove item from favorites
+          params:
+            good_id: GlobalID of product
+      user_requests:
+        desc: Connection requests
+      instagram:
+        feed:
+          desc: Instagram feed
+          params:
+            limit: Number of images

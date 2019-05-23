@@ -1,0 +1,168 @@
+en:
+  operator:
+    integrations:
+      amo_crm:
+        title: Setting export orders (contacts) in AmoCRM
+        site: 'Go to the AmoCRM website'
+        optional: 'Optional parameter'
+        auto_export: 'Such goods will be automatically exported to AmoCRM during the transaction.'
+        required_if_linked_goods: 'Required parameter if goods are attached'
+        callout:
+          body: "If you want to upload existing orders to AmoCRM, you can use the download in CSV format"
+          csv: "Deals (%{count}) in CSV for AmoCRM"
+      apidoc:
+        api_access: 'Access to API %{brand_name_a}'
+      atol:
+        site: 'Go to the website atol.ru'
+        settings: 'To connect to atol.ru, you need to set up payment via Walletone or Yandex-cashier and in the payment settings set "Send check data: Via payment system":'
+        new_payment: 'Create payment method'
+      bitrix24:
+        title: Setting export orders in Bitrix24
+        site: 'Go to the Bitrix24 website'
+        settings: |
+          <p> In bitrix24, create an application (Applications / Add Application / For personal use). </p>
+          <p> Specify the name of the application (any), check the box “The application uses only the API” and tick all the access rights.</p> 
+          <p> In the field 'Specify the link' enter the public domain of the store. </p>
+          <p> Enter the data in the form below </p>
+        code: 'Your code: %{code}'
+        new_code_url: 'Next, go to the url to create or change the code:'
+        export_journal: Order Export Log
+      cloud_payments:
+        site: 'Go to the site of the payment gateway CloudPayments.ru'
+        already: 'You have already configured to accept payments via CloudPayments:'
+        settings: 'To connect to cloudpayments.ru you need to add a new payment method in the store:'
+        new_payment: 'Create a payment method through CloudPayments'
+      convead:
+        app_key: 'Access key (app_key) from the connection example on convead.io'
+        affiliate_registraion: 'Affiliate Registration in convead.io'
+        info: |
+          <p> Notifications about viewing products, filling a basket and purchasing are set up automatically. </p>
+          <p> You only need to enter the access key (app_key) </p>
+      export:
+        orders: "Orders (%{count}) in CSV"
+        products: "Products (%{count}) in CSV"
+        clients: "Clients (%{count}) in CSV"
+        yandex: 'Export of goods in Yandex Market (XML)'
+        mail: 'Export of goods to the Trading Privacy Policy (XML)'
+        amo_crm: Suitable also for AmoCRM
+      google_analytics:
+        more: 'Learn more about setting up Google Ecommerce'
+      import_photos:
+        info: |
+          <p> Select one or more photos on the disk, the names of the photos must match the item number. Click download. </p>
+           <p> The photo is added to the product card for which the article matches its name. If such a product with such an article is not found, then a new one is created. </p>
+          <p> To upload several photos one by one, add to the photo name (* number *), for example photo (1), photo (2), photo (3), etc.  </p>
+      import_spread_sheet_infos:
+        edit:
+          title: Set column values
+          col_number: Column number
+          submit: 'Start import'
+        index:
+          th:
+            start: Start date
+            end: Expiration date
+            rows_count: Loaded rows
+            products_count: Loaded goods
+            state: Status
+        show:
+          title: 'Product loading #%{id}'
+          started_at: 'Started:%{started_at}'
+          url: 'Address:%{url}'
+          state: 'Status:%{state}'
+          total_rows_count: 'Total lines:%{count}'
+          imported_rows_count: 'Rows processed:%{count}'
+          speed: 'Download speed:%{count} lines per hour'
+          imported_products_count: 'Loaded goods: %{count}'
+          estimated_time: 'Estimated End Time: %{time}'
+          errors_empty: No errors
+          errors:
+            title: Error messages
+            th:
+              row_num: Line number
+              message: Message
+              row: Line content
+      import_tables:
+        journal: 'Import log'
+        url: 'Link to available Google Spreadsheet'
+        is_this_product_items: 'Are these product options?'
+        locale: 'Document language'
+        download: 'Download'
+        example: 'sample spreadsheet in google spreadsheet'
+      import_yml:
+        asset: 'XML-file format Yandex Market'
+        download: 'Download'
+        warning:  "Contact us by email %{email} if you want to upload products in a different format."
+      kassatka:
+        site: 'Go to site kassatka.me'
+        settings: 'Select payment method'
+      life_pay:
+        site: 'Go to life-pay.ru'
+        settings: 'Select a payment method, and specify in its settings online cashier access to life-pay.ru'
+      pay_pal:
+        site: 'Go to the website paypal.com'
+        settings: "Be sure that you included the utf-8 %{link} encoding on the PayPal site in additional features"
+        link: settings of payment receiver
+      rbk_money:
+        site: 'Go to the RBK Money website'
+      robokassa:
+        site: 'Go to the payment gateway Robokassa'
+        already: 'You have already configured to receive payments through Robokassa:'
+        settings: 'To connect to robokassa, you need to add a new payment method in the store:'
+        new_payment: 'Create a payment method through Robokassa'
+      sberbank:
+        site: 'Go to the Sberbank website'
+        already: 'You have already configured to accept payment through Sberbank:'
+        settings: 'To connect to Sberbank, you need to add a new payment method in the store:'
+        new_payment: 'Create a payment method through Sberbank'
+      shared:
+        download_url: 'Link to download directory:'
+        file_no_created: File not yet created
+        dowload: Download
+      starrys:
+        site: 'Go to the starrys.ru website'
+        settings: 'Select a payment method, and specify in its settings online cash desk access to starrys.ru:'
+      tinkoff:
+        site: 'Go to the Tinkoff website'
+        settings: 'To connect to tinkoff, you need to add a new payment method in the store:'
+        already: 'You have already configured to accept payment through Tinkoff:'
+        new_payment: 'Create Tinkoff Payment Method'
+      vkontakte:
+        start: 'Start export'
+      walletone:
+        warning: Attention! The data is set strictly in accordance with the data specified in the checkout!
+        merchant_sign_key: "The secret key can be found in the \"Settings\" section of the \"Integration\" tab <br />%{link}"
+        label:
+          phone: 'Phone number to identify the wallet'
+        placeholder:
+          phone: 'For example: +7 903 389 12 28'
+        doc: 'Documentation'
+        settings: 'Set up seller data'
+        title: Setting up a cash register
+        callout: The widget is shown at the bottom of each store page in order for the customer to see the possible payment methods.
+      yandex_metrika:
+        more: 'More about setting events in Yandex Metrika'
+      moysklad:
+        category:
+          warning: "When a new product arrives, and the import of categories is disabled, we need to know which category to put it in."
+        import:
+          warning: MoyStock returns multiple prices for each item. Specify the name of the price for the store and for sale.
+        login:
+          warning: |
+            <div> Make sure that your tariff in MyStorage allows integration with third-party services.</div>
+            <div>ИзображенийIt is not currently possible to import images.</div>
+        reservation:
+          linked_stock: |-
+            Reserve items on MoySklad when order is created
+          include_blank: 'Not installed'
+          organizations_empty: Not installed
+          warehouses_empty: "To reserve orders in MyStock, you must install a warehouse in which the reservation will be made. Download the list of available warehouses from MyStock."
+          groups_empty: Load a list of available departments from Moysklad to specify a specific department for orders.
+        import_journal: 'Import log'
+        warehouses:
+          warning: Product data is received from every available warehouses. But quantity updates only when it is available on selected warehouses
+          th:
+            name: Stock name
+            uuid: UUID in MyStock
+            state: Synchronization
+          empty: The stock list is empty. Update or sync with MyStock
+          no_access:  Stocks are only available if you have a connection with MyStock.

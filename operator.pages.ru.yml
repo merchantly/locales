@@ -1,0 +1,510 @@
+ru:
+  operator:
+    pages:
+      price_kinds:
+        index:
+          title_html: Виды цен
+        edit:
+          title_html: Редактирование вида цены
+        new:
+          title_html: Создание вида цены
+      other:
+        show:
+          title_html: SEO, редиректы, безопасность, кеширование и прочее
+      design_settings:
+        show:
+          title_html: Оформление сайта (CSS, HTML, Логотип, Шрифты)
+      elements:
+        show:
+          title_html: Элементы на сайте
+      https:
+        show:
+          title_html: Шифрование и HTTPS
+      additional:
+        show:
+          title_html: Дополнительные страницы
+      currency:
+        show:
+          title_html: Валюта цен и оплаты
+      shop:
+        show:
+          title_html: Просмотр магазина
+      footer:
+        show:
+          title_html: Подвал на каждой странице сайта
+      colors:
+        show:
+          title_html: Цвета и шрифты на сайте
+      css:
+        show:
+          title_html: Индивидуальные стили (CSS)
+      domain:
+        show:
+          title_html: Адрес сайта
+      filter:
+        show:
+          title_html: Фильтр товаров
+      order_page:
+        show:
+          title_html: Настройки страницы корзины и заказа
+      product_page:
+        show:
+          title_html: Настройки страницы товара
+      cache:
+        show:
+          title_html: Настройки кеширования
+      category_page:
+        show:
+          title_html: Общие настройки для всех страниц категорий
+      pages:
+        show:
+          title_html: Настройки параметров и содержимого страниц сайта
+      header:
+        show:
+          title_html: Параметры заголовка для каждой странице сайта
+      payment_cards:
+        index:
+          title_html: Привязанные карты для оплаты
+      transactions:
+        index:
+          title_html: Операции по счету
+        show:
+          title_html: Транзакция
+      languages:
+        show:
+          title_html: Поддержка нескольких языков
+      legal:
+        show:
+          title_html: Юридическая информация
+      currencies:
+        index:
+          title_html: Курсы валют
+      cloud_payments:
+        show:
+          title_html: Прием оплаты через CloudPayments
+      atol:
+        show:
+          title_html: Интеграция с онлайн-кассой atol.ru
+      starrys:
+        show:
+          title_html: Интеграция с онлайн-кассами starrys.ru
+      life_pay:
+        show:
+          title_html:  Интеграция с онлайн-кассами life-pay.ru
+      errors:
+        not_found:
+          title_html: Страница не найдена
+      dashboard:
+        index:
+          title_html: 5 шагов для запуска магазина
+      extra_js:
+        show:
+          title_html: JavаScript для всех страниц
+      extra_html:
+        show:
+          title_html: HTML для всех страниц
+      sms_log:
+        index:
+          title_html: Журнал отправленных SMS
+
+      products:
+        new:
+          title_html: 'Новый товар'
+        edit:
+          title_html: 'Редактирование товара'
+        batch:
+          title_html: 'Массовое изменение товаров'
+        index:
+          title_html: 'Товары'
+      tags:
+        index:
+          title_html: Теги
+        new:
+          title_html: Создаем новый тег
+        show:
+          title_html: Тег %{resource}
+        edit:
+          title_html: Редактируем тег %{resource}
+      billing:
+        sms_packs:
+          title_html: Покупка SMS
+        show:
+          title_html: Тариф и оплата
+        tariff_choose:
+          title_html: 'Выбор тарифа'
+      convead:
+        show:
+          title_html: 'Подключение covead.io'
+      pickup_points:
+        index:
+          title_html: 'Пункты выдачи'
+        import_form:
+          title_html: "Загрузка списка пунктов выдачи"
+      cities:
+        index:
+          title_html: 'Города'
+      orders:
+        index:
+          title_html: 'Заказы'
+        new:
+          title_html: Создаем новый заказ
+        show:
+          title_html: Заказ %{resource}
+        edit:
+          title_html: Редактируем заказ %{resource}
+        duplicate:
+          title_html: Дублируем заказ %{resource}
+      packaging:
+        show:
+          title_html: Настройка упаковки
+      roles:
+        new:
+          title_html: Создаем новую роль
+        edit:
+          title_html: Редактируем роль
+        index:
+          title_html: Роли сотрудников
+      carts:
+        index:
+          title_html: Корзины
+        show:
+          title_html: Корзина
+      coupons:
+        index:
+          title_html: Промокоды
+        new:
+          title_html: Новый промокод
+        show:
+          title_html: Промокод
+        edit:
+          title_html: Редактируем промокод
+        new_import:
+          title_html: Загружаем промо-коды в формате CSV
+      coupon_groups:
+        new:
+          title_html: Создаем группу промокодов
+      order_conditions:
+        index:
+          title_html: Бизнес процессы
+        edit:
+          title_html: Редактируем правило
+        new:
+          title_html: Добавляем новое правило
+      members:
+        index:
+          title_html: Сотрудники
+        edit:
+          title_html: Редактируем карточку сотрудника "%{resource}"
+      dictionary_entities:
+        index:
+          title_html: Элементы справочника "%{dictionary}"
+        edit:
+          title_html: Редактируем элемент справочника "%{dictionary}"
+        new:
+          title_html: Добавляем элемент справочника "%{dictionary}"
+      dictionaries:
+        index:
+          title_html: Справочники
+        new:
+          title_html: Заводим новый справочник
+        edit:
+          title_html: Редактируем справочник "%{resource}"
+      properties:
+        index:
+          title_html: Свойства товаров
+        edit:
+          title_html: Редактируем свойство товара
+        new:
+          title_html: Создаем свойство товара
+      translations:
+        index:
+          title_html: Переводы
+        edit:
+          title_html: Строка перевода
+        new:
+          title_html: Строка перевода
+      subscription_emails:
+        index:
+          title_html: 'Клиентские подписки'
+      clients:
+        index:
+          title_html: 'Клиенты'
+        edit:
+          title_html: 'Клиент %{resource}'
+        show:
+          title_html: 'Настройки клиентов'
+      menu_items:
+        index:
+          title_html: 'Управление меню'
+        edit:
+          title_html: 'Редактируем пункт меню'
+        new:
+          title_html: 'Создаем новый пункт меню'
+      analytics:
+        index:
+         title_html: 'Аналитика'
+      mail_templates:
+        index:
+          title_html: 'Шаблоны писем и уведомлений'
+        edit:
+          title_html: Редактируем шаблон
+        show:
+          title_html: Просмотр шаблона
+      categories:
+        archive:
+          title_html: 'Архив категорий'
+        index:
+          title_html: 'Категории товаров'
+        edit:
+          title_html: Категория "%{resource}"
+        new:
+          title_html: 'Новая категория'
+      google_analytics:
+        show:
+          title_html: 'Интеграция Google Analytics'
+      yandex_metrika:
+        show:
+          title_html: 'Интеграция Yandex Metrika'
+      bitrix24:
+        show:
+          title_html: 'Экспорт заказов в Bitrix24'
+      amo_crm:
+        show:
+          title_html: 'Экспорт заказов в AmoCRM'
+      import:
+        show:
+          title_html: 'Загрузка данных в %{brand_name}'
+      favicons:
+        index:
+          title_html: Логотип и favicons
+
+      apidoc:
+        show:
+          title_html: API %{brand_name_a}
+
+      top_banners:
+        edit:
+          title_html: Промо-сообщение
+
+      lookbooks:
+        index:
+          title_html: Лукбуки
+        new:
+          title_html: Создаем лукбук
+        show:
+          title_html: Лукбук "%{resource}"
+        edit:
+          title_html: Редактируем лукбук
+      order_operator_filters:
+        index:
+          title_html: Фильтры заказов
+        new:
+          title_html: Создаем фильтр
+        edit:
+          title_html: Редактируем фильтр
+      welcome_page:
+        show:
+          title_html: Настройки главной страницы
+      content_pages:
+        index:
+          title_html: Текстовые страницы
+        new:
+          title_html: Создаем текстовую страницу
+        edit:
+          title_html: Редактируем текстовую страницу
+
+      blog_posts:
+        index:
+          title_html: Новостные публикации (блог)
+        new:
+          title_html: Создаем новостную публикацию (запись в блог)
+        edit:
+          title_html: Редактируем новостную публикацию (запись в блог)
+
+      slider_images:
+        index:
+          title_html: Слайдер
+        edit:
+          title_html: Изображение для слайдера
+        new:
+          title_html: Изображение для слайдера
+
+      asset_images:
+        index:
+          title_html: Банк изображений для текстовых редакторов
+
+      robots:
+        show:
+          title_html: Управление содержимым robots.txt
+
+      sitemap:
+        show:
+          title_html: Информация о генерации sitemap.xml
+
+      settings:
+        orders:
+          title_html: Настройки заказов
+        products:
+          title_html: Настройки каталога товаров
+        others:
+          title_html: Прочие настройки
+        index:
+          title_html: Общие настройки
+        domain:
+          title_html: Адрес сайта (домен)
+        filter:
+          title_html: Фильтр товаров на сайте
+        main_page_content:
+          title_html: Главная страница
+      integrations:
+        index:
+          title_html: Интеграция со сторонними сервисами и обмен данными
+      moysklad:
+        show:
+          title_html: Интеграция с МойСклад
+      walletone:
+        show:
+          title_html: Интеграция с платежной системой walletone.com
+        edit:
+          title_html: Интеграция с платежной системой walletone.com
+      pay_pal:
+        show:
+          title_html: Интеграция с платежной системой PayPal.com
+      yandex_kassa:
+        show:
+          title_html: Интеграция с платежной системой Яндекс-Касса
+      disqus:
+        show:
+          title_html: Интеграция с Disqus.com
+      stock_log_entities:
+        index:
+          title_html: Журнал иморта товаров из МойСклад
+        show:
+          title_html: Запись в журнале импорта товаров от <em>'%{resource}'</em>
+      instagram:
+        show:
+          title_html: Интеграция с Instagram
+
+      slug_resources:
+        index:
+          title_html: Человеко-понятные пути
+      slug_redirects:
+        new:
+          title_html: Новый редирект (301)
+        edit:
+          title_html: Редактируем редирект (301)
+        index:
+          title_html: Редиректы (301)
+      not_founds:
+        index:
+          title_html: Не найденные страницы (404)
+      history_paths:
+        index:
+          title_html: История посещений
+
+      files:
+        index:
+          title_html: Файлы
+
+      yandex_market:
+        show:
+          title_html: Экспорт товаров в yandex.market.ru
+      rbk_money:
+        show:
+          title_html: Подключение к платежной системе RBK Money
+      vendor_payments:
+        index:
+          title_html: Способы оплаты
+        edit:
+          title_html: Способ оплаты "%{resource}"
+        new:
+          title_html: Новый способ оплаты
+
+      vendor_deliveries:
+        index:
+          title_html: Способы доставки
+        edit:
+          title_html: Способ доставки "%{resource}"
+        new:
+          title_html: Новый способ доставки
+
+      torg_mail:
+        show:
+          title_html: Экспорт товаров в Торг@mail.ru
+
+      workflow_states:
+        index:
+          title_html:  Статусы заказов
+        edit:
+          title_html: Редактируем статус заказа "%{resource}"
+        new:
+          title_html: Новый статус заказа
+
+      facebook:
+        show:
+          title_html: Подключаем facebook.com
+
+      vkontakte:
+        show:
+          title_html: Интеграция с vkontakte.ru
+
+      tasty:
+        show:
+          title_html: Подключение Taaasty.com
+
+      export:
+        show:
+          title_html: Экспорт данных
+
+      import_yml:
+        show:
+          title_html: Загрузка товаров из Yandex Market
+
+      import_tables:
+        show:
+          title_html: Импорт товаров из таблицы Google Spreadsheet
+
+      import_photos:
+        show:
+          title_html: Импорт фотографий товаров
+
+      bells:
+        show:
+          title_html: Уведомления
+
+      robokassa:
+        show:
+          title_html: Robokassa
+
+      tinkoff:
+        show:
+          title_html: Тинькофф
+
+      sberbank:
+        show:
+          title_html: Сбербанк
+
+      delivery_time_slots:
+        show:
+          title_html: Время курьерской службы
+      commerce_ml:
+        show:
+          title_html: CommerceMl
+      digital_keys_import:
+        show:
+          title_html: Загрузить электронные ключи
+        edit:
+          title_html: Результат импорта электронных ключей
+      coupon_images:
+        show:
+          title_html: Шаблон изображения сертификата
+        edit:
+          title_html: Редактирование шаблона
+        new:
+          title_html: Создать новый шаблон
+      import_spread_sheet_infos:
+        show:
+          title_html: Загрузка товаров из Google Spreadsheet
+      client_categories:
+        show:
+          title_html: Категории клиентов

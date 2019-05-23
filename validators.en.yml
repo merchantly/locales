@@ -1,0 +1,9 @@
+en:
+  validators:
+    good_item:
+      must_be_good: 'Good must be Product or ProductItem'
+
+    phone_validator:
+      invalid_phone: 'Invalid phone number format. Example: +7 913 123 32 10'
+    vendor:
+      welcome_category_package_category_not_same: 'The category for the main page should not coincide with the category of packages.'

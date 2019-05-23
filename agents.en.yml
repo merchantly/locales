@@ -1,0 +1,23 @@
+en:
+  agents:
+    payment:
+      order_payment_direct: Any other way
+      order_payment_invoice: Bank account
+      order_payment_w1: WalletOne
+      order_payment_pay_pal: PayPal
+      order_payment_yandex_kassa: Yandex.Kassa
+      order_payment_rbk_money: RBK Money
+      order_payment_custom: Customizable way
+      order_payment_cloud_payments: CloudPayments
+      order_payment_robokassa: Robokassa
+      order_payment_tinkoff: Tinkoff
+      order_payment_sberbank: Sberbank
+    delivery:
+      order_delivery_pickup: Pickup
+      order_delivery_redexpress: Redexpress
+      order_delivery_cse: CSE
+      order_delivery_ems: EMS
+      order_delivery_other: Other
+      order_delivery_digital: Only digital goods
+      order_delivery_russian_post: Post of Russia
+      order_delivery_yandex: Yandex Delivery

@@ -1,0 +1,53 @@
+ru:
+  operator:
+    empty_tables:
+      columns:
+        tag:
+          title: Наименование тега
+        role:
+          title: Название
+          members_count: Количество сотрудников
+        order_operator_filter:
+          name: Название
+          coupon_id: Промокод
+          color_hex: Цвет
+          workflow_state_id: 'Статус заказа'
+          has_reserved_items: Резерв
+          delivery_state: Статус доставки
+          payment_state: Статус оплаты
+          delivery_type_id: Доставка
+          payment_type_id: Оплата
+        vendor_delivery:
+          price: Стоимость
+          free_delivery_price: Сумма для бесплатной доставки
+          available_payments: Совместимая оплата
+          cities: Города
+          pickup_points: Пункты выдачи
+        vendor_payment:
+          available_deliveries: Доступные способы доставки
+        blog_post:
+          is_active: Статус
+          published_at: Опубликовано
+        workflow_state:
+          finite_state: Конечное состояние
+          convead_key: Ключ в convead
+        product:
+          title: Название
+          category: Категория
+          images: Изображения
+        coupon_image:
+          image: Изображение
+
+      empty:
+        default: У вас еще нет ни одной записи
+        content_page: У вас еще нет ни одной публикации
+        blog_post: У вас еще нет ни одной публикации
+        slider_image: У вас еще нет ни одного изображения для слайдера
+        lookbook: У вас еще нет ни одного лукбука
+        order_condition: У вас еще нет ни одного правила
+        workflow_state: У вас еще нет ни одного статуса заказа
+        vendor_payment: У вас еще нет ни одного активного способа оплаты
+        vendor_delivery: У вас еще нет ни одного активного метода доставки
+        dictionary_entity: В этом словаре нет еще ни одного элемента
+        dictionary: Пока нет ни одного словаря
+        category: Нет категорий

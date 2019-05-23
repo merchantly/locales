@@ -1,0 +1,8 @@
+ru:
+  operator:
+    integration_views:
+      index:
+        setup: настроить
+        connect: подключить
+        use: воспользоваться
+        connected: подключено

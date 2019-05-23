@@ -1,0 +1,34 @@
+en:
+  payment_methods:
+    yandex_kassa:
+      pc: Payment from Yandex.Money wallet
+      ac: Payment with any bank card
+      mc: Payment from a mobile phone bill
+      gp: Cash payment through cashboxes and terminals
+      wm: Payment from a WebMoney wallet system
+      sb: 'Payment through Sberbank: by SMS or Sberbank Online'
+      mp: Payment with mobile terminal (mPOS)
+      ab: Payment with Alpha Click
+      ma: Payment with MasterPass
+      pb: Payment with the Internet Bank Promsvyazbank
+      qw: Payment with QIWI Wallet
+      kv: Payment with KupiVkredit (Tinkoff Bank)
+      qp: Payment with trust payment on Kuppi.ru
+    rbk_money:
+      rbkmoney: Payment from RBK Money wallet
+      bankcard: Bank card Visa/MasterCard
+      exchangers: Electronic payment systems
+      terminals: Payment terminals
+      prepaidcard: Prepaid RBK Money card
+      mobilestores: Salons of communication
+      transfers: Money transfer systems
+      ibank: Internet banking
+      sberbank: Bank payment
+      svyaznoy: Svyaznoy
+      euroset: Euroset
+      contact: Contact
+      mts: MTS
+      uralsib: Uralsib cashboxes
+      handybank: HandyBank
+      ocean: Ocean Bank
+      ibankuralsib: Internet Bank Uralsib

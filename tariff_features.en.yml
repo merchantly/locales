@@ -1,0 +1,30 @@
+en:
+  tariff_features:
+    feature_walletone: 'WalletOne'
+    feature_domain: 'Individual Domain'
+    feature_custom_css: 'Css editing'
+    feature_convead: 'Convead'
+    feature_pages: 'Text Pages'
+    feature_max_users: 'Number of employees - %{value}'
+    feature_max_products: 'Quantity of goods - %{value}'
+    feature_instagram: 'Instagram feed'
+    feature_export_data: 'Data export'
+    feature_yandex_kassa: 'Yandex Cash'
+    feature_coupon: 'Promo codes'
+    feature_rbk_money: RBK Money
+    feature_blog: Blog
+    feature_lookbook: Lookbook
+    feature_multilanguage: Multilingual
+    feature_delivery_tracking: Delivery tracking
+    feature_delivery_service: Integration with delivery services
+    feature_moysklad: Integration with MySklad service
+    feature_yandex_market: Unloading Yandex Market
+    feature_torg_mail: Unloading Torg-mail
+    feature_amocrm: AmoCRM
+    feature_edit_menu: Manual menu editing
+    feature_notify_templates: Customized Alert Templates
+    feature_wishlist: Wish list
+    feature_order_state: Individual order statuses
+    feature_client_cabinet: Customer account
+    feature_import: "Import Data from Google Spreadsheet and other"
+    feature_slider: Slider

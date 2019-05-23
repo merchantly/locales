@@ -1,0 +1,8 @@
+en:
+  order_condition:
+     title: '%{action_text}, when: %{conditions_text}, at an event: %{event_text}'
+     default_text: 'For orders with any delivery, payment and status'
+     delivery_title: "Delivery '%{vendor_delivery}'"
+     payment_title: "Payment '%{vendor_payment}'"
+     enter_workflow_title: "Status '%{state}'"
+     enter_finite_state_title: "Final state '%{state}'"

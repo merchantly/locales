@@ -1,0 +1,50 @@
+en:
+  operator:
+    layouts:
+      header_search:
+        title: Search and filter
+      bells:
+        read_all: 'Mark all as read'
+        scope:
+          all: 'All'
+          read: 'Read'
+          unread: 'Unread'
+      clients:
+        title: Customers
+        add_category: 'Add category'
+        all: All clients
+      orders:
+        title: Order
+        search_query: Order number, comment or product
+        from_at: Date from
+        to_at: Date to
+        search_button: 'Search'
+        new_order: 'Create order'
+        search: 'Search by orders'
+        add_filter: 'Add filter'
+        all: All orders
+        settings:
+          states: 'Order Status'
+          conditions: Rules
+          mail_templates: 'Notifications'
+          filters: 'Filters'
+      products:
+        title: Products
+        new_button: 'Add product'
+        search: 'Search by products'
+        all: All products
+        without_categories: 'Products without categories'
+        sale: 'Discounted products'
+        is_run_out: 'Goods sold out'
+        on_welcome: 'Goods on the main page'
+        categories: Categories
+        add_category: 'Add new category'
+        settings:
+          categories: 'Product categories'
+          properties: 'Properties of the goods'
+          tags: 'Product Tags'
+          dictionaries: 'Dictionaries'
+          archive: "Archive of goods (%{count} pcs.)"
+          public: 'This category on site'
+          edit: 'Configure this category'
+          moysklad: Data exchange with Moysklad

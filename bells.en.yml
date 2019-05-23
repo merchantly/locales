@@ -1,0 +1,74 @@
+en:
+  bells:
+    InstagramFeed::NoInstagramUserId:
+      subject: "Instagram User ID is not entered, but the Instagram feed is shown on the website."
+      text: "Enter the correct Instagram User ID in the store settings or disable feed"
+    InstagramFeed::NotFound:
+      subject: "No instagram found with ID% {instagram_user_id}"
+      text: "You have entered wrong Instagram User ID in the store settings"
+    Moysklad::Client::ResourceForbidden:
+      subject: 'Automatic import of goods from MyStock disabled'
+      text: "There is no access to import goods from MyStock.\nObviously, you didn’t activate the tariff in MoiSklad.ru that allows you to work with the API or your user (%{login}) does not have enough rights."
+    Moysklad::Client::UnauthorizedError:
+      subject: 'Automatic import of goods from MyStock disabled'
+      text: 'Authorization error in the MyStock service: check the correctness of the login/password and your tariff on MyStock'
+    MoyskladImporting:NoLogin:
+      subject: 'Automatic import of goods from MyStock disabled'
+      text: 'Enter login and password to access MyStore'
+    hello:
+      subject: 'Hello!'
+      text: 'Messages about the operation of your store will receive here.'
+    domain_attached:
+      subject: 'Domain connected'
+      text: 'Domain %{domain} has successfully connected to the store.'
+    convead_invalid_or_outdate:
+      subject: 'Connection to convead.io is wrong or outdated'
+      text: 'You entered an incorrect app_key (%{convead_app_key}) or did not pay for convead.io services. Integration is disabled'
+    OpenURI::HTTPError:
+      subject: 'Invalid Instagram username'
+      text: 'You have entered an incorrect Instagram username (%{username}) '
+    PayPal::InvalidByteError:
+      subject: 'Payment acceptance Error'
+      text: 'Enter UTF-8 encoding in additional features in your PayPal account settings'
+    W1::PaymentService::NoSignature:
+      subject: 'Payment processing error for order №%{order_id}'
+      text: 'You must select the method of forming a digital signature MD5 in the settings of WalletOne. Learn more - https://www.walletone.com/ru/merchant/documentation/#step3'
+    System::AmoCRM::ExportOrder::InvalidAmoCrmError:
+      subject: 'Error exporting an order to AmoCrm'
+      text: 'Check AmoCrm settings'
+    AmoCRM::Client::Error:
+      subject: 'Client error in AmoCrm'
+      text: 'Check AmoCrm settings'
+    RussianPost::ResponseError:
+      subject: 'Post of Russia error'
+      text: '%{error}'
+    Starrys::FatalResponseError:
+      subject: 'Starrys Error'
+      text: '%{error}'
+    spf_check_fail:
+      subject: 'Spf Error'
+      text: 'Your mail #{email} did not pass spf check'
+    Bitrix24::Client::AuthorizationCodeError:
+      subject: 'Bitrix24 error'
+      text: '%{error}'
+    Sberbank::Requestor::ResponseError:
+      subject: 'Sberbank error'
+      text: 'Ordering with Sberbank payment system was failed. Please check your payment details or contact support'
+    Sberbank::Requestor::ApiTokenEmptyError:
+      subject: 'Sberbank error'
+      text: 'API token value is not set'
+    RobokassaParams::TaxTypeEmptyError:
+      subject: 'Robokassa error'
+      text: 'VAT amount for merchant is not set'
+    RobokassaParams::TaxModeEmptyError:
+      subject: 'Robokassa error'
+      text: 'System of taxation for merchant is not set'
+    Moysklad::Client::UnauthorizedError:
+      subject: 'MoySklad error'
+      text: 'Account is deactivated. Please contact account administrator  '
+    Kassatka::Requestor::TokenEmptyError:
+      subject: 'Kassatka error'
+      text: 'Token value is not set '
+    Kassatka::Requestor::ResponseError:
+      subject: 'Kassatka error'
+      text: '%{error}'

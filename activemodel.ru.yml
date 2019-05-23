@@ -1,0 +1,20 @@
+ru:
+  activemodel:
+    errors:
+      models:
+        vendor:
+          attributes:
+            domain:
+              slug: Домен может содержать только латинские буквы, цифры или знак минуса
+        vendor_registration_form:
+          attributes:
+            email:
+              email: Неверный формат e-mail
+        subscription_form:
+          attributes:
+            email:
+              email: Неверный формат e-mail
+        client_registration_form:
+          attributes:
+            email:
+              email: Неверный формат e-mail

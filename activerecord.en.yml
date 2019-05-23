@@ -1,0 +1,728 @@
+en:
+  activerecord:
+    models:
+      system_mail_recipient: Mailing recipient
+      bank_incoming: Bank receipts
+      bank_incoming_exclude: Excluded bank receipts
+      bank_incoming_contractor: Famous bank counterparties
+      admin_user: Admins
+      user_request:
+        one: Application
+        few: Applications
+        many: Applications
+        other: Applications
+      vendor: Stores
+      vendor_notify_mail_template: Templates of store system notification
+      vendor_template: Templates of store
+      theme: Topics
+      category: Categories
+      product: Goods
+      content_page: Text Pages
+      operator: Operators
+      order: Order
+      vendor_to_operator: Stores
+      tariff: Tariff
+      cart: Add to cart
+      partner: 'Partner'
+      partner/coupon: Partner's promo code
+      vendor_tariff_log_entity: History of tariff changes
+      client: Customer
+      system_mail_template: System mailing templates
+      system_text: System text
+      system_mail_delivery: Mailing of letters
+      role: Role
+      openbill_charge: Recurring payment log
+      payment_account: Linked cards
+      order_payment: Payment orders
+      openbill_invoice: An invoice for payment
+      openbill_account: Billing accounts
+      openbill_transaction: Transactions
+      vendor_sms_log_entity: SMS log
+      vendor_common_transaction: Charge off
+      dashboard_item: Step for store launch
+      # Шаги в списке '5 шагов для запуска магазина'
+      delivery_time_period: Time of delivery
+
+    attributes:
+      client_category:
+        title: Name
+        all_prices_available: All prices are available
+        auth_for_buy_enable: "'Sign in to buy' button"
+      product_price:
+        price: Price
+        price_kind_id: Type
+      price_kind:
+        title: Type of price
+        ms_price_name: Name in My Stock
+      client_occupation:
+        name: Name
+      coupon_image:
+        image: Image
+        font_size: Font size
+        font_color: Font color
+        font: Font
+        align: Alignment
+      digital_keys_import:
+        states:
+          fresh: New
+          process: In the process
+          finish: Successfully completed
+          error: Error
+        digital_keys_file: Key file
+      vendor_common_transaction:
+        amount: Amount
+        details: Comment
+        current_paid_to: Current expiry date
+        next_paid_to: Next expiration date
+      bank_incoming:
+        contractor_name: Counterparty
+        contractor_inn: ITN of counterparty
+        contractor: Found counterpart
+        amount: Amount
+        title: Purpose of payment
+        bank_transaction_date: Date
+        bank_transaction_id: Payment ID
+        state: Status
+        invoice: Invoice issued
+        transaction: Resulting transaction
+      bank_incoming_contractor:
+        contractor_name: Counterparty Name
+        contractor_inn: ITN of counterparty
+        vendor_id: Store ID
+      order_payment:
+        state: Статус оплаты
+        created_at: Time
+        vendor: Store
+        order: Order
+        total_with_delivery_price: Amount
+        type: Payment type
+        state: Status
+        response: Answer
+      openbill_invoice:
+        client_notified_at: Customer has notified
+        notified_count: Number of notifications
+        enable_notification: "Notify the client about the need to pay bills by email/sms?"
+        is_autochargable: Automatically charge
+        next_notification_at: Next notice
+        created_at: Account created
+        paid?: "Paid?"
+        paid_amount: Paid amount
+        number: Account number
+        destination_account: Enrollment account
+        destination_account_id: Enrollment account
+        has_payments?: "Has a payment?"
+        pay_link: Link to payment
+        pdf_link: An invoice for payment
+        amount: Amount
+        vendor: Store
+        details: Details
+        date: Date
+        title: Purpose of payment
+      role:
+        title: Name
+      member:
+        vendor: Store
+        role_id: Role
+        role: Role
+      system_mail_recipient:
+        delivery: Mailing
+        operator: Operator
+        vendor: The store
+        send_at: Sent out
+        open_at: Open
+        paid_at: Paid
+        follow_link_at: Follow link
+        unsubscribe_clicked_at: Transferred to the formal reply
+        created_at: Created
+        updated_at: Updated
+        invoice: Invoice
+      system_mail_delivery:
+        title: Name
+        system_mail_template: Template
+        state: Status
+        created_at: Created
+        updated_at: Updated
+        recipients_count: Recipients
+        invoices_count: Invoices issued
+        paid_invoices_count: Paid invoices
+        paid_amount: Paid for amount
+      system_text:
+        title: Headline
+        key: Text type
+        content: Text
+      tag:
+        title: 'Name'
+      system_mail_template:
+        title: 'Mailing Name'
+        image: 'Image'
+        example_vendor: Store for an example
+        example_vendor_id: Store for an example
+        example_operator: Operator for example
+        example_operator_id: Operator for example
+        subject: 'Topic of the letter'
+        content: 'Body of the letter'
+        template_type: Type of mailing
+        system_mail_deliveries_count: Mailing
+      vendor_bitrix24:
+        responsible_manager_id: Order Manager
+        url: URL of your Bitrix24 portal
+        client_id: 'CLIENT ID'
+        client_secret: 'CLIENT SECRET'
+      vendor_amo_crm:
+        url: URL address of your account in AmoCRM
+        order_delivery_custom_field_id: 'Field ID in order for shipping address'
+        order_weight_custom_field_id: 'ID fields in order for total order weight'
+        enable_goods_linking: Link goods to a deal in AmoCRM
+        goods_catalog_id: 'ID of the catalog in AmoCRM in which the goods lie'
+        goods_catalog_moysklad_custom_field_id: 'ID field in the goods catalog, which stores the ID (UUID) of the goods from MyStock'
+        login: 'Your email in AmoCRM'
+        apikey: 'API access key (also hash)'
+        responsible_user_id: 'ID of the manager who is made responsible for the export of the transaction'
+        enable_sale_not_linked: 'Allowed to sell goods not existing (not related) in AmoCRM'
+        initial_state_id: 'ID of the stage with which the transaction is created'
+        paid_state_id: 'ID of the stage in which the transaction goes when paying'
+        pipeline_id: 'ID of funnel to which transactions are exported'
+        tags: 'Comma-delimited list of tags set during the export transaction. Indicated in AmoCRM API format'
+        is_active: "Handle a sales export from %{brand_name_a} to AmoCRM"
+      subscription_email:
+        email: Email
+        created_at: Date
+      partner:
+        name: Name
+      partner/coupon:
+        code: Code
+        active_days: How many days is the reward paid
+        reward_percent: Rewards (percentage)
+        partner: Partner
+      workflow_state:
+        convead_key: Key in convead
+      order_operator_filter:
+        name: Name
+        coupon_id: Promo code
+        color_hex: Colour
+        workflow_state_id: 'Order status'
+        has_reserved_items: Reserve
+        delivery_state: Delivery status
+        payment_state: Payment state
+        delivery_type_id: Delivery
+        payment_type_id: Payment
+        row_order: Position
+      vendor_payment:
+        is_online_kassa_test_mode: Test mode
+        online_kassa_provider: Send check data
+        online_kassa_client_id: Client_ID
+        online_kassa_password: Password
+        online_kassa_cert: Certificate
+        online_kassa_key: Key
+        online_kassa_kassatka_address: IP
+        online_kassa_kassatka_port: http port
+        show_icon: Displaying the payment system icon during checkout
+        robokassa_login: Store ID
+        robokassa_first_password: Password#1
+        robokassa_second_password: Password#2
+        robokassa_has_commission: "Pay a commission for the buyer? (For individuals)"
+        tinkoff_merchantly_key: Terminal
+        tinkoff_password: Password
+        sberbank_login: Login
+        sberbank_api_token: Api token
+        sberbank_private_key: Callback token
+        sberbank_is_test: Test mode
+      vendor_tariff_log_entity:
+        date: 'Date'
+        vendor_id: 'Store'
+        tariff_id: 'Tariff'
+        vendor: 'Store'
+        tariff: 'Tariff'
+      content_page:
+        title: Name
+        content: Description
+      cart_item:
+        weight: Weight
+      order_item:
+        weight: Weight
+      yml:
+        asset: 'XML file in yml_catalog format for download'
+      translation:
+        locale: 'Language'
+        key: 'Key'
+        value: 'Value'
+        custom_value: 'Set value'
+      product_item:
+        fallback_title: 'Option% {id}'
+      slug:
+        path: 'Clear way'
+        redirect_path: 'Redirect'
+      cart:
+        discount_info: 'Discount %{discount}% for %{discount_price}'
+      menu_item:
+        custom_title: 'Name'
+        slug: 'Way'
+        category_id: 'Category'
+        content_page_id: 'Text page'
+        link_url: 'Direct link'
+        place: 'Advertising'
+        dictionary_id: 'Directory'
+        dictionary_entity_id: 'Dictionary item'
+        lookbook_id: 'Lookbook'
+      invite:
+        phone: 'Phone'
+        role_id: Role
+      admin_user:
+        role: Role
+        password: Password
+        password_confirmation: Password confirmation
+      text_blocks:
+        title: Text block name
+      vendor:
+        not_archive: Not archive
+        allow_system_notification: Platform notifications enabled
+        show_currency_symbol: Show currency symbol in prices
+        client_occupation_validation: Profession
+        client_company_name_validation: Company name
+        enable_client_registration: Allow customer registration
+        client_registration_button_text: Text for customer registration button
+        disabled_dictionary_entity_counters: Turn off the goods counter by properties
+        redirect_to: Redirect from store to site
+        tax_type: VAT rate
+        tax_mode: Tax system
+        use_as_example: "Show on the examples page?"
+        https_custom_domain: Domain for which HTTPS is set
+        active_domain_unicode: Used address
+        enable_https_redirection: 'Redirect from http:// to https://'
+        http_cache_expires_in: HTTP cache (in minutes)
+        _delete_domain: Detach domain
+        vendor_organization: Organization on behalf of which orders are created in MyStock
+        vendor_organization_id: Organization on behalf of which orders are created in MyStock
+        vendor_group_id: Employee department
+        order_warehouse_id: Stock at which to reserve the order
+        legal_name: 'The official name of the organization'
+        is_show_filter_toggle_button: 'Show "Hide Filter" button'
+        filter_has_ordering_by_price: 'Item "Sort by price"'
+        is_one_click_buy: Go directly to checkout after adding the goods to the cart
+        is_logo_link: The logo leads to the main page.
+        pre_products_text: 'Text on the main page before the list of goods'
+        post_products_text: 'Text on the main page after the list of goods'
+        name: Name
+        title: 'Short title'
+        orders_count: Orders
+        products_count: Goods
+        created_at_date: Registration date
+        created_at_month: Month of registration
+        created_at_week: Week of registration
+        total_orders_success: Percentage of completed orders
+        total_orders_price: Cost of orders
+        total_success_orders_price: Cost of completed orders
+        success_orders_count: Completed orders
+        has_orders: Orders
+        has_domain: Domain
+        has_products: Product
+        has_success_payments: Payments
+        success_payments_count: Payments
+        domain: Used domain
+        suggested_domain: Domain (intended)
+        cached_active_domain: Active domain
+        subdomain: Subdomain
+        domain_zone: Zone
+        theme: Topic
+        logo: Logo
+        mobile_logo: Mobile logo
+        city: City
+        city_id: City
+        phone: Phone
+        email: E-mail
+        mobile_title: Name of Application
+        mobile_subject: 'Application Page: Title'
+        mobile_description: 'Application Page: Text'
+        mobile_footer: Order button
+        mobile_delivery: Text about delivery
+        mobile_empty_cart_alert: Error text when order is empty
+        minimal_price: Minimum order amount
+        delivery_price: Cost of delivery
+        google_analytics_tracking_id_html: 'Tracking ID in <a href="%{url}" target="_blank">Google Analytics</a>'
+        yandex_metrika_tracking_id_html: 'Counter number in <a href="%{url}" target="_blank">Yandex Metrika</a>'
+        custom_append_html: Additional html code <body>
+        custom_product_html: Additional html-code on the product page
+        custom_head_html: Additional html code <head>
+        custom_after_content_html: Additional html code before <footer>
+        footer_menu_middle_html: HTML code in the central column of the bottom menu
+        robots: Robots.txt
+        contacts: Contacts in title
+        order_notification_emails: E-mails for order notifications
+        support_email:  Reply-to
+        order_notification_phones: Phones for order notifications via SMS
+        pickup_address: Pickup address
+        currency_iso_code: Currency
+        default_currency: Currency
+        available_currencies: Additional currencies
+        stock_on?: My stock
+        is_published: "Published?"
+        instagram_user_id: Instagram User Id
+        run_out_message: Message about the sold products
+        package_category_id: Packing category
+        show_cart_button_in_list: Display the button "Add to cart" in the list of products
+        show_quantity_in_list: Display the quantity entry field in the product list
+        has_auto_menu: Automatic menu
+        show_filter_availability: 'Item "Accessibility"'
+        show_filter_price_range: 'Item "Price Range"'
+        public_offer_page_id: Public offer page
+        vk_group_id: Select a group to export products
+        vk_export_period: Download scheduled (once every N days)
+        has_client_cabinet: Customer account
+        default_locale: Default language of site
+        available_locales: Available languages
+        has_wishlists: Wish list
+        show_out_of_stock_products: Show ended products
+        has_product_comments: Display product comments
+        tasty_exportable: Unload products at Taaasty
+        tasty_user_token: Tasty user token
+        tasty_tlog_id: Tumblelog ID for unloading
+        default_product_position: Product position when added to category
+        balance: Balance
+        last_success_order_at: Last order
+        last_payment_at: Date of last payment by the client
+        registration_at: Date of registration
+        instagram_client_id: Client ID
+        instagram_client_secret: Client Secret
+        partner_coupon: Coupon
+        instagram_username: Instagram username
+        show_full_basket_count: The total number of items in the cart widget
+        sorted_cart: "Sorting \"Add to cart\""
+        tariff: 'Tariff'
+        next_month_tariff: 'Tariff for the next month'
+        is_enabled: "Included?"
+        stock_success_synced_at: Date of last synchronization with the stock
+        is_menu_top_desktop_sticky: 'Sticky top menu'
+        paid_to: Paid up to
+        working_to: Works to
+        show_header_buttons_in_cart: 'Display "Checkout" in the header of "Add to cart"'
+        show_next_resource_in_list: 'Display a link to the next resource in lists'
+        show_subscription_email: Display the subscription E-mail form in the bottom menu.
+        convead_send_subscription_email: Send signed E-mails to Convead
+
+      vendor/domain_aliases:
+        domain: Additional domain
+      client:
+        id: ID
+        rfm: RFM segment
+        recency: Prescription purchases (days)
+        name: Name
+        total_orders_price: Amount of purchases
+        currency: Currency
+        orders_numbers: Order numbers
+        first_order_created_at: Date of first order
+        last_order_created_at: Last order date
+        products_count: Number of purchased positions
+        products_titles: Purchased products
+        products_articles: Articles of purchased products
+        phones: Phones
+        emails: E-mails
+        orders_count: Number of orders
+        created_at: Date of creation
+        client_category_id: Category
+        inn: ITN
+        kpp: IEC
+        ogrn: PSRN
+        okpo: OKPO
+        description: Description
+        legal_title: Full name
+        company_name: Company name
+      theme:
+        title: Name
+      vendor_theme:
+        product_image_position: Image position
+        show_short_details: Show product properties
+        category_product_columns: Products in a row in the category
+        category_product_rows: Product lines in the category
+        theme_template_key: Style
+        custom_body_class: Custom CSS class in body
+        custom_style_format: 'Style format'
+        custom_style: 'Additional styles'
+        category_filter_visible: 'Show product filter in categories'
+        mainpage_filter_visible: 'Show product filter on homepage'
+        instagram_visible: Show Instagram photos from Instagram
+        banner_visible: Show banner
+        slider_visible: Show slider
+        show_similar_products: Display of similar products
+        is_welcome_random: 'Products on home page in random order'
+        show_children_products_on_welcome: Group products from root categories
+        mainpage_product_columns: 'Number of columns'
+        mainpage_product_rows: 'Number of lines'
+        show_pagination_on_welcome: 'Show paging'
+      category:
+        name: Name
+        title: Name
+        vendor: Stores
+        show_children_products: Group products from silimar categories
+        next_resource_id: Next category
+        google_product_category_id: google_product_category
+      product:
+        is_digital: "Digital product?"
+        file_url: Download link
+        sale_price: Discount price
+        weight?: "Does it sold by weight?"
+        id: ID
+        ms_uuid: UUID in MyStock
+        externalcode: externalcode
+        title: Product Name
+        category_id: Category ID
+        categories: Additional categories
+        quantity: Balance
+        images: Images
+        category: Category
+        video_url: Link to video
+        name: Name
+        description: Description
+        article: Vendor code
+        price_cents: Price
+        sale_price_cents: Discount price
+        is_sale: Enable sale
+        image: Image
+        vendor: Store
+        selling_by_weight: This product is sold by weight
+        price: Price
+        main_category: Main category
+        main_category_id: Main category
+        weight_of_price: Weight for which the price is indicated (kg)
+        is_published: "Published?"
+        tags: Tags
+        multiple_choice: Possibility to put several items in the "Add to card" in the card of product
+      operator:
+        locale: Interface language
+        password: Password
+        password_confirmation: Password confirmation
+        name: Name
+        admin_vendor_links: Stores
+        vendors: Stores
+        access_key: 'API Key (X-Api-Key)'
+      vendor_to_operator:
+        vendor: Store
+      authentication:
+        authenticatable: User
+        pin_code: Pin
+        provider: Provider
+      order:
+        phone: Phone
+        city_id: City
+        address: Address
+        name: Name
+        comment: Comment
+        delivery_states:
+          new: Waiting to start
+          not_needed: Not required
+          delivery: Delivering
+          done: Delivered
+          canceled: Canceled
+        payment_states:
+          new:     Waiting for payment
+          direct:  Waiting for cash payment
+          paid:    Paid
+          failed:  Canceled
+          canceled:  Canceled
+        states:
+          new: New
+          accepted: Active
+          done: Done
+          canceled: Canceled
+        delivery_time_period_id: Time of delivery
+      coupon:
+        code: Code
+        is_discounting_package: Make a discount on packaging
+        use_count: Remaining use
+        used_count: Number of uses
+        discount: Discount
+        discount_type: Discount type
+        expires_at: Valid until
+      dictionary_entity:
+        custom_title: Name
+        next_resource_id: The next element of the directory
+      dictionary:
+        custom_title: Name
+        type: Type
+        menu_visible: Show in menu
+      property:
+        custom_title: Name
+        show_in_filter: Show in filter
+        use_in_short_details: Show in catalog
+        filter_position: Show in filter
+      tariff:
+        state: Status
+        published_vendors_count: Published stores
+        vendors_count: Stores
+        title: 'Name'
+        can_send_sms_with_negative_balance: 'The ability to send SMS with a negative balance'
+        sms_price: 'SMS cost'
+        moysklad_price: 'Cost MyStock'
+        row_order: Sorting
+        description: Description
+        month_price: Cost (month)
+        can_change: You can change
+        link_kiosk_disable_price: 'Price of hiding title "Build on %{brand_name_e}"'
+        is_default: 'Default tariff'
+        feature_edit_menu: Manual menu editing
+        feature_package: Packaging
+        feature_to_basket_in_list: 'Button "Add to cart" in the list of products'
+        feature_notify_templates: 'Notification templates'
+        feature_client_cabinet: 'Customer account'
+        feature_wishlist: 'Wish list'
+        feature_order_state: 'Individual order statuses'
+        feature_walletone: 'WalletOne'
+        feature_domain: 'Individual domain'
+        feature_custom_css: 'CSS editing'
+        feature_convead: 'Convead'
+        feature_pages: 'Text pages'
+        feature_max_users: 'The number of employees'
+        feature_max_products: 'Number of products'
+        feature_instagram: 'Instagram feed'
+        feature_export_data: 'Data export'
+        feature_yandex_kassa: 'Yandex Cash'
+        feature_coupon: 'Promo codes'
+        feature_rbk_money: RBK Money
+        feature_blog: Blog
+        feature_lookbook: Lookbook
+        feature_multilanguage: Multilingual
+        feature_delivery_tracking: Delivery tracking
+        feature_delivery_service: Integration with delivery services
+        feature_moysklad: Integration with MyStock service
+        feature_yandex_market: Unloading Yandex Market
+        feature_torg_mail: Unloading torg.mail.ru
+        feature_amocrm: AmoCRM
+        feature_import: "Import data from Google Spreadsheet and other"
+        feature_slider: Slider
+      tariff_order:
+        from_orders_count: 'Number of orders (from)'
+        to_orders_count: 'Number of orders (to)'
+        per_order_price: 'Order cost'
+        per_month_price: 'Cost per month'
+      vendor_template:
+        is_test: 'On testing'
+        real_vendors_count: 'Real stores'
+        name: "Name"
+        description: "Description (HTML)"
+        image: "Main screenshot"
+        vendor_id: Source store ID
+        vendors_count: All Stores
+        position: "Position in the list"
+        vendor: Template store
+        precreated_vendors_count: Pre-created stores
+      dashboard_item:
+        key: Key
+        title: Headline
+        text: Text
+        position: Position
+        path: Link
+        created_at: Created
+        updated_at: Updated
+        icon: Icon
+      vendor_email:
+        email: From
+      delivery_time_rule:
+        to: From
+        time: Time
+        days_count: Number of days
+    errors:
+      wrong_category: There is no such category
+      self_descendant: Category cannot be nested
+      reset_password_token_is_out_of_date: Password recovery token is outdated. Send request again
+      home_category_restriction: Attempt to delete native category
+      operator_not_found: Operator with such phone or mail is not found
+      product_union:
+        price_is_not_uniqueness: Product prices are not the same
+        maximum: 'Maximum number of products in the union: %{max}'
+      models:
+        vendor_bitrix24:
+          attributes:
+            url:
+              url: 'Wrong address'
+        import_spread_sheet_info:
+          attributes:
+            google_spreadsheet_url:
+              url: 'Invalid table address'
+        client_email:
+          attributes:
+            email:
+              email: 'Invalid e-mail'
+        subscription_email:
+          attributes:
+            email:
+              email: 'Invalid e-mail'
+        vendor:
+          attributes:
+            subdomain:
+              slug: "Subdomain must contain only Latin letters, numbers, _ or -"
+            support_email:
+              email: "Invalid e-mail format"
+        invite:
+          attributes:
+            email:
+              email: "Invalid e-mail format"
+        user_request:
+          attributes:
+            email:
+              email: Not an e-mail address
+        operator:
+          attributes:
+            email:
+              email: Not an e-mail address
+        order:
+          attributes:
+            email:
+              email: Not an e-mail address
+        slider_image:
+          attributes:
+            image:
+              file_size_is_less_than: 'Image size should not exceed %{count}'
+            link_url:
+              url: Not a link
+        top_banner:
+          attributes:
+            link_url:
+              url: Not a link
+        blog_post:
+          attributes:
+            url:
+              url: Not a link
+        slug_resource:
+          attributes:
+            path:
+              uri_component: 'Invalid link format'
+            redirect_path:
+              uri_component: 'Invalid link format'
+        slug_redirect:
+          attributes:
+            path:
+              uri_component: 'Invalid link format'
+            redirect_path:
+              uri_component: 'Invalid link format'
+        menu_item:
+          attributes:
+            link_url:
+              url: 'Link must begin with http://'
+        property:
+          attributes:
+            key:
+              unchangable: Cannot change key
+        domain_alias:
+          attributes:
+            domain:
+              taken: already taken
+        product:
+          attributes:
+            file_url:
+              url: "Must be a link on the file "
+            video_url:
+              url: Not a link
+  activemodel:
+    attributes:
+      vendor_registration_form:
+        name: Name
+        city_id: City
+        phone: Phone
+        email: E-mail
+      operator_login_form:
+        phone: Phone number
+        pin_code: Pin
+      client_login_form:
+        phone: Phone number or e-mail
+        pin_code: Pin
+      pin_form:
+        phone: Phone

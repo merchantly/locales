@@ -1,0 +1,35 @@
+ru:
+  human:
+    companies_selled_count:
+      zero: '0 компаний продали'
+      one: '%{number} компания продала'
+      few: '%{number} компании продали'
+      many: '%{number} компаний продало'
+      other: '%{number} компаний продало'
+    products_count:
+      zero: '---'
+      one: 'продан %{number} позиция'
+      few: 'продано %{number} позиции'
+      many: 'продано %{number} позиций'
+      other: 'продано %{number} позиций'
+    total_orders_amount:
+      zero: '%{number} миллионов рублей'
+      one: '%{number} миллион рублей'
+      few: '%{number} миллиона рублей'
+      many: '%{number} миллионов рублей'
+
+    coupon:
+      use_count:
+        zero: 'Остаток: %{count}'
+        one: 'Одноразовый'
+        few: 'Остаток: %{count}'
+        many: 'Остаток: %{count}'
+        other: 'Остаток: %{count}'
+        infinite: 'Многоразовый'
+      used_count:
+        zero: 'Не использован'
+        one: 'Использован %{count} раз'
+        few: 'Использован %{count} раза'
+        many: 'Использован %{count} раз'
+        other: 'Использован %{count} раз'
+

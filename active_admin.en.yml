@@ -1,0 +1,112 @@
+en:
+  active_admin:
+    dashboard: "Control Panel"
+    dashboard_welcome:
+      welcome: "Welcome to Active Admin. This is the standard site management page."
+      call_to_action: "Look in 'app/admin/dashboard.rb' to add something here"
+    view: "Open"
+    edit: "Change"
+    delete: "Delete"
+    delete_confirmation: "Are you sure that you want to delete it?"
+    new_model: "Create %{model}"
+    create_model: "Create %{model}"
+    edit_model: "Change %{model}"
+    update_model: "Change %{model}"
+    delete_model: "Delete %{model}"
+    details: "%{model} more"
+    cancel: "Cancel"
+    empty: "Clear"
+    previous: "Prev."
+    next: "Next"
+    download: "Loading:"
+    has_many_new: "Add %{model}"
+    has_many_delete: "Delete"
+    has_many_remove: "Remove"
+    filters:
+      buttons:
+        filter: "Filter"
+        clear: "Clear"
+      predicates:
+        contains: "Contains"
+        equals: "="
+        starts_with: "Begin with"
+        ends_with: "Ends"
+        greater_than: "more"
+        less_than: "less"
+    main_content: "Create %{model}#main_content to display content."
+    logout: "Exit"
+    powered_by: "Powered by %{active_admin} %{version}"
+    sidebars:
+      filters: "Filters"
+    pagination:
+      empty: "%{model} not found"
+      one: "Result: <b>1</b>%{model}"
+      one_page: "Result: <b>%{n}</b>%{model}"
+      multiple: "Result: %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> из <b>%{total}"
+      multiple_without_total: "Result: %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b>"
+      entry:
+        one: "note"
+        few: "notes"
+        many: "notes"
+        other: "notes"
+    any: "Any"
+    blank_slate:
+      content: "Not yet %{resource_name}."
+      link: "Create"
+    batch_actions:
+      button_label: "Group operations"
+      default_confirmation: "Are you sure that you want to do this?"
+      delete_confirmation: "Are you sure you want to delete %{plural_model}?"
+      succesfully_destroyed:
+        one: "Successfully deleted: 1 %{model}"
+        few: "Successfully deleted: %{count} %{plural_model}"
+        many: "Successfully deleted: %{count} %{plural_model}"
+        other: "Successfully deleted: %{count} %{plural_model}"
+      selection_toggle_explanation: "(Mark all / Deselect all)"
+      link: "Create"
+      action_label: "%{title} selected"
+      labels:
+        destroy: "Delete"
+        archive: 'To archive'
+        restore: 'Restore'
+    comments:
+      resource_type: "Resource type"
+      author_type: "Type of author"
+      body: "Text"
+      author: "Author"
+      title: "Comment"
+      add: "Add a comment"
+      resource: "Resource"
+      no_comments_yet: "There are no comments yet."
+      title_content: "Comments (%{count})"
+      errors:
+        empty_text: "The comment is not saved. The text should not be empty."
+    devise:
+      email:
+        title: E-mail
+      password:
+        title: "Password"
+      login:
+        title: "Log In"
+        remember_me: "Remember me"
+        submit: "Log In"
+      reset_password:
+        title: "Forgot your password?"
+        submit: "Reset the password"
+      change_password:
+        title: "Change Password"
+        submit: "Change Password"
+      unlock:
+        title: "Resend unlock instructions"
+        submit: "Resend unlock instructions"
+      links:
+        sign_in: "Log In"
+        forgot_your_password: "Forgot your password?"
+        sign_in_with_omniauth_provider: "Login with %{provider}"
+    access_denied:
+      message: "You are not authorized to perform this action."
+    index_list:
+      table: "Table"
+      block: "List"
+      grid: "Grid"
+      blog: "Blog"

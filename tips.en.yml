@@ -1,0 +1,31 @@
+en:
+  tips:
+    titles:
+      similar_products:
+        content: Goods installed here will be displayed in the "Similar products" block on the product page.
+
+    product:
+      video_url:
+        title: 'Link to published video'
+        content: 'The video for this link will be displayed on the product page.'
+
+      quantity:
+        title: 'Number of items in stock (residues)'
+        content: |
+          <h4>Available for sale quantity of goods.</h4>
+          <p>The customer will not be able to order goods more than entered in this field. If the quantity is zero or has a negative value, then the product is no more and it is not for sale.</p>
+          <h4>Endless goods</h4>
+          <p>If your product never ends or you monitor its residues, leave this field blank. An empty field means that the product is not finished and its balance will not be taken into account when ordering.</p>
+          <h4>Reservation</h4>
+          <p>Write-off of balances (reservation) occurs either at the time of order creation or at the time of receipt of payment. It depends on the payment method settings.</p>
+        placement: top
+
+      is_sale:
+        content: 'If the sale is included, then the product will be sold at the price you entered in the field "Discount price"'
+
+    integrations:
+      export_yml:
+        update_period: The file is updated every hour.
+      convead:
+        title: 'convead adjusts automatically'
+        content: 'Customizing of notifications about viewing products, filling a list of purchases and purchasing are set up automatically. You only need to enter the access key (app_key)'

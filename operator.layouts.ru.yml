@@ -1,0 +1,50 @@
+ru:
+  operator:
+    layouts:
+      header_search:
+        title: Поиск и фильтр
+      bells:
+        read_all: 'Пометить все как прочитанные'
+        scope:
+          all: 'Все'
+          read: 'Прочитанные'
+          unread: 'Непрочитанные'
+      clients:
+        title: Клиенты
+        add_category: 'Добавить категорию'
+        all: Все клиенты
+      orders:
+        title: Заказы
+        search_query: Номер заказа, комментарий или товар
+        from_at: Дата от
+        to_at: Дата до
+        search_button: 'Найти'
+        new_order: 'Создать заказ'
+        search: 'Поиск по заказам'
+        add_filter: 'Добавить фильтр'
+        all: Все заказы
+        settings:
+          states: 'Статус заказов'
+          conditions: Правила
+          mail_templates: 'Уведомления'
+          filters: 'Фильтры'
+      products:
+        title: Товары
+        new_button: 'Добавить товар'
+        search: 'Поиск по товарам'
+        all: Все товары
+        without_categories: 'Товары без категорий'
+        sale: 'Товары со скидкой'
+        is_run_out: 'Товары закончились'
+        on_welcome: 'Товары на главной'
+        categories: Категории
+        add_category: 'Добавить новую категорию'
+        settings:
+          categories: 'Категории товаров'
+          properties: 'Свойства товаров'
+          tags: 'Тэги товаров'
+          dictionaries: 'Справочники'
+          archive: "Архив товаров (%{count} шт.)"
+          public: 'Эта категория на сайте'
+          edit: 'Настройка этой категории'
+          moysklad: Обмен данными с Moysklad'

@@ -1,0 +1,43 @@
+ru:
+  operator:
+    js:
+      product:
+        unknown: Неизвестный товар
+        update_error: Ошибка изменения товара
+        not_found: "Сожалеем, по вашему запросу '%{query}' ничего не найдено."
+        searching: "Ищем товары по запросу '%{query}'"
+        ajax_error: 'Ошибка %{status}'
+      seconds_count:
+        zero: сейчас
+        one: '%{count} секунду'
+        few: '%{count} секунды'
+        many: '%{count} секунд'
+        other: '%{count} секунд'
+      dropzones:
+        default_message: "Переместите сюда файлы для загрузки"
+        file_too_big: "Файл слишком большой"
+        invalid_file_type: "Файлы с таким разрешением загружать нельзя"
+        cancel_upload: "Остановить загрузку"
+        cancel_upload_confirmation: "Действительно остановить загрузку?"
+        remove_file: 'Удалить'
+      settings_form:
+        text: "Нажимая данную кнопку вы отключаете надпись \"Сделано на %{brand_name_e}\".\r\nС вашего баланса будет списано 1000р.\r\nПри отключении кнопки деньги не возвращаются."
+      properties_manager:
+        empty_property_list: 'Вы не создали характеристики'
+        add_property_button: 'Добавить характеристику'
+        create_property_button: 'Создать характеристику'
+        choose_property_name_placeholder: 'Введите название'
+        add_property_name_placeholder: 'Добавить {label} ?'
+        property_name_not_found: 'Результаты не найдены'
+        unknown_type_of_property: 'Неизвестный тип характеристики'
+        choose_property_value_placeholder: 'Введите значение'
+        property_value_not_found: 'Нет подходящего значения характеристики'
+        add_property_value_placeholder: 'Добавить {label} ?'
+        property_value_string_placeholder: 'Значение свойства'
+        property_value_time_placeholder: 'Укажите дату и время'
+        property_value_link_placeholder: 'Значение свойства'
+        proerty_value_text_placeholder: 'Значение свойства'
+      cart_autocomplete:
+        placeholder: 'Найти товар'
+      categories_selectize:
+        placeholder: 'Добавьте хотябы одну'

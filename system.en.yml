@@ -1,0 +1,181 @@
+en:
+  system:
+    vendor_empty: 'Store empty'
+    month_price: '%{currency} / month'
+    create_shop: 'Create store'
+    tariffs: tariffs
+    default_vendor_name: Untitled
+    policy_label: User agreements confirmation
+    call: call – %{phone}
+    back: Return back
+    support: Support
+    navigation: Navigation
+    login_as_other: Login as other
+    login_for_managers: 'Login for store managers'
+    not_authorized_to_this_store: Not authorized for this store
+    you_authorzed_as: You authorized as <em>%{name}</em>
+    enter: 'Enter<span class="hidden-xs hidden-sm"> for store managers</span>'
+    flashes:
+      landing_steps: 'Process has <b>3 simple steps</b> and you need <b>20 seconds</b> to finish it'
+      you_are_welcome: "Welcome, %{name}!"
+      phone_confirmed: "Phone %{phone} is confirmed"
+      enter_you_phone: 'Enter you phone number in international format'
+      wrong_pin_code: Wrong pin code
+      subscriptions_updated: 'Subscription preferences are updated'
+
+    chart:
+      selling_vendors:
+        month: 'Sales stores per month'
+        week: 'Selling stores a week'
+      vendors: 'Registration of stores'
+      orders:
+        all: 'Orders'
+        paid: 'Orders completed'
+      payments: 'Payment for orders (in rubles)'
+
+    welcome_form:
+      go: Start
+
+    titles:
+      open_store: Open store
+      error: Write to support if you are not agree.
+
+    headers:
+      my_shops: "My stores (%{count})"
+      profile: 'Personal profile'
+      subscriptions: 'Subscription Management'
+      partner: 'Partner office'
+      access_keys: 'Access keys (API)'
+      create_shop: 'Create a store'
+      enter_for_store: Enter for store managers
+    disable_with:
+      registration: 'Creating a store..'
+      login: 'Entering..'
+    vendor:
+      archive_reason: 'Moved to archive due to inactivity'
+    invoices:
+      amount: "Payment Amount:&nbsp;"
+      pay: 'Pay'
+      pdf: 'Bill for payment by transfer (PDF)'
+      test_cards: 'Test cards 4111111111111111'
+      number: 'Payment account #%{number}'
+      paid: The bill is paid
+    leads:
+      title: Your application is accepted.
+      body: "If we do not call you back within 12 hours, please dial"
+    metrics:
+      vendor_cellers_count: 'Sold stores:'
+      weekly_orders_summ: 'Billed:'
+      weekly_average_order_amount: 'Average bill:'
+      weekly_payments_summ: 'Paid orders:'
+      monthly_orders_summ: 'Billed'
+      monthly_average_order_amount: 'Average bill:'
+      monthly_payments_summ: 'Paid orders:'
+      weekly: During the week
+      monthly: Per month
+      paid_least_once: Paid at least one order for all time.
+      period_options:
+        one_month: '1 month'
+        three_months: '3 months'
+        six_months: '6 months'
+        year: 'Year'
+      data_for_date: Data on
+      refresh_to: Update in
+    operator_vendors:
+      title: "Stores available to you (%{count})"
+      products_count: 'Goods:'
+      orderable_products_count: 'Of which are on sale:'
+      orders_count: 'Orders:'
+      total_order_price: 'For the amount of:'
+      total_success_orders_price: 'Of them completed:'
+      shop_archived: The store is in the archive
+      restore: 'Restore'
+      operator_url: 'Control Panel'
+      role: 'Your role: %{role}'
+    operators:
+      invite:
+        title: '%{operator_inviter} invites you to join the %{link} store.'
+        introduce_yourself: Please introduce yourself so that we know how to contact you.
+        phone_number: 'Phone number (optional)'
+    payments:
+      success:
+        title: Thanks for paying!
+        back_to_shop: 'Return to store'
+        kiiiosk: 'Service Kiosk'
+        tariff: 'Tariff'
+        tariff_payment: 'Tariff payment'
+    phone_confirmations:
+      sms_should_come: SMS should come within a minute.
+      request: You can re-request the code through
+      resend: 'resend code'
+      resend_help: "SMS should come within a minute, if not,"
+      title: "Confirm phone %{phone}"
+      recevied_sms: 'You have received an SMS with a code, enter it:'
+      pin_code: 'Code from SMS, for example: ac78'
+      confirm: 'Confirm'
+      checking: 'Checking..'
+      walletone_phone: Phone to connect the wallet WalletOne
+      walletone_info: This wallet receives payment for goods and services sold at the kiosk.
+      enter_phone: Enter the phone to confirm
+      phone_example: 'For example: +7 903 389 12 28'
+      phone_label: 'Telephone in international format'
+      send_pin_code: 'Get SMS with confirmation code'
+      sending: 'Sending..'
+    profile:
+      name: 'Your name'
+      password: 'Enter a password if you want to change it.'
+      phone_confirmations: 'Confirmed phones:'
+      phone_confirmed: (confirmed)
+      phone_wait: (awaiting confirmation)
+      confirm: 'Confirm'
+      confirmed: 'Confirmed'
+      hello: 'Hi %{name}!'
+      edit_title: "This is your personal profile, you can change it."
+    access_keys:
+      title: "Store API access keys (%{key})"
+      th:
+        shop: Store
+        private_api_url: Link to merchant API (closed)
+        public_api_url: Link to customer API (public)
+        key: "Your passkey (%{key})"
+      operator_api: 'Merchant API'
+      client_api: 'Customer API'
+    requests:
+      create: |
+        Thank you, %{name}. Your application has been accepted!
+        </br>
+        </br>
+        You will be contacted with person soon, according to the requisites indicated by you (%{email}, %{phone})
+      new: Leave a request
+    spf_checker:
+      instruction: 'Instructions for configuring SPF records in DNS'
+      title: Check SPF records
+      availability_check: "<strong>Check availability&nbsp;  %{domain} &nbsp; in user domain"
+      email: 'Email address for verification'
+      check: 'Check'
+      success: "Everything is OK! Email valid, SPF Record enabled"
+      error: Oops .. SPF Record not found.
+    subscriptions:
+      hello: "Hi %{name}!"
+      title: Mailings to which you are subscribed
+      save: 'Save'
+    vendors:
+      choice_template:
+        title: 'Create a new store "%{name}"'
+        step: Step 2 of 3.
+        select: Choose a template suitable for your industry.
+        submit: 'Choose'
+      new:
+        title: Create a new store
+        name: Enter the name of your store
+        step: Step 1.
+        example_name: 'For example: shoes store "Leonardo"'
+        continue: 'Continue'
+        already_have_account: "Already have an account in the system?"
+      set_contacts:
+        title: 'Create a new store "%{name}" with the template "%{template}"'
+        phone: Specify your phone for authorization and order notifications.
+        step: Step 3 (last).
+        use_existing_account: "We will use your existing account %{operator}"
+        email: 'Email (not necessary)'
+        continue: Continue

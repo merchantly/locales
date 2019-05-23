@@ -1,0 +1,79 @@
+ru:
+  order_mailer:
+    client:
+      subjects:
+        new_order:    "{{vendor_name}}: Новый заказ №{{order.public_id}}"
+        payment_link: "{{vendor_name}}: Информация об оплате заказа №{{order.public_id}}"
+        paid:         "{{vendor_name}}: Поступила оплата заказа №{{order.public_id}}"
+        workflow_changed: "{{vendor_name}}: Заказ №{{order.public_id}} получил статус '{{order.workflow_state.title}}'"
+        delivery_expired: '{{vendor_name}}: Заказ скоро будет отменен'
+        reminder_payment: '{{vendor_name}}: Истекает резерв'
+        client_category_changed: '{{client.vendor_name}}: Вас перевели в другую группу {{client.category_name}}'
+    merchant:
+      subjects:
+        new_order:    "{{vendor_name}}: Новый заказ №{{order.public_id}}"
+        paid:      "{{vendor_name}}: Поступила оплата заказа №{{order.public_id}}"
+        workflow_changed: "{{vendor_name}}: Заказ №{{order.public_id}} получил статус '{{order.workflow_state.title}}'"
+        run_out:   "{{vendor_name}}: Закончился товар"
+  invite_mailer:
+    new_invite:
+      subject: "Приглашение в проект %{vendor}"
+  partner_mailer:
+    register_vendor:
+      subject: "Зарегистрировался новый магазин на %{brand_name_e} из Казахстана"
+  vendor_mailer:
+    unpublish:
+      subject: "Kiiiosk.ru: Магазин %{host} снят с публикации"
+    negative_balance:
+      subject: "Kiiiosk.ru: Отрицательный баланс на счету в магазине %{host}"
+    balance_refill:
+      subject: "Kiiiosk.ru: Пополнение баланса в магазине %{host}"
+    balance_subtract:
+      subject: "Kiiiosk.ru: Списание баланса в магазине %{host}"
+    need_payment:
+      subject: "Kiiiosk.ru: Необходимо произвести оплату по тарифу в магазине %{host}"
+    not_enough_sms_money:
+      subject: 'Kiiiosk.ru: Недостаточно средств для отправки SMS в магазине %{host}'
+    sms_money_limit_reached:
+      subject: 'Kiiiosk.ru: Ваш SMS баланс приближается к порогу отключения в магазине %{host}'
+    shop_will_archive:
+      subject: 'Kiiiosk.ru: Магазин {{vendor.home_url}} будет перенесен в архив'
+    archive:
+      subject: 'Kiiiosk.ru: Магазин {{vendor.home_url}} был перенесен в архив'
+    analytics:
+      subject: 'Kiiiosk.ru: Еженедельная аналитика по магазину %{host}'
+    registration:
+      subject: 'Добро пожаловать'
+    notify_shop_will_archive:
+      subject: 'Уведомление об оплате'
+    vendor_archived:
+      subject: 'Магазин в архиве'
+  support_mailer:
+    support_mail:
+      insufficient_funds: 'Не удалось провести автоплатеж для %{account_id} - недостаточно средств на карте'
+  coupon_image_mailer:
+    send_client_mail:
+      subject: Подарочный сертификат от магазина "%{vendor_name}"
+      body: >
+        Здравствуйте!
+        <br>
+        Благодарим Вас за покупку подарочного сертификата от магазина "%{vendor_name}" !
+        <br>
+        <br>
+        Сертификатом можно оплатить часть заказа или всю покупку полностью. При оформлении заказа введите индивидуальный промокод с сертификата в поле "промокод".  После этого из итоговой суммы оплаты автоматически вычтется номинал сертификата.
+        <br>
+        <br>
+        Обратите внимание! Сертификат действует один раз, остаток средств на сертификате сгорает.
+        Желаем приятных и полезных покупок!
+        <br>
+        <a href="%{url}" target="_blank">Ссылка на сертификат</a>
+
+  email_confirmation_mailer:
+    send_url:
+      subject: Подтверждение email %{vendor_name}
+      confirmation_url: Ссылка для подтверждения email
+
+  сlient_reset_password_mailer:
+    send_instructions:
+      subject: Сброс пароля %{vendor_name}
+      reset_password_url: Ссылка на сброс пароля

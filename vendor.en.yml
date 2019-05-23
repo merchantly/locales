@@ -1,0 +1,538 @@
+en:
+  vendor:
+    payment_discount:
+      percent: '%{title} (Discount -%{discount}%)'
+      fixed: '%{title} (Discount in money -%{discount})'
+    orders:
+      empty: Order list is empty
+    invoices:
+      bank_name: NAME OF THE BANK
+      bank_bik: BIC BANK
+      bank_korschet: BANK ACQUISITION
+      bank_account_number: ACCOUNT NUMBER
+      bank_inn: MY ITN
+      bank_kpp: MY IEC
+      recipient: RECIPIENT
+      sign_position: POSITION
+      sign_name: FULL NAME
+
+    ajax:
+      error: Failed to execute AJAX request
+    menu:
+      all_products: All goods
+    blog_post:
+      prev_post: Previous post
+      next_post: Next post
+    not_published: Store temporarily down
+    made_in_kiiiosk: 'Build on «%{brand_name_e}»'
+    tasty_product_button_text: Buy
+    more: More
+
+    entities:
+      product: '%{count} product'
+      product_2: '%{count} product'
+      product_5: '%{count} products'
+
+    badges:
+      new: New
+      sale_percent: "SALE %{percent}%"
+      not_available: Not for sale
+      sale: SALE
+      sold: Sales
+
+    gallery:
+      close: Close
+      next: Forward
+      prev: Back
+
+    search:
+      results_title: 'Search results (%{count})'
+      nothing_found: 'Sorry, nothing found.'
+
+    seconds_count: '%{count} second'
+    seconds_count_2: '%{count} seconds'
+    seconds_count_5: '%{count} seconds'
+
+    locales:
+      ru: Russian
+      en: English
+
+    activemodel:
+      errors:
+        models:
+          vendor_order_form:
+            invalid_phone: 'Invalid phone format. Note: +7 913 123 32 10'
+            attributes:
+              address:
+                blank: can't be empty
+              email:
+                email: not an email address
+              city_title:
+                blank: can't be empty
+              phone:
+                blank: can't be empty
+              name:
+                blank: can't be empty
+              public_offer_accepted:
+                blank: You must accept the terms of the public offer
+
+    validators:
+      available_quantity:
+        no_quantity:
+          one: 'Only 1 item left in stock. Change the amount.'
+          few: 'Only %{count} items left in stock. Change the amount.'
+          many: 'Only %{count} items left in stock. Change the amount.'
+          other: 'Only %{count} items left in stock. Change the amount.'
+        not_available: 'This item has ended'
+    errors:
+      cart:
+        empty: 'There are no products in the bin.'
+        minimal_price: 'The minimum order value is %{minimal_price}'
+        not_ordering: 'In the card are goods not available to order'
+      coupon:
+        not_found: 'Non-existing %{code} promo code'
+        expired: 'Promo Code Overdue %{code}'
+      order:
+        no_price_delivery: 'Shipping cost is calculated after order.'
+        invalid_form: 'Order not yet accepted, correct errors in the form'
+        has_unorderable_goods: 'In the order are inaccessible products'
+        no_items: 'There are no products in the order.'
+        unavailable_currency: Cannot order in selected currency
+        comment: The comment cannot be empty.
+        client_payment:
+          unavailable: "Payment system %{payment_title} specified in the personal account is not available %{cabinet_path}"
+          delivery_unavailable: "Payment system %{payment_title} specified in the personal account is not available for delivery% {delivery_title}% {cabinet_path}"
+        client_delivery:
+          unavailable: "Delivery %{delivery_title} specified in your account is not available %{cabinet_path}"
+          goods_unavailable:  "Delivery% {delivery_title} specified in your account is not available for these products% {cabinet_path}"
+      order_item:
+        file_unavailable: 'Maximum download limits is reached (more than %{max} count) or order was not paid.'
+        only_for_digital: 'This page for digital products only'
+        need_to_pay: 'Pay order first'
+
+    placeholders:
+      coupon: Promo code (if any)
+      search: Search
+
+    alerts:
+      confirm: "Accurately clean?"
+
+    flashes:
+      sberbank_no_url: We have got error with Sberbank payment. Contact to support team.
+      order_no_duplicate: "Some products can not be duplicated, because at the moment they are not available"
+      wait_for_pay_notify: 'Thanks for paying! We expect confirmation from the bank!'
+      no_delivery_price: 'You cannot pay for an order that does not have a shipping charge.'
+      thanks_for_pay: 'Thanks for paying!'
+      good_added_to_basket: 'Product "% {title}" added to cart  '
+      goods_added_to_basket: 'Products added to cart'
+      client:
+        sms_sending_error: Error sending SMS. Try again later or inform the store
+        sms_money_reached: "Sending SMS is disabled, contact the store"
+        pin_code_sent: PIN code sent to your number
+        not_found_html: 'You have not bought in our store. <a href="%{url}">Fix!</a>'
+        login_no_phone: Login is not a phone
+        login_no_email: Login is not email
+        reset_password_sent: Instructions for resetting the password have been sent to the mail.
+        not_registered: "You are not registered in our store yet. <a href=\"%{url}\">Fix!</a>"
+      client_registration:
+        success: You have been successfully registered. Your phone has a pin code to enter
+        client_exists: A client with such data already exists. Your phone has a pin code to enter
+        invalid_credentials: Correct form errors
+        request_timeout: "You can re-request the code in %{timeout} seconds."
+        invalid_phone: Invalid phone number
+        registration_disabled: Customer registration is disabled in the store
+      client_email_confirmation:
+        success: Your email has been successfully verified
+        invalid_token: Invalid token
+        invalid_client_email: Email not found
+        send_email_confirmation: A confirmation link has been sent to your email.
+      client_reset_password:
+        success: Password successfully changed
+        reset_password_token_invalid: Incorrect password reset token
+      cabinet:
+        client_form:
+          success: Data updated
+
+
+    mails:
+      signature: 'Regards, online store "%{name}"'
+
+    auto_menu_items:
+      blog: Blog
+
+    top_banner:
+      default_content: We have opened!
+
+    order:
+      no_delivery_price_info: 'Calculates the cost of delivery. Order can be paid when the cost is known.'
+      no_price_delivery: Price not specified
+      invoice: Download invoice in PDF
+      fields:
+        phone: Phone
+        name: Full name
+        email: Email
+        city_title: Delivery City
+        address: Delivery address
+        comment: Comment
+        coupon_code: Promo code
+        delivery_city_id: City of issue
+        pickup_point_id: Point of issue
+        region: Region
+        street: Street
+        house: House
+        slash: Fraction
+        room: Apartment / Office
+        postal_code: Postcode
+        first_name:  Name
+        second_name: Surname
+        patronymic: Middle name
+        delivery_time_period_id: Time of delivery
+        yandex_delivery_id: Yandex delivery option
+      placeholders:
+        city_title: Moscow
+        phone: 'For example, +7 913 123 32 10'
+        name: FULL NAME.
+        address: "For example, Academic Vavilov 12-10"
+        comment: What we need to know
+        email: Email
+        region: Perm region
+        street: Academician Vavilov
+        house: 12
+        slash: Leave blank if not
+        room: 10
+        postal_code: 614087
+        first_name: Alexander
+        second_name: Ivanov
+        patronymic: Olegovych
+
+      submit: Checkout
+      pickup_address: 'Pickup address:'
+      title: "Order №%{number} in %{vendor}"
+      payment_type: 'Payment method: %{title}'
+      delivery_type: 'Delivery method:% {title}'
+      free_delivery_text_html: 'Free shipping on orders over %{free_delivery_threshold}<nobr>'
+      checkout_free_delivery_text_html: 'Free for orders over <nobr>%{free_delivery_threshold}</nobr>'
+      go_back: Back
+      next: Continue
+      download_button: Upload file
+      delivery_tracking_id: 'Shipping tracking number: %{number}'
+      check_state: Check delivery status
+      public_offer_accepted_html: 'I agree with the terms <u><a href="%{url}" target="_blank">of the public offer</a></u>'
+      created:
+        title: Thank you for the order
+        desc_html: >
+          The manager will contact you soon to confirm the order. Your phone %{phone} Your order %{link} worth %{price}
+      new:
+        delivery_title: Select the type of delivery.
+        payment_title: Payment Methods
+        contacts_title: Enter data
+        sum: for the amount of
+      redirect: "Within 5 seconds, you will be forwarded to the payment page."
+      redirecting: Forwarded to the site payment
+      go_to_payment: Go to the payment
+      continue_shopping: Continue shopping
+      contents: 'Order list:'
+      delivery_price: Cost of delivery
+      pay: Pay
+      discount: Discount
+      free_delivery_tooltip: Free shipping
+      processing: 'The order is made out. Wait a minute'
+      wait: 'Wait...'
+
+    blog:
+      read_more: More..
+
+    notice:
+      catalog_filter:
+        selected_products: 'Selected options'
+        show_products: 'Show'
+
+    coupon:
+      discount: 'Discount -%{discount}'
+      discount_products_include: 'on products: %{products}'
+      discount_categories_include: 'on categories: %{categories}'
+      discount_products_exclude: 'except products: %{products}'
+      discount_categories_exclude: 'except categories: %{categories}'
+      minimal_products_count: '. At least %{count} of goods'
+      invalid: 'Coupon "%{value}" NOT valid'
+      checking: 'Checking coupon..'
+      error: 'Error checking coupon. Try again'
+
+    cart:
+      basket_button: Cart
+      amount: Quantity
+      weight: Weight
+      overall: 'Total:'
+      title: Cart
+      clear: Delete all goods
+      not_available: No longer for sale
+      empty: There is nothing here yet
+      wait: 'Wait...'
+      continue_shopping: 'Continue selection'
+      selected_products: Selected items
+      not_selected_products: No product selected
+      just_added: Items added to cart
+      warning_unavailable_deliveries: 'Some delivery methods are not available for these products. You can familiarize yourself with the available delivery methods for a product of interest on its page.'
+
+    wishlist:
+      add_item: Add to wishlist
+      wishlist_button: Wish list
+      private_title: Your wish list
+      foreign_title: Someone's wish list
+      empty: There is nothing here yet
+      no_price: Not for sale
+
+    packaging:
+      add: To add
+      add_gift_package: Add to order
+      no_package: Do not add
+
+    payment:
+      w1:
+        failure:
+          title: Payment failed
+          desc: Payment has not been made.
+        success:
+          title: Thank you for the order
+          desc: Payment for the order has been made
+
+    category:
+      continue_shopping: Continue shopping
+      empty: 'Oh, and there''s nothing here. Until.'
+
+    dictionary_entity:
+      continue_shopping: Continue shopping
+      empty: 'Oh, and there''s nothing here. Until.'
+
+    similar_product:
+      title: With this product also buy
+    other_product:
+      title: Other goods
+
+    product:
+      title: Product
+      blank_price: 'Price unknown'
+      run_out: 'Not available'
+      not_available: 'Not for sale'
+      available: 'Can buy'
+      sold_out_message_html: '&laquo;%{title}&raquo; now not for sale'
+      nothing_found_by_criteria: 'Sorry, nothing found. Try changing your search criteria.'
+      category_title: Category
+      show_other_products: View other products
+      show_all: Show all
+      weight: Weight
+      kg: kg
+      available_deliveries: 'This item is available for delivery: %{delivery_titles}'
+
+    properties:
+      empty: 'No features to display.'
+
+    property:
+      unknown_type: 'Unknown type of characteristic'
+      defaults:
+        size: Size
+        color: Colour
+
+    pages:
+      titles:
+        cart: Cart
+        order: Checkout
+        payment: Payment
+        payment_success: Successful payment
+        payment_error: Payment error
+
+    filter:
+      order_by_price:
+        title: Sort
+        desc: First expensive
+        asc: First cheap
+        preset: According to established order
+      availability: Availability
+      price_range: Price range
+      expand_button:
+        expand: Expand the list
+        turn: Hide the list
+      selected_options:
+        availability: Availability
+        price_range: 'Price from %{from} to %{to} %{currency}'
+      selected_availability:
+        all: All
+        available: In stock
+        run_out: At request
+        sale: Sale-out
+        unknown: unknown
+      hide: Hide filter
+      show: Show filter
+
+    button:
+      to_cart: Add to cart
+      select_good: Select a feature
+      go_wishlist: 'Go to "Wish List"'
+      to_wishlist: 'Add to "Wish List"'
+      remove_from_wish_list: 'Remove from "Wish List"'
+      adding_to_wish_list: 'Adding ..'
+      already: Already in the card
+      auth_for_buy: Sign in to buy
+      publish_shop:
+        text: Post
+        title: 'Store is disabled. Click to post'
+      disable_with:
+        sending: Sending...
+        saving: Saving...
+        waiting: Waiting...
+        adding: Adding...
+
+    products:
+      others: Other
+      nothing_found_by_criteria: No results found for this criteria.
+
+    cabinet_order:
+      items_count: '%{itemsCount} pos.'
+      duplicate: Duplicate
+
+    client:
+      auth: My account
+      registration: Sign Up
+      reset_password: Новый пароль
+      client_form:
+        title: The choice of delivery and payment system
+      company_form:
+        title: Company details
+      titles:
+        phone: Phone number
+        pin: Pin
+        name: Your name
+        new_password: New password
+        occupation: Profession
+        company_name: Наименование компании
+        city_title: City
+        address: Address
+        region: Region
+        street: Street
+        house: House
+        room: Apartment
+        slash: Fraction
+        first_name: Name
+        second_name: Surname
+        patronymic: Middle name
+        payment: Payment method
+        delivery: Delivery
+        postalCode: Postcode
+        company_name: Company name
+        inn: ITN
+        kpp: IEC
+        ogrn: PSRN
+      placeholders:
+        phone: Phone number
+        pin: Pin
+        name: Your name
+        email: Email
+        password: PIN or password
+        login: Phone number or Email
+        new_password: New password
+        occupation: Profession
+        company_name: Наименование компании
+        city_title: City
+        address: Address
+        region: Region
+        street: Street
+        house: House
+        room: Apartment
+        slash: Fraction
+        first_name: Name
+        second_name: Surname
+        patronymic: Middle name
+        postalCode: Postcode
+        company_name: Company name
+        inn: ITN
+        kpp: IEC
+        ogrn: PSRN
+      pin_alert:
+        send: Get password
+        timeout: SMS should arrive within a minute. <br>You can re-request a code throught
+      reset_password:
+        send: Сбросить пароль
+      submit: Log In
+      registration_submit: ОК
+      no_account: "No account?"
+      logged_in_with: 'You are already logged in as<br /><b>%{name}</b>.'
+      continue_logged: 'Continue under this name..'
+      create_account: Create
+      logout: Exit
+      cabinet:
+        title: My account
+        orders: Order list
+        button: My account
+        create: Create a personal account
+        send_pin_code: Send PIN
+        disable_with: Sending..
+        phones: Phones
+        emails: Emails
+        delivery_select:
+          blank: Choose shipping
+        payment_select:
+          blank: Choose payment system
+      reset_password_submit: Save
+      confirmed: Confirmed by
+      no_confirmed: Not confirmed
+      reset_password: Reset the password
+      save_submit: Save
+
+    money:
+      unknown_iso_code: "Unknown currency type %{isoCode}"
+    product_list:
+      next_button:
+        text: '%{title}'
+    subscription_email:
+      title: Subscribe to the newsletter
+      text: ""
+      submit_button_text: Subscribe
+      unknown_error: Unknown error
+      success_text: Thanks for subscribing!
+
+    userbar:
+      design: 'Design'
+      operate:
+        product: 'Product Management'
+        category: 'Category Management'
+        dictionary_entity: 'Dictionary Element Management'
+        dictionary: 'Dictionary management'
+        lookbook: 'Lookbook management'
+        content_page: 'Page management'
+        blog: 'Blog management'
+        blog_post: 'Manage this post'
+        shop: 'Store Management'
+
+    design_settings:
+      title: Design Management
+      main_page: 'Home page'
+      products_in_row: 'Goods in a row'
+      page_rows: "Product lines"
+      page_filter: "Product filter left"
+      page_slider: "Slider in the middle"
+      page_random: "Goods in random order"
+      category_page: 'Category Page'
+      product_page: 'Product page'
+      page_photo: "Photo Location"
+      similar_products: "Similar products below"
+      general_settings: 'General settings'
+      show_cart_button_in_list: 'Display the button "Add to cart" in the list of goods'
+      show_quantity_in_list: 'Display the quantity entry field in the product list'
+      main_page_instagram: "Instagram gallery below"
+      main_page_banner: "Banner on top"
+      walletone_widget: "W1 widget bottom"
+      style: 'Style'
+      logo: "Logo (preferably .SVG)"
+      page_bg: "Page Background"
+      page_bg_color: "Page color"
+      feed_bg_color: "Content color"
+      feed_transparency: "Ribbon Transparency"
+      font_color: "Text color"
+      font_family: "Font"
+      font_size: "Font size"
+      active_elements_color: "Active Color"
+      select_file: 'Select a file...'
+      select_other_file: 'Select another file...'
+      saving: 'Saving...'
+      save: 'Save'
+      no_changes: 'No changes'

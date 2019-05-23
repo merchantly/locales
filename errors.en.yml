@@ -1,0 +1,159 @@
+en:
+  errors:
+    format: '%{attribute} %{message}'
+    cloud_payments:
+      ReferToCardIssuer: Contact your bank or use another card.
+      DoNotHonor: Contact your bank or use another card.
+      Error: Check your account details or use another card.
+      Invalid: Use another card
+      AmountError: Check the amount
+      FormatError: Try again later
+      BankNotSupportedBySwitch: Use another card
+      SuspectedFraud: Contact your bank or use another card
+      LostCard: Contact your bank
+      StolenCard: Contact your bank
+      InsufficientFunds: Not enough funds on the card
+      ExpiredCard: Check your account details or use another card
+      TransactionNotPermitted: Contact your bank or use another card
+      ExceedWithdrawalFrequency: Contact your bank or use another card
+      IncorrectCVV: Check your account details or use another card
+      Timeout: Try again later or use another card.
+      CannotReachNetwork: Try again later or use another card.
+      SystemError: Try again later
+      UnableToProcess: Try again later or use another card.
+      AuthenticationFailed: Contact your bank or use another card.
+      AuthenticationUnavailable: Contact your bank or use another card.
+      AntiFraud: Use another card
+    messages:
+      is_not_agree: 'We can''t create a store for you if you a not accept our conditions'
+      invalid_domain: Invalid domain name
+      invalid_subdomain: "Invalid subdomain name (there should be only Latin letters, digits, -, _ without dots)"
+      reserved_subdomain: already taken
+      no_www: Enter a domain without www.
+      record_invalid: Испорченная запись
+      invalid_range: Period end date must be greater than start date.
+      intersection: "The period overlaps with another (id =% {id})"
+      carrierwave_processing_error: "can not process the download file, perhaps this is not an image"
+      carrierwave_integrity_error: unresolved file type
+      carrierwave_download_error: can not download the file from the network
+      extension_white_list_error: "Invalid extension of the file %{extension}, only allowed: %{allowed_types}"
+      extension_black_list_error: "Invalid extension of the file %{extension}, only allowed: %{allowed_types}"
+      mime_types_processing_error: "Can't recognize MIME :: Types of file: %{e}"
+      url_error: Invalid download URL
+      mini_magick_processing_error: "Image processing error, maybe this is not an image? %{e}"
+      invalid_url: invalid reference
+      accepted: need to confirm
+      blank: can't be empty
+      confirmation: does not match confirmation
+      empty: does not match confirmation
+      equal_to: "can only have a value of %{count}"
+      even: may only have an odd value
+      exclusion: has a reserved value
+      greater_than: "may be greater than %{count}"
+      greater_than_or_equal_to: "may be greater than or equal to %{count}"
+      inclusion: has unintended meaning
+      invalid: wrong value
+      less_than: "may be less than %{count}"
+      less_than_or_equal_to: "may be less than or equal to %{count}"
+      not_a_number: not a number
+      not_an_integer: is not an integer
+      odd: can only have an even meaning
+      record_invalid: 'Errors occurred: %{errors}'
+      taken: already exists
+      invalid_date: can't be empty
+      on_or_before: can not be longer than the current time
+      too_long:
+        few: "Too long (cannot be more than %{count} characters)"
+        many: "Too long (cannot be more than %{count} characters)"
+        one: "Too long (cannot be more than %{count} characters)"
+        other: "Too long (cannot be more than %{count} characters)"
+      too_short:
+        few: "Insufficient length (cannot be less than %{count} characters)"
+        many: "Insufficient length (cannot be less than %{count} characters)"
+        one: "Insufficient length (cannot be less than %{count} characters)"
+        other: "Insufficient length (cannot be less than %{count} characters)"
+      wrong_length:
+        few: "Insufficient length (cannot be less than %{count} characters)"
+        many: "Incorrect length (may be exactly the length of the %{count} character)"
+        one: "Incorrect length (may be exactly the length of the %{count} character)"
+        other: "Incorrect length (may be exactly the length of the %{count} character)"
+    template:
+      body: 'Problems arose with the following fields:'
+      header:
+        few: '%{model}: saving failed due to %{count} errors'
+        many: '%{model}: saving failed due to %{count} errors'
+        one: '%{model}: saving failed due to %{count} errors'
+        other: '%{model}: saving failed due to %{count} errors'
+    operator_authentication:
+      invalid_credentials: "Invalid username or pin code, enter the correct data, <a href=\"%{pin_code_url}\">request a new pin code</a> or <a href=\"%{registration_url}\">register</a>"
+    pin_sender:
+      invalid_phone: "Invalid phone number, enter the correct number or <a href=\"%{registration_url}\">register</a>"
+    vendor_registration:
+      not_unique_phone: "This phone is already registered, <a href=\"%{login_url}\">enter the site</a>"
+    vendor_order_form:
+      no_payment: "There are not available payment methods "
+    robots:
+      no_sitemap: Missing Sitemap
+      no_host: Missing Host
+      no_user_agent: Missing User-agent
+      invalid_host: "The 'Host' parameter (%{host}) does not match the store address (%{home_url})"
+      disallowed: "The site is closed from indexing by search engines. Delete the Disallow: / line if you want to open"
+      disallow_defaults_not_set: "Not closed from indexing system pages: /orders, /cart, /wishlist"
+    # cart:
+      # unvalid:
+      # empty: 'Добавьте товары в корзину для оформления заказа'
+      # has_unorderable_items: 'Некоторые товары в вашей корзине не могут быть заказаны в данный момент. Пожалуйста, удалите их чтобы продолжить оформление заказа.'
+    order:
+      unknown_good: Mistake! Not delivered the goods for quick checkout. Continue the selection..
+      unavailable_payment: 'This type of payment does not apply for such delivery. Choose another.'
+      has_unorderable_items: Some items cannot be ordered.
+      cancelation_of_paid_order: Cannot cancel paid order
+      no_delivery_or_payment: 'Unfortunately, it is impossible to place an order right now, because the store has not configured payment or delivery methods.'
+      public_offer_not_accepted: You must accept the terms of the public offer
+      unavailable_currency: Cannot order in selected currency
+      not_first_order_coupon: "Coupon %{coupon_code} is for first order only."
+      minimal_products_count:
+        one: "Coupon %{coupon_code} is only for ordering from %{count} of goods"
+        few: "Coupon %{coupon_code} is only for ordering from %{count} of goods"
+        many: "Coupon %{coupon_code} is only for ordering from %{count} of goods"
+        other: "Coupon %{coupon_code} is only for ordering from %{count} of goods"
+    order_form:
+      cart_empty: Cart empty
+    invite:
+      invalid: 'The invitation by which you came is no longer valid.'
+    product:
+      nothing_to_export_html: 'No products were found ready for unloading. <a href="%{url}">Add</a> at least one product and try again.'
+      price:
+        currencies_conflict: 'The currency of the item does not match the currency of the seller %{product_currency}<>%{vendor_currency}'
+    image:
+      no_files: Not all images are on the disc.
+      width_not_fits: 'Image width must be exactly %{width}'
+    coupon:
+      expires_at_in_past: cannot be less than the current time
+    ms:
+      relative_element_not_found: 'No related element %{type}#%{id} in %{entity_class}#%{entity_id}'
+      local_relative_element_not_found: 'No local sibling element %{type}#%{id} in %{entity_class}#%{entity_id}'
+      no_consignment_for_good: "Not found invoice %{consignment_id} for element %{type}#%{id}"
+    favicon_uploader:
+      filename: "Invalid file name (%{name})"
+    active_admin_comment:
+      not_found: Comment not found
+    slug_redirect:
+      path_equals_to_redirect: The way cannot be redirected to itself
+      dead_redirect: Redirect leads nowhere
+    w1:
+      registration_service:
+          registration_error: 'Error registering menChart with WalletOne'
+      invalid_pin_code: wrong pin code
+    vendor_theme_form:
+      analytics_js: '^ JavaScript code for analytics should not contain a script tag, directly analytic code can be inserted in the "Additional HTML code <head>in on all pages"'
+    client_login_form:
+      invalid_login: Enter phone or email
+    client_registration_form:
+      required: Obligatory field
+    client_authentication:
+      moderation:
+        rejected: Your registration request was rejected.
+        pending: Your account is moderated
+    workflow_state:
+      not_unique_name: "Name is not unique "

@@ -1,0 +1,171 @@
+en:
+  enumerize:
+    product_image_position:
+      above: Above product description
+      aside: Next to the product description
+    event:
+      on_create: 'When ordering'
+      on_workflow_change: 'When changing the status of the order'
+      on_pay_success: 'If successful payment'
+      on_pay_failure: 'When payment failed'
+    action:
+      delivery: 'Reserve and start delivery'
+      reserve: 'Reserve product'
+      unreserve: 'Remove from reserve'
+      change_state: Change order status
+      notification: 'Send notification'
+
+    payment_state:
+      any: 'Any'
+      success: 'Successful payment'
+      failure: 'Payment failed'
+    finite_state:
+      any: 'Any'
+      new: 'New'
+      in_process: 'In the process'
+      failure: 'Failed'
+      success: 'Completed successfully'
+    invite:
+      role:
+        owner: 'Owner'
+        manager: 'Administrator'
+        guest: 'Guest'
+    role_permission:
+      resource_type:
+        PaymentAccount: 'Payment operations'
+        Product: 'Goods'
+        Vendor: 'Other settings'
+        SliderImage: Slider
+        Translation: Translations
+        MailTemplate: Letter templates
+        DictionaryEntity: Directory elements
+        Member: Employees
+        SubscriptionEmail: Email subscriptions
+        Lookbook: Lookbooks
+        LookbookImage: Images of lookbooks
+        ProductImage: Images of goods
+        ContentPageImage: Images of text pages
+        OperatorDashboardBuilder: Home page
+        Warehouse: Stocks
+        HistoryPath: Transition history
+        VendorPayment: Payment methods
+        Role: Roles
+        VendorProductAnalyticsDay: Analytics
+        TopBanner: Top banner
+        MenuItem: Menu
+        Property: Property
+        OrderCondition: Order Rules
+        BlogPost: Blog
+        Order: Orders
+        Slug: CNC
+        Invite: Invitations
+        VendorSmsLogEntity: SMS log
+        WorkflowState: Order statuses
+        Tag: Product tags
+        Coupon: Discount coupons
+        VendorDelivery: Delivery methods
+        Dictionary: Directories
+        ContentPage: Text pages
+        Category: Categories
+        Cart: Add to Cart
+        Client: Customers
+        ActiveAdmin::Comment: 'Comments'
+        OrderOperatorFilter: Order filters
+        Moysklad: MyStock
+        AssetImage: Images
+        VendorBells::VendorBell: Notifications
+        DeliveryTimeSlot: Timeslot
+        DeliveryTimePeriod: Time slot gap
+        DeliveryTimeRule: Time slot rule
+        CouponImage: Certificate templates
+        OrderItem: Order positions
+        ClientCategory: Customer category
+        PriceKind: Type of Price
+    member:
+      role:
+        owner: 'Owner'
+        manager: 'Administrator'
+        guest: 'Guest'
+    vendor_job:
+      state:
+        created: 'Waiting to start'
+        process: 'In the process'
+        failure: 'Completed with an error'
+        success: 'Successfully completed'
+    vendor_walletone:
+      legal_form:
+        unknown: Unknown
+        personal: Individual (commission 6%)
+        business: Legal entity (commission 4%)
+
+    product:
+      show_similar_products:
+        'selected_only': Installed products only
+        'auto': Installed and suitable
+        'off': Show nothing
+      show_other_products:
+        'selected_only': Installed goods only
+        'auto': Installed and suitable
+        'off': Show nothing
+    system_text:
+      code:
+        partner_program: Affiliate program
+    system_mail_delivery:
+      state:
+        draft: Draft
+        process: In the process
+        done: Finished
+    coupon:
+      use_products_behavior:
+        include: Apply only to selected goods
+        exclude: Apply to all but selected goods
+      use_categories_behavior:
+        include: Apply only to selected categories
+        exclude: Apply to all but selected categories.
+      discount_type:
+        percent: '%'
+        fixed: 'Fixed amount'
+    system_mail_template:
+      template_type:
+        tech: "Important and emergency information (a couple of times a year, we do not recommend unsubscribing)"
+        news: "Service news, marketing (no more than once a month)"
+        analytics: "Analytics own store (weekly, with sales)"
+    vendor:
+      default_product_position:
+        first: The first
+        last: Last
+      client_occupation_validation:
+        no_presence: Do not request
+        presence: Request/Not necessary
+        required: Request/Necessary
+      client_company_name_validation:
+        no_presence: Do not request
+        presence: Request/Not necessary
+        required: Request/Necessary
+
+    order_russian_post:
+      new: New. To send the form to the Russian Post click on the button below.
+      delivery: "Delivered. The form has been successfully created. Blank ID %{order_delivery.external_id}"
+      canceled: "Canceled. Failure while creating the form - %{order_delivery.error}"
+      done: 'Delivered'
+    vendor_delivery:
+      use_products_behavior:
+        include: Apply only to selected goods
+        exclude: Apply to all but selected goods
+      use_categories_behavior:
+        include: Apply only to selected categories
+        exclude: Apply to all but selected categories
+      yandex_delivery_type:
+        todoor: Courier
+        pickup: Pickup point
+        post: Post of Russia
+    coupon_image:
+      align:
+        none: No
+        center: Centered
+        left: On the left side
+        right: On the right side
+    payment_to_delivery:
+      discount_type:
+        percent: '%'
+        fixed: 'Fixed amount'

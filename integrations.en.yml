@@ -1,0 +1,177 @@
+en:
+  integrations:
+    groups:
+      payment:
+        title: Payment systems
+        details: "Payment systems are used to receive payment from customers. As a rule, they take from 2 to 4% for services."
+
+      online_kassa:
+        title: Online cashbox (Federal Act No. 54 of Russia Federation)
+        details: Fiscal registrars for e-commerce
+      crm:
+        title: External CRM
+        details: Automatic creation of clients and transactions in external CRM systems
+
+      stock:
+        title: Stock
+        details: Accounting for balances and reservation of goods in stock
+
+      comment:
+        title: Goods Reviews
+        details: Forms of commenting and reviews of goods on the site
+
+      analytics:
+        title: Analytics
+        details: External analytics services
+
+      export:
+        title: Data export
+        details: "Unloading information about goods, orders, customers in convenient formats for further use"
+
+      other:
+        title: Other
+
+      import:
+        title: Data import
+        details: "Loading information about goods, orders and customers in the %{brand_name}"
+
+    import_spread_sheet_infos:
+      title: 'Download goods from Google Spreadsheet'
+      description_html: ''
+
+    walletone:
+      title: 'walletone'
+      description_html: Universal payment acceptance system on the site including in favor of individuals.
+
+    pay_pal:
+      title: 'PayPal'
+      description_html: The world's largest debit electronic payment system. Well suited for receiving payment from foreign customers.
+
+    yandex_kassa:
+      title: 'Yandex Kassa'
+      description_html: "Acceptance of payment by electronic money, cash, with bank cards."
+
+    cloud_payments:
+      title: CloudPayments
+      description_html: Payment gateway to receive payment through plastic cards. Quick connect. Only for legal entities.
+
+    rbk_money:
+      title: 'RBK Money'
+      description_html: Electronic payment service.
+
+    robokassa:
+      title: 'Robokassa'
+      description_html: Payment service
+
+    tinkoff:
+      title: 'Tinkoff'
+      description_html: 'Internet acquiring from Tinkoff Bank'
+
+    sberbank:
+      title: 'Sberbank'
+      description_html: 'Acquiring from Sberbank'
+
+    moysklad:
+      title: My Stock
+      description_html: Full synchronization (import) of stock list and stock balances. Automatic unloading of orders and reservation of goods in stock.
+
+    vkontakte:
+      title: 'vkontakte.ru'
+      description_html: Connect VK and start sharing and reviews on the goods page. <br> Export goods to the group and get orders from VK.
+
+    tasty:
+      title: 'Taaasty.com'
+      description_html: 'Export goods to the Tumblelog and get orders from Taaasty.'
+
+    disqus:
+      title: 'Disqus.com'
+      description_html: 'A web service that provides the ability to import online discussions and comments to the user''s site.'
+
+    convead:
+      title: convead.io
+      description_html: "A comprehensive system, which allows you to collect email-addresses, return abandoned baskets, increase conversion and increase repeat sales."
+
+    facebook:
+      title: Facebook
+      description_html: Connect Facebook and launch on the goods page sharing and reviews.
+
+    atol:
+      title: Atol
+      description_html: Rent of online cash boxes registers for online trading
+
+    starrys:
+      title: StarRys
+      description_html: Rent of online cash boxes registers for online trading
+
+    kassatka:
+      title: Kassatka
+      description_html: Rent of online cash boxes registers for online trading
+
+    life_pay:
+      title: LifePay
+      description_html: Rent of online cash boxes registers for online trading
+
+    orange_data:
+      title: OrangeData
+      description_html: Rent of online cash boxes registers for online trading
+
+    cloud_kassir:
+      title: CloudKassir
+      description_html: Rent of online cash boxes registers for online trading
+
+    instagram:
+      title: Instagram
+      description_html: Automatically updated photo gallery at the bottom pages of your store.
+
+    google_analytics:
+      title: Google Analytics
+      description_html: Connect and configure Google Analytics with one click!
+
+    # vkontakte_export:
+    #   title: Экспорт товаров в Товары vkontakte
+    #   description_html: Автоматическая выгрузка товаров из %{brand_name_a} в Товары Vkontakte
+    #   site_url: https://vk.com/page-59800369_51014929
+
+    import_yml:
+      title: Import of goods
+      description_html: Import of goods in Yandex.Market format (.xml)
+
+    import_tables:
+      title: Import of goods
+      description_html: "Upload information about goods (names, prices, balances)"
+
+    import_photos:
+      title: Download a large number of products photos
+      description_html: Download a large number of products photos
+
+    yandex_metrika:
+      title: Yandex Metrika
+      description_html: Connect and configure Yandex Metric with one click!
+
+    torg_mail:
+      title: Torg@Mail.ru
+      description_html: Unload goods in the Trading of Mail.ru and receive orders from there.
+      logo_bg_color: '#666'
+
+    commerce_ml:
+      title: 1C Trade v7/v8
+      description_html: Unloading items and stock balances from 1C via CommerceML
+
+    bitrix24:
+      title: bitrix24
+      description_html: Customers and orders are automatically uploaded to Bitrix24
+
+    amo_crm:
+      title: AmoCRM
+      description_html: Customers and orders are automatically uploaded to AmoCRM
+
+    yandex_market:
+      title: 'yandex.market.ru'
+      description_html: Regular export of goods to yandex.market.ru
+
+    export:
+      title: 'Data export'
+      description_html: "Downloading information about goods, orders, customers, etc. in CSV, XML, YML"
+    apidoc:
+      title: 'API %{brand_name_a}'
+      description_html: Full access to store data through the REST JSON API.

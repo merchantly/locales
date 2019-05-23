@@ -1,0 +1,9 @@
+ru:
+  validators:
+    good_item:
+      must_be_good: 'Good должен быть Product или ProductItem'
+
+    phone_validator:
+      invalid_phone: 'Неверный формат телефона. Прим.: +7 913 123 32 10'
+    vendor:
+      welcome_category_package_category_not_same: 'Категория для главной страницы не должна совпадать с категорией упаковок'

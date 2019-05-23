@@ -1,0 +1,13 @@
+ru:
+  form_objects:
+    errors:
+      messages:
+        invalid_range: Дата окончания периода должна быть больше даты начала
+        intersection: Период пересекается с другим
+  activemodel:
+    errors:
+      models:
+        registration_form:
+          attributes:
+           phone:
+             improbable_phone: Некорректный номер телефона

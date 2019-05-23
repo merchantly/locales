@@ -1,0 +1,13 @@
+en:
+  google_spreadsheet:
+    columns:
+      skip : '(skip)'
+      article: 'Article'
+      price: 'Price'
+      sale_price: 'Discount price'
+      category: 'Product category'
+      quantity: 'Quantity'
+      new_property: '(new property)'
+      title: 'Product name'
+      description: 'Short description'
+    property_title: '(property: %{title})'

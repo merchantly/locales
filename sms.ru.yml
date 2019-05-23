@@ -1,0 +1,8 @@
+ru:
+  sms:
+    order:
+      vendor:
+        new_order: "Заказ %{order_id} на сумму %{total} %{client_name} %{delivery} %{city} %{payment}"
+        paid: "Оплачен заказ N%{order_id} на сумму %{total}"
+        canceled: 'Отменен заказ N%{order_id} по причине неоплаты'
+        run_out: 'Не хватает товаров для заказа N%{order_id}'

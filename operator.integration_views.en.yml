@@ -1,0 +1,8 @@
+en:
+  operator:
+    integration_views:
+      index:
+        setup: setup
+        connect: connect
+        use: use
+        connected: connected

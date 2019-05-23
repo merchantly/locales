@@ -1,0 +1,31 @@
+ru:
+  billing:
+    default_invoice_title: 'Модификация программы ЭВМ (kiiiosk.ru)'
+    attach_tariff: "Установили тариф \"%{tariff}\""
+    paid_since: "Оплачено с %{current_paid_to}"
+    paid_since_to: "Оплачено с %{current_paid_to} по %{next_paid_to}"
+    paid_to: "Оплачено до %{next_paid_to}"
+    for_sevice: "За сервис %{service}"
+    buyer_name: "%{legal_name} (абонент #%{vendor_id})"
+
+    sms_packet: "Пакет SMS (%{sms_count} шт.)"
+    negative_balance: "Задолженность за обслуживание %{vendor}"
+    next_month_invoice_by_period: "Оплата за обслуживание интернет-магазина %{vendor} по тарифу %{tariff} с %{invoice_date} по %{next_date} (на %{months_count} мес.)"
+    next_month_invoice: "Оплата за обслуживание интернет-магазина %{vendor} по тарифу %{tariff} на %{months_count} мес."
+    first_time_invoice: "Оплата за обслуживание интернет-магазина %{vendor} по тарифу %{tariff}"
+    free_invoice: Оплата за обслуживание интернет-магазина %{vendor}
+
+    accounts:
+      payments: 'Счет с которого поступает оплата'
+      subscriptions:       'Списание абонентской платы'
+      cloudpayments:       'Зачисление оплаты через шлюз Cloudpayments на клиентский счет'
+      gift:                'Бонусное зачисление'
+      pismennyj: 'ИП Письменный Д.В.'
+      development: 'Доработки'
+      sms:                 'Списание оплаты за SMS'
+      walletone:           'Зачисление оплаты через шлюз Walletone на клиентский счет'
+      bank_ip_pismenny:    'Зачисление через расчетный счет ИП Письменный Д.В.'
+      additional_works:    'Списание за дополнительные работы'
+      external_link_kiosk: 'Списание за отключение надписи "Сделано на %{brand_name_e}"'
+      moysklad:            'Списание за интеграцию с МоимСкладом'
+      partners:            'Партнерские зачисления'

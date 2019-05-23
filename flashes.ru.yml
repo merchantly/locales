@@ -1,0 +1,135 @@
+ru:
+  flashes:
+    activeadmin:
+      balance:
+        income: Баланс пополнен
+        subtract: Снятие с баланса
+    cabinet:
+      client_form:
+        success: Данные обновлены
+    loaded: Загружено
+    cache:
+      flush: 'Кеш очищен'
+    menu_items:
+      created: Добавлен пункт меню
+      updated: Обновлен пункт меню
+      deleted: Удален пункт меню
+    roles:
+      created: Роль успешно создана
+      updated: Роль успешно сохранена
+      deleted: Роль была удалена
+      not_destroyed: Роль не может быть удалена
+    tags:
+      created: Тег успешно создан
+      updated: Тег успешно сохранен
+      deleted: Тег был удален
+    batch_actions:
+      nothing: Нечего объеденять!
+      published: Выбранные товары опубликованы
+      unpublished: Выбранные товары скрыты
+      deleted: Выбранные товары удалены
+      merged: 'Товары %{ids} объединены в группу %{union_id}'
+      duplicated: Выбранные товары дублированы
+      duplicated_from_html: 'Товар продублирован с <a href="%{url}">%{product}</a>'
+      categories_updated: Выбранным товарам установлены категории
+      tags_updated: Выбранным товарам установлены теги
+      restored: Товары восстановлены из архива
+      will_be_restored: Выбранные товары скоро будут восстановлены из архива
+      will_be_published: Выбранные товары скоро будут опубликованы
+      will_be_unpublished: Выбранные товары скоро будут скрыты
+      will_be_deleted: Выбранные товары скоро будут удалены
+      will_be_merged: Выбранные товары скоро будут объединены в группу
+      will_be_duplicated: Выбранные товары скоро будут дублированы
+      will_be_categories_updated: Выбранным товары скоро будут установлены категории
+      will_be_tags_updated: Выбранным товарам скоро будут установлены теги
+      all_unduplicable: Нельзя дублировать все товары
+      all_undeletable: Запрещено удалять сразу все товары в магазине. Вдруг Вы ошиблись?
+      all_unmergeable: Нельзя объединить все товары
+      one_unmergeable: Один товар не с кем объединять
+      many_unions_merge: Нельзя объединить несколько объединенных товаров
+      maximum_in_union: 'Максимальное количество товаров в объединении: %{max}'
+    items_batch:
+      wrong_params: Неверные параметры для пакетной обработки
+    lookbook_images:
+      deleted: Изображение удалено
+    content_pages:
+      created: Страница успешно создана
+      updated: Страница успешно сохранена
+      deleted: Страница была удалена
+    top_banners:
+      updated: Верхний баннер успешно сохранен
+    blog_posts:
+      created: Пост успешно создан
+      updated: Пост успешно сохранен
+      deleted: Пост был архивирован
+    order_operator_filters:
+      created: Фильтр успешно создан
+      updated: Фильтр сохранен
+    import_spread_sheet_infos:
+      not_found: 'Файл не найден. Проверьте настройки доступа.'
+      google_drive_error: 'Произошла ошибка: %{message}'
+      empty_table_error: 'В таблице нет строк'
+    bells:
+      read: Прочитали уведомления
+    categories:
+      set: Категории установлены
+      products_added: '%{count} товаров добавлено в категорию'
+    invites:
+      members_added: 'В команду включены операторы: %{operators}'
+      created: Приглашение отправлено
+      deleted: Приглашение удалено
+    ms:
+      already_importing: Товары уже импортируются
+      import_started: Импорт товаров запущен в очередь
+    orders:
+      updated: Заказ отредактирован
+      created: Заказ создан
+      accepted: Заказ принят
+      done: Заказ выполнен
+      canceled: Заказ отменён
+      unreserved: Заказ снят с резерва
+      reserved: Заказ поставлен в резерв
+      start_delivery: 'Доставка запущена'
+    products:
+      created: Товар добавлен
+      updated: Товар изменен
+      export:
+        started: Экспорт запущен
+        error: Ошибка экспорта
+    products_stats:
+      reindex_started: Переиндексация запущена
+    password_reset:
+      change_password: 'Вы авторизованы как %{operator}. Переустановите пароль.'
+    sessions:
+      created: Вы успешно авторизовались
+      unknown_error: Неизвестная ошибка
+      invalid_signature: Ошибка авторизации
+    subscriptions:
+      created: Подписка создана
+    vk:
+      will_be_exported: Выбранные товары скоро будут экспортированы
+    operator:
+      regenerate_api_key: 'Ваш ключ к API обновлен %{api}'
+      confirmed: E-mail успешно подтверждён
+      not_confirmed: Не найден оператор с таким e-mail
+      confirmation_sent: Ссылка для потверждения отправлена на Ваш e-mail
+      confirmation_sent_member: Ссылка для потверждения отправлена
+      max_users_count_error: 'Достигнуто максимальное количество пользователей на текущем тарифе'
+      max_products_count_error: 'Достигнуто максимальное количество товаров на текущем тарифе'
+      spf_check_:
+        fail: 'Email не прошел проверку SPF'
+        success: 'Email успешно проверен'
+    w1:
+      registered: 'Вы успешно зарегистрировались в WalletOne'
+      already_registered: 'Магазин уже зарегистрирован в WalletOne'
+    balance:
+      charged: Оплата прошла успешно
+      choose_tariff: Выберите тариф
+      choose_account_billing: Выберите пополняемый счет
+    publish:
+      select_tariff: 'Для публикации необходимо выбрать и оплатить тариф'
+      success: Магазин успешно опубликован
+    restore:
+      success: Магазин успешно восстановлен
+    unpublish:
+      success: Магазин снят с публикации

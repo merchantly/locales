@@ -1,0 +1,542 @@
+ru:
+  vendor:
+    payment_discount:
+      percent: '%{title} (Скидка -%{discount}%)'
+      fixed: '%{title} (Скидка -%{discount})'
+    orders:
+      empty: Список заказов пуст
+    invoices:
+      bank_name: НАИМЕНОВАНИЕ БАНКА
+      bank_bik: БИК БАНКА
+      bank_korschet: КОРСЧЕТ БАНКА
+      bank_account_number: НОМЕР СЧЕТА
+      bank_inn: МОЙ ИНН
+      bank_kpp: МОЙ КПП
+      recipient: ПОЛУЧАТЕЛЬ
+      sign_position: ДОЛЖНОСТЬ
+      sign_name: РАСШИФРОВКА ПОДПИСИ
+
+    ajax:
+      error: Ошибка выполнения AJAX-запроса
+    menu:
+      all_products: Все товары
+    blog_post:
+      prev_post: Предыдущий пост
+      next_post: Следующий пост
+    not_published: Магазин временно не работает
+    made_in_kiiiosk: 'Сделано на «%{brand_name_e}»'
+    tasty_product_button_text: Купить
+    more: Подробнее
+
+    entities:
+      product: '%{count} товар'
+      product_2: '%{count} товара'
+      product_5: '%{count} товаров'
+
+    badges:
+      new: Новинка
+      sale_percent: "SALE - %{percent}%"
+      not_available: Не продается
+      sale: SALE
+      sold: Продано
+
+    gallery:
+      close: Закрыть
+      next: Вперёд
+      prev: Назад
+
+    search:
+      results_title: 'Результаты поиска (%{count})'
+      nothing_found: 'К сожалению, ничего не найдено.'
+
+    seconds_count: '%{count} секунду'
+    seconds_count_2: '%{count} секунды'
+    seconds_count_5: '%{count} секунд'
+
+    locales:
+      ru: Русский
+      en: English
+
+    activemodel:
+      errors:
+        models:
+          vendor_order_form:
+            invalid_phone: 'Неверный формат телефона. Прим.: +7 913 123 32 10'
+            attributes:
+              address:
+                blank: не может быть пустым
+              email:
+                email: не является email адресом
+              city_title:
+                blank: не может быть пустым
+              phone:
+                blank: не может быть пустым
+              name:
+                blank: не может быть пустым
+              public_offer_accepted:
+                blank: Необходимо принять условия публичной оферты
+
+    validators:
+      available_quantity:
+        no_quantity:
+          one: 'На складе осталась всего 1 штука. Измените количество.'
+          few: 'На складе осталось всего %{count} штуки. Измените количество.'
+          many: 'На складе осталось всего %{count} штук. Измените количество.'
+          other: 'На складе осталось всего %{count} штук. Измените количество.'
+        not_available: 'Данный товар закончился'
+    errors:
+      cart:
+        empty: 'В корзине нет товаров'
+        minimal_price: 'Минимальная стоимость заказа составляет %{minimal_price}'
+        not_ordering: 'В корзине лежат товары не доступные к заказу'
+      coupon:
+        not_found: 'Несуществующий промокод %{code}'
+        expired: 'Промокод просрочен %{code}'
+      order:
+        no_price_delivery: 'Стоимость доставки расчитывается после заказа'
+        invalid_form: 'Заказ еще не принят, исправьте ошибки в форме'
+        has_unorderable_goods: 'В заказе лежат недоступные товары'
+        no_items: 'В заказе нет товаров'
+        unavailable_currency: Невозможно сделать заказ в выбранной валюте
+        comment: Комментарий не может быть пустым
+        client_payment:
+          unavailable: Платежная система %{payment_title} указанная в личном кабинете не доступна %{cabinet_path}
+          delivery_unavailable: Платежная система %{payment_title} указанная в личном кабинете не доступна для доставки %{delivery_title} %{cabinet_path}
+        client_delivery:
+          unavailable: Доставка %{delivery_title} указанная в личном кабинете не доступна %{cabinet_path}
+          goods_unavailable:  Доставка %{delivery_title} указанная в личном кабинете не доступна для данных товаров %{cabinet_path}
+      order_item:
+        file_unavailable: 'Превышено число скачиваний (более %{max}-х раз) или заказ не был успешно оплачен.'
+        only_for_digital: 'Страница предназначеня только для цифровых товаров'
+        need_to_pay: 'Сначало нужно оплатить заказ'
+
+    placeholders:
+      coupon: Промо-код (если есть)
+      search: Поиск
+
+    alerts:
+      confirm: Точно очистить?
+
+    flashes:
+      sberbank_no_url: Произошла ошибка со формированием Сбербанк оплаты - свяжитесь с поддержкой
+      order_no_duplicate: Некоторые товары нельзя продублировать, тк в данный момент они не доступны
+      wait_for_pay_notify: 'Спасибо за оплату! Ожидаем подтверждение от банка!'
+      no_delivery_price: 'Нельзя оплатить заказ, в котором не установлена стоимость доставки'
+      thanks_for_pay: 'Спасибо за оплату!'
+      good_added_to_basket: 'Товар "%{title}" добавлен в корзину'
+      goods_added_to_basket: 'Товары добавлены в корзину'
+      client:
+        sms_sending_error: Ошибка отправки SMS. Попробуйте позже или сообщите в магазин
+        sms_money_reached: Отправка SMS отключена, обратитесь в магазин
+        pin_code_sent: Пин-код отправлен на Ваш номер
+        not_found_html: 'Вы ещё не покупали в нашем магазине. <a href="%{url}">Исправить!</a>'
+        login_no_phone: Логин не является телефоном
+        login_no_email: Логин не является email-ом
+        reset_password_sent: На почту были высланы инструкции по сбросу пароля
+        not_registered: Вы ещё не зарегистрированы в нашем магазине. <a href="%{url}">Исправить!</a>
+      client_registration:
+        success: Вы успешно зарегистрированы. На ваш телефон пришел пин-код для входа
+        client_exists: Клиент с такими данными уже существует. На ваш телефон пришел пин-код для входа
+        invalid_credentials: Исправьте ошибки в форме
+        request_timeout: Запросить код повторно можно через %{timeout} сек.
+        invalid_phone: Некорректный номер телефона
+        registration_disabled: В магазине отключена регистрация клиента
+      client_email_confirmation:
+        success: Ваш емайл успешно подтвержден
+        invalid_token: Невалидный токен
+        invalid_client_email: Не найден email
+        send_email_confirmation: На ваш email пришла ссылка на подтверждение email
+      client_reset_password:
+        success: Пароль успешно изменен
+        reset_password_token_invalid: Некорректный токен сброса пароля
+      cabinet:
+        client_form:
+          success: Данные обновлены
+
+
+    mails:
+      signature: 'С уважением, интернет-магазин "%{name}"'
+
+    auto_menu_items:
+      blog: Блог
+
+    top_banner:
+      default_content: Мы открылись!
+
+    order:
+      no_delivery_price_info: 'Производится расчет стоимости доставки. Заказ можно будет оплатить, когда стоимость будет известна.'
+      no_price_delivery: Цена не указана
+      invoice: Скачать счет в PDF
+      fields:
+        phone: Телефон
+        name: Полное имя
+        email: Email
+        city_title: Город доставки
+        address: Адрес доставки
+        comment: Комментарий
+        coupon_code: Промокод
+        delivery_city_id: Город пункта выдачи
+        pickup_point_id: Пункт выдачи
+        region: Регион
+        street: Улица
+        house: Дом
+        slash: Дробь
+        room: Квартира/офис
+        postal_code: Почтовый индекс
+        first_name:  Имя
+        second_name: Фамилия
+        patronymic: Отчество
+        delivery_time_period_id: Время доставки
+        yandex_delivery_id: Вариант яндекс доставки
+      placeholders:
+        city_title: Москва
+        phone: 'Например, +7 913 123 32 10'
+        name: Ф.И.О.
+        address: Например, Академика Вавилова 12-10
+        comment: О чем нам нужно знать
+        email: Email
+        region: Пермская область
+        street: Академика Вавилова
+        house: 12
+        slash: Оставьте пустым если нет
+        room: 10
+        postal_code: 614087
+        first_name: Александр
+        second_name: Иванов
+        patronymic: Олегович
+
+      submit: Оформить заказ
+      pickup_address: 'Адрес самовывоза:'
+      title: "Заказ №%{number} в %{vendor}"
+      payment_type: 'Способ оплаты: %{title}'
+      delivery_type: 'Способ доставки: %{title}'
+      free_delivery_text_html: 'Бесплатная доставка при заказе свыше <nobr>%{free_delivery_threshold}</nobr>'
+      checkout_free_delivery_text_html: 'Бесплатно при заказе свыше <nobr>%{free_delivery_threshold}</nobr>'
+      go_back: Вернуться назад
+      next: Продолжить
+      download_button: Загрузить файл
+      delivery_tracking_id: 'Трекинг-номер доставки: %{number}'
+      check_state: Проверить статус доставки
+      public_offer_accepted_html: 'Согласен с условиями <u><a href="%{url}" target="_blank">публичной оферты</a></u>'
+      created:
+        title: Спасибо за заказ
+        desc_html: >
+            В ближайшее время менеджер свяжется с вами для подтверждения заказа.
+            <br>
+            Ваш телефон %{phone}
+            <br>
+            Ваш заказ %{link} на сумму %{price}
+      new:
+        delivery_title: Выберите тип доставки.
+        payment_title: Способы оплаты
+        contacts_title: Введите данные
+        sum: на сумму
+      redirect: В течение 5-и секунд вы будете переправлены на страницу оплаты.
+      redirecting: Переправляю на сайт оплаты
+      go_to_payment: Перейти к оплате
+      continue_shopping: Продолжить покупки
+      contents: 'Состав заказа:'
+      delivery_price: Стоимость доставки
+      pay: Оплатить
+      discount: Скидка
+      free_delivery_tooltip: Бесплатная доставка
+      processing: 'Заказ оформляется. Подождите минутку'
+      wait: 'Подождите...'
+
+    blog:
+      read_more: Читать далее..
+
+    notice:
+      catalog_filter:
+        selected_products: 'Выбрано вариантов'
+        show_products: 'Показать'
+
+    coupon:
+      discount: 'Скидка - %{discount}'
+      discount_products_include: 'на товары: %{products}'
+      discount_categories_include: 'на категории: %{categories}'
+      discount_products_exclude: 'кроме товаров: %{products}'
+      discount_categories_exclude: 'кроме категорий: %{categories}'
+      minimal_products_count: '. Не менее %{count} товаров'
+      invalid: 'Купон "%{value}" НЕ действующий'
+      checking: 'Проверяю купон..'
+      error: 'Ошибка при проверке купона. Попробуйте еще раз'
+
+    cart:
+      basket_button: Корзина
+      amount: Количество
+      weight: Вес
+      overall: 'Итого:'
+      title: Корзина
+      clear: Очистить корзину
+      not_available: Больше не продается
+      empty: Пока тут ничего нет
+      wait: 'Подождите...'
+      continue_shopping: 'Продолжить выбор'
+      selected_products: Выбранные товары
+      not_selected_products: Не выбрано ни одного товара
+      just_added: Товары добавлены в корзину
+      warning_unavailable_deliveries: 'Некоторые способы доставки не доступны для данных товаров. Ознакомиться с доступными способами доставки для интересующего товара можно на его странице'
+
+    wishlist:
+      add_item: Добавить в список желаний
+      wishlist_button: Список желаний
+      private_title: Ваш список желаний
+      foreign_title: Чей-то список желаний
+      empty: Пока тут ничего нет
+      no_price: Не продается
+
+    packaging:
+      add: Добавить
+      add_gift_package: Добавить к заказу
+      no_package: Не добавлять
+
+    payment:
+      w1:
+        failure:
+          title: Оплата не прошла
+          desc: Оплата заказа не была произведена
+        success:
+          title: Спасибо за заказ
+          desc: Оплата заказа была произведена
+
+    category:
+      continue_shopping: Продолжить покупки
+      empty: 'Ой, а здесь ничего нет. Пока.'
+
+    dictionary_entity:
+      continue_shopping: Продолжить покупки
+      empty: 'Ой, а здесь ничего нет. Пока.'
+
+    similar_product:
+      title: С этим товаром покупают также
+    other_product:
+      title: Другие товары
+
+    product:
+      title: Товар
+      blank_price: 'Цена неизвестна'
+      run_out: 'Нет в наличии'
+      not_available: 'Не продается'
+      available: 'Можно купить'
+      sold_out_message_html: '&laquo;%{title}&raquo; сейчас не продается'
+      nothing_found_by_criteria: 'Сожалеем, ничего не найдено. Попробуйте изменить критерии поиска.'
+      category_title: Категория
+      show_other_products: Посмотреть другие товары
+      show_all: Показать все
+      weight: Вес
+      kg: кг.
+      available_deliveries: 'Данный товар доступен по доставкам: %{delivery_titles}'
+
+    properties:
+      empty: 'Нет характеристик для вывода'
+
+    property:
+      unknown_type: 'Неизвестный тип характеристики'
+      defaults:
+        size: Размер
+        color: Цвет
+
+    pages:
+      titles:
+        cart: Корзина
+        order: Оформление заказа
+        payment: Оплата
+        payment_success: Успешная оплата
+        payment_error: Ошибка оплаты
+
+    filter:
+      order_by_price:
+        title: Сотрировать товары
+        desc: Сначала дорогие
+        asc: Дорогие в конце
+        preset: В установленном порядке
+      availability: Доступность
+      price_range: Ценовой диапазон
+      expand_button:
+        expand: Развернуть список
+        turn: Свернуть список
+      selected_options:
+        availability: Доступность
+        price_range: 'Цена от %{from} до %{to} %{currency}'
+      selected_availability:
+        all: Все
+        available: В наличии
+        run_out: Под заказ
+        sale: Распродажа
+        unknown: unknown
+      hide: Свернуть
+      show: Развернуть
+
+    button:
+      to_cart: В корзину
+      select_good: Выберите характеристику
+      go_wishlist: 'Перейти в "Список желаний"'
+      to_wishlist: 'Добавить в "Список желаний"'
+      remove_from_wish_list: 'Удалить из "Списка желаний"'
+      adding_to_wish_list: 'Добавляю..'
+      already: Уже в корзине
+      auth_for_buy: Войдите, чтобы купить
+      publish_shop:
+        text: Опубликовать
+        title: 'Магазин отключен. Нажмите чтобы опубликовать'
+      disable_with:
+        sending: Отправляем...
+        saving: Сохраняем...
+        waiting: Подождите...
+        adding: Добавляем...
+
+    products:
+      others: Остальные
+      nothing_found_by_criteria: По данным критериям ничего не найдено
+
+    cabinet_order:
+      items_count: '%{itemsCount} поз.'
+      duplicate: Дублировать
+
+    client:
+      auth: Личный кабинет
+      registration: Регистрация
+      reset_password: Новый пароль
+      client_form:
+        title: Выбор доставки и платежной системы
+      company_form:
+        title: Реквизиты компании
+      titles:
+        phone: Номер телефона
+        pin: Пин-код
+        name: Ваше Имя
+        new_password: Новый пароль
+        occupation: Профессия
+        company_name: Наименование компании
+        city_title: Город
+        address: Адрес
+        region: Регион
+        street: Улица
+        house: Дом
+        room: Квартира
+        slash: Дробь
+        first_name: Имя
+        second_name: Фамилия
+        patronymic: Отчество
+        payment: Способ оплаты
+        delivery: Доставка
+        postalCode: Почтовый индекс
+        company_name: Наименование компании
+        inn: ИНН
+        kpp: КПП
+        ogrn: ОГРН
+      placeholders:
+        phone: Номер телефона
+        pin: Пин-код
+        name: Ваше Имя
+        email: Email
+        password: Пин-код или пароль
+        login: Номер телефона или Email
+        new_password: Новый пароль
+        occupation: Профессия
+        company_name: Наименование компании
+        city_title: Город
+        address: Адрес
+        region: Регион
+        street: Улица
+        house: Дом
+        room: Квартира
+        slash: Дробь
+        first_name: Имя
+        second_name: Фамилия
+        patronymic: Отчество
+        postalCode: Почтовый индекс
+        company_name: Наименование компании
+        inn: ИНН
+        kpp: КПП
+        ogrn: ОГРН
+      pin_alert:
+        send: Получить пароль
+        timeout: SMS должна прийти в течение минуты<br>Запросить код повторно можно через
+      reset_password:
+        send: Сбросить пароль
+      submit: Войти
+      registration_submit: ОК
+      no_account: Нет аккаунта?
+      logged_in_with: 'Вы уже авторизованы под именем<br /> <b>%{name}</b>.'
+      continue_logged: 'Продолжить под этим именем..'
+      create_account: Создать
+      logout: Выйти
+      cabinet:
+        title: Личный кабинет
+        orders: Список заказов
+        button: Личный кабинет
+        create: Создаем личный кабинет
+        send_pin_code: Выслать пин-код
+        disable_with: Высылаем...
+        phones: Телефоны
+        emails: Email-ы
+        delivery_select:
+          blank: Выберите доставку
+        payment_select:
+          blank: Выберие платежную систему
+      reset_password_submit: Сохранить
+      confirmed: Подтвержден
+      no_confirmed: Не подтвержден
+      reset_password: Сбросить пароль
+      save_submit: Сохранить
+
+    money:
+      unknown_iso_code: "Неизвестный тип валюты %{isoCode}"
+    product_list:
+      next_button:
+        text: '%{title}'
+    subscription_email:
+      title: Подписаться на новостную рассылку
+      text: ""
+      submit_button_text: Подписаться
+      unknown_error: Неизвестная ошибка
+      success_text: Спасибо за подписку!
+
+    userbar:
+      design: 'Дизайн'
+      operate:
+        product: 'Управление товаром'
+        category: 'Управление категорией'
+        dictionary_entity: 'Управление элементом словаря'
+        dictionary: 'Управление словарем'
+        lookbook: 'Управление лукбуком'
+        content_page: 'Управление страницей'
+        blog: 'Управление блогом'
+        blog_post: 'Управление этой публикацией'
+        shop: 'Управление магазином'
+
+    design_settings:
+      title: Управление дизайном
+      main_page: 'Главная страница'
+      products_in_row: 'Товаров в ряд'
+      page_rows: "Строк товаров"
+      page_filter: "Фильтр товаров слева"
+      page_slider: "Слайдер посередине"
+      page_random: "Товары в случайном порядке"
+      category_page: 'Страница категории'
+      product_page: 'Страница товара'
+      page_photo: "Расположение фото"
+      similar_products: "Подобные товары снизу"
+      general_settings: 'Общие настройки'
+      show_cart_button_in_list: 'Отображать кнопку "В корзину" в списке товаров'
+      show_quantity_in_list: 'Отображать поле ввода количества в списке товаров'
+      main_page_instagram: "Галерея Instagram снизу"
+      main_page_banner: "Баннер сверху"
+      walletone_widget: "Виджет W1 снизу"
+      style: 'Стиль'
+      logo: "Логотип (желательно .SVG)"
+      page_bg: "Фон страницы"
+      page_bg_color: "Цвет страницы"
+      feed_bg_color: "Цвет контента"
+      feed_transparency: "Прозрачность ленты"
+      font_color: "Цвет текста"
+      font_family: "Шрифт"
+      font_size: "Размер шрифта"
+      active_elements_color: "Цвет активных элементов"
+      select_file: 'Выбрать файл...'
+      select_other_file: 'Выбрать другой файл...'
+      saving: 'Сохраняем...'
+      save: 'Сохранить'
+      no_changes: 'Изменений нет'

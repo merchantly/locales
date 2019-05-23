@@ -1,0 +1,20 @@
+en:
+  order_states:
+    new: New
+    in_process: Active
+    success: Done
+    failure: Canceled
+
+  order_log_entities:
+    changed_workflow_state: "Order status was changed (%{workflow_state_from} ->%{workflow_state_to})"
+    use_condition: "Applied condition (#%{id}): \"%{title}\""
+
+  order_delivery_states_comments:
+    delivery: The order has been transferred for delivery
+    done: Order has been delivered
+    canceled: Delivery has been canceled
+
+  order_payment_states_comments:
+    failed: Payment error
+    paid: Received payment
+    canceled: Payment has been canceled

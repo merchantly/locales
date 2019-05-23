@@ -1,0 +1,69 @@
+en:
+  shared:
+    upload_images: Upload photos
+    actions: Actions
+    add: Add
+    add_more: Add more
+    create: Create
+    create_new: Add
+    show: View
+    edit: Change
+    delete: Delete
+    delete_confirm: Delete permanently
+    archive_confirm: " Are you sure that you want to archive?"
+    archive: Archivate
+    restore: Restore
+    reset: Reset
+    cancel: Cancel
+    save: Save
+    apply: Apply
+    find: Find
+    set: Install
+    load: Download
+    is_on: On
+    is_off: Off
+    turn_on: On
+    turn_off: Off
+    action_turn_on: Click to enable
+    action_turn_off: Click to disable
+    amount: Amount
+    go: Next
+    log_in: Log In
+    next: Continue
+    sum: Amount
+    product: Product
+    products: Goods
+    orders: Orders
+    shops: Establishments
+    custom_attributes: Specifications
+    members: Members
+    coupon: Promo code
+    cart: Add to cart
+    agent: Agent
+    selected: Selected
+    from: from
+    entrance: Log In
+    overall: Total
+    city: City
+    site_link: On website
+    add_images: Add Images
+    empty: Clear
+    unknown: unknown
+    undetected: not recognized
+    request_error: "Request failed (%{error})"
+    article_short: Art
+    run_out: out of stock
+    no_matter: No difference
+    "yes": Yes
+    "no": No
+    kg: kg
+    return_back: Come back
+    warning: Warning
+    tabs:
+      current: Current
+      archive: Archive
+    products_amount:
+      one: '%{count} product'
+      few: '%{count} product'
+      many: '%{count} goods'
+      other: '%{count} goods'

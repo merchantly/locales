@@ -1,0 +1,181 @@
+ru:
+  system:
+    vendor_empty: 'Магазин отсутствует'
+    month_price: '%{currency} / мес'
+    create_shop: 'Создать магазин'
+    tariffs: 'Тарифы'
+    default_vendor_name: 'Без названия'
+    policy_label: 'Я даю свое согласие на обработку персональных данных, в соответствии с ФЗ от 27.07.2006 года №152-ФЗ «О персональных данных», согласно <a href="/kiosk_privacy_policy.pdf" target="_blank">политике конфиденциальности</a>.'
+    call: звоните – %{phone}
+    back: Вернуться назад
+    enter: 'Вход<span class="hidden-xs hidden-sm"> для магазинов</span>'
+    support: Поддержка
+    navigation: Навигация
+    login_for_managers: 'Вход для владельцев магазина'
+    login_as_other: 'Войти под другим именем'
+    not_authorized_to_this_store: Вы не можете управлять этим магазином, потому что сейчас Вы авторизованы как
+    you_authorzed_as: Сейчас Вы авторизованы как %{name}
+    flashes:
+      landing_steps: 'Процесс состоит из <b>3-х шагов</b> и занимает примерно <b>20 секунд</b>'
+      you_are_welcome: "Добро пожаловать, %{name}!"
+      phone_confirmed: "Телефон %{phone} уже подтвержден"
+      enter_you_phone: 'Введите номер телефона в международном формате'
+      wrong_pin_code: 'Неверный код, посмотрите внимательнее'
+      subscriptions_updated: 'Настройки подписок сохранены'
+
+    chart:
+      selling_vendors:
+        month: 'Продающих мерчантов в месяц'
+        week: 'Продающих мерчантов в неделю'
+      vendors: 'Регистрация мерчантов'
+      orders:
+        all: 'Заказы'
+        paid: 'Заказы выполненные'
+      payments: 'Оплата заказов (%{brand_currency})'
+
+    welcome_form:
+      go: Поехали!
+
+    titles:
+      open_store: Открыть магазин
+      error: Если вы считаете, что это ошибка - обратитесь в поддержку.
+
+    headers:
+      my_shops: "Мои магазины (%{count})"
+      profile: 'Личный профиль'
+      subscriptions: 'Управление подписками'
+      partner: 'Кабинет партнера'
+      create_shop: Создать магазин
+      access_keys: 'Ключи доступа (API)'
+      enter_for_store: Вход для магазинов
+    disable_with:
+      registration: 'Создаем магазин..'
+      login: 'Входим..'
+    vendor:
+      archive_reason: 'Перенесен в архив по причине отсутствия активности'
+    invoices:
+      amount: Сумма оплаты:&nbsp;
+      pay: 'Оплатить'
+      pdf: 'Счёт на оплату перечислением (PDF)'
+      test_cards: 'Тестовые карты 4111111111111111'
+      number: 'Оплата счёта #%{number}'
+      paid: Счет оплачен
+    leads:
+      title: Ваша заявка принята.
+      body: Если мы не перезвоним Вам в течении 12 часов, пожалуйста, наберите
+    metrics:
+      vendor_cellers_count: 'Продававших мерчантов:'
+      weekly_orders_summ: 'Выставлено счетов:'
+      weekly_average_order_amount: 'Средний чек:'
+      weekly_payments_summ: 'Оплачено заказов:'
+      monthly_orders_summ: 'Выставлено счетов'
+      monthly_average_order_amount: 'Средний чек:'
+      monthly_payments_summ: 'Оплачено заказов:'
+      weekly: За неделю
+      monthly: За месяц
+      paid_least_once: Оплачен хотя бы один заказ за все время
+      period_options:
+        one_month: '1 месяц'
+        three_months: '3 месяца'
+        six_months: '6 месяцев'
+        year: 'Год'
+      data_for_date: Данные на
+      refresh_to: Обновление в
+    operator_vendors:
+      title: Доступные Вам магазины (%{count})
+      products_count: 'Товаров: '
+      orderable_products_count: 'Из них в продаже:'
+      orders_count: 'Заказов:'
+      total_order_price: 'На сумму:'
+      total_success_orders_price: 'Из них выполнено:'
+      shop_archived: Магазин находится в архиве. Обратитесь в службу поддержки для его восстановления.
+      restore: 'Восстановить'
+      operator_url: 'Панель управления'
+      role: 'Ваша роль: %{role}'
+    operators:
+      invite:
+        title: '%{operator_inviter} приглашает Вас присоединиться к магазину %{link}.'
+        introduce_yourself: Пожалуйста, представьтесь, чтобы мы знали как к Вам обращаться.
+        phone_number: 'Номер телефона (не обязательно)'
+    payments:
+      success:
+        title: Спасибо за оплату!
+        back_to_shop: 'Вернуться в магазин'
+        kiiiosk: 'Сервис %{brand_name}'
+        tariff: 'Тариф'
+        tariff_payment: 'Оплата тарифа'
+    phone_confirmations:
+      sms_should_come: SMS должна придти в течение минуты.
+      request: Запросить код повторно можно через
+      resend: 'отправьте код повторно'
+      resend_help: SMS должна придти в течение минуты, если не пришла,
+      title: Подтверждаем телефон %{phone}
+      recevied_sms: 'Вам отправлена SMS с кодом, введите его:'
+      pin_code: 'Код из SMS, например: ac78'
+      confirm: 'Подтвердить'
+      checking: 'Проверяем..'
+      walletone_phone: Телефон для подключения кошелька WalletOne
+      walletone_info: На этот кошелек поступает оплата за товары и услуги продаваемые на %{brand_name_e}.
+      enter_phone: Введите телефон для подтверждения
+      phone_example: 'Например: +7 903 389 12 28'
+      phone_label: 'Телефон в международном формате'
+      send_pin_code: 'Получить SMS c кодом для подтверждения'
+      sending: 'Высылаю..'
+    profile:
+      name: 'Ваше имя'
+      password: 'Введите пароль, если хотите его изменить'
+      phone_confirmations: 'Подтверждаемые телефоны:'
+      phone_confirmed: (подтвержден)
+      phone_wait: (ожидает подтверждения)
+      confirm: 'Подтвердить'
+      confirmed: 'Подтвержден'
+      hello: 'Привет, %{name}!'
+      edit_title: Это Ваш личный профиль, можете его изменить
+    access_keys:
+      title: Ключи доступа к API магазинов (%{key})
+      th:
+        shop: Магазин
+        private_api_url: Ссылка на API оператора (закрытое)
+        public_api_url: Ссылка на API покупателя (публичное)
+        key: Ваш ключ доступа (%{key})
+      operator_api: 'API Продавца'
+      client_api: 'API Покупателя'
+    requests:
+      create: |
+        Спасибо, %{name}. Ваша заявка принята!
+        </br>
+        </br>
+        С Вами скоро свяжется челочек, по указанным Вами реквизитам (%{email}, %{phone})
+      new: Оставьте заявку
+    spf_checker:
+      instruction: 'Инструкция по настройке SPF-записи в DNS'
+      title: Проверка SPF-записи
+      availability_check: Проверяем наличие&nbsp; <strong> %{domain}</strong> &nbsp;в пользовательском домене
+      email: 'Email-адрес для проверки'
+      check: 'Проверить'
+      success: Все OK! Email валидный, SPF-Запись включена
+      error: Упс.. SPF-Запись не найдена.
+    subscriptions:
+      hello: Привет, %{name}!
+      title: Рассылки на которые Вы подписаны
+      save: 'Сохранить'
+    vendors:
+      choice_template:
+        title: 'Создаем новый магазин "%{name}"'
+        step: Шаг 2 из 3.
+        select: Выберите шаблон подходящий к Вашей отрасли
+        submit: 'Выбрать'
+      new:
+        title: Создаем новый магазин
+        name: Укажите название Вашего магазина
+        step: Шаг 1.
+        example_name: 'Например: Магазин обуви "Leonardo"'
+        continue: 'Продолжить'
+        already_have_account: Уже есть аккаунт в системе?
+      set_contacts:
+        title: 'Создаем новый магазин "%{name}" с шаблоном "%{template}"'
+        phone: Укажите Ваш телефон для авторизации и уведомлений о заказах.
+        step: Шаг 3 (последний).
+        use_existing_account: Будем использовать Ваш уже существующий аккаунт %{operator}
+        email: 'Емэйл (не обязательно)'
+        continue: Продолжить

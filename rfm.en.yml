@@ -1,0 +1,41 @@
+en:
+  rfm:
+    segments:
+      best_customers:
+        title: Best of all
+        details: Customers who have made recent purchases do it more often than others and spend more money than others
+        strategy: "No price incentives, new products and loyalty program"
+
+      big_spenders:
+        title: Trangles
+        details: Clients spending more than others
+        strategy: Promote the most expensive products
+
+      loyal_customers:
+        title: Loyal
+        details: Customers who made their last purchases
+        strategy: Examine their R and M for further segmentation
+
+      recent_customers:
+        title: Recent
+        details: Recently made a purchase
+
+      almost_lost:
+        title: Almost lost
+        details: "Did not make purchases for some time, but bought often and spent more than others"
+        strategy: Aggressive price incentives
+
+      lost_customers:
+        title: Lost Paying
+        details: "Did not make a purchase for a long time, but bought often and spent more than others"
+        strategy: Do not put much effort into their return
+
+      lost_cheap_customers:
+        title: Lost Thrifty
+        details: "Did not make a purchase for a long time, bought a little and spent less than the rest"
+        strategy: Do not put much effort into their return
+
+      other:
+        title: Other
+        details: Customers who are not in any segment
+        strategy:

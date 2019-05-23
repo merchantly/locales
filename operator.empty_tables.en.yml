@@ -1,0 +1,53 @@
+en:
+  operator:
+    empty_tables:
+      columns:
+        tag:
+          title: Tag name
+        role:
+          title: Name
+          members_count: The number of employees
+        order_operator_filter:
+          name: Name
+          coupon_id: Promo code
+          color_hex: Colour
+          workflow_state_id: 'Order status'
+          has_reserved_items: Reserve
+          delivery_state: Delivery status
+          payment_state: Payment state
+          delivery_type_id: Delivery
+          payment_type_id: Payment
+        vendor_delivery:
+          price: Cost
+          free_delivery_price: Amount for free shipping
+          available_payments: Compatible payment
+          cities: Cities
+          pickup_points: Place of receipt
+        vendor_payment:
+          available_deliveries: Available delivery methods
+        blog_post:
+          is_active: Status
+          published_at: Published
+        workflow_state:
+          finite_state: Final state
+          convead_key: Key in convead
+        product:
+          title: Name
+          category: Category
+          images: Images
+        coupon_image:
+          image: Image
+
+      empty:
+        default: You have no one posts yet
+        content_page: You have no one publications yet
+        blog_post: You have no one publications yet
+        slider_image: You have no one image for slider yet
+        lookbook: You have no one lookbook yet
+        order_condition: You have no one rules yet
+        workflow_state: You have no one order status yet
+        vendor_payment: You have no one active payment methods yet
+        vendor_delivery: You have no active delivery methods yet
+        dictionary_entity: There are no items in this dictionary yet
+        dictionary: No dictionary yet
+        category: No categories

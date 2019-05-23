@@ -1,0 +1,74 @@
+ru:
+  bells:
+    InstagramFeed::NoInstagramUserId:
+      subject: "Не указан Instagram User ID, однако компонент Instagram показывается на сайте"
+      text: "Укажите в настройках магазина правильный Instagram User ID или отключите компонент"
+    InstagramFeed::NotFound:
+      subject: "Не найден instagram с ID %{instagram_user_id}"
+      text: "В настройках магазина указан не существующий Instagram User ID"
+    Moysklad::Client::ResourceForbidden:
+      subject: 'Автоматический импорт товаров из МойСклад отключен'
+      text: "Нет доступа к возможности импортировать товары из МойСклад.\nОчевидно Вы не подключили в МойСклад.ru тариф, позволяющий работать с API или у Вашего пользователя (%{login}) не достаточно прав."
+    Moysklad::Client::UnauthorizedError:
+      subject: 'Автоматический импорт товаров из МойСклад отключен'
+      text: 'Ошибка авторизации в сервисе МойСклад: проверьте правильность ввода логина/пароля и свой тариф на моемскладе'
+    MoyskladImporting:NoLogin:
+      subject: 'Автоматический импорт товаров из МойСклад отключен'
+      text: 'Не указан login и пароль для доступа к МойСклад'
+    hello:
+      subject: 'Привет!'
+      text: 'Сюда будут приходить сообщения о работе Вашего магазина.'
+    domain_attached:
+      subject: 'Домен подключен'
+      text: 'Домен %{domain} успешно подключен к магазину.'
+    convead_invalid_or_outdate:
+      subject: 'Подключение к convead.io неверное или устарело'
+      text: 'Скорее всего вы указали не правильный app_key (%{convead_app_key}) или не оплатили услуги convead.io. Интеграция отключена'
+    OpenURI::HTTPError:
+      subject: 'Неверное имя пользователя instagram'
+      text: 'Скорее всего вы указали не верное имя пользователя (%{username}) для Instagram'
+    PayPal::InvalidByteError:
+      subject: 'Ошибка принятия платежа PayPal'
+      text: 'Укажите в настройках аккаунта PayPal кодировку UTF-8 в дополнительных возможностях'
+    W1::PaymentService::NoSignature:
+      subject: 'Ошибка обработки платежа заказа №%{order_id}'
+      text: 'В настройках WalletOne необходимо выбрать метод формирования ЭЦП - MD5. Подробнее - https://www.walletone.com/ru/merchant/documentation/#step3'
+    System::AmoCRM::ExportOrder::InvalidAmoCrmError:
+      subject: 'Ошибка экспорта заказа в AmoCrm'
+      text: 'Проверьте настройки AmoCrm'
+    AmoCRM::Client::Error:
+      subject: 'Ошибка клиента в AmoCrm'
+      text: 'Проверьте настройки AmoCrm'
+    RussianPost::ResponseError:
+      subject: 'Ошибка почты России'
+      text: '%{error}'
+    Starrys::FatalResponseError:
+      subject: 'Ошибка Starrys'
+      text: '%{error}'
+    spf_check_fail:
+      subject: 'Ошибка Spf'
+      text: 'Ваша почта #{email} не прошла spf проверку'
+    Bitrix24::Client::AuthorizationCodeError:
+      subject: 'Ошибка Bitrix24'
+      text: '%{error}'
+    Sberbank::Requestor::ResponseError:
+      subject: 'Ошибка сбербанка'
+      text: 'Произошла ошибка при создании заказа с платежной системой сбербанка. Проверьте ваши данные или обратитесь в поддержку'
+    Sberbank::Requestor::ApiTokenEmptyError:
+      subject: 'Ошибка сбербанка'
+      text: 'Значение api token не установлено'
+    RobokassaParams::TaxTypeEmptyError:
+      subject: 'Ошибка робокассы'
+      text: 'Не установлена ставка НДС у магазина'
+    RobokassaParams::TaxModeEmptyError:
+      subject: 'Ошибка робокассы'
+      text: 'Не установлена система налогоблажения у магазина'
+    Moysklad::Client::UnauthorizedError:
+      subject: 'Ошибка МойСклад'
+      text: 'Учетная запись деактивирована. Обратитесь к администратору аккаунта'
+    Kassatka::Requestor::TokenEmptyError:
+      subject: 'Ошибка Kassatka'
+      text: 'Значение token не установлено'
+    Kassatka::Requestor::ResponseError:
+      subject: 'Ошибка Kassatka'
+      text: '%{error}'

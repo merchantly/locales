@@ -1,0 +1,198 @@
+ru:
+  helpers:
+    publish: 
+      span: 'Опубликовать'
+      title: 'Магазин отключен. Нажмите что бы опубликовать'
+    unpublish: 
+      span: 'Снять с публикации'
+      confirm: 'Вы уверены?'
+    more: Ещё...
+    orders_count:
+      few: заказа
+      many: заказов
+      one: заказ
+      other: заказов
+    target_values:
+      _blank: 'Открывать в новом окне'
+      _self: 'Открывать в текущем окне'
+    product_state_errors:
+      has_no_orderable_goods: 'Нет продаваемых вариантов'
+      no_price: 'Нет цены'
+      no_stock_linked: 'Товар не заведен на складе'
+      no_consignment_linked: 'Товар не оприходован на складе'
+      unpublished: 'Снят с публикации'
+      not_orderable_infinity: 'Не установлен остаток'
+      run_out: 'Товар закончился'
+      not_sellable: 'Не продаваемый'
+      no_quantity: 'Закончился'
+
+      fail: 'Не продается по разным причинам'
+
+    boolean:
+      empty: ''
+      'true': Да
+      'false': Нет
+    select:
+      prompt: ! 'Выберите: '
+    submit:
+      create: Создать
+      submit: Сохранить
+      update: Сохранить
+    you: ! ' (Вы)'
+    people: "%{count} чел."
+    years: "%{count} лет."
+    days: "%{count} дн."
+    batch_actions:
+      restore: 'Восстановить из архива'
+      publicate: 'Опубликовать'
+      unpublicate: 'Скрыть'
+      delete: 'Удалить'
+      merge: 'Объединить'
+      duplicate: 'Дублировать'
+      select_tags: 'Изменить теги'
+      select_categories: 'Изменить категории'
+    archivable:
+      archive: 'В архив'
+      restore: 'Восстановить'
+      archived: 'Объект находится в архиве'
+      confirm: 'Действительно удалить в архив?'
+    bottom_form_panel:
+      mail_template_reset: 'Сбрасываем шаблоны в состояние по-умолчанию?'
+      undomain: 
+        title: 'Отключить домен'
+        confirm: 'Отвязать домен?'
+      save: 
+        title: Сохранить
+        reset: Отменить
+        forbidden: Изменять запрещено
+      delete:
+        title: 'Удалить'
+        confirm: 'Действительно удалить насовсем?'
+    categories:
+      main_category: 'Основная категория товара'
+      new: 'Новая категория'
+      all: 'Все товары'
+    circle_buttons:
+      images: 'Изображения'
+      ignore: 'Игнорировать'
+      male_redirect: 'Сделать редирект'
+    components:
+      similar_product_select:  'Начните вводить наименование товара чтобы его добавить'
+      other_products_select: 'Начните вводить наименование товара чтобы его добавить'
+      union_items_select: 'Название товара для добавления'
+    custom_title:
+      stock_title: "На складе: '%{title}'"
+    favicons:
+      aws_empty: "Файл %{name} отсутствует в облаке"
+    icons:
+      move: 'Перемещайте вверх или вниз'
+    order_deliveries:
+      run: 'Запустить доставку'
+      external_link: 'Статус доставки на сайте агента.'
+      walletone: 'Доставка на walletone'
+      tracking_id_blank: 'Не указан ID заказа'
+    order_payment:
+      expect: Ожидаем оплату
+      paid: 'Оплачено: %{paid_to}'
+    order_reservation:
+      local_and_remote: "Зарезервировано локально и на складе в %{reserved_at}"
+      only_local: "Зарезервировано только локально в %{reserved_at}"
+      only_remote: "Зарезервировано только на складе в %{reserved_at}"
+      reserve: 'Зарезервировать'
+      unreserve: 'Снять с резерва'
+      not_reserved: 'Не зарезервирован в МойСклад'
+    order_workflow: 
+      current: 'Текущий статус'
+      change: "Сменить статус на: \"%{state}\""
+    payments:
+      online_kassa_collection:
+        disabled: Отключен
+        default: 'Через платежную систему'
+        starrys: 'Через starrys.ru'
+        life_pay: 'Через life-pay.ru'
+        kassatka: 'Через kassatka.me'
+      billing_account_options:
+        main: 'Основной'
+    products:
+      inactive: 'не активна'
+      archived: 'В архиве'
+      moyskad: 'МС'
+      united: "Объединено в группу &laquo;%{title}&raquo;"
+      ordering_as_product_only:  'Продается БЕЗ модификаций'
+      state_switcher:
+        title_on: 'Опубликован'
+        title_off: 'Скрыт'
+      product_quantity:
+        infinity: 'бесконечно'
+        run_out: 'закончился'
+      good_quantity:
+        run_out: "<span class=\"text-muted %{css_class}\">закончился</span>"
+        infinity: 'Учет остатков не ведется. Товар бесконечен'
+        unknown: 'остаток не установлен'
+      list_view_switch: 
+        to_list: 'Переключить на строчный вид'
+        to_block: 'Переключить на блочный вид'
+      actual_price:
+        unknown: 'цена не установлена'
+    properties:
+      is_used_in_item: 'Для модификации'
+      is_used_in_product: 'Для товара'
+    tariff:
+      sms_price: 'Цена за SMS - %{price}'
+      feature:
+        no_limit: 'без ограничений'
+        value: 'до %{value}'
+    vendor:
+      sms_disabled: ' (отключены)'
+      balance_more: 'Нажмите чтобы увидеть подробности и пополнить баланс'
+      access_only_auth: 'Сейчас магазин доступен только авторизованным сотрудникам'
+    buttons:
+      product_categories_positions_button: 'Кликните чтобы установить позиции товара в его категориях'
+    humanized_counters:
+      unknown_quantity: '? шт.'
+      empty:
+        stucks: 'закончился'
+        dictionary_entities: 'Нет элементов'
+        items_quantity: 'нет'
+        products: 'Нет товаров'
+        orders: 'Нет заказов'
+      labels:
+        moysklad: "Синхронизирован с МоимСкладом %{synced_at}, uuid: %{uuid}"
+    links:
+      walletone: 'Перейти в кассу на Walletone'
+      unknown_url: 'Не указан url'
+      category_products: "Товары категории (%{count} шт.)"
+    members:
+      check: 'включены'
+      ban: 'отключены'
+      no_confirmed: 'Не подтвержден'
+      send_email_confirmaion: 'Отправить подтверждение'
+    product_labels:
+      archive: 'Вариант в архиве'
+      no_orderable: 'Не продается: %{reason}'
+      union: 'Объединение товаров'
+      part_of_union: 'Часть объединения'
+      package: Товар является упаковкой'
+      hidden: 'Скрыт'
+      stock_linked: 'товар импортируется из МоегоСклада'
+    profile:
+      email_no_confirmed: 'E-mail НЕ подтвержден'
+      email_confirmed: 'Емайл подтвержден'
+      phone_confirmed: 'Телефон подтвержден'
+      phone_no_confirmed: 'Телефон НЕ подтвержден'
+    stock:
+      log_entity_state:
+        started: 'в процессе'
+        finished: 'удачно завершено'
+        error: 'ошибка'
+        cancel: 'прервано'
+        unknown: 'неизвестный статус'
+        hung: 'завис'
+      sync_info:
+        success: Склад синхронизирован %{updated_at}
+        error: 'Ошибка синхронизации: %{message}'
+        process: Синхронизация идет %{created_at}
+    wirehouse:
+      refresh: 'Обновить список организаций из МоегоСклада'
+    operator_form_helper:
+      property_dictionary_hint: 'Справочник %{dictionary}'

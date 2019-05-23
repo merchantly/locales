@@ -1,0 +1,262 @@
+ru:
+  admin:
+    support: Поддержка
+    reports: Отчеты
+    affiliate_program: Партнеры
+    coupons: 'Промокоды'
+    new_random_code: 'Создать случайный промокод'
+    security: Доступы
+    authentications: 'Аутентификации'
+    billing: 'Биллинг'
+    analytics: 'Аналитика'
+    products: 'Товары'
+    categories: 'Категории'
+    content: 'Контент'
+    member: 'Участник'
+    transactions: 'Зачисления'
+    charges_logs: 'Журнал списаний'
+    products: 'Товары'
+    properties: 'Свойства'
+    mail_deliveries: 'Рассылки'
+    mail_templates: 'Шаблоны рассылок'
+    vendors: Магазины
+    registration_logs: 'Журнал регистраций'
+    sms_logs: 'Журнал SMS'
+    tariffes: 'Тарифы'
+    bank_incoming:
+      contractors: 'Известные контрагенты'
+      excludes:  'Игнорируемые контрагенты'
+      check: 'Проверить выписку'
+      accepted: 'Оплата принята'
+      accept: Принять оплату по этому счету'
+      accept_without_invoice: 'Принять оплату БЕЗ счета. Просто зачислить на расчетный счет.'
+      no_accept: 'Не могу принять оплату. Есть выписанные счета, но сумма не совпадает'
+      new_contractor: 'Новый контрагент'
+      ignore: 'Игнорировать'
+      ignore_confirm: 'Игнорировать все транзакции этого контрагента по его ИНН?'
+      process: 'Пошла подгрузка'
+      ignored: 'Заигнорировали'
+      create_transaction: "Создали транзакцию %{transaction}"
+    billing_dashboard:
+      payments: 'Платежи'
+      public_shops: 'Опубликованные магазины'
+      charges: 'Рекуррентные платежи'
+      by_published_at: 'Магазины по дате публикации'
+      unpublic_by_published_at : 'Неопубликованные магазины по дате публикации'
+    dashboard:
+      marketing_data: 'Таблица по оплатам в CSV'
+      departed_customers: 'Ушедшие клиенты'
+      incoming_customers: 'Пришедшие клиенты'
+      registrations: 'Регистрации'
+      orders:
+        title: 'Заказы магазинов'
+        all: 'Заказы'
+        success: 'Заказы выполненные'
+        payments: 'Оплаты'
+      new_vendors: 'Новые магазины'
+      index: 'Индекс'
+      goods: "Товаров всего: %{total_count}"
+      reindex_all: 'Переиндексировать все'
+      instruction: 'Рабочая инструкция'
+      mailing_plan: 'План по рассылкам'
+      error_pages: 'Страницы ошибок'
+    openbill_invoice:
+      not_paid: 'НЕ Оплаченные'
+      paid: 'Оплаченные'
+      not_paid_autochargable: 'Автоматически пополняемые'
+      all: 'Все'
+      pay_link: 'Ссылка на оплату'
+      pdf_link: 'Счет (PDF)'
+      report: 'Акт с подписью (PDF)'
+      nosign_report: 'Акт без подписи (PDF)'
+      charges: 'Рекурентные съемы'
+      transactions: 'Транзакции'
+      error_form: 'Счета можно создавать только со страницы магазина'
+      number: 'Уникальный номер из цифр и символов, без пробелов'
+      tariff: 'Тариф'
+      months_count: 'На сколько месяцев'
+      is_autochargable: 'Автоматически списать оплату с привязанной карты?'
+      details: 'Более детальное описание. Если есть скидка то какая и почему'
+      amount: 'Сумма за весь период'
+    openbill_transaction:
+      charged: 'Произошло списание'
+      form:
+        labels:
+          amount: 'Сумма'
+          tariff_id: 'Тариф'
+          details: 'Комментарий'
+          current_paid_to: 'Текущая дата окончания действия'
+          next_paid_to: 'Следующая дата окончания действия'
+        hints:
+          amount: '%{brand_currency}'
+    operators:
+      actions:
+        partner_path: Партнерка
+        enable_partner: Включить партнерку
+      flashes:
+        partner_created: 'Партнер создан'
+        lets_go: 'Понеслась'
+      attributes: 'Атрибуты'
+      vendors: 'Заведения'
+    order:
+      order_items: 'Позиции'
+      delete: 'Удалить'
+    sendgrid:
+      export: 'Экспорт почты операторов'
+      registration: 'Регистрация'
+      system_notify: 'Системное уведомление'
+      some_mail: 'Сообщение о косяках'
+      notify_member: 'Уведомление оператора'
+      negative_balance: 'Отрицательный баланс'
+      balance_refill: 'Пополнение баланса'
+      balance_subtract: 'Списание'
+      need_payment: 'Необходимости оплаты тарифа'
+      unpublish: 'Снятие с публикации'
+      not_enought_sms_money: 'Смс заканчиваются'
+      sms_money_limit_reached: 'Смс закончились'
+      analytics: 'Аналитика'
+      reset_password: 'Сброс пароля'
+      email_confirmation: 'Подтверждение пароля'
+      system_mail: 'Системная рассылка'
+      vendor_id:  'Введите ид магазина'
+      submit:  'Ввод'
+    system_mail_delivery:
+      drafts: 'Черновики'
+      processes: 'В процессе'
+      previews: 'Тестовые превьюшки'
+      dones: 'Завершенные'
+      archive: 'Архив'
+      restored: 'Восстановили'
+      archived: 'Кинули в архив'
+      recipients: 'Получателей'
+      sent: 'Писем отправлено'
+      opened:  'Писем открыто'
+      followed: 'Перешло по основной ссылке'
+      unsubscribe_clicked: 'Перешло по отписке'
+      inputs_recepients: 'Получатели'
+      vendor: 'Магазин: %{link}'
+      operator_id: 'ID оператора'
+      send_all: 'Отправляем всем операторам магазина, если не указан'
+      operator: 'Оператор: %{link}'
+      templates: 'Шаблоны'
+      perform: 'Запустить!'
+      performed: 'Поехали!'
+      no_editing_allowed: 'Запрещено для редактирования'
+      add_receipient:
+        hints:
+          operator_id: 'Отправляем всем операторам магазина, если не указан'
+        labels:
+          operator_id: 'ID оператора'
+          vendor_id: 'ID Магазина'
+    system_mail_recepient:
+      preview: 'Предпросмотр'
+      deliver: 'Доставить'
+      delivered: 'Отправка запущена'
+    system_mail_template:
+      preview: 'Предпросмотр'
+      context_example: 'Пример передаваемых данных'
+      mail_examples: 'Примеры писем'
+      test: "Тестовая отправка (%{email})"
+    tariff:
+      public: 'Страница тарифов'
+      for_choose: 'Доступны'
+      unchagable: 'Индивидуальные'
+      additionally: Дополнительно
+      vendors_without_tariffs: 'Магазинов без тарифа: %{link}'
+      restored: 'Восстановили'
+      archived: 'Кинули в архив'
+    vendor:
+      templates: Шаблоны
+      not_archive: Не архивировать
+      with_orders: С заказами
+      archived: В архиве
+      published: Опубликованные
+      no_published: Не опубликованные
+      settings: Настройки
+      all: Все
+      domained: 'С доменами'
+      as_examples: 'Как пример'
+      operator: Операторская
+      basic_data: 'Основные данные'
+      operators: 'Операторы'
+      custom_email: 'Кастомный email'
+      source: 'Источник'
+      sources: 'Источники'
+      tariff_and_billing: 'Тариф и биллинг'
+      openbill_invoices: 'Ручные зачисления'
+      new_period_openbill_invoice: 'Выставить счет на несколько месяцев'
+      new_openbill_invoice: 'Выставить счет на доп.работы'
+      from_main_balance: 'Списание с основного баланса (допработы)'
+      from_common_transactions: 'Списание за абонплату (установка периода действия)'
+      current_cards: 'Действующие карты'
+      declined_cards: 'Отклоненные карты'
+      charges: 'Рекурентные платежи'
+      incoiming_transactions: 'Зачисления'
+      outdoing_transactions: 'Списания'
+      invoices: 'Счета'
+      stats: 'Ститистика'
+      legal_name: 'Юридическая информация'
+      redirects: 'Внимание'
+      domdain: 'Адрес сайта'
+      custom_email: 'Кастомный email'
+      theme: 'Оформление'
+      screenshots: 'Скриншоты'
+      archive_confirm: 'Магазин будет заархивирован. Продолжить?'
+      batch:
+        restored: 'Магазины восстановлены'
+        archived: 'Магазины заархивированы'
+      actions:
+        restore: Восстановить
+        destroy: Удалить
+        destroy_confirm: Точно удалить данный магазин?
+        archive: В архив
+        double: Продублировать
+        show: Магазин в админке
+        screenshot: Сделать скриншот
+        reindex: 'Переиндексировать'
+        reindex_all: Переиндексировать всех
+        flush_cache: 'Очистить кеш'
+        operator_url: Операторская
+        preview: Предпросмотр магазина
+        prolongate: Прологнировать на неделю
+        registration: Послать письмо о регистрации
+        add_vendor_to_delivery: 'Добавить в рассылку'
+        forbidden_to_edit: 'Запрещено для редактирования'
+        add_confirm: 'Добавить?'
+      flashes:
+        restored: Магазин восстановлен
+        destroy: Процесс удаления магазина запущен
+        archived: Магазин заархивирован
+        lets_go: Понеслась
+        prolongated: "Магазин прологнирован по %{working_to}"
+        cache_cleared: 'Кеш очищен'
+        operator_added: 'Операторы добавлены'
+    notify_mail_template:
+      footer: 'Футер'
+      context_example: 'Пример передаваемых данных'
+      actions:
+        preview: Предпросмотр
+    sms_log_entity:
+      billing: 'SMS в биллинге'
+      analytics: 'Аналитика'
+    vendor_template:
+      all: 'Все'
+      published: 'Опубликованны'
+      tests: 'Тестовые'
+      precreate: 'ПЕРЕсоздать магазины'
+      precreate_notice: 'Запущен процесс предсоздания. Старых удаляем, новые создаем.'
+      clone: 'Создать магазин на основе'
+      doc: 'Документация'
+      created_shops: "Создано реальных магазинов: %{count}"
+      precreated_shops: "Предсозданно магазинов: %{count}"
+      template: "Магазин-шаблон: %{vendor} #%{id}"
+      image: 'Изображение %{width}x%{height}'
+      available_only_for_admins: 'Доступен только для админов'
+    archivable:
+      restore: 'Восстановить'
+      to_archive: 'Кинуть в архив'
+      restored: 'Восстановили'
+      archived: 'Кинули в архив'
+      alive: 'Действующие (живые)'
+      archive: 'Архив'
+      html_archive: 'В&nbsp;архив'

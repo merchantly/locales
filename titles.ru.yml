@@ -1,0 +1,8 @@
+ru:
+  titles:
+    client_categories:
+      anonymous: Не аутентифицированные
+      registered: Зарегистрированные
+    price_kinds:
+      default: Цена по-умолчанию
+      sale: Цена распродажи

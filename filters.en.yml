@@ -1,0 +1,149 @@
+en:
+  filters:
+    orders:
+      workflow_state_id:
+        name: 'Order Status'
+        values:
+          any: 'Any'
+      coupon_id:
+        name: Promo code
+        values:
+          any: any
+      delivery_type_id:
+        name: Shipping
+        values:
+          any: Any
+      payment_type_id:
+        name: Payment
+        values:
+          any: any
+      client_id:
+        name: Client
+        values:
+          any: Any
+      created_at_from: Search by date
+      has_reserved_items:
+        name: Reserve
+        values:
+          'true': yes
+          'false': No
+          any: any
+
+      delivery_state:
+        name: Delivery Status
+        values:
+          new: expected to start
+          not_needed: Delivery Not Required
+          delivery: Delivered
+          done: Delivered
+          canceled: Canceled
+          any: any
+
+      payment_state:
+        name: Payment Status
+        values:
+          new: We are waiting for payment
+          direct: Expect payment in cash
+          paid: paid
+          failed: Rejected
+          canceled: Canceled
+          any: any
+
+    products:
+      on_welcome:
+        name: Products on Main
+
+      without_categories:
+        name: Uncategorized
+
+      category_id:
+        name: Category
+
+      property_id:
+        name: Property
+        values:
+          any: any
+      dictionary_entity_ids:
+        name: Directory
+
+      has_ordering_goods:
+        name: Venality
+        values:
+          'true': For sale
+          'false': Cannot buy
+          any: Any
+
+      has_price:
+        name: Price
+        values:
+          'true': Installed
+          'false': Not set
+          any: Any
+
+      has_images:
+        name: Photos
+        values:
+          'true': Yes
+          'false': No
+          any: any
+
+      is_sale:
+        name: Sale
+        values:
+          'true': Yes
+          'false': No
+          any: any
+
+      is_run_out:
+        name: Ended
+        values:
+          'true': ended
+          'false': Available
+          any: any
+
+      has_items:
+        name: Options
+        values:
+          'true': Yes
+          'false': No
+          any: any
+
+      is_stock_linked:
+        name: Binding to the warehouse
+        values:
+          'true': Yes
+          'false': No
+          any: Any
+
+      is_archived:
+        name: Status
+        values:
+          'true': Archived
+          'false': Valid
+          any: any
+
+      quanting:
+        name: Availability
+        values:
+          positive: positive
+          'no': Zero
+          negative: Negative
+          none: Unknown
+          infinity: endless
+          any: any
+
+      product_type:
+        name: Type
+        values:
+          union: Composite
+          separate: Independent
+          common: Composite or independent
+          part: part of the composite
+          any: any
+
+      is_published:
+        name: Visibility
+        values:
+          'true': Published
+          'false': Unpublished
+          any: Any

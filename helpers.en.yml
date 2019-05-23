@@ -1,0 +1,198 @@
+en:
+  helpers:
+    publish: 
+      span: 'Publish'
+      title: 'Store is disabled. Click to post'
+    unpublish: 
+      span: 'Unpublish'
+      confirm: 'Are you sure?'
+    more: More...
+    orders_count:
+      few: order
+      many: orders
+      one: order
+      other: order
+    target_values:
+      _blank: 'Open in new window'
+      _self: 'Open in current window'
+    product_state_errors:
+      has_no_orderable_goods: 'No selling options'
+      no_price: 'No price'
+      no_stock_linked: 'Product not in stock'
+      no_consignment_linked: 'Product not in stock.'
+      unpublished: 'Unpublished'
+      not_orderable_infinity: 'No balance set'
+      run_out: 'Product ended'
+      not_sellable: 'Not sold'
+      no_quantity: 'Ended'
+
+      fail: 'Not available for various reasons.'
+
+    boolean:
+      empty: ''
+      'true': Yes
+      'false': No
+    select:
+      prompt: 'Choose:'
+    submit:
+      create: Create
+      submit: Save
+      update: Save
+    you: '(You)'
+    people: "%{count} pers."
+    years: "%{count} years."
+    days: "%{count} days"
+    batch_actions:
+      restore: 'Restore from archive'
+      publicate: 'Publish'
+      unpublicate: 'Hide'
+      delete: 'Delete'
+      merge: 'Combine'
+      duplicate: 'Duplicate'
+      select_tags: 'Edit tags'
+      select_categories: 'Change categories'
+    archivable:
+      archive: 'To archive'
+      restore: 'Restore'
+      archived: 'The object is in the archive.'
+      confirm: 'Do you really want to delete in archive?'
+    bottom_form_panel:
+      mail_template_reset: 'Do we reset templates to the default state?'
+      undomain: 
+        title: 'Disable domain'
+        confirm: 'Do you want to unlink domain?'
+      save: 
+        title: Save
+        reset: Cancel
+        forbidden: No change allowed
+      delete:
+        title: 'Delete'
+        confirm: 'Do you really want to remove permanently?'
+    categories:
+      main_category: 'Main product category'
+      new: 'New category'
+      all: 'All goods'
+    circle_buttons:
+      images: 'Images'
+      ignore: 'Ignore'
+      male_redirect: 'Redirect'
+    components:
+      similar_product_select:  'Start typing the product name to add it.'
+      other_products_select: 'Start typing the product name to add it.'
+      union_items_select: 'Product name to add'
+    custom_title:
+      stock_title: "In stock: '%{title}'"
+    favicons:
+      aws_empty: "The file %{name} is not in the cloud"
+    icons:
+      move: 'Move up or down'
+    order_deliveries:
+      run: 'Start shipping'
+      external_link: 'The delivery status on the site of the agent.'
+      walletone: 'Delivery to walletone'
+      tracking_id_blank: 'Order ID not specified'
+    order_payment:
+      expect: We expect payment
+      paid: 'Paid: %{paid_to}'
+    order_reservation:
+      local_and_remote: "Reserved locally and in stock in %{reserved_at}"
+      only_local: "Reserved locally in %{reserved_at}"
+      only_remote: "Reserved only in stock in %{reserved_at}"
+      reserve: 'Make a reservation'
+      unreserve: 'Remove from reserve'
+      not_reserved: 'Not reserved in MyStock'
+    order_workflow: 
+      current: 'Current status'
+      change: "Change status to: \"%{state}\""
+    payments:
+      online_kassa_collection:
+        disabled: Off
+        default: 'Through the payment system'
+        starrys: 'Throught starrys.ru'
+        life_pay: 'Throught life-pay.ru'
+        kassatka: 'By kassatka.me'
+      billing_account_options:
+        main: 'Main'
+    products:
+      inactive: 'inactive'
+      archived: 'In the archive'
+      moyskad: 'МС'
+      united: "Grouped into &laquo;%{title}&raquo;"
+      ordering_as_product_only:  'Sold WITHOUT modifications'
+      state_switcher:
+        title_on: 'Published'
+        title_off: 'Hidden'
+      product_quantity:
+        infinity: 'infinitely'
+        run_out: 'has ended'
+      good_quantity:
+        run_out: "<span class=\"text-muted %{css_class}\">has ended</span>"
+        infinity: 'Accounting residues are not maintained. The product is endless'
+        unknown: 'balance not set'
+      list_view_switch: 
+        to_list: 'Switch to line view'
+        to_block: 'Switch to block view'
+      actual_price:
+        unknown: 'price not set'
+    properties:
+      is_used_in_item: 'For modification'
+      is_used_in_product: 'For the goods'
+    tariff:
+      sms_price: 'Price per SMS -%{price}'
+      feature:
+        no_limit: 'with no restrictions'
+        value: 'to %{value}'
+    vendor:
+      sms_disabled: '(disabled)'
+      balance_more: 'Click to see details and top up balance.'
+      access_only_auth: 'Now the store is available only to authorized employees.'
+    buttons:
+      product_categories_positions_button: 'Click to set product positions in its categories.'
+    humanized_counters:
+      unknown_quantity: '? pcs.'
+      empty:
+        stucks: 'has ended'
+        dictionary_entities: 'No items'
+        items_quantity: 'not'
+        products: 'No products'
+        orders: 'No orders'
+      labels:
+        moysklad: "Synced to MyStock %{synced_at}, uuid: %{uuid}"
+    links:
+      walletone: 'Go to the cashier at Walletone'
+      unknown_url: 'No url specified'
+      category_products: "Products category (%{count} pcs.)"
+    members:
+      check: 'Enabled'
+      ban: 'Disabled'
+      no_confirmed: 'Not confirmed'
+      send_email_confirmaion: 'Send confirmation'
+    product_labels:
+      archive: 'Option is archived'
+      no_orderable: 'Not for sale: %{reason}'
+      union: 'Item merging'
+      part_of_union: 'Part of merge'
+      package: Item is a packaging product
+      hidden: 'Hidden'
+      stock_linked: 'Item is importing from MoySklad'
+    profile:
+      email_no_confirmed: 'E-mail is not confirmed'
+      email_confirmed: 'E-mail is confirmed'
+      phone_confirmed: 'Phone number is confirmed'
+      phone_no_confirmed: 'Phone number is not confirmed'
+    stock:
+      log_entity_state:
+        started: 'In progress'
+        finished: 'Completed successfully'
+        error: 'Error'
+        cancel: 'Aborted'
+        unknown: 'unknown status'
+        hung: 'Not responding'
+      sync_info:
+        success: "Stock is synchronized %{updated_at}"
+        error: 'Synchronization error %{message}'
+        process: "Synchronization in progress %{created_at}"
+    wirehouse:
+      refresh: 'Update list of companies from MoySklad'
+    operator_form_helper:
+      property_dictionary_hint: 'Dictionary %{dictionary}'

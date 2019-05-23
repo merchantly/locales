@@ -1,0 +1,11 @@
+en:
+  properties:
+    PropertyString: String
+    PropertyText: Text
+    PropertyDictionary: Dictionary
+    PropertyBoolean: Binary
+    PropertyLong: Integer
+    PropertyDouble: Floating-point value
+    PropertyTime: Date and time
+    PropertyLink: Link
+    PropertyFile: File

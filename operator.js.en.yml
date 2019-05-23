@@ -1,0 +1,43 @@
+en:
+  operator:
+    js:
+      product:
+        unknown: Unknown product
+        update_error: Error when changing product
+        not_found: "Sorry, nothing was found for '%{query}'."
+        searching: "Searching goods for '%{query}'"
+        ajax_error: 'Error %{status}'
+      seconds_count:
+        zero: now
+        one: '%{count} second'
+        few: '%{count} seconds'
+        many: '%{count} seconds'
+        other: '%{count} seconds'
+      dropzones:
+        default_message: "Move here files for upload"
+        file_too_big: "File is too big"
+        invalid_file_type: "This kind of file extension is not supported for upload"
+        cancel_upload: "Cancel uploading"
+        cancel_upload_confirmation: "Are you sure to cancel uploading?"
+        remove_file: 'Delete'
+      settings_form:
+        text: "By pressing this button you turn off the inscription \"Made on the merchantly \".\r\nWith your balance, 1000rub will be charged.\r\nWhen the button is turned off, the money is not returned."
+      properties_manager:
+        empty_property_list: 'You have not created properties'
+        add_property_button: 'Add a property'
+        create_property_button: 'Create property'
+        choose_property_name_placeholder: 'Enter a name'
+        add_property_name_placeholder: 'Add {label}?'
+        property_name_not_found: 'Results not found'
+        unknown_type_of_property: 'Unknown type of property'
+        choose_property_value_placeholder: 'Enter a value'
+        property_value_not_found: 'There is no suitable property value'
+        add_property_value_placeholder: 'Add {label}?'
+        property_value_string_placeholder: 'Property Value'
+        property_value_time_placeholder: 'Select the date and time'
+        property_value_link_placeholder: 'Property value'
+        proerty_value_text_placeholder: 'Property value'
+      cart_autocomplete:
+        placeholder: 'Find product'
+      categories_selectize:
+        placeholder: 'Add at least one'

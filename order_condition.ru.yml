@@ -1,0 +1,8 @@
+ru:
+  order_condition:
+    title: '%{action_text}, когда: %{conditions_text}, при событии: %{event_text}'
+    default_text: 'Для заказов с любой доставкой, оплатой и статусом'
+    delivery_title: "Доставка '%{vendor_delivery}'"
+    payment_title: "Оплата '%{vendor_payment}'"
+    enter_workflow_title: "Статус '%{state}'"
+    enter_finite_state_title: "Финальное состояние '%{state}'"

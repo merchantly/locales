@@ -1,0 +1,730 @@
+ru:
+  activerecord:
+    models:
+      system_mail_recipient: Получатель рассылки
+      bank_incoming: Банковские поступления
+      bank_incoming_exclude: Исключаемые банковские поступления
+      bank_incoming_contractor: Известные банковские контрагенты
+      admin_user: Админы
+      user_request:
+        one: Заявка
+        few: Заявок
+        many: Заявки
+        other: Заявки
+      vendor: Магазины
+      vendor_notify_mail_template: Шаблоны системных уведомлений магазинам
+      vendor_template: Шаблоны магазинов
+      theme: Темы
+      category: Категории
+      product: Товары
+      content_page: Текстовые страницы
+      operator: Операторы
+      order: Заказ
+      vendor_to_operator: Заведение
+      tariff: Тариф
+      cart: Корзина
+      partner: 'Партнер'
+      partner/coupon: Промокод партнера
+      vendor_tariff_log_entity: История тарифов магазина
+      client: Клиент
+      system_mail_template: Системные шаблоны рассылок
+      system_text: Системный текст
+      system_mail_delivery: Рассылка писем
+      role: Роль
+      openbill_charge: Журнал рекурентных платежей
+      payment_account: Привязанные карты
+      order_payment: Оплаты заказов
+      openbill_invoice: Счет на оплату
+      openbill_account: Биллинговые счета
+      openbill_transaction: Транзакции
+      vendor_sms_log_entity: Журнал SMS
+      vendor_common_transaction: Списание абонентской платы
+      dashboard_item: Шаг запуска магазина
+      # Шаги в списке '5 шагов для запуска магазина'
+      delivery_time_period: Время доставки
+
+    attributes:
+      client_category:
+        title: Наименование
+        all_prices_available: Все цены доступны
+        auth_for_buy_enable: Кнопка 'Войдите, чтобы купить'
+      product_price:
+        price: Цена
+        price_kind_id: Тип
+      price_kind:
+        title: Вид цены
+        ms_price_name: Наименование в МойСклад
+      client_occupation:
+        name: Наименование
+      coupon_image:
+        image: Изображение
+        font_size: Размер шрифта
+        font_color: Цвет шрифта
+        font: Шрифт
+        align: Выравнивание
+      digital_keys_import:
+        states:
+          fresh: Новый
+          process: В процессе
+          finish: Успешно завершен
+          error: Ошибка
+        digital_keys_file: Файл с ключами
+      vendor_common_transaction:
+        amount: Сумма
+        details: Комментарий
+        current_paid_to: Текущая дата окончания действия
+        next_paid_to: Следующая дата окончания действия
+      bank_incoming:
+        contractor_name: Контрагент
+        contractor_inn: ИНН Контрагента
+        contractor: Найденный контрагент
+        amount: Сумма
+        title: Назначение платежа
+        bank_transaction_date: Дата
+        bank_transaction_id: Идентификатор платежа
+        state: Состояние
+        invoice: Выписанный счет
+        transaction: Результирующая транзакция
+      bank_incoming_contractor:
+        contractor_name: Имя контрагента
+        contractor_inn: ИНН контрагента
+        vendor_id: Идентификатор магазина
+      order_payment:
+        state: Статус оплаты
+        created_at: Время
+        vendor: Магазин
+        order: Заказ
+        total_with_delivery_price: Сумма
+        type: Тип оплаты
+        state: Состояние
+        response: Ответ
+      openbill_invoice:
+        client_notified_at: Клиент уведомлен
+        notified_count: Количество уведомлений
+        enable_notification: "Уведомлять клиента о необходимости оплаты счета по email/sms?"
+        is_autochargable: Автоматически списывать
+        next_notification_at: Следующее уведомление
+        created_at: Счет создан
+        paid?: Оплачен?
+        paid_amount: Оплаченная сумма
+        number: Номер счета
+        destination_account: Счет зачисления
+        destination_account_id: Счет зачисления
+        has_payments?: Имеет оплаты?
+        pay_link: Ссылка на оплату
+        pdf_link: Счет на оплату
+        amount: Сумма
+        vendor: Магазин
+        details: Детали
+        date: Дата
+        title: Назначение платежа
+      role:
+        title: Название
+      member:
+        vendor: Магазин
+        role_id: Роль
+        role: Роль
+      system_mail_recipient:
+        delivery: Рассылка
+        operator: Оператор
+        vendor: Магазин
+        send_at: Отослано
+        open_at: Открыто
+        paid_at: Оплачено
+        follow_link_at: Переход по основой ссылке
+        unsubscribe_clicked_at: Перешло на отписку
+        created_at: Создан
+        updated_at: Обновлен
+        invoice: Счет
+      system_mail_delivery:
+        title: Название
+        system_mail_template: Шаблон
+        state: Статус
+        created_at: Создан
+        updated_at: Обновлен
+        recipients_count: Получателей
+        invoices_count: Счетов выставлено
+        paid_invoices_count: Оплачено счетов
+        paid_amount: Оплачено на сумму
+      system_text:
+        title: Заголовок
+        key: Тип текста
+        content: Текст
+      tag:
+        title: 'Название'
+      system_mail_template:
+        title: 'Название рассылки'
+        image: 'Изображение'
+        example_vendor: Магазин для примера
+        example_vendor_id: Магазин для примера
+        example_operator: Оператор для примера
+        example_operator_id: Оператор для примера
+        subject: 'Тема письма'
+        content: 'Тело письма'
+        template_type: Тип рассылки
+        system_mail_deliveries_count: Рассылок
+      vendor_bitrix24:
+        responsible_manager_id: Ответственный за заказы менеджер
+        url: URL адрес Вашего портала на Bitrix24
+        client_id: 'CLIENT ID'
+        client_secret: 'CLIENT SECRET'
+      vendor_amo_crm:
+        url: URL адрес вашего кабиента в AmoCRM
+        order_delivery_custom_field_id: 'ID поля в заказе для адреса доставки'
+        order_weight_custom_field_id: 'ID поля в заказе для общего веса заказа'
+        enable_goods_linking: Привязывать товары к сделке в AmoCRM
+        goods_catalog_id: 'ID каталога в AmoCRM в котором лежат товары'
+        goods_catalog_moysklad_custom_field_id: 'ID поля в каталоге товаров, в котором хранится ID (UUID) товара из Moysklad'
+        login: 'Ваш email в AmoCRM'
+        apikey: 'Ключ доступа к API (он же hash)'
+        responsible_user_id: 'ID менеджера, которого сделают ответсвенным при экспорте сделки'
+        enable_sale_not_linked: 'Разрешено продавать товары не существующие (не связанные) в AmoCRM'
+        initial_state_id: 'ID этапа с которым создается сделка'
+        paid_state_id: 'ID этапа в который переходи сделки при оплате'
+        pipeline_id: 'ID воронки в которую экспортировать сделки'
+        tags: 'Список тэгов чере запятую, устанавливаемые при экспорте сделки. Указываются в формате AmoCRM API'
+        is_active: Осуществлять экспорт сделок из %{brand_name_a} в AmoCRM
+      subscription_email:
+        email: Email
+        created_at: Дата
+      partner:
+        name: Название
+      partner/coupon:
+        code: Код
+        active_days: Сколько дней выплачивается вознаграждение
+        reward_percent: Вознаграждение(в процентах)
+        partner: Партнер
+      workflow_state:
+        convead_key: Ключ в convead
+      order_operator_filter:
+        name: Название
+        coupon_id: Промокод
+        color_hex: Цвет
+        workflow_state_id: 'Статус заказа'
+        has_reserved_items: Резерв
+        delivery_state: Статус доставки
+        payment_state: Статус оплаты
+        delivery_type_id: Доставка
+        payment_type_id: Оплата
+        row_order: Позиция
+      vendor_payment:
+        is_online_kassa_test_mode: Тестовый режим
+        online_kassa_provider: Отправлять данные чека
+        online_kassa_client_id: Client_ID
+        online_kassa_password: Пароль
+        online_kassa_cert: Сертификат
+        online_kassa_key: Ключ
+        online_kassa_kassatka_address: IP
+        online_kassa_kassatka_port: Порт
+        show_icon: Отображение иконки платежной системы при оформлении заказа
+        robokassa_login: Идентификатор магазина
+        robokassa_first_password: Пароль#1
+        robokassa_second_password: Пароль#2
+        robokassa_has_commission: Заплатить комиссию за покупателя? (Для физ лиц)
+        tinkoff_merchantly_key: Терминал
+        tinkoff_password: Пароль
+        sberbank_login: Логин
+        sberbank_api_token: Api токен
+        sberbank_private_key: Callback токен
+        sberbank_is_test: Тестовый режим
+      vendor_tariff_log_entity:
+        date: 'Дата'
+        vendor_id: 'Магазин'
+        tariff_id: 'Тариф'
+        vendor: 'Магазин'
+        tariff: 'Тариф'
+      content_page:
+        title: Название
+        content: Описание
+      cart_item:
+        weight: Вес
+      order_item:
+        weight: Вес
+      yml:
+        asset: 'XML-файл в формате yml_catalog для загрузки'
+      translation:
+        locale: 'Язык'
+        key: 'Ключ'
+        value: 'Значение'
+        custom_value: 'Установленное значение'
+      product_item:
+        fallback_title: 'Вариант %{id}'
+      slug:
+        path: 'Понятный путь'
+        redirect_path: 'Редирект'
+      cart:
+        discount_info: 'Скидка %{discount}% на сумму %{discount_price}'
+      menu_item:
+        custom_title: 'Название'
+        slug: 'Путь'
+        category_id: 'Категория'
+        content_page_id: 'Текстовая страница'
+        link_url: 'Прямая ссылка'
+        place: 'Размещение'
+        dictionary_id: 'Справочник'
+        dictionary_entity_id: 'Элемент словаря'
+        lookbook_id: 'Лукбук'
+      invite:
+        phone: 'Телефон'
+        role_id: Роль
+      admin_user:
+        role: Роль
+        password: Пароль
+        password_confirmation: Подтверждение пароля
+      text_blocks:
+        title: Название текстового блока
+      vendor:
+        not_archive: Не архивировать
+        allow_system_notification: Системные уведомления включены
+        show_currency_symbol: Показывать знак валюты в ценах
+        client_occupation_validation: Профессия
+        client_company_name_validation: Наименование компании
+        enable_client_registration: Разрешить регистрацию клиента
+        client_registration_button_text: Текст при кнопке регистрации клиента
+        disabled_dictionary_entity_counters: Отключить счетчик товаров по свойствам
+        redirect_to: Редирект с магазина на сайт
+        tax_type: Ставка НДС
+        tax_mode: Система налогооблажения
+        use_as_example: Показывать на странице примеров?
+        https_custom_domain: Домен для которого установлено HTTPS
+        active_domain_unicode: Используемый адрес
+        enable_https_redirection: 'Делать редирект с http:// на https://'
+        http_cache_expires_in: HTTP-кэш (в минутах)
+        _delete_domain: Открепить домен
+        vendor_organization: Организация от имени которой создаются заказы в moysklad
+        vendor_organization_id: Организация от имени которой создаются заказы в moysklad
+        vendor_group_id: Отдел сотрудника
+        order_warehouse_id: Склад на котором осуществлять резерв заказа
+        legal_name: 'Официальное наименование организации'
+        is_show_filter_toggle_button: 'Отображать кнопку "Скрыть фильтр"'
+        filter_has_ordering_by_price: 'Пункт "Сортировка по цене"'
+        is_one_click_buy: Переходить сразу к оформлению заказа после добавления товара в корзину
+        is_logo_link: Логотип ведет на главную страницу
+        pre_products_text: 'Текст на главной странице до списка товаров'
+        post_products_text: 'Текст на главной странице после списка товаров'
+        name: Название
+        title: 'Краткий заголовок'
+        orders_count: Заказов
+        products_count: Товаров
+        created_at_date: Дата регистрации
+        created_at_month: Месяц регистрации
+        created_at_week: Неделя регистрации
+        total_orders_success: Процет выполненных заказов
+        total_orders_price: Стоимость заказов
+        total_success_orders_price: Стоимость выполненных заказов
+        success_orders_count: Выполненных заказов
+        has_orders: Есть заказы
+        has_domain: Есть домен
+        has_products: Есть товар
+        has_success_payments: Есть оплаты
+        success_payments_count: Платежей
+        domain: Используемый домен
+        suggested_domain: Домен (предполагаемый)
+        cached_active_domain: Действующий домен
+        subdomain: Поддомен
+        domain_zone: Зона
+        theme: Тема
+        logo: Логотип
+        mobile_logo: Мобильный логотип
+        city: Город
+        city_id: Город
+        phone: Телефон
+        email: E-mail
+        mobile_title: Название приложения
+        mobile_subject: 'Страница приложения: Заголовок'
+        mobile_description: 'Страница приложения: Текст'
+        mobile_footer: Кнопка заказа
+        mobile_delivery: Текст про доставку
+        mobile_empty_cart_alert: Текст ошибки при пустом заказе
+        minimal_price: Минимальная сумма заказа
+        delivery_price: Стоимость доставки
+        google_analytics_tracking_id_html: 'Идентификатор (Tracking ID) в <a href="%{url}" target="_blank">Google Analytics</a>'
+        yandex_metrika_tracking_id_html: 'Номер счетчика в <a href="%{url}" target="_blank">Yandex Метрика</a>'
+        custom_append_html: Дополнительный html-код <body>
+        custom_product_html: Дополнительный html-код на странице товара
+        custom_head_html: Дополнительный html-код <head>
+        custom_after_content_html: Дополнительный html-код перед <footer>
+        footer_menu_middle_html: HTML код в центральной колонке нижнего меню
+        robots: Robots.txt
+        contacts: Контакты в заголовке
+        order_notification_emails: E-mails для уведомлений о заказах
+        support_email:  Reply-to
+        order_notification_phones: Телефоны для уведомлений о заказах по SMS
+        pickup_address: Адрес самовывоза
+        currency_iso_code: Валюта
+        default_currency: Валюта
+        available_currencies: Дополнительные валюты
+        stock_on?: Мой склад
+        is_published: Опубликован?
+        instagram_user_id: Instagram User Id
+        run_out_message: Сообщение о проданном товаре
+        package_category_id: Категория c упаковками
+        show_cart_button_in_list: Отображать кнопку "В корзину" в списке товаров
+        show_quantity_in_list: Отображать поле ввода количества в списке товаров
+        has_auto_menu: Автоматическое меню
+        show_filter_availability: 'Пункт "Доступность"'
+        show_filter_price_range: 'Пункт "Ценовой диапазон"'
+        public_offer_page_id: Страница публичной оферты
+        vk_group_id: Выберите группу для экспорта товаров
+        vk_export_period: Выгружать по расписанию (раз в n дней)
+        has_client_cabinet: Кабинет клиента
+        default_locale: Язык сайта по умолчанию
+        available_locales: Доступные языки
+        has_wishlists: Список желаний
+        show_out_of_stock_products: Показывать закончившиеся товары
+        has_product_comments: Отображать комментарии у товаров
+        tasty_exportable: Выгружать товары в Taaasty
+        tasty_user_token: Tasty user token
+        tasty_tlog_id: Id тлога для выгрузки
+        default_product_position: Позиция товара при добавлении в категорию
+        balance: Баланс
+        last_success_order_at: Последний заказ
+        last_payment_at: Дата последней оплаты клиентом
+        registration_at: Дата регистрации
+        instagram_client_id: Client ID
+        instagram_client_secret: Client Secret
+        partner_coupon: Купон
+        instagram_username: Имя пользователя в Instagram
+        show_full_basket_count: Общее количество товаров в виджете корзины
+        sorted_cart: "Сортировка корзины"
+        tariff: 'Тариф'
+        next_month_tariff: 'Тариф на следующий месяц'
+        is_enabled: Включен?
+        stock_success_synced_at: Дата последней синхронизации со складом
+        is_menu_top_desktop_sticky: '"Липкое" верхнее меню'
+        paid_to: Оплачен до
+        working_to: Работает до
+        show_header_buttons_in_cart: 'Отображать "Оформить заказ" в шапке корзины'
+        show_next_resource_in_list: 'Отображать в списках ссылку на следующий ресурс'
+        show_subscription_email: Отображать в нижнем меню форму подписки E-mail
+        convead_send_subscription_email: Отправить подписанные E-mail в Convead
+
+      vendor/domain_aliases:
+        domain: Дополнительный домен
+      client:
+        id: ID
+        rfm: RFM-сегмент
+        recency: Давность покупок (дн)
+        name: Имя
+        total_orders_price: Сумма покупок
+        currency: Валюта
+        orders_numbers: Номера заказов
+        first_order_created_at: Дата первого заказа
+        last_order_created_at: Дата последнего заказа
+        products_count: Количество приобретенных позиций
+        products_titles: Приобретенные товары
+        products_articles: Артикулы приобретенных товаров
+        phones: Телефоны
+        emails: E-mails
+        orders_count: Количество заказов
+        created_at: Дата создания
+        client_category_id: Категория
+        inn: ИНН
+        kpp: КПП
+        ogrn: ОГРН
+        okpo: ОКПО
+        description: Описание
+        legal_title: Полное наименование
+        company_name: Наименование компании
+      theme:
+        title: Название
+      vendor_theme:
+        product_image_position: Позиция изображения
+        show_short_details: Показывать свойства товара
+        category_product_columns: Товаров в ряд в категории
+        category_product_rows: Строк товаров в категории
+        mainpage_product_columns: Товаров в ряд на главной
+        mainpage_product_rows: Строк товаров на главной
+        theme_template_key: Стиль
+        custom_body_class: Кастомный CSS-класс в body
+        custom_style_format: 'Формат стилей'
+        custom_style: 'Дополнительные стили'
+        category_filter_visible: 'Показывать фильтр товаров в категориях'
+        mainpage_filter_visible: 'Показывать фильтр товаров на главной странице'
+        instagram_visible: Показывать ленту фотографий из Instagram в подвале
+        banner_visible: Показывать баннер
+        slider_visible: Показывать слайдер
+        show_similar_products: Отображение подобных товаров
+        is_welcome_random: 'Товары на главной в случайном порядке'
+        show_children_products_on_welcome: Группировать товары из корневых категорий
+        mainpage_product_columns: 'Количество колонок'
+        mainpage_product_rows: 'Количество строк'
+        show_pagination_on_welcome: 'Показывать пейджирование'
+      category:
+        name: Название
+        title: Название
+        vendor: Заведение
+        show_children_products: Группировать товары из дочерних категорий
+        next_resource_id: Следующая категория
+        google_product_category_id: google_product_category
+      product:
+        is_digital: Цифровой товар?
+        file_url: Ссылка на файл для скачивания
+        sale_price: Цена распродажи
+        weight?: Продается на развес?
+        id: ID
+        ms_uuid: UUID в Мойсклад
+        externalcode: externalcode
+        title: Название товара
+        category_id: ID Категории
+        categories: Дополнительные категории
+        quantity: Остатки
+        images: Изображения
+        category: Категория
+        video_url: Ссылка на видео
+        name: Название
+        description: Описание
+        article: Артикул
+        price_cents: Цена
+        sale_price_cents: Цена распродажи
+        is_sale: Включить распродажу
+        image: Изображение
+        vendor: Заведение
+        selling_by_weight: Товар продается на развес
+        price: Цена
+        main_category: Основная категория
+        main_category_id: Основная категория
+        weight_of_price: Вес, за который указана цена (кг)
+        is_published: Опубликован?
+        tags: Теги
+        multiple_choice: Возможность положить несколько товаров в корзину в карточке товара
+      operator:
+        locale: Язык интерфейса
+        password: Пароль
+        password_confirmation: Подтверждение пароля
+        name: Имя
+        admin_vendor_links: Заведения
+        vendors: Заведения
+        access_key: 'Ключ для API (X-Api-Key)'
+      vendor_to_operator:
+        vendor: Заведение
+      authentication:
+        authenticatable: Пользователь
+        pin_code: Пин-код
+        provider: Провайдер
+      order:
+        phone: Телефон
+        city_id: Город
+        address: Адрес
+        name: Имя
+        comment: Комментарий
+        delivery_states:
+          new: Ожидается старт
+          not_needed: Не требуется
+          delivery: Доставляется
+          done: Доставлен
+          canceled: Отменена
+        payment_states:
+          new:     Ожидаем оплату
+          direct:  Ожидаем оплату наличными
+          paid:    Оплачен
+          failed:  Отклонена
+          canceled:  Отменена
+        states:
+          new: Новый
+          accepted: Действующий
+          done: Выполнен
+          canceled: Отменён
+        delivery_time_period_id: Время доставки
+      coupon:
+        code: Код
+        is_discounting_package: Делать скидку на упаковку
+        use_count: Остаток использования
+        used_count: Кол-во использований
+        discount: Скидка
+        discount_type: Тип скидки
+        expires_at: Действует до
+      dictionary_entity:
+        custom_title: Название
+        next_resource_id: Следующий элемент справочника
+      dictionary:
+        custom_title: Название
+        type: Тип
+        menu_visible: Показывать в меню
+      property:
+        custom_title: Название
+        show_in_filter: Показывать в фильтре
+        use_in_short_details: Показывать в каталоге
+        filter_position: Позиция в фильтре
+      tariff:
+        state: Состояние
+        published_vendors_count: Опубликованных магазинов
+        vendors_count: Магазинов
+        title: 'Название'
+        can_send_sms_with_negative_balance: 'Возможность отправки SMS при отрицательном балансе'
+        sms_price: 'Стоимость SMS'
+        moysklad_price: 'Стоимость МойСклад'
+        row_order: Сортировка
+        description: Описание
+        month_price: Стоимость(мес)
+        can_change: Можно сменить
+        link_kiosk_disable_price: 'Стоимость отключения надписи "Сделано на %{brand_name_e}"'
+        is_default: 'Тариф по умолчанию'
+        feature_edit_menu: Ручное редактирование меню
+        feature_package: Упаковка
+        feature_to_basket_in_list: 'Кнопка "добавить в корзину" в списке товаров'
+        feature_notify_templates: 'Шаблоны оповещений'
+        feature_client_cabinet: 'Кабинет клиента'
+        feature_wishlist: 'Список желаний'
+        feature_order_state: 'Индивидуальные статусы закзазов'
+        feature_walletone: 'WalletOne'
+        feature_domain: 'Индивидуальный домен'
+        feature_custom_css: 'Редактирование CSS'
+        feature_convead: 'Convead'
+        feature_pages: 'Текстовые страницы'
+        feature_max_users: 'Количество сотрудников'
+        feature_max_products: 'Количество товаров'
+        feature_instagram: 'Лента Instagram'
+        feature_export_data: 'Экспорт данных'
+        feature_yandex_kassa: 'Яндекс касса'
+        feature_coupon: 'Промокоды'
+        feature_rbk_money: RBK Money
+        feature_blog: Блог
+        feature_lookbook: Лукбук
+        feature_multilanguage: Мультиязычность
+        feature_delivery_tracking: Трекинг доставки
+        feature_delivery_service: Интеграция со службами доставки
+        feature_moysklad: Интеграция с сервисом МойСклад
+        feature_yandex_market: Выгрузка Яндекс-маркет
+        feature_torg_mail: Выгрузка Торг-мейл
+        feature_amocrm: AmoCRM
+        feature_import: Импорт Данных из Google Spreasheet, Yandex Market
+        feature_slider: Слайдер
+      tariff_order:
+        from_orders_count: 'Кол-во заказов(от)'
+        to_orders_count: 'Кол-во заказов(до)'
+        per_order_price: 'Стоимость заказа'
+        per_month_price: 'Стоимость в месяц'
+      vendor_template:
+        is_test: 'На тестировнии'
+        real_vendors_count: 'Реальные магазины'
+        name: "Имя"
+        description: "Описание (HTML)"
+        image: "Главный скриншот"
+        vendor_id: ID магазина-источника
+        vendors_count: Все магазины
+        position: "Позиция в списке"
+        vendor: Магазин-шаблон
+        precreated_vendors_count: Предсозданные магазины
+      dashboard_item:
+        key: Ключ
+        title: Заголовок
+        text: Текст
+        position: Позиция
+        path: Ссылка
+        created_at: Создано
+        updated_at: Обновлено
+        icon: Иконка
+      vendor_email:
+        email: From
+      delivery_time_rule:
+        to: До
+        time: Время
+        days_count: Кол-во дней
+    errors:
+      wrong_category: Такой категории не существует
+      self_descendant: Категория не может быть вложена сама в себя
+      reset_password_token_is_out_of_date: Токен для восстановления пароля устарел. Закажите еще раз
+      home_category_restriction: Попытка удалить родную категорию
+      operator_not_found: Не найден оператор с таким телефоном или емайлом
+      product_union:
+        price_is_not_uniqueness: Цены товаров неодинаковы
+        maximum: 'Максимальное количество товаров в объединении: %{max}'
+      models:
+        vendor_bitrix24:
+          attributes:
+            url:
+              url: 'Неверный адрес'
+        import_spread_sheet_info:
+          attributes:
+            google_spreadsheet_url:
+              url: 'Неверный адрес таблицы'
+        client_email:
+          attributes:
+            email:
+              email: '^Неверный Email'
+        subscription_email:
+          attributes:
+            email:
+              email: 'Неверный Email'
+        vendor:
+          attributes:
+            subdomain:
+              slug: "Поддомен должен содержать только латинские буквы, цифры, _ или -"
+            support_email:
+              email: "Неверный формат email"
+        invite:
+          attributes:
+            email:
+              email: "Неверный формат email"
+        user_request:
+          attributes:
+            email:
+              email: не похоже на email
+        operator:
+          attributes:
+            email:
+              email: не похоже на email
+        order:
+          attributes:
+            email:
+              email: не является email адресом
+        slider_image:
+          attributes:
+            image:
+              file_size_is_less_than: 'Размер изображения не должен превышать %{count}'
+            link_url:
+              url: Не является ссылкой
+        top_banner:
+          attributes:
+            link_url:
+              url: Не является ссылкой
+        blog_post:
+          attributes:
+            url:
+              url: Не является ссылкой
+        slug_resource:
+          attributes:
+            path:
+              uri_component: 'Неверный формат ссылки'
+            redirect_path:
+              uri_component: 'Неверный формат ссылки'
+        slug_redirect:
+          attributes:
+            path:
+              uri_component: 'Неверный формат ссылки'
+            redirect_path:
+              uri_component: 'Неверный формат ссылки'
+        menu_item:
+          attributes:
+            link_url:
+              url: 'Ссылка должна начинаться с http://'
+        property:
+          attributes:
+            key:
+              unchangable: Нельзя поменять key
+        domain_alias:
+          attributes:
+            domain:
+              taken: уже занят
+        product:
+          attributes:
+            file_url:
+              url: Должен быть ссылкой на файл
+            video_url:
+              url: Не является ссылкой
+  activemodel:
+    attributes:
+      vendor_registration_form:
+        name: Название
+        city_id: Город
+        phone: Телефон
+        email: E-mail
+      operator_login_form:
+        phone: Номер телефона
+        pin_code: Пин-код
+      client_login_form:
+        phone: Номер телефона(+7-XXX-XXX-XX-XX) или email
+        pin_code: Пин-код
+      pin_form:
+        phone: Телефон

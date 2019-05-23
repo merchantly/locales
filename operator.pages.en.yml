@@ -1,0 +1,510 @@
+en:
+  operator:
+    pages:
+      price_kinds:
+        index:
+          title_html: Types of prices
+        edit:
+          title_html: Editing Price Type
+        new:
+          title_html: Creating a price view
+      other:
+        show:
+          title_html: "SEO, redirects, security, caching, etc."
+      design_settings:
+        show:
+          title_html: "Website design (CSS, HTML, Logo, Fonts)"
+      elements:
+        show:
+          title_html: Items on site
+      https:
+        show:
+          title_html: Encryption and HTTPS
+      additional:
+        show:
+          title_html: Additional pages
+      currency:
+        show:
+          title_html: Currency prices and payment
+      shop:
+        show:
+          title_html: View Store
+      footer:
+        show:
+          title_html: Page footer on every page of the site
+      colors:
+        show:
+          title_html: Colors and fonts on the site
+      css:
+        show:
+          title_html: Custom Styles (CSS)
+      domain:
+        show:
+          title_html: Website address
+      filter:
+        show:
+          title_html: Product Filter
+      order_page:
+        show:
+          title_html: Cart and order page settings
+      product_page:
+        show:
+          title_html: Product Page Settings
+      cache:
+        show:
+          title_html: Caching settings
+      category_page:
+        show:
+          title_html: General settings for all category pages
+      pages:
+        show:
+          title_html: Settings of parameters and contents of the site pages
+      header:
+        show:
+          title_html: Header options for each page of the site
+      payment_cards:
+        index:
+          title_html: Linked cards for payment
+      transactions:
+        index:
+          title_html: Account transactions
+        show:
+          title_html: Transaction
+      languages:
+        show:
+          title_html: Multi-language support
+      legal:
+        show:
+          title_html: Legal information
+      currencies:
+        index:
+          title_html: Exchange rates
+      cloud_payments:
+        show:
+          title_html: Acceptance of payment through CloudPayments
+      atol:
+        show:
+          title_html: Integration with online cash register atol.ru
+      starrys:
+        show:
+          title_html: Integration with online cash registers starrys.ru
+      life_pay:
+        show:
+          title_html:  Integration with online cash registers life-pay.ru
+      errors:
+        not_found:
+          title_html: Page is not found
+      dashboard:
+        index:
+          title_html: 5 steps to launch a store
+      extra_js:
+        show:
+          title_html: JavaScript for all pages
+      extra_html:
+        show:
+          title_html: HTML for all pages
+      sms_log:
+        index:
+          title_html: Log of sented SMS 
+
+      products:
+        new:
+          title_html: 'New product'
+        edit:
+          title_html: 'Editing product'
+        batch:
+          title_html: 'Mass change of goods'
+        index:
+          title_html: 'Goods'
+      tags:
+        index:
+          title_html: Tags
+        new:
+          title_html: Create a new tag
+        show:
+          title_html: "Tag %{resource}"
+        edit:
+          title_html: "Editing the tag %{resource}"
+      billing:
+        sms_packs:
+          title_html: SMS purchase
+        show:
+          title_html: Tariff and payment
+        tariff_choose:
+          title_html: 'Tariff selection'
+      convead:
+        show:
+          title_html: 'Connect covead.io'
+      pickup_points:
+        index:
+          title_html: 'Points of issue'
+        import_form:
+          title_html: "Downloading a list of issue points"
+      cities:
+        index:
+          title_html: 'Cities'
+      orders:
+        index:
+          title_html: 'Orders'
+        new:
+          title_html: Create a new order
+        show:
+          title_html: "Order %{resource}"
+        edit:
+          title_html: "Edit the order %{resource}"
+        duplicate:
+          title_html: "Duplicate order %{resource}"
+      packaging:
+        show:
+          title_html: Packing setting
+      roles:
+        new:
+          title_html: Create a new role
+        edit:
+          title_html: Editing the role
+        index:
+          title_html: Roles
+      carts:
+        index:
+          title_html: Add to Cart
+        show:
+          title_html: Add to Cart
+      coupons:
+        index:
+          title_html: Promo codes
+        new:
+          title_html: New promo code
+        show:
+          title_html: Promo code
+        edit:
+          title_html: Edit the promo code
+        new_import:
+          title_html: Download promotional codes in CSV format
+      coupon_groups:
+        new:
+          title_html: Create a group of promotional codes
+      order_conditions:
+        index:
+          title_html: Workflow
+        edit:
+          title_html: Editing the rule
+        new:
+          title_html: Adding a new rule
+      members:
+        index:
+          title_html: Employees
+        edit:
+          title_html: "Editing employee card \"%{resource}\""
+      dictionary_entities:
+        index:
+          title_html: "Directory elements \"%{dictionary}\""
+        edit:
+          title_html: "Editing the element of the directory \"%{dictionary}\""
+        new:
+          title_html: "Add the item \"%{dictionary}\""
+      dictionaries:
+        index:
+          title_html: Directories
+        new:
+          title_html: We get a new directory
+        edit:
+          title_html: "Edit the directory \"%{resource}\""
+      properties:
+        index:
+          title_html: Product Properties
+        edit:
+          title_html: Editing the product property
+        new:
+          title_html: Create a product property
+      translations:
+        index:
+          title_html: Translations
+        edit:
+          title_html: Translation string
+        new:
+          title_html: Translation string
+      subscription_emails:
+        index:
+          title_html: 'Customer''s Subscriptions'
+      clients:
+        index:
+          title_html: 'Customers'
+        edit:
+          title_html: 'Customer %{resource}'
+        show:
+          title_html: 'Customer settings'
+      menu_items:
+        index:
+          title_html: 'Menu management'
+        edit:
+          title_html: 'Edit the menu item'
+        new:
+          title_html: 'Create a new menu item'
+      analytics:
+        index:
+         title_html: 'Analytics'
+      mail_templates:
+        index:
+          title_html: 'Letter and notification templates'
+        edit:
+          title_html: Editing the template
+        show:
+          title_html: View Template
+      categories:
+        archive:
+          title_html: 'Category Archive'
+        index:
+          title_html: 'Product Categories'
+        edit:
+          title_html: "Category \"%{resource}\""
+        new:
+          title_html: 'New category'
+      google_analytics:
+        show:
+          title_html: 'Google Analytics Integration'
+      yandex_metrika:
+        show:
+          title_html: 'Yandex Metrika Integration'
+      bitrix24:
+        show:
+          title_html: 'Export orders to Bitrix24'
+      amo_crm:
+        show:
+          title_html: 'Export orders to AmoCRM'
+      import:
+        show:
+          title_html: 'Downloading data to the Kiosk'
+      favicons:
+        index:
+          title_html: Logo and favicons
+
+      apidoc:
+        show:
+          title_html: API Kiosk
+
+      top_banners:
+        edit:
+          title_html: Promo message
+
+      lookbooks:
+        index:
+          title_html: Lookbooks
+        new:
+          title_html: Create a lookbook
+        show:
+          title_html: "Lookbook \"%{resource}\""
+        edit:
+          title_html: Edit the book
+      order_operator_filters:
+        index:
+          title_html: Order filters
+        new:
+          title_html: Create a filter
+        edit:
+          title_html: Edit the filter
+      welcome_page:
+        show:
+          title_html: Homepage settings
+      content_pages:
+        index:
+          title_html: Text Pages
+        new:
+          title_html: Create a text page
+        edit:
+          title_html: Editing the text page
+
+      blog_posts:
+        index:
+          title_html: News Publishing (blog)
+        new:
+          title_html: Create a news publication (blog entry)
+        edit:
+          title_html: Editing a news publication (blog entry)
+
+      slider_images:
+        index:
+          title_html: Slider
+        edit:
+          title_html: Image for slider
+        new:
+          title_html: Image for slider
+
+      asset_images:
+        index:
+          title_html: Image Bank for text editors
+
+      robots:
+        show:
+          title_html: Manage robots.txt content
+
+      sitemap:
+        show:
+          title_html: Information about generating sitemap.xml
+
+      settings:
+        orders:
+          title_html: Order Settings
+        products:
+          title_html: Product catalog settings
+        others:
+          title_html: Other settings
+        index:
+          title_html: General settings
+        domain:
+          title_html: Website address (domain)
+        filter:
+          title_html: Filter products online
+        main_page_content:
+          title_html: Home page
+      integrations:
+        index:
+          title_html: Integration with third-party services and data exchange
+      moysklad:
+        show:
+          title_html: Integration with MyStock
+      walletone:
+        show:
+          title_html: Integration with the walletone.com payment system
+        edit:
+          title_html: Integration with the walletone.com payment system
+      pay_pal:
+        show:
+          title_html: Integration with payment system PayPal.com
+      yandex_kassa:
+        show:
+          title_html: Integration with the payment system Yandex-Cash
+      disqus:
+        show:
+          title_html: Integration with Disqus.com
+      stock_log_entities:
+        index:
+          title_html: Journal of the import of goods from MyStock
+        show:
+          title_html: "Entry log entry from <em>'%{resource}'</em>"
+      instagram:
+        show:
+          title_html: Instagram integration
+
+      slug_resources:
+        index:
+          title_html: Human-understandable ways
+      slug_redirects:
+        new:
+          title_html: New Redirect (301)
+        edit:
+          title_html: Edit the redirect (301)
+        index:
+          title_html: Redirects (301)
+      not_founds:
+        index:
+          title_html: Not found pages (404)
+      history_paths:
+        index:
+          title_html: History of visits
+
+      files:
+        index:
+          title_html: Files
+
+      yandex_market:
+        show:
+          title_html: Exports of goods in yandex.market.ru
+      rbk_money:
+        show:
+          title_html: Connection to RBK Money payment system
+      vendor_payments:
+        index:
+          title_html: Payment methods
+        edit:
+          title_html: "Payment method \"%{resource}\""
+        new:
+          title_html: New payment method
+
+      vendor_deliveries:
+        index:
+          title_html: Delivery methods
+        edit:
+          title_html: "Delivery method \"%{resource}\""
+        new:
+          title_html: New delivery method
+
+      torg_mail:
+        show:
+          title_html: Export of goods torg@mail.ru
+
+      workflow_states:
+        index:
+          title_html:  Order statuses
+        edit:
+          title_html: "Editing order status \"%{resource}\""
+        new:
+          title_html: New order status
+
+      facebook:
+        show:
+          title_html: Connecting facebook.com
+
+      vkontakte:
+        show:
+          title_html: Integration with vkontakte.ru
+
+      tasty:
+        show:
+          title_html: Taaasty.com connection
+
+      export:
+        show:
+          title_html: Data export
+
+      import_yml:
+        show:
+          title_html: Loading products from Yandex Market
+
+      import_tables:
+        show:
+          title_html: Import products from Google Spreadsheet
+
+      import_photos:
+        show:
+          title_html: Import product photos
+
+      bells:
+        show:
+          title_html: Notifications
+
+      robokassa:
+        show:
+          title_html: Robokassa
+
+      tinkoff:
+        show:
+          title_html: Tinkoff
+
+      sberbank:
+        show:
+          title_html: Sberbank
+
+      delivery_time_slots:
+        show:
+          title_html: Courier service time
+      commerce_ml:
+        show:
+          title_html: CommerceMl
+      digital_keys_import:
+        show:
+          title_html: Download electronic keys
+        edit:
+          title_html: Result of import of electronic keys
+      coupon_images:
+        show:
+          title_html: Certificate Image Template
+        edit:
+          title_html: Editing a template
+        new:
+          title_html: Create New Template
+      import_spread_sheet_infos:
+        show:
+          title_html: Download Products from Google Spreadsheet
+      client_categories:
+        show:
+          title_html: Customer categories

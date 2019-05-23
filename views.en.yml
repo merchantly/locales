@@ -1,0 +1,13 @@
+en:
+  views:
+    collection:
+      empty: No matching results found.
+    pagination:
+      first: "&laquo;"
+      last: "&raquo;"
+      previous: "&lsaquo;"
+      next: "&rsaquo;"
+      truncate: "&hellip;"
+    orders:
+      new:
+        title: Checkout

@@ -1,0 +1,26 @@
+en:
+  decorators:
+    stock_importing_stats:
+      attributes:
+        found_goods: 'Goods found with us'
+        total_goods: 'Total goods in stock'
+        created_goods: 'Added goods to us'
+        processed_goods: 'Processed goods'
+        items_to_sync_count: 'Registrations on stock'
+        updated_items_count: 'Updated options'
+        new_items_count: 'Brought from stock'
+        error_items_count: 'Errors'
+        processed_items_count: 'Processed'
+
+    product_decorator:
+      product:
+        states:
+          any:         'Any'
+          alive:       'Any'
+          run_out:     'Sold out'
+          single:      'Available without options'
+          multiple:    'Available with options'
+          not_available: 'Not for sale'
+          published:   'Published'
+          unpublished: 'Unpublished'
+          archive:     'Archive'

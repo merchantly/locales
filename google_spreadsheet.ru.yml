@@ -1,0 +1,13 @@
+ru:
+  google_spreadsheet:
+    columns:
+      skip : '(пропустить)'
+      article: 'Артикул'
+      price: 'Цена'
+      sale_price: 'Цена распродажи'
+      category: 'Категория'
+      quantity: 'Количество'
+      new_property: '(новое свойство)'
+      title: 'Наименование'
+      description: 'Описание'
+    property_title: '(свойство: %{title})'

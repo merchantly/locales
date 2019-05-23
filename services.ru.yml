@@ -1,0 +1,46 @@
+ru:
+  services:
+    invite:
+      sms_text: "Вас пригласили в %{vendor}, зарегистрироваться - %{url}"
+    vendor_registration:
+      invalid_phone_code: Неверный пин-код
+      operator_name: Оператор магазина %{vendor}
+      first_category: Корневая категория
+      cash_on_delivery: Наложенный платеж
+      cash_on_selfdelivery: Наличными при получении
+      payment_w1: Оплата онлайн (Visa/MasterCard, QIWI и пр.)
+      delivery: 'Доставка почтой'
+      product_name: 'Название товара'
+      product_description: 'Описание товара'
+    pin_sender:
+      sms_text: 'Ваш пин-код для входа: %{pin}'
+    client_pin_sender:
+      sms_text: '%{pin} - Ваш пин-код для входа в личный кабинет %{cabinet_url}'
+    tariff_payment:
+      fee:
+        per_month:
+          description: 'Абонентская плата за %{date} - %{amount}'
+        orders:
+          description: '%{amount} за заказы (%{per_order_amount} за заказ, %{orders_count}). %{date}'
+        sms:
+          description: '%{amount} за SMS (%{per_sms_amount} за 1 SMS, всего отправлено %{sms_count} SMS). %{date}'
+        moysklad:
+          description: '%{amount} за интеграцию с сервисом МойСклад'
+
+    vendor_notifications:
+      partner_incoming:
+        sms_text: '%{name}, партнерский баланс в kiiosk.ru пополнен на %{amount}. Текущий баланс: %{current_amount}'
+      not_enough_sms_money:
+        sms_text: '%{url}: Недостаточно средств для отправки SMS'
+      sms_money_limit_reached:
+        sms_text: '%{url}: Ваш SMS баланс приближается к порогу отключения. Остаток: %{amount}'
+      unpublish:
+        sms_text: '%{url}: Магазин снят с публикации'
+      negative_balance:
+        sms_text: '%{url}: ваш баланс: %{balance}. При отрицательном балансе отправка SMS будет недоступна'
+      balance_refill:
+        sms_text: '%{url}: ваш баланс пополнен на %{amount}. Текущий баланс: %{current_amount}'
+      balance_subtract:
+        sms_text: '%{url}: произошло списание средств на сумму %{amount} - %{details}. Текущий баланс: %{current_amount}'
+      need_payment:
+        sms_text: '%{url}: Заканчивается оплаченный период обслуживания %{unpublish_date}. К оплате %{invoice_amount} - %{payment_link}'

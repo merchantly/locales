@@ -1,0 +1,594 @@
+en:
+  simple_form:
+    "yes": 'yes'
+    "no": 'no'
+    required:
+      text: 'Necessarily field'
+      mark: '*'
+      # You can uncomment the line below if you need to overwrite the whole required html.
+      # When using html, text and mark won't be used.
+      # html: '<abbr title="required">*</abbr>'
+    include_blank:
+      hotel:
+        hotel_kind_id: 'Any'
+
+    error_notification:
+      default_message: "Errors found, <br />please take a look at &nbsp;them"
+      blank: "Fill the gaps"
+    confirm: "Are you sure?"
+    button:
+      disable_with:
+        sending: Sending ...
+        saving: Saving...
+        waiting: Wait...
+        adding: Adding...
+    labels:
+      defaults:
+        package_category_id: Packed category
+        currency_iso_code: 'General currency'
+        role: Role
+        sms_notification: Receive SMS notifications
+        email_notification: Receive email notifications
+        analytics_js: 'Additional JavaScript for analytics'
+        vendor_delivery_id: 'Delivery method'
+        vendor_payment_id: 'Payment method'
+        enter_workflow_state_id: 'Order status'
+        make_reserve_on_enter: 'Do you want to reserve it in stock?'
+        make_delivery_on_enter: 'Do you want to run the delivery?'
+        finite_state: 'Last order status'
+        enter_finite_state: 'Final order status'
+        company_name: "The official name of the trading company (LLC, IP, and TP)"
+        branch_category_id: Industry
+        allow_sms: "Do you want to activate sending of this notification on SMS?"
+        allow_email: "Do you want to activate sending of this notification on e-mail?"
+        ms_workflow_state_uuid: UUID (Workflow / States)
+        reserve_on_linked_stock: Reserve remote stock
+        image: 'Upload image'
+        remove_image: 'Delete image'
+        color_hex: Colour
+        description: Description
+        is_required: Necessarily
+        is_active: On
+        name: Name
+        title: Name
+        body: Comment
+        city_title: City
+        position: Position in the list
+        meta_title: <head><title>
+        meta_description: <meta description>
+        meta_keywords: <meta keywords>
+        h1: <h1>
+      commerce_ml_configuration:
+        login: Login
+        password: Password
+        sales_limit: Number of orders for one exchange
+        stock_enabled: Enable import of stock balance
+        sales_enabled: Enable export orders
+        start_export_at: Date and time of the beginning of the exchange
+      cloud_payments_form:
+        billing_account_uuid: Bill
+        amount_cents: Amount
+        name: Holder's name
+        cardNumber: Card number
+        expDateMonth: Month
+        expDateYear: Year
+        cvv: CVV
+        recurrent: Save as primary payment method
+      vendor_walletone:
+        legal_form: Legal form
+        merchant_id: Cashier Wallet Number
+        owner_user_id: Owner's wallet number
+        title: Name of store
+        branch_category: Category
+        first_name: Name
+        middle_name: Middle name
+        last_name: Surname
+        phone: Phone
+        phone_confirmed?: "Is the phone confirmed?"
+        email: E-mail
+        currency: Currency
+        currency_id: Currency
+        merchant_sign_key: WalletOne Secret Key (MD5)
+      menu_item:
+        place: Located in
+        category_id: On the category of goods
+        dictionary_id: On the directory
+        dictionary_entity_id: On the element of dictionary
+        lookbook_id: On Lookbook
+        content_page_id: On text page
+        link_url: On direct link
+        type: Link type
+
+      client:
+        name: Name and Surname
+        phones_string: Phones
+        emails_string: E-mail addresses
+      order_condition:
+        action: Perform an action
+        event: When making an event
+        after_time_minutes: 'Start deferred after N minutes'
+        notification_template: 'Template'
+        to_order_workflow_state_id: 'Replace with status'
+        order_payment_state: 'Payment State'
+        order_delivery_state: 'Delivery status'
+      subscription_form:
+        tariff_id: Tariff
+        email: Email S-ubscriptions
+        name: Holder's name
+        max_periods: Subscription period
+        cardNumber: Card number
+        expDateMonth: Month of Validity
+        expDateYear: Year of validity
+        cvv: CVV
+      mail_template:
+        subject: Letter title
+        content_html: HTML template
+        content_text: Template in text format
+        content_sms: SMS template
+      text_blocks:
+        title: Title
+        content: Content
+        format:  Format
+      vendor_order:
+        phone: Phone
+        name: Full name
+        city_id: Delivery City
+        city_title: Delivery City
+        address: Delivery address
+        comment: Comment
+        coupon_code: Promo code
+        email: Email
+      operator_order:
+        phone: Phone
+        name: Full name
+        city_id: Delivery City
+        city_title: Delivery City
+        address: Delivery address
+        comment: Comment
+        coupon_code: Promo code
+        email: E-mail
+        delivery_type_id: Delivery type
+        payment_type_id: Payment Methods
+        region: Region
+        house: House
+        slash: Fraction
+        street: Street
+        room: The outside
+        postal_code: Postcode
+        first_name: Name
+        second_name: Surname
+        patronymic: Middle name
+        delivery_city_id: Delivery Cities
+        pickup_point_id: Delivery point
+        package_good_global_id: Packaging
+        delivery_time_period_id: Time of delivery
+      product:
+        reserve: Reserved
+        price: "Price (%{currency})"
+        sale_price: "Discount price (%{currency})"
+        free_delivery_threshold: 'Free shipping on ordering (%{currency})'
+        custom_title: 'Product Name'
+        custom_description: 'Short description'
+        #custom_title: 'Переустановленное название товара'
+        #custom_description: 'Переустановленное короткое описание'
+        similar_products: 'Silimar goods'
+        other_products: 'Other goods'
+        union_items: Linked goods (options)
+        title: Product Name
+        quantity: Quantity
+        total_quantity: Total quantity
+        is_manual_published: Published
+        is_new: New
+        is_sale: Sale
+        article: Vendor code
+        ms_code: Product Code in MyStock
+        brand: Brand
+        categories_ids: Display product also in categories
+        description: Short description
+        ids: Goods
+        show_similar_products: Display of similar products
+        show_other_products: Display other products
+        selling_by_weight: This product is sold by weight.
+        weight_of_price: Weight for which the price is indicated (kg)
+        items:
+          size: Size
+          count: quantity
+          article: Vendor code
+          article_smart: Vendor code
+          custom_title: Title
+          color: Colour
+      vendor_theme:
+        show_similar_products: 'Show similar products'
+        theme_template_key: Style
+        turbolinks_enabled: Enable fast reboot (turbolinks)
+        custom_append_html: Additional html code <body>
+        custom_product_html: Additional html-code on the product page
+        custom_head_html: Additional html-code <head>
+        custom_after_content_html: Additional html-code
+        footer_menu_middle_html: HTML code in the central column of the bottom menu
+        theme:
+          custom_body_class: Custom CSS class in body
+          custom_style_format: 'Style format'
+          custom_style: 'Additional styles'
+      vendor:
+        moysklad_mirror_categories_tree: 'Mirror category tree from stock'
+        show_similar_products: 'Show similar products'
+        turbolinks_enabled: Enable fast reboot (turbolinks)
+        sitemap_url: Link to sitemap
+        is_published: Store included
+        is_external_link_kiosk_disabled: "Hide title \"Build on %{brand_name_e}\""
+        not_published_text: Text of message about stopping of work process of store
+        logo: Logo
+        favicons: Favicons
+        theme:
+          mstile_color: The color of the pinned site in Windows
+          page_bg_color: The background color of the entire page
+          feed_bg_color: Content Background Color
+          feed_transparency: Transparency
+          font_family: Font family
+          font_size: Font size
+          font_color: Text color
+          active_elements_color: Active Color
+          show_quantity_in_list: Display a field to enter the number of items to order
+          show_cart_button_in_list: Show add to cart button
+          category_product_columns: Products in a row in the category
+          category_product_rows: Product lines in the category
+          mainpage_product_columns: Products in a row on the main
+          mainpage_product_rows: Rows of goods on the main
+          theme_template_key: Style
+          custom_body_class: Custom CSS class in body
+          custom_style_format: 'Style format'
+          custom_style: 'Additional styles'
+          category_filter_visible: 'Show filter in category'
+          mainpage_filter_visible: 'Show filter on homepage'
+          instagram_visible: Show Instagram photos from Instagram in the end of page
+          banner_visible: Show promotional message
+          slider_visible: Show slider
+          show_similar_products: Show similar products
+          is_welcome_random: 'Products on home in random order'
+          w1_widget_visible: Show the Walletone widget
+          w1_widget_ptenabled: ID of payment methods for the widget
+        welcome_category_id: Category for homepage
+        title: 'Short title'
+        sellable_infinity: 'Products without quantity are sold as endless'
+        moysklad_login: 'Login to MyStock'
+        moysklad_password: 'Password in MyStock'
+        is_stock_linked: 'Synchronize items and stock balance'
+        is_ordering_stock_linked_only: 'Only items available at the linked stock are ordered'
+        ms_import_images: 'Import images?'
+        stock_auto_syncing: 'Import automatically (once every 2 hours)'
+        is_order_auto_accepted: Automatically take orders and reserve goods
+        is_stock_do_sync_categories: 'Import categories'
+        is_stock_do_sync_clients: Import customer data
+        is_sync_clients_create: "Do you want to create new customers from MyStock?"
+        enable_ms_export_clients: "Do you want to update customer data from MyStock website?"
+        autopublicate_goods_from_stock: 'Automatically publish products from stock'
+        prefer_stock_category_when_syncing: 'Prefer the category of the warehouse if it is.'
+        default_import_category_id: 'Default category'
+        filter_properties: 'Properties that can be shown in the filter'
+        pay_pal_email: 'Login at PayPal.com'
+        yandex_kassa_secret: 'Secret word (ShopPassword)'
+        yandex_kassa_shop_id: 'Store ID (shop id)'
+        yandex_kassa_scid: 'Showcase number (scid)'
+        yandex_kassa_test_mode: Test mode
+        disqus_url: 'Subdomain on disqus.com'
+        yandex_market_enabled: Enable product export to file
+        yandex_market_company: Full name of the company that owns the store
+        torg_mail_enabled: Enable product export to file
+        torg_mail_company: Full name of the company that owns the store
+        rbk_money_secret: API Key Password
+        rbk_money_eshop_id: Store ID
+        not_available_content: "Information in the pop-up window, after clicking on the button of the sold goods"
+        facebook_catalog_enabled: Export products catalog info facebook CSV every hour
+      vendor_delivery:
+        delivery_agent_type: Delivery service
+        price: Cost of delivery
+        free_delivery_threshold: Free shipping
+        login: Login
+        password: Password
+        is_active: "Is it active?"
+        vendor_payment_ids: Permitted payment methods
+        is_separate_address: 'Enter a separate address (region, city, street, house, apartment)'
+        is_separate_name: 'Enter a separate name (first name, last name)'
+        russian_post_token: 'Authorization Token (Without AccessToken)'
+        russian_post_key: 'Authorization Key (Without Basic)'
+        fragile: 'Caution/Fragile'
+        russian_post_mail_direct: 'Country code. You can leave it empty if it is Russia (643)'
+        yandex_search_delivery_list_api_key: 'API key (searchDeliveryList)'
+        yandex_delivery_client_id: 'Account ID'
+        yandex_delivery_sender_id: 'Store ID'
+        yandex_delivery_type: 'Delivery type'
+        yandex_city_from: 'The city from which you want to deliver the order'
+        default_length: 'Default Length (cm)'
+        default_width: 'Default Width (cm)'
+        default_height: 'Default height (cm)'
+        default_weight_gr: 'Default weight (gr.)'
+      vendor_payment:
+        canceling_timeout_minutes: Cancel an unpaid order after (minutes)
+        payment_agent_type: Payment system
+        is_active: Active
+        reserve_on_stock: Reserve in stock
+        deliver_on_payment: Send for delivery upon receipt of payment
+        auto_delivery: Automatically send for delivery when paying
+        vendor_delivery_ids: Permitted Delivery methods
+        wmi_enabled_payment_methods_list: 'Allowed Methods (WMI_PTENABLED)'
+        wmi_disabled_payment_methods_list: 'Illegal methods (WMI_PTENABLED)'
+        yandex_kassa_payment_method: Payment method
+        cloud_payments_public_id: 'Public ID'
+        cloud_payments_api_key: 'API password'
+
+      category:
+        parent_id: 'Root category'
+        is_main: 'Products in this category are displayed on the main page'
+        bottom_text: Text below the product list
+      property:
+        type: Type
+        dictionary_id: Reference (dictionaries only)
+        is_used_in_item: Used in modification
+        is_used_in_product: Used in product
+        position_in_item: Position in option
+        position_in_product: Position in product
+        is_active: 'Actively'
+      slider_image:
+        image: 'Upload image'
+        link_url: 'Link to the image (not necessarily)'
+        is_active: 'Active'
+        link_target: 'URL Conversion'
+      lookbook_image:
+        image: 'Upload image'
+        link_url: 'Link'
+        is_active: 'Active'
+      content_page:
+        is_active: 'Active'
+        target_blank: 'Open in new window'
+        menutitle: 'Menu item'
+      blog_post:
+        title: Headline
+        url: Direct link from the title (not necessarily)
+        is_active: Active
+        published_at: Date of publication
+        content: Article text
+        short_text: Short description
+        image: Picture for list
+      coupon:
+        file: Файл в формате CSV
+        skip_headers: Пропустить 1-ю строку
+      operator:
+        name: Name
+        email: E-mail
+        phone: Phone
+      order_delivery:
+        date_from: Delivery time (from)
+        date_till: Delivery time (up to)
+      invite:
+        phone: 'or phone'
+        role: Role
+      top_banner:
+        content: Promotional text (one line)
+        link_url: Link from the promotional message
+      coupon:
+        code: Code
+        use_count: Remaining use
+        used_count: Number of uses
+        discount: Discount on goods
+        discount_type: Discount type
+        expires_at: Valid until
+        free_delivery: Free shipping
+        only_first_order: Only valid on the first customer order
+        minimal_products_count: Use only if at least in the order of goods
+        is_check_address: 'Check address'
+        category_ids: Apply only to categories
+        product_ids: Apply to goods only
+      phone_confirmation_form:
+        phone: Phone number
+      w1_registration_form:
+        legal_form: Legal status
+        branch_category_id: Service Category
+        title: Name of store
+        currency_id: Trading currency
+        legal_country: Resident country
+        legal_title: Name of entity
+        legal_tax_number: ITN
+        legal_address: Legal address
+        legal_reg_number: State registration number
+        first_name: Name
+        middle_name: Middle name
+        last_name: Surname
+        phone_number: Phone number
+        pin_code: Pin
+        email: E-mail
+
+    placeholders:
+      defaults:
+        title: Title
+      cloud_payments_form:
+        amount_cents: '500'
+        name: IVAN IVANOV
+        cardNumber: 4*** **** **** 1234
+      user_request:
+        email: E-mail
+        name: Your name
+        phone: Phone number
+
+      text_blocks:
+        format:  Format
+      coupon:
+        discount: 10
+        code: PRIZE
+
+      operator_login_form:
+        login: Phone number or email
+        password: PIN or password
+      client_login_form:
+        login: Phone number or email
+        password: PIN or password
+      client_cabinet:
+        login: Phone number
+      reset_form:
+        login: Phone number or email
+      operator:
+        name: Your name
+        phone: Phone number
+        email: E-mail
+        password: Password
+        password_confirmation: Password confirmation
+
+      short_vendor_registration_form:
+        vendor_name: Name of store
+
+      vendor_registration_form:
+        vendor_name: Name of store
+        operator_name: Your name
+        phone: Phone number
+        email: E-mail
+        partner_coupon_code: Promo code (if you have)
+
+      invite_form:
+        name: Name
+        email: E-mail
+        password: Password
+      product:
+        video_url: 'http://youtube.com/...'
+        file_url: 'http://..'
+        title: "For example, a city bike"
+        description: Description
+        #price: 20 000
+        brand: Brand
+        items:
+          size: "For example, XL"
+          count: "For example, 5"
+          article: "For example, M001-11-00"
+          article_smart:
+            # disabled?
+            'true': "Not installed"
+            'false': "For example, M001-11-00"
+          custom_title: 'For example, Mike Yellow XL'
+          color: Colour
+      vendor_products_filter:
+        search: "Find the name, number, vendor code"
+      vendor_orders_filter:
+        search: "Find the name, number, vendor code"
+      order:
+        name: Name
+        your_comment: 'Your comment'
+      order_delivery:
+        external_id: Shipping tracking number
+      vendor_order:
+        city_title: Moscow
+        phone: 'For example, +7 913 123 32 10'
+        name: FULL NAME
+        address: "For example, Academic Vavilov 12-10"
+        comment: What we need to know
+        email: Email
+      vendor_payment:
+        online_kassa_cert: "-----BEGIN CERTIFICATE-----"
+        online_kassa_key: "-----BEGIN PRIVATE KEY-----"
+
+      content_page:
+        menutitle: Menu item
+        title: Headline
+        content: 'Start writing text. You can move or paste links to pictures, insert links to Yandex or Google maps, select and format text'
+      subscription_form:
+        name: IVAN IVANOV
+        cardNumber: 4*** **** **** 1234
+      top_banner:
+        content: Text
+    hints:
+      defaults:
+        run_out_message: "If the goods are finished, this information will be displayed on the goods card"
+        meta_keywords: Comma-separated words
+        analytics_js: 'JS code only, no HTML tags'
+        make_reserve_on_enter: 'When the order enters this state, the goods will be reserved in stock'
+        make_delivery_on_enter: 'When the order enters this state, the delivery will be automatically launched'
+        is_stock_linked: 'Product details, quantity, properties will be receive from the warehouse'
+        reserve_on_linked_stock: 'At the time of reserving goods in the Kiosk, goods will also be reserved in a tied stock, for example, in MyStock'
+        ms_import_images: Already downloaded images will not be deleted
+        ms_sale_price_name: 'The name of the price for the sale. Usually "sale"'
+        ms_common_price_name: 'The name of the price for the online store. Usually "Selling price"'
+        stock_auto_syncing: 'Goods, their residues and characteristics will be regularly updated from the stock.<br> This guarantees the actual residues of goods within an hour.'
+        autopublicate_goods_from_stock: 'Goods received from the stock will be automatically published and available for ordering on the site. Otherwise, you will need to view the products and publish them yourself.'
+
+        is_stock_do_sync_categories: 'Not only goods, but also a list of categories are taken from a stock. <br>You cannot edit categories in the Kiosk and must do so through the stock.<br> This ensures that the stock categories are exactly the same as the store.'
+        prefer_stock_category_when_syncing: 'If the store already has a category, then put the goods in it. Otherwise, use the default category.'
+        default_import_category_id: 'All imported goods are placed in this category if the import of categories is disabled.'
+        price: "%{brand_currency}"
+        wmi_enabled_payment_methods_list: 'This field is for Walletone-supported payment methods (for example, CreditCardRUB). If you are not sure, leave this field blank. If you get an error during the formation of the payment page with a digital signature, remove all of this field.'
+        wmi_disabled_payment_methods_list: 'For example: WebMoneyRUB'
+        yandex_metrika_tracking_id: 'Example: 27444066'
+        google_analytics_tracking_id: 'Example: UA-56712769-1'
+        welcome_category_id: Products from this category and its subcategories are displayed on the main page of the store.
+        package_category_id: Products from this category are offered as packaging on the order page and are excluded from the general issue on the main page.
+        domain_zone: Subdomain area
+        support_email: |
+          Answers from clients to your letters will be sent to this address
+      order_conditions:
+        after_time_minutes: 'If left empty, the event will start immediately.'
+
+      text_blocks:
+        title: 'For example: Specifications'
+
+      blog_post:
+        content: 'In the list of publications there will be no link to the article if there is no text in it.'
+      mail_template:
+        # FIX spec ./spec/controllers/operator/mail_templates_controller_spec.rb:31
+        # to use interpolation
+        # subject: 'Например: Поступил заказ с номером %%{id}'
+        #
+        subject: 'Example: Received order with number id'
+        editable_content_text: "A text message is automatically generated from the HTML template, if you leave this field blank."
+        editable_content_sms: Try to limit SMS text to 140 characters.
+
+      slug:
+        path: 'A way without spaces, starting with /'
+        redirect_path: 'A way without spaces, starting with /'
+
+      slug_redirect:
+        path: 'A way without spaces, starting with /'
+        redirect_path: 'A way without spaces, starting with /'
+      menu_item:
+        link_url: 'Direct link to external resource. For example: http://yandex.ru/'
+        custom_title: 'For example: Articles'
+
+      slider_image:
+        image: Recommended image size is 940x400
+        link_url: 'Leave the field blank if there is no transition from the image.'
+        is_active: 'Disable if you temporarily do not want to see this promotional message on the page'
+
+      theme:
+        w1_widget_ptenabled: 'Do not enter anything if you want to show all possible ways, or specify the necessary comma separated. For example: CreditCardRUB, MobileRetailsRUB'
+      vendor:
+        moysklad_mirror_categories_tree: 'Even if you manually change the order of categories and their inheritance in the Kiosk when the option is on, the existing categories in the stock will come in a state identical to the stock'
+        vk_export_period: 'At least 1 day. Leave empty to not unload'
+        turbolinks_enabled: 'Attention! When this option is enabled, some scripts (such as maps or widgets) may stop working - you need to transfer them to &lt;head&gt;'
+
+        is_published: 'Attention! When this option is disabled, the store will be <strong>completely inaccessible</strong> to visitors.'
+        contacts: 'Phones or emails, line by line'
+        order_notification_emails: 'E-mails line by line'
+        order_notification_phones: 'Phones line by line, for example: +79033891228'
+        instagram_user_id: 'This is not a user name, and its ID. <a href="http://jelled.com/instagram/lookup-user-id" target="_blank">How to find out your user_id on Instagram? (enter the exact name, lowercase and uppercase letters have different meanings).</a>'
+        logo: >
+          You can upload files with extensions <strong>%{ext}</strong>
+        favicons: >
+          You can upload files with extensions <strong>%{ext}</strong><br>
+        public_offer_page_id: 'If installed, when placing an order, the buyer will be asked to accept the terms of the offer'
+      category:
+        show_children_products: This option disables the filter in this category.
+      coupon:
+        skip_headers: "As a rule, the first line is the description of the columns, so we skip it."
+        code: Generate automatically if not filled
+        use_count: Reusable if not filled
+      product:
+        is_digital: 'The client will be able to download the specified file in the case of the purchase of this product'
+        file_url: 'Link to the file to download after purchase. The original link is hidden from the buyer.'
+        reserve: 'Quantity of goods reserved in orders'
+        video_url: 'Link to a video on youtube, vimeo or etc.'
+        tags: 'Tags will be displayed on the product image in the list, for example, "Sales hit"'
+        main_category_id: 'This category will be displayed in the bread crumbs of the goods.'
+      vendor_payment:
+        auto_delivery: "This option sends order data to W1 (WMI_DELIVERY_REQUEST = 1, etc.) for automatic delivery"
+        canceling_timeout_minutes: 0 - do not cancel
+      vendor_delivery:
+        auto_cancel_period_days: 'Notify the buyer about the cancellation of the order after the expiration date (days). Leave blank to not notify'
+      vendor_email:
+        email: |
+          Your customers will receive letters from this address

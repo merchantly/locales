@@ -1,0 +1,11 @@
+ru:
+  properties:
+    PropertyString: Строка
+    PropertyText: Текст
+    PropertyDictionary: Справочник
+    PropertyBoolean: Бинарный
+    PropertyLong: Целое число
+    PropertyDouble: Число с плавающей запятой
+    PropertyTime: Дата и время
+    PropertyLink: Ссылка
+    PropertyFile: Файл

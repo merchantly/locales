@@ -1,0 +1,171 @@
+ru:
+  enumerize:
+    product_image_position:
+      above: Над описанием товара
+      aside: Рядом с описанием товара
+    event:
+      on_create: 'При оформлении заказа'
+      on_workflow_change: 'При изменении статуса заказа'
+      on_pay_success: 'При удачной оплате'
+      on_pay_failure: 'При НЕ состоявшейся оплате'
+    action:
+      delivery: 'Резервировать и запустить доставку'
+      reserve: 'Резервировать товар'
+      unreserve: 'Снимать с резерва'
+      change_state: Сменить статус заказа
+      notification: 'Отправить уведомление'
+
+    payment_state:
+      any: 'Любое'
+      success: 'Удачная оплата'
+      failure: 'Платеж не состаялся'
+    finite_state:
+      any: 'Любое'
+      new: 'Новый'
+      in_process: 'В процессе'
+      failure: 'Завершен не удачно'
+      success: 'Завершен удачно'
+    invite:
+      role:
+        owner: 'Владелец'
+        manager: 'Администратор'
+        guest: 'Гость'
+    role_permission:
+      resource_type:
+        PaymentAccount: 'Управление оплатой'
+        Product: 'Товары'
+        Vendor: 'Другие настройки'
+        SliderImage: Слайдер
+        Translation: Переводы
+        MailTemplate: Шаблоны писем
+        DictionaryEntity: Элементы справочника
+        Member: Сотрудники
+        SubscriptionEmail: Email подписки
+        Lookbook: Лукбуки
+        LookbookImage: Изображения лукбуков
+        ProductImage: Изображения товаров
+        ContentPageImage: Изображения текстовых страниц
+        OperatorDashboardBuilder: Главная страница
+        Warehouse: Склады
+        HistoryPath: История переходов
+        VendorPayment: Способы оплаты
+        Role: Роли
+        VendorProductAnalyticsDay: Аналитика
+        TopBanner: Верхний баннер
+        MenuItem: Меню
+        Property: Свойство
+        OrderCondition: Правила заказов
+        BlogPost: Блог
+        Order: Заказы
+        Slug: ЧПУ
+        Invite: Инвайты
+        VendorSmsLogEntity: SMS лог
+        WorkflowState: Статусы заказов
+        Tag: Теги товаров
+        Coupon: Скидочные купоны
+        VendorDelivery: Способы доставки
+        Dictionary: Справочники
+        ContentPage: Текстовые страницы
+        Category: Категории
+        Cart: Корзины
+        Client: Клиенты
+        ActiveAdmin::Comment: 'Комментарии'
+        OrderOperatorFilter: Фильтры заказов
+        Moysklad: МойСклад
+        AssetImage: Изображения
+        VendorBells::VendorBell: Уведомления
+        DeliveryTimeSlot: Таймслот
+        DeliveryTimePeriod: Промежуток таймслота
+        DeliveryTimeRule: Правило Таймслотов
+        CouponImage: Шаблоны для сертификатов
+        OrderItem: Позиции заказа
+        ClientCategory: Категория клиента
+        PriceKind: Тип Цены
+    member:
+      role:
+        owner: 'Владелец'
+        manager: 'Администратор'
+        guest: 'Гость'
+    vendor_job:
+      state:
+        created: 'Ожидает запуска'
+        process: 'В процессе'
+        failure: 'Завершена с ошибкой'
+        success: 'Удачно завершена'
+    vendor_walletone:
+      legal_form:
+        unknown: Неизвестно
+        personal: Физическое лицо (комиссия 6%)
+        business: Юридическое лицо (комиссия 4%)
+
+    product:
+      show_similar_products:
+        'selected_only': Только установленные товары
+        'auto': Установленные и подходящие
+        'off': Не показывать ничего
+      show_other_products:
+        'selected_only': Только установленные товары
+        'auto': Установленные и подходящие
+        'off': Не показывать ничего
+    system_text:
+      code:
+        partner_program: Партнерская программа
+    system_mail_delivery:
+      state:
+        draft: Черновик
+        process: В прочессе
+        done: Закончена
+    coupon:
+      use_products_behavior:
+        include: Применить только к выбранным товарам
+        exclude: Применять ко всем кроме выбранных товаров
+      use_categories_behavior:
+        include: Применить только к выбранным категориям
+        exclude: Применять ко всем кроме выбранных категорий
+      discount_type:
+        percent: '%'
+        fixed: 'Фиксированная сумма'
+    system_mail_template:
+      template_type:
+        tech: Важная и экстренная информация (пару раз в год, не рекомендуем отписываться)
+        news: Новости сервиса, маркетинг (не чаще одного раза в месяц)
+        analytics: Аналитика собственного магазина (еженедельно, при наличии продаж)
+    vendor:
+      default_product_position:
+        first: Первый
+        last: Последний
+      client_occupation_validation:
+        no_presence: Не запрашивать
+        presence: Запрашивать/необязательно
+        required: Запрашивать/обязательно
+      client_company_name_validation:
+        no_presence: Не запрашивать
+        presence: Запрашивать/необязательно
+        required: Запрашивать/обязательно
+
+    order_russian_post:
+      new: Новый. Чтобы послать бланк Почте России нажмите кнопку снизу
+      delivery: Доставляется. Бланк успешно создан. ID бланка %{order_delivery.external_id}
+      canceled: Отменен. При создании бланка произошла ошибка - %{order_delivery.error}
+      done: 'Доставлено'
+    vendor_delivery:
+      use_products_behavior:
+        include: Применить только к выбранным товарам
+        exclude: Применять ко всем кроме выбранных товаров
+      use_categories_behavior:
+        include: Применить только к выбранным категориям
+        exclude: Применять ко всем кроме выбранных категорий
+      yandex_delivery_type:
+        todoor: Курьер
+        pickup: Точка самовывоза
+        post: Почта России
+    coupon_image:
+      align:
+        none: Нет
+        center: По центру
+        left: По левой стороне
+        right: По правой стороне
+    payment_to_delivery:
+      discount_type:
+        percent: '%'
+        fixed: 'Фиксированная сумма'

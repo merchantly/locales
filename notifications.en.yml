@@ -1,0 +1,18 @@
+en:
+  notifications:
+    titles:
+      merchant: 'Seller Notifications'
+      client: 'Customer Notifications'
+    merchant:
+      new_order: New Order
+      paid: Order has been paid
+      workflow_changed: Order changed status
+      run_out: Out of stock
+    client:
+      payment_link: Link to payment
+      new_order: Placed an order
+      paid: Order has been paid
+      workflow_changed: Order changed status
+      delivery_expired: Payment overdue
+      reminder_payment: 'Reminder of payment'
+      client_category_changed: Change customer category

@@ -1,0 +1,24 @@
+en:
+  mail_template_example:
+    client:
+      name: 'Name of client'
+      email: 'client@exmaple.com'
+      address: 'street address'
+      occupation_name: 'Manager'
+    order:
+      address: 'streed address'
+      city_title: 'City'
+      name: 'Name of client'
+      email: 'test@%{brand_host}'
+      phone: 'phone number'
+    worflow_state:
+      name: 'in delivery'
+    payment_type:
+      description: 'details of payment method'
+    delivery_type:
+      description: 'details of delivery method'
+    vendor:
+      name: 'Store name'
+    product:
+      name: Product name
+      article: "Bar code %{num}"

@@ -1,0 +1,20 @@
+ru:
+  order_states:
+    new: Новый
+    in_process: Действующий
+    success: Выполнен
+    failure: Отменен
+
+  order_log_entities:
+    changed_workflow_state: "Изменен статус заказа (%{workflow_state_from} -> %{workflow_state_to})"
+    use_condition: "Применено условие (#%{id}): \"%{title}\""
+
+  order_delivery_states_comments:
+    delivery: Заказ передан на доставку
+    done: Заказ доставлен
+    canceled: Доставка отменена
+
+  order_payment_states_comments:
+    failed: Оплата не прошла
+    paid: Оплата поступила
+    canceled: Оплата отменена

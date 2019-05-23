@@ -1,0 +1,8 @@
+en:
+  sms:
+    order:
+      vendor:
+        new_order: "Order %{order_id} for %{total} %{client_name} %{delivery} %{city} %{payment}"
+        paid: "Paid order N% {order_id} for % {total}"
+        canceled: 'Canceled order N%{order_id} due to non-payment'
+        run_out: 'Not enough goods to order N%{order_id}'

@@ -1,0 +1,34 @@
+en:
+  human:
+    companies_selled_count:
+      zero: '0 companies sold out'
+      one: '%{number} company sold'
+      few: '%{number} companies sold'
+      many: '%{number} of companies sold'
+      other: '%{number} of companies sold'
+    products_count:
+      zero: '---'
+      one: 'sold %{number} position'
+      few: 'sold %{number} positions'
+      many: 'sold %{number} items'
+      other: 'sold %{number} items'
+    total_orders_amount:
+      zero: '% {number} million rubles'
+      one: '% {number} million rubles'
+      few: '% {number} million rubles'
+      many: '% {number} million rubles'
+
+    coupon:
+      use_count:
+        zero: 'Balance:% {count}'
+        one: 'Disposable'
+        few: 'Balance:% {count}'
+        many: 'Balance:% {count}'
+        other: 'Balance:% {count}'
+        infinite: 'Reusable'
+      used_count:
+        zero: 'Unused'
+        one: 'Used% {count} times'
+        few: 'Used% {count} times'
+        many: 'Used% {count} times'
+        other: 'Used% {count} times'

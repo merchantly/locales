@@ -1,0 +1,178 @@
+ru:
+  integrations:
+    groups:
+      payment:
+        title: Платежные системы
+        details: Платежные системы используются для приёма оплаты от покупателей. За свои услуги, как привило, берут от 2 до 4%.
+
+      online_kassa:
+        title: Онлайн-кассы (54-ФЗ)
+        details: Фискальные регистраторы для e-commerce
+      crm:
+        title: Внешние CRM
+        details: Автоматическое создание клиентов и сделок во внешних CRM-системах
+
+      stock:
+        title: Склад
+        details: Учет остатков и резервирование товаров на складе
+
+      comment:
+        title: Обсуждение товаров
+        details: Формы комментирования и обсуждения товар на сайте
+
+      analytics:
+        title: Аналитика
+        details: Внешние сервисы аналитики
+
+      export:
+        title: Экспорт данных
+        details: Выгрузка информаии о товарах, заказах, клиентах в удобных форматах для дальнейшего использования
+
+      other:
+        title: Прочее
+
+      import:
+        title: Импорт данных
+        details: Загрузка информации о товарах, заказах и клиентах в %{brand_name}
+
+    import_spread_sheet_infos:
+      title: 'Загрузка товаров из Google Spreadsheet'
+      description_html: ''
+
+    walletone:
+      title: 'walletone'
+      description_html: Универсальная система приема платежей на сайте, в том числе в пользу физических лиц.
+
+    pay_pal:
+      title: 'PayPal'
+      description_html: Крупнейшая в мире дебетовая электронная платёжная система. Хорошо подходит для приема оплаты от зарубежных клиентов.
+
+    yandex_kassa:
+      title: 'Yandex Kassa'
+      description_html: Прием оплаты оплату электронными деньгами, наличными, с банковских карт.
+
+    cloud_payments:
+      title: CloudPayments
+      description_html: Платежный шлюз по приему оплаты через пластиковые карты. Быстрое подключение. Только для юридических лиц.
+
+    rbk_money:
+      title: 'RBK Money'
+      description_html: Электронный платёжный сервис.
+
+    robokassa:
+      title: 'Robokassa'
+      description_html: Платежный сервис
+
+    tinkoff:
+      title: 'Tinkoff'
+      description_html: 'Интернет-эквайринг от Тинькофф Банка'
+
+    sberbank:
+      title: 'Сбербанк'
+      description_html: 'Эквайринг от Сбербанка'
+
+    moysklad:
+      title: МойСклад
+      description_html: Полная синхронизация (импорт) номенклатуры и остатков по складам. Автоматическая выгрузка заказов и резервирование товаров на складе.
+
+    vkontakte:
+      title: 'vkontakte.ru'
+      description_html: Подключите vkontakte и запустите на странице товара шаринг и отзывы.<br>
+        Экспортируйте товары в группу и получайте заказы из Вконтакта.
+
+    tasty:
+      title: 'Taaasty.com'
+      description_html: 'Экспортируйте товары в тлог и получайте заказы из Taaasty.'
+
+    disqus:
+      title: 'Disqus.com'
+      description_html: 'Веб-сервис, предоставляющий возможность импорта интернет-обсуждений и комментариев на сайт пользователя.'
+
+    convead:
+      title: convead.io
+      description_html: Комплексная система, которая позволяет собирать email-адреса, возвращать брошенные корзины, повышать конверсию и увеличивать повторные продажи.
+
+    facebook:
+      title: Facebook
+      description_html: Подключите Facebook и запустите на странице товара шаринг и отзывы.
+
+    atol:
+      title: Атол
+      description_html: Аренда онлайн-касс для интернет-торговли
+
+    starrys:
+      title: СтарРус
+      description_html: Аренда онлайн-касс для интернет-торговли
+
+    kassatka:
+      title: Кассатка
+      description_html: Аренда онлайн-касс для интернет-торговли
+
+    life_pay:
+      title: LifePay
+      description_html: Аренда онлайн-касс для интернет-торговли
+
+    orange_data:
+      title: OrangeData
+      description_html: Аренда онлайн-касс для интернет-торговли
+
+    cloud_kassir:
+      title: CloudKassir
+      description_html: Аренда онлайн-касс для интернет-торговли
+
+    instagram:
+      title: Instagram
+      description_html: Автоматически обновляемая галерея фотографий в нижней части страниц Вашего магазина.
+
+    google_analytics:
+      title: Google Analytics
+      description_html: Подключите и настройте Google Analytics одним кликом!
+
+    # vkontakte_export:
+    #   title: Экспорт товаров в Товары vkontakte
+    #   description_html: Автоматическая выгрузка товаров из %{brand_name_a} в Товары Vkontakte
+    #   site_url: https://vk.com/page-59800369_51014929
+
+    import_yml:
+      title: Импорт товаров
+      description_html: Импорт товаров в формате Yandex.Market (.xml)
+
+    import_tables:
+      title: Импорт товаров
+      description_html: Загрузка информации о товарах (наименования, цены, остатки)
+
+    import_photos:
+      title: Массовая загрузка фотографий товаров
+      description_html: Массовая загрузка фотографий товаров
+
+    yandex_metrika:
+      title: Яндекс Метрика
+      description_html: Подключите и настройте Яндекс Метрику одним кликом!
+
+    torg_mail:
+      title: Торг@Mail.ru
+      description_html: Выгружайте товары в Торг@Mail.ru и получайте заказы оттуда.
+      logo_bg_color: '#666'
+
+    commerce_ml:
+      title: 1С Торговля v7/v8
+      description_html: Выгрузка номенклатуры и сладских остатков из 1С через CommerceML
+
+    bitrix24:
+      title: bitrix24
+      description_html: Клиенты и заказы автоматически выгружаются в Bitrix24
+
+    amo_crm:
+      title: AmoCRM
+      description_html: Клиенты и заказы автоматически выгружаются в AmoCRM
+
+    yandex_market:
+      title: 'yandex.market.ru'
+      description_html: Регулярный экспорт товаров в yandex.market.ru
+
+    export:
+      title: 'Экспорт данных'
+      description_html: Выгрузка информации о товарах, заказах, клиентах и др. в CSV, XML, YML
+    apidoc:
+      title: 'API %{brand_name_a}'
+      description_html: Полный доступ к данным магазина через REST JSON API.
