@@ -30,8 +30,8 @@ en:
       goods: 'Goods'
       orders: 'Orders'
       clients: 'Customers'
-      content: 'Site management'
-      settings: 'General settings'
+      content: 'Management'
+      settings: 'Settings'
 
     content_navigation:
       domain: 'Website address'
@@ -53,7 +53,7 @@ en:
       products: 'Product Settings'
       subscriptions: 'E-mail and SMS Notifications'
       integrations: 'Integration and data sharing'
-      members: 'Employees and access rights'
+      members: 'Team and access'
       billing: 'Tariff and payment'
       bells: 'Notifications'
 
@@ -237,11 +237,11 @@ en:
       paid_to: 'Tariff paid to: %{date}'
       need_paid: 'Pay the tariff for publishing the store'
       vendor_will_unpublish: 'Immediately pay  service. Store will be stopped soon'
-      vendor_was_unpublish: 'Shop has been disabled %{date}'
+      vendor_was_unpublish: 'Store has been disabled %{date}'
       tariff_absent: Pay the tariff for publishing the store
       partner_program: Affiliate program
       edit_profile: Change contacts and password
-      new_shop: Open a new store
+      new_shop: Create a new store
       subscriptions: Personal subscriptions
       access_keys: 'API access'
 
@@ -320,7 +320,7 @@ en:
         title: Title
         warehouse: Source stock
         balance: Stock residues
-        quantity: Amount
+        quantity: Quantity
         sellable: "Saled?"
         showable: "Shown?"
         orderable: "Ordered?"
@@ -348,7 +348,7 @@ en:
       products:
         image: Image
         desc: Description
-        amount: Amount
+        amount: Quantity
         price: Price
         state: Status
       properties:
@@ -407,12 +407,12 @@ en:
       properties:            Product Properties
       dictionaries:          Directories
       dictionary:            "Reference '%{resource}'"
-      members:               Employees
+      members:               Team
       coupons:               Скидочные купоны
       dictionary_dictionary_entities: "Directory elements '%{resource}'"
       mail_templates:        Letter and notification templates
       workflow_states:       Orders statuses
-      order_conditions:      Business processes
+      order_conditions:      Workflow
       coupons:               Promotional codes (coupon codes)
       orders:                Orders
       content_pages:         Text Pages
@@ -488,7 +488,7 @@ en:
         MenuItemLookbook: Lookbook
       carts:
         index: Order baskets
-        show: 'Add to Card %{id}'
+        show: 'Add to Cart %{id}'
         created_at: 'Created — %{time}'
       categories:
         index: Categories
@@ -522,7 +522,7 @@ en:
         list_title: List of items
       invites:
         list_title: "Invitation List (%{count})"
-        invite_member: Connect new employee
+        invite_member: Invite a teammate
       lookbooks:
         index: Lookbooks
         index_title: Lookbooks
@@ -678,7 +678,7 @@ en:
         current: Your current tariff
       show:
         paid_to: "Paid up to "
-        shop_locked: Shop locked. Pay the fare to publish the store.
+        shop_locked: Store locked. Pay the fare to publish the store.
         expired: "Service period ended (%{paid_to})"
         transactions: Transactions
         cards: Linked cards
@@ -779,7 +779,7 @@ en:
           minimal_products_count: 'Leave blank for any amount'
           is_check_address: 'If an order has been placed at the client’s address, the coupon will not be applied'
         restrictions: 'Restrictions on categories and products:'
-      search: 'Comment'
+      search: 'Search'
       reset: Reset
       actions:
         import: 'Bulk download coupons from CSV'
@@ -794,14 +794,14 @@ en:
       show:
         title: "Coupon Group %{code}"
         discount: 'Discount: %{discount}'
-        discount_type: 'Discount type:  %{discount_type)}'
+        discount_type: 'Discount type:  %{discount_type}'
         validity: 'Deadline: %{validity}'
         used_count: 'Coupon used times: %{used_count}'
         use_count: '%{use_count} still remains'
         coupons_count: "Total coupons in the group: %{count}"
         used_coupons_count: "Of these, used: %{count}"
         list: 'CSV Coupon List'
-        unlimited: 'perpetual'
+        unlimited: 'unlimited'
     css:
       colors_link: 'Colors and Fonts'
       form:
@@ -854,7 +854,7 @@ en:
       navs:
         head: 'At the end of <code>&lt;head&gt;</code>'
         body: 'At the end of <code>&lt;head&gt;</code>'
-        footer: 'Перед <code>&lt;footer&gt;</code>'
+        footer: 'Before <code>&lt;footer&gt;</code>'
     files:
       settings_favicons: 'Logo and favicons'
       robots: 'robots.txt'
@@ -872,7 +872,7 @@ en:
     header:
       form:
         labels:
-          name: 'Name of shop'
+          name: 'Name of store'
         hints:
           name: 'Used in the site title, in the title tag and in letters'
           is_logo_link: 'If you disable, then the logo will not link'
@@ -897,7 +897,7 @@ en:
           It’s free for subscribed merchants
       instruction: 'Instructions for purchasing an SSL certificate'
     languages:
-      used_on_site: Language uses on web-site
+      used_on_site: Used on site
       default_locale: Default language
       select_default_locale: 'Use default'
       setup: 'Customize translations'
@@ -973,11 +973,11 @@ en:
           settings: 'Your email address'
           clients: 'Customer notifications'
           merchants: 'Notifications for managers'
-          system: 'Platform notifications'
+          system: 'Systen notifications'
         callout:
-          title: 'Which employees receive notifications?'
+          title: 'Which teammate receive notifications?'
           body: "See on the page&nbsp; %{link}"
-          operator_members_link: 'employee management'
+          operator_members_link: 'team management'
       show:
         change: 'Change'
         edit: 'Edit template'
@@ -1009,7 +1009,7 @@ en:
     slug_resources:
       callout: "Paths can be configured on resource editing pages (product, category, text page, etc.)"
     orders:
-      payment_discount: 'Discount by pay with %{payment_type}'
+      payment_discount: 'Discount on payment via with %{payment_type}'
       buyer:
         title: Customer
         email_empty: Email not specified
@@ -1038,13 +1038,13 @@ en:
       payment_url: 'Customer order payment page'
       hints:
         order_payment:
-          state: 'Attention! When changing the payment status manually, business processes and notifications do not work.'
+          state: 'Attention! When changing the payment status manually, workflow and notifications do not work.'
       placeholders:
         search_form:
           query: 'Product name or customer data'
       created_at_from: 'Date of creation'
       order_conditions: 'Business processes'
-      workflow_states: 'Order statuses'
+      workflow_states: 'Wrkflow states'
       operator_filters: 'Order filters'
       mail_templates: 'Order notifications'
       archive: "Orders archive (%{count} pcs.)"
@@ -1221,7 +1221,7 @@ en:
         article: 'Vendor code'
         is_manual_published: 'Did you publish the product?'
         more: More
-        is_product_item: Product items
+        is_product_item: Product item
       search_form_content:
         query: 'Product Name or description'
       archives:
@@ -1265,9 +1265,9 @@ en:
       empty: No additional domains
     login:
       already_registered: "Have you already registered?"
-      auth: Authorization for shop owners
+      auth: Authorization for store owners
       no_shop_yet: "No store yet?"
-      already_has_shop: "Have you already got a shop?"
+      already_has_shop: "Have you already got a store?"
       register_operator: Sign up without a store
       register: Sign Up
       invited: "By invitation?"
@@ -1367,7 +1367,7 @@ en:
       period: Lead time
       stats: Statistics
     shop:
-      create: Create a shop
+      create: Create a store
       creation_title: Creating a store
       w1_registration: Creating a wallet in WalletOne
       yours_title: Your stores
@@ -1480,7 +1480,7 @@ en:
       empty: No invitations
       cancel: "Do you want to cancel invitation?"
       invited_at: "Invited %{invited_at}"
-      new_header: Connecting a new employee
+      new_header: Invite a teammate
     roles:
       change_owner_role: The role of the owner can not be changed. Owner can do anything ;)
       callout: Contact support if you need more roles.
@@ -1491,8 +1491,8 @@ en:
         phone: 'Phone:'
         email: 'Email'
       index:
-        roles: 'Employee roles'
-        current_members: 'Current employees:'
+        roles: 'Roles'
+        current_members: 'Team:'
     product_page:
       form:
         labels:
@@ -1700,7 +1700,7 @@ en:
         seo: 'SEO'
     workflow_states:
       convead_key_empty: not installed
-      order_conditions: 'Business processes'
+      order_conditions: 'Worklfow'
       add_button: Add status
     base:
       product_categories_positions:
@@ -1763,9 +1763,9 @@ en:
         url: operator_category_page_path
         details_html: 'Category Page Settings'
       order:
-        title: Add to card and order page
+        title: Add to cart and order page
         url: operator_order_page_path
-        details_html: 'Add to card and order page settings'
+        details_html: 'Add to cart and order page settings'
 
     modules_widgets:
       header:
@@ -1867,7 +1867,7 @@ en:
 
       order_conditions:
         url: operator_order_conditions_path
-        title: Business processes
+        title: Worklfow
         details_html: These are the rules by which orders move in the funnel.
 
       #notify_templates:
