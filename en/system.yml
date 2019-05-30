@@ -48,6 +48,7 @@ en:
       access_keys: 'Access keys (API)'
       create_shop: 'Create a store'
       enter_for_store: Enter for store managers
+      logout: Exit
     disable_with:
       registration: 'Creating a store..'
       login: 'Entering..'

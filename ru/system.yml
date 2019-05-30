@@ -48,6 +48,7 @@ ru:
       create_shop: Создать магазин
       access_keys: 'Ключи доступа (API)'
       enter_for_store: Вход для магазинов
+      logout: Выход
     disable_with:
       registration: 'Создаем магазин..'
       login: 'Входим..'

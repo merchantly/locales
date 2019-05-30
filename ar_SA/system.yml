@@ -48,6 +48,7 @@ ar_SA:
       access_keys: 'مفاتيح الوصول (API)'
       create_shop: 'إنشاء متجر'
       enter_for_store: أدخل لمديري المتجر
+      logout: 'الخروج'
     disable_with:
       registration: 'إنشاء متجر..'
       login: 'الدخول..'
