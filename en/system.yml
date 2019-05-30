@@ -131,6 +131,10 @@ en:
       confirmed: 'Confirmed'
       hello: 'Hi %{name}!'
       edit_title: "This is your personal profile, you can change it."
+      email: 'Email'
+      phone: 'Phone'
+      locale: 'Locale'
+      password_confirmation: 'Password confirmation'
     access_keys:
       title: "Store API access keys (%{key})"
       th:

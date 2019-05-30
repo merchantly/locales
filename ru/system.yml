@@ -131,6 +131,10 @@ ru:
       confirmed: 'Подтвержден'
       hello: 'Привет, %{name}!'
       edit_title: Это Ваш личный профиль, можете его изменить
+      email: 'Email'
+      phone: 'Телефон'
+      locale: 'Язык'
+      password_confirmation: 'Подтверждение пароля'
     access_keys:
       title: Ключи доступа к API магазинов (%{key})
       th:
