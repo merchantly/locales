@@ -1,0 +1,171 @@
+ar_SA:
+  enumerize:
+    product_image_position:
+      above: فوق وصف المنتج
+      aside: بجانب وصف المنتج
+    event:
+      on_create: 'عند الطلب'
+      on_workflow_change: 'عند تغيير حالة الطلب'
+      on_pay_success: 'إذا تم الدفع بنجاح'
+      on_pay_failure: 'إذا فشلت عملية الدفع'
+    action:
+      delivery: 'احجز وابدأ التسليم'
+      reserve: 'احجز المنتج (ضعه في الاحتياطي)'
+      unreserve: 'إزالة من الاحتياطي'
+      change_state: تغيير حالة الطلب
+      notification: 'إرسال إشعار'
+
+    payment_state:
+      any: 'أي'
+      success: 'عملية دفع ناجحة'
+      failure: 'فشلت عملية الدفع'
+    finite_state:
+      any: 'أي'
+      new: 'جديد'
+      in_process: 'تحت المعالجة'
+      failure: 'فشل'
+      success: 'تم بنجاح'
+    invite:
+      role:
+        owner: 'مالك'
+        manager: 'مدير'
+        guest: 'ضيف'
+    role_permission:
+      resource_type:
+        PaymentAccount: 'عمليات الدفع'
+        Product: 'البضائع'
+        Vendor: 'إعدادات أخرى'
+        SliderImage: شريط التمرير
+        Translation: الترجمة
+        MailTemplate: قوالب الرسائل
+        DictionaryEntity: عناصر الدليل
+        Member: الموظفين
+        SubscriptionEmail: اشتراكات البريد الالكتروني
+        Lookbook: ""
+        LookbookImage: ""
+        ProductImage: صور البضائع
+        ContentPageImage: صور صفحات النص
+        OperatorDashboardBuilder: الصفحة الرئيسية
+        Warehouse: المخازن
+        HistoryPath: تاريخ الانتقال
+        VendorPayment: طرق الدفع
+        Role: الأدوار
+        VendorProductAnalyticsDay: تحليلات
+        TopBanner: الواجهة الأعلى
+        MenuItem: القائمة
+        Property: خاصية
+        OrderCondition: قواعد الطلب
+        BlogPost: المدونة
+        Order: الطلبات
+        Slug: ""
+        Invite: الدعوات
+        VendorSmsLogEntity: سجل الرسائل القصيرة
+        WorkflowState: حالات الطلبات
+        Tag: علامات المنتج
+        Coupon: كوبونات الخصم
+        VendorDelivery: طرق التوصيل
+        Dictionary: الدلائل
+        ContentPage: صفحات النص
+        Category: الفئات
+        Cart: إضافة إلى السلة
+        Client: العملاء
+        ActiveAdmin::Comment: 'التعليقات'
+        OrderOperatorFilter: فلاتر الطلب
+        Moysklad: ماي ستوك
+        AssetImage: الصور
+        VendorBells::VendorBell: الإشعارات
+        DeliveryTimeSlot: فترة زمنية
+        DeliveryTimePeriod: ""
+        DeliveryTimeRule: ""
+        CouponImage: قوالب الشهادة
+        OrderItem: مواضع الطلب
+        ClientCategory: فئة العميل
+        PriceKind: نوع السعر
+    member:
+      role:
+        owner: 'المالك'
+        manager: 'مدير'
+        guest: 'ضيف'
+    vendor_job:
+      state:
+        created: 'في انتظار البدأ'
+        process: 'تحت المعالجة'
+        failure: 'اكتمل مع وجود خطأ'
+        success: 'تم بنجاح'
+    vendor_walletone:
+      legal_form:
+        unknown: غير معروف
+        personal: فرد (عمولة 6%)
+        business: كيان قانوني (عمولة 4%)
+
+    product:
+      show_similar_products:
+        'selected_only': المنتجات المثبتة فقط
+        'auto': مثبتة ومناسبة
+        'off': لا تظهر شيئاً
+      show_other_products:
+        'selected_only': البضائع المثبتة فقط
+        'auto': مثبتة ومناسبة
+        'off': لا تظهر شيئاً
+    system_text:
+      code:
+        partner_program: برنامج الشركاء
+    system_mail_delivery:
+      state:
+        draft: مسودة
+        process: تحت المعالجة
+        done: منتهي
+    coupon:
+      use_products_behavior:
+        include: تنطبق فقط على البضائع المحددة
+        exclude: تنطبق على الجميع ما عدا البضائع المحددة
+      use_categories_behavior:
+        include: تنطبق فقط على الفئات المحددة
+        exclude: تنطبق على الجميع ما عدا الفئات المحددة
+      discount_type:
+        percent: '%'
+        fixed: 'مبلغ ثابت'
+    system_mail_template:
+      template_type:
+        tech: "معلومات مهمة وطارئة (مرتين في السنة ، لا نوصي بإلغاء الاشتراك)"
+        news: "أخبار الخدمة، التسويق (لا يزيد عن مرة واحدة في الشهر)"
+        analytics: "تحليلات المتجر الخاص (أسبوعياً، مع مبيعات)"
+    vendor:
+      default_product_position:
+        first: الأول
+        last: الأخير
+      client_occupation_validation:
+        no_presence: لا تطلب
+        presence: طلب/ليس ضروري
+        required: طلب/ضروري
+      client_company_name_validation:
+        no_presence: لا تطلب
+        presence: طلب/ليس ضروري
+        required: طلب/ضروري
+
+    order_russian_post:
+      new: جديد. لإرسال النموذج إلى البريد الروسي ، انقر على الزر أدناه.
+      delivery: "تم التوصيل. تم إنشاء النموذج بنجاح. معرف فارغ {order_delivery.external_id}%"
+      canceled: "ألغيت. حدث خطأ أثناء إنشاء النموذج - {order_delivery.error}%"
+      done: 'تم التوصيل'
+    vendor_delivery:
+      use_products_behavior:
+        include: تنطبق فقط على البضائع المحددة
+        exclude: تنطبق على الجميع ما عدا البضائع المحددة
+      use_categories_behavior:
+        include: تنطبق فقط على الفئات المحددة
+        exclude: تنطبق على الجميع ما عدا الفئات المحددة
+      yandex_delivery_type:
+        todoor: التوصيل
+        pickup: نقطة الاستلام
+        post: بريد روسيا
+    coupon_image:
+      align:
+        none: No
+        center: في المركز
+        left: على الجانب الأيسر
+        right: على الجانب الأيمن
+    payment_to_delivery:
+      discount_type:
+        percent: '%'
+        fixed: 'مبلغ ثابت'
