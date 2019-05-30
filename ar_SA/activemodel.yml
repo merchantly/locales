@@ -1,0 +1,20 @@
+ar_SA:
+  activemodel:
+    errors:
+      models:
+        vendor:
+          attributes:
+            domain:
+              slug: "يستطيع  المجال أن يحتوي على حروف لاتينية، أرقام، أو علامة ناقص فقط."
+        vendor_registration_form:
+          attributes:
+            email:
+              email: صيغة البريد الإلكتروني غير صحيحة
+        subscription_form:
+          attributes:
+            email:
+              email: صيغة البريد الإلكتروني غير صحيحة
+        client_registration_form:
+          attributes:
+            email:
+              email: صيغة البريد الإلكتروني غير صحيحة
