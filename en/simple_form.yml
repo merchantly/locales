@@ -313,7 +313,7 @@ en:
         shipper_country_code: 'Shipper country code'
         shipper_address: 'Shipper address'
         shipper_city: 'Shipper city'
-        shipper_postal_code: 'Shipper country code'
+        shipper_postal_code: 'Shipper postal code'
         shipper_name: 'Shipper name'
         shipper_phone: 'Shipper phone'
         shipper_email: 'Shipper email'
@@ -606,3 +606,11 @@ en:
       vendor_email:
         email: |
           Your customers will receive letters from this address
+      vendor_delivery:
+        aramex_username: empty if test
+        aramex_password: empty if test
+        aramex_version: empty if test
+        aramex_account_number: empty if test
+        aramex_account_pin: empty if test
+        aramex_account_entity: empty if test
+        aramex_account_country_code: empty if test

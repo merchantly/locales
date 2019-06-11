@@ -313,7 +313,7 @@ ru:
         shipper_country_code: 'Shipper country code'
         shipper_address: 'Shipper address'
         shipper_city: 'Shipper city'
-        shipper_postal_code: 'Shipper country code'
+        shipper_postal_code: 'Shipper postal code'
         shipper_name: 'Shipper name'
         shipper_phone: 'Shipper phone'
         shipper_email: 'Shipper email'
@@ -608,3 +608,11 @@ ru:
       vendor_email:
         email: |
           Ваши клиенты получат письма с этого адреса
+      vendor_delivery:
+        aramex_username: Оставьте пустым, если тест
+        aramex_password: Оставьте пустым, если тест
+        aramex_version: Оставьте пустым, если тест
+        aramex_account_number: Оставьте пустым, если тест
+        aramex_account_pin: Оставьте пустым, если тест
+        aramex_account_entity: Оставьте пустым, если тест
+        aramex_account_country_code: Оставьте пустым, если тест

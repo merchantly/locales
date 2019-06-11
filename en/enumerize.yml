@@ -151,7 +151,7 @@ en:
 
     order_aramex:
       new: New. To send the form to the Aramex click on the button below.
-      delivery: "Delivered. The form has been successfully created. Blank ID %{order_delivery.external_id}"
+      delivery: "Delivered. The form has been successfully created. AWB number %{order_delivery.external_id}"
       canceled: "Canceled. Failure while creating the form - %{order_delivery.error}"
       done: 'Delivered'
 

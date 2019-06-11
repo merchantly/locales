@@ -1593,6 +1593,8 @@ ru:
       value_redefined: 'Значение переопределено'
     vendor_deliveries:
       yandex_settings: 'Значения можно получить в личном кабинете Яндекс.Доставки, в разделе Настройки, на вкладке Интеграция → API'
+      aramex_settings: Aramex account
+      shipper: Данные отправителя
       restrictions: 'Ограничения по категориям и товарам'
       alive: Активные
       archive: Архив

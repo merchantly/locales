@@ -1590,6 +1590,8 @@ en:
     translations:
       value_redefined: 'Value redefined'
     vendor_deliveries:
+      aramex_settings: Aramex account settings
+      shipper: Shipper data
       yandex_settings: 'For setting values look into Yandex.Delivery'
       restrictions: 'Limit by categories and products'
       alive: Active
