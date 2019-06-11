@@ -365,8 +365,8 @@ ru:
         run_out: Под заказ
         sale: Распродажа
         unknown: unknown
-      hide: Свернуть
-      show: Развернуть
+      hide: Убрать фильтр
+      show: Показать фильтр
 
     button:
       to_cart: В корзину
