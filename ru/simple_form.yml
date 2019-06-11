@@ -303,6 +303,20 @@ ru:
         default_width: 'Ширина по умолчанию (в см)'
         default_height: 'Высота по умолчанию (в см)'
         default_weight_gr: 'Вес по умолчанию (гр.)'
+        aramex_username: 'Username'
+        aramex_password: 'Password'
+        aramex_version: 'Version'
+        aramex_account_number: 'Account number'
+        aramex_account_pin: 'Account pin'
+        aramex_account_entity: 'Account entity'
+        aramex_account_country_code: 'Account country code'
+        shipper_country_code: 'Shipper country code'
+        shipper_address: 'Shipper address'
+        shipper_city: 'Shipper city'
+        shipper_postal_code: 'Shipper country code'
+        shipper_name: 'Shipper name'
+        shipper_phone: 'Shipper phone'
+        shipper_email: 'Shipper email'
       vendor_payment:
         canceling_timeout_minutes: Отменять неоплаченный заказ по истечении (минут)
         payment_agent_type: Платежная система

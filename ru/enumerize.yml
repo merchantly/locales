@@ -148,6 +148,13 @@ ru:
       delivery: Доставляется. Бланк успешно создан. ID бланка %{order_delivery.external_id}
       canceled: Отменен. При создании бланка произошла ошибка - %{order_delivery.error}
       done: 'Доставлено'
+
+    order_aramex:
+      new: New. To send the form to the Aramex click on the button below.
+      delivery: "Delivered. The form has been successfully created. Blank ID %{order_delivery.external_id}"
+      canceled: "Canceled. Failure while creating the form - %{order_delivery.error}"
+      done: 'Delivered'
+
     vendor_delivery:
       use_products_behavior:
         include: Применить только к выбранным товарам

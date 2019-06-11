@@ -303,6 +303,20 @@ en:
         default_width: 'Default Width (cm)'
         default_height: 'Default height (cm)'
         default_weight_gr: 'Default weight (gr.)'
+        aramex_username: 'Username'
+        aramex_password: 'Password'
+        aramex_version: 'Version'
+        aramex_account_number: 'Account number'
+        aramex_account_pin: 'Account pin'
+        aramex_account_entity: 'Account entity'
+        aramex_account_country_code: 'Account country code'
+        shipper_country_code: 'Shipper country code'
+        shipper_address: 'Shipper address'
+        shipper_city: 'Shipper city'
+        shipper_postal_code: 'Shipper country code'
+        shipper_name: 'Shipper name'
+        shipper_phone: 'Shipper phone'
+        shipper_email: 'Shipper email'
       vendor_payment:
         canceling_timeout_minutes: Cancel an unpaid order after (minutes)
         payment_agent_type: Payment system
