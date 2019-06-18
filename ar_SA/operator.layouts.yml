@@ -1,0 +1,50 @@
+ar_SA:
+  operator:
+    layouts:
+      header_search:
+        title: بحث وتصفية
+      bells:
+        read_all: 'أشر على الكل بأنها قرئت'
+        scope:
+          all: 'الكل'
+          read: 'مقروء'
+          unread: 'غير مقروء'
+      clients:
+        title: العملاء
+        add_category: 'إضافة فئة'
+        all: جميع العملاء
+      orders:
+        title: الطلب
+        search_query: رقم الطلب، التعليق، أو المنتج
+        from_at: التاريخ من
+        to_at: التاريخ إلى
+        search_button: 'ابحث'
+        new_order: 'قم بإنشاء طلب'
+        search: 'البحث عن طريق الطلبات'
+        add_filter: 'إضافة فلتر'
+        all: جميع الطلبات
+        settings:
+          states: 'حالة الطلب'
+          conditions: القواعد
+          mail_templates: 'الإشعارات'
+          filters: 'الفلاتر'
+      products:
+        title: المنتجات
+        new_button: 'أضف منتج'
+        search: 'البحث عن طريق المنتجات'
+        all: جميع المنتجات
+        without_categories: 'المنتجات دون فئات'
+        sale: 'المنتجات المخفضة'
+        is_run_out: 'السلع المباعة'
+        on_welcome: 'السلع على الصفحة الرئيسية'
+        categories: الفئات
+        add_category: 'إضافة فئة جديدة'
+        settings:
+          categories: 'فئات المنتجات'
+          properties: 'خصائص السلع'
+          tags: 'علامات المنتج'
+          dictionaries: 'القواميس'
+          archive: "أرشيف السلع (%{count} قطع)"
+          public: 'هذه الفئة في الموقع'
+          edit: 'ضبط هذه الفئة'
+          moysklad: تبادل البيانات مع Moysklad

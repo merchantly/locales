@@ -1,0 +1,135 @@
+ar_SA:
+  flashes:
+    activeadmin:
+      balance:
+        income: الاعتمادات المضافة
+        subtract: دَين
+    cabinet:
+      client_form:
+        success: تم تحديث البيانات
+    loaded: محمل
+    cache:
+      flush: 'مسح ذاكرة التخزين المؤقت'
+    menu_items:
+      created: تم إضافة عنصر في القائمة
+      updated: تم تحديث عنصر في القائمة
+      deleted: تم حذف عنصر في القائمة
+    roles:
+      created: تم إنشاء الدور بنجاح
+      updated: تم حفظ الدور بنجاح
+      deleted: تم حذف الدور
+      not_destroyed: لا يمكن حذف الدور
+    tags:
+      created: تم إنشاء العلامة بنجاح
+      updated: تم حفظ العلامة بنجاح
+      deleted: تم حذف العلامة
+    batch_actions:
+      nothing: لا يوجد شيء لتصنيفه!
+      published: تم نشر السلع المحددة
+      unpublished: تم إخفاء السلع المحددة
+      deleted: تم حذف السلع المحددة
+      merged: 'تم تصنيف السلع %{ids} إلى المجموعة %{union_id} بنجاح'
+      duplicated: تم استنساخ السلع المحددة
+      duplicated_from_html: 'المنتج مكرر مع <a href="%{url}">%{product}</a>'
+      categories_updated: تم تثبيت الفئات بنجاح للسلع المحددة
+      tags_updated: تم وضع علامة على المحدد بنجاح
+      restored: تمت استعادة السلع من الأرشيف
+      will_be_restored: ستتم استعادة السلع المحددة من الأرشيف قريباً
+      will_be_published: سيتم نشر السلع المحددة قريباً
+      will_be_unpublished: سيتم إخفاء السلع المحددة قريباً
+      will_be_deleted: سيتم حذف السلع المحددة قريباً
+      will_be_merged: سيتم تصنيف السلع المحددة معاً قريباً
+      will_be_duplicated: سيتم استنساخ السلع المحددة قريباً
+      will_be_categories_updated: سيتم تثبيت السلع المحددة قريباً
+      will_be_tags_updated: سيتم وضع علامة على السلع المحددة قريباً
+      all_unduplicable: لا تستطيع استنساخ جميع السلع
+      all_undeletable: "يحظر إزالة جميع السلع في المتجر مرة واحدة"
+      all_unmergeable: لا يمكن تصنيف جميع السلع
+      one_unmergeable: منتج واحد لا توجد لديه مجموعة
+      many_unions_merge: لا يمكن تصنيف بعض السلع المصنفة بالفعل
+      maximum_in_union: 'الحد الأقصى لعدد السلع في الاتحاد (المجموعة): %{max}'
+    items_batch:
+      wrong_params: معطيات غير صالحة لمعالجة الدفعات
+    lookbook_images:
+      deleted: تم حذف الصورة
+    content_pages:
+      created: تم إنشاء الصفحة بنجاح
+      updated: تم حفظ الصفحة بنجاح
+      deleted: تم حذف الصفحة
+    top_banners:
+      updated: "تم حفظ اللافتة العليا بنجاح"
+    blog_posts:
+      created: تم إنشاء المشاركة بنجاح
+      updated: تم حفظ المشاركة بنجاح
+      deleted: تمت أرشفة المشاركة
+    order_operator_filters:
+      created: تم إنشاء الفلتر بنجاح
+      updated: تم حفظ الفلتر بنجاح
+    import_spread_sheet_infos:
+      not_found: 'لم يتم العثور على الملف. تحقق من إعدادات الوصول.'
+      google_drive_error: 'خطأ: %{message}'
+      empty_table_error: 'لا يوجد صفوف بالجدول'
+    bells:
+      read: اقرأ الإشعارات
+    categories:
+      set: تم تحديد الفئات
+      products_added: 'تم إضافة %{count} سلع إلى الفئة'
+    invites:
+      members_added: 'الأمر يحتوي على المشغلين: %{operators}'
+      created: تم إرسال الدعوة
+      deleted: تم حذف الدعوة
+    ms:
+      already_importing: تم استيراد المنتجات بالفعل
+      import_started: واردات السلع أطلقت في قائمة الانتظار
+    orders:
+      updated: تم تحديث الطلب
+      created: تم إنشاء الطلب
+      accepted: تم قبول الطلب
+      done: تم اكتمال الطلب
+      canceled: تم إلغاء الطلب
+      unreserved: تمت إزالة الطلب من الحجز
+      reserved: تم وضع الطلب في الحجز
+      start_delivery: 'بدأت عملية التوصيل'
+    products:
+      created: تمت إضافة المنتج
+      updated: تم تغيير المنتج
+      export:
+        started: عملية التصدير قيد التشغيل
+        error: خطأ في التصدير
+    products_stats:
+      reindex_started: بدأت عملية إعادة الفهرسة
+    password_reset:
+      change_password: 'أنت مصرح باعتبارك %{operator}. يرجى إعادة تعيين كلمة السر'
+    sessions:
+      created: تم تسجيل الدخول بنجاح
+      unknown_error: خطأ غير معلوم
+      invalid_signature: خطأ في التفويض
+    subscriptions:
+      created: تم إنشاء الاشتراك
+    vk:
+      will_be_exported: سيتم تصدير العناصر المختارة قريباً
+    operator:
+      regenerate_api_key: 'تم تحديث مفتاح واجهة برمجة التطبيق الخاص بك بنجاح %{api}'
+      confirmed: تم تأكيد البريد الإلكتروني بنجاح
+      not_confirmed: لم يتم العثور على مشغل مع هذا البريد الإلكتروني
+      confirmation_sent: تم إرسال رابط التأكيد إلى بريدك الإلكتروني بنجاح
+      confirmation_sent_member: "تم إرسال رابط التأكيد بنجاح"
+      max_users_count_error: 'وصلت إلى الحد الأقصى لعدد المستخدمين في التعريفة الحالية'
+      max_products_count_error: 'وصلت إلى الحد الأقصى لعدد السلع في التعريفة الحالية'
+      spf_check_:
+        fail: 'لم يتم التحقق من صحة البريد الإلكتروني بواسطة إطار سياسة المرسل'
+        success: 'تم تحديث البريد الإلكتروني بنجاح'
+    w1:
+      registered: 'لقد قمت بالتسجيل بنجاح في WalletOne'
+      already_registered: 'المتجر مسجل بالفعل في WalletOne'
+    balance:
+      charged: "تم الدفع بنجاح"
+      choose_tariff: اختر تعريفة
+      choose_account_billing: حدد الحساب القابل لإعادة الشحن
+    publish:
+      select_tariff: 'يجب عليك تحديد ودفع التعريفة للنشر'
+      success: تم نشر المتجر بنجاح
+    restore:
+      success: تمت استعادة المتجر بنجاح
+    unpublish:
+      success: المتجر غير منشور.

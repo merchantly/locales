@@ -1,0 +1,45 @@
+ar_SA:
+  operator:
+    js:
+      product:
+        unknown: منتج غير معروف
+        update_error: خطأ عند تغيير المنتج
+        not_found: "عذراً، لم يتم العثور على شيء  ل '%{query}'."
+        searching: "البحث في السلع عن '%{query}'."
+        ajax_error: 'خطأ %{status}'
+      seconds_count:
+        zero: '%{count} ثانية'
+        one: '%{count} ثانية'
+        two: '%{count} ثانية'
+        few: '%{count}ثواني '
+        many: '%{count} ثواني'
+        other: '%{count} ثواني'
+
+      dropzones:
+        default_message: "انقل الملفات هنا للتحميل"
+        file_too_big: "الملف كبير جداً"
+        invalid_file_type: "هذا النوع من امتداد الملف غير مدعوم للتحميل"
+        cancel_upload: "إلغاء التحميل"
+        cancel_upload_confirmation: "هل أنت متأكد من إلغاء التحميل؟"
+        remove_file: 'حذف'
+      settings_form:
+        text: "بالضغط على هذا الزر ، ستقوم بإيقاف تشغيل النقش \"Made on the merchantly\".\r\nمع رصيدك ، سيتم خصم 1000 روبل (حوالي 58 ريال).\r\nعند إيقاف تشغيل الزر، الأموال غير مستعادة."
+      properties_manager:
+        empty_property_list: 'لم تقم بإنشاء خصائص'
+        add_property_button: 'إضافة خاصية'
+        create_property_button: 'إنشاء خاصية'
+        choose_property_name_placeholder: 'قم بإدخال اسم'
+        add_property_name_placeholder: 'إضافة  {label}؟'
+        property_name_not_found: 'لم يتم العثور على نتائج'
+        unknown_type_of_property: 'نوع غير معروف من الخصائص'
+        choose_property_value_placeholder: 'قم بإدخال قيمة'
+        property_value_not_found: 'لا توجد خاصية مناسبة'
+        add_property_value_placeholder: 'إضافة {label}؟'
+        property_value_string_placeholder: 'قيمة الخاصية'
+        property_value_time_placeholder: 'اختر التاريخ والوقت'
+        property_value_link_placeholder: 'قيمة الخاصية'
+        proerty_value_text_placeholder: 'قيمة الخاصية'
+      cart_autocomplete:
+        placeholder: 'العثور على المنتج'
+      categories_selectize:
+        placeholder: 'قم بإضافة واحد على الأقل'

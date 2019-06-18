@@ -1,0 +1,541 @@
+ar_SA:
+  vendor:
+    payment_discount:
+      percent: '%{title} (الخصم - %{discount}%)'
+      fixed: '%{title}(الخصم بالمال - %{discount})'
+    orders:
+      empty: قائمة الطلب فارغة
+    invoices:
+      bank_name: اسم البنك
+      bank_bik: بنك BIC
+      bank_korschet: استحواذ البنك
+      bank_account_number: رقم الحساب
+      bank_inn: رقم المعاملة الداخلية الخاص بي
+      bank_kpp: IEC الخاص بي
+      recipient: المستقبل
+      sign_position: الموضع
+      sign_name: الاسم الكامل
+
+    ajax:
+      error: فشل في تنفيذ طلب AJAX
+    menu:
+      all_products: جميع السلع
+    blog_post:
+      prev_post: المشاركة السابقة
+      next_post: المشاركة التالية
+    not_published: تعطل المتجر مؤقتاً
+    made_in_kiiiosk: 'أنشئ على <<%{brand_name_e}>>'
+    tasty_product_button_text: شراء
+    more: المزيد
+
+    entities:
+      product: '%{count} منتج'
+      product_2: '%{count} منتج'
+      product_5: '%{count} منتجات'
+
+    badges:
+      new: جديد
+      sale_percent: "خصم %{percent}%"
+      not_available: ليس للبيع
+      sale: خصم
+      sold: المبيعات
+
+    gallery:
+      close: إغلاق
+      next: الأمام
+      prev: الخلف
+
+    search:
+      results_title: 'نتائج البحث (%{count})'
+      nothing_found: 'عفواً، لم يوجد شيء.'
+
+    seconds_count: '%{count} ثانية'
+    seconds_count_2: '%{count} ثواني'
+    seconds_count_5: '%{count} ثواني'
+
+    locales:
+      ru: روسي
+      en: انجليزي
+
+    activemodel:
+      errors:
+        models:
+          vendor_order_form:
+            invalid_phone: 'صيغة الهاتف خاطئة. ملاحظة: +7 913 123 32 10'
+            attributes:
+              address:
+                blank: لا يمكن أن يكون خالياً
+              email:
+                email: ليس عنوان بريد إلكتروني
+              city_title:
+                blank: لا يمكن أن يكون فارغاً
+              phone:
+                blank: لا يمكن أن يكون فارغاً
+              name:
+                blank: لا يمكن أن يكون فارغاً
+              public_offer_accepted:
+                blank: يجب عليك قبول شروط العرض العام
+
+    validators:
+      available_quantity:
+        no_quantity:
+          zero: 'فقط 0 قطع متبقية في المخزن. فضلاً قم بتغيير الكمية.'
+          one: 'فقط 1 قطعة متبقية في المخزن. فضلاً قم بتغيير الكمية.'
+          two: 'فقط %{count} قطع متبقية في المخزن. فضلاً قم بتغيير الكمية.'
+          few: 'فقط %{count} قطع متبقية في المخزن. فضلاً قم بتغيير الكمية.'
+          many: 'فقط %{count} قطع متبقية في المخزن. فضلاً قم بتغيير الكمية.'
+          other: 'فقط %{count} قطع متبقية في المخزن. فضلاً قم بتغيير الكمية.'
+
+        not_available: 'هذه السلعة انتهت'
+    errors:
+      cart:
+        empty: 'لا توجد منتجات في الصندوق.'
+        minimal_price: 'الحد الأدنى لقيمة الطلب هو %{minimal_price}'
+        not_ordering: 'توجد بضائع غير متوفرة للطلب في البطاقة'
+      coupon:
+        not_found: 'الرمز الترويجي %{code} غير موجود'
+        expired: 'الرمز الترويجي %{code} فات موعد استحقاقه'
+      order:
+        no_price_delivery: 'يتم احتساب تكلفة الشحن بعد الطلب.'
+        invalid_form: 'لم يتم قبول الطلب بعد ، يرجى تصحيح الأخطاء في النموذج'
+        has_unorderable_goods: 'يوجد في الطلب منتجات يتعذر الوصول إليها'
+        no_items: 'لا توجد منتجات بالطلب.'
+        unavailable_currency: لا يمكن الطلب بالعملة المحددة
+        comment: لا يمكن أن يكون التعليق فارغاً.
+        client_payment:
+          unavailable: "نظام الدفع %{payment_title} المحدد في الحساب الشخصي غير متوفر %{cabinet_path}"
+          delivery_unavailable: "نظام الدفع %{payment_title} المحدد في الحساب الشخصي غير متوفر للتوصيل {delivery_title}% {cabinet_path}%"
+        client_delivery:
+          unavailable: "التوصيل %{delivery_title} المحدد في حسابك غير متاح %{cabinet_path}"
+          goods_unavailable:  "التوصيل {delivery_title}% المحدد في حسابك غير متاح لهذه المنتجات {cabinet_path}%"
+      order_item:
+        file_unavailable: 'تم الوصول إلى الحد الأقصى للتنزيل (أكثر من %{max}) أو لم يتم دفع الطلب.'
+        only_for_digital: 'هذه الصفحة للمنتجات الرقمية فقط'
+        need_to_pay: 'ادفع للطلب أولاً'
+
+    placeholders:
+      coupon: الرمز الترويجي (إن وُجد)
+      search: البحث
+
+    alerts:
+      confirm: "نظيفة بدقة؟"
+
+    flashes:
+      sberbank_no_url: يوجد خطأ بالدفع عن طريق Sberbank. تواصل مع فريق الدعم.
+      order_no_duplicate: "لا يمكن تكرار بعض المنتجات، لأنها غير متوفرة في الوقت الحالي"
+      wait_for_pay_notify: 'شكرا للدفع! ننتظر تأكيدا من البنك'
+      no_delivery_price: 'لا يمكنك الدفع لطلب لا يوجد لديه مبلغ شحن.'
+      thanks_for_pay: 'شكرا للدفع!'
+      good_added_to_basket: 'تمت إضافة المنتج "%{title}" إلى السلة'
+      goods_added_to_basket: 'تمت إضافة المنتجات إلى السلة'
+      client:
+        sms_sending_error: حدث خطأ في إرسال الرسالة النصية. حاول مجدداً لاحقاً أو قم بإعلام المتجر
+        sms_money_reached: "إرسال الرسائل النصية معطل، اتصل بالمتجر"
+        pin_code_sent: تم إرسال الرمز إلى رقمك
+        not_found_html: 'لم تقم بشراء في متجرنا. <a href="%{url}">قم بالإصلاح!</a>'
+        login_no_phone: تسجيل الدخول ليس هاتف
+        login_no_email: تسجيل الدخول ليس بريد إلكتروني
+        reset_password_sent: تم إرسال إرشادات إعادة تعيين كلمة المرور إلى البريد الإلكتروني.
+        not_registered: "لم تسجل بمتجرنا حتى الآن. <a href=\"%{url}\">قم بالإصلاح!</a>"
+      client_registration:
+        success: لقد تم تسجيلك بنجاح. يحتوي هاتفك على رمز سري للدخول
+        client_exists: يوجد عميل لديه مثل هذه البيانات بالفعل. يحتوي هاتفك على رمز سري للدخول
+        invalid_credentials: صحح أخطاء النموذج
+        request_timeout: "تستطيع إعادة طلب الرمز بعد %{timeout} ثواني."
+        invalid_phone: رقم الهاتف غير صحيح
+        registration_disabled: تم تعطيل تسجيل العملاء في المتجر
+      client_email_confirmation:
+        success: تم تأكيد بريدك الإلكتروني بنجاح
+        invalid_token: رمز غير صالح
+        invalid_client_email: لم يتم العثور على البريد الإلكتروني
+        send_email_confirmation: تم إرسال رابط التأكيد إلى بريدك الإلكتروني.
+      client_reset_password:
+        success: تم تغيير كلمة السر بنجاح
+        reset_password_token_invalid: رمز إعادة كلمة السر غير صحيح
+      cabinet:
+        client_form:
+          success: تم تحديث البيانات
+
+
+    mails:
+      signature: 'تحياتنا، المتجر الإلكتروني "%{name}"'
+
+    auto_menu_items:
+      blog: المدونة
+
+    top_banner:
+      default_content: افتتحنا المتجر!
+
+    order:
+      no_delivery_price_info: 'يتم حساب تكلفة التسليم. يمكن دفع الطلب عندما تكون التكلفة معروفة.'
+      no_price_delivery: السعر غير محدد
+      invoice: تحميل الفاتورة بصيغة PDF
+      fields:
+        phone: الهاتف
+        name: الاسم الكامل
+        email: البريد الإلكتروني
+        city_title: مدينة التوصيل
+        address: عنوان التوصيل
+        comment: تعليق
+        coupon_code: الرمز الترويجي
+        delivery_city_id: مدينة الإصدار
+        pickup_point_id: نقطة الإصدار
+        region: المنطقة
+        street: الشارع
+        house: المنزل
+        slash: الجزء
+        room: الشقة / المكتب
+        postal_code: الرمز البريدي
+        first_name:  الاسم
+        second_name: اسم العائلة
+        patronymic: الاسم الأوسط
+        delivery_time_period_id: وقت التوصيل
+        yandex_delivery_id: خيار توصيل Yandex
+      placeholders:
+        city_title: موسكو
+        phone: 'على سبيل المثال، 10 32 123 913 7+'
+        name: الاسم الكامل
+        address: "على سبيل المثال، أكاديمي فافيلوف 12-10"
+        comment: ما نحتاج إلى معرفته
+        email: البريد الإلكتروني
+        region: بيرم المنطقة
+        street: أكاديمي فافيلوف
+        house: 12
+        slash: اتركه فارغا إن لم يكن
+        room: 10
+        postal_code: 614087
+        first_name: أليكساندر
+        second_name: ايفانوف
+        patronymic: أوليغوفيتش
+
+      submit: الدفع
+      pickup_address: 'عنوان الاستلام:'
+      title: "رقم الطلب %{number} في %{vendor}"
+      payment_type: 'طريقة الدفع: %{title}'
+      delivery_type: 'طريقة التوصيل: {title}%'
+      free_delivery_text_html: 'شحن مجاني للطلبات الأعلى من %{free_delivery_threshold}<nobr>'
+      checkout_free_delivery_text_html: 'مجاني للطلبات الأعلى من <nobr>%{free_delivery_threshold}</nobr>'
+      go_back: الرجوع
+      next: استمرار
+      download_button: تحميل ملف
+      delivery_tracking_id: 'رقم تتبع الشحن: %{number}'
+      check_state: تحقق من حالة التوصيل
+      public_offer_accepted_html: 'أوفق على شروط <u><a href="%{url}" target="_blank">العرض العام</a></u>'
+      created:
+        title: شكراً لطلبكم
+        desc_html: >
+          سيتصل بك المدير قريبًا لتأكيد الطلب. رقم هاتفك %{phone} وطلبك %{link} بثمن %{price}
+      new:
+        delivery_title: حدد نوع التسليم.
+        payment_title: طرق الدفع
+        contacts_title: قم بإدخال البيانات
+        sum: المبلغ
+      redirect: "في غضون 5 ثوان، سيتم إعادة توجيهك إلى صفحة الدفع."
+      redirecting: إحالة إلى موقع الدفع
+      go_to_payment: الانتقال إلى الدفع
+      continue_shopping: الاستمرار بالتسوق
+      contents: 'قائمة الطلبات:'
+      delivery_price: تكلفة التوصيل
+      pay: ادفع
+      discount: الخصم
+      free_delivery_tooltip: التوصيل المجاني
+      processing: 'يتم تجهيز الطلب. انتظر دقيقة'
+      wait: 'انتظر...'
+
+    blog:
+      read_more: المزيد..
+
+    notice:
+      catalog_filter:
+        selected_products: 'الخيارات المحددة'
+        show_products: 'إظهار'
+
+    coupon:
+      discount: 'الخصم - %{discount}'
+      discount_products_include: 'على المنتجات: %{products}'
+      discount_categories_include: 'على الفئات: %{categories}'
+      discount_products_exclude: 'باستثناء المنتجات: %{products}'
+      discount_categories_exclude: 'باستثناء الفئات: %{categories}'
+      minimal_products_count: 'على الأقل %{count} سلعة.'
+      invalid: 'الكوبون "%{value}" غير صالح'
+      checking: 'يتم التحقق من الكوبون'
+      error: 'حدث خطأ في التحقق من الكوبون. حاول مرة أخرى'
+
+    cart:
+      basket_button: السلة
+      amount: الكمية
+      weight: الوزن
+      overall: 'المجموع:'
+      title: السلة
+      clear: قم بمحو جميع السلع
+      not_available: ليست للبيع بعد الآن
+      empty: لا يوجد شيء هنا حتى الآن
+      wait: 'انتظر...'
+      continue_shopping: 'الاستمرار بالاختيار'
+      selected_products: السلع المحددة
+      not_selected_products: لم يتم اختيار منتج
+      just_added: تمت إضافة القطع إلى السلة
+      warning_unavailable_deliveries: 'بعض طرق التسليم غير متوفرة لهذه المنتجات. يمكنك التعرف على طرق التسليم المتوفرة لمنتج ذي أهمية على صفحته.'
+
+    wishlist:
+      add_item: إضافة إلى قائمة الأماني
+      wishlist_button: قائمة الأماني
+      private_title: قائمة الأماني الخاصة بك
+      foreign_title: قائمة الأماني الخاصة بشخص
+      empty: لا يوجد شيء هنا بعد
+      no_price: ليست للبيع
+
+    packaging:
+      add: للإضافة
+      add_gift_package: إضافة إلى الطلب
+      no_package: لا تقم بالإضافة
+
+    payment:
+      w1:
+        failure:
+          title: فشلت عملية الدفع
+          desc: لم تتم عملية الدفع.
+        success:
+          title: شكرا لطلبك
+          desc: تمت عملية الدفع للطلب
+
+    category:
+      continue_shopping: الاستمرار بالتسوق
+      empty: 'ولا يوجد شيء هنا. حتى.'
+
+    dictionary_entity:
+      continue_shopping: الاستمرار بالتسوق
+      empty: 'ولا يوجد شيء هنا. حتى.'
+
+    similar_product:
+      title: اشتري مع هذا المنتج
+    other_product:
+      title: سلع أخرى
+
+    product:
+      title: المنتج
+      blank_price: 'السعر غير معروف'
+      run_out: 'غير متاح'
+      not_available: 'ليست للبيع'
+      available: 'يستطيع الشراء'
+      sold_out_message_html: '&laquo;%{title}&raquo; ليس للبيع الآن'
+      nothing_found_by_criteria: 'آسف ، لا شيء وجد. حاول تغيير معايير البحث الخاصة بك.'
+      category_title: الفئة
+      show_other_products: عرض المنتجات الأخرى
+      show_all: عرض الجميع
+      weight: الوزن
+      kg: كجم
+      available_deliveries: 'هذه القطعة متاحة للتوصيل: %{delivery_titles}'
+
+    properties:
+      empty: 'لا توجد مميزات للعرض.'
+
+    property:
+      unknown_type: 'نوع غير معروف من الخصائص'
+      defaults:
+        size: الحجم
+        color: اللون
+
+    pages:
+      titles:
+        cart: السلة
+        order: الدفع
+        payment: الدفع
+        payment_success: الدفعة تمت بنجاح
+        payment_error: خطأ في الدفع
+
+    filter:
+      order_by_price:
+        title: صنف
+        desc: الأغلى أولاً
+        asc: الأرخص أولاً
+        preset: على حسب الترتيب القائم
+      availability: التوفر
+      price_range: نطاق السعر
+      expand_button:
+        expand: تكبير القائمة
+        turn: إخفاء القائمة
+      selected_options:
+        availability: التوفر
+        price_range: 'السعر من %{from} إلى %{to} %{currency}'
+      selected_availability:
+        all: الكل
+        available: في المخزن
+        run_out: تحت الطلب
+        sale: بيع الكل
+        unknown: غير معروف
+      hide: إخفاء الفلتر
+      show: إظهار الفلتر
+
+    button:
+      to_cart: إضافة إلى السلة
+      select_good: اختيار خاصية
+      go_wishlist: 'انتقل إلى "قائمة الأماني"'
+      to_wishlist: 'إضافة إلى "قائمة الأماني"'
+      remove_from_wish_list: 'حذف من قائمة الأماني'
+      adding_to_wish_list: 'تتم الإضافة ..'
+      already: موجود بالفعل في البطاقة
+      auth_for_buy: سجل الدخول لتشتري
+      publish_shop:
+        text: نشر
+        title: 'تم تعطيل المتجر. انقر للنشر'
+      disable_with:
+        sending: يتم الإرسال...
+        saving: يتم الحفظ...
+        waiting: انتظار...
+        adding: إضافة...
+
+    products:
+      others: أخرى
+      nothing_found_by_criteria: لم يتم العثور على نتائج لهذه المعايير.
+
+    cabinet_order:
+      items_count: '%{itemsCount} نقاط بيع.'
+      duplicate: مكرر
+
+    client:
+      auth: حسابي الشخصي
+      registration: التسجيل
+      reset_password: Новый пароль
+      client_form:
+        title: اختيار التسليم ونظام الدفع
+      company_form:
+        title: تفاصيل الشركة
+      titles:
+        phone: رقم الهاتف
+        pin: الرمز
+        name: اسمك
+        new_password: كلمة السر جديدة
+        occupation: المهنة
+        company_name: Наименование компании
+        city_title: المدينة
+        address: العنوان
+        region: المنطقة
+        street: الشارع
+        house: المنزل
+        room: الشقة
+        slash: الجزء
+        first_name: الاسم
+        second_name: اسم العائلة
+        patronymic: الاسم الأوسط
+        payment: طريقة الدفع
+        delivery: التوصيل
+        postalCode: الرمز البريدي
+        company_name: اسم الشركة
+        inn: رقم المعاملة الداخلية
+        kpp: IEC
+        ogrn: PSRN
+      placeholders:
+        phone: رقم الهاتف
+        pin: الرمز
+        name: اسمك
+        email: البريد الإلكتروني
+        password: الرمز السري أو كلمة السر
+        login: رقم الهاتف أو البريد الإلكتروني
+        new_password: كلمة السر الجديدة
+        occupation: المهنة
+        company_name: Наименование компании
+        city_title: المدينة
+        address: العنوان
+        region: المنطقة
+        street: الشارع
+        house: المنزل
+        room: الشقة
+        slash: الجزء
+        first_name: الاسم
+        second_name: اسم العائلة
+        patronymic: الاسم الأوسط
+        postalCode: الرمز البريدي
+        company_name: اسم الشركة
+        inn: رقم المعاملة الداخلية
+        kpp: IEC
+        ogrn: PSRN
+      pin_alert:
+        send: الحصول على كلمة السر
+        timeout: يجب أن تصل الرسالة النصية خلال دقيقة. <br>تستطيع إعادة طلب رمز خلالها
+      reset_password:
+        send: Сбросить пароль
+      submit: تسجيل الدخول
+      registration_submit: حسناً
+      no_account: "لا يوجد حساب؟"
+      logged_in_with: 'أنت مسجل الدخول بحساب <br /><b>%{name}</b>.'
+      continue_logged: 'الاستمرار بهذا الاسم..'
+      create_account: إنشاء
+      logout: الخروج
+      cabinet:
+        title: حسابي الشخصي
+        orders: قائمة الطلبات
+        button: حسابي الشخصي
+        create: إنشاء حساب شخصي
+        send_pin_code: إرسال الرمز
+        disable_with: يتم الإرسال..
+        phones: الهواتف
+        emails: رسائل البريد الإلكتروني
+        delivery_select:
+          blank: اختر الشحن
+        payment_select:
+          blank: اختر نظام الدفع
+      reset_password_submit: حفظ
+      confirmed: مؤكد بواسطة
+      no_confirmed: غير مؤكد
+      reset_password: إعادة تعيين كلمة السر
+      save_submit: حفظ
+
+    money:
+      unknown_iso_code: "عملة غير معروفة %{isoCode}"
+    product_list:
+      next_button:
+        text: '%{title}'
+    subscription_email:
+      title: الاشتراك بالنشرة الإخبارية
+      text: ""
+      submit_button_text: الاشتراك
+      unknown_error: خطأ غير معروف
+      success_text: شكراً لاشتراكك
+
+    userbar:
+      design: 'التصميم'
+      operate:
+        product: 'إدارة المنتجات'
+        category: 'إدارة الفئات'
+        dictionary_entity: 'إدارة عنصر القاموس'
+        dictionary: 'إدارة القاموس'
+        lookbook: 'إدارة كتاب البحث'
+        content_page: 'إدارة الصفحة'
+        blog: 'إدارة المدونة'
+        blog_post: 'إدارة هذا المنشور'
+        shop: 'إدارة المتجر'
+
+    design_settings:
+      title: إدارة التصميم
+      main_page: 'الصفحة الرئيسية'
+      products_in_row: 'السلع في كل صف'
+      page_rows: "أسطر المنتجات"
+      page_filter: "فلتر المنتجات على اليسار"
+      page_slider: "شريط التمرير بالوسط"
+      page_random: "السلع بترتيب عشوائي"
+      category_page: 'صفحة الفئة'
+      product_page: 'صفحة المنتج'
+      page_photo: "مكان الصورة"
+      similar_products: "المنتجات المشابهة في الأسفل"
+      general_settings: 'إعدادات عامة'
+      show_cart_button_in_list: 'عرض زر "أضف إلى السلة" في قائمة البضائع'
+      show_quantity_in_list: 'عرض حقل إدخال الكمية في قائمة المنتجات'
+      main_page_instagram: "معرض انستغرام في الأسفل"
+      main_page_banner: "اللافتة في الأعلى"
+      walletone_widget: "قطعة W1 في الأسفل"
+      style: 'النمط'
+      logo: "الشعار (يفضل .SVG)"
+      page_bg: "خلفية الصفحة"
+      page_bg_color: "لون الصفحة"
+      feed_bg_color: "لون المحتوى"
+      feed_transparency: "شفافية الشريط"
+      font_color: "لون النص"
+      font_family: "الخط"
+      font_size: "حجم الخط"
+      active_elements_color: "اللون النشط"
+      select_file: 'اختر ملف...'
+      select_other_file: 'اختر ملف آخر...'
+      saving: 'يتم الحفظ...'
+      save: 'حفظ'
+      no_changes: 'لا توجد تغييرات'

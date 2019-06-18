@@ -1,0 +1,76 @@
+ar_SA:
+  bells:
+    InstagramFeed::NoInstagramUserId:
+      subject: "لم يتم ادخال معرف حساب انستغرام، لكن محتوى انستغرام معروض على الموقع."
+      text: "يرجى إدخال حساب انستغرام صحيح في إعدادات المتجر أو تعطيل محتوى انستغرام"
+    InstagramFeed::NotFound:
+      subject: "لم يوجد حساب انستغرام بمعرف {instagram_user_id} %"
+      text: "لقد ادخلت معرف حساب انستغرام خاطئ في إعدادات المتجر"
+    Moysklad::Client::ResourceForbidden:
+      subject: 'الاستيراد التلقائي للسلع من MyStock معطّل'
+      text: "لا يمكن الوصول إلى استيراد السلع من MyStock.\nبوضوح، لم يتم تنشيط التعريفة في MoiSklad.ru التي تسمح لك بالعمل مع واجهة برمجة التطبيق أو أن المستخدم (%{login}) ليس لديه صلاحيات كافية."
+    Moysklad::Client::UnauthorizedError:
+      subject: 'Automatic import of goods from MyStock disabled'
+      text: 'Authorization error in the MyStock service: check the correctness of the login/password and your tariff on MyStock'
+    MoyskladImporting:NoLogin:
+      subject: 'الاستيراد التلقائي للسلع من MyStock معطّل'
+      text: 'أدخل اسم المستخدم وكلمة السر للوصول إلى متجري'
+    hello:
+      subject: 'مرحباً!'
+      text: 'سيتم استقبال الرسائل عن عمل المتجر هنا.'
+    domain_attached:
+      subject: 'المجال متصل'
+      text: 'المجال %{domain} اتصل بالمتجر بنجاح.'
+    convead_invalid_or_outdate:
+      subject: 'الاتصال ب convead.io خاطئ أو قديم'
+      text: 'لقد أدخلت مفتاح خاطئ للتطبيق (%{convead_app_key}) أو لم تدفع لخدمات convead.io. الربط معطّل'
+    OpenURI::HTTPError:
+      subject: 'اسم مستخدم انستغرام خاطئ'
+      text: 'لقد أدخلت اسم مستخدم انستغرام خاطئ (%{username})'
+    PayPal::InvalidByteError:
+      subject: 'خطأ في قبول الدفع'
+      text: 'أدخل ترميز UTF-8 في المميزات الإضافية في إعدادات حساب PayPal الخاص بك.'
+    W1::PaymentService::NoSignature:
+      subject: 'خطأ في معالجة الدفع للطلب رقم %{order_id}'
+      text: 'يجب أن تختار طريقة التوقيع الرقمي MD5 في إعدادات WalletOne.
+
+        اعرف المزيد - https://www.walletone.com/ru/merchant/documentation/#step3'
+    System::AmoCRM::ExportOrder::InvalidAmoCrmError:
+      subject: 'خطأ في تصدير الطلب إلى AmoCRM'
+      text: 'تحقق من إعدادات AmoCRM'
+    AmoCRM::Client::Error:
+      subject: 'خطأ للعميل في AmoCRM'
+      text: 'تحقق من إعدادات AmoCRM'
+    RussianPost::ResponseError:
+      subject: 'خطأ في "Post of Russia"'
+      text: 'خطأ: %{error}'
+    Starrys::FatalResponseError:
+      subject: 'خطأ في Starrys'
+      text: 'خطأ: %{error}'
+    spf_check_fail:
+      subject: 'خطأ في إطار سياسة المرسل'
+      text: 'بريدك {email}# لم يجتاز فحص إطار سياسة المرسل'
+    Bitrix24::Client::AuthorizationCodeError:
+      subject: 'خطأ في Bitrix24'
+      text: 'خطأ: %{error}'
+    Sberbank::Requestor::ResponseError:
+      subject: 'خطأ في Sberbank'
+      text: 'الطلب مع نظام دفع Sberbank لم ينجح. الرجاء التحقق من تفاصيل دفعتك أو تواصل مع الدعم'
+    Sberbank::Requestor::ApiTokenEmptyError:
+      subject: 'خطأ في Sberbank'
+      text: 'لم يتم تعيين قيمة الرمز المميز لواجهة برمجة التطبيق'
+    RobokassaParams::TaxTypeEmptyError:
+      subject: 'خطأ في Robokassa'
+      text: 'لم يتم تعيين قيمة الضريبة المضافة للتاجر'
+    RobokassaParams::TaxModeEmptyError:
+      subject: 'خطأ في Robokassa'
+      text: 'لم يتم تعيين نظام الضرائب للتاجر'
+    Moysklad::Client::UnauthorizedError:
+      subject: 'خطأ في MoySklad'
+      text: 'الحساب معطل. يرجى التواصل مع مدير الحساب'
+    Kassatka::Requestor::TokenEmptyError:
+      subject: 'خطأ في Kassatka'
+      text: 'لم يتم تعيين قيمة الرمز'
+    Kassatka::Requestor::ResponseError:
+      subject: 'خطأ في Kassatka'
+      text: 'خطأ: %{error}'

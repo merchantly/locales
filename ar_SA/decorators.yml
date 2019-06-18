@@ -1,0 +1,26 @@
+ar_SA:
+  decorators:
+    stock_importing_stats:
+      attributes:
+        found_goods: 'السلع الموجودة معنا'
+        total_goods: 'مجموع السلع في المخزن'
+        created_goods: 'السلع المضافة لنا'
+        processed_goods: 'السلع المصنعة'
+        items_to_sync_count: 'التسجيلات في المخزن'
+        updated_items_count: 'الخيارات التي تم تحديثها'
+        new_items_count: 'جلبت من المخزن'
+        error_items_count: 'الأخطاء'
+        processed_items_count: 'تمت معالجتها'
+
+    product_decorator:
+      product:
+        states:
+          any:         'أي'
+          alive:       'أي'
+          run_out:     'مباعة'
+          single:      'متاحة بدون خيارات'
+          multiple:    'متاحة مع خيارات'
+          not_available: 'ليست للبيع'
+          published:   'منشور'
+          unpublished: 'غير منشور'
+          archive:     'أرشيف'

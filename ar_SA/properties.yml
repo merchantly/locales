@@ -1,0 +1,11 @@
+ar_SA:
+  properties:
+    PropertyString: سلسلة حروف
+    PropertyText: النص
+    PropertyDictionary: القاموس
+    PropertyBoolean: ثنائي
+    PropertyLong: عدد صحيح
+    PropertyDouble: قيمة النقطة العشرية
+    PropertyTime: التاريخ والوقت
+    PropertyLink: رابط
+    PropertyFile: ملف

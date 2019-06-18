@@ -1,0 +1,13 @@
+ar_SA:
+  google_spreadsheet:
+    columns:
+      skip : '(تخطى)'
+      article: 'مقالة'
+      price: 'السعر'
+      sale_price: 'سعر الخصم'
+      category: 'فئة المنتج'
+      quantity: 'الكمية'
+      new_property: '(خاصية جديدة)'
+      title: 'اسم المنتج'
+      description: 'وصف قصير'
+    property_title: '(خاصية: %{title})'

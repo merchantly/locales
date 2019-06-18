@@ -16,10 +16,10 @@ ar_SA:
     you_authorzed_as: "أنت مصرح ك<em>%{name}</em>"
     enter: 'أدخل <span class="hidden-xs hidden-sm"> لمديري المتجر</span>'
     flashes:
-      landing_steps: 'العملية تحتوي العملية على <b>3 خطوات بسيطة</b> وتحتاج إلى <b>20 ثانية</b> لإنهائها'
+      landing_steps: 'العملية تحتوي على <b>3 خطوات بسيطة</b> وتحتاج إلى <b>20 ثانية</b> لإنهائها'
       you_are_welcome: "أهلاً بك، %{name}!"
       phone_confirmed: "تم تأكيد رقم الهاتف %{phone}"
-      enter_you_phone: 'ادخل رقم هاتفك بالرمز الدولي'
+      enter_you_phone: 'أدخل رقم هاتفك مع الرمز الدولي'
       wrong_pin_code: الرمز السري خاطئ
       subscriptions_updated: 'تم تحديث تفضيلات الاشتراك'
 
@@ -34,7 +34,7 @@ ar_SA:
       payments: 'الدفع للطلبات (بالروبل)'
 
     welcome_form:
-      go: ابدأ
+      go: البدأ
 
     titles:
       open_store: فتح متجر
@@ -48,9 +48,9 @@ ar_SA:
       access_keys: 'مفاتيح الوصول (API)'
       create_shop: 'إنشاء متجر'
       enter_for_store: أدخل لمديري المتجر
-      logout: 'الخروج'
+      logout: الخروج
     disable_with:
-      registration: 'إنشاء متجر..'
+      registration: 'يتم إنشاء متجر..'
       login: 'الدخول..'
     vendor:
       archive_reason: 'تم نقله إلى الأرشيف بسبب عدم النشاط'
@@ -74,20 +74,20 @@ ar_SA:
       monthly_payments_summ: 'الطلبات المدفوعة:'
       weekly: خلال الأسبوع
       monthly: شهرياً
-      paid_least_once: دُفع على الأقل لطلب واحد لجميع الأوقات
+      paid_least_once: دفع على الأقل لطلب واحد كل الوقت
       period_options:
-        one_month: 'شهر واحد'
-        three_months: 'ثلاثة أشهر'
-        six_months: 'ستة أشهر'
+        one_month: '1 شهر'
+        three_months: '3 أشهر'
+        six_months: '6 أشهر'
         year: 'سنة'
       data_for_date: بيانات عن
       refresh_to: التحديث في
     operator_vendors:
       title: "المتاجر المتاحة لك (%{count})"
-      products_count: 'البضائع:'
-      orderable_products_count: 'منها للبيع:'
+      products_count: 'السلع:'
+      orderable_products_count: 'عليها خصم:'
       orders_count: 'الطلبات:'
-      total_order_price: 'لكمية:'
+      total_order_price: 'المبلغ:'
       total_success_orders_price: 'مكتمل منهم:'
       shop_archived: المتجر في الأرشيف
       restore: 'استعادة'
@@ -96,31 +96,31 @@ ar_SA:
     operators:
       invite:
         title: '%{operator_inviter} يدعوك للانضمام إلى المتجر %{link}'
-        introduce_yourself: فضلاً قم بالتعريف عن نفسك حتى نعرف كيفية الاتصال بك
+        introduce_yourself: فضلاً قم بالتعريف عن نفسك حتى نعرف كيف أن نتصل بك
         phone_number: 'رقم الهاتف (اختياري)'
     payments:
       success:
         title: شكرا للدفع!
         back_to_shop: 'العودة إلى المتجر'
-        kiiiosk: ''
+        kiiiosk: 'كشك الخدمة'
         tariff: 'التعريفة'
         tariff_payment: 'دفع رسوم التعريفة'
     phone_confirmations:
-      sms_should_come: ستصل الرسالة القصيرة خلال دقيقة
+      sms_should_come: ستصل الرسالة النصية خلال دقيقة
       request: تستطيع إعادة طلب الرمز من خلال
       resend: 'إعادة ارسال الرمز'
-      resend_help: "ستصل الرسالة القصيرة خلال دقيقة، إذا لم تصل،"
+      resend_help: "ستصل الرسالة النصية خلال دقيقة، إذا لم تصل،"
       title: "قم بتأكيد الهاتف %{phone}"
-      recevied_sms: 'لقد وصلتك رسالة قصيرة تحتوي على رمز، فضلاً قم بإدخاله:'
-      pin_code: 'الرمز من الرسالة القصيرة، مثلاً: ac78'
+      recevied_sms: 'لقد وصلتك رسالة نصية تحتوي على رمز، فضلاً قم بإدخاله:'
+      pin_code: 'الرمز من الرسالة النصية، مثلاً: ac78'
       confirm: 'تأكد'
       checking: 'يتم التحقق..'
       walletone_phone: الهاتف للاتصال بمحفظة WalletOne
       walletone_info: تتلقى هذه المحفظة مدفوعات مقابل السلع والخدمات المباعة في الكشك.
-      enter_phone: أدخل الهاتف للتأكيد
+      enter_phone: أدخل رقم الهاتف للتأكيد
       phone_example: 'على سبيل المثال: 28 12 389 903 7+'
       phone_label: 'الهاتف بالتنسيق الدولي'
-      send_pin_code: 'الحصول على رسالة قصيرة مع رمز التأكيد'
+      send_pin_code: 'الحصول على رسالة نصية مع رمز التأكيد'
       sending: 'يتم الإرسال..'
     profile:
       name: 'اسمك'
@@ -131,13 +131,13 @@ ar_SA:
       confirm: 'تأكد'
       confirmed: 'مؤكد'
       hello: 'مرحباً %{name}!'
-      edit_title: "هذا هو ملفك الشخصي، بمكنك تغييره."
+      edit_title: "هذا هو ملفك الشخصي، يمكنك تغييره."
       email: 'البريد الالكتروني'
       phone: 'الهاتف'
       locale: 'الموقع'
       password_confirmation: 'تأكيد كلمة السر'
     access_keys:
-      title: "مفاتيح وصول API المتجر (%{key})"
+      title: "مفاتيح وصول واجهة برمجة تطبيق المتجر (%{key})"
       th:
         shop: المتجر
         private_api_url: رابط إلى واجهة برمجة تطبيق التاجر (مغلق)
@@ -150,15 +150,15 @@ ar_SA:
         شكراً لك، %{name}. تم قبول طلبك!
         </br>
         </br>
-        سيتم الاتصال بك مع شخص قريبًا ، وفقًا للمتطلبات التي حددتها (%{email}، %{phone})
+        سيتم الاتصال بك قريبًا، وفقًا للمتطلبات التي حددتها (%{email}، %{phone})
       new: اترك طلب
     spf_checker:
       instruction: 'تعليمات لإعداد سجلات إطار سياسة المرسل (SPF) في DNS'
-      title: تحقق من سجلات SPF
+      title: تحقق من سجلات إطار سياسة المرسل
       availability_check: "<strong>تحقق من توفر %{domain} في مجال المستخدم"
-      email: 'البريد الالكتروني للتأكيد'
+      email: 'البريد الإلكتروني للتأكيد'
       check: 'تحقق'
-      success: "كل شئ على ما يرام! البريد الإلكتروني صالح ، سجل SPF فعّال"
+      success: "كل شئ على ما يرام! البريد الإلكتروني صالح ، سجل إطار سياسة المرسل فعّال"
       error: عفواً .. لم يتم العثور على سجل إطار سياسة المرسل (SPF)
     subscriptions:
       hello: "مرحباً %{name}!"
@@ -182,5 +182,5 @@ ar_SA:
         phone: حدد هاتفك للحصول على التفويض وإشعارات الطلبات.
         step: الخطوة 3 (الأخيرة).
         use_existing_account: "سنستخدم حسابك الحالي %{operator}"
-        email: 'البريد الالكتروني (غير ضروري)'
+        email: 'البريد الإلكتروني (غير ضروري)'
         continue: استمرار

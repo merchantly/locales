@@ -1,0 +1,72 @@
+ar_SA:
+  shared:
+    upload_images: تحميل الصور
+    actions: الأفعال
+    add: إضافة
+    add_more: إضافة المزيد
+    create: إنشاء
+    create_new: إضافة
+    show: معاينة
+    edit: تغيير
+    delete: حذف
+    delete_confirm: الحذف بشكل نهائي
+    archive_confirm: "هل أنت متأكد أنك تريد الأرشفة؟"
+    archive: أرشف
+    restore: استعادة
+    reset: إعادة تعيين
+    cancel: إلغاء
+    save: حفظ
+    apply: تطبيق
+    find: البحث
+    set: تثبيت
+    load: تنزيل
+    is_on: On
+    is_off: Off
+    turn_on: On
+    turn_off: Off
+    action_turn_on: انقر للتفعيل
+    action_turn_off: انقر للتعطيل
+    amount: الكمية
+    go: التالي
+    log_in: تسجيل الدخول
+    next: استمرار
+    sum: المبلغ
+    product: المنتج
+    products: السلع
+    orders: الطلبات
+    shops: المتاجر
+    custom_attributes: المواصفات
+    members: الأعضاء
+    coupon: الرمز الترويجي
+    cart: إضافة إلى السلة
+    agent: الوكيل
+    selected: المحدد
+    from: من
+    entrance: تسجيل الدخول
+    overall: المجموع
+    city: المدينة
+    site_link: على الموقع
+    add_images: إضافة الصور
+    empty: إزالة
+    unknown: غير معروف
+    undetected: ليس معروف
+    request_error: "فشل الطلب (%{error})"
+    article_short: فن
+    run_out: إنتهى من المخزن
+    no_matter: ليس هناك فرق
+    "yes": Yes
+    "no": No
+    kg: كجم
+    return_back: عٌد
+    warning: إنذار
+    tabs:
+      current: الحالي
+      archive: الأرشيف
+    products_amount:
+      zero: '%{count} سلع'
+      one: '%{count} سلعة'
+      two: '%{count} سلع'
+      few: '%{count} سلع'
+      many: '%{count} سلع '
+      other: '%{count} سلع'
+

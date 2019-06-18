@@ -1,0 +1,149 @@
+ar_SA:
+  filters:
+    orders:
+      workflow_state_id:
+        name: 'حالة الطلب'
+        values:
+          any: 'أي'
+      coupon_id:
+        name: الرمز الترويجي
+        values:
+          any: أي
+      delivery_type_id:
+        name: الشحن
+        values:
+          any: أي
+      payment_type_id:
+        name: الدفعة
+        values:
+          any: أي
+      client_id:
+        name: العميل
+        values:
+          any: أي
+      created_at_from: البحث عن طريق التاريخ
+      has_reserved_items:
+        name: الحجز
+        values:
+          'true': yes
+          'false': No
+          any: أي
+
+      delivery_state:
+        name: حالة التوصيل
+        values:
+          new: من المتوقع أن تبدأ
+          not_needed: التسليم غير مطلوب
+          delivery: تم التوصيل
+          done: تم التوصيل
+          canceled: ملغى
+          any: أي
+
+      payment_state:
+        name: حالة الدفع
+        values:
+          new: ننتظر الدفع
+          direct: توقع الدفع نقداً
+          paid: مدفوع
+          failed: مرفوض
+          canceled: ملغى
+          any: أي
+
+    products:
+      on_welcome:
+        name: المنتجات على الرئيسية
+
+      without_categories:
+        name: غير مصنف
+
+      category_id:
+        name: الفئة
+
+      property_id:
+        name: خاصية
+        values:
+          any: أي
+      dictionary_entity_ids:
+        name: الدليل
+
+      has_ordering_goods:
+        name: قابلية الرشوة
+        values:
+          'true': للبيع
+          'false': لا يستطيع الشراء
+          any: أي
+
+      has_price:
+        name: السعر
+        values:
+          'true': مثبت
+          'false': غير مضبوط
+          any: أي
+
+      has_images:
+        name: الصور
+        values:
+          'true': Yes
+          'false': No
+          any: أي
+
+      is_sale:
+        name: تخفيض
+        values:
+          'true': Yes
+          'false': No
+          any: أي
+
+      is_run_out:
+        name: انتهى
+        values:
+          'true': انتهى
+          'false': متاح
+          any: أي
+
+      has_items:
+        name: خيارات
+        values:
+          'true': Yes
+          'false': No
+          any: أي
+
+      is_stock_linked:
+        name: الربط بالمستودع
+        values:
+          'true': Yes
+          'false': No
+          any: أي
+
+      is_archived:
+        name: الحالة
+        values:
+          'true': مؤرشف
+          'false': صالح
+          any: أي
+
+      quanting:
+        name: التوفر
+        values:
+          positive: إيجابي
+          'no': صفر
+          negative: سلبي
+          none: غير معروف
+          infinity: لا نهائي
+          any: أي
+
+      product_type:
+        name: النوع
+        values:
+          union: مركب
+          separate: مستقل
+          common: مركب أو مستقل
+          part: جزء من المركب
+          any: أي
+
+      is_published:
+        name: الرؤية
+        values:
+          'true': منشور
+          'false': غير منشور
+          any: أي

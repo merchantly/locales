@@ -1,0 +1,15 @@
+ar_SA:
+  branch_categories:
+    Finance: المالية
+    Utilities: الخدمات
+    Cars: سيارة
+    Charity: الأعمال الخيرية
+    Tourism: السياحة
+    PhysicalDelivery: السلع المادية
+    Delivery: التوصيل
+    Advertising: الإعلان والترويج
+    RealEstate: خاصية
+    DigitalGoods: السلع الرقمية
+    Education: التعليم
+    Entertainment: الألعاب
+    InternetServices: الإنترنت

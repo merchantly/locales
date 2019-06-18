@@ -1,0 +1,174 @@
+ar_SA:
+  errors:
+    format: '%{attribute}%{message}'
+    cloud_payments:
+      ReferToCardIssuer: فضلاً اتصل بالبنك أو استخدم بطاقة أخرى.
+      DoNotHonor: فضلاً اتصل بالبنك أو استخدم بطاقة أخرى.
+      Error: فضلاً، تحقق من تفاصيل حسابك أو استخدم بطاقة أخرى.
+      Invalid: استخدم بطاقة أخرى
+      AmountError: تحقق من المبلغ
+      FormatError: أعد المحاولة لاحقاً
+      BankNotSupportedBySwitch: استخدم بطاقة أخرى
+      SuspectedFraud: فضلاً اتصل بالبنك أو استخدم بطاقة أخرى.
+      LostCard: اتصل بالبنك
+      StolenCard: اتصل بالبنك
+      InsufficientFunds: لا توجد أموال كافية في البطاقة
+      ExpiredCard: تحقق من تفاصيل حسابك أو استخدم بطاقة أخرى
+      TransactionNotPermitted: فضلاً اتصل بالبنك أو استخدم بطاقة أخرى.
+      ExceedWithdrawalFrequency: فضلاً اتصل بالبنك أو استخدم بطاقة أخرى.
+      IncorrectCVV: تحقق من تفاصيل حسابك أو استخدم بطاقة أخرى
+      Timeout: أعد المحاولة لاحقاً أو استخدم بطاقة أخرى
+      CannotReachNetwork: أعد المحاولة لاحقاً أو استخدم بطاقة أخرى
+      SystemError: أعد المحاولة لاحقاً
+      UnableToProcess: أعد المحاولة لاحقاً أو استخدم بطاقة أخرى
+      AuthenticationFailed: فضلاً اتصل بالبنك أو استخدم بطاقة أخرى.
+      AuthenticationUnavailable: فضلاً اتصل بالبنك أو استخدم بطاقة أخرى.
+      AntiFraud: استخدم بطاقة أخرى
+    messages:
+      is_not_agree: 'لا يمكننا إنشاء متجر لك إذا كنت لا تقبل بشروطنا'
+      invalid_domain: اسم المجال غير صالح
+      invalid_subdomain: "اسم المجال الفرعي غير صالح (يجب أن يكون هناك أحرف لاتينية فقط ، أرقام ، - ، _ بدون نقاط)."
+      reserved_subdomain: مأخوذ مسبقاً
+      no_www: أدخل المجال دون www
+      record_invalid: Испорченная запись
+      invalid_range: يجب أن يكون تاريخ انتهاء الفترة أكبر من تاريخ البدء.
+      intersection: "الفترة تتداخل مع فترة أخرى (id} = id}%)"
+      carrierwave_processing_error: "لا يمكن معالجة ملف التنزيل ، ربما هذه ليست صورة."
+      carrierwave_integrity_error: نوع الملف غير معروف
+      carrierwave_download_error: لا يمكن تحميل الملف من الشبكة
+      extension_white_list_error: "ملحق غير صالح للملف %{extension}، مسموح فقط: %{allowed_types}"
+      extension_black_list_error: "ملحق غير صالح للملف %{extension}، مسموح فقط: %{allowed_types}"
+      mime_types_processing_error: "لا يمكن التعرف على MIME :: أنواع الملفات: %{e}"
+      url_error: عنوان التنزيل غير صالح
+      mini_magick_processing_error: "خطأ في معالجة الصور ، ربما هذه ليست صورة؟ %{e}"
+      invalid_url: مرجع غير صالح
+      accepted: تحتاج إلى تأكيد
+      blank: لا يمكن أن تكون فارغة
+      confirmation: لا يطابق التأكيد
+      empty: لا يطابق التأكيد
+      equal_to: "يمكن أن يحتوي فقط على قيمة %{count}"
+      even: يمكن أن يحتوي فقط على قيمة فردية
+      exclusion: لديه قيمة محفوظة
+      greater_than: "يمكن أن يكون أكبر من %{count}"
+      greater_than_or_equal_to: "يمكن أن يكون أكبر من أو يساوي %{count}"
+      inclusion: له معنى غير مقصود
+      invalid: قيمة خاطئة
+      less_than: "يمكن أن يكون أقل من %{count}"
+      less_than_or_equal_to: "يمكن أن يكون أقل من أو يساوي %{count}"
+      not_a_number: ليس رقم
+      not_an_integer: ليس عدداً صحيحاً
+      odd: يمكن أن يكون لها فقط معنى
+      record_invalid: 'حدثت أخطاء: %{errors}'
+      taken: موجود مسبقاً
+      invalid_date: لا يمكن أن يكون فارغاً
+      on_or_before: لا يمكن أن يكون أطول من الوقت الحالي
+      too_long:
+        zero: "طويل جدًا (لا يمكن أن يكون أكثر من 0 حروف أو رموز)"
+        one: "طويل جدًا (لا يمكن أن يكون أكثر من 1 حروف أو رموز)"
+        two: "طويل جدًا (لا يمكن أن يكون أكثر من 2 حروف أو رموز)"
+        few: "طويل جدًا (لا يمكن أن يكون أكثر من %{count} حروف أو رموز)"
+        many: "طويل جدًا (لا يمكن أن يكون أكثر من %{count} حروف أو رموز)"
+        other: "طويل جدًا (لا يمكن أن يكون أكثر من %{count} حروف أو رموز)"
+
+      too_short:
+        zero: "طول غير كافٍ (لا يمكن أن يكون أقل من %{count} حروف)"
+        one: "طول غير كافٍ (لا يمكن أن يكون أقل من 1 حروف)"
+        two: "طول غير كافٍ (لا يمكن أن يكون أقل من %{count} حروف)"
+        few: "طول غير كافٍ (لا يمكن أن يكون أقل من %{count} حروف)"
+        many: "طول غير كافٍ (لا يمكن أن يكون أقل من %{count} حروف)"
+        other: "طول غير كافٍ (لا يمكن أن يكون أقل من %{count} حروف)"
+
+      wrong_length:
+        zero: "طول غير صحيح (قد يكون بالضبط طول %{count} حرف)"
+        one: "طول غير صحيح (قد يكون بالضبط طول %{count} حرف)"
+        two: "طول غير صحيح (قد يكون بالضبط طول %{count} حرف)"
+        few: "طول غير صحيح (قد يكون بالضبط طول %{count} حرف)"
+        many: "طول غير صحيح (قد يكون بالضبط طول %{count} حرف)"
+        other: "طول غير صحيح (قد يكون بالضبط طول %{count} حرف)"
+
+    template:
+      body: 'توجد مشاكل في الحقول التالية:'
+      header:
+        zero: '%{model}: فشلت عملية الحفظ بسبب %{count} أخطاء '
+        one: '%{model}: فشلت عملية الحفظ بسبب %{count} أخطاء '
+        two: '%{model}: فشلت عملية الحفظ بسبب %{count} أخطاء '
+        few: '%{model}: فشلت عملية الحفظ بسبب %{count} أخطاء '
+        many: '%{model}: فشلت عملية الحفظ بسبب %{count} أخطاء'
+        other: '%{model}: فشلت عملية الحفظ بسبب %{count} أخطاء '
+
+    operator_authentication:
+      invalid_credentials: "اسم المستخدم أو الرمز السري غير صالح، أدخل البيانات الصحيحة، <a href=\"%{pin_code_url}\">طلب رمز سري جديد</a> أو <a href=\"%{registration_url}\">التسجيل</a>"
+    pin_sender:
+      invalid_phone: "رقم هاتف غير صحيح ، أدخل الرقم الصحيح أو <a href=\"%{registration_url}\">قم بالتسجيل</a>"
+    vendor_registration:
+      not_unique_phone: "هذا الهاتف مسجل بالفعل، <a href=\"%{login_url}\">ادخل إلى الموقع</a>"
+    vendor_order_form:
+      no_payment: "لا توجد طرق دفع متاحة"
+    robots:
+      no_sitemap: خريطة الموقع مفقودة
+      no_host: المضيف مفقود
+      no_user_agent: وكيل المستخدم مفقود
+      invalid_host: "لا يتطابق معطى 'المضيف' (%{host}) مع عنوان المتجر (%{home_url})"
+      disallowed: "الموقع مغلق من الفهرسة بواسطة محركات البحث. احذف سطر \"Disallow\" إذا كنت تريد فهرسته"
+      disallow_defaults_not_set: "غير مغلق من صفحات نظام الفهرسة: orders, /cart, /wishlist/"
+    # cart:
+      # unvalid:
+      # empty: 'Добавьте товары в корзину для оформления заказа'
+      # has_unorderable_items: 'Некоторые товары в вашей корзине не могут быть заказаны в данный момент. Пожалуйста, удалите их чтобы продолжить оформление заказа.'
+    order:
+      unknown_good: حدث خطأ! لم يتم تسليم السلع لسرعة الخروج. متابعة الاختيار ..
+      unavailable_payment: 'لا ينطبق هذا النوع من الدفع على هذا التسليم. اختر واحداً آخر.'
+      has_unorderable_items: لا يمكن طلب بعض السلع.
+      cancelation_of_paid_order: لا يمكن إلغاء الطلب المدفوع
+      no_delivery_or_payment: 'لسوء الحظ ، لا يمكن تقديم طلب في الوقت الحالي ، لأن المتجر لم يقم بتكوين طرق الدفع أو التسليم.'
+      public_offer_not_accepted: يجب عليك قبول شروط العرض العام
+      unavailable_currency: لا يمكن الطلب بالعملة المحددة
+      not_first_order_coupon: "القسيمة الشرائية %{coupon_code} متاحة للطلب الأول فقط."
+      minimal_products_count:
+        zero: "القسيمة الشرائية %{coupon_code} متاحة لطلب 0 سلع فقط."
+        one: "القسيمة الشرائية %{coupon_code} متاحة لطلب سلعة واحدة فقط."
+        two: "القسيمة الشرائية %{coupon_code} متاحة لطلب %{count} سلع فقط."
+        few: "القسيمة الشرائية %{coupon_code} متاحة لطلب %{count} سلع فقط."
+        many: "القسيمة الشرائية %{coupon_code} متاحة لطلب %{count} سلع فقط."
+        other: "القسيمة الشرائية %{coupon_code} متاحة لطلب %{count} سلع فقط."
+
+    order_form:
+      cart_empty: السلة فارغة
+    invite:
+      invalid: 'الدعوة التي أتيت بها لم تعد صالحة.'
+    product:
+      nothing_to_export_html: 'لم يتم العثور على منتجات جاهزة للتفريغ. <a href="%{url}">أضف</a> على الأقل منتج واحد وحاول مرة أخرى.'
+      price:
+        currencies_conflict: 'عملة السلعة لا تتطابق مع عملة البائع %{product_currency} <> %{vendor_currency}'
+    image:
+      no_files: ليست كل الصور موجودة على القرص.
+      width_not_fits: 'يجب أن يكون عرض الصورة بالضبط %{width}'
+    coupon:
+      expires_at_in_past: لا يمكن أن يكون أقل من الوقت الحالي
+    ms:
+      relative_element_not_found: 'لا يوجد عنصر ذات صلة %{type} #%{id} في %{entity_class} #%{entity_id}'
+      local_relative_element_not_found: 'لا يوجد عنصر شقيق محلي %{type} #%{id} في %{entity_class} #%{entity_id}'
+      no_consignment_for_good: "لم توجد الفاتورة %{consignment_id} للعنصر %{type} #%{id}"
+    favicon_uploader:
+      filename: "اسم الملف غير صالح (%{name})"
+    active_admin_comment:
+      not_found: لم يوجد تعليق
+    slug_redirect:
+      path_equals_to_redirect: لا يمكن إعادة توجيه الطريق إلى نفسه
+      dead_redirect: لا تؤدي إعادة التوجيه إلى أي مكان
+    w1:
+      registration_service:
+          registration_error: 'حدث خطأ في تسجيل menChart مع WalletOne'
+      invalid_pin_code: الرمز السري خاطئ
+    vendor_theme_form:
+      analytics_js: 'لا يمكن أن يحتوي كود JavaScript للتحليلات على علامة script، يمكن إدراج كود تحليلي مباشر في "كود HTML إضافي <head>لجميع الصفحات"'
+    client_login_form:
+      invalid_login: أدخل رقم الهاتف أو البريد الالكتروني
+    client_registration_form:
+      required: مجال إلزامي
+    client_authentication:
+      moderation:
+        rejected: تم رفض طلب التسجيل الخاص بك.
+        pending: حسابك خاضع للإشراف
+    workflow_state:
+      not_unique_name: "الاسم غير فريد (غير مميز)"

@@ -1,0 +1,510 @@
+ar_SA:
+  operator:
+    pages:
+      price_kinds:
+        index:
+          title_html: أنواع الأسعار
+        edit:
+          title_html: تحرير نوع السعر
+        new:
+          title_html: إنشاء عرض السعر
+      other:
+        show:
+          title_html: "تحسين محرك البحث (SEO)، إعادات التوجيه، الأمن والحماية، التخزين المؤقت، إلخ."
+      design_settings:
+        show:
+          title_html: "تصميم الموقع (HTML، CSS، الشعار، الخطوط)"
+      elements:
+        show:
+          title_html: العناصر على الموقع
+      https:
+        show:
+          title_html: التشفير و HTTPS
+      additional:
+        show:
+          title_html: الصفحات الإضافية
+      currency:
+        show:
+          title_html: أسعار العملات والدفع
+      shop:
+        show:
+          title_html: عرض المتجر
+      footer:
+        show:
+          title_html: تذييل الصفحة في كل صفحة من صفحات الموقع
+      colors:
+        show:
+          title_html: الألوان والخطوط على الموقع
+      css:
+        show:
+          title_html: أنماط مخصصة (CSS)
+      domain:
+        show:
+          title_html: عنوان الموقع
+      filter:
+        show:
+          title_html: فلتر المنتجات
+      order_page:
+        show:
+          title_html: إعدادات عربة التسوق وصفحة الطلب
+      product_page:
+        show:
+          title_html: إعدادات صفحة المنتج
+      cache:
+        show:
+          title_html: إعدادات التخزين المؤقت
+      category_page:
+        show:
+          title_html: إعدادات عامة لجميع صفحات الفئة
+      pages:
+        show:
+          title_html: إعداد المعطيات والمحتويات لصفحات الموقع
+      header:
+        show:
+          title_html: خيارات الرأسية لكل صفحة من صفحات الموقع
+      payment_cards:
+        index:
+          title_html: البطاقات المرتبطة للدفع
+      transactions:
+        index:
+          title_html: معاملات الحساب
+        show:
+          title_html: المعاملة
+      languages:
+        show:
+          title_html: دعم تعدد اللغات
+      legal:
+        show:
+          title_html: المعلومات القانونية
+      currencies:
+        index:
+          title_html: معدلات التحويل
+      cloud_payments:
+        show:
+          title_html: قبول الدفع من خلال CloudPayments
+      atol:
+        show:
+          title_html: الربط مع مسجل القيمة النقدية عبر الانترنت مع atol.ru
+      starrys:
+        show:
+          title_html: الربط مع مسجلات القيمة النقدية عبر الانترنت مع starrys.ru
+      life_pay:
+        show:
+          title_html:  الربط مع مسجلات القيمة النقدية عبر الانترنت مع life-pay.ru
+      errors:
+        not_found:
+          title_html: لم يتم العثور على الصفحة
+      dashboard:
+        index:
+          title_html: 5 خطوات لإطلاق متجر
+      extra_js:
+        show:
+          title_html: JavaScript لجميع الصفحات
+      extra_html:
+        show:
+          title_html: HTML لجميع الصفحات
+      sms_log:
+        index:
+          title_html: سجل الرسائل النصية المرسلة 
+
+      products:
+        new:
+          title_html: 'منتج جديد'
+        edit:
+          title_html: 'تحرير المنتج'
+        batch:
+          title_html: 'التغيير الشامل للسلع'
+        index:
+          title_html: 'السلع'
+      tags:
+        index:
+          title_html: علامات
+        new:
+          title_html: إنشاء علامة جديدة
+        show:
+          title_html: "علامة %{resource}"
+        edit:
+          title_html: "تحرير العلامة %{resource}"
+      billing:
+        sms_packs:
+          title_html: شراء الرسائل النصية
+        show:
+          title_html: التعريفة والدفع
+        tariff_choose:
+          title_html: 'اختيار التعريفة'
+      convead:
+        show:
+          title_html: 'الاتصال بcovead.io'
+      pickup_points:
+        index:
+          title_html: 'نقاط الإصدار'
+        import_form:
+          title_html: "تنزيل قائمة نقاط الإصدار"
+      cities:
+        index:
+          title_html: 'المدن'
+      orders:
+        index:
+          title_html: 'الطلبات'
+        new:
+          title_html: إنشاء طلب جديد
+        show:
+          title_html: "الطلب %{resource}"
+        edit:
+          title_html: "تحرير الطلب %{resource}"
+        duplicate:
+          title_html: "طلب متكرر %{resource}"
+      packaging:
+        show:
+          title_html: إعداد التعبئة
+      roles:
+        new:
+          title_html: إنشاء دور جديد
+        edit:
+          title_html: تحرير الدور
+        index:
+          title_html: الأدوار
+      carts:
+        index:
+          title_html: إضافة إلى السلة
+        show:
+          title_html: إضافة إلى السلة
+      coupons:
+        index:
+          title_html: الرموز الترويجية
+        new:
+          title_html: رمز ترويجي جديد
+        show:
+          title_html: الرمز الترويجي
+        edit:
+          title_html: تحرير الرمز الترويجي
+        new_import:
+          title_html: تنزيل الرموز الترويجية بصيغة CSV
+      coupon_groups:
+        new:
+          title_html: إنشاء مجموعة من الرموز الترويجية
+      order_conditions:
+        index:
+          title_html: سير العمل
+        edit:
+          title_html: تحرير القاعدة
+        new:
+          title_html: إضافة قاعدة جديدة
+      members:
+        index:
+          title_html: الموظفون
+        edit:
+          title_html: "تحرير بطاقة الموظف \"%{resource}\""
+      dictionary_entities:
+        index:
+          title_html: "عناصر الدليل \"%{dictionary}\""
+        edit:
+          title_html: "تحرير عنصر الدليل \"%{dictionary}\""
+        new:
+          title_html: "إضافة العنصر \"%{dictionary}\""
+      dictionaries:
+        index:
+          title_html: الدلائل
+        new:
+          title_html: نحصل على دليل جديد
+        edit:
+          title_html: "تحرير الدليل \"%{resource}\""
+      properties:
+        index:
+          title_html: خصائص المنتج
+        edit:
+          title_html: تحرير خاصية المنتج
+        new:
+          title_html: إنشاء خاصية لمنتج
+      translations:
+        index:
+          title_html: ترجمة
+        edit:
+          title_html: الكلمة المترجمة
+        new:
+          title_html: الكلمة المترجمة
+      subscription_emails:
+        index:
+          title_html: 'اشتراكات العميل'
+      clients:
+        index:
+          title_html: 'العملاء'
+        edit:
+          title_html: 'العميل %{resource}'
+        show:
+          title_html: 'إعدادات العميل'
+      menu_items:
+        index:
+          title_html: 'إدارة القائمة'
+        edit:
+          title_html: 'تحرير عنصر القائمة'
+        new:
+          title_html: 'إنشاء عنصر جديد في القائمة'
+      analytics:
+        index:
+         title_html: 'تحليلات'
+      mail_templates:
+        index:
+          title_html: 'قوالب الخطابات والإشعارات'
+        edit:
+          title_html: تحرير القالب
+        show:
+          title_html: عرض القالب
+      categories:
+        archive:
+          title_html: 'أرشيف الفئات'
+        index:
+          title_html: 'فئات المنتجات'
+        edit:
+          title_html: "الفئة \"%{resource}\""
+        new:
+          title_html: 'فئة جديدة'
+      google_analytics:
+        show:
+          title_html: 'الربط مع تحليلات جوجل'
+      yandex_metrika:
+        show:
+          title_html: 'الربط مع يانديكس متريكا'
+      bitrix24:
+        show:
+          title_html: 'تصدير الطلبات إلى Bitrix24'
+      amo_crm:
+        show:
+          title_html: 'تصدير الطلبات إلى AmoCRM'
+      import:
+        show:
+          title_html: 'تحميل الببيانات إلى Kiosk'
+      favicons:
+        index:
+          title_html: الشعار والأيقونات المفضلة
+
+      apidoc:
+        show:
+          title_html: واجهة برمجة تطبيق Kiosk
+
+      top_banners:
+        edit:
+          title_html: رسالة ترويجية
+
+      lookbooks:
+        index:
+          title_html: كتب البحث
+        new:
+          title_html: إنشاء كتاب البحث
+        show:
+          title_html: "كتاب البحث \"%{resource}\""
+        edit:
+          title_html: تحرير الكتاب
+      order_operator_filters:
+        index:
+          title_html: فلاتر الطلب
+        new:
+          title_html: إنشاء فلتر
+        edit:
+          title_html: تحرير الفلتر
+      welcome_page:
+        show:
+          title_html: إعدادات الصفحة الرئيسية
+      content_pages:
+        index:
+          title_html: صفحات النص
+        new:
+          title_html: إنشاء صفحة نص
+        edit:
+          title_html: تحرير صفحة النص
+
+      blog_posts:
+        index:
+          title_html: نشر الأخبار (مدونة)
+        new:
+          title_html: إنشاء منشور أخبار (سجل في المدونة)
+        edit:
+          title_html: تحرير منشور أخبار (سجل في المدونة)
+
+      slider_images:
+        index:
+          title_html: شريط التمرير
+        edit:
+          title_html: صورة لشريط التمرير
+        new:
+          title_html: صورة لشريط التمرير
+
+      asset_images:
+        index:
+          title_html: بنك صور لمحرري النصوص
+
+      robots:
+        show:
+          title_html: إدارة محتوى ملف robots.txt
+
+      sitemap:
+        show:
+          title_html: معلومات حول إنشاء sitemap.xml
+
+      settings:
+        orders:
+          title_html: إعدادات الطلب
+        products:
+          title_html: إعدادات كتالوج المنتجات
+        others:
+          title_html: إعدادات أخرى
+        index:
+          title_html: إعدادات عامة
+        domain:
+          title_html: عنوان الموقع (المجال)
+        filter:
+          title_html: تصفية المنتجات عبر الإنترنت
+        main_page_content:
+          title_html: الصفحة الرئيسية
+      integrations:
+        index:
+          title_html: الربط مع خدمات الطرف الثالث وتبادل البيانات
+      moysklad:
+        show:
+          title_html: الربط مع MyStock
+      walletone:
+        show:
+          title_html: الربط مع نظام دفع walletone.com
+        edit:
+          title_html: الربط مع نظام دفع walletone.com
+      pay_pal:
+        show:
+          title_html: الربط مع نظام دفع PayPal.com
+      yandex_kassa:
+        show:
+          title_html: الربط مع نظام دفع Yandex-Cash
+      disqus:
+        show:
+          title_html: الربط مع Disqus.com
+      stock_log_entities:
+        index:
+          title_html: دفتر استيراد السلع من MyStock
+        show:
+          title_html: "إدخال سجل الدخول من <em>'%{resource}'</em>"
+      instagram:
+        show:
+          title_html: الربط مع انستغرام
+
+      slug_resources:
+        index:
+          title_html: طرق مفهومة للإنسان
+      slug_redirects:
+        new:
+          title_html: إعادة توجيه جديدة (301)
+        edit:
+          title_html: تحرير إعادة التوجيه (301)
+        index:
+          title_html: إعادات التوجيه
+      not_founds:
+        index:
+          title_html: الصفحات غير المعثور عليها (404)
+      history_paths:
+        index:
+          title_html: تاريخ الزيارات
+
+      files:
+        index:
+          title_html: الملفات
+
+      yandex_market:
+        show:
+          title_html: صادرات السلع في yandex.market.ru
+      rbk_money:
+        show:
+          title_html: الاتصال بنظام الدفع RBK Money
+      vendor_payments:
+        index:
+          title_html: طرق الدفع
+        edit:
+          title_html: "طريقة الدفع \"%{resource}\""
+        new:
+          title_html: طريقة دفع جديدة
+
+      vendor_deliveries:
+        index:
+          title_html: طرق التوصيل
+        edit:
+          title_html: "طريقة التوصيل \"%{resource}\""
+        new:
+          title_html: طريقة توصيل جديدة
+
+      torg_mail:
+        show:
+          title_html: صادرات السلع إلى torg@mail.ru
+
+      workflow_states:
+        index:
+          title_html:  حالات الطلبات
+        edit:
+          title_html: "تحرير حالة الطلب \"%{resource}\""
+        new:
+          title_html: حالة طلب جديدة
+
+      facebook:
+        show:
+          title_html: ربط facebook.com
+
+      vkontakte:
+        show:
+          title_html: الربط مع vkontakte.ru
+
+      tasty:
+        show:
+          title_html: ربط Taaasty.com
+
+      export:
+        show:
+          title_html: تصدير البيانات
+
+      import_yml:
+        show:
+          title_html: تحميل المنتجات من سوق Yandex
+
+      import_tables:
+        show:
+          title_html: استيراد المنتجات من جدول بيانات Google
+
+      import_photos:
+        show:
+          title_html: استيراد صور المنتجات
+
+      bells:
+        show:
+          title_html: الإشعارات
+
+      robokassa:
+        show:
+          title_html: Robokassa
+
+      tinkoff:
+        show:
+          title_html: Tinkoff
+
+      sberbank:
+        show:
+          title_html: Sberbank
+
+      delivery_time_slots:
+        show:
+          title_html: وقت خدمة البريد السريع
+      commerce_ml:
+        show:
+          title_html: CommerceMl
+      digital_keys_import:
+        show:
+          title_html: تحميل المفاتيح الإلكترونية
+        edit:
+          title_html: نتيجة استيراد المفاتيح الإلكترونية
+      coupon_images:
+        show:
+          title_html: قالب صورة الشهادة
+        edit:
+          title_html: تحرير قالب
+        new:
+          title_html: إنشاء قالب جديد
+      import_spread_sheet_infos:
+        show:
+          title_html: تنزيل المنتجات من جدول بيانات Google
+      client_categories:
+        show:
+          title_html: فئات العملاء

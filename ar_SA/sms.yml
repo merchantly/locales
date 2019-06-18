@@ -1,0 +1,8 @@
+ar_SA:
+  sms:
+    order:
+      vendor:
+        new_order: "الطلب %{order_id} ل%{total} %{client_name} %{delivery} %{city} %{payment} "
+        paid: "الطلب المدفوع رقم  %{order_id} بمبلغ %{total}"
+        canceled: 'الطلب الملغي رقم %{order_id} بسبب عدم الدفع'
+        run_out: 'لا توجد بضائع كافية للطلب %{order_id}'

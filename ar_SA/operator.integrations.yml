@@ -1,0 +1,168 @@
+ar_SA:
+  operator:
+    integrations:
+      amo_crm:
+        title: إعداد أوامر التصدير (جهات الاتصال) في AmoCRM
+        site: 'انتقل إلى موقع AmoCRM'
+        optional: 'معطى اختياري'
+        auto_export: 'سيتم تصدير هذه السلع تلقائيًا إلى AmoCRM أثناء المعاملة.'
+        required_if_linked_goods: 'معطى إجباري إذا كانت هناك سلع مرفقة'
+        callout:
+          body: "إذا كنت تريد تحميل الطلبات الحالية إلى AmoCRM ، يمكنك استخدام التنزيل بصيغة CSV"
+          csv: "عروض (%{count}) في CSV لـ AmoCRM"
+      apidoc:
+        api_access: 'الوصول إلى واجهة برمجة التطبيق (API) %{brand_name_a}'
+      atol:
+        site: 'انتقل إلى الموقع atol.ru'
+        settings: 'للاتصال بـ atol.ru ، يلزمك إعداد الدفع عبر Walletone أو Yandex-cashier وفي إعدادات الدفع ضع "إرسال بيانات الشيك: عبر نظام الدفع":'
+        new_payment: 'إنشاء طريقة الدفع'
+      bitrix24:
+        title: وضع أوامر التصدير في Bitrix24
+        site: 'انتقل إلى موقع Bitrix24'
+        settings: |
+          <p>في بيتريكس24 ، قم بإنشاء تطبيق (تطبيقات / إضافة تطبيق / للاستخدام الشخصي).</p>
+          <p>حدد اسم التطبيق (أي اسم) ، حدد المربع "يستخدم التطبيق واجهة برمجة التطبيقات فقط" وحدد جميع حقوق الوصول.</p>
+          <p>في الحقل "تحديد الرابط" ، أدخل المجال العام للمتجر.</p>
+          <p>أدخل البيانات في النموذج أدناه</p>
+        code: 'رمزك: %{code}'
+        new_code_url: 'بعد ذلك ، انتقل إلى العنوان (URL) لإنشاء أو تغيير الرمز:'
+        export_journal: سجل تصدير الطلب
+      cloud_payments:
+        site: 'انتقل إلى موقع بوابة الدفع CloudPayments.ru'
+        already: 'لقد قمت بالفعل بالإعداد لقبول المدفوعات عبر CloudPayments:'
+        settings: 'للاتصال بـ cloudpayments.ru ، يلزمك إضافة طريقة دفع جديدة في المتجر:'
+        new_payment: 'إنشاء طريقة دفع من خلال CloudPayments'
+      convead:
+        app_key: 'مفتاح الوصول (app_key) من مثال الاتصال على convead.io'
+        affiliate_registraion: 'تسجيل المنتسب في convead.io'
+        info: |
+          <p>يتم إعداد الإعلامات حول عرض المنتجات، وملء السلة، والشراء تلقائياً.</p>
+          <p>ما عليك سوى إدخال مفتاح الوصول (app_key)</p>
+      export:
+        orders: "الطلبات (%{count}) بصيغة CSV"
+        products: "المنتجات (%{count}) بصيغة CSV"
+        clients: "العملاء (%{count}) بصيغة CSV"
+        yandex: 'تصدير السلع في سوق ياندكس (XML)'
+        mail: 'تصدير السلع إلى سياسة خصوصية التداول (XML)'
+        amo_crm: مناسبة أيضا ل AmoCRM
+      google_analytics:
+        more: 'تعرف على المزيد حول إعداد جوجل للتجارة الإلكترونية (Google Ecommerce)'
+      import_photos:
+        info: |
+          <p> حدد صورة واحدة أو أكثر على القرص، ويجب أن تتطابق أسماء الصور مع رقم العنصر. انقر زر تنزيل.</p>
+          <p> تتم إضافة الصورة إلى بطاقة المنتج التي تتطابق المقالة مع اسمه. إذا لم يتم العثور على مثل هذا المنتج بمثل هذه المقالة، فسيتم إنشاء منتج جديد. </p>
+          <p> لتحميل عدة صور واحدة تلو الأخرى ، أضف إلى اسم الصورة (* رقم *) ، على سبيل المثال الصورة (1) ، الصورة (2) ، الصورة (3) ، إلخ. </p>
+      import_spread_sheet_infos:
+        edit:
+          title: تعيين قيم الأعمدة
+          col_number: رقم العمود
+          submit: 'بدء الاستيراد'
+        index:
+          th:
+            start: تاريخ البدء
+            end: تاريخ انتهاء الصلاحية
+            rows_count: الصفوف المحملة
+            products_count: السلع المحملة
+            state: الحالة
+        show:
+          title: 'تحميل المنتج #%{id}'
+          started_at: 'بدأت: %{started_at}'
+          url: 'العنوان: %{url}'
+          state: 'الحالة: %{state}'
+          total_rows_count: 'عدد السطور الكلي: %{count}'
+          imported_rows_count: 'الصفوف التي تمت معالجتها: %{count}'
+          speed: 'سرعة التحميل: %{count} سطر في الساعة'
+          imported_products_count: 'السلع المحملة: %{count}'
+          estimated_time: 'وقت الانتهاء المقدر: %{time}'
+          errors_empty: لا توجد أخطاء
+          errors:
+            title: رسائل الأخطاء
+            th:
+              row_num: رقم السطر
+              message: رسالة
+              row: محتوى السطر
+      import_tables:
+        journal: 'سجل الاستيراد'
+        url: 'رابط إلى جدول بيانات Google المتاح'
+        is_this_product_items: 'هل هذه خيارات للمنتج؟'
+        locale: 'لغة الملف'
+        download: 'تحميل'
+        example: 'نموذج جدول بيانات في جدول بيانات google'
+      import_yml:
+        asset: 'صيغة ملف XML سوق ياندكس'
+        download: 'تحميل'
+        warning:  "اتصل بنا عبر البريد الإلكتروني %{email} إذا كنت تريد رفع المنتجات بصيغة مختلفة"
+      kassatka:
+        site: 'انتقل إلى موقع kassatka.me'
+        settings: 'اختار طريقة الدفع'
+      life_pay:
+        site: 'انتقل إلى life-pay.ru'
+        settings: 'حدد طريقة دفع ، وحدد في إعداداتها وصول أمين الصندوق (الكاشير) إلى life-pay.ru'
+      pay_pal:
+        site: 'انتقل إلى موقع paypal.com'
+        settings: "تأكد من تضمين ترميز utf-8 %{link} على موقع PayPal في الميزات إضافية"
+        link: إعدادات متلقي الدفع
+      rbk_money:
+        site: 'انتقل إلى موقع RBK Money'
+      robokassa:
+        site: 'انتقل إلى بوابة الدفع Robokassa'
+        already: 'لقد قمت بالفعل بالإعداد لتلقي المدفوعات من خلال Robokassa:'
+        settings: 'للاتصال بـ robokassa ، تحتاج إلى إضافة طريقة دفع جديدة في المتجر:'
+        new_payment: 'إنشاء طريقة الدفع من خلال Robokassa'
+      sberbank:
+        site: 'انتقل إلى موقع Sberbank'
+        already: 'لقد قمت بالفعل بالإعداد لتلقي المدفوعات من خلال Sberbank:'
+        settings: 'للاتصال بـ Sberbank ، تحتاج إلى إضافة طريقة دفع جديدة في المتجر:'
+        new_payment: 'إنشاء طريقة الدفع من خلال Sberbank'
+      shared:
+        download_url: 'رابط لتحميل الدليل:'
+        file_no_created: الملف لم يتم إنشاؤه بعد
+        dowload: تحميل
+      starrys:
+        site: 'انتقل إلى موقع  starrys.ru'
+        settings: 'حدد طريقة دفع ، وحدد في إعداداتها إمكانية الوصول إلى مكتب النقد عبر الإنترنت إلى starrys.ru:'
+      tinkoff:
+        site: 'انتقل إلى موقع Tinkoff'
+        settings: 'للاتصال بـ tinkoff ، تحتاج إلى إضافة طريقة دفع جديدة في المتجر:'
+        already: 'لقد قمت بالفعل بالإعداد لتلقي المدفوعات من خلال Tinkoff:'
+        new_payment: 'إنشاء طريقة دفع عبر Tinkoff'
+      vkontakte:
+        start: 'بدء التصدير'
+      walletone:
+        warning: تنبيه! يتم تعيين البيانات بدقة وفقا للبيانات المحددة في عملية الدفع!
+        merchant_sign_key: "يمكن العثور على المفتاح السري في قسم \"الإعدادات\" من علامة تبويب \"التكامل\""
+        label:
+          phone: 'رقم الهاتف لتحديد المحفظة'
+        placeholder:
+          phone: 'على سبيل المثال: 28 12 389 903 7+'
+        doc: 'التوثيق'
+        settings: 'إعداد بيانات البائع'
+        title: إعداد مسجلة المدفوعات النقدية
+        callout: يتم عرض القطعة في أسفل كل صفحة متجر من أجل أن يرى العميل طرق الدفع الممكنة.
+      yandex_metrika:
+        more: 'المزيد عن إعداد الأحداث في ياندكس ميتريكا'
+      moysklad:
+        category:
+          warning: "عندما يصل منتج جديد، ويتم تعطيل استيراد الفئات، نحتاج إلى معرفة الفئة التي سيتم وضع المنتج فيها."
+        import:
+          warning: يعرض MyStock أسعارًا متعددة لكل عنصر. حدد اسم السعر للمتجر والبيع.
+        login:
+          warning: |
+            <div>تأكد من أن التعريفات الخاصة بك في "مخزني" تسمح بالتكامل مع خدمات الجهات الخارجية.</div>
+            <div>لا يمكن حاليًا استيراد الصور.</div>
+        reservation:
+          linked_stock: |-
+            حجز البضائع على MoySklad عند إنشاء الطلب
+          include_blank: 'غير مثبّت'
+          organizations_empty: غير مثبّت
+          warehouses_empty: "لحجز الطلبات في MyStock، يجب عليك تثبيت مستودع يتم فيه الحجز. قم بتنزيل قائمة المستودعات المتاحة من MyStock."
+          groups_empty: تحميل قائمة الأقسام المتاحة من Moysklad لتحديد قسم معين للطلبات.
+        import_journal: 'سجل الاستيراد'
+        warehouses:
+          warning: يتم استلام بيانات المنتج من كل المستودعات المتاحة. لكن الكمية تتحدث فقط عندما تكون متاحة في المستودعات المحددة
+          th:
+            name: اسم المخزن
+            uuid: المعرف العالمي الموحد في MyStock
+            state: التزامن
+          empty: قائمة المخزن فارغة. قم بالتحديث أو المزامنة مع MyStock
+          no_access:  المخازن متاحة فقط إذا كان لديك اتصال مع MyStock.

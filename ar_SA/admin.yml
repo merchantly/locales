@@ -1,0 +1,262 @@
+ar_SA:
+  admin:
+    support: الدعم
+    reports: تقرير
+    affiliate_program: التابعون
+    coupons: 'الرموز الترويجية'
+    new_random_code: 'أنشئ رمز ترويجي عشوائياً'
+    security: الوصول
+    authentications: 'المصادقات'
+    billing: 'الفواتير'
+    analytics: 'تحليلات'
+    products: 'Товары'
+    categories: 'الفئات'
+    content: 'المحتوى'
+    member: 'عضو'
+    transactions: 'الدخل'
+    charges_logs: 'سجل السحب'
+    products: 'المنتجات'
+    properties: 'الخصائص'
+    mail_deliveries: 'الاشتراكات'
+    mail_templates: 'قوالب البريد'
+    vendors: المتاجر
+    registration_logs: 'سجل التسجيل'
+    sms_logs: 'سجل الرسائل النصية'
+    tariffes: 'التعريفات'
+    bank_incoming:
+      contractors: 'وكلاء المكافحة المعروفين'
+      excludes:  'وكلاء المكافحة المتجاهلين'
+      check: 'كشف الشيك'
+      accepted: 'تم استلام الدفعة'
+      accept: تلقي الدفعة عن طريق هذه الفاتورة
+      accept_without_invoice: 'حاسب بدون فاتورة'
+      no_accept: 'لا يمكن تلقي الدفعة. لا توجد فاتورة مرتبطة'
+      new_contractor: 'شريك جديد'
+      ignore: 'تجاهل'
+      ignore_confirm: 'تجاهل جميع المعاملات من قبل INN هذا الشريك '
+      process: 'تحت المعالجة'
+      ignored: 'متجاهل'
+      create_transaction: "تم إنشاء المعاملة %{transaction}"
+    billing_dashboard:
+      payments: 'المدفوعات'
+      public_shops: 'المتاجر المنشورة'
+      charges: 'الدفعات المتكررة'
+      by_published_at: 'المتاجر حسب تاريخ النشر'
+      unpublic_by_published_at : 'المتاجر غير المنشورة حسب تاريخ النشر'
+    dashboard:
+      marketing_data: 'تحويل جدول المدفوعات إلى CSV'
+      departed_customers: 'العملاء الذين غادروا'
+      incoming_customers: 'عملاء الدخل'
+      registrations: 'التسجيلات'
+      orders:
+        title: 'طلبات المتجر'
+        all: 'الطلبات'
+        success: 'الطلبات المكتملة'
+        payments: 'المدفوعات'
+      new_vendors: 'المتاجر الجديدة'
+      index: 'الرمز البريدي'
+      goods: "مجموع العناصر: %{total_count}"
+      reindex_all: 'الفهرسة'
+      instruction: 'تعليمات'
+      mailing_plan: 'الخطة البريدية'
+      error_pages: 'صفحات الخطأ'
+    openbill_invoice:
+      not_paid: 'غير مدفوع'
+      paid: 'مدفوع'
+      not_paid_autochargable: 'تُدفع تلقائيا'
+      all: 'الكل'
+      pay_link: 'رابط الدفع'
+      pdf_link: 'الفاتورة (PDF)'
+      report: 'تقرير مُوقع (PDF)'
+      nosign_report: 'تقرير غير موقع (PDF)'
+      charges: 'الرسوم المتكررة'
+      transactions: 'المعاملات'
+      error_form: 'يمكن إنشاء الفواتير من صفحة المتجر'
+      number: 'معرف فريد مع أعداد ورموز بدون مسافات'
+      tariff: 'التعريفة'
+      months_count: 'لأشهر'
+      is_autochargable: 'السحب تلقائياً من بطاقة مرتبطة'
+      details: 'وصف مفصل'
+      amount: 'مجموع الفترة بأكملها'
+    openbill_transaction:
+      charged: 'سحب'
+      form:
+        labels:
+          amount: 'المبلغ'
+          tariff_id: 'التعريفة'
+          details: 'تعليق'
+          current_paid_to: 'تاريخ انتهاء الصلاحية الحالي'
+          next_paid_to: 'تاريخ انتهاء الصلاحية التالي'
+        hints:
+          amount: '%{brand_currency}'
+    operators:
+      actions:
+        partner_path: البرنامج التابع
+        enable_partner: تمكين الشركات التابعة
+      flashes:
+        partner_created: 'الشركات التابعة التي تم إنشاؤها'
+        lets_go: 'يفعل'
+      attributes: 'الخواص'
+      vendors: 'المؤسسات'
+    order:
+      order_items: 'العناصر'
+      delete: 'حذف'
+    sendgrid:
+      export: 'تصدير رسائل البريد الإلكتروني التجارية'
+      registration: 'سجل'
+      system_notify: 'اشعار النظام'
+      some_mail: 'رسائل حول الأخطاء'
+      notify_member: 'إشعار المشغل'
+      negative_balance: 'رصيد سلبي'
+      balance_refill: 'إعادة الشحن'
+      balance_subtract: 'سحب'
+      need_payment: 'تحتاج إلى دفع الرسوم الجمركية'
+      unpublish: 'إلغاء النشر'
+      not_enought_sms_money: 'جار إنهاء الرسالة النصية'
+      sms_money_limit_reached: 'لا توجد رسائل نصية كافية'
+      analytics: 'تحليلات'
+      reset_password: 'إعادة تعيين كلمة السر'
+      email_confirmation: 'تأكيد كلمة السر'
+      system_mail: 'إشعار النظام'
+      vendor_id:  'أدخل معرف المتجر'
+      submit:  'إدخال'
+    system_mail_delivery:
+      drafts: 'المسودات'
+      processes: 'تحت المعالجة'
+      previews: 'اختبارات المعاينة'
+      dones: 'منجز'
+      archive: 'أرشيف'
+      restored: 'أعيد'
+      archived: 'تم نقله إلى الأرشيف'
+      recipients: 'المستفيدين'
+      sent: 'الرسائل المرسلة'
+      opened:  'الرسائل المفتوحة'
+      followed: 'ذهبت من خلال الرابط الأساسي'
+      unsubscribe_clicked: 'ألغى اشتراكه'
+      inputs_recepients: 'المستفيدين'
+      vendor: 'المتجر: %{link}'
+      operator_id: 'معرف المشغل'
+      send_all: 'إرسال إلى جميع المشغلين، إذا لم يكن محددًا'
+      operator: 'المشغل: %{link}'
+      templates: 'القوالب'
+      perform: 'افعل!'
+      performed: 'افعل!'
+      no_editing_allowed: 'معطل للتغيير'
+      add_receipient:
+        hints:
+          operator_id: 'إرسال إلى جميع مشغلي التاجر، إذا لم يكن محددًا'
+        labels:
+          operator_id: 'معرف المشغل'
+          vendor_id: 'معرف المتجر'
+    system_mail_recepient:
+      preview: 'معاينة'
+      deliver: 'إرسال'
+      delivered: 'بدأ الإرسال'
+    system_mail_template:
+      preview: 'معاينة'
+      context_example: 'عينة نقل بيانات'
+      mail_examples: 'أمثلة البريد'
+      test: "تجربة توصيل (%{email})"
+    tariff:
+      public: 'صفحة التعريفة'
+      for_choose: 'متاح'
+      unchagable: 'فرد'
+      additionally: بالإضافة إلى
+      vendors_without_tariffs: 'المتاجر بدون تعريفة: %{link}'
+      restored: 'مستعاد'
+      archived: 'انتقل إلى الأرشيف'
+    vendor:
+      templates: قوالب
+      not_archive: ليس في الأرشيف
+      with_orders: مع الطلبات
+      archived: في الأرشيف
+      published: منشور
+      no_published: غير منشور
+      settings: الإعدادات
+      all: كل
+      domained: 'مع المجالات'
+      as_examples: 'على سبيل المثال'
+      operator: الدعم الفني
+      basic_data: 'البيانات الأساسية'
+      operators: 'المشغلين'
+      custom_email: 'Сustom email'
+      source: 'مصدر'
+      sources: 'مصادر'
+      tariff_and_billing: 'التعريفة والفواتير'
+      openbill_invoices: 'دليل الواردة'
+      new_period_openbill_invoice: 'إنشاء فاتورة اشتراك'
+      new_openbill_invoice: 'إنشاء فاتورة لأعمال إضافية'
+      from_main_balance: 'السحب من الحساب (أعمال إضافية)'
+      from_common_transactions: 'الاشتراك الشهري (إعداد فترة النشر)'
+      current_cards: 'بطاقات نشطة'
+      declined_cards: 'بطاقات مرفوضة'
+      charges: 'مدفوعات متكررة'
+      incoiming_transactions: 'الدخل'
+      outdoing_transactions: 'السحب'
+      invoices: 'الحسابات'
+      stats: 'إحصائيات'
+      legal_name: 'المعلومات القانونية'
+      redirects: 'تحذير'
+      domdain: 'عنوان الموقع'
+      custom_email: 'بريد إلكتروني مخصص'
+      theme: 'التصميم'
+      screenshots: 'لقطات للشاشة'
+      archive_confirm: 'أرشفة المتجر؟'
+      batch:
+        restored: 'تم استعادة المتاجر بنجاح'
+        archived: 'متجر نٌقل إلى الأرشيف'
+      actions:
+        restore: استعادة
+        destroy: حذف
+        destroy_confirm: "حذف المتجر؟"
+        archive: للأرشيف
+        double: متكرر
+        show: المتجر في لوحة المشرف
+        screenshot: التقط لقطة شاشة
+        reindex: 'إعادة الفهرسة'
+        reindex_all: فهرسة الجميع
+        flush_cache: 'مسح ذاكرة التخزين المؤقت'
+        operator_url: الدعم الفني
+        preview: معاينة المتجر
+        prolongate: إطالة المنشور لمدة أسبوع
+        registration: إرسال بريد إلكتروني حول التسجيل
+        add_vendor_to_delivery: 'إضافة إلى الاشتراك البريدي'
+        forbidden_to_edit: 'معطل للتغيير'
+        add_confirm: 'إضافة؟'
+      flashes:
+        restored: تمت استعادة المتجر بنجاح
+        destroy: إزالة المتجر
+        archived: المتجر مؤرشف
+        lets_go: يفعل
+        prolongated: "المتجر منشور حتى %{working_to}"
+        cache_cleared: 'تم مسح ذاكرة التخزين المؤقت'
+        operator_added: 'تمت إضافة التجار'
+    notify_mail_template:
+      footer: 'تذييل الصفحة'
+      context_example: 'عينة نقل بيانات'
+      actions:
+        preview: معاينة
+    sms_log_entity:
+      billing: 'الرسائل النصية في الفواتير'
+      analytics: 'تحليلات'
+    vendor_template:
+      all: 'الكل'
+      published: 'منشور'
+      tests: 'اختبار'
+      precreate: 'إعادة إنشاء المتاجر'
+      precreate_notice: 'بدأت العملية'
+      clone: 'إنشاء متجر بناء على'
+      doc: 'توثيق'
+      created_shops: "المتاجر الحقيقية التي أنشئت: %{count} "
+      precreated_shops: "المتاجر المنشأة مسبقاً: %{count}"
+      template: "قالب متجر: %{vendor} #%{id}"
+      image: 'صورة: %{width}x%{height}'
+      available_only_for_admins: 'متاح للمشرفين فقط'
+    archivable:
+      restore: 'استعادة'
+      to_archive: 'النقل إلى الأرشيف'
+      restored: 'مستعاد'
+      archived: 'تم نقله إلى الأرشيف'
+      alive: 'نشط (حي)'
+      archive: 'الأرشيف'
+      html_archive: 'في الأرشيف'

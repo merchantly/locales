@@ -1,0 +1,33 @@
+ar_SA:
+  error_page:
+
+    not_found:
+      title: '404 - لم يوجد'
+      subject: '<b>404</b> - الصفحة غير موجودة'
+      content_html: "لم يتم العثور على المورد الذي طبقته"
+
+    maintenance:
+      title: '503 - الموقع تحت الصيانة'
+      subject: '<b>503</b> - عذرًا ، الخدمة غير متاحة مؤقتًا.'
+      content_html: 'التطبيق قيد الصيانة وهو غير متاح مؤقتًا. تعال في نصف ساعة'
+
+    error:
+      title: '500 - خطأ بالنظام'
+      subject: '<b>500</b> - هناك خطأ ما'
+      content_html: |
+        <p><br>حدث خطأ بالنظام وتم إعلام المسؤولين بذلك. </p>
+        <p><a href="javascript:history.back()">"يرجى العودة إلى الوراء</a> أو استخدام البحث"</p>
+    authority_forbidden_operator:
+      title: '403 - ممنوع الدخول'
+      subject: 'القسم الإداري للمتجر. <br/>ممنوع الدخول.'
+      content_html: "هذه الصفحة متاحة فقط لمدراء المتجر. <br/>إذا كنت مديراً، سجل الدخول بالنظام."
+
+    authority_forbidden:
+      title: '403 - ممنوع الدخول'
+      subject: '<b>403</b> - ممنوع الدخول'
+      content_html: 'أنت غير مفوض لدخول هذه الصفحة.'
+
+    auth_failure:
+      title: '401 - فشل تسجيل الدخول'
+      subject: '<b>401</b> - فشل تسجيل الدخول'
+      content_html: ''

@@ -1,0 +1,21 @@
+ar_SA:
+  operator:
+    dashboard:
+      help:
+        title: أي أسئلة؟
+        body: "جهات الاتصال"
+      pages:
+        title: أضف منتجات
+        body: "ربما تريد أن تخبر عن متجرك وعن قصة بدايته، فقط <a href=\"/operator/content_pages\" target=_blank>أنشئ صفحة</a> تحتوي على جهات الاتصال أو \"معلومات عنا\" وضعها في <a href=\"/operator/menu_items\" target=_blank>القائمة</a>"
+      pay:
+        title: ربط الدفع
+        body: "اختر طرق‌ <a href=\"/operator/vendor_payments\" target=_blank>مناسبة لقبول الدفع</a>، نقداً، عن طريق البطاقة على الموقع أو عبر حوالة بنكية."
+      del:
+        title: تخصيص التوصيل
+        body: "إذا كانت لديك شركات شحن وفهمت كيف وأين ستقوم بتسليم البضائع، فقم ببساطة بإنشاء <a href=\"/operator/vendor_deliveries\" target=_blank>طرق التسليم</a>، حدد التكلفة وقم بوصف الشروط. إذا لم يكن كذلك، اكتب لنا، وسوف نطالب."
+      main:
+        title: أضف منتجات
+        body: "متجر بدون سلع ليس متجر. قم بإنشاء <a href=\"/operator/categories\" target=_blank>فئات</a> ومن ثم <a href=\"/operator/products/new?product%5Bcategory_ids%5D%5B%5D=\" target=_blank>المنتجات</a> نفسها. إذا كان لديك أكثر من 100 إلى 200 سلعة، <a href=\"/operator/integration/import\" target=_blank>فقم بتنزيلها بشكل جماعي من ملف</a> أو عبر <a href=\"/operator/integration/moysklad\" target=_blank>\"ماي ستوك (My Stock)\"</a>، نوصي بالعمل مع هذه الخدمة."
+      design:
+        title: قم بتصميم متجرك
+        body: "للبدء، قم <a href=\"/operator/favicons\" target=_blank>بتحميل شعار</a>، العرض الموصى به هو 120-150 بكسل و favicon (أيقونة مفضلة). يمكنك تخصيص التصميم في <a href=\"/?anticache=1522394897&design=open&inside=true&preview=407e52766ebcfd289676d00bb6f1a3e1\" target=_blank>أداة تصميم</a> تفاعلية. أضف معلومات المتجر الأساسية - <a href=\"/operator/header\" target=_blank>جهات اتصال وعنوان قصير</a> ، بما أن العملاء يريدون معرفة ماذا يباع وأين."

@@ -1,0 +1,67 @@
+ar_SA:
+  order_mailer:
+    client:
+      subjects:
+        new_order:    "{{vendor_name}}: طلب جديد رقم {{order.public_id}}"
+        payment_link: "{{vendor_name}}: معلومات دفع الطلب رقم {{order.public_id}}"
+        paid:         "{{vendor_name}}: تم استلام الدفعة للطلب رقم {{order.public_id}}"
+        workflow_changed: "{{vendor_name}}: الطلب رقم  {{order.public_id}} أصبحت حالته '{{order.workflow_state.title}}'"
+        delivery_expired: '{{vendor_name}}: سيتم إلغاء الطلب قريبًا'
+        reminder_payment: '{{vendor_name}}: انتهاء صلاحية المحجوز'
+        client_category_changed: '{{client.vendor_name}}: لقد تم نقلك إلى مجموعة أخرى {{client.category_name}}'
+    merchant:
+      subjects:
+        new_order:    "{{vendor_name}}: طلب جديد رقم {{order.public_id}}"
+        paid:      "{{vendor_name}}: تم استلام الدفعة للطلب رقم {{order.public_id}}"
+        workflow_changed: "{{vendor_name}}: الطلب رقم  {{order.public_id}} أصبحت حالته '{{order.workflow_state.title}}'"
+        run_out:   "{{vendor_name}}: انتهى من المخزن"
+  invite_mailer:
+    new_invite:
+      subject: "دعوة للمشروع %{vendor}"
+  partner_mailer:
+    register_vendor:
+      subject: "تم تسجيل متجر جديد %{brand_name_e} من كازاخستان"
+  vendor_mailer:
+    unpublish:
+      subject: "Kiiiosk.ru: تم فتح المتجر %{host} "
+    negative_balance:
+      subject: "Kiiiosk.ru: رصيد سلبي في الحساب في المتجر %{host}"
+    balance_refill:
+      subject: "Kiiiosk.ru: زيادة الرصيد في المتجر %{host}"
+    balance_subtract:
+      subject: "Kiiiosk.ru: رصيد الشطب في المتجر %{host}"
+    need_payment:
+      subject: "Kiiiosk.ru: يجب أن تدفع بالسعر في المتجر %{host}"
+    not_enough_sms_money:
+      subject: 'Kiiiosk.ru: الرصيد غير كافي لإرسال رسائل نصية في المتجر %{host}'
+    sms_money_limit_reached:
+      subject: 'Kiiiosk.ru: يقترب رصيد الرسائل النصية الخاص بك من الحد الأدنى للإغلاق في المتجر %{host}'
+    shop_will_archive:
+      subject: 'Kiiiosk.ru: المتجر {{vendor.home_url}} سيتم نقله إلى الأرشيف'
+    archive:
+      subject: 'Kiiiosk.ru: المتجر {{vendor.home_url}} سيتم نقله إلى الأرشيف'
+    analytics:
+      subject: 'Kiiiosk.ru: محلل المتجر الأسبوعي %{host}'
+    registration:
+      subject: 'أهلا بك'
+    notify_shop_will_archive:
+      subject: 'إشعار الدفع'
+    vendor_archived:
+      subject: 'المتجر مؤرشف'
+  support_mailer:
+    support_mail:
+      insufficient_funds: 'فشل الدفع التلقائي ل%{account_id}. لا يوجد رصيد كافي في البطاقة'
+  coupon_image_mailer:
+    send_client_mail:
+      subject: "شهادة هدية من المتجر \"%{vendor_name}\""
+      body: >
+        مرحباً! <br>شكرا لك على شراء شهادة هدية من المتجر "%{vendor_name}"!<br><br> باستخدام شهادة، يمكنك دفع جزء من مبلغ الطلب أو عملية الشراء بالكامل. عند تقديم طلب، أدخل الرمز الترويجي الفردي من الشهادة في حقل "الرمز الترويجي". بعد ذلك، سيتم خصم القيمة التي في الشهادة تلقائيًا من إجمالي مبلغ الدفع. <br><br> ملاحظة! الشهادة صالحة مرة واحدة ، وتتم إزالة الرصيد الموجود في الشهادة. نتمنى لك تسوق ممتع ومفيد! <br><a href="%{url}" target="_blank">رابط الشهادة</a>
+  email_confirmation_mailer:
+    send_url:
+      subject: "التأكيد بواسطة البريد الإلكتروني %{vendor_name}"
+      confirmation_url: رابط التأكيد بالبريد الإلكتروني
+
+  сlient_reset_password_mailer:
+    send_instructions:
+      subject: "إعادة تعيين كلمة السر %{vendor_name}"
+      reset_password_url: رابط إعادة تعيين كلمة السر

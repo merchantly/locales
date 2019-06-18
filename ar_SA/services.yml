@@ -1,0 +1,46 @@
+ar_SA:
+  services:
+    invite:
+      sms_text: "تمت دعوتك إلى %{vendor}، للتسجيل - %{url}"
+    vendor_registration:
+      invalid_phone_code: رمز غير صالح
+      operator_name: "مشغل المتجر %{vendor}"
+      first_category: الفئة الرئيسية
+      cash_on_delivery: الدفع عند الاستلام
+      cash_on_selfdelivery: الدفع عند الاستلام
+      payment_w1: "الدفع عبر الانترنت (فيز/ماستركارد، QIWI، وغيره)"
+      delivery: 'بعد الاستلام'
+      product_name: 'اسم المنتج'
+      product_description: 'وصف المنتج'
+    pin_sender:
+      sms_text: 'الرمز الخاص بك للإدخال: %{pin}'
+    client_pin_sender:
+      sms_text: '%{pin} الرمز الخاص بك لتسجيل الدخول إلى حسابك %{cabinet_url}'
+    tariff_payment:
+      fee:
+        per_month:
+          description: 'رسوم الاشتراك ل %{date} - %{amount}'
+        orders:
+          description: '%{amount} للطلبات (%{per_order_amount} للطلب، %{orders_count}). %{date}'
+        sms:
+          description: '%{amount} للرسائل النصية (%{per_sms_amount} للرسالة النصية، جميع الرسائل النصية المرسلة %{sms_count}). %{date}'
+        moysklad:
+          description: '%{amount} للربط مع خدمة MyStore'
+
+    vendor_notifications:
+      partner_incoming:
+        sms_text: '%{name}، رصيد الشريك في kiiosk.ru تجدد بمقدار %{amount}. الرصيد الحالي: %{current_amount}'
+      not_enough_sms_money:
+        sms_text: '%{url}: لا توجد أموال كافية لإرسال الرسائل النصية'
+      sms_money_limit_reached:
+        sms_text: '%{url}: يقترب رصيد الرسائل النصية الخاص بك من الحد الأدنى للإغلاق. الرصيد: %{amount}'
+      unpublish:
+        sms_text: '%{url}: المتجر غير منشور'
+      negative_balance:
+        sms_text: '%{url}: رصيدك: %{balance}. مع وجود رصيد سلبي، لن يكون إرسال الرسائل النصية متاحًا.'
+      balance_refill:
+        sms_text: '%{url}: تجدد رصيدك بمقدار %{amount}. الرصيد الحالي: %{current_amount}'
+      balance_subtract:
+        sms_text: '%{url}: رسوم بمقدار %{amount} - %{details}. الرصيد الحالي: %{current_amount}'
+      need_payment:
+        sms_text: '%{url}: فترة الخدمة المدفوعة تنتهي بتاريخ %{unpublish_date}. المجموع: %{invoice_amount} - %{payment_link}'

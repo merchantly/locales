@@ -1,0 +1,177 @@
+ar_SA:
+  integrations:
+    groups:
+      payment:
+        title: أنظمة الدفع
+        details: "تستخدم أنظمة الدفع لتلقي المدفوعات من العملاء. كقاعدة، لها من 2% إلى 4% للخدمات."
+
+      online_kassa:
+        title: صندوق النقد عبر الإنترنت (القانون الاتحادي رقم 54 للاتحاد الروسي)
+        details: السجلات المالية للتجارة الإلكترونية
+      crm:
+        title: إدارة علاقات العملاء الخارجية
+        details: إنشاء تلقائي للعملاء والمعاملات في أنظمة إدارة علاقات العملاء الخارجية
+
+      stock:
+        title: المخزن
+        details: المحاسبة عن الأرصدة وحجز البضائع في المخزن
+
+      comment:
+        title: تقييمات البضائع
+        details: نماذج التعليقات وتقييمات البضائع على الموقع
+
+      analytics:
+        title: تحليلات
+        details: خدمات التحليل الخارجية
+
+      export:
+        title: تصدير البيانات
+        details: "تفريغ المعلومات حول البضائع والطلبات والعملاء بتنسيقات ملائمة لمزيد من الاستخدام"
+
+      other:
+        title: أخرى
+
+      import:
+        title: استيراد البيانات
+        details: "تحميل معلومات حول البضائع والطلبات والعملاء في %{brand_name}"
+
+    import_spread_sheet_infos:
+      title: 'تنزيل المنتجات من جدول بيانات Google'
+      description_html: ''
+
+    walletone:
+      title: 'Walletone'
+      description_html: نظام قبول الدفع العالمي على الموقع بما في ذلك لصالح الأفراد.
+
+    pay_pal:
+      title: 'PayPal'
+      description_html: أكبر نظام للدفع الإلكتروني المدين في العالم. مناسب تمامًا لتلقي الدفع من العملاء من دول أخرى.
+
+    yandex_kassa:
+      title: 'Yandex Kassa'
+      description_html: "قبول الدفع عن طريق النقود الإلكترونية، نقدا، مع البطاقات المصرفية."
+
+    cloud_payments:
+      title: CloudPayments
+      description_html: بوابة الدفع لاستلام الدفع عن طريق البطاقات البلاستيكية. الاتصال السريع. فقط للكيانات القانونية.
+
+    rbk_money:
+      title: 'RBK Money'
+      description_html: خدمة الدفع الالكترونية.
+
+    robokassa:
+      title: 'Robokassa'
+      description_html: خدمة الدفع
+
+    tinkoff:
+      title: 'Tinkoff'
+      description_html: 'الحصول على الإنترنت من بنك Tinkoff'
+
+    sberbank:
+      title: 'Sberbank'
+      description_html: 'يتم الاستحواذ من Sberbank'
+
+    moysklad:
+      title: My Stock
+      description_html: التزامن الكامل (الاستيراد) من قائمة الأسهم والأرصدة المالية. تفريغ تلقائي للطلبات وحجز البضائع في المخزن.
+
+    vkontakte:
+      title: 'vkontakte.ru'
+      description_html: قم بالاتصال مع VK وابدأ المشاركة والتعليقات على صفحة البضائع. <br> قم بتصدير البضائع إلى المجموعة والحصول على طلبات من VK.
+
+    tasty:
+      title: 'Taaasty.com'
+      description_html: 'تصدير البضائع إلى Tumblelog والحصول على طلبات من Taaasty.'
+
+    disqus:
+      title: 'Disqus.com'
+      description_html: 'خدمة ويب توفر إمكانية استيراد المناقشات والتعليقات عبر الإنترنت إلى موقع المستخدم.'
+
+    convead:
+      title: convead.io
+      description_html: "نظام شامل يسمح لك بجمع عناوين البريد الإلكتروني، وإعادة السلات المهجورة، وزيادة التحويل وزيادة المبيعات المتكررة."
+
+    facebook:
+      title: فيسبوك
+      description_html: قم بربط فيسبوك وابدأ بمشاركة التعليقات والتقييمات على صفحة البضائع.
+
+    atol:
+      title: Atol
+      description_html: استئجار صناديق النقد للتداول عبر الإنترنت
+
+    starrys:
+      title: StarRys
+      description_html: استئجار صناديق النقد للتداول عبر الإنترنت
+
+    kassatka:
+      title: Kassatka
+      description_html: استئجار صناديق النقد للتداول عبر الإنترنت
+
+    life_pay:
+      title: LifePay
+      description_html: استئجار صناديق النقد للتداول عبر الإنترنت
+
+    orange_data:
+      title: OrangeData
+      description_html: استئجار صناديق النقد للتداول عبر الإنترنت
+
+    cloud_kassir:
+      title: CloudKassir
+      description_html: استئجار صناديق النقد للتداول عبر الإنترنت
+
+    instagram:
+      title: انستغرام
+      description_html: معرض صور يتحدث تلقائيًا في الصفحات السفلية لمتجرك.
+
+    google_analytics:
+      title: تحليلات Google
+      description_html: الاتصال وإعداد تحليلات Google بنقرة واحدة!
+
+    # vkontakte_export:
+    #   title: Экспорт товаров в Товары vkontakte
+    #   description_html: Автоматическая выгрузка товаров из %{brand_name_a} в Товары Vkontakte
+    #   site_url: https://vk.com/page-59800369_51014929
+
+    import_yml:
+      title: استيراد البضائع
+      description_html: استيراد البضائع بتنسيق Yandex.Market (.xml)
+
+    import_tables:
+      title: استيراد البضائع
+      description_html: "تحميل معلومات حول السلع (الأسماء، الأسعار، الأرصدة)"
+
+    import_photos:
+      title: تنزيل عدد كبير من صور البضائع
+      description_html: تنزيل عدد كبير من صور البضائع
+
+    yandex_metrika:
+      title: Yandex Metrika
+      description_html: الاتصال وإعداد Yandex Metric بنقرة واحدة!
+
+    torg_mail:
+      title: Torg@Mail.ru
+      description_html: تفريغ البضائع في تجارة Mail.ru وتلقي الطلبات من هناك
+      logo_bg_color: '#666'
+
+    commerce_ml:
+      title: تداول v7/v8 1C
+      description_html: تفريغ العناصر وأرصدة المخزن من 1C عبر CommerceML
+
+    bitrix24:
+      title: بيتريكس24
+      description_html: يتم تحميل العملاء والطلبات تلقائيًا إلى Bitrix24
+
+    amo_crm:
+      title: AmoCRM
+      description_html: يتم تحميل العملاء والطلبات تلقائيًا إلى AmoCRM
+
+    yandex_market:
+      title: 'yandex.market.ru'
+      description_html: تصدير منتظم للبضائع إلى yandex.market.ru
+
+    export:
+      title: 'تصدير البيانات'
+      description_html: "تنزيل معلومات حول البضائع والطلبات والعملاء وغيره في CSV، XML، YML."
+    apidoc:
+      title: 'واجهة برمجة تطبيق %{brand_name_a}'
+      description_html: وصول كامل إلى بيانات التطبيق عبر واجهة برمجة التطبيق (REST JSON API).

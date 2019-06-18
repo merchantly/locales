@@ -1,0 +1,8 @@
+ar_SA:
+  operator:
+    integration_views:
+      index:
+        setup: الإعداد
+        connect: الاتصال
+        use: الاستخدام
+        connected: متصل

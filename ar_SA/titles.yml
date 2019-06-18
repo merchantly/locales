@@ -1,0 +1,8 @@
+ar_SA:
+  titles:
+    client_categories:
+      anonymous: غير مصدق
+      registered: مسجل
+    price_kinds:
+      default: السعر الافتراضي
+      sale: سعر الخصم

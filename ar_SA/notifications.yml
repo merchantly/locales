@@ -1,0 +1,18 @@
+ar_SA:
+  notifications:
+    titles:
+      merchant: 'إشعارات البائع'
+      client: 'إشعارات العميل'
+    merchant:
+      new_order: طلب جديد
+      paid: تم دفع الطلب
+      workflow_changed: تم تغيير حالة الطلب
+      run_out: إنتهى من المخزن
+    client:
+      payment_link: رابط إلى الدفع
+      new_order: سجل طلب
+      paid: تم دفع الطلب
+      workflow_changed: تم تغيير حالة الطلب
+      delivery_expired: تأخر في الدفع
+      reminder_payment: 'تذكير بالدفع'
+      client_category_changed: تغيير فئة العميل

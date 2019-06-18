@@ -1,0 +1,201 @@
+ar_SA:
+  helpers:
+    publish: 
+      span: 'نشر'
+      title: 'تم تعطيل المتجر. انقر للنشر'
+    unpublish: 
+      span: 'إلغاء النشر'
+      confirm: 'هل أنت متأكد؟'
+    more: المزيد...
+    orders_count:
+      zero: الطلب
+      one: الطلب
+      two: الطلب
+      few: الطلب
+      many: الطلب
+      other: الطلب
+
+    target_values:
+      _blank: 'الفتح في نافذة جديدة'
+      _self: 'الفتح في النافذة الحالية'
+    product_state_errors:
+      has_no_orderable_goods: 'لا توجد خيارات للبيع'
+      no_price: 'لا يوجد سعر'
+      no_stock_linked: 'المنتج ليس في المخزن'
+      no_consignment_linked: 'المنتج ليس في المخزن.'
+      unpublished: 'غير منشور'
+      not_orderable_infinity: 'لم يحدد رصيد'
+      run_out: 'انتهى المنتج'
+      not_sellable: 'غير مباع'
+      no_quantity: 'انتهى'
+
+      fail: 'غير متاح لأسباب عدة'
+
+    boolean:
+      empty: ''
+      'true': Yes
+      'false': No
+    select:
+      prompt: 'اختر:'
+    submit:
+      create: إنشاء
+      submit: حفظ
+      update: حفظ
+    you: '(أنت)'
+    people: "%{count} أشخاص"
+    years: "%{count} سنوات"
+    days: "%{count} أيام"
+    batch_actions:
+      restore: 'الاستعادة من الأرشيف'
+      publicate: 'نشر'
+      unpublicate: 'إخفاء'
+      delete: 'حذف'
+      merge: 'دمج'
+      duplicate: 'تكرار'
+      select_tags: 'تحرير العلامات'
+      select_categories: 'تغيير الفئات'
+    archivable:
+      archive: 'للأرشيف'
+      restore: 'استعادة'
+      archived: 'العنصر في الأرشيف'
+      confirm: 'هل تريد حذف الذي في الأرشيف؟'
+    bottom_form_panel:
+      mail_template_reset: 'إعادة القوالب للوضع الافتراضي؟'
+      undomain: 
+        title: 'تعطيل المجال'
+        confirm: 'هل تريد إلغاء ربط المجال؟'
+      save: 
+        title: حفظ
+        reset: إلغاء
+        forbidden: غير مسموح بالتغيير
+      delete:
+        title: 'حذف'
+        confirm: 'هل تريد الحذف بشكل نهائي؟'
+    categories:
+      main_category: 'الفئة الرئيسية للمنتج'
+      new: 'فئة جديدة'
+      all: 'جميع البضائع'
+    circle_buttons:
+      images: 'الصور'
+      ignore: 'تجاهل'
+      male_redirect: 'إعادة توجيه'
+    components:
+      similar_product_select:  'ابدأ بكتابة اسم المنتج لإضافته'
+      other_products_select: 'ابدأ بكتابة اسم المنتج لإضافته'
+      union_items_select: 'اسم المنتج الذي سيضاف'
+    custom_title:
+      stock_title: "في المخزن: '%{title}'"
+    favicons:
+      aws_empty: "الملف %{name} ليس في السحابة"
+    icons:
+      move: 'حرك لأعلى أو لأسفل'
+    order_deliveries:
+      run: 'ابدأ الشحن'
+      external_link: 'حالة التوصيل على موقع الوكيل.'
+      walletone: 'التوصيل إلى Walletone'
+      tracking_id_blank: 'لم يحدد معرف الطلب'
+    order_payment:
+      expect: نحن نتوقع الدفع
+      paid: 'مدفوع: %{paid_to}'
+    order_reservation:
+      local_and_remote: "محجوز محلياً وفي المخزن في %{reserved_at}"
+      only_local: "محجوز محلياً في %{reserved_at}"
+      only_remote: "محجوز فقط في المخزن في %{reserved_at}"
+      reserve: 'احجز'
+      unreserve: 'إزالة من المحجوز'
+      not_reserved: 'غير محجوز في MyStock'
+    order_workflow: 
+      current: 'الحالة الحالية'
+      change: "تغيير الحالة إلى: \"%{state}\""
+    payments:
+      online_kassa_collection:
+        disabled: Off
+        default: 'عبر نظام الدفع'
+        starrys: 'عبر starrys.ru'
+        life_pay: 'عبر life-pay.ru'
+        kassatka: 'بواسطة kassatka.me'
+      billing_account_options:
+        main: 'الرئيسي'
+    products:
+      inactive: 'غير نشط'
+      archived: 'في الأرشيف'
+      moyskad: 'MC'
+      united: "مجمعة في &laquo;%{title}&raquo;"
+      ordering_as_product_only:  'تباع بدون تعديلات'
+      state_switcher:
+        title_on: 'منشور'
+        title_off: 'مخفي'
+      product_quantity:
+        infinity: 'بشكل لا نهائي'
+        run_out: 'انتهى'
+      good_quantity:
+        run_out: "<span class=\"text-muted %{css_class}\">انتهى</span>"
+        infinity: 'لا يتم الاحتفاظ ببقايا المحاسبة. المنتج لا نهاية لكميته'
+        unknown: 'لم يحدد رصيد'
+      list_view_switch: 
+        to_list: 'التبديل إلى عرض السطر'
+        to_block: 'التبديل إلى عرض القسم'
+      actual_price:
+        unknown: 'لم يتم تحديد سعر'
+    properties:
+      is_used_in_item: 'للتعديل'
+      is_used_in_product: 'للسلع'
+    tariff:
+      sms_price: 'السعر مقابل الرسالة النصية - %{price}'
+      feature:
+        no_limit: 'بدون قيود'
+        value: 'إلى %{value}'
+    vendor:
+      sms_disabled: '(معطل)'
+      balance_more: 'انقر لرؤية التفاصيل و تعبئة الرصيد.'
+      access_only_auth: 'المتجر متاح الآن فقط للموظفين المفوضين'
+    buttons:
+      product_categories_positions_button: 'انقر لتحديد مواضع المنتج في فئاته'
+    humanized_counters:
+      unknown_quantity: '؟ قطع'
+      empty:
+        stucks: 'انتهى'
+        dictionary_entities: 'لا توجد عناصر'
+        items_quantity: 'لا يوجد'
+        products: 'لا توجد منتجات'
+        orders: 'لا توجد طلبات'
+      labels:
+        moysklad: "تمت المزامنة مع MyStock %{synced_at}، المعرف العالمي الموحد (uuid): %{uuid}"
+    links:
+      walletone: 'الذهاب إلى الكاشير في Walletone'
+      unknown_url: 'لم يتم تحديد رابط'
+      category_products: "فئة المنتجات (%{count} قطعة)"
+    members:
+      check: 'مفعل'
+      ban: 'معطل'
+      no_confirmed: 'غير مؤكد'
+      send_email_confirmaion: 'إرسال التأكيد'
+    product_labels:
+      archive: 'تمت أرشفة الخيار'
+      no_orderable: 'ليس للبيع: %{reason}'
+      union: 'دمج العنصر'
+      part_of_union: 'جزء من الدمج'
+      package: القطعة هي منتج للتعبئة والتغليف
+      hidden: 'مخفي'
+      stock_linked: 'يتم استيراد العنصر من MoySklad'
+    profile:
+      email_no_confirmed: 'البريد الإلكتروني غير مؤكد'
+      email_confirmed: 'البريد الإلكتروني مؤكد'
+      phone_confirmed: 'رقم الهاتف مؤكد'
+      phone_no_confirmed: 'رقم الهاتف غير مؤكد'
+    stock:
+      log_entity_state:
+        started: 'جاري'
+        finished: 'تم بنجاح'
+        error: 'خطأ'
+        cancel: 'توقف'
+        unknown: 'حالة غير معروفة'
+        hung: 'لا يستجيب'
+      sync_info:
+        success: "المخزن متزامن %{updated_at}"
+        error: 'خطأ في التزامن %{message}'
+        process: "جاري المزامنة %{created_at}"
+    wirehouse:
+      refresh: 'تحديث قائمة الشركات من MoySklad'
+    operator_form_helper:
+      property_dictionary_hint: 'القاموس %{dictionary}'

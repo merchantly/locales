@@ -10,8 +10,8 @@ ar_SA:
       on_pay_failure: 'إذا فشلت عملية الدفع'
     action:
       delivery: 'احجز وابدأ التسليم'
-      reserve: 'احجز المنتج (ضعه في الاحتياطي)'
-      unreserve: 'إزالة من الاحتياطي'
+      reserve: 'احجز المنتج'
+      unreserve: 'إزالة من المحجوز'
       change_state: تغيير حالة الطلب
       notification: 'إرسال إشعار'
 
@@ -27,23 +27,23 @@ ar_SA:
       success: 'تم بنجاح'
     invite:
       role:
-        owner: 'مالك'
-        manager: 'مدير'
+        owner: 'المالك'
+        manager: 'المدير'
         guest: 'ضيف'
     role_permission:
       resource_type:
         PaymentAccount: 'عمليات الدفع'
-        Product: 'البضائع'
+        Product: 'السلع'
         Vendor: 'إعدادات أخرى'
         SliderImage: شريط التمرير
         Translation: الترجمة
         MailTemplate: قوالب الرسائل
         DictionaryEntity: عناصر الدليل
         Member: الموظفين
-        SubscriptionEmail: اشتراكات البريد الالكتروني
-        Lookbook: ""
-        LookbookImage: ""
-        ProductImage: صور البضائع
+        SubscriptionEmail: اشتراكات البريد الإلكتروني
+        Lookbook: كتب البحث
+        LookbookImage: صور كتب البحث
+        ProductImage: صور السلع
         ContentPageImage: صور صفحات النص
         OperatorDashboardBuilder: الصفحة الرئيسية
         Warehouse: المخازن
@@ -57,9 +57,9 @@ ar_SA:
         OrderCondition: قواعد الطلب
         BlogPost: المدونة
         Order: الطلبات
-        Slug: ""
+        Slug: CNC
         Invite: الدعوات
-        VendorSmsLogEntity: سجل الرسائل القصيرة
+        VendorSmsLogEntity: سجل الرسائل النصية
         WorkflowState: حالات الطلبات
         Tag: علامات المنتج
         Coupon: كوبونات الخصم
@@ -71,13 +71,13 @@ ar_SA:
         Client: العملاء
         ActiveAdmin::Comment: 'التعليقات'
         OrderOperatorFilter: فلاتر الطلب
-        Moysklad: ماي ستوك
+        Moysklad: MyStock
         AssetImage: الصور
         VendorBells::VendorBell: الإشعارات
         DeliveryTimeSlot: فترة زمنية
-        DeliveryTimePeriod: ""
-        DeliveryTimeRule: ""
-        CouponImage: قوالب الشهادة
+        DeliveryTimePeriod: فرق الفترة الزمنية
+        DeliveryTimeRule: قاعدة الفترة الزمنية
+        CouponImage: قوالب الشهادات
         OrderItem: مواضع الطلب
         ClientCategory: فئة العميل
         PriceKind: نوع السعر
@@ -104,7 +104,7 @@ ar_SA:
         'auto': مثبتة ومناسبة
         'off': لا تظهر شيئاً
       show_other_products:
-        'selected_only': البضائع المثبتة فقط
+        'selected_only': السلع المثبتة فقط
         'auto': مثبتة ومناسبة
         'off': لا تظهر شيئاً
     system_text:
@@ -117,8 +117,8 @@ ar_SA:
         done: منتهي
     coupon:
       use_products_behavior:
-        include: تنطبق فقط على البضائع المحددة
-        exclude: تنطبق على الجميع ما عدا البضائع المحددة
+        include: تنطبق فقط على السلع المحددة
+        exclude: تنطبق على الجميع ما عدا السلع المحددة
       use_categories_behavior:
         include: تنطبق فقط على الفئات المحددة
         exclude: تنطبق على الجميع ما عدا الفئات المحددة
@@ -127,7 +127,7 @@ ar_SA:
         fixed: 'مبلغ ثابت'
     system_mail_template:
       template_type:
-        tech: "معلومات مهمة وطارئة (مرتين في السنة ، لا نوصي بإلغاء الاشتراك)"
+        tech: "معلومات مهمة وطارئة (مرتين في السنة، لا نوصي بإلغاء الاشتراك)"
         news: "أخبار الخدمة، التسويق (لا يزيد عن مرة واحدة في الشهر)"
         analytics: "تحليلات المتجر الخاص (أسبوعياً، مع مبيعات)"
     vendor:
@@ -144,14 +144,21 @@ ar_SA:
         required: طلب/ضروري
 
     order_russian_post:
-      new: جديد. لإرسال النموذج إلى البريد الروسي ، انقر على الزر أدناه.
+      new: جديد. لإرسال النموذج إلى البريد الروسي، انقر على الزر أدناه.
       delivery: "تم التوصيل. تم إنشاء النموذج بنجاح. معرف فارغ {order_delivery.external_id}%"
       canceled: "ألغيت. حدث خطأ أثناء إنشاء النموذج - {order_delivery.error}%"
       done: 'تم التوصيل'
+
+    order_aramex:
+      new: جديد. لإرسال النموذج إلى أرامكس، انقر على الزر أدناه.
+      delivery: "تم التوصيل. تم إنشاء النموذج بنجاح. رقم AWB %{order_delivery.external_id} "
+      canceled: "ألغيت. حدث خطأ أثناء إنشاء النموذج - {order_delivery.error}%"
+      done: 'تم التوصيل'
+
     vendor_delivery:
       use_products_behavior:
-        include: تنطبق فقط على البضائع المحددة
-        exclude: تنطبق على الجميع ما عدا البضائع المحددة
+        include: تنطبق فقط على السلع المحددة
+        exclude: تنطبق على الجميع ما عدا السلع المحددة
       use_categories_behavior:
         include: تنطبق فقط على الفئات المحددة
         exclude: تنطبق على الجميع ما عدا الفئات المحددة

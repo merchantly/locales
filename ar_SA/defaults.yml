@@ -1,0 +1,112 @@
+ar_SA:
+  time:
+    formats:
+      default: '%a، %d%B %Y, %H:%M:%S %z '
+      human: '%e %B %Y in %H:%M'
+      amo_csv: '%d .%m.%Y %H:%M'
+  datetime:
+    # вообще у нас нет английской локали для операторской
+    # но иногда в bugsnag по какой то причине попадают ошибки
+    # ActionView::Template::Error
+    # translation data {:one=>"1 minute", :other=>"%{count} minutes"} can not be used with :count => 15
+    # описание бага:
+    # https://github.com/yaroslav/russian/issues/29
+    # https://github.com/svenfuchs/i18n/issues/124
+    distance_in_words:
+      about_x_hours:
+        zero: حوالي 0 ساعة
+        one: حوالي ساعة
+        two: حوالي ساعتان
+        few: حوالي %{count} ساعات
+        many: حوالي %{count} ساعات
+        other: حوالي %{count} ساعات
+
+      about_x_months:
+        zero: حوالي 0 أشهر
+        one: حوالي شهر
+        two: حوالي شهرين
+        few: حوالي %{count} أشهر
+        many: حوالي %{count} أشهر
+        other: حوالي %{count} أشهر
+
+      about_x_years:
+        zero: حوالي 0 سنة
+        one: حوالي سنة
+        two: حوالي سنتين
+        few: حوالي %{count} سنوات
+        many: حوالي %{count} سنوات
+        other: حوالي %{count} سنوات
+
+      almost_x_years:
+        zero: تقريباً 0 سنة
+        one: تقريباً سنة
+        two: تقريباً سنتين
+        few: تقريباً %{count} سنوات
+        many: تقريباً %{count} سنوات
+        other: تقريباً %{count} سنوات
+
+      half_a_minute: نصف دقيقة
+      less_than_x_minutes:
+        zero: أقل من 0 دقيقة
+        one: أقل من دقيقة
+        two: أقل من دقيقتين
+        few: أقل من %{count} دقائق
+        many: أقل من %{count} دقائق
+        other: أقل من %{count} دقائق
+
+      less_than_x_seconds:
+        zero: أقل من 0 ثانية
+        one: أقل من ثانية
+        two: أقل من ثانيتين
+        few: أقل من %{count} ثواني
+        many: أقل من %{count} ثواني
+        other: أقل من %{count} ثواني
+
+      over_x_years:
+        zero: أكثر من 0 سنة
+        one: أكثر من سنة
+        two: أكثر من سنتين
+        few: أكثر من %{count} سنوات
+        many: أكثر من %{count} سنوات
+        other: أكثر من %{count} سنوات
+
+      x_days:
+        zero: "0 يوم"
+        one: يوم
+        two: "يومين"
+        few: "%{count} أيام"
+        many: "%{count} أيام"
+        other: "%{count} أيام"
+
+      x_minutes:
+        zero: "0 دقيقة"
+        one: 1 دقيقة
+        two: "دقيقتين"
+        few: "%{count} دقائق"
+        many: "%{count} دقائق"
+        other: "%{count} دقائق"
+
+      x_months:
+        zero: "0 شهر"
+        one: 1 شهر
+        two: "شهرين"
+        few: "%{count} أشهر"
+        many: "%{count} أشهر"
+        other: "%{count} أشهر"
+
+      x_years:
+        zero: "0 سنة"
+        one: 1 سنة
+        two: "سنتين"
+        few: "%{count} سنوات"
+        many: "%{count} سنوات"
+        other: "%{count} سنوات"
+
+      x_seconds:
+        zero: "0 ثانية"
+        one: 1 ثانية
+        two: "ثانيتين"
+        few: "%{count} ثواني"
+        many: "%{count} ثواني"
+        other: "%{count} ثواني"
+

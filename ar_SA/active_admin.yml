@@ -5,7 +5,7 @@ ar_SA:
       welcome: "مرحبا بك في صفحة المشرف. هذه هي صفحة إدارة الموقع القياسية."
       call_to_action: "ابجث في \"app/admin/dashboard.rb\" لإضافة شيء هنا"
     view: "فتح"
-    edit: "تعديل"
+    edit: "تغيير"
     delete: "حذف"
     delete_confirmation: "هل أنت متأكد أنك تريد حذف ذلك؟"
     new_model: "إنشاء %{model}"
@@ -24,7 +24,7 @@ ar_SA:
     has_many_remove: "إزالة"
     filters:
       buttons:
-        filter: "تصفية"
+        filter: "فلتر"
         clear: "إزالة"
       predicates:
         contains: "يحتوي على"
@@ -37,7 +37,7 @@ ar_SA:
     logout: "الخروج"
     powered_by: "مشغل بواسطة %{active_admin} %{version}"
     sidebars:
-      filters: "مصفاة"
+      filters: "فلاتر"
     pagination:
       empty: "لا يوجد %{model}"
       one: "النتيجة: <b>1</b> %{model}"
@@ -78,7 +78,7 @@ ar_SA:
     comments:
       resource_type: "نوع المورد"
       author_type: "نوع المؤلف"
-      body: "نص"
+      body: "النص"
       author: "المؤلف"
       title: "تعليق"
       add: "إضافة تعليق"
@@ -115,4 +115,4 @@ ar_SA:
       table: "جدول"
       block: "قائمة"
       grid: "شبكة"
-      blog: "مدونة"
+      blog: "المدونة"

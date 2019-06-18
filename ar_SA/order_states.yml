@@ -1,0 +1,20 @@
+ar_SA:
+  order_states:
+    new: جديد
+    in_process: نشط
+    success: منجز
+    failure: ملغى
+
+  order_log_entities:
+    changed_workflow_state: "تغيرت حالة الطلب (%{workflow_state_from} --> %{workflow_state_to})"
+    use_condition: "الشرط المطبق (#%{id}): \"%{title}\""
+
+  order_delivery_states_comments:
+    delivery: تم تحويل الطلب للتوصيل
+    done: تم توصيل الطلب
+    canceled: تم إلغاء التوصيل
+
+  order_payment_states_comments:
+    failed: خطأ في الدفع
+    paid: الدفع المستلم
+    canceled: تم إلغاء الدفع

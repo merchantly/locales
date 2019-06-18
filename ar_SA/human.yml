@@ -1,0 +1,39 @@
+ar_SA:
+  human:
+    companies_selled_count:
+      zero: '%{number} شركة مباعة'
+      one: '%{number} شركة مباعة'
+      two: '%{number} من الشركات المباعة'
+      few: '%{number} من الشركات المباعة'
+      many: '%{number} من الشركات المباعة'
+      other: '%{number} من الشركات المباعة'
+
+    products_count:
+      zero: 'بيعت %{number} سلع'
+      one: 'بيعت %{number} سلعة'
+      two: 'بيعت %{number} سلع'
+      few: 'بيعت %{number} سلع'
+      many: 'بيعت %{number} سلع'
+      other: 'بيعت %{number} سلع'
+
+    total_orders_amount:
+      zero: '%{number} مليون روبل'
+      one: '%{number} مليون روبل'
+      few: '%{number} مليون روبل'
+      many: '%{number} مليون روبل'
+
+    coupon:
+      use_count:
+        zero: 'الرصيد: %{count}'
+        one: 'للاستعمال مرة واحدة'
+        few: 'الرصيد: %{count}'
+        many: 'الرصيد: %{count}'
+        other: 'الرصيد: %{count}'
+        infinite: 'قابل لإعادة الاستعمال'
+      used_count:
+        zero: 'مستخدم %{count} مرة'
+        one: 'مستخدم %{count} مرة'
+        two: 'مستخدم %{count} مرة'
+        few: 'مستخدم %{count} مرة'
+        many: 'مستخدم %{count} مرة'
+        other: 'مستخدم %{count} مرة'

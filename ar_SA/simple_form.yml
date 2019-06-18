@@ -1,0 +1,616 @@
+ar_SA:
+  simple_form:
+    "yes": 'نعم'
+    "no": 'لا'
+    required:
+      text: 'حقل مطلوب'
+      mark: '*'
+      # You can uncomment the line below if you need to overwrite the whole required html.
+      # When using html, text and mark won't be used.
+      # html: '<abbr title="required">*</abbr>'
+    include_blank:
+      hotel:
+        hotel_kind_id: 'أي'
+
+    error_notification:
+      default_message: "وجدت أخطاء، <br />فضلاً تحقق &nbsp; منهم"
+      blank: "سد الثغرات"
+    confirm: "هل أنت متأكد؟"
+    button:
+      disable_with:
+        sending: يتم الإرسال ...
+        saving: يتم الحفظ...
+        waiting: انتظر...
+        adding: تتم الإضافة...
+    labels:
+      defaults:
+        package_category_id: فئة معبأة
+        currency_iso_code: 'عملة عامة'
+        role: الدور
+        sms_notification: تلقي إشعارات الرسائل النصية
+        email_notification: تلقي إشعارات البريد الإلكتروني
+        analytics_js: 'JavaScript إضافي للتحليلات'
+        vendor_delivery_id: 'طريقة التوصيل'
+        vendor_payment_id: 'طريقة الدفع'
+        enter_workflow_state_id: 'حالة الطلب'
+        make_reserve_on_enter: 'هل تريد حجزها في المخزن؟'
+        make_delivery_on_enter: 'هل تريد إتمام عملية التوصيل؟'
+        finite_state: 'حالة الطلب الأخيرة'
+        enter_finite_state: 'حالة الطلب النهائية'
+        company_name: "الاسم الرسمي للشركة التجارية (LLC، IP، و TP)"
+        branch_category_id: الصناعة
+        allow_sms: "هل تريد تفعيل إرسال هذا الإشعار عن طريق الرسائل النصية؟"
+        allow_email: "هل تريد تفعيل إرسال هذه الإشعارات عن طريق البريد الإلكتروني؟"
+        ms_workflow_state_uuid: UUID (سير العمل / الحالات)
+        reserve_on_linked_stock: الحجز في مخزن بعيد
+        image: 'تحميل صورة'
+        remove_image: 'حذف الصورة'
+        color_hex: اللون
+        description: الوصف
+        is_required: ضرورياً
+        is_active: On
+        name: الاسم
+        title: الاسم
+        body: تعليق
+        city_title: المدينة
+        position: الموضع في القائمة
+        meta_title: <head><title>
+        meta_description: <meta description>
+        meta_keywords: <meta keywords>
+        h1: <h1>
+      commerce_ml_configuration:
+        login: تسجيل الدخول
+        password: كلمة السر
+        sales_limit: عدد الطلبات لتبادل واحد
+        stock_enabled: تمكين استيراد رصيد المخزن
+        sales_enabled: تمكين أوامر التصدير
+        start_export_at: تاريخ ووقت بداية التبادل
+      cloud_payments_form:
+        billing_account_uuid: الفاتورة
+        amount_cents: المبلغ
+        name: اسم صاحبها
+        cardNumber: رقم البطاقة
+        expDateMonth: الشهر
+        expDateYear: السنة
+        cvv: رقم الكود الموجود على بطاقات الائتمان (CVV)
+        recurrent: حفظ كطريقة دفع أساسية
+      vendor_walletone:
+        legal_form: الشكل القانوني
+        merchant_id: رقم محفظة أمين الصندوق
+        owner_user_id: رقم محفظة المالك
+        title: اسم المتجر
+        branch_category: الفئة
+        first_name: الاسم
+        middle_name: الاسم الأوسط
+        last_name: اسم العائلة
+        phone: الهاتف
+        phone_confirmed?: "هل هذا الهاتف مؤكد؟"
+        email: البريد الإلكتروني
+        currency: العملة
+        currency_id: العملة
+        merchant_sign_key: (MD5) مفتاح السر الخاص بWalletOne
+      menu_item:
+        place: يقع في
+        category_id: على فئة السلع
+        dictionary_id: على الدليل
+        dictionary_entity_id: على عنصر القاموس
+        lookbook_id: على كتاب البحث
+        content_page_id: على صفحة نص
+        link_url: على رابط مباشر
+        type: نوع الرابط
+
+      client:
+        name: الاسم واسم العائلة
+        phones_string: الهواتف
+        emails_string: عناوين البريد الإلكتروني
+      order_condition:
+        action: أداء العمل
+        event: عند تنظيم حدث
+        after_time_minutes: 'بدء المؤجلة بعد  س  دقيقة'
+        notification_template: 'قالب'
+        to_order_workflow_state_id: 'استبدال مع الحالة'
+        order_payment_state: 'حالة الدفع'
+        order_delivery_state: 'حالة التوصيل'
+      subscription_form:
+        tariff_id: التعريفة
+        email: اشتراكات البريد الإلكتروني
+        name: اسم صاحبها
+        max_periods: مدة الاشتراك
+        cardNumber: رقم البطاقة
+        expDateMonth: شهر الصلاحية
+        expDateYear: سنة الصلاحية
+        cvv: رقم الكود الموجود على بطاقات الائتمان (CVV)
+      mail_template:
+        subject: عنوان الرسالة
+        content_html: قالب HTML
+        content_text: القالب بصيغة نصية
+        content_sms: قالب رسالة نصية
+      text_blocks:
+        title: العنوان
+        content: المحتوى
+        format:  التنسيق
+      vendor_order:
+        phone: الهاتف
+        name: الاسم الكامل
+        city_id: مدينة التوصيل
+        city_title: مدينة التوصيل
+        address: عنوان التوصيل
+        comment: تعليق
+        coupon_code: الرمز الترويجي
+        email: البريد الإلكتروني
+      operator_order:
+        phone: الهاتف
+        name: الاسم الكامل
+        city_id: مدينة التوصيل
+        city_title: مدينة التوصيل
+        address: عنوان التوصيل
+        comment: تعليق
+        coupon_code: الرمز الترويجي
+        email: البريد الإلكتروني
+        delivery_type_id: نوع التوصيل
+        payment_type_id: طرق الدفع
+        region: المنطقة
+        house: المنزل
+        slash: الجزء
+        street: الشارع
+        room: الخارج
+        postal_code: الرمز البريدي
+        first_name: الاسم
+        second_name: اسم العائلة
+        patronymic: الاسم الأوسط
+        delivery_city_id: مدن التوصيل
+        pickup_point_id: نقطة التوصيل
+        package_good_global_id: التعبئة والتغليف
+        delivery_time_period_id: وقت التوصيل
+      product:
+        reserve: محجوز
+        price: "السعر (%{currency})"
+        sale_price: "سعر الخصم"
+        free_delivery_threshold: 'الشحن مجانا على الطلب (%{currency})'
+        custom_title: 'اسم المنتج'
+        custom_description: 'وصف قصير'
+        #custom_title: 'Переустановленное название товара'
+        #custom_description: 'Переустановленное короткое описание'
+        similar_products: 'سلع مشابهة'
+        other_products: 'سلع أخرى'
+        union_items: السلع المرتبطة (خيارات)
+        title: اسم المنتج
+        quantity: الكمية
+        total_quantity: الكمية الإجمالية
+        is_manual_published: منشور
+        is_new: جديد
+        is_sale: تخفيض
+        article: رمز البائع
+        ms_code: رمز المنتج في MyStock
+        brand: العلامة التجارية
+        categories_ids: عرض المنتج في الفئات أيضاً
+        description: وصف قصير
+        ids: السلع
+        show_similar_products: عرض منتجات مشابهة
+        show_other_products: عرض المنتجات الأخرى
+        selling_by_weight: هذا المنتج يباع بالوزن
+        weight_of_price: الوزن الذي يشير إليه السعر (كجم)
+        items:
+          size: الحجم
+          count: الكمية
+          article: رمز البائع
+          article_smart: رمز البائع
+          custom_title: العنوان
+          color: اللون
+      vendor_theme:
+        show_similar_products: 'عرض منتجات مشابهة'
+        theme_template_key: السمة
+        turbolinks_enabled: تمكين إعادة التشغيل السريع (توربولنكس)
+        custom_append_html: كود HTML اضافي <body>
+        custom_product_html: كود HTML اضافي على صفحة المنتجات
+        custom_head_html: كود HTML اضافي <head>
+        custom_after_content_html: كود HTML إضافي
+        footer_menu_middle_html: كود HTML في العمود المركزي من القائمة السفلية
+        theme:
+          custom_body_class: كلاس CSS مخصص في الbody
+          custom_style_format: 'تنسيق النمط'
+          custom_style: 'أنماط اضافية'
+      vendor:
+        moysklad_mirror_categories_tree: 'إظهار شجرة الفئات من المخزن'
+        show_similar_products: 'عرض منتجات مشابهة'
+        turbolinks_enabled: تمكين إعادة التشغيل السريع (توربولنكس)
+        sitemap_url: الرابط لخريطة الموقع
+        is_published: المتجر المشمول
+        is_external_link_kiosk_disabled: "إخفاء العنوان \"أنشئ على %{brand_name_e}\""
+        not_published_text: نص الرسالة حول وقف عملية عمل المتجر
+        logo: الشعار
+        favicons: الأيقونات المفضلة
+        theme:
+          mstile_color: لون الموقع المثبت في ويندوز
+          page_bg_color: لون خلفية الصفحة بأكملها
+          feed_bg_color: لون خلفية المحتوى
+          feed_transparency: الشفافية
+          font_family: عائلة الخط
+          font_size: حجم الخط
+          font_color: لون النص
+          active_elements_color: اللون النشط
+          show_quantity_in_list: إظهار حقل لإدخال عدد العناصر المطلوب طلبها
+          show_cart_button_in_list: إظهار زر "أضف إلى السلة"
+          category_product_columns: المنتجات في صف واحد في الفئة
+          category_product_rows: خطوط الإنتاج في الفئة
+          mainpage_product_columns: المنتجات في صف واحد على الرئيسية
+          mainpage_product_rows: صفوف من البضائع على الرئيسية
+          theme_template_key: النمط
+          custom_body_class: كلاس CSS مخصص في الbody
+          custom_style_format: 'تنسيق النمط'
+          custom_style: 'أنماط اضافية'
+          category_filter_visible: 'عرض الفلتر في الفئة'
+          mainpage_filter_visible: 'عرض الفلتر على الصفحة الرئيسية'
+          instagram_visible: عرض صور من انستغرام في نهاية الصفحة
+          banner_visible: عرض رسالة ترويجية
+          slider_visible: عرض شريط التمرير
+          show_similar_products: عرض منتجات مشابهة
+          is_welcome_random: 'المنتجات على الصفحة الرئيسية بترتيب عشوائي'
+          w1_widget_visible: عرض واجهة Walletone
+          w1_widget_ptenabled: معرف طرق الدفع للواجهة
+        welcome_category_id: الفئة للصفحة الرئيسية
+        title: 'عنوان قصير'
+        sellable_infinity: 'المنتجات دون كمية تباع وكأنها لا نهاية لكميتها'
+        moysklad_login: 'تسجيل الدخول في MyStock'
+        moysklad_password: 'كلمة السر في MyStock'
+        is_stock_linked: 'مزامنة العناصر ورصيد المخزن'
+        is_ordering_stock_linked_only: 'يتم طلب السلع المتوفرة في المخزن المرتبط فقط'
+        ms_import_images: 'استيراد الصور؟'
+        stock_auto_syncing: 'الاستيراد تلقائياً (مرة كل ساعتين)'
+        is_order_auto_accepted: أخذ الطلبات تلقائياً وحجز البضائع
+        is_stock_do_sync_categories: 'استيراد الفئات'
+        is_stock_do_sync_clients: استيراد بيانات العميل
+        is_sync_clients_create: "هل تريد إنشاء حسابات عملاء جدد من MyStock؟"
+        enable_ms_export_clients: "هل تريد تحديث بيانات العملاء من موقع MyStock؟"
+        autopublicate_goods_from_stock: 'نشر المنتجات تلقائيًا من المخزن'
+        prefer_stock_category_when_syncing: 'تفضيل فئة المخزن إن وجدت'
+        default_import_category_id: 'الفئة الافتراضية'
+        filter_properties: 'الخصائص التي يمكن أن تظهر في الفلتر'
+        pay_pal_email: 'تسجيل الدخول في PayPal.com'
+        yandex_kassa_secret: 'الكلمة السرية (ShopPassword)'
+        yandex_kassa_shop_id: 'معرف المتجر (shop id)'
+        yandex_kassa_scid: 'رقم العرض (scid)'
+        yandex_kassa_test_mode: وضع الاختبار
+        disqus_url: 'المجال الفرعي على disqus.com'
+        yandex_market_enabled: تمكين تصدير المنتج إلى ملف
+        yandex_market_company: الاسم الكامل للشركة التي تملك المتجر
+        torg_mail_enabled: تمكين تصدير المنتج إلى ملف
+        torg_mail_company: الاسم الكامل للشركة التي تملك المتجر
+        rbk_money_secret: كلمة سر مفتاح واجهة برمجة التطبيق
+        rbk_money_eshop_id: معرف المتجر
+        not_available_content: "المعلومات في النافذة المنبثقة، بعد النقر على زر السلع المباعة"
+        facebook_catalog_enabled: تصدير معلومات كتالوج المنتجات لفيسبوك CSV كل ساعة
+      vendor_delivery:
+        delivery_agent_type: خدمة التوصيل
+        price: تكلفة التوصيل
+        free_delivery_threshold: التوصيل المجاني
+        login: تسجيل الدخول
+        password: كلمة السر
+        is_active: "هل هو نشط؟"
+        vendor_payment_ids: طرق الدفع المسموح بها
+        is_separate_address: 'إدخال عنوان منفصل (المنطقة، المدينة، الشارع، المنزل، الشقة)'
+        is_separate_name: 'إدخال اسم منفصل (الاسم الأول، اسم العائلة)'
+        russian_post_token: 'رمز التفويض (دون رمز الوصول)'
+        russian_post_key: 'مفتاح التفويض (دون الأساسي (Basic))'
+        fragile: 'تحذير/قابل للكسر'
+        russian_post_mail_direct: 'رمز الدولة. يمكنك تركه خالياً إذا كان لروسيا (643)'
+        yandex_search_delivery_list_api_key: 'مفتاح واجهة برمجة التطبيق (قائمة بحث التوصيل)'
+        yandex_delivery_client_id: 'معرف الحساب'
+        yandex_delivery_sender_id: 'معرف المتجر'
+        yandex_delivery_type: 'نوع التوصيل'
+        yandex_city_from: 'المدينة التي تريد توصيل الطلب منها'
+        default_length: 'الطول الافتراضي (سم)'
+        default_width: 'العرض الافتراضي (سم)'
+        default_height: 'الارتفاع الافتراضي (سم)'
+        default_weight_gr: 'الوزن الافتراضي (جرام)'
+        aramex_username: 'اسم المستخدم'
+        aramex_password: 'كلمة السر'
+        aramex_version: 'الإصدار'
+        aramex_account_number: 'رقم الحساب'
+        aramex_account_pin: 'الرمز السري للحساب'
+        aramex_account_entity: 'كيان الحساب'
+        aramex_account_country_code: 'رمز الدولة التي منها الحساب'
+        shipper_country_code: 'رمز دولة الشاحن'
+        shipper_address: 'عنوان الشاحن'
+        shipper_city: 'مدينة الشاحن'
+        shipper_postal_code: 'الرمز البريدي للشاحن'
+        shipper_name: 'اسم الشاحن'
+        shipper_phone: 'رقم هاتف الشاحن'
+        shipper_email: 'بريد الشاحن الإلكتروني'
+      vendor_payment:
+        canceling_timeout_minutes: إلغاء طلب غير مدفوع بعد (دقائق)
+        payment_agent_type: نظام الدفع
+        is_active: نشط
+        reserve_on_stock: الحجز في المخزن
+        deliver_on_payment: الإرسال للتوصيل عند استلام الدفع
+        auto_delivery: الإرسال للتوصيل تلقائياً عند الدفع
+        vendor_delivery_ids: طرق التوصيل المسموح بها
+        wmi_enabled_payment_methods_list: 'الطرق المسموح بها (WMI_PTENABLED)'
+        wmi_disabled_payment_methods_list: 'الطرق غير القانونية (WMI_PTENABLED)'
+        yandex_kassa_payment_method: طريقة الدفع
+        cloud_payments_public_id: 'المعرف العام'
+        cloud_payments_api_key: 'كلمة سر واجهة برمجة التطبيق'
+
+      category:
+        parent_id: 'الفئة الأم (الفئة الرئيسية)'
+        is_main: 'يتم عرض المنتجات في هذه الفئة على الصفحة الرئيسية'
+        bottom_text: النص أسفل قائمة المنتجات
+      property:
+        type: النوع
+        dictionary_id: المرجع (قواميس فقط)
+        is_used_in_item: مستخدم في التعديل
+        is_used_in_product: مستخدم في المنتج
+        position_in_item: الموضع في الاختيار
+        position_in_product: الموضع في المنتج
+        is_active: 'بنشاط'
+      slider_image:
+        image: 'تحميل صورة'
+        link_url: 'الرابط للصورة (ليس ضرورياً)'
+        is_active: 'نشط'
+        link_target: 'تحويل الرابط الموحد URL'
+      lookbook_image:
+        image: 'تحميل صورة'
+        link_url: 'الرابط'
+        is_active: 'نشط'
+      content_page:
+        is_active: 'نشط'
+        target_blank: 'الفتح في نافذة جديدة'
+        menutitle: 'عنصر القائمة'
+      blog_post:
+        title: العنوان الرئيسي
+        url: الرابط المباشر من العنوان (ليس ضرورياً)
+        is_active: نشط
+        published_at: تاريخ النشر
+        content: نص المقالة
+        short_text: وصف قصير
+        image: الصورة للقائمة
+      coupon:
+        file: Файл в формате CSV
+        skip_headers: Пропустить 1-ю строку
+      operator:
+        name: الاسم
+        email: البريد الإلكتروني
+        phone: الهاتف
+      order_delivery:
+        date_from: وقت التوصيل (من)
+        date_till: وقت التوصيل (حتى)
+      invite:
+        phone: 'أو الهاتف'
+        role: الدور
+      top_banner:
+        content: النص الترويجي (سطر واحد)
+        link_url: الرابط من الرسالة الترويجية
+      coupon:
+        code: الرمز
+        use_count: الاستخدام المتبقي
+        used_count: عدد الاستخدامات
+        discount: الخصم على المنتجات
+        discount_type: نوع الخصم
+        expires_at: صالح حتى
+        free_delivery: الشحن المجاني
+        only_first_order: ساري فقط على طلب العميل الأول
+        minimal_products_count: استخدم فقط في حالة ترتيب السلع على الأقل
+        is_check_address: 'التحقق من العنوان'
+        category_ids: تنطبق فقط على الفئات
+        product_ids: تنطبق فقط على السلع
+      phone_confirmation_form:
+        phone: رقم الهاتف
+      w1_registration_form:
+        legal_form: الوضع القانوني
+        branch_category_id: فئة الخدمة
+        title: اسم المتجر
+        currency_id: عملة التداول
+        legal_country: البلد المقيم
+        legal_title: اسم المنشأة
+        legal_tax_number: رقم المعاملة الداخلية
+        legal_address: العنوان القانوني
+        legal_reg_number: رقم تسجيل الدولة
+        first_name: الاسم
+        middle_name: الاسم الأوسط
+        last_name: اسم العائلة
+        phone_number: رقم الهاتف
+        pin_code: الرمز
+        email: البريد الإلكتروني
+
+    placeholders:
+      defaults:
+        title: العنوان
+      cloud_payments_form:
+        amount_cents: '500'
+        name: ايفان ايفانونف
+        cardNumber: 4*** **** **** 1234
+      user_request:
+        email: البريد الإلكتروني
+        name: اسمك
+        phone: رقم الهاتف
+
+      text_blocks:
+        format:  التنسيق
+      coupon:
+        discount: 10
+        code: الجائزة
+
+      operator_login_form:
+        login: رقم الهاتف أو البريد الإلكتروني
+        password: الرمز السري أو كلمة السر
+      client_login_form:
+        login: رقم الهاتف أو البريد الإلكتروني
+        password: الرمز السري أو كلمة السر
+      client_cabinet:
+        login: رقم الهاتف
+      reset_form:
+        login: رقم الهاتف أو البريد الالكتروني
+      operator:
+        name: اسمك
+        phone: رقم الهاتف
+        email: البريد الإلكتروني
+        password: كلمة السر
+        password_confirmation: تأكيد كلمة السر
+
+      short_vendor_registration_form:
+        vendor_name: اسم المتجر
+
+      vendor_registration_form:
+        vendor_name: اسم المتجر
+        operator_name: اسمك
+        phone: رقم الهاتف
+        email: البريد الإلكتروني
+        partner_coupon_code: الرمز الترويجي (إن وُجد)
+
+      invite_form:
+        name: الاسم
+        email: البريد الإلكتروني
+        password: كلمة السر
+      product:
+        video_url: 'http://youtube.com/...'
+        file_url: 'http://..'
+        title: "على سبيل المثال ، دراجة المدينة"
+        description: الوصف
+        #price: 20 000
+        brand: العلامة التجارية
+        items:
+          size: "على سبيل المثال، XL"
+          count: "على سبيل المثال، 5"
+          article: "على سبيل المثال، M001-11-00"
+          article_smart:
+            # disabled?
+            'true': "غير مثبّت"
+            'false': "على سبيل المثال، M001-11-00"
+          custom_title: 'على سبيل المثال ، Mike Yellow XL'
+          color: اللون
+      vendor_products_filter:
+        search: "إيجاد الاسم، الرقم، رمز البائع"
+      vendor_orders_filter:
+        search: "إيجاد الاسم، الرقم، رمز البائع"
+      order:
+        name: الاسم
+        your_comment: 'تعليقك'
+      order_delivery:
+        external_id: رقم تتبع الشحن
+      vendor_order:
+        city_title: موسكو
+        phone: 'على سبيل المثال، 10 32 123 913 7+'
+        name: الاسم الكامل
+        address: "على سبيل المثال، أكاديمي فافيلوف 12-10"
+        comment: ما نحتاج إلى معرفته
+        email: البريد الإلكتروني
+      vendor_payment:
+        online_kassa_cert: "----بداية الشهادة----"
+        online_kassa_key: "----بداية المفتاح السري----"
+
+      content_page:
+        menutitle: عنصر القائمة
+        title: العنوان الرئيسي
+        content: 'ابدأ في كتابة النص. يمكنك نقل أو لصق روابط إلى صور ، وإدراج روابط إلى ياندكس أو خرائط Google ، وتحديد النص وتنسيقه'
+      subscription_form:
+        name: ايفان ايفانونف
+        cardNumber: 4*** **** **** 1234
+      top_banner:
+        content: النص
+    hints:
+      defaults:
+        run_out_message: "إذا انتهت السلع ، سيتم عرض هذه المعلومات على بطاقة السلع"
+        meta_keywords: كلمات مفصولة بفواصل
+        analytics_js: 'كود JS فقط. لا يسمح بعلامات HTML'
+        make_reserve_on_enter: 'عندما يدخل الطلب إلى هذه الحالة، سيتم حجز البضائع في المخزن'
+        make_delivery_on_enter: 'عندما يدخل الطلب إلى هذه الحالة ، سيتم إطلاق التوصيل تلقائياً'
+        is_stock_linked: 'سيتم استلام تفاصيل المنتج والكمية والخصائص من المستودع'
+        reserve_on_linked_stock: 'في وقت حجز البضائع في الكشك، سيتم أيضًا حجز البضائع في مخزن مرتبط، على سبيل المثال، في MyStock'
+        ms_import_images: لن يتم حذف الصور التي تم تنزيلها بالفعل
+        ms_sale_price_name: 'اسم سعر الخصم. عادة "خصم"'
+        ms_common_price_name: 'اسم سعر المتجر على الإنترنت. عادة "سعر البيع"'
+        stock_auto_syncing: 'سيتم تحديث البضائع وبقاياها وخصائصها بانتظام من المخزن. <br> هذا يضمن بقايا البضائع الفعلية خلال ساعة.'
+        autopublicate_goods_from_stock: 'سيتم تلقائيًا نشر البضائع التي تم استلامها من المخزن وإتاحتها للطلب على الموقع. خلاف ذلك، سوف تحتاج إلى عرض المنتجات ونشرها بنفسك.'
+
+        is_stock_do_sync_categories: 'ليس فقط السلع ، ولكن أيضا قائمة من الفئات مأخوذة من المخزن. <br>لا يمكنك تحرير الفئات في الكشك ويجب عليك القيام بذلك من خلال المخزن. <br>هذا يضمن أن فئات المخزن هي بالضبط نفس فئات المتجر.'
+        prefer_stock_category_when_syncing: 'إذا كان المتجر يحتوي بالفعل على فئة، فضع البضاعة فيها. أو استخدم الفئة الافتراضية.'
+        default_import_category_id: 'يتم وضع جميع السلع المستوردة في هذه الفئة إذا تم تعطيل استيراد الفئات.'
+        price: "%{brand_currency}"
+        wmi_enabled_payment_methods_list: 'هذا الحقل مخصص لطرق الدفع التي يدعمها Walletone (على سبيل المثال ، CreditCardRUB). إذا لم تكن متأكدًا ، فاترك هذا الحقل فارغًا. إذا تلقيت خطأ أثناء تكوين صفحة الدفع بتوقيع رقمي، فقم بإزالة كل هذا الحقل.'
+        wmi_disabled_payment_methods_list: 'على سبيل المثال: WebMoneyRUB'
+        yandex_metrika_tracking_id: 'مثال: 27444066'
+        google_analytics_tracking_id: 'مثال: UA-56712769-1'
+        welcome_category_id: يتم عرض المنتجات من هذه الفئة وفئاتها الفرعية على الصفحة الرئيسية للمتجر.
+        package_category_id: يتم تقديم المنتجات من هذه الفئة كتغليف في صفحة الطلب ويتم استبعادها من الإصدار العام في الصفحة الرئيسية.
+        domain_zone: منطقة المجال الفرعي
+        support_email: |
+          سيتم إرسال الإجابات من العملاء على رسائلك إلى هذا العنوان 
+      order_conditions:
+        after_time_minutes: 'إذا تركت فارغة ، سيبدأ الحدث على الفور.'
+
+      text_blocks:
+        title: 'على سبيل المثال: مواصفات'
+
+      blog_post:
+        content: 'في قائمة المنشورات لن يكون هناك رابط للمقال إذا لم يكن هناك نص فيه.'
+      mail_template:
+        # FIX spec ./spec/controllers/operator/mail_templates_controller_spec.rb:31
+        # to use interpolation
+        # subject: 'Например: Поступил заказ с номером %%{id}'
+        #
+        subject: 'مثال: الطلب المستلم مع معرف الرقم'
+        editable_content_text: "يتم إنشاء رسالة نصية تلقائيًا من قالب HTML، إذا تركت هذا الحقل فارغًا."
+        editable_content_sms: حاول تحديد نص الرسائل النصية لتحتوي على 140 حرفًا.
+
+      slug:
+        path: 'طريقة دون مسافات ، بدءًا من \'
+        redirect_path: 'طريقة دون مسافات ، بدءًا من \'
+
+      slug_redirect:
+        path: 'طريقة دون مسافات ، بدءًا من \'
+        redirect_path: 'طريقة دون مسافات ، بدءًا من \'
+      menu_item:
+        link_url: 'رابط مباشر إلى الموارد الخارجية. مثلاً: /http://yandex.ru'
+        custom_title: 'على سبيل المثال: المقالات'
+
+      slider_image:
+        image: حجم الصورة الموصى بها هو 940x400
+        link_url: 'اترك الحقل فارغًا إذا لم يكن هناك انتقال من الصورة.'
+        is_active: 'تعطيل إذا كنت لا تريد رؤية هذه الرسالة الترويجية على الصفحة مؤقتاً'
+
+      theme:
+        w1_widget_ptenabled: 'لا تدخل أي شيء إذا كنت تريد إظهار كل الطرق الممكنة ، أو حدد الفاصلة اللازمة مفصولة. على سبيل المثال: CreditCardRUB، MobileRetailsRUB'
+      vendor:
+        moysklad_mirror_categories_tree: 'حتى إذا قمت بتغيير ترتيب الفئات يدويًا وتوارثها في الكشك عندما يكون الخيار مفعّل، فسيبقى ترتيب الفئات الموجودة في المخزن في نفس حالة المخزن'
+        vk_export_period: 'على الأقل يوم واحد. اتركه فارغًا حتى لا يفرغ الحمولة'
+        turbolinks_enabled: 'انتباه! عند تمكين هذا الخيار ، قد تتوقف بعض البرامج النصية (مثل الخرائط أو عناصر واجهة المستخدم) عن العمل - تحتاج إلى نقلها إلى &lt;head&gt;'
+
+        is_published: 'انتباه! عندما يتم تعطيل هذا الخيار، سيكون المتجر <strong>لا يمكن الوصول إليه تماماً</strong> للزوار.'
+        contacts: 'الهواتف والبرائد الإلكترونية، سطر سطر'
+        order_notification_emails: 'البرائد الإلكترونية، سطر سطر'
+        order_notification_phones: 'الهواتف سطر سطر، مثلاً: +79033891228'
+        instagram_user_id: 'هذا ليس اسم مستخدم، ومعرفه. <a href="http://jelled.com/instagram/lookup-user-id" target="_blank">كيف تعرف اسم المستخدم الخاص بك على Instagram؟ (أدخل الاسم الدقيق، الأحرف الصغيرة والأحرف الكبيرة لها معان مختلفة).</a>'
+        logo: >
+          تستطيع تحميل ملفات بامتداد <strong>%{ext}</strong>
+        favicons: >
+          تستطيع تحميل ملفات بامتداد <strong>%{ext}</strong><br>
+        public_offer_page_id: 'في حالة التثبيت، عند الطلب، سيُطلب من المشتري قبول شروط العرض'
+      category:
+        show_children_products: هذا الخيار يعطل عمل الفلتر في هذه الفئة.
+      coupon:
+        skip_headers: "كقاعدة عامة، السطر الأول هو وصف الأعمدة، لذلك نتخطاه."
+        code: إنشاء تلقائياً إذا لم تملأ
+        use_count: قابلة لإعادة الاستخدام إذا لم تملأ
+      product:
+        is_digital: 'سيتمكن العميل من تنزيل الملف المحدد في حالة شراء هذا المنتج'
+        file_url: 'رابط الملف لتنزيله بعد الشراء. الرابط الأصلي مخفي عن المشتري.'
+        reserve: 'كمية البضائع المحجوزة في الطلبات'
+        video_url: 'رابط لفيديو على youtube، vimeo، إلخ.'
+        tags: 'سيتم عرض العلامات على صورة المنتج في القائمة ، على سبيل المثال ، "مبيعات عالية"'
+        main_category_id: 'سيتم عرض هذه الفئة في التنقل التفصيلي للبضائع.'
+      vendor_payment:
+        auto_delivery: "يرسل هذا الخيار بيانات الطلب إلى W1 للتوصيل التلقائي (WMI_DELIVERY_REQUEST = 1, إلخ.)"
+        canceling_timeout_minutes: 0 - لا تقم بالإلغاء
+      vendor_delivery:
+        auto_cancel_period_days: 'Notify the buyer about the cancellation of the order after the expiration date (days). Leave blank to not notify'
+      vendor_email:
+        email: |
+          سيتلقى عملاؤك رسائل من هذا العنوان
+      vendor_delivery:
+        aramex_username: فارغة إذا كانت تجربة
+        aramex_password: فارغة إذا كانت تجربة
+        aramex_version: فارغة إذا كانت تجربة
+        aramex_account_number: فارغة إذا كانت تجربة
+        aramex_account_pin: فارغة إذا كانت تجربة
+        aramex_account_entity: فارغة إذا كانت تجربة
+        aramex_account_country_code: فارغة إذا كانت تجربة

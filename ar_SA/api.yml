@@ -1,0 +1,196 @@
+ar_SA:
+  operator:
+    api:
+      titles:
+        public: 'واجهة برمجة التطبيقات العامة'
+        operator: 'واجهة برمجة تطبيقات التاجر'
+        system: 'واجهة برمجة تطبيقات النظام للمبرمجين'
+      descriptions:
+        public: 'يستخدم ملف تعريف الارتباط HTTP للترخيص'
+        operator: 'استخدم ملف تعريف الارتباط HTTP للترخيص'
+        system: 'واجهة برمجة التطبيقات للمتاجر والعملاء - %{access_keys_url}'
+      errors:
+        member_not_found: 'لا يوجد عضو بهذا المفتاح %{api_key}'
+        operator_not_found: 'لا يوجد عضو بهذا المفتاح {api_key}#'
+      amo_crm:
+        title: 'طرق للتحكم بالربط مع AmoCRM'
+        settings:
+          title: 'إدارة الربط مع AmoCRM'
+          get:
+            desc: 'الحصول على الإعدادات الحالية'
+          update:
+            desc: 'إعداد إعدادات جديدة'
+        test:
+          desc: 'اختبر وصول نظام %{brand_name_e}إلى AmoCRM (أخذ إذن إلى AmoCRM)'
+      design_settings: 
+        show:
+          desc: 'الحصول على إعدادات التصميم'
+        update:
+          desc: 'تحديث إعدادات التصميم'
+      delivery_cities:
+        list: 'مدينة التوصيل'
+      delivery_time_periods:
+        list: 
+          title: 'مواعيد التوصيل'
+          params:
+            vendor_delivery_id: 'طريقة التوصيل'
+      pickup_points:
+        list: 
+          title: 'نقطة الاستلام'
+          params:
+            vendor_delivery_id: 'طريقة التوصيل'
+            delivery_city_id: 'اختر هذه المدينة إن لم يتم اختيار نقطة الاستلام'
+      yandex_deliveries:
+        list:
+          title: 'طرق توصيل Yandex'
+          params:
+            city_title: 'المدينة'
+            vendor_delivery_id: 'معرف طريقة التوصيل'
+            postal_code: 'المؤشر البريدي (ZIP)'
+      yandex_pickup_locations:
+        list:
+          title: 'مكان توصيل Yandex'
+          params: 
+            yandex_delivery_id: 'معرف خدمة التوصيل'
+      subscription_emails:
+        desc: 'انشاء اشتراك'
+        email: 'البريد الإلكتروني'
+      operator_state:
+        desc: 'حالة المشغل'
+      client_state:
+        desc: 'حالة العميل'
+      cart:
+        show:
+          desc: أضف إلى سلة المحذوفات
+      cart_item:
+        create:
+          desc: إضافة إلى السلة
+      good:
+        title:
+          desc: اسم المنتج
+      package:
+        items:
+          desc: التعبئة والتغليف
+      good_result:
+        items:
+          desc: عنصر المنتج
+        total_price:
+          desc: مجموع المشاركات
+        page:
+          desc: رقم الصفحة الحالي
+      order:
+        message:
+          subject: 'تم قبول الطلب رقم %{order_id}'
+          text: سيتم التواصل معك خلال بضع دقائق
+      product:
+        operator_state:
+          archived: الأرشيف
+          published: موافقة
+          unpublished: تمت إزالته
+      vendor:
+        mobile_minimal_alert: 'الحد الأدنى للطلب من %{money}'
+      categories:
+        list: قائمة الفئات
+        tree: شجرة الفئات
+        create:
+          desc: إنشاء فئة جديدة
+          params:
+            name: اسم الفئة
+            position: الموضع
+            parent_id: معرف الفئة الأم (الفئة الأعلى)
+            filter: فلتر المنتجات
+        show:
+          desc: بيانات الفئات كاملة
+        edit:
+          desc: تعديل الفئة
+          params:
+            name: اسم فئة جديدة
+            position: موضع جديد
+            parent_id: "29\nوالد جديد"
+        archive:
+          desc: الأرشفة
+      goods:
+        autocomplete:
+          desc: قائمة منتجات لسلات الإكمال التلقائي
+      product_images:
+        params:
+          id: معرف الصورة
+        add:
+          desc: يضيف صورة
+          params:
+            image: "ملف صورة (jpg, png, gif)"
+            product_id: معرف العنصر إذا عُرف
+        rotate:
+          desc: قلب الصورة
+          params:
+            grad: درجة الدوران
+        delete:
+          desc: حذف الصورة
+        position:
+          desc: تغيير موضع الصورة
+          params:
+            position: الموضع في بطاقة العنصر
+      content_page_images:
+        params:
+          id: معرف الصورة
+        list:
+          desc: قائمة الصور
+        add:
+          desc: يضيف صورة
+          params:
+            image: "ملف صورة (jpg, png, gif)"
+      products:
+        autocomplete:
+          desc: قائمة منتجات للإكمال التلقائي
+          params:
+            exclude_by_ids: استثني عناصر عن طريق المعرف
+            exclude_by_categories: استثني منتجات من الفئات التالية
+        list:
+          desc: قائمة المنتجات
+          params:
+            category_id: الفئات التي تهتم بها المنتجات
+            exclude_by_categories: استثني المنتجات من الفئات التالية
+            exclude_subcategories: استثني العناصر من الفئات الفرعية
+            page: رقم الصفحة
+            per_page: الرقم على الصفحة
+        change_category:
+          desc: نقل السلع من فئة إلى أخرى
+        show:
+          desc: الحصول على بيانات المنتج
+        update:
+          desc: تحديث بيانات المنتج
+          params:
+            categories_ids: فئات المنتج
+        image:
+          desc: تحميل صورة فردية
+          params:
+            image: "ملف صورة (jpg, png, gif)"
+        filtered_count:
+          desc: كمية البضائع من طلب مفلتر
+          params:
+            category_id: معرف الفئة
+      coupon:
+        check:
+          desc: تحقق من ملاءمة الكوبون
+          params:
+            code: رمز الكوبون للتحقق
+      wishlist:
+        delete_item:
+          desc: محو العنصر من المفضلة
+          params:
+            good_id: المعرف العالمي للمنتج
+        add_item:
+          desc: إضافة المنتج للمفضلة
+          params:
+            good_id: المعرف العالمي للمنتج
+        remove_item:
+          desc: محو العنصر من المفضلة
+          params:
+            good_id: المعرف العالمي للمنتج
+      user_requests:
+        desc: طلبات الاتصال
+      instagram:
+        feed:
+          desc: مصدر انستغرام
+          params:
+            limit: عدد الصور

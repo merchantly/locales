@@ -1,0 +1,23 @@
+ar_SA:
+  billing:
+    default_invoice_title: 'الدفع للخدمة'
+    attach_tariff: "أرفق التعريفة \"%{tariff}\""
+    paid_since: "مدفوع منذ %{current_paid_to}"
+    paid_since_to: "مدفوع منذ %{current_paid_to}إلى %{next_paid_to}"
+    paid_to: "مدفوع إلى %{next_paid_to}"
+    for_sevice: "لخدمة %{service}"
+    buyer_name: "%{legal_name} (العميل #%{vendor_id})"
+
+    sms_packet: "حزمة الرسائل النصية (%{sms_count} .pc)"
+    negative_balance: "رصيد سلبي للمتجر %{vendor}"
+    next_month_invoice_by_period: "الدفع مقابل خدمة %{vendor} من خلال التعريفة %{tariff} من تاريخ %{invoice_date} إلى %{next_date} (لمدة %{months_count} أشهر)"
+    next_month_invoice: "الدفع مقابل خدمة %{vendor} من خلال التعريفة %{tariff} لمدة %{months_count} أشهر"
+    first_time_invoice: "الدفع مقابل خدمة %{vendor} من خلال التعريفة %{tariff}"
+    free_invoice: "الدفع مقابل خدمة %{vendor}"
+
+    accounts:
+      payments: 'الحساب الذي تم استلام الدفع منه'
+      subscriptions: 'قيمة الاشتراك'
+      gift: 'حاضر'
+      development: 'تحسينات'
+      sms: 'الرسائل النصية'
