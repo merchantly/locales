@@ -123,7 +123,7 @@ en:
       wait_for_pay_notify: 'Thanks for paying! We expect confirmation from the bank!'
       no_delivery_price: 'You cannot pay for an order that does not have a shipping charge.'
       thanks_for_pay: 'Thanks for paying!'
-      good_added_to_basket: 'Product "% {title}" added to cart  '
+      good_added_to_basket: 'Product "%{title}" added to cart  '
       goods_added_to_basket: 'Products added to cart'
       client:
         sms_sending_error: Error sending SMS. Try again later or inform the store
@@ -209,7 +209,7 @@ en:
       pickup_address: 'Pickup address:'
       title: "Order №%{number} in %{vendor}"
       payment_type: 'Payment method: %{title}'
-      delivery_type: 'Delivery method:% {title}'
+      delivery_type: 'Delivery method:%{title}'
       free_delivery_text_html: 'Free shipping on orders over %{free_delivery_threshold}<nobr>'
       checkout_free_delivery_text_html: 'Free for orders over <nobr>%{free_delivery_threshold}</nobr>'
       go_back: Back
