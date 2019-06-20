@@ -87,6 +87,11 @@ en:
     icons:
       move: 'Move up or down'
     order_deliveries:
+      aramex:
+        code: 'Code: %{code}'
+        description: 'Description: %{description}'
+        location: 'Location: %{location}'
+        datetime: 'Datetime: %{datetime}'
       run: 'Start shipping'
       external_link: 'The delivery status on the site of the agent.'
       walletone: 'Delivery to walletone'

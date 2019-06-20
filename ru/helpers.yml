@@ -87,6 +87,11 @@ ru:
     icons:
       move: 'Перемещайте вверх или вниз'
     order_deliveries:
+      aramex:
+        code: 'Code: %{code}'
+        description: 'Description: %{description}'
+        location: 'Location: %{location}'
+        datetime: 'Datetime: %{datetime}'
       run: 'Запустить доставку'
       external_link: 'Статус доставки на сайте агента.'
       walletone: 'Доставка на walletone'

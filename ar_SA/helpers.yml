@@ -90,6 +90,11 @@ ar_SA:
     icons:
       move: 'حرك لأعلى أو لأسفل'
     order_deliveries:
+      aramex:
+        code: 'Code: %{code}'
+        description: 'Description: %{description}'
+        location: 'Location: %{location}'
+        datetime: 'Datetime: %{datetime}'
       run: 'ابدأ الشحن'
       external_link: 'حالة التوصيل على موقع الوكيل.'
       walletone: 'التوصيل إلى Walletone'
