@@ -1597,24 +1597,24 @@ ar_SA:
       doc: 'توثيق Sitemap.xml'
     products_settings:
       categories:
-        url: مسارات_فئات_المشغل (operator_categories_path)
+        url: operator_categories_path
         title: فئات المنتجات
         details_html: |
           <p>كقاعدة، المنتجات مصنفة.</p>
           <p>الفئات لها هيكل شجرة، وبالتالي يمكن أن يكون منتج في عدة فئات في نفس الوقت.</p>
       properties:
-        url: مسار_خواص_المشغل (operator_properties_path)
+        url: operator_properties_path
         title: خصائص السلع
         details_html: |
           <p>قم بإدارة مركزية لخصائص البضائع.</p>
           <p>هذا سيساعد على عمل فلتر تلقائي للبضائع ليستخدمه العملاء. </p>
       tags:
-        url: مسار_علامات_المشغل (operator_tags_path)
+        url: operator_tags_path
         title: علامات المنتج
         details_html: |
           قائمة بجميع العلامات المستخدمة في المنتجات. 
       dictionaries:
-        url: مسار_قواميس_المشغل (operator_dictionaries_path)
+        url: operator_dictionaries_path
         title: الدلائل
         details_html: |
           <p>كتاب المرجع هو عبارة عن قائمة لقيم خواص المنتج.</p>
