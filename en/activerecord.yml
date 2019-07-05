@@ -44,6 +44,8 @@ en:
       delivery_time_period: Time of delivery
 
     attributes:
+      vendor_vat:
+        value: Value (%)
       client_category:
         title: Name
         all_prices_available: All prices are available
@@ -456,6 +458,7 @@ en:
         next_resource_id: Next category
         google_product_category_id: google_product_category
       product:
+        vat_id: Vat
         is_digital: "Digital product?"
         file_url: Download link
         sale_price: Discount price

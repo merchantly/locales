@@ -928,6 +928,10 @@ en:
         hints:
           invoice_stamp_comment: 'Displayed on top. Specify here phones and additional information.'
         include_blank: 'Not specified'
+      vendor_vats:
+        title: Vat list
+        add_submit: add vat
+        remove: remove
     lookbooks:
       images_download:  'Upload images'
       images: Image
