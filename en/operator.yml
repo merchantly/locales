@@ -1626,6 +1626,8 @@ en:
         placeholders:
           city_title: 'Moscow'
     vendor_payments:
+      gsdk:
+        title: GSDK
       discount_settings: Discount settings
       discount_warning: Save payment methods to start
       alive: Active
