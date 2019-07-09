@@ -1624,6 +1624,8 @@ ru:
         placeholders:
           city_title: 'Москва'
     vendor_payments:
+      gsdk:
+        title: GSDK
       discount_settings: Настройка скидок
       discount_warning: Сначало сохраните способ оплаты
       alive: Активные

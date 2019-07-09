@@ -12,6 +12,7 @@ ru:
       order_payment_robokassa: Robokassa
       order_payment_tinkoff: Tinkoff
       order_payment_sberbank: Сбербанк
+      order_payment_gsdk: Gsdk
     delivery:
       order_delivery_pickup: Самовывоз
       order_delivery_redexpress: Redexpress
