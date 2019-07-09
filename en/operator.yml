@@ -44,6 +44,7 @@ en:
       subscriptions: 'E-mail Subscriptions'
       translations: 'Languages'
       other: 'SEO and other'
+      sales_report: 'Sales report'
 
     settings_navigation:
       legal: 'Legal information'
@@ -645,6 +646,11 @@ en:
       empty: No images
     vendor_sms_log_entity:
       empty: No SMS sent
+    sales_report:
+      generate: Generate
+      total_price: 'Total price: %{total_price}'
+      total_price_vat_in: 'Total price Vat-In: %{total_price}'
+      total_price_vat_out: 'Total price Vat-Out: %{total_price}'
     bells:
       read: Familiarized
       empty: It's empty

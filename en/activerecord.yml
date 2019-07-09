@@ -45,7 +45,7 @@ en:
 
     attributes:
       vendor_vat:
-        value: Value (%)
+        percent: '%'
       client_category:
         title: Name
         all_prices_available: All prices are available

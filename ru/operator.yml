@@ -44,6 +44,7 @@ ru:
       subscriptions: 'Email-подписки'
       translations: 'Тексты на сайте'
       other: 'SEO и прочее'
+      sales_report: 'Отчет по продажам'
 
     settings_navigation:
       legal: 'Юридическая информация'

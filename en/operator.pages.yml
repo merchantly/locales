@@ -1,6 +1,9 @@
 en:
   operator:
     pages:
+      sales_report:
+        show:
+          title_html: Sales report
       price_kinds:
         index:
           title_html: Types of prices
