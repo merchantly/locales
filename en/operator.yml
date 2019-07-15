@@ -655,8 +655,8 @@ en:
     sales_report:
       generate: Generate
       total_price: 'Total amount: %{total_price}'
-      total_price_vat_in: 'Total Vat-In: %{total_price}'
-      total_price_vat_out: 'Total Vat-Out: %{total_price}'
+      total_price_vat_in: 'Total VAT-In: %{total_price}'
+      total_price_vat_out: 'Total VAT-Out: %{total_price}'
     bells:
       read: Familiarized
       empty: It's empty
