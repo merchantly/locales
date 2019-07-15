@@ -458,7 +458,7 @@ en:
         next_resource_id: Next category
         google_product_category_id: google_product_category
       product:
-        vat_id: Vat
+        vat_id: VAT rate, %
         is_digital: "Digital product?"
         file_url: Download link
         sale_price: Discount price

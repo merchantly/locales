@@ -44,7 +44,6 @@ ru:
       subscriptions: 'Email-подписки'
       translations: 'Тексты на сайте'
       other: 'SEO и прочее'
-      sales_report: 'Отчет по продажам'
 
     settings_navigation:
       legal: 'Юридическая информация'
@@ -1059,6 +1058,7 @@ ru:
       client_notify: Уведомить клиента&nbsp;
       send_order_url: 'Отправить ссылку на страницу заказа'
       send_payment_url: 'Отправить ссылку на оплату'
+      sales_reports: 'Отчет по продажам'
       show:
         title: Заказ %{id}
         subtitle: от %{created_at}

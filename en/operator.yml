@@ -44,7 +44,6 @@ en:
       subscriptions: 'E-mail Subscriptions'
       translations: 'Languages'
       other: 'SEO and other'
-      sales_report: 'Sales report'
 
     settings_navigation:
       legal: 'Legal information'
@@ -247,6 +246,13 @@ en:
       access_keys: 'API access'
 
     th:
+      sales_report:
+        good_vat_percent: VAT rate, %
+        article: Article
+        good_name: Name
+        price: Price
+        quantity: Quantity
+        total_price: Total Amount, SAR
       vendor_jobs:
         id: ID
         created_at: Created
@@ -648,9 +654,9 @@ en:
       empty: No SMS sent
     sales_report:
       generate: Generate
-      total_price: 'Total price: %{total_price}'
-      total_price_vat_in: 'Total price Vat-In: %{total_price}'
-      total_price_vat_out: 'Total price Vat-Out: %{total_price}'
+      total_price: 'Total amount: %{total_price}'
+      total_price_vat_in: 'Total Vat-In: %{total_price}'
+      total_price_vat_out: 'Total Vat-Out: %{total_price}'
     bells:
       read: Familiarized
       empty: It's empty
@@ -1067,6 +1073,7 @@ en:
       client_notify: Notify customer&nbsp;
       send_order_url: 'Send link to order page'
       send_payment_url: 'Send payment link'
+      sales_report: 'Sales report'
       show:
         title: "Order %{id}"
         subtitle: "from %{created_at}"
