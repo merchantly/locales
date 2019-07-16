@@ -6,3 +6,4 @@ en:
     price_kinds:
       default: Default price
       sale: Discount price
+      purchase: Buy rate
