@@ -1,0 +1,5 @@
+en:
+  operator:
+    legal:
+      vendor_vat_fields:
+        cant_be_removed: "Has %{count} products. Can't be removed"

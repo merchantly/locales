@@ -941,9 +941,9 @@ en:
           invoice_stamp_comment: 'Displayed on top. Specify here phones and additional information.'
         include_blank: 'Not specified'
       vendor_vats:
-        title: Vat list
-        add_submit: add vat
-        remove: remove
+        title: VAT list
+        add_submit: Add VAT
+        remove: Remove
     lookbooks:
       images_download:  'Upload images'
       images: Image
@@ -952,7 +952,7 @@ en:
       images_empty: There are no images in the lookbook yet. Upload a few.
       popover:
         body: |
-          The Lookbook is a catalog of photos created to demonstrate original images created from designer clothes and accessories of one or several brands. 
+          The Lookbook is a catalog of photos created to demonstrate original images created from designer clothes and accessories of one or several brands.
           “This is a ready-made solution for your appearance, for every day, a separate event or a special occasion.”
     mail_templates:
       system:
@@ -1579,7 +1579,7 @@ en:
         url: operator_categories_path
         title: Product categories
         details_html: |
-          <p>As a rule, products are categorized.</p> 
+          <p>As a rule, products are categorized.</p>
           <p>Categories have a tree structure, each product can be in several categories at the same time. </p>
       properties:
         url: operator_properties_path
@@ -1591,13 +1591,13 @@ en:
         url: operator_tags_path
         title: Product Tags
         details_html: |
-          List of all tags used in products. 
+          List of all tags used in products.
       dictionaries:
         url: operator_dictionaries_path
         title: Directories
         details_html: |
           <p>A reference book is a list of property values ​​for a product.</p>
-          <p>For example, a list of brands or sizes.</p> 
+          <p>For example, a list of brands or sizes.</p>
           <p>A single reference can be used in several properties.</p>
       price_kinds:
         url: operator_price_kinds_path
@@ -1766,7 +1766,7 @@ en:
         speed: "%{count} items per hour"
       walletone:
         callout: |
-          A meta tag named <code>w1-verification</code> to confirm ownership of the site will be added automatically 
+          A meta tag named <code>w1-verification</code> to confirm ownership of the site will be added automatically
           after entering the wallet number and secret key in the Walletone payment system
       yandex_metrika_example:
         title: 'Sample code for Yandex Metrika'
