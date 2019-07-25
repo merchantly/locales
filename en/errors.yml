@@ -1,5 +1,6 @@
 en:
   errors:
+    negative_vats: 'VAT value must be equal or large than zero: %{examples}'
     format: '%{attribute} %{message}'
     cloud_payments:
       ReferToCardIssuer: Contact your bank or use another card.

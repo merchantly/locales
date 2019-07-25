@@ -1,5 +1,6 @@
 ru:
   errors:
+    negative_vats: 'НДС должен быть больше или равен нулю: %{examples}'
     format: ! '%{attribute} %{message}'
     cloud_payments:
       ReferToCardIssuer: Свяжитесь с вашим банком или воспользуйтесь другой картой

@@ -941,9 +941,6 @@ en:
           invoice_stamp_comment: 'Displayed on top. Specify here phones and additional information.'
         include_blank: 'Not specified'
       vendor_vats:
-        title: Available VAT rates
-        add_submit: Add VAT
-        remove: Remove
     lookbooks:
       images_download:  'Upload images'
       images: Image

@@ -24,6 +24,7 @@ ru:
         adding: Добавляем...
     labels:
       defaults:
+        vat: НДС
         package_category_id: Категория c упаковками
         currency_iso_code: 'Основная валюта'
         role: Роль
@@ -218,6 +219,7 @@ ru:
         is_published: Магазин включен
         is_external_link_kiosk_disabled: Отключить надпись "Сделано на %{brand_name_e}" (%{price}/мес)
         not_published_text: Текст сообщения о прекращении работы магазина
+        vat_list: Доступные виды НДС (%)
         logo: Логотип
         favicons: Favicons
         theme:
@@ -509,6 +511,7 @@ ru:
         content: Текст
     hints:
       defaults:
+        vats_list: 'Например: 0, 15'
         run_out_message: В случае если товар закончится, в карточке товара будет выводиться эта информация
         meta_keywords: Слова через запятую
         analytics_js: 'Только JS-код, без HTML-тегов'

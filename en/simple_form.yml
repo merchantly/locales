@@ -24,6 +24,7 @@ en:
         adding: Adding...
     labels:
       defaults:
+        vat: VAT
         package_category_id: Packed category
         currency_iso_code: 'General currency'
         role: Role
@@ -215,6 +216,7 @@ en:
           custom_style: 'Additional styles'
       vendor:
         moysklad_mirror_categories_tree: 'Mirror category tree from stock'
+        vats_list: Available VAT rates (%)
         show_similar_products: 'Show similar products'
         turbolinks_enabled: Enable fast reboot (turbolinks)
         sitemap_url: Link to sitemap
@@ -512,6 +514,7 @@ en:
         content: Text
     hints:
       defaults:
+        vats_list: 'For example: 0, 17'
         run_out_message: "If the goods are finished, this information will be displayed on the goods card"
         meta_keywords: Comma-separated words
         analytics_js: 'JS code only, no HTML tags'

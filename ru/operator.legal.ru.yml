@@ -1,5 +1,0 @@
-ru:
-  operator:
-    legal:
-      vendor_vat_fields:
-        cant_be_removed: 'Не может быть удален, так-как установлен в %{count} товарах'
