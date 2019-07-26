@@ -66,6 +66,7 @@ ru:
       created: Фильтр успешно создан
       updated: Фильтр сохранен
     import_spread_sheet_infos:
+      success: 'Загрузка началась'
       not_found: 'Файл не найден. Проверьте настройки доступа.'
       google_drive_error: 'Произошла ошибка: %{message}'
       empty_table_error: 'В таблице нет строк'

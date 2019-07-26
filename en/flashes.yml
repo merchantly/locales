@@ -67,6 +67,7 @@ en:
       updated: Filter has been successfully saved
     import_spread_sheet_infos:
       not_found: 'File not found. Check access settings.'
+      success: 'Import is started'
       google_drive_error: 'Error: %{message}'
       empty_table_error: 'There are no rows in the table'
     bells:
