@@ -2,4 +2,4 @@ en:
   operator:
     api:
       orders:
-        desc: Sorted by creation time orders (last is first)
+        desc: Sorted by creation time paid orders (last is first)
