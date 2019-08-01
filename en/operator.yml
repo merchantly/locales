@@ -252,7 +252,7 @@ en:
         good_name: Name
         price: Price
         quantity: Quantity
-        total_price: Total Amount, SAR
+        total_price: Total Amount
       vendor_jobs:
         id: ID
         created_at: Created
@@ -654,9 +654,10 @@ en:
       empty: No SMS sent
     sales_report:
       generate: Generate
-      total_price: 'Total amount: %{total_price}'
-      total_price_vat_in: 'Total VAT-In: %{total_price}'
-      total_price_vat_out: 'Total VAT-Out: %{total_price}'
+      total_price: 'Total amount: %{money}'
+      total_vat_in: 'Total VAT-In: %{money}'
+      total_vat_out: 'Total VAT-Out: %{money}'
+      total_purchase_price: 'Total purchase amount: %{money}'
     bells:
       read: Familiarized
       empty: It's empty
@@ -1071,6 +1072,7 @@ en:
       send_order_url: 'Send link to order page'
       send_payment_url: 'Send payment link'
       sales_report: 'Sales report'
+      sales_reports: 'Sales reports'
       show:
         title: "Order %{id}"
         subtitle: "from %{created_at}"

@@ -1059,7 +1059,7 @@ ru:
       client_notify: Уведомить клиента&nbsp;
       send_order_url: 'Отправить ссылку на страницу заказа'
       send_payment_url: 'Отправить ссылку на оплату'
-      sales_reports: 'Отчет по продажам'
+      sales_reports: 'Отчеты по продажам'
       show:
         title: Заказ %{id}
         subtitle: от %{created_at}
