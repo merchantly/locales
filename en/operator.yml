@@ -1043,6 +1043,7 @@ en:
       custom_delivery_price: 'Cost of delivery'
       transmitted_data: 'Transmitted data'
       browser_data: 'Browser data'
+      total_vat: VAT
       total_price: Total
       send_email: 'Send by mail'
       reset_downloaded_count: 'Reset the number of downloads (used %{current} from %{total})'
