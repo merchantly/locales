@@ -713,6 +713,10 @@ ru:
               url: Должен быть ссылкой на файл
             video_url:
               url: Не является ссылкой
+    order:
+      address:
+        house: д.
+        room: кв.
   activemodel:
     attributes:
       vendor_registration_form:
