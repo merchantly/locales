@@ -6,3 +6,4 @@ ar_SA:
     price_kinds:
       default: السعر الافتراضي
       sale: سعر الخصم
+      purchase: معدل الشراء

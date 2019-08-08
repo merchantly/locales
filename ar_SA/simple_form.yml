@@ -24,6 +24,7 @@ ar_SA:
         adding: تتم الإضافة...
     labels:
       defaults:
+        vat: ضريبة القيمة المضافة
         package_category_id: فئة معبأة
         currency_iso_code: 'عملة عامة'
         role: الدور
@@ -58,6 +59,9 @@ ar_SA:
         meta_description: <meta description>
         meta_keywords: <meta keywords>
         h1: <h1>
+      sales_report_form:
+        till_date: تاريخ الانتهاء
+        from_date: تاريخ البدء
       commerce_ml_configuration:
         login: تسجيل الدخول
         password: كلمة السر
@@ -212,6 +216,7 @@ ar_SA:
           custom_style: 'أنماط اضافية'
       vendor:
         moysklad_mirror_categories_tree: 'إظهار شجرة الفئات من المخزن'
+        vats_list: المعدلات المتاحة لضريبة القيمة المضافة (%)
         show_similar_products: 'عرض منتجات مشابهة'
         turbolinks_enabled: تمكين إعادة التشغيل السريع (توربولنكس)
         sitemap_url: الرابط لخريطة الموقع
@@ -239,7 +244,7 @@ ar_SA:
           custom_body_class: كلاس CSS مخصص في الbody
           custom_style_format: 'تنسيق النمط'
           custom_style: 'أنماط اضافية'
-          category_filter_visible: 'عرض الفلتر في الفئة'
+          category_filter_visible: 'عرض الفلتر في صفحة الفئة'
           mainpage_filter_visible: 'عرض الفلتر على الصفحة الرئيسية'
           instagram_visible: عرض صور من انستغرام في نهاية الصفحة
           banner_visible: عرض رسالة ترويجية
@@ -509,6 +514,7 @@ ar_SA:
         content: النص
     hints:
       defaults:
+        vats_list: 'مثلاً: 0، 17'
         run_out_message: "إذا انتهت السلع ، سيتم عرض هذه المعلومات على بطاقة السلع"
         meta_keywords: كلمات مفصولة بفواصل
         analytics_js: 'كود JS فقط. لا يسمح بعلامات HTML'
@@ -578,7 +584,7 @@ ar_SA:
         is_published: 'انتباه! عندما يتم تعطيل هذا الخيار، سيكون المتجر <strong>لا يمكن الوصول إليه تماماً</strong> للزوار.'
         contacts: 'الهواتف والبرائد الإلكترونية، سطر سطر'
         order_notification_emails: 'البرائد الإلكترونية، سطر سطر'
-        order_notification_phones: 'الهواتف سطر سطر، مثلاً: +79033891228'
+        order_notification_phones: 'الهواتف سطر سطر، مثلاً: +966 903 389 122'
         instagram_user_id: 'هذا ليس اسم مستخدم، ومعرفه. <a href="http://jelled.com/instagram/lookup-user-id" target="_blank">كيف تعرف اسم المستخدم الخاص بك على Instagram؟ (أدخل الاسم الدقيق، الأحرف الصغيرة والأحرف الكبيرة لها معان مختلفة).</a>'
         logo: >
           تستطيع تحميل ملفات بامتداد <strong>%{ext}</strong>

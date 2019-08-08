@@ -20,4 +20,4 @@ ar_SA:
     canceled: تم إلغاء الدفع
 
   order_delivery_tracking_comments:
-    new_state: 'Shipment tracking changes. Description: %{state.update_description}, Location: %{state.update_location}'
+    new_state: 'تحديث في تتبع الشحنة. الوصف: %{state.update_description}، الموقع: %{state.update_location}'

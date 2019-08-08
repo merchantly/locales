@@ -67,7 +67,7 @@ ar_SA:
         name: الدليل
 
       has_ordering_goods:
-        name: قابلية الرشوة
+        name: قابلية الشراء
         values:
           'true': للبيع
           'false': لا يستطيع الشراء
@@ -95,7 +95,7 @@ ar_SA:
           any: أي
 
       is_run_out:
-        name: انتهى
+        name: الانتهاء
         values:
           'true': انتهى
           'false': متاح

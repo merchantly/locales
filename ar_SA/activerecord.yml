@@ -47,6 +47,8 @@ ar_SA:
       delivery_time_period: وقت التوصيل
 
     attributes:
+      vendor_vat:
+        percent: '%'
       client_category:
         title: الاسم
         all_prices_available: جميع الاسعار متاحة
@@ -160,8 +162,8 @@ ar_SA:
         image: 'الصورة'
         example_vendor: متجر على سبيل المثال
         example_vendor_id: متجر على سبيل المثال
-        example_operator: مشغل على سبيل المثال
-        example_operator_id: مشغل على سبيل المثال
+        example_operator: مشغل، على سبيل المثال
+        example_operator_id: مشغل، على سبيل المثال
         subject: 'عنوان الرسالة'
         content: 'نص الرسالة'
         template_type: نوع المراسلات
@@ -459,6 +461,7 @@ ar_SA:
         next_resource_id: الفئة التالية
         google_product_category_id: فئة_صنف_جوجل (google_product_category)
       product:
+        vat_id: ""
         is_digital: "المنتج رقمي؟"
         file_url: رابط التنزيل
         sale_price: سعر الخصم
@@ -714,6 +717,10 @@ ar_SA:
               url: "يجب أن يكون رابط في الملف"
             video_url:
               url: ليس رابط
+    order:
+      address:
+        house: ""
+        room: ""
   activemodel:
     attributes:
       vendor_registration_form:

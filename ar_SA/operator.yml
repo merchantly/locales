@@ -39,7 +39,7 @@ ar_SA:
       elements: 'العناصر على الموقع'
       design: 'التصميم (CSS، HTML)'
       content_pages: 'صفحات النص'
-      blog_posts: 'أخبار أو مدونة'
+      blog_posts: 'الأخبار أو المدونة'
       lookbooks: 'كتب البحث'
       subscriptions: 'اشتراكات البريد الالكتروني'
       translations: 'اللغات'
@@ -285,6 +285,13 @@ ar_SA:
       access_keys: 'الوصول إلى واجهة برمجة التطبيق'
 
     th:
+      sales_report:
+        good_vat_percent: معدل ضريبة القيمة المضافة، %
+        article: السلعة
+        good_name: الاسم
+        price: السعر
+        quantity: الكمية
+        total_price: المبلغ الإجمالي
       vendor_jobs:
         id: المعرف
         created_at: أنشئ
@@ -339,7 +346,7 @@ ar_SA:
         occupation: المهنة
         company_name: اسم الشركة
         first_order: أول طلب
-        total_orders_price: 'كمية المشتريات'
+        total_orders_price: 'مبلغ المشتريات'
         category: الفئة
         rfm: RFM
       dictionaries:
@@ -684,6 +691,12 @@ ar_SA:
       empty: لا توجد صور
     vendor_sms_log_entity:
       empty: لم يتم إرسال رسائل نصية
+    sales_report:
+      generate: إنشاء
+      total_price: 'المبلغ الإجمالي: %{money}'
+      total_vat_in: 'إجمالي ضريبة القيمة المضافة (In): %{money}'
+      total_vat_out: 'إجمالي ضريبة القيمة المضافة (Out): %{money}'
+      total_purchase_price: 'إجمالي مبلغ الشراء: %{money}'
     bells:
       read: مألوف
       empty: إنه فارغ
@@ -776,13 +789,13 @@ ar_SA:
           clients: العملاء
         empty: لا يوجد عملاء مماثلون
       rfm_stats:
-        title: تقسيم RFM
+        title: تقسيم الحداثة والتردد والنقد (RFM)
         more: المزيد
         recount: عد من جديد
         date: 'بيانات التحليلات صالحة في: %{date}'
       settings:
         subscriptions: 'اشتراكات العميل'
-        rfm: 'تحليلات RFM'
+        rfm: 'تحليلات الحداثة والتردد والنقد (RFM)'
         signup: 'إعدادات التسجيل'
         client_categories: 'فئات العملاء'
         archive: "أرشيف العملاء (%{count})"
@@ -881,7 +894,7 @@ ar_SA:
       view: معاينة
       instruction: '%{icon} دليل إعداد DNS'
       current_operator_url: "العنوان الحالي للوحة التشغيل:&nbsp;"
-      current_home_url: 'العنوان الحالي (المجال) للموقع:'
+      current_home_url: 'العنوان الحالي للموقع:'
       form:
         suggested_domain:
           label: 'مجال جديد (عنوان الموقع)'
@@ -938,7 +951,7 @@ ar_SA:
     languages:
       used_on_site: مستخدم في الموقع
       default_locale: اللغة الافتراضية
-      select_default_locale: 'استخدم الافتراضي'
+      select_default_locale: 'استخدم كافتراضي'
       setup: 'تخصيص الترجمة'
       disable: Off
       enable: On
@@ -966,6 +979,7 @@ ar_SA:
         hints:
           invoice_stamp_comment: 'معروض في الأعلى. حدد الهواتف والمعلومات الإضافية هنا.'
         include_blank: 'غير محدد'
+      vendor_vats:
     lookbooks:
       images_download:  'تحميل الصور'
       images: الصورة
@@ -1067,6 +1081,7 @@ ar_SA:
       custom_delivery_price: 'ثمن التوصيل'
       transmitted_data: 'البيانات المرسلة'
       browser_data: 'بيانات المتصفح'
+      total_vat: ""
       total_price: المجموع
       send_email: 'إرسال بالبريد'
       reset_downloaded_count: 'إعادة تعيين عدد التنزيلات (مستخدم %{current} من %{total})'
@@ -1082,7 +1097,7 @@ ar_SA:
           query: 'اسم المنتج أو بيانات العميل'
       created_at_from: 'تاريخ الإنشاء'
       order_conditions: 'العمليات التجارية'
-      workflow_states: 'حلات سير العمل'
+      workflow_states: 'حالات سير العمل'
       operator_filters: 'فلاتر الطلب'
       mail_templates: 'إشعارات الطلب'
       archive: "أرشيف الطلبات (%{count} قطع)"
@@ -1095,6 +1110,8 @@ ar_SA:
       client_notify: إشعار العميل&nbsp;
       send_order_url: 'إرسال الرابط لصفحة الطلب'
       send_payment_url: 'إرسال رابط الدفع'
+      sales_report: 'تقرير المبيعات'
+      sales_reports: 'تقارير المبيعات'
       show:
         title: "الطلب %{id}"
         subtitle: "من %{created_at}"
@@ -1437,7 +1454,7 @@ ar_SA:
         استخدم القيم من القائمة <a href="http://www.google.com/basepages/producttype/taxonomy-with-ids.ru-RU.xls">تصنيف منتجات Google</a>
     category_page:
       form:
-        header: قائمة المنتجات (الفئة)
+        header: قائمة المنتجات في الفئة
         hints:
           category_product_columns: 'عدد أعمدة المنتجات'
           category_product_rows: 'عدد صفوف المنتجات'
@@ -1513,7 +1530,7 @@ ar_SA:
         published_products_count: منشور
         archived_products_count: في الأرشيف
     invites:
-      invite: الدعوة
+      invite: دعوة
       invite_link: رابط الدعوة
       empty: لا توجد دعوات
       cancel: "هل تريد إلغاء الدعوة؟"
@@ -1600,8 +1617,8 @@ ar_SA:
         url: operator_categories_path
         title: فئات المنتجات
         details_html: |
-          <p>كقاعدة، المنتجات مصنفة.</p>
-          <p>الفئات لها هيكل شجرة، وبالتالي يمكن أن يكون منتج في عدة فئات في نفس الوقت.</p>
+          <p>كقاعدة عامة ، يتم تصنيف المنتجات.</p>
+          <p>الفئات لها هيكل شجرة، يمكن أن يكون كل منتج في عدة فئات في نفس الوقت.</p>
       properties:
         url: operator_properties_path
         title: خصائص السلع
@@ -1617,9 +1634,9 @@ ar_SA:
         url: operator_dictionaries_path
         title: الدلائل
         details_html: |
-          <p>كتاب المرجع هو عبارة عن قائمة لقيم خواص المنتج.</p>
-          <p>مثلاً، قائمة من العلامات التجارية أو الأحجام.</p>
-          <p>يمكن استخدام نفس المرجع في خواص عدة.</p>
+          <p>الكتاب المرجعي هو قائمة قيم الخصائص لمنتج ما.</p>
+          <p>على سبيل المثال ، قائمة للعلامات التجارية أو الأحجام.</p>
+          <p>يمكن استخدام مرجع واحد في العديد من الخصائص.</p>
       price_kinds:
         url: operator_price_kinds_path
         title: أنواع الأسعار
@@ -1660,6 +1677,8 @@ ar_SA:
         placeholders:
           city_title: 'موسكو'
     vendor_payments:
+      gsdk:
+        title: GSDK
       discount_settings: إعدادات الخصم
       discount_warning: قم بحفظ طرق الدفع للبدء
       alive: نشط
@@ -1785,8 +1804,8 @@ ar_SA:
         speed: "%{count} قطعة في الساعة"
       walletone:
         callout: |
-          ستتم إضافة علامة تعريف باسم <code>w1-verification</code> تلقائياً للتحقق من ملكية الموقع
-          بعد إدخال رقم المحفظة والمفتاح السري في نظام دفع Walletone
+          سيتم إضافة علامة تعريف <code>w1-verification</code> تلقائياً لتأكيد ملكية الموقع
+          بعد إدخال رقم المحفظة والمفتاح السري في نظام الدفع Walletone
       yandex_metrika_example:
         title: 'عينة كود ل Yandex Metrika'
     common_pages_widgets:
@@ -1819,7 +1838,7 @@ ar_SA:
       menu:
         title: القائمة في الموقع
         url: operator_menu_items_path
-        details_html: 'في كل صفحة تظهر قائمة الموقع. بشكل افتراضي، يتم إنشاؤها تلقائيًا، ولكن يمكنك تخصيصها.'
+        details_html: 'في كل صفحة تظهر قائمة الموقع. يتم إنشاؤها تلقائيًا، ولكن يمكنك تخصيصها.'
       filter:
         title: فلتر المنتجات
         url: operator_filter_path

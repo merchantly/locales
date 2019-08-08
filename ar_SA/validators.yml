@@ -4,6 +4,6 @@ ar_SA:
       must_be_good: 'السلعة يجب أن تكون منتج أو عنصر المنتج'
 
     phone_validator:
-      invalid_phone: 'صيغة رقم الهاتف خاطئة. مثال: +7 913 123 32 10'
+      invalid_phone: 'صيغة رقم الهاتف خاطئة. مثال: +966 913 123 321'
     vendor:
       welcome_category_package_category_not_same: 'يجب ألا تتوافق فئة الصفحة الرئيسية مع فئة الطرود.'

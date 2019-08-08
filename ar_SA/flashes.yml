@@ -67,6 +67,7 @@ ar_SA:
       updated: تم حفظ الفلتر بنجاح
     import_spread_sheet_infos:
       not_found: 'لم يتم العثور على الملف. تحقق من إعدادات الوصول.'
+      success: 'بدأ الاستيراد'
       google_drive_error: 'خطأ: %{message}'
       empty_table_error: 'لا يوجد صفوف بالجدول'
     bells:

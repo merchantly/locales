@@ -61,7 +61,7 @@ ar_SA:
       errors:
         models:
           vendor_order_form:
-            invalid_phone: 'صيغة الهاتف خاطئة. ملاحظة: +7 913 123 32 10'
+            invalid_phone: 'صيغة الهاتف خاطئة. ملاحظة: +966 913 123 321'
             attributes:
               address:
                 blank: لا يمكن أن يكون خالياً
@@ -193,12 +193,12 @@ ar_SA:
         yandex_delivery_id: خيار توصيل Yandex
       placeholders:
         city_title: موسكو
-        phone: 'على سبيل المثال، 10 32 123 913 7+'
+        phone: 'على سبيل المثال، 032 123 913 966+'
         name: الاسم الكامل
         address: "على سبيل المثال، أكاديمي فافيلوف 12-10"
         comment: ما نحتاج إلى معرفته
         email: البريد الإلكتروني
-        region: بيرم المنطقة
+        region: منطقة الرياض
         street: أكاديمي فافيلوف
         house: 12
         slash: اتركه فارغا إن لم يكن
@@ -207,12 +207,12 @@ ar_SA:
         first_name: أليكساندر
         second_name: ايفانوف
         patronymic: أوليغوفيتش
-
+      total_vat: "(بما في ذلك ضريبة القيمة المضافة %{total_vat})"
       submit: الدفع
       pickup_address: 'عنوان الاستلام:'
       title: "رقم الطلب %{number} في %{vendor}"
       payment_type: 'طريقة الدفع: %{title}'
-      delivery_type: 'طريقة التوصيل: {title}%'
+      delivery_type: 'طريقة التوصيل: %{title}'
       free_delivery_text_html: 'شحن مجاني للطلبات الأعلى من %{free_delivery_threshold}<nobr>'
       checkout_free_delivery_text_html: 'مجاني للطلبات الأعلى من <nobr>%{free_delivery_threshold}</nobr>'
       go_back: الرجوع

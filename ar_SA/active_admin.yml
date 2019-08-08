@@ -3,7 +3,7 @@ ar_SA:
     dashboard: "لوحة التحكم"
     dashboard_welcome:
       welcome: "مرحبا بك في صفحة المشرف. هذه هي صفحة إدارة الموقع القياسية."
-      call_to_action: "ابجث في \"app/admin/dashboard.rb\" لإضافة شيء هنا"
+      call_to_action: "ابجث في 'app/admin/dashboard.rb' لإضافة شيء هنا"
     view: "فتح"
     edit: "تغيير"
     delete: "حذف"

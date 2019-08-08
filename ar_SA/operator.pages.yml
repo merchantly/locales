@@ -1,6 +1,9 @@
 ar_SA:
   operator:
     pages:
+      sales_reports:
+        show:
+          title_html: تقارير المبيعات
       price_kinds:
         index:
           title_html: أنواع الأسعار
@@ -225,7 +228,7 @@ ar_SA:
           title_html: الكلمة المترجمة
       subscription_emails:
         index:
-          title_html: 'اشتراكات العميل'
+          title_html: 'اشتراكات العملاء'
       clients:
         index:
           title_html: 'العملاء'
@@ -315,7 +318,7 @@ ar_SA:
 
       blog_posts:
         index:
-          title_html: نشر الأخبار (مدونة)
+          title_html: نشر الأخبار (المدونة)
         new:
           title_html: إنشاء منشور أخبار (سجل في المدونة)
         edit:

@@ -1,5 +1,6 @@
 ar_SA:
   errors:
+    negative_vats: 'ضريبة القيمة المضافة يجب أن تكون أكبر من أو تساوي صفر: %{examples}'
     format: '%{attribute}%{message}'
     cloud_payments:
       ReferToCardIssuer: فضلاً اتصل بالبنك أو استخدم بطاقة أخرى.

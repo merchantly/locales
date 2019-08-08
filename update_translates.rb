@@ -1,8 +1,6 @@
 require 'yaml'
 require 'transifex'
 
-require 'pry'
-
 SECRETS_FILE = 'secrets.yml'.freeze
 INPUT_LANGUAGE = :en
 OUTPUT_LANGUAGES = [:ru, :ar_SA]
@@ -17,7 +15,14 @@ project = client.project(PROJECT_NAME)
 Dir.entries(INPUT_LANGUAGE.to_s).each do |file|
   resource_slug = file.gsub('_', '-').gsub('.', '-') + '--master'
 
-  resource = project.resource(resource_slug)
+  p "#{resource_slug} start"
+
+  begin
+    resource = project.resource(resource_slug)
+  rescue Transifex::NotFound
+    p "#{resource_slug} no found"
+    next
+  end
 
   OUTPUT_LANGUAGES.each do |lang|
     translation = resource.translation(lang)
@@ -26,4 +31,6 @@ Dir.entries(INPUT_LANGUAGE.to_s).each do |file|
       out.write(translation['content'])
     end
   end
+
+  p "#{resource_slug} success"
 end

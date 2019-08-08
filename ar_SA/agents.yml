@@ -12,6 +12,7 @@ ar_SA:
       order_payment_robokassa: Robokassa
       order_payment_tinkoff: Tinkoff
       order_payment_sberbank: Sberbank
+      order_payment_gsdk: Gsdk
     delivery:
       order_delivery_pickup: الاستلام
       order_delivery_redexpress: Redexpress

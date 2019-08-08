@@ -27,7 +27,7 @@ ar_SA:
           available_deliveries: طرق التوصيل المتاحة
         blog_post:
           is_active: الحالة
-          published_at: منشور
+          published_at: تاريخ النشر
         workflow_state:
           finite_state: الحالة النهائية
           convead_key: المفتاح في "convead"

@@ -4,7 +4,7 @@ ar_SA:
     not_found:
       title: '404 - لم يوجد'
       subject: '<b>404</b> - الصفحة غير موجودة'
-      content_html: "لم يتم العثور على المورد الذي طبقته"
+      content_html: "لم يتم العثور على المورد الذي طلبته"
 
     maintenance:
       title: '503 - الموقع تحت الصيانة'
