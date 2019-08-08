@@ -4,7 +4,7 @@ require 'transifex'
 SECRETS_FILE = 'secrets.yml'.freeze
 INPUT_LANGUAGE = :en
 OUTPUT_LANGUAGES = [:ru, :ar_SA]
-PROJECT_NAME = 'merchantly'
+PROJECT_NAME = 'merchantly'.freeze
 
 secrets = YAML.load_file(SECRETS_FILE)
 
