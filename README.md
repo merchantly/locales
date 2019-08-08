@@ -8,10 +8,14 @@
 
 ## Настройка скрипта
 Переходим в папку script
+
     cd script
 Устанавливаем зависимостм
+
     bundle install
 Копируем secrets.yml.template и вписываем свой username и password
+
     cp secrets.yml.template secrets.yml
 Запускаем скрипт
+
     bundle exec ruby update_translations
