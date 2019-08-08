@@ -13,7 +13,7 @@
 Устанавливаем зависимостм
 
     bundle install
-Копируем secrets.yml.template и вписываем свой username и password
+Копируем secrets.yml.template и вписываем свой username и password c transifex
 
     cp secrets.yml.template secrets.yml
 Запускаем скрипт
