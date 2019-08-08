@@ -12,7 +12,7 @@ client = Transifex::Client.new username: secrets['username'], password: secrets[
 
 project = client.project(PROJECT_NAME)
 
-Dir.entries(INPUT_LANGUAGE.to_s).each do |file|
+Dir.entries("../#{INPUT_LANGUAGE.to_s}").each do |file|
   resource_slug = file.gsub('_', '-').gsub('.', '-') + '--master'
 
   p "#{resource_slug} start"
@@ -27,7 +27,7 @@ Dir.entries(INPUT_LANGUAGE.to_s).each do |file|
   OUTPUT_LANGUAGES.each do |lang|
     translation = resource.translation(lang)
 
-    File.open("#{lang}/#{file}", 'w') do |out|
+    File.open("../#{lang}/#{file}", 'w') do |out|
       out.write(translation['content'])
     end
   end
