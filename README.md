@@ -19,3 +19,5 @@
 Запускаем скрипт
 
     bundle exec ruby update_translations
+
+Комитим и пушим изменения
