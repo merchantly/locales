@@ -205,13 +205,6 @@ ar_SA:
         few: ليس بالامكان حفظ %{model} لسبب وجود %{count} أخطاء.
         many: ليس بالامكان حفظ %{model} لسبب وجود %{count} خطأ.
         other: ليس بالامكان حفظ %{model} لسبب وجود %{count} خطأ.
-  helpers:
-    select:
-      prompt: يُرجى الاختيار
-    submit:
-      create: "%{model} إنشاء"
-      submit: "%{model} حِفظ"
-      update: "%{model} تحديث"
   number:
     currency:
       format:
