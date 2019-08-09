@@ -61,7 +61,7 @@ en:
       errors:
         models:
           vendor_order_form:
-            invalid_phone: 'Invalid phone format. Note: +7 913 123 32 10'
+            invalid_phone: 'Invalid phone format. Note: +966 913 123 32 10'
             attributes:
               address:
                 blank: can't be empty
@@ -190,7 +190,7 @@ en:
         yandex_delivery_id: Yandex delivery option
       placeholders:
         city_title: Moscow
-        phone: 'For example, +7 913 123 32 10'
+        phone: 'For example, +966 913 123 32 10'
         name: FULL NAME.
         address: "For example, Academic Vavilov 12-10"
         comment: What we need to know

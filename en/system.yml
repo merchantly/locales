@@ -118,7 +118,7 @@ en:
       walletone_phone: Phone to connect the wallet WalletOne
       walletone_info: This wallet receives payment for goods and services sold at the kiosk.
       enter_phone: Enter the phone to confirm
-      phone_example: 'For example: +7 903 389 12 28'
+      phone_example: 'For example: +966 903 389 12 28'
       phone_label: 'Telephone in international format'
       send_pin_code: 'Get SMS with confirmation code'
       sending: 'Sending..'

@@ -134,7 +134,7 @@ en:
         label:
           phone: 'Phone number to identify the wallet'
         placeholder:
-          phone: 'For example: +7 903 389 12 28'
+          phone: 'For example: +966 903 389 12 28'
         doc: 'Documentation'
         settings: 'Set up seller data'
         title: Setting up a cash register
