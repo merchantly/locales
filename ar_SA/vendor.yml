@@ -61,7 +61,7 @@ ar_SA:
       errors:
         models:
           vendor_order_form:
-            invalid_phone: 'صيغة الهاتف خاطئة. ملاحظة: +966 913 123 321'
+            invalid_phone: ''
             attributes:
               address:
                 blank: لا يمكن أن يكون خالياً
@@ -193,7 +193,7 @@ ar_SA:
         yandex_delivery_id: خيار توصيل Yandex
       placeholders:
         city_title: موسكو
-        phone: 'على سبيل المثال، 032 123 913 966+'
+        phone: ''
         name: الاسم الكامل
         address: "على سبيل المثال، أكاديمي فافيلوف 12-10"
         comment: ما نحتاج إلى معرفته

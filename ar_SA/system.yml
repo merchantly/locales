@@ -118,7 +118,7 @@ ar_SA:
       walletone_phone: الهاتف للاتصال بمحفظة WalletOne
       walletone_info: تتلقى هذه المحفظة مدفوعات مقابل السلع والخدمات المباعة في الكشك.
       enter_phone: أدخل رقم الهاتف للتأكيد
-      phone_example: 'على سبيل المثال: 28 12 389 903 7+'
+      phone_example: ''
       phone_label: 'الهاتف بالتنسيق الدولي'
       send_pin_code: 'الحصول على رسالة نصية مع رمز التأكيد'
       sending: 'يتم الإرسال..'

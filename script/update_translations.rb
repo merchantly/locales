@@ -1,4 +1,5 @@
 require 'transifex'
+require 'yaml'
 
 SECRETS_FILE = 'secrets.yml'.freeze
 INPUT_LANGUAGE = :en

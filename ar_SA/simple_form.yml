@@ -494,7 +494,7 @@ ar_SA:
         external_id: رقم تتبع الشحن
       vendor_order:
         city_title: موسكو
-        phone: 'على سبيل المثال، 10 32 123 913 7+'
+        phone: ''
         name: الاسم الكامل
         address: "على سبيل المثال، أكاديمي فافيلوف 12-10"
         comment: ما نحتاج إلى معرفته
@@ -584,7 +584,7 @@ ar_SA:
         is_published: 'انتباه! عندما يتم تعطيل هذا الخيار، سيكون المتجر <strong>لا يمكن الوصول إليه تماماً</strong> للزوار.'
         contacts: 'الهواتف والبرائد الإلكترونية، سطر سطر'
         order_notification_emails: 'البرائد الإلكترونية، سطر سطر'
-        order_notification_phones: 'الهواتف سطر سطر، مثلاً: +966 903 389 122'
+        order_notification_phones: ''
         instagram_user_id: 'هذا ليس اسم مستخدم، ومعرفه. <a href="http://jelled.com/instagram/lookup-user-id" target="_blank">كيف تعرف اسم المستخدم الخاص بك على Instagram؟ (أدخل الاسم الدقيق، الأحرف الصغيرة والأحرف الكبيرة لها معان مختلفة).</a>'
         logo: >
           تستطيع تحميل ملفات بامتداد <strong>%{ext}</strong>

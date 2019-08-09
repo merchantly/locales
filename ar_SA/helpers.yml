@@ -186,7 +186,7 @@ ar_SA:
     profile:
       email_no_confirmed: 'البريد الإلكتروني غير مؤكد'
       email_confirmed: 'البريد الإلكتروني مؤكد'
-      phone_confirmed: 'رقم الهاتف مؤكد'
+      phone_confirmed: 'رقم الهاتف غير مؤكد'
       phone_no_confirmed: 'رقم الهاتف غير مؤكد'
     stock:
       log_entity_state:
