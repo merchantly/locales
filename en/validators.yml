@@ -15,4 +15,4 @@ en:
       empty_orders_count_max: "There is no maximum number of orders (%{max_count})"
 
     geometry_validator:
-      incorrect_sizes: "The image geometry should be %{option_width}x%{option_height}, and now %{width}x%{height}")
+      incorrect_sizes: "The image geometry should be %{option_width}x%{option_height}, and now %{width}x%{height}"

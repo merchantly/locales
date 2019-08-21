@@ -15,4 +15,4 @@ ru:
       empty_orders_count_max: "Отсутствует максимальное кол-во заказов (%{max_count})"
 
     geometry_validator:
-      incorrect_sizes: "Геометрия изображения должна быть %{option_width}x%{option_height}, а сейчас %{width}x%{height}")
+      incorrect_sizes: "Геометрия изображения должна быть %{option_width}x%{option_height}, а сейчас %{width}x%{height}"
