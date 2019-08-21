@@ -2,6 +2,9 @@ ru:
   errors:
     negative_vats: 'НДС должен быть больше или равен нулю: %{examples}'
     format: ! '%{attribute} %{message}'
+    import_from_spreadsheet:
+      not_allowed_locale: 'Сначало установите локаль %{locale} в настройках'
+      empty_product_line: 'В данной строке нет ни артикула, ни наименования товара'
     cloud_payments:
       ReferToCardIssuer: Свяжитесь с вашим банком или воспользуйтесь другой картой
       DoNotHonor: Свяжитесь с вашим банком или воспользуйтесь другой картой
@@ -158,3 +161,6 @@ ru:
         pending: Ваш аккаунт проходит модерацию
     workflow_state:
       not_unique_name: Имя не уникально
+      remove_only_final_state: 'Нельзя снимать единственный финальный статус'
+      remove_new_state: 'Нельзя снимать состояние Новый'
+      set_new_state: 'Нельзя устанавливать состояние Новый'

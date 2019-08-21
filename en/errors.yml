@@ -2,6 +2,9 @@ en:
   errors:
     negative_vats: 'VAT value must be equal or large than zero: %{examples}'
     format: '%{attribute} %{message}'
+    import_from_spreadsheet:
+      not_allowed_locale: 'First set the locale %{locale} in the settings'
+      empty_product_line: 'This line does not contain an article or a product name'
     cloud_payments:
       ReferToCardIssuer: Contact your bank or use another card.
       DoNotHonor: Contact your bank or use another card.
@@ -157,4 +160,7 @@ en:
         rejected: Your registration request was rejected.
         pending: Your account is moderated
     workflow_state:
-      not_unique_name: "Name is not unique "
+      not_unique_name: Name is not unique
+      remove_only_final_state: 'You cannot remove a single final status'
+      remove_new_state: 'Cannot remove state New'
+      set_new_state: 'Cannot set state to New'

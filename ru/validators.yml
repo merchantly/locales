@@ -7,3 +7,12 @@ ru:
       invalid_phone: 'Неверный формат телефона. Прим.: +7 913 123 32 10'
     vendor:
       welcome_category_package_category_not_same: 'Категория для главной страницы не должна совпадать с категорией упаковок'
+
+    tariff_validator:
+      orders_count_unique: 'Кол-во заказов(от) должно быть уникальным'
+      violated_sequence_ranges: 'Нарушена последовательность диапазонов в условиях кол-ва заказов'
+      empty_orders_count_zero:  'Отсутствует нулевое кол-во заказов'
+      empty_orders_count_max: "Отсутствует максимальное кол-во заказов (%{max_count})"
+
+    geometry_validator:
+      incorrect_sizes: "Геометрия изображения должна быть %{option_width}x%{option_height}, а сейчас %{width}x%{height}")

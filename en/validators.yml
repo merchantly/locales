@@ -7,3 +7,12 @@ en:
       invalid_phone: 'Invalid phone number format. Example: +966 913 123 32 10'
     vendor:
       welcome_category_package_category_not_same: 'The category for the main page should not coincide with the category of packages.'
+
+    tariff_validator:
+      orders_count_unique: 'The number of orders (from) must be unique'
+      violated_sequence_ranges: 'The sequence of ranges is violated in terms of the number of orders'
+      empty_orders_count_zero: 'There are no zero orders'
+      empty_orders_count_max: "There is no maximum number of orders (%{max_count})"
+
+    geometry_validator:
+      incorrect_sizes: "The image geometry should be %{option_width}x%{option_height}, and now %{width}x%{height}")
