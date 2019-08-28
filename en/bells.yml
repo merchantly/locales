@@ -6,6 +6,9 @@ en:
     InstagramFeed::NotFound:
       subject: "No instagram found with ID% {instagram_user_id}"
       text: "You have entered wrong Instagram User ID in the store settings"
+    InstagramFeed::NoInstagramAccessToken:
+      subject: 'You are not logged in via Instagram or the token has expired'
+      text: 'Log in to Instagram settings or update it'
     Moysklad::Client::ResourceForbidden:
       subject: 'Automatic import of goods from MyStock disabled'
       text: "There is no access to import goods from MyStock.\nObviously, you didn’t activate the tariff in MoiSklad.ru that allows you to work with the API or your user (%{login}) does not have enough rights."

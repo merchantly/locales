@@ -6,6 +6,9 @@ ru:
     InstagramFeed::NotFound:
       subject: "Не найден instagram с ID %{instagram_user_id}"
       text: "В настройках магазина указан не существующий Instagram User ID"
+    InstagramFeed::NoInstagramAccessToken:
+      subject: 'Вы не авторизированы через Instagram или срок действия токена истек'
+      text: 'Авторизируйтесь в настройках Instagram или обновите его'
     Moysklad::Client::ResourceForbidden:
       subject: 'Автоматический импорт товаров из МойСклад отключен'
       text: "Нет доступа к возможности импортировать товары из МойСклад.\nОчевидно Вы не подключили в МойСклад.ru тариф, позволяющий работать с API или у Вашего пользователя (%{login}) не достаточно прав."
