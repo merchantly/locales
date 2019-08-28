@@ -167,3 +167,10 @@ ru:
             state: Синхронизация
           empty: Список складов пуст. Обновите или проведите синхронизацию с МоимСкладом
           no_access:  Склады доступны только при наличии связи с МоимСкладом
+      instagram:
+        settings: |
+          <p> В instagram создайте <a href='https://www.instagram.com/developer/'> приложение </a>  </p>
+          <p> Далее создайте нового <a href='https://www.instagram.com/developer/clients/manage/'> клиента </a></p>
+          <p> В 'Valid redirect URIs:' вписывайте ссылку, указанная ниже </p>
+          <p> Зайдите в созданный клиент (Кнопка Manage) </p>
+          <p> Вводим данные клиента в форму ниже </p>

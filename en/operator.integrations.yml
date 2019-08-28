@@ -166,3 +166,10 @@ en:
             state: Synchronization
           empty: The stock list is empty. Update or sync with MyStock
           no_access:  Stocks are only available if you have a connection with MyStock.
+      instagram:
+        settings: |
+          <p> On instagram, create a <a href='https://www.instagram.com/developer/'> application </a></p>
+          <p> Next, create a new <a href='https://www.instagram.com/developer/clients/manage/'> client </a></p>
+          <p> In 'Valid redirect URIs:' enter the link below</p>
+          <p> Go to the created client (Manage button)</p>
+          <p> Enter the client data in the form below</p>
