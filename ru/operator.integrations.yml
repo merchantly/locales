@@ -169,8 +169,10 @@ ru:
           no_access:  Склады доступны только при наличии связи с МоимСкладом
       instagram:
         settings: |
-          <p> В instagram создайте <a href='https://www.instagram.com/developer/'> приложение </a>  </p>
-          <p> Далее создайте нового <a href='https://www.instagram.com/developer/clients/manage/'> клиента </a></p>
-          <p> В 'Valid redirect URIs:' вписывайте ссылку, указанная ниже </p>
-          <p> Зайдите в созданный клиент (Кнопка Manage) </p>
+          <p> В instagram создаем <a href='https://www.instagram.com/developer/'> приложение </a>  </p>
+          <p> Далее создаем нового <a href='https://www.instagram.com/developer/clients/manage/'> клиента </a></p>
+          <p> В 'Valid redirect URIs:' вписываем ссылку, указанная ниже </p>
+          <p> Заходим в созданный клиент (Кнопка Manage) </p>
           <p> Вводим данные клиента в форму ниже </p>
+          <p> Сохраняем </p>
+          <p> Нажимаем кнопку 'Авторизироваться в Instagram'</p>
