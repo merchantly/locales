@@ -299,6 +299,8 @@ en:
         russian_post_key: 'Authorization Key (Without Basic)'
         fragile: 'Caution/Fragile'
         russian_post_mail_direct: 'Country code. You can leave it empty if it is Russia (643)'
+        russian_post_mail_category: Category RPO
+        russian_post_mail_type: Type RPO
         yandex_search_delivery_list_api_key: 'API key (searchDeliveryList)'
         yandex_delivery_client_id: 'Account ID'
         yandex_delivery_sender_id: 'Store ID'

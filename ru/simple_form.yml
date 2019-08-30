@@ -296,6 +296,8 @@ ru:
         russian_post_key: 'Ключ авторизации (Без Basic)'
         fragile: 'Осторожно/Хрупкое'
         russian_post_mail_direct: 'Код страны. Можете оставить пустым если это Россия(643)'
+        russian_post_mail_category: Категория РПО
+        russian_post_mail_type: Вид РПО
         yandex_search_delivery_list_api_key: 'API ключ (searchDeliveryList)'
         yandex_delivery_client_id: 'Идентификатор аккаунта'
         yandex_delivery_sender_id: 'Идентификатор магазина'

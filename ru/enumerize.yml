@@ -166,6 +166,35 @@ ru:
         todoor: Курьер
         pickup: Точка самовывоза
         post: Почта России
+      russian_post_mail_category:
+        SIMPLE:  Простое
+        ORDERED: Заказное
+        ORDINARY:  Обыкновенное
+        WITH_DECLARED_VALUE: С объявленной ценностью
+        WITH_DECLARED_VALUE_AND_CASH_ON_DELIVERY: С объявленной ценностью и наложенным платежом
+        WITH_DECLARED_VALUE_AND_COMPULSORY_PAYMENT: С объявленной ценностью и обязательным платежом
+        WITH_COMPULSORY_PAYMENT: С обязательным платежом
+      russian_post_mail_type:
+        POSTAL_PARCEL: Посылка "нестандартная"
+        ONLINE_PARCEL: Посылка "онлайн"
+        ONLINE_COURIER:  Курьер "онлайн"
+        EMS: Отправление EMS
+        EMS_OPTIMAL: EMS оптимальное
+        EMS_RT:  EMS РТ
+        EMS_TENDER:  EMS тендер
+        LETTER:  Письмо
+        LETTER_CLASS_1:  Письмо 1-го класса
+        BANDEROL:  Бандероль
+        BUSINESS_COURIER:  Бизнес курьер
+        BUSINESS_COURIER_ES: Бизнес курьер экпресс
+        PARCEL_CLASS_1:  Посылка 1-го класса
+        BANDEROL_CLASS_1:  Бандероль 1-го класса
+        VGPO_CLASS_1:  ВГПО 1-го класса
+        SMALL_PACKET:  Мелкий пакет
+        EASY_RETURN: Легкий возврат
+        VSD: Отправление ВСД
+        ECOM:  ЕКОМ
+        COMBINED:  Комбинированное
     coupon_image:
       align:
         none: Нет

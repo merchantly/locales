@@ -166,6 +166,35 @@ en:
         todoor: Courier
         pickup: Pickup point
         post: Post of Russia
+      russian_post_mail_category:
+        SIMPLE: Simple
+        ORDERED: Custom
+        ORDINARY: Ordinary
+        WITH_DECLARED_VALUE: Declared Value
+        WITH_DECLARED_VALUE_AND_CASH_ON_DELIVERY: Declared value and cash on delivery
+        WITH_DECLARED_VALUE_AND_COMPULSORY_PAYMENT: With declared value and mandatory payment
+        WITH_COMPULSORY_PAYMENT: Mandatory payment
+      russian_post_mail_type:
+        POSTAL_PARCEL: Parcel "non-standard"
+        ONLINE_PARCEL: Online Package
+        ONLINE_COURIER: Online courier
+        EMS: EMS Shipment
+        EMS_OPTIMAL: EMS is optimal
+        EMS_RT: EMS RT
+        EMS_TENDER: EMS tender
+        LETTER: Letter
+        LETTER_CLASS_1: 1st Grade Letter
+        BANDEROL: Parcel Post
+        BUSINESS_COURIER: Business Courier
+        BUSINESS_COURIER_ES: Business courier express
+        PARCEL_CLASS_1: 1st class package
+        BANDEROL_CLASS_1: 1st Class Parcel Post
+        VGPO_CLASS_1: VGPO 1st grade
+        SMALL_PACKET: Small Package
+        EASY_RETURN: Easy Return
+        VSD: Departure VSD
+        ECOM: ECOM
+        COMBINED: Combined
     coupon_image:
       align:
         none: No
