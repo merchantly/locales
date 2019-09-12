@@ -23,25 +23,25 @@ en:
       subject: "Registered new store %{brand_name_e} from Kazahstan"
   vendor_mailer:
     unpublish:
-      subject: "Kiiiosk.ru: Store %{host} unfolded"
+      subject: "kiiiosk.store: Store %{host} unfolded"
     negative_balance:
-      subject: "Kiiiosk.ru: Negative balance in the account at the store %{host}"
+      subject: "kiiiosk.store: Negative balance in the account at the store %{host}"
     balance_refill:
-      subject: "Kiiiosk.ru: Top up balance in the store %{host}"
+      subject: "kiiiosk.store: Top up balance in the store %{host}"
     balance_subtract:
-      subject: "Kiiiosk.ru: Write-off balance in store %{host}"
+      subject: "kiiiosk.store: Write-off balance in store %{host}"
     need_payment:
-      subject: "Kiiiosk.ru: You must pay at the rate in the store %{host}"
+      subject: "kiiiosk.store: You must pay at the rate in the store %{host}"
     not_enough_sms_money:
-      subject: 'Kiiiosk.ru: Insufficient funds to send SMS in the %{host} store'
+      subject: 'kiiiosk.store: Insufficient funds to send SMS in the %{host} store'
     sms_money_limit_reached:
-      subject: 'Kiiiosk.ru: Your SMS balance is approaching the shutdown threshold in the %{host} store'
+      subject: 'kiiiosk.store: Your SMS balance is approaching the shutdown threshold in the %{host} store'
     shop_will_archive:
-      subject: 'Kiiiosk.ru: Store {{vendor.home_url}} will be transferred to the archive'
+      subject: 'kiiiosk.store: Store {{vendor.home_url}} will be transferred to the archive'
     archive:
-      subject: 'Kiiiosk.ru: Store {{vendor.home_url}} will be transferred to the archive'
+      subject: 'kiiiosk.store: Store {{vendor.home_url}} will be transferred to the archive'
     analytics:
-      subject: 'Kiiiosk.ru: Weekly Store Analyst %{host}'
+      subject: 'kiiiosk.store: Weekly Store Analyst %{host}'
     registration:
       subject: 'Welcome'
     notify_shop_will_archive:

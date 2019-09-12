@@ -23,25 +23,25 @@ ru:
       subject: "Зарегистрировался новый магазин на %{brand_name_e} из Казахстана"
   vendor_mailer:
     unpublish:
-      subject: "Kiiiosk.ru: Магазин %{host} снят с публикации"
+      subject: "kiiiosk.store: Магазин %{host} снят с публикации"
     negative_balance:
-      subject: "Kiiiosk.ru: Отрицательный баланс на счету в магазине %{host}"
+      subject: "kiiiosk.store: Отрицательный баланс на счету в магазине %{host}"
     balance_refill:
-      subject: "Kiiiosk.ru: Пополнение баланса в магазине %{host}"
+      subject: "kiiiosk.store: Пополнение баланса в магазине %{host}"
     balance_subtract:
-      subject: "Kiiiosk.ru: Списание баланса в магазине %{host}"
+      subject: "kiiiosk.store: Списание баланса в магазине %{host}"
     need_payment:
-      subject: "Kiiiosk.ru: Необходимо произвести оплату по тарифу в магазине %{host}"
+      subject: "kiiiosk.store: Необходимо произвести оплату по тарифу в магазине %{host}"
     not_enough_sms_money:
-      subject: 'Kiiiosk.ru: Недостаточно средств для отправки SMS в магазине %{host}'
+      subject: 'kiiiosk.store: Недостаточно средств для отправки SMS в магазине %{host}'
     sms_money_limit_reached:
-      subject: 'Kiiiosk.ru: Ваш SMS баланс приближается к порогу отключения в магазине %{host}'
+      subject: 'kiiiosk.store: Ваш SMS баланс приближается к порогу отключения в магазине %{host}'
     shop_will_archive:
-      subject: 'Kiiiosk.ru: Магазин {{vendor.home_url}} будет перенесен в архив'
+      subject: 'kiiiosk.store: Магазин {{vendor.home_url}} будет перенесен в архив'
     archive:
-      subject: 'Kiiiosk.ru: Магазин {{vendor.home_url}} был перенесен в архив'
+      subject: 'kiiiosk.store: Магазин {{vendor.home_url}} был перенесен в архив'
     analytics:
-      subject: 'Kiiiosk.ru: Еженедельная аналитика по магазину %{host}'
+      subject: 'kiiiosk.store: Еженедельная аналитика по магазину %{host}'
     registration:
       subject: 'Добро пожаловать'
     notify_shop_will_archive:

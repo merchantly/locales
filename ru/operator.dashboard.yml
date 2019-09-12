@@ -3,13 +3,13 @@ ru:
     dashboard:
       help:
         title: Оформите дизайн магазина
-        body: Пишите <a title="support@kiiiosk.ru" href="mailto:support@kiiiosk.ru">support@kiiiosk.ru</a> Звоните <a href="tel:88007755661">8 (800) 77-55-661</a>.</br><a target="_blank" title="Частые вопросы" href="http://feedback.kiiiosk.ru">Частые вопросы</a>, <a target="_blank" title="" tooltip="true" href="https://www.facebook.com/kiiiosk">Facebook</a>, <a target="_blank" title="" tooltip="true" href="https://vk.com/kiiiosk">VK</a>
+        body: Пишите <a title="support@kiiiosk.store" href="mailto:support@kiiiosk.store">support@kiiiosk.store</a> Звоните <a href="tel:88007755661">8 (800) 77-55-661</a>.</br><a target="_blank" title="Частые вопросы" href="http://feedback.kiiiosk.store">Частые вопросы</a>, <a target="_blank" title="" tooltip="true" href="https://www.facebook.com/kiiiosk">Facebook</a>, <a target="_blank" title="" tooltip="true" href="https://vk.com/kiiiosk">VK</a>
       pages:
         title: Добавьте товары
         body: Вы наверняка хотите рассказать о своем магазине, историю того как вы начинали, просто <a href="/operator/content_pages" target=_blank>создайте страницу</a> с контактами или “о нас” и разместите ее в  <a href="/operator/menu_items" target=_blank>меню</a>.
       pay:
         title: Подключите оплату
-        body: Выберите удобные <a href="/operator/vendor_payments" target=_blank>способы приема оплаты</a>, наличными, картой на сайте или перечислением. Подробные инструкции по подключению платежных систем в <a href="https://feedback.kiiiosk.ru/knowledge-bases/4-obschie-voprosyi/categories/11-priem-oplatyi/articles" target=_blank>базе знаний</a>. Если собираетесь принимать оплату на сайте как физическое  лицо, используйте оплату на <a href="https://feedback.kiiiosk.ru/knowledge-bases/4/articles/85-priem-oplatyi-dlya-fizlitsa" target=_blank>яндекс-кошелек</a>.
+        body: Выберите удобные <a href="/operator/vendor_payments" target=_blank>способы приема оплаты</a>, наличными, картой на сайте или перечислением. Подробные инструкции по подключению платежных систем в <a href="https://feedback.kiiiosk.store/knowledge-bases/4-obschie-voprosyi/categories/11-priem-oplatyi/articles" target=_blank>базе знаний</a>. Если собираетесь принимать оплату на сайте как физическое  лицо, используйте оплату на <a href="https://feedback.kiiiosk.store/knowledge-bases/4/articles/85-priem-oplatyi-dlya-fizlitsa" target=_blank>яндекс-кошелек</a>.
       del:
         title: Настройте доставку
         body: Если у вас есть курьеры и вы понимаете как и куда будете доставлять товар, то просто создайте <a href="/operator/vendor_deliveries" target=_blank>способы доставки</a>, укажите стоимость и опишите условия. Если нет, напишите нам, мы подскажем.

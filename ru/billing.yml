@@ -1,6 +1,6 @@
 ru:
   billing:
-    default_invoice_title: 'Модификация программы ЭВМ (kiiiosk.ru)'
+    default_invoice_title: 'Модификация программы ЭВМ (kiiiosk.store)'
     attach_tariff: "Установили тариф \"%{tariff}\""
     paid_since: "Оплачено с %{current_paid_to}"
     paid_since_to: "Оплачено с %{current_paid_to} по %{next_paid_to}"

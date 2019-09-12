@@ -23,25 +23,25 @@ ar_SA:
       subject: "تم تسجيل متجر جديد %{brand_name_e} من كازاخستان"
   vendor_mailer:
     unpublish:
-      subject: "Kiiiosk.ru: تم فتح المتجر %{host} "
+      subject: "kiiiosk.store: تم فتح المتجر %{host} "
     negative_balance:
-      subject: "Kiiiosk.ru: رصيد سلبي في الحساب في المتجر %{host}"
+      subject: "kiiiosk.store: رصيد سلبي في الحساب في المتجر %{host}"
     balance_refill:
-      subject: "Kiiiosk.ru: زيادة الرصيد في المتجر %{host}"
+      subject: "kiiiosk.store: زيادة الرصيد في المتجر %{host}"
     balance_subtract:
-      subject: "Kiiiosk.ru: رصيد الشطب في المتجر %{host}"
+      subject: "kiiiosk.store: رصيد الشطب في المتجر %{host}"
     need_payment:
-      subject: "Kiiiosk.ru: يجب أن تدفع بالسعر في المتجر %{host}"
+      subject: "kiiiosk.store: يجب أن تدفع بالسعر في المتجر %{host}"
     not_enough_sms_money:
-      subject: 'Kiiiosk.ru: الرصيد غير كافي لإرسال رسائل نصية في المتجر %{host}'
+      subject: 'kiiiosk.store: الرصيد غير كافي لإرسال رسائل نصية في المتجر %{host}'
     sms_money_limit_reached:
-      subject: 'Kiiiosk.ru: يقترب رصيد الرسائل النصية الخاص بك من الحد الأدنى للإغلاق في المتجر %{host}'
+      subject: 'kiiiosk.store: يقترب رصيد الرسائل النصية الخاص بك من الحد الأدنى للإغلاق في المتجر %{host}'
     shop_will_archive:
-      subject: 'Kiiiosk.ru: المتجر {{vendor.home_url}} سيتم نقله إلى الأرشيف'
+      subject: 'kiiiosk.store: المتجر {{vendor.home_url}} سيتم نقله إلى الأرشيف'
     archive:
-      subject: 'Kiiiosk.ru: المتجر {{vendor.home_url}} سيتم نقله إلى الأرشيف'
+      subject: 'kiiiosk.store: المتجر {{vendor.home_url}} سيتم نقله إلى الأرشيف'
     analytics:
-      subject: 'Kiiiosk.ru: محلل المتجر الأسبوعي %{host}'
+      subject: 'kiiiosk.store: محلل المتجر الأسبوعي %{host}'
     registration:
       subject: 'أهلا بك'
     notify_shop_will_archive:
