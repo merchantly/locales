@@ -6,13 +6,13 @@ ru:
     merchant:
       new_order: Поступил заказ
       paid: Заказ оплачен
-      workflow_changed: Заказ изменил статус
+      workflow_changed: Бизнес процессы (изменение статуса)
       run_out: Закончился товар
     client:
       payment_link: Ссылка на оплату
       new_order: Оформлен заказ
       paid: Заказ оплачен
-      workflow_changed: Заказ изменил статус
+      workflow_changed: Бизнес процессы (изменение статуса)
       delivery_expired: Просрочена оплата
       reminder_payment: 'Напоминание о платеже'
       client_category_changed: Изменение категории клиента
