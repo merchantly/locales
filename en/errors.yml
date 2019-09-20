@@ -121,6 +121,7 @@ en:
         few: "Coupon %{coupon_code} is only for ordering from %{count} of goods"
         many: "Coupon %{coupon_code} is only for ordering from %{count} of goods"
         other: "Coupon %{coupon_code} is only for ordering from %{count} of goods"
+      minimal_order_total_price_coupon: 'Minimal order total price for coupon: %{total_price}'
     order_form:
       cart_empty: Cart empty
     invite:

@@ -792,6 +792,7 @@ en:
           minimal_products_count: 'Leave blank for any amount'
           is_check_address: 'If an order has been placed at the client’s address, the coupon will not be applied'
         restrictions: 'Restrictions on categories and products:'
+        minimal_order_total_price: 'Minimal order total_price'
       search: 'Search'
       reset: Reset
       actions:

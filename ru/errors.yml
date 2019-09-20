@@ -121,6 +121,7 @@ ru:
         few: Купон %{coupon_code} предназначен только для заказа от %{count} товаров
         many: Купон %{coupon_code} предназначен только для заказа от %{count} товаров
         other: Купон %{coupon_code} предназначен только для заказа от %{count} товаров
+      minimal_order_total_price_coupon: 'Минимальная сумма заказа для купона: %{total_price}'
     order_form:
       cart_empty: Корзина пуста
     invite:
