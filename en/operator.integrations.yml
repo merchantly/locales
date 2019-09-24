@@ -95,6 +95,9 @@ en:
       kassatka:
         site: 'Go to site kassatka.me'
         settings: 'Select payment method'
+      aqsi:
+        site: 'Go to site aqsi.me'
+        settings: 'Select payment method'
       life_pay:
         site: 'Go to life-pay.ru'
         settings: 'Select a payment method, and specify in its settings online cashier access to life-pay.ru'

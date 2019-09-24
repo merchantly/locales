@@ -75,3 +75,9 @@ en:
     Kassatka::Requestor::ResponseError:
       subject: 'Kassatka error'
       text: '%{error}'
+    Aqsi::Requestor::ClientKeyEmptyError:
+      subject: 'Aqsi error'
+      text: 'Client key is not set '
+    Aqsi::Requestor::ResponseError:
+      subject: 'Aqsi error'
+      text: '%{error}'

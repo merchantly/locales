@@ -116,6 +116,7 @@ ru:
         starrys: 'Через starrys.ru'
         life_pay: 'Через life-pay.ru'
         kassatka: 'Через kassatka.me'
+        aqsi: 'Через aqsi.ru'
       billing_account_options:
         main: 'Основной'
     products:

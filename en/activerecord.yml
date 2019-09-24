@@ -218,6 +218,8 @@ en:
         online_kassa_key: Key
         online_kassa_kassatka_address: IP
         online_kassa_kassatka_port: http port
+        online_kassa_aqsi_test: Test
+        online_kassa_aqsi_client_key: Client-key
         show_icon: Displaying the payment system icon during checkout
         robokassa_login: Store ID
         robokassa_first_password: Password#1

@@ -75,3 +75,9 @@ ru:
     Kassatka::Requestor::ResponseError:
       subject: 'Ошибка Kassatka'
       text: '%{error}'
+    Aqsi::Requestor::ClientKeyEmptyError:
+      subject: 'Ошибка Aqsi'
+      text: 'Значение client key не установлено'
+    Aqsi::Requestor::ResponseError:
+      subject: 'Ошибка Aqsi'
+      text: '%{error}'
