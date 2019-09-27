@@ -31,3 +31,8 @@ en:
       title: '401 - Login failed'
       subject: '<b>401</b> - Login failed'
       content_html: ''
+
+    vendor_archived:
+      title: 'Store in the archive'
+      subject: 'The store is in the archive'
+      content_html: 'To restore it, use the link below'
