@@ -1034,6 +1034,7 @@ en:
         duplicate: 'Duplicate order'
         mail_template: 'Customer Letter Template'
         order_public_url: 'Order page on the site'
+        notify_online_kassa: 'Notify online kassa'
       delivery:
         city: City
         address: Address
