@@ -91,6 +91,7 @@ ru:
       unreserved: Заказ снят с резерва
       reserved: Заказ поставлен в резерв
       start_delivery: 'Доставка запущена'
+      online_kassa_notified: 'Онлайн касса уведомлена'
     products:
       created: Товар добавлен
       updated: Товар изменен
