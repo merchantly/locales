@@ -1,5 +1,8 @@
 en:
   system:
+    coupons:
+      marked_as_default: marked as default
+      mark_as_default: mark as default
     vendor_empty: 'Store empty'
     month_price: '%{currency} / month'
     create_shop: 'Create store'
