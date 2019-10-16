@@ -212,7 +212,7 @@ ru:
           custom_style_format: 'Формат стилей'
           custom_style: 'Дополнительные стили'
       vendor:
-        custom_max_order_similar_products_count: Максимальное количество продуктов одного вида в заказе
+        custom_max_order_similar_products_count: Максимальное количество продукта одного вида в заказе
         custom_max_order_items_count: Максимальное количество позиции в заказе
         moysklad_mirror_categories_tree: 'Зеркалировать дерево категорий из склада'
         show_similar_products: 'Показывать подобные товары'
