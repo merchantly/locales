@@ -89,6 +89,8 @@ ru:
         empty: 'В корзине нет товаров'
         minimal_price: 'Минимальная стоимость заказа составляет %{minimal_price}'
         not_ordering: 'В корзине лежат товары не доступные к заказу'
+        max_order_items_count: Кол-во позиции в заказе превышает ограничение в %{max_count}
+        max_order_similar_products_count: Кол-во товара одного вида в заказе превышает ограничение в %{max_count}
       coupon:
         not_found: 'Несуществующий промокод %{code}'
         expired: 'Промокод просрочен %{code}'

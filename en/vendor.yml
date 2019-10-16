@@ -89,6 +89,8 @@ en:
         empty: 'There are no products in the bin.'
         minimal_price: 'The minimum order value is %{minimal_price}'
         not_ordering: 'In the card are goods not available to order'
+        max_order_items_count: The number of items in the order exceeds the limit in %{max_count}
+        max_order_similar_products_count: The quantity of one type of product in the order exceeds the limit in %{max_count}
       coupon:
         not_found: 'Non-existing %{code} promo code'
         expired: 'Promo Code Overdue %{code}'
