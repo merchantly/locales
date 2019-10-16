@@ -1008,6 +1008,8 @@ ru:
           show_header_buttons_in_cart: 'Кнопка "Оформить заказ" будет дублироваться в шапке корзины'
           sorted_cart: 'Сортируемая корзина покупок'
           show_full_basket_count: 'По умолчанию отображается количество товарных позиций'
+          custom_max_order_similar_products_count: Maксимально - %{max}
+          custom_max_order_items_count: Maксимально - %{max}
     slug_resources:
       callout: Пути можно настроить на страницах редактирования ресурсов (товара, категории, текстовой страницы и тп)
     orders:

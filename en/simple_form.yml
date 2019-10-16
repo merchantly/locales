@@ -215,6 +215,8 @@ en:
           custom_style_format: 'Style format'
           custom_style: 'Additional styles'
       vendor:
+        custom_max_order_similar_products_count: Maximum number of products of one kind
+        custom_max_order_items_count: Maximum number of product positions
         moysklad_mirror_categories_tree: 'Mirror category tree from stock'
         vats_list: Available VAT rates (%)
         show_similar_products: 'Show similar products'

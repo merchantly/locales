@@ -1021,6 +1021,8 @@ en:
           show_header_buttons_in_cart: 'The button "Checkout" will be duplicated in the basket header'
           sorted_cart: 'Sortable shopping bag'
           show_full_basket_count: 'The default is the number of items'
+          custom_max_order_similar_products_count: Maximum - %{max}
+          custom_max_order_items_count: Maximum - %{max}
     slug_resources:
       callout: "Paths can be configured on resource editing pages (product, category, text page, etc.)"
     orders:
