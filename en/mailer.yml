@@ -21,6 +21,10 @@ en:
   partner_mailer:
     register_vendor:
       subject: "Registered new store %{brand_name_e} from Kazahstan"
+    registration:
+       subject: 'Affiliate Connection'
+    report:
+       subject: 'Monthly Affiliate Report'
   vendor_mailer:
     unpublish:
       subject: "kiiiosk.store: Store %{host} unfolded"

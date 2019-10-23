@@ -21,6 +21,10 @@ ru:
   partner_mailer:
     register_vendor:
       subject: "Зарегистрировался новый магазин на %{brand_name_e} из Казахстана"
+    registration:
+      subject: 'Подключение партнёрки'
+    report:
+      subject: 'Ежемесячный отчет по партнёрке'
   vendor_mailer:
     unpublish:
       subject: "kiiiosk.store: Магазин %{host} снят с публикации"
