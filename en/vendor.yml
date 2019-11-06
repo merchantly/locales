@@ -334,6 +334,8 @@ en:
       defaults:
         size: Size
         color: Colour
+      datetime:
+        format: %H:%M% %d-%m-%Y 
 
     pages:
       titles:

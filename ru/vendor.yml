@@ -338,6 +338,8 @@ ru:
       defaults:
         size: Размер
         color: Цвет
+      datetime:
+        format: %H:%M% %d-%m-%Y 
 
     pages:
       titles:
