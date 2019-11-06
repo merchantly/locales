@@ -25,7 +25,7 @@ en:
       run_out: 'Product ended'
       not_sellable: 'Not sold'
       no_quantity: 'Ended'
-
+      no_period_ordering: 'The sales period has not started or ended'
       fail: 'Not available for various reasons.'
 
     boolean:
