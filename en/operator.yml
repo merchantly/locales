@@ -246,6 +246,9 @@ en:
       access_keys: 'API access'
 
     th:
+      archived_css:
+        archive_css: Archived css
+        operator: Who changed
       sales_report:
         good_vat_percent: VAT rate, %
         article: Article
@@ -817,6 +820,7 @@ en:
         list: 'CSV Coupon List'
         unlimited: 'unlimited'
     css:
+      archives: Archive
       colors_link: 'Colors and Fonts'
       form:
         labels:

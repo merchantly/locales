@@ -246,6 +246,9 @@ ru:
       access_keys: 'Доступ к API'
 
     th:
+      archived_css:
+        archive_css: CSS
+        operator: Кто изменил
       vendor_jobs:
         id: ID
         created_at: Создано
@@ -804,6 +807,7 @@ ru:
         list: 'Список купонов в CSV'
         unlimited: 'бессрочная'
     css:
+      archives: Архив
       colors_link: 'Цвета и шрифты'
       form:
         labels:
