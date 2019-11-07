@@ -277,6 +277,7 @@ ru:
       text_blocks:
         title: Название текстового блока
       vendor:
+        time_zone: Часовой пояс
         not_archive: Не архивировать
         allow_system_notification: Системные уведомления включены
         show_currency_symbol: Показывать знак валюты в ценах
