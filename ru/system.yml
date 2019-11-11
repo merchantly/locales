@@ -2,7 +2,7 @@ ru:
   system:
     coupons:
       marked_as_default: По-умолчанию
-      mark_as_default: Пометить как дефолтный
+      mark_as_default: Использовать по-умолчанию
     vendor_empty: 'Магазин отсутствует'
     month_price: '%{currency} / мес'
     create_shop: 'Создать магазин'
