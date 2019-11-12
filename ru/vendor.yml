@@ -95,6 +95,7 @@ ru:
         not_found: 'Несуществующий промокод %{code}'
         expired: 'Промокод просрочен %{code}'
       order:
+        yandex_kassa_max_items_count: 'Слишком большое количество товара для Yandex Kassa. Максимально: %{max_count}'
         no_price_delivery: 'Стоимость доставки расчитывается после заказа'
         invalid_form: 'Заказ еще не принят, исправьте ошибки в форме'
         has_unorderable_goods: 'В заказе лежат недоступные товары'
