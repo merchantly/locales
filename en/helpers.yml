@@ -80,6 +80,7 @@ en:
       similar_product_select:  'Start typing the product name to add it.'
       other_products_select: 'Start typing the product name to add it.'
       union_items_select: 'Product name to add'
+      cart_recommended_products: 'Start typing the product name to add it.'
     custom_title:
       stock_title: "In stock: '%{title}'"
     favicons:

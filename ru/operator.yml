@@ -1002,8 +1002,11 @@ ru:
       empty: Нет таких страниц.
     order_operator_filters:
       add_button: 'Добавить фильтр'
+    cart_recommended_products:
+      title: 'Рекомендуемые товары на странице корзины'
     order_page:
       currency: 'Валюта'
+      cart_recommended_products: 'Рекомендуемые товары в корзине'
       form:
         include_blank:
           package_category: '(категория не установлена)'

@@ -1015,8 +1015,11 @@ en:
       empty: No such pages.
     order_operator_filters:
       add_button: 'Add filter'
+    cart_recommended_products:
+      title: 'Cart recommended products'
     order_page:
       currency: 'Currency'
+      cart_recommended_products: 'Cart recommended products'
       form:
         include_blank:
           package_category: '(category is not set)'
