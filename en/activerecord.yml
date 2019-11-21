@@ -279,6 +279,7 @@ en:
       text_blocks:
         title: Text block name
       vendor:
+        show_recommended_products_cart_button: Show 'Add to Cart' button
         time_zone: Time zone
         not_archive: Not archive
         allow_system_notification: Platform notifications enabled
