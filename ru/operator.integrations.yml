@@ -173,7 +173,8 @@ ru:
       instagram:
         settings: |
           <p> Для показа ленты фотографий из Instagram в подвале нужно использовать сторонние виджеты
-          <p> Рекомендуем Instagram feed от elfsight
-          <p> Заходим на <a href='https://elfsight.com/instagram-feed-instashow/create/'> elfsight.com </a></p>
-          <p> Выбираем тему, указываем username, регистрируемся
-          <p> Вставляем указанный скрипт в <a href='/operator/extra_html#footer'> подвал </a></p> сайта.
+          <p> Рекомендуем <b> Instagram Feed </b> от <b>Elfsight</b>
+          <p> 1) Заходим на <a target="_blank" href='https://elfsight.com/ru/instagram-feed-instashow/create/'> elfsight.com </a></p>
+          <p> 2) Выбираем тему, указываем username, регистрируемся
+          <p> 3) Вставляем указанный скрипт в <a href='/operator/extra_html#footer'> подвал </a> сайта</p>
+          <p> 4) Готово
