@@ -260,6 +260,7 @@ en:
       invalid: 'Coupon "%{value}" NOT valid'
       checking: 'Checking coupon..'
       error: 'Error checking coupon. Try again'
+      minimal_order_total_price: 'Minimum order amount %{total_price}'
 
     cart:
       basket_button: Cart

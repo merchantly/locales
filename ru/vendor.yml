@@ -261,6 +261,7 @@ ru:
       discount_products_exclude: 'кроме товаров: %{products}'
       discount_categories_exclude: 'кроме категорий: %{categories}'
       minimal_products_count: '. Не менее %{count} товаров'
+      minimal_order_total_price: 'Минимальная сумма заказа %{total_price}'
       invalid: 'Купон "%{value}" НЕ действующий'
       checking: 'Проверяю купон..'
       error: 'Ошибка при проверке купона. Попробуйте еще раз'
