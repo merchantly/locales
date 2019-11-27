@@ -1,14 +1,5 @@
 en:
   bells:
-    InstagramFeed::NoInstagramUserId:
-      subject: "Instagram User ID is not entered, but the Instagram feed is shown on the website."
-      text: "Enter the correct Instagram User ID in the store settings or disable feed"
-    InstagramFeed::NotFound:
-      subject: "No instagram found with ID% {instagram_user_id}"
-      text: "You have entered wrong Instagram User ID in the store settings"
-    InstagramFeed::NoInstagramAccessToken:
-      subject: 'You are not logged in via Instagram or the token has expired'
-      text: 'Log in to Instagram settings or update it'
     Moysklad::Client::ResourceForbidden:
       subject: 'Automatic import of goods from MyStock disabled'
       text: "There is no access to import goods from MyStock.\nObviously, you didn’t activate the tariff in MoiSklad.ru that allows you to work with the API or your user (%{login}) does not have enough rights."
@@ -27,9 +18,6 @@ en:
     convead_invalid_or_outdate:
       subject: 'Connection to convead.io is wrong or outdated'
       text: 'You entered an incorrect app_key (%{convead_app_key}) or did not pay for convead.io services. Integration is disabled'
-    OpenURI::HTTPError:
-      subject: 'Invalid Instagram username'
-      text: 'You have entered an incorrect Instagram username (%{username}) '
     PayPal::InvalidByteError:
       subject: 'Payment acceptance Error'
       text: 'Enter UTF-8 encoding in additional features in your PayPal account settings'

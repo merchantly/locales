@@ -523,7 +523,6 @@ en:
       general_settings: 'General settings'
       show_cart_button_in_list: 'Display the button "Add to cart" in the list of goods'
       show_quantity_in_list: 'Display the quantity entry field in the product list'
-      main_page_instagram: "Instagram gallery below"
       main_page_banner: "Banner on top"
       walletone_widget: "W1 widget bottom"
       style: 'Style'

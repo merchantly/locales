@@ -189,8 +189,3 @@ en:
             good_id: GlobalID of product
       user_requests:
         desc: Connection requests
-      instagram:
-        feed:
-          desc: Instagram feed
-          params:
-            limit: Number of images

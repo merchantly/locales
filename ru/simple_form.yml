@@ -245,7 +245,6 @@ ru:
           custom_style: 'Дополнительные стили'
           category_filter_visible: 'Показывать фильтр в категории'
           mainpage_filter_visible: 'Показывать фильтр на главной странице'
-          instagram_visible: Показывать ленту фотографий из Instagram в подвале
           banner_visible: Показывать промо-сообщение
           slider_visible: Показывать слайдер
           show_similar_products: Показывать подобные товары
@@ -587,7 +586,6 @@ ru:
         contacts: 'Телефоны или emails, построчно'
         order_notification_emails: 'E-mails построчно'
         order_notification_phones: 'Телефоны построчно, например: +79033891228'
-        instagram_user_id: 'Это не имя пользователя, а его идентификатор. <a href="http://jelled.com/instagram/lookup-user-id" target="_blank">Как узнать свой user_id в Instagram? (вводите точное имя, строчные и прописные быквы имют разное значение).</a>'
         logo: >
           Можно загружать файлы с расширениями <strong>%{ext}</strong>
         favicons: >

@@ -361,7 +361,6 @@ ru:
         available_currencies: Дополнительные валюты
         stock_on?: Мой склад
         is_published: Опубликован?
-        instagram_user_id: Instagram User Id
         run_out_message: Сообщение о проданном товаре
         package_category_id: Категория c упаковками
         show_cart_button_in_list: Отображать кнопку "В корзину" в списке товаров
@@ -386,10 +385,7 @@ ru:
         last_success_order_at: Последний заказ
         last_payment_at: Дата последней оплаты клиентом
         registration_at: Дата регистрации
-        instagram_client_id: Client ID
-        instagram_client_secret: Client Secret
         partner_coupon: Купон
-        instagram_username: Имя пользователя в Instagram
         show_full_basket_count: Общее количество товаров в виджете корзины
         sorted_cart: "Сортировка корзины"
         tariff: 'Тариф'
@@ -446,7 +442,6 @@ ru:
         custom_style: 'Дополнительные стили'
         category_filter_visible: 'Показывать фильтр товаров в категориях'
         mainpage_filter_visible: 'Показывать фильтр товаров на главной странице'
-        instagram_visible: Показывать ленту фотографий из Instagram в подвале
         banner_visible: Показывать баннер
         slider_visible: Показывать слайдер
         show_similar_products: Отображение подобных товаров

@@ -363,7 +363,6 @@ en:
         available_currencies: Additional currencies
         stock_on?: My stock
         is_published: "Published?"
-        instagram_user_id: Instagram User Id
         run_out_message: Message about the sold products
         package_category_id: Packing category
         show_cart_button_in_list: Display the button "Add to cart" in the list of products
@@ -388,10 +387,7 @@ en:
         last_success_order_at: Last order
         last_payment_at: Date of last payment by the client
         registration_at: Date of registration
-        instagram_client_id: Client ID
-        instagram_client_secret: Client Secret
         partner_coupon: Coupon
-        instagram_username: Instagram username
         show_full_basket_count: The total number of items in the cart widget
         sorted_cart: "Sorting \"Add to cart\""
         tariff: 'Tariff'
@@ -446,7 +442,6 @@ en:
         custom_style: 'Additional styles'
         category_filter_visible: 'Show product filter in categories'
         mainpage_filter_visible: 'Show product filter on homepage'
-        instagram_visible: Show Instagram photos from Instagram
         banner_visible: Show banner
         slider_visible: Show slider
         show_similar_products: Display of similar products

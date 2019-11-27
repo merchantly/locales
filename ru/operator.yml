@@ -64,7 +64,6 @@ ru:
     toggle_theme_button:
       slider_visible: Показывать слайдер
       has_auto_menu: Автоматическое меню
-      instagram_visible: Показывать Instagram в подвале
       banner_visible: Показывать сообщение на сайте
 
     bells_count:
@@ -156,7 +155,6 @@ ru:
 
     omniauth_buttons:
       vkontakte: 'Авторизоваться во Вконтакте'
-      instagram: 'Авторизоваться в Instagram'
       facebook: 'Авторизоваться в Facebook'
 
     second_sidebar_headers:

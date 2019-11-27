@@ -527,7 +527,6 @@ ru:
       general_settings: 'Общие настройки'
       show_cart_button_in_list: 'Отображать кнопку "В корзину" в списке товаров'
       show_quantity_in_list: 'Отображать поле ввода количества в списке товаров'
-      main_page_instagram: "Галерея Instagram снизу"
       main_page_banner: "Баннер сверху"
       walletone_widget: "Виджет W1 снизу"
       style: 'Стиль'

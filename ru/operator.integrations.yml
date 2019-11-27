@@ -172,10 +172,8 @@ ru:
           no_access:  Склады доступны только при наличии связи с МоимСкладом
       instagram:
         settings: |
-          <p> В instagram создаем <a href='https://www.instagram.com/developer/'> приложение </a>  </p>
-          <p> Далее создаем нового <a href='https://www.instagram.com/developer/clients/manage/'> клиента </a></p>
-          <p> В 'Valid redirect URIs:' вписываем ссылку, указанная ниже </p>
-          <p> Заходим в созданный клиент (Кнопка Manage) </p>
-          <p> Вводим данные клиента в форму ниже </p>
-          <p> Сохраняем </p>
-          <p> Нажимаем кнопку 'Авторизироваться в Instagram'</p>
+          <p> Для показа ленты фотографий из Instagram в подвале нужно использовать сторонние виджеты
+          <p> Рекомендуем Instagram feed от elfsight
+          <p> Заходим на <a href='https://elfsight.com/instagram-feed-instashow/create/'> elfsight.com </a></p>
+          <p> Выбираем тему, указываем username, регистрируемся
+          <p> Вставляем указанный скрипт в <a href='/operator/extra_html#footer'> подвал </a></p> сайта.

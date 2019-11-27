@@ -1,14 +1,5 @@
 ru:
   bells:
-    InstagramFeed::NoInstagramUserId:
-      subject: "Не указан Instagram User ID, однако компонент Instagram показывается на сайте"
-      text: "Укажите в настройках магазина правильный Instagram User ID или отключите компонент"
-    InstagramFeed::NotFound:
-      subject: "Не найден instagram с ID %{instagram_user_id}"
-      text: "В настройках магазина указан не существующий Instagram User ID"
-    InstagramFeed::NoInstagramAccessToken:
-      subject: 'Вы не авторизированы через Instagram или срок действия токена истек'
-      text: 'Авторизируйтесь в настройках Instagram или обновите его'
     Moysklad::Client::ResourceForbidden:
       subject: 'Автоматический импорт товаров из МойСклад отключен'
       text: "Нет доступа к возможности импортировать товары из МойСклад.\nОчевидно Вы не подключили в МойСклад.ru тариф, позволяющий работать с API или у Вашего пользователя (%{login}) не достаточно прав."
@@ -27,9 +18,6 @@ ru:
     convead_invalid_or_outdate:
       subject: 'Подключение к convead.io неверное или устарело'
       text: 'Скорее всего вы указали не правильный app_key (%{convead_app_key}) или не оплатили услуги convead.io. Интеграция отключена'
-    OpenURI::HTTPError:
-      subject: 'Неверное имя пользователя instagram'
-      text: 'Скорее всего вы указали не верное имя пользователя (%{username}) для Instagram'
     PayPal::InvalidByteError:
       subject: 'Ошибка принятия платежа PayPal'
       text: 'Укажите в настройках аккаунта PayPal кодировку UTF-8 в дополнительных возможностях'

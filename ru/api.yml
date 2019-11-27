@@ -189,8 +189,3 @@ ru:
             good_id: GlobalID товара
       user_requests:
         desc: Запросы на подключение
-      instagram:
-        feed:
-          desc: Лента Instagram
-          params:
-            limit: Количество изображений

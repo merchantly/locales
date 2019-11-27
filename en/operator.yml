@@ -64,7 +64,6 @@ en:
     toggle_theme_button:
       slider_visible: Show slider
       has_auto_menu: Automatic menu
-      instagram_visible: Show Instagram photos from Instagram in the end of page
       banner_visible: Show message on site
 
     bells_count:
@@ -156,7 +155,6 @@ en:
 
     omniauth_buttons:
       vkontakte: 'Log in to VK'
-      instagram: 'Log in to Instagram'
       facebook: 'Facebook authorisation '
 
     second_sidebar_headers:

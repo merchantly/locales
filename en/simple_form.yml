@@ -248,7 +248,6 @@ en:
           custom_style: 'Additional styles'
           category_filter_visible: 'Show filter in category'
           mainpage_filter_visible: 'Show filter on homepage'
-          instagram_visible: Show Instagram photos from Instagram in the end of page
           banner_visible: Show promotional message
           slider_visible: Show slider
           show_similar_products: Show similar products
@@ -589,7 +588,6 @@ en:
         contacts: 'Phones or emails, line by line'
         order_notification_emails: 'E-mails line by line'
         order_notification_phones: 'Phones line by line, for example: +9669033891228'
-        instagram_user_id: 'This is not a user name, and its ID. <a href="http://jelled.com/instagram/lookup-user-id" target="_blank">How to find out your user_id on Instagram? (enter the exact name, lowercase and uppercase letters have different meanings).</a>'
         logo: >
           You can upload files with extensions <strong>%{ext}</strong>
         favicons: >
