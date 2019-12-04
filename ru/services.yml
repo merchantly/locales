@@ -29,7 +29,7 @@ ru:
 
     vendor_notifications:
       partner_incoming:
-        sms_text: '%{name}, партнерский баланс в kiiosk.ru пополнен на %{amount}. Текущий баланс: %{current_amount}'
+        sms_text: "%{name}, партнерский баланс в %{brand} пополнен на %{amount}. Описание: '%{details}'. Купон: %{coupon_code}. Процент: %{coupon_percent}%. Текущий баланс: %{current_amount}."
       not_enough_sms_money:
         sms_text: '%{url}: Недостаточно средств для отправки SMS'
       sms_money_limit_reached:
