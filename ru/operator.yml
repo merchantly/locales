@@ -1000,11 +1000,8 @@ ru:
       empty: Нет таких страниц.
     order_operator_filters:
       add_button: 'Добавить фильтр'
-    cart_recommended_products:
-      title: 'Рекомендуемые товары на странице корзины'
     order_page:
       currency: 'Валюта'
-      cart_recommended_products: 'Рекомендуемые товары в корзине'
       form:
         include_blank:
           package_category: '(категория не установлена)'
@@ -1293,6 +1290,10 @@ ru:
       restore_password: Восстановить
     slug_redirects:
       empty: Нет установленных редиректов
+    recommended_products:
+      callout: |
+        На этой странице редактируются список рекомендуемых товаров для блога и корзины.</br>
+        Чтобы добавить рекомендуемые товары для конкретного товара(блог-поста). перейдите на страницу редактирования товара(блог-поста).
     blog_post:
       prev_post: Предыдущий пост
       next_post: Следующий пост
@@ -1601,6 +1602,11 @@ ru:
         title: Виды цен
         details_html: |
           <p>Виды цен</p>
+      recommended_products:
+        url: operator_recommended_products_path
+        title: Рекомендуемые товары
+        details_html:
+          <p> Настройки рекомендуемых товаров </p>
     translations:
       value_redefined: 'Значение переопределено'
     vendor_deliveries:

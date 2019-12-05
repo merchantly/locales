@@ -80,7 +80,7 @@ ru:
       similar_product_select:  'Начните вводить наименование товара чтобы его добавить'
       other_products_select: 'Начните вводить наименование товара чтобы его добавить'
       union_items_select: 'Название товара для добавления'
-      cart_recommended_products_select: 'Начните вводить наименование товара чтобы его добавить'
+      recommended_products_select: 'Начните вводить наименование товара чтобы его добавить'
     custom_title:
       stock_title: "На складе: '%{title}'"
     favicons:

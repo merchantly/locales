@@ -1,6 +1,9 @@
 en:
   operator:
     pages:
+      recommended_products:
+        show:
+          title_html: Recommended products
       sales_reports:
         show:
           title_html: Sales reports

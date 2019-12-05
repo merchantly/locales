@@ -1,6 +1,9 @@
 ru:
   operator:
     pages:
+      recommended_products:
+        show:
+          title_html: Рекомендуемые товары
       price_kinds:
         index:
           title_html: Виды цен

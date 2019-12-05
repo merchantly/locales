@@ -1013,11 +1013,10 @@ en:
       empty: No such pages.
     order_operator_filters:
       add_button: 'Add filter'
-    cart_recommended_products:
-      title: 'Cart recommended products'
+    recommended_products:
+      title: 'Recommended products'
     order_page:
       currency: 'Currency'
-      cart_recommended_products: 'Cart recommended products'
       form:
         include_blank:
           package_category: '(category is not set)'
@@ -1306,6 +1305,10 @@ en:
       restore_password: Restore
     slug_redirects:
       empty: No redirects installed
+    recommended_products:
+      callout: |
+        This page edits the list of recommended products for the blog and the cart.</br>
+        To add recommended products for a specific product (blog post). go to the product edit page (blog post).
     blog_post:
       prev_post: Previous post
       next_post: Next post

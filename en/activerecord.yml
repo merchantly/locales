@@ -279,6 +279,8 @@ en:
       text_blocks:
         title: Text block name
       vendor:
+        show_recommended_products_in_blog: Show on blog page
+        show_recommended_products_in_cart: Show on cart page
         show_recommended_products_cart_button: Show 'Add to Cart' button
         time_zone: Time zone
         not_archive: Not archive

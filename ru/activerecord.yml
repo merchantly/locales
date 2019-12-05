@@ -277,6 +277,8 @@ ru:
       text_blocks:
         title: Название текстового блока
       vendor:
+        show_recommended_products_in_blog: Показывать на странице блога
+        show_recommended_products_in_cart: Показывать на странице корзины
         show_recommended_products_cart_button: Показывать кнопку 'В корзину'
         time_zone: Часовой пояс
         not_archive: Не архивировать
