@@ -758,11 +758,13 @@ en:
       settings:
         subscriptions: 'Client Subscriptions'
         rfm: 'RFM Analysis'
-        signup: 'Registration Settings'
+        client_settings: 'Client Settings'
         client_categories: 'Customer categories'
         archive: "Customer Archive (%{count})"
-      signup_settings:
-        title: Client registration and authorization settings
+      client_settings:
+        authorization: Authorization
+        registration: Registration
+        cabinet: Personal account
         add_occupation: Add profession
     color:
       subtitle: These settings are available in the interactive design component.

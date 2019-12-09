@@ -745,11 +745,13 @@ ru:
       settings:
         subscriptions: 'Клиентские подписки'
         rfm: 'RFM-Анализ'
-        signup: 'Настройки регистрации'
+        client_settings: 'Настройки клиента'
         client_categories: 'Категории клиентов'
         archive: Архив клиентов (%{count})
-      signup_settings:
-        title: Настройки регистрации и авторизации клиента
+      client_settings:
+        authorization: Авторизация
+        registration: Регистрация
+        cabinet: Личный кабиент
         add_occupation: Добавить профессию
     color:
       subtitle: Эти настройки доступны в компоненте интерактивного дизайна
