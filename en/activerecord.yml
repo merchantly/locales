@@ -279,6 +279,7 @@ en:
       text_blocks:
         title: Text block name
       vendor:
+        client_authorization_type: Client authorization type
         show_cabinet_legal_form: Show the form of company details in the personal account of the client
         show_recommended_products_in_blog: Show on blog page
         show_recommended_products_in_cart: Show on cart page

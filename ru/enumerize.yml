@@ -142,6 +142,10 @@ ru:
         no_presence: Не запрашивать
         presence: Запрашивать/необязательно
         required: Запрашивать/обязательно
+      client_authorization_type:
+        by_email_or_phone: По номеру телефона и email
+        by_email: Только по email
+        by_phone: Только по номеру телефона
 
     order_russian_post:
       new: Новый. Чтобы послать бланк Почте России нажмите кнопку снизу

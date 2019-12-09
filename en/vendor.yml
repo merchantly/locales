@@ -137,6 +137,9 @@ en:
         login_no_email: Login is not email
         reset_password_sent: Instructions for resetting the password have been sent to the mail.
         not_registered: "You are not registered in our store yet. <a href=\"%{url}\">Fix!</a>"
+        auth_type:
+          only_by_phone: Authorize only by phone
+          only_by_email: Authorize only via email
       client_registration:
         success: You have been successfully registered. Your phone has a pin code to enter
         client_exists: A client with such data already exists. Your phone has a pin code to enter

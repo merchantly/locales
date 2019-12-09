@@ -277,6 +277,7 @@ ru:
       text_blocks:
         title: Название текстового блока
       vendor:
+        client_authorization_type: Тип авторизации клиента
         show_cabinet_legal_form: Показывать форму реквизитов компании в личном кабинете клиента
         show_recommended_products_in_blog: Показывать на странице блога
         show_recommended_products_in_cart: Показывать на странице корзины

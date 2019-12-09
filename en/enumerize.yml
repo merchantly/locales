@@ -142,6 +142,10 @@ en:
         no_presence: Do not request
         presence: Request/Not necessary
         required: Request/Necessary
+      client_authorization_type:
+        by_email_or_phone: By phone number and email
+        by_email: Only by email
+        by_phone: Only by phone number
 
     order_russian_post:
       new: New. To send the form to the Russian Post click on the button below.
