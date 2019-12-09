@@ -565,7 +565,6 @@ ru:
 
       slug_redirect:
         path: 'Путь без пробелов, начинающийся с /'
-        redirect_path: 'Путь без пробелов, начинающийся с /'
       menu_item:
         link_url: 'Прямая ссылка на внешний ресурс. Например: http://yandex.ru/'
         custom_title: 'Например: Статьи'
