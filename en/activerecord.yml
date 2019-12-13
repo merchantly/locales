@@ -279,6 +279,10 @@ en:
       text_blocks:
         title: Text block name
       vendor:
+        filter_apply_type: Type 'Apply filter'
+        show_filter_clear_button: Show the 'Reset All Filters' button
+        show_product_more_content: Show 'Read more ..'
+        product_more_content_height: Height to 'Read more'
         client_authorization_type: Client authorization type
         show_cabinet_legal_form: Show the form of company details in the personal account of the client
         show_recommended_products_in_blog: Show on blog page

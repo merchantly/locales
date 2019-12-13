@@ -131,6 +131,9 @@ en:
         news: "Service news, marketing (no more than once a month)"
         analytics: "Analytics own store (weekly, with sales)"
     vendor:
+      filter_apply_type:
+        notice: Show the bar below
+        btn: Button after filter
       default_product_position:
         first: The first
         last: Last
