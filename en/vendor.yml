@@ -317,6 +317,9 @@ en:
       title: Other goods
 
     product:
+      more_content:
+        open: Read more
+        close: Close
       title: Product
       blank_price: 'Price unknown'
       run_out: 'Not available'
@@ -372,6 +375,11 @@ en:
         unknown: unknown
       hide: Hide filter
       show: Show filter
+      apply_filter: Apply filter
+      clear_filter: Clear all filters
+
+    tooltip:
+      added_to_cart: Product added to cart
 
     button:
       to_cart: Add to cart

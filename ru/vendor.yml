@@ -321,6 +321,9 @@ ru:
       title: Другие товары
 
     product:
+      more_content:
+        open: Читать далее
+        close: Закрыть
       title: Товар
       blank_price: 'Цена неизвестна'
       run_out: 'Нет в наличии'
@@ -376,6 +379,11 @@ ru:
         unknown: unknown
       hide: Убрать фильтр
       show: Показать фильтр
+      apply_filter: Применить фильтр
+      clear_filter: Сбросить все фильтры
+
+    tooltip:
+      added_to_cart: Товар добавлен в корзину
 
     button:
       to_cart: В корзину
