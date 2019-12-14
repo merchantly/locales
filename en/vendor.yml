@@ -141,17 +141,14 @@ en:
           only_by_phone: Authorize only by phone
           only_by_email: Authorize only via email
       client_registration:
-        success: You have been successfully registered. Your phone has a pin code to enter
-        client_exists: A client with such data already exists. Your phone has a pin code to enter
-        invalid_credentials: Correct form errors
+        success: You have been successfully registered.
+        client_exists: A client with such data already exists.
+        invalid_credentials: Correct form errors.
         request_timeout: "You can re-request the code in %{timeout} seconds."
-        invalid_phone: Invalid phone number
-        registration_disabled: Customer registration is disabled in the store
-      client_email_confirmation:
-        success: Your email has been successfully verified
-        invalid_token: Invalid token
-        invalid_client_email: Email not found
-        send_email_confirmation: A confirmation link has been sent to your email.
+        invalid_phone: Invalid phone number.
+        registration_disabled: Customer registration is disabled in the store.
+        send_email_confirmation:  A confirmation link has been sent to your email.
+        send_pin_code: Your phone has a pin code to enter.
       client_reset_password:
         success: Password successfully changed
         reset_password_token_invalid: Incorrect password reset token

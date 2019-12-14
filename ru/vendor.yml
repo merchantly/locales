@@ -141,17 +141,18 @@ ru:
           only_by_phone: Авторизироваться можно только по телефону
           only_by_email: Авторизироваться можно только по email
       client_registration:
-        success: Вы успешно зарегистрированы. На ваш телефон пришел пин-код для входа
-        client_exists: Клиент с такими данными уже существует. На ваш телефон пришел пин-код для входа
-        invalid_credentials: Исправьте ошибки в форме
+        success: Вы успешно зарегистрированы.
+        client_exists: Клиент с такими данными уже существует.
+        invalid_credentials: Исправьте ошибки в форме.
         request_timeout: Запросить код повторно можно через %{timeout} сек.
-        invalid_phone: Некорректный номер телефона
-        registration_disabled: В магазине отключена регистрация клиента
+        invalid_phone: Некорректный номер телефона.
+        registration_disabled: В магазине отключена регистрация клиента.
+        send_email_confirmation: На ваш email пришла ссылка на подтверждение email.
+        send_pin_code: На ваш телефон пришел пин-код для входа.
       client_email_confirmation:
         success: Ваш емайл успешно подтвержден
         invalid_token: Невалидный токен
         invalid_client_email: Не найден email
-        send_email_confirmation: На ваш email пришла ссылка на подтверждение email
       client_reset_password:
         success: Пароль успешно изменен
         reset_password_token_invalid: Некорректный токен сброса пароля
