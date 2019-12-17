@@ -1303,6 +1303,7 @@ ru:
         active: 'Активен'
         hidden: 'Скрыт'
       form:
+        recommended_products: Рекомендуемые товары
         tabs:
           content: Запись в блог
           seo: SEO

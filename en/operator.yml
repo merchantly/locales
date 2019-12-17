@@ -1318,6 +1318,7 @@ en:
         active: 'Active'
         hidden: 'Hidden'
       form:
+        recommended_products: Recommended products
         tabs:
           content: Post in the blog
           seo: SEO
