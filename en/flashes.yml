@@ -48,6 +48,10 @@ en:
       one_unmergeable: One product has no one to group
       many_unions_merge: Cannot group some already grouped goods
       maximum_in_union: 'Maximum number of goods in the union: %{max}'
+      will_be_sale: Selected items will be marked as 'Sale'
+      will_be_no_sale: Selected products will be removed from 'Sale'
+      sale: Selected products are marked as 'Sale'
+      no_sale: Selected products removed from 'Sale'
     items_batch:
       wrong_params: Invalid parameters for batch processing
     lookbook_images:
