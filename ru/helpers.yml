@@ -43,8 +43,8 @@ ru:
     years: "%{count} лет."
     days: "%{count} дн."
     batch_actions:
-      sale: "Пометить как 'распродажа'"
-      no_sale: "Убрать 'распродажа'"
+      sale: "Распродажа"
+      no_sale: "Снять с распродажи"
       restore: 'Восстановить из архива'
       publicate: 'Опубликовать'
       unpublicate: 'Скрыть'
