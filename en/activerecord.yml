@@ -279,6 +279,7 @@ en:
       text_blocks:
         title: Text block name
       vendor:
+        show_delivery_restriction_messages: Show message about product delivery restrictions
         filter_apply_type: Type 'Apply filter'
         show_filter_clear_button: Show the 'Reset All Filters' button
         show_product_more_content: Show 'Read more ..'
