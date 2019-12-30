@@ -1,5 +1,12 @@
 ru:
   admin:
+    sertificates: Сертификаты (https)
+    certificate:
+      actions:
+        enable: Активировать
+        disable: Отключить
+      enabled: Сертификат активирован
+      disabled: Сертификат отключен
     support: Поддержка
     reports: Отчеты
     affiliate_program: Партнеры

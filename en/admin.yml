@@ -1,5 +1,12 @@
 en:
   admin:
+    certificates: Certificates(https)
+    certificate:
+      actions:
+        enable: Enable
+        disable: disable
+      enabled: Sertificate enabled
+      disabled: Sertificate disabled
     support: Support
     reports: Report
     affiliate_program: Affilates

@@ -44,6 +44,11 @@ ru:
       delivery_time_period: Время доставки
 
     attributes:
+      certificate:
+        domain: Домен
+        cert_file: Сертификат
+        key_file: Приватный ключ
+        is_active: Активен?
       client_category:
         title: Наименование
         all_prices_available: Все цены доступны
