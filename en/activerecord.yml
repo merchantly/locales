@@ -648,6 +648,12 @@ en:
         price_is_not_uniqueness: Product prices are not the same
         maximum: 'Maximum number of products in the union: %{max}'
       models:
+        certificate:
+          attributes:
+            cert_file:
+              invalid_cert_file: 'Invalid certificate: %{error}'
+            key_file:
+              invalid_key_file: 'Invalid private key: %{error}'
         vendor_bitrix24:
           attributes:
             url:

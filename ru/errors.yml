@@ -165,6 +165,3 @@ ru:
       remove_only_final_state: 'Нельзя снимать единственный финальный статус'
       remove_new_state: 'Нельзя снимать состояние Новый'
       set_new_state: 'Нельзя устанавливать состояние Новый'
-    certificate:
-      invalid_cert_file: 'Некорректный сертификат: %{error}'
-      invalid_key_file: 'Некорректный приватный ключ: %{error}'

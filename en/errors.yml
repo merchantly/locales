@@ -165,6 +165,3 @@ en:
       remove_only_final_state: 'You cannot remove a single final status'
       remove_new_state: 'Cannot remove state New'
       set_new_state: 'Cannot set state to New'
-    certificate:
-      invalid_cert_file: 'Invalid certificate: %{error}'
-      invalid_key_file: 'Invalid private key: %{error}'
