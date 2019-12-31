@@ -1,6 +1,6 @@
 ru:
   admin:
-    sertificates: Сертификаты (https)
+    certificates: Сертификаты (https)
     certificate:
       actions:
         enable: Активировать
