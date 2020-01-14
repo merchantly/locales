@@ -49,6 +49,10 @@ ru:
         cert_file: Сертификат
         key_file: Приватный ключ
         is_active: Активен?
+        subject_name: Субьект
+        issuer_name: Эмитент
+        released_at: Дата выпуска
+        expired_at: Дата истечения
       client_category:
         title: Наименование
         all_prices_available: Все цены доступны

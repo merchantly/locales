@@ -49,6 +49,10 @@ en:
         cert_file: Certificate
         key_file: Private key
         is_active: Active?
+        subject_name: Subject
+        issuer_name: Issuer
+        released_at: Released at
+        expired_at: Expired at
       vendor_vat:
         percent: '%'
       client_category:
