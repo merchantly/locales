@@ -32,6 +32,7 @@ en:
         guest: 'Guest'
     role_permission:
       resource_type:
+        TextBlock: Text blocks
         PaymentAccount: 'Payment operations'
         Product: 'Goods'
         Vendor: 'Other settings'

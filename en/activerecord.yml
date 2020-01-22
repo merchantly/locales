@@ -287,6 +287,7 @@ en:
         password_confirmation: Password confirmation
       text_blocks:
         title: Text block name
+        position: Position
       vendor:
         show_delivery_restriction_messages: Show message about product delivery restrictions
         filter_apply_type: Type 'Apply filter'

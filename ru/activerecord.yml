@@ -285,6 +285,7 @@ ru:
         password_confirmation: Подтверждение пароля
       text_blocks:
         title: Название текстового блока
+        position: Позиция
       vendor:
         show_delivery_restriction_messages: Показывать сообщение об ограничениях доставок на продукт
         filter_apply_type: Применить фильтр
