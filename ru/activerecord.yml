@@ -414,6 +414,7 @@ ru:
         is_menu_top_desktop_sticky: '"Липкое" верхнее меню'
         paid_to: Оплачен до
         working_to: Работает до
+        last_archived_at: Последняя дата архивирования
         show_header_buttons_in_cart: 'Отображать "Оформить заказ" в шапке корзины'
         show_next_resource_in_list: 'Отображать в списках ссылку на следующий ресурс'
         show_subscription_email: Отображать в нижнем меню форму подписки E-mail

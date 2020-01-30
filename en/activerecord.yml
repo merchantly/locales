@@ -416,6 +416,7 @@ en:
         is_menu_top_desktop_sticky: 'Sticky top menu'
         paid_to: Paid up to
         working_to: Works to
+        last_archived_at: Last archived date
         show_header_buttons_in_cart: 'Display "Checkout" in the header of "Add to cart"'
         show_next_resource_in_list: 'Display a link to the next resource in lists'
         show_subscription_email: Display the subscription E-mail form in the bottom menu.
