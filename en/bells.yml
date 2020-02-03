@@ -69,3 +69,6 @@ en:
     Aqsi::Requestor::ResponseError:
       subject: 'Aqsi error'
       text: '%{error}'
+    ProductsMerger :: MaximumUnionsError:
+      subject: 'Products merge error'
+      text: 'Number of products to union more than the limit in %{max}'

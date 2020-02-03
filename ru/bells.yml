@@ -69,3 +69,6 @@ ru:
     Aqsi::Requestor::ResponseError:
       subject: 'Ошибка Aqsi'
       text: '%{error}'
+    ProductsMerger::MaximumUnionsError:
+      subject: 'Ошибка объединения товаров'
+      text: 'Кол-во товаров для объединения больше лимита в %{max}'
