@@ -17,7 +17,7 @@ ru:
       text: 'Домен %{domain} успешно подключен к магазину.'
     convead_invalid_or_outdate:
       subject: 'Подключение к convead.io неверное или устарело'
-      text: 'Скорее всего вы указали не правильный app_key (%{convead_app_key}) или не оплатили услуги convead.io. Интеграция отключена'
+      text: 'Скорее всего вы указали не правильный app_key (%{convead_app_key}) или не оплатили услуги convead.io.'
     PayPal::InvalidByteError:
       subject: 'Ошибка принятия платежа PayPal'
       text: 'Укажите в настройках аккаунта PayPal кодировку UTF-8 в дополнительных возможностях'
@@ -72,3 +72,6 @@ ru:
     ProductsMerger::MaximumUnionsError:
       subject: 'Ошибка объединения товаров'
       text: 'Кол-во товаров для объединения больше лимита в %{max}'
+    disable_convead:
+      subject: 'Подключение к convead.io отключено'
+      text: 'Для возобновления интеграции с convead.io укажите app_key'
