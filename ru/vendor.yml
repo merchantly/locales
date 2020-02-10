@@ -338,6 +338,7 @@ ru:
       weight: Вес
       kg: кг.
       available_deliveries: 'Данный товар доступен по доставкам: %{delivery_titles}'
+      add_run_out: ' - нет в наличии'
 
     properties:
       empty: 'Нет характеристик для вывода'

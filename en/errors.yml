@@ -165,3 +165,5 @@ en:
       remove_only_final_state: 'You cannot remove a single final status'
       remove_new_state: 'Cannot remove state New'
       set_new_state: 'Cannot set state to New'
+    slug:
+      not_unique_path: 'The path already exists. Delete it on the edit page of the <a href="%{resource_path}"> resource </a> '

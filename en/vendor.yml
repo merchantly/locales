@@ -330,6 +330,7 @@ en:
       weight: Weight
       kg: kg
       available_deliveries: 'This item is available for delivery: %{delivery_titles}'
+      add_run_out: ' - out of stock'
 
     properties:
       empty: 'No features to display.'
