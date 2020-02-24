@@ -213,3 +213,31 @@ en:
       discount_type:
         percent: '%'
         fixed: 'Fixed amount'
+    vendor_payment:
+      online_kassa_payment_method:
+        full_prepayment: 100% prepayment
+        prepayment: Prepayment
+        full_payment: Full payment
+        advance: Advance payment
+        partial_payment: Partial settlement and credit
+        credit: Credit transfer
+        credit_payment: Credit payment
+      online_kassa_payment_subject:
+        commodity: Commodity
+        payment: Payment
+        excise: Excisable goods
+        job: Job
+        service: Service
+        gambling_bet: Gamble Bet
+        gambling_prize: Winning a gamble
+        lottery: lottery ticket
+        lottery_prize: Lottery win
+        intellectual_activity: Providing the results of intellectual activity
+        agent_commission: Agent commission
+        composite: Compound subject of calculation
+        property_right: Property right
+        nonoperating_gain: Non-operating income
+        insurance_premium: Insurance premiums
+        sales_tax: Sales tax
+        resort_fee: Resort fee
+        another: Another subject

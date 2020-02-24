@@ -213,3 +213,31 @@ ru:
       discount_type:
         percent: '%'
         fixed: 'Фиксированная сумма'
+    vendor_payment:
+      online_kassa_payment_method:
+        full_prepayment: Предоплата 100%
+        prepayment: Предоплата
+        full_payment: Полный расчёт
+        advance: Аванс
+        partial_payment: Частичный расчёт и кредит
+        credit: Передача в кредит
+        credit_payment: Оплата кредита
+      online_kassa_payment_subject:
+        commodity: Товар
+        payment: Платеж
+        excise:  Подакцизный товар
+        job: Работа
+        service: Услуга
+        gambling_bet: Ставка азартной игры
+        gambling_prize: Выигрыш азартной игры
+        lottery: Лотерейный билет
+        lottery_prize: Выигрыш лотереи
+        intellectual_activity: Предоставление результатов интеллектуальной деятельности
+        agent_commission: Агентское вознаграждение
+        composite: Составной предмет расчета
+        property_right: Имущественное право
+        nonoperating_gain: Нереализационный доход
+        insurance_premium:  Страховые взносы
+        sales_tax: Торговый сбор
+        resort_fee: Курортный сбор
+        another: Иной предмет расчета
