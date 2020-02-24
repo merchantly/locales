@@ -222,7 +222,7 @@ en:
         partial_payment: Partial settlement and credit
         credit: Credit transfer
         credit_payment: Credit payment
-      online_kassa_payment_subject:
+      online_kassa_payment_object:
         commodity: Commodity
         payment: Payment
         excise: Excisable goods

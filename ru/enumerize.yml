@@ -222,7 +222,7 @@ ru:
         partial_payment: Частичный расчёт и кредит
         credit: Передача в кредит
         credit_payment: Оплата кредита
-      online_kassa_payment_subject:
+      online_kassa_payment_object:
         commodity: Товар
         payment: Платеж
         excise:  Подакцизный товар
