@@ -219,6 +219,8 @@ en:
         payment_type_id: Payment
         row_order: Position
       vendor_payment:
+        online_kassa_payment_method: Payment method
+        online_kassa_payment_object: Payment object
         is_online_kassa_test_mode: Test mode
         online_kassa_provider: Send check data
         online_kassa_client_id: Client_ID

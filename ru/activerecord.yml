@@ -217,6 +217,8 @@ ru:
         payment_type_id: Оплата
         row_order: Позиция
       vendor_payment:
+        online_kassa_payment_method: Признак способа расчёта
+        online_kassa_payment_object: Признак предмета расчёта
         online_kassa_aqsi_client_key: Client-key
         online_kassa_aqsi_shop_id: Shop id
         online_kassa_aqsi_client_group_uuid: Client Group id
