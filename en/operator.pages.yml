@@ -96,7 +96,13 @@ en:
           title_html: Integration with online cash registers starrys.ru
       life_pay:
         show:
-          title_html:  Integration with online cash registers life-pay.ru
+          title_html: Integration with online cash registers life-pay.ru
+      kassatka:
+        show:
+          title_html: Integration with online cash registers kassatka.me
+      aqsi:
+        show:
+          title_html: Integration with online cash registers aqsi.ru
       errors:
         not_found:
           title_html: Page is not found

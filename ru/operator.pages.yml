@@ -94,6 +94,12 @@ ru:
       life_pay:
         show:
           title_html:  Интеграция с онлайн-кассами life-pay.ru
+      kassatka:
+        show:
+          title_html:  Интеграция с кассой kassatka.me
+      aqsi:
+        show:
+          title_html:  Интеграция с кассой aqsi.ru
       errors:
         not_found:
           title_html: Страница не найдена
