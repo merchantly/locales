@@ -1706,6 +1706,10 @@ en:
         title: Tinkoff settings
         notification:
           title: Set the following links in your Tinkoff account
+      arsenal_pay:
+        title: ArsenalPay settings
+        notification:
+          title: Set the following links in your ArsenalPay account
       walletone:
         title: Walletone settings
         redexpress: "If you want the Redexpress deliveryman to accept payment, specify the <b>RedCashRUB</b> in the allowed methods."

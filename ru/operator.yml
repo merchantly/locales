@@ -1697,6 +1697,10 @@ ru:
         title: Настройка Tinkoff
         notification:
           title: В Tinkoff в личном кабинете установите следующие ссылки
+      arsenal_pay:
+        title: Настройка ArsenalPay
+        notification:
+          title: В ArsenalPay установите следующие ссылки
       walletone:
         title: Настройка Walletone
         redexpress: В случае, если вы хотите чтобы доставщик Redexpress принимал оплату, укажите в разрешенных методах <b>RedCashRUB</b>.
