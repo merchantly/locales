@@ -243,6 +243,8 @@ en:
         sberbank_api_token: Api token
         sberbank_private_key: Callback token
         sberbank_is_test: Test mode
+        arsenal_pay_widget: Widget
+        arsenal_pay_password: Secret key
       vendor_tariff_log_entity:
         date: 'Date'
         vendor_id: 'Store'

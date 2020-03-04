@@ -129,6 +129,11 @@ en:
         settings: 'To connect to tinkoff, you need to add a new payment method in the store:'
         already: 'You have already configured to accept payment through Tinkoff:'
         new_payment: 'Create Tinkoff Payment Method'
+      arsenal_pay:
+        site: 'Go to the ArsenaPay website'
+        settings: 'To connect to ArsenaPay, you need to add a new payment method in the store:'
+        already: 'You have already configured to accept payment through ArsenaPay:'
+        new_payment: 'Create ArsenaPay Payment Method'
       vkontakte:
         start: 'Start export'
       walletone:

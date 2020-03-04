@@ -493,6 +493,10 @@ ru:
         show:
           title_html: Сбербанк
 
+      arsenal_pay:
+        show:
+          title_html: ArsenalPay
+
       delivery_time_slots:
         show:
           title_html: Время курьерской службы

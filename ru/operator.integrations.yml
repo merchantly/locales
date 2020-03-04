@@ -129,6 +129,11 @@ ru:
         settings: 'Для подключения к tinkoff необходимо добавить в магазине новый способ оплаты:'
         already: 'У Вас уже настроен прием оплаты через Tinkoff:'
         new_payment: 'Создать способ оплаты через Tinkoff'
+      arsenal_pay:
+        site: 'Перейти на сайт ArsenalPay'
+        settings: 'Для подключения к ArsenalPay необходимо добавить в магазине новый способ оплаты:'
+        already: 'У Вас уже настроен прием оплаты через ArsenalPay:'
+        new_payment: 'Создать способ оплаты через ArsenalPay'
       vkontakte:
         start: 'Запустить экспорт'
       walletone:

@@ -63,6 +63,10 @@ en:
       title: 'Robokassa'
       description_html: Payment service
 
+    arsenal_pay:
+      title: 'ArsenalPay'
+      description_html: Payment service
+
     tinkoff:
       title: 'Tinkoff'
       description_html: 'Internet acquiring from Tinkoff Bank'

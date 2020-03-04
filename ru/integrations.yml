@@ -71,6 +71,10 @@ ru:
       title: 'Сбербанк'
       description_html: 'Эквайринг от Сбербанка'
 
+    arsenal_pay:
+      title: 'ArsenalPay'
+      description_html: Платежный сервис
+
     moysklad:
       title: МойСклад
       description_html: Полная синхронизация (импорт) номенклатуры и остатков по складам. Автоматическая выгрузка заказов и резервирование товаров на складе.

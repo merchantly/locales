@@ -492,6 +492,10 @@ en:
         show:
           title_html: Tinkoff
 
+      arsenal_pay:
+        show:
+          title_html: ArsenalPay
+
       sberbank:
         show:
           title_html: Sberbank

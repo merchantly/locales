@@ -13,6 +13,7 @@ en:
       order_payment_tinkoff: Tinkoff
       order_payment_sberbank: Sberbank
       order_payment_gsdk: Gsdk
+      order_payment_arsenal_pay: ArsenalPay
     delivery:
       order_delivery_pickup: Pickup
       order_delivery_redexpress: Redexpress
