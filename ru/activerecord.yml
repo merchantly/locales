@@ -241,8 +241,8 @@ ru:
         sberbank_api_token: Api токен
         sberbank_private_key: Callback токен
         sberbank_is_test: Тестовый режим
-        arsenal_pay_widget: Идентификатор виджета
-        arsenal_pay_password: Секретный ключ виджета
+        arsenal_pay_widget: Идентификатор виджета widget
+        arsenal_pay_password: Секретный ключ для callback-уведомлений CallbackKey
       vendor_tariff_log_entity:
         date: 'Дата'
         vendor_id: 'Магазин'
