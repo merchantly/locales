@@ -286,6 +286,7 @@ en:
         rbk_money_eshop_id: Store ID
         not_available_content: "Information in the pop-up window, after clicking on the button of the sold goods"
         facebook_catalog_enabled: Export products catalog info facebook CSV every hour
+        facebook_catalog_product_items_exported: Export all product items
       vendor_delivery:
         delivery_agent_type: Delivery service
         price: Cost of delivery

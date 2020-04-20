@@ -283,6 +283,7 @@ ru:
         rbk_money_eshop_id: ID Магазина
         not_available_content: Информация в всплывающем окне, после клика на кнопку проданного товара
         facebook_catalog_enabled: Выгружать каталог товаров в формате Facebook feed CSV каждый час
+        facebook_catalog_product_items_exported: Экспортировать все варианты товаров
       vendor_delivery:
         delivery_agent_type: Служба доставки
         price: Стоимость доставки
