@@ -323,6 +323,9 @@ ru:
         shipper_name: 'Shipper name'
         shipper_phone: 'Shipper phone'
         shipper_email: 'Shipper email'
+        cdek_tariff_id: 'Способ доставки'
+        cdek_sender_city_id: 'Код города отправителя'
+        cdek_sender_city_post_code: 'Индекс отправителя'
       vendor_payment:
         canceling_timeout_minutes: Отменять неоплаченный заказ по истечении (минут)
         payment_agent_type: Платежная система
