@@ -1049,6 +1049,7 @@ en:
         postal_code: Postcode
         delivery_time: Time of delivery
         yandex_delivery: Yandex delivery
+        cdek_delivery: CDEK delivery
         agent: Delivery agent
       custom_delivery_price: 'Cost of delivery'
       transmitted_data: 'Transmitted data'
