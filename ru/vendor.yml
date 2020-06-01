@@ -195,6 +195,7 @@ ru:
         patronymic: Отчество
         delivery_time_period_id: Время доставки
         yandex_delivery_id: Вариант яндекс доставки
+        cdek_delivery_id: Вариант доставки сдэк
       placeholders:
         city_title: Москва
         phone: 'Например, +7 913 123 32 10'
