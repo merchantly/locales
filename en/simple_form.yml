@@ -329,6 +329,8 @@ en:
         cdek_tariff_id: 'Tariff'
         cdek_sender_city_id: 'Sender city id'
         cdek_sender_city_post_code: 'Sender city post code'
+        cdek_login: 'Cdek login'
+        cdek_password: 'Cdek passsword'
       vendor_payment:
         canceling_timeout_minutes: Cancel an unpaid order after (minutes)
         payment_agent_type: Payment system

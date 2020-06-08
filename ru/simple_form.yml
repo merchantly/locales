@@ -326,6 +326,8 @@ ru:
         cdek_tariff_id: 'Способ доставки'
         cdek_sender_city_id: 'Код города отправителя'
         cdek_sender_city_post_code: 'Индекс отправителя'
+        cdek_login: 'СДЭК логин для интеграции'
+        cdek_password: 'СДЭК пароль для интеграции'
       vendor_payment:
         canceling_timeout_minutes: Отменять неоплаченный заказ по истечении (минут)
         payment_agent_type: Платежная система
