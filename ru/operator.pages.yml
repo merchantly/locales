@@ -387,7 +387,7 @@ ru:
           title_html: Интеграция с Disqus.com
       stock_log_entities:
         index:
-          title_html: Журнал иморта товаров из МойСклад
+          title_html: Журнал импорта товаров из МойСклад
         show:
           title_html: Запись в журнале импорта товаров от <em>'%{resource}'</em>
       instagram:

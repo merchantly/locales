@@ -136,7 +136,7 @@ ru:
       other: '%{count} товаров'
 
     delivery_methods_count:
-      one: '%{count} способ достави'
+      one: '%{count} способ доставки'
       few: '%{count} способа доставки'
       many: '%{count} способов доставки'
       other: '%{count} способов доставки'
