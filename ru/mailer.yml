@@ -9,6 +9,7 @@ ru:
         delivery_expired: '{{vendor_name}}: Заказ скоро будет отменен'
         reminder_payment: '{{vendor_name}}: Истекает резерв'
         client_category_changed: '{{client.vendor_name}}: Вас перевели в другую группу {{client.category_name}}'
+        coupon: 'Подарочный сертификат от магазина {{vendor_name}}'
     merchant:
       subjects:
         new_order:    "{{vendor_name}}: Новый заказ №{{order.public_id}}"
@@ -55,22 +56,6 @@ ru:
   support_mailer:
     support_mail:
       insufficient_funds: 'Не удалось провести автоплатеж для %{account_id} - недостаточно средств на карте'
-  coupon_image_mailer:
-    send_client_mail:
-      subject: Подарочный сертификат от магазина "%{vendor_name}"
-      body: >
-        Здравствуйте!
-        <br>
-        Благодарим Вас за покупку подарочного сертификата от магазина "%{vendor_name}" !
-        <br>
-        <br>
-        Сертификатом можно оплатить часть заказа или всю покупку полностью. При оформлении заказа введите индивидуальный промокод с сертификата в поле "промокод".  После этого из итоговой суммы оплаты автоматически вычтется номинал сертификата.
-        <br>
-        <br>
-        Обратите внимание! Сертификат действует один раз, остаток средств на сертификате сгорает.
-        Желаем приятных и полезных покупок!
-        <br>
-        <a href="%{url}" target="_blank">Ссылка на сертификат</a>
 
   email_confirmation_mailer:
     send_url:
