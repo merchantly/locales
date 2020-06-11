@@ -9,6 +9,7 @@ en:
         delivery_expired: '{{vendor_name}}: Order will be canceled soon'
         reminder_payment: '{{vendor_name}}: Reserve expires'
         client_category_changed: '{{client.vendor_name}}: you were transferred to another group {{client.category_name}}'
+        coupon: "Gift certificate from the store {{vendor_name}}"
     merchant:
       subjects:
         new_order:    "{{vendor_name}}: New order No.{{order.public_id}}"
@@ -55,11 +56,6 @@ en:
   support_mailer:
     support_mail:
       insufficient_funds: 'Autopayment failed for %{account_id}. Insufficient funds on the card'
-  coupon_image_mailer:
-    send_client_mail:
-      subject: "Gift certificate from the store \"%{vendor_name}\""
-      body: >
-        Hello! <br> Thank you for purchasing a gift certificate from the store "%{vendor_name}"! <br><br>With a certificate you can pay part of the order or the entire purchase in full. When placing an order, enter the individual promotional code from the certificate in the "promotional code" field. After that, the nominal value of the certificate will be automatically deducted from the total payment amount. <br><br>Note! The certificate is valid once, the balance on the certificate is burned. We wish you a pleasant and useful shopping! <br><a href="%{url}" target="_blank">Link to certificate</a>
   email_confirmation_mailer:
     send_url:
       subject: "Email Verification %{vendor_name}"
