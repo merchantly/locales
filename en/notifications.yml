@@ -16,3 +16,4 @@ en:
       delivery_expired: Payment overdue
       reminder_payment: 'Reminder of payment'
       client_category_changed: Change customer category
+      coupon: Coupon
