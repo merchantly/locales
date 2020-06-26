@@ -95,6 +95,7 @@ en:
         not_found: 'Non-existing %{code} promo code'
         expired: 'Promo Code Overdue %{code}'
       order:
+        house: 'House number must be 5 or 5A'
         yandex_kassa_max_items_count: 'Too many goods for Yandex Kassa. Maximum: %{max_count}'
         no_price_delivery: 'Shipping cost is calculated after order.'
         invalid_form: 'Order not yet accepted, correct errors in the form'

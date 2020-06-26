@@ -108,6 +108,7 @@ ru:
         client_delivery:
           unavailable: Доставка %{delivery_title} указанная в личном кабинете не доступна %{cabinet_path}
           goods_unavailable:  Доставка %{delivery_title} указанная в личном кабинете не доступна для данных товаров %{cabinet_path}
+        house: Номер дома должен иметь вид 5 или 5А
       order_item:
         file_unavailable: 'Превышено число скачиваний (более %{max}-х раз) или заказ не был успешно оплачен.'
         only_for_digital: 'Страница предназначеня только для цифровых товаров'
