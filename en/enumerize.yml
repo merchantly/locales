@@ -82,6 +82,7 @@ en:
         OrderItem: Order positions
         ClientCategory: Customer category
         PriceKind: Type of Price
+        Branche: Branche
     member:
       role:
         owner: 'Owner'

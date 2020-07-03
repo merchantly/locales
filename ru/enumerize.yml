@@ -82,6 +82,7 @@ ru:
         OrderItem: Позиции заказа
         ClientCategory: Категория клиента
         PriceKind: Тип Цены
+        Branche: Филиал
     member:
       role:
         owner: 'Владелец'
