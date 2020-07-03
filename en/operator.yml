@@ -56,6 +56,7 @@ en:
       members: 'Team and access'
       billing: 'Tariff and payment'
       bells: 'Notifications'
+      branches: 'Branches'
 
     price_kinds:
       default: Обычная
@@ -378,6 +379,8 @@ en:
         locale: "City (%{locale})"
         pickup_points: Points of issue
       client_categories:
+        name: Name
+      branches:
         name: Name
       currencies:
         currencies: Currencies
@@ -726,6 +729,8 @@ en:
           price_kind: Price Type
           available: Available
       new_submit: Add customer category
+    branches:
+      new_submit: Add branch
     clients:
       empty: No customers found
       rfm_details:

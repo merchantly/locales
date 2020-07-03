@@ -57,6 +57,8 @@ ru:
         title: Наименование
         all_prices_available: Все цены доступны
         auth_for_buy_enable: Кнопка 'Войдите, чтобы купить'
+      branch:
+        name: Название
       product_price:
         price: Цена
         price_kind_id: Тип

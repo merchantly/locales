@@ -56,6 +56,7 @@ ru:
       members: 'Сотрудники и права доступа'
       billing: 'Тариф и оплата'
       bells: 'Уведомления'
+      branches: 'Филиалы'
 
     price_kinds:
       default: Обычная
@@ -372,6 +373,8 @@ ru:
         pickup_points: Пункты выдачи
       client_categories:
         name: Наименование
+      branches:
+        name: Название
       currencies:
         currencies: Валюты
         central_bank: Центральный банк
@@ -713,6 +716,10 @@ ru:
           price_kind: Тип цены
           available: Доступно
       new_submit: Добавить категорию клиента
+    branches:
+      created: 'Филиал успешно создан'
+      updated: 'Филиал успешно обновлен'
+      new_submit: Добавить филиал
     clients:
       empty: Клиентов не нашлось
       rfm_details:

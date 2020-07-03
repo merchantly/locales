@@ -521,3 +521,6 @@ ru:
       client_categories:
         show:
           title_html: Категории клиентов
+      branches:
+        show:
+          title_html: Филиалы

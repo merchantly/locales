@@ -59,6 +59,8 @@ en:
         title: Name
         all_prices_available: All prices are available
         auth_for_buy_enable: "'Sign in to buy' button"
+      branch:
+        name: Name
       product_price:
         price: Price
         price_kind_id: Type

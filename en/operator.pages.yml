@@ -524,3 +524,6 @@ en:
       client_categories:
         show:
           title_html: Customer categories
+      branches:
+        show:
+          title_html: Branches
