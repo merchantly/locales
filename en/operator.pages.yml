@@ -527,3 +527,6 @@ en:
       branches:
         show:
           title_html: Branches
+      cashiers:
+        show:
+          title_html: Cashiers

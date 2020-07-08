@@ -61,6 +61,8 @@ en:
         auth_for_buy_enable: "'Sign in to buy' button"
       branch:
         name: Name
+      cashier:
+        name: Name
       product_price:
         price: Price
         price_kind_id: Type

@@ -57,6 +57,7 @@ ru:
       billing: 'Тариф и оплата'
       bells: 'Уведомления'
       branches: 'Филиалы'
+      cashiers: 'Кассы'
 
     price_kinds:
       default: Обычная
@@ -374,6 +375,8 @@ ru:
       client_categories:
         name: Наименование
       branches:
+        name: Название
+      cashier:
         name: Название
       currencies:
         currencies: Валюты
@@ -720,6 +723,10 @@ ru:
       created: 'Филиал успешно создан'
       updated: 'Филиал успешно обновлен'
       new_submit: Добавить филиал
+    cashiers:
+      created: 'Касса успешно создана'
+      updated: 'Касса успешно обновлена'
+      new_submit: Добавить кассу
     clients:
       empty: Клиентов не нашлось
       rfm_details:

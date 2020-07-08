@@ -59,6 +59,8 @@ ru:
         auth_for_buy_enable: Кнопка 'Войдите, чтобы купить'
       branch:
         name: Название
+      cashier:
+        name: Название
       product_price:
         price: Цена
         price_kind_id: Тип

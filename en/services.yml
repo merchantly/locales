@@ -12,6 +12,8 @@ en:
       delivery: 'Post delivery'
       product_name: 'Product Name'
       product_description: 'Product description'
+      default_cashier: 'Default'
+      default_branch: 'Default'
     pin_sender:
       sms_text: 'Your PIN to enter: %{pin}'
     client_pin_sender:

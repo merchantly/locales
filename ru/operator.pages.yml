@@ -524,3 +524,6 @@ ru:
       branches:
         show:
           title_html: Филиалы
+      cashiers:
+        show:
+          title_html: Кассы

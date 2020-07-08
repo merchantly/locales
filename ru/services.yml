@@ -12,6 +12,8 @@ ru:
       delivery: 'Доставка почтой'
       product_name: 'Название товара'
       product_description: 'Описание товара'
+      default_cashier: 'По-умолчанию'
+      default_branch: 'По-умолчанию'
     pin_sender:
       sms_text: 'Ваш пин-код для входа: %{pin}'
     client_pin_sender:

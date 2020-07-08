@@ -57,6 +57,7 @@ en:
       billing: 'Tariff and payment'
       bells: 'Notifications'
       branches: 'Branches'
+      cashiers: 'Cashiers'
 
     price_kinds:
       default: Обычная
@@ -381,6 +382,8 @@ en:
       client_categories:
         name: Name
       branches:
+        name: Name
+      cashiers:
         name: Name
       currencies:
         currencies: Currencies
@@ -730,7 +733,13 @@ en:
           available: Available
       new_submit: Add customer category
     branches:
+      created: 'Branch created'
+      updated: 'Branch updated'
       new_submit: Add branch
+    cashiers:
+      created: 'Cashier created'
+      updated: 'Cashier updated'
+      new_submit: Add cashier
     clients:
       empty: No customers found
       rfm_details:
