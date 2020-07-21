@@ -82,8 +82,8 @@ en:
         OrderItem: Order positions
         ClientCategory: Customer category
         PriceKind: Type of Price
-        ECR::Branch: Branch
-        ECR::Cashier: Cashier
+        Ecr::Branch: Branch
+        Ecr::Cashier: Cashier
     member:
       role:
         owner: 'Owner'

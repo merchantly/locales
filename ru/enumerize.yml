@@ -82,8 +82,8 @@ ru:
         OrderItem: Позиции заказа
         ClientCategory: Категория клиента
         PriceKind: Тип Цены
-        ECR::Branch: Филиал
-        ECR::Cashier: Касса
+        Ecr::Branch: Филиал
+        Ecr::Cashier: Касса
     member:
       role:
         owner: 'Владелец'

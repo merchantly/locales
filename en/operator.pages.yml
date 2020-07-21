@@ -530,3 +530,6 @@ en:
       cashiers:
         show:
           title_html: Cashiers
+      operations:
+        show:
+          title_html: Operations
