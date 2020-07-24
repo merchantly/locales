@@ -7,3 +7,9 @@ en:
       default: Default price
       sale: Discount price
       purchase: Buy rate
+    ecr_documents:
+      ecr_sale_document: Sale
+      ecr_refund_document: Refund
+      ecr_expense_document: Expense
+      ecr_receipt_document: Receipt
+      ecr_transfer_document: Transfer

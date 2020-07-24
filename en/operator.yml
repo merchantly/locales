@@ -163,6 +163,7 @@ en:
       operator_settings: Settings
       operator_content: Site management
       products: Goods
+      operator_ecr: ECR
 
     response_states:
       no_response: 'No answer'

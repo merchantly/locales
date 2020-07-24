@@ -160,6 +160,7 @@ ru:
       facebook: 'Авторизоваться в Facebook'
 
     second_sidebar_headers:
+      operator_ecr: Ecr
       operator_settings: Настройки
       operator_content: Управление сайтом
       products: Товары

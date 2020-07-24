@@ -63,6 +63,7 @@ en:
         name: Name
       cashier:
         name: Name
+        amount: Balance
       product_price:
         price: Price
         price_kind_id: Type

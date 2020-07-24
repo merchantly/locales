@@ -530,6 +530,21 @@ en:
       cashiers:
         show:
           title_html: Cashiers
-      operations:
+      documents:
         show:
-          title_html: Operations
+          title_html: Documents
+      expense:
+        show:
+          title_html: Expense
+      receipt:
+        show:
+          title_html: Receipt
+      transfer:
+        show:
+          title_html: Transfer
+      sale:
+        show:
+          title_html: Sale
+      refund:
+        show:
+          title_html: Refund
