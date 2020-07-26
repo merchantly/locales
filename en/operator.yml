@@ -740,7 +740,7 @@ en:
     cashiers:
       created: 'Cashier created'
       updated: 'Cashier updated'
-      new_submit: Add cashier
+      new_submit: New cashier
     clients:
       empty: No customers found
       rfm_details:

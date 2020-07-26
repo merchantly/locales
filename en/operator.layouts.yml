@@ -20,7 +20,7 @@ en:
         to_at: Date to
         search_button: 'Search'
         new_order: 'Create order'
-        search: 'Search by orders'
+        search: 'Search orders'
         add_filter: 'Add filter'
         all: All orders
         settings:
