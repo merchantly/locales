@@ -1,6 +1,12 @@
 en:
   filters:
     orders:
+      source:
+        name: Type
+        values:
+          offline: Offline
+          online: Online
+          any: Any
       workflow_state_id:
         name: 'Order Status'
         values:
@@ -8,7 +14,7 @@ en:
       coupon_id:
         name: Promo code
         values:
-          any: any
+          any: Any
       delivery_type_id:
         name: Shipping
         values:
@@ -16,7 +22,7 @@ en:
       payment_type_id:
         name: Payment
         values:
-          any: any
+          any: Any
       client_id:
         name: Client
         values:
@@ -27,7 +33,7 @@ en:
         values:
           'true': yes
           'false': No
-          any: any
+          any: Any
 
       delivery_state:
         name: Delivery Status
@@ -37,7 +43,7 @@ en:
           delivery: Delivered
           done: Delivered
           canceled: Canceled
-          any: any
+          any: Any
 
       payment_state:
         name: Payment Status
@@ -47,7 +53,7 @@ en:
           paid: paid
           failed: Rejected
           canceled: Canceled
-          any: any
+          any: Any
 
     products:
       on_welcome:
@@ -62,7 +68,7 @@ en:
       property_id:
         name: Property
         values:
-          any: any
+          any: Any
       dictionary_entity_ids:
         name: Directory
 
@@ -85,28 +91,28 @@ en:
         values:
           'true': Yes
           'false': No
-          any: any
+          any: Any
 
       is_sale:
         name: Sale
         values:
           'true': Yes
           'false': No
-          any: any
+          any: Any
 
       is_run_out:
         name: Ended
         values:
           'true': ended
           'false': Available
-          any: any
+          any: Any
 
       has_items:
         name: Options
         values:
           'true': Yes
           'false': No
-          any: any
+          any: Any
 
       is_stock_linked:
         name: Binding to the warehouse
@@ -120,7 +126,7 @@ en:
         values:
           'true': Archived
           'false': Valid
-          any: any
+          any: Any
 
       quanting:
         name: Availability
@@ -130,7 +136,7 @@ en:
           negative: Negative
           none: Unknown
           infinity: endless
-          any: any
+          any: Any
 
       product_type:
         name: Type
@@ -139,7 +145,7 @@ en:
           separate: Independent
           common: Composite or independent
           part: part of the composite
-          any: any
+          any: Any
 
       is_published:
         name: Visibility

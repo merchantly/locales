@@ -1,6 +1,12 @@
 ru:
   filters:
     orders:
+      source:
+        name: Тип
+        values:
+          offline: Оффлайн
+          online: Онлайн
+          any: Любой
       workflow_state_id:
         name: 'Статус заказа'
         values:
