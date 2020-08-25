@@ -14,6 +14,7 @@ en:
       product_description: 'Product description'
       default_cashier: 'Default'
       default_branch: 'Default'
+      default_product_vat_group: 'Default'
     pin_sender:
       sms_text: 'Your PIN to enter: %{pin}'
     client_pin_sender:

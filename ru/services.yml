@@ -14,6 +14,7 @@ ru:
       product_description: 'Описание товара'
       default_cashier: 'По-умолчанию'
       default_branch: 'По-умолчанию'
+      default_product_vat_group: 'По-умолчанию'
     pin_sender:
       sms_text: 'Ваш пин-код для входа: %{pin}'
     client_pin_sender:

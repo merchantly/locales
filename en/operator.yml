@@ -736,7 +736,7 @@ en:
     branches:
       created: 'Branch created'
       updated: 'Branch updated'
-      new_submit: Add branch
+      new_submit: New branch
     cashiers:
       created: 'Cashier created'
       updated: 'Cashier updated'

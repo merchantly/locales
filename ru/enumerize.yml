@@ -85,6 +85,7 @@ ru:
         Ecr::Branch: ECR Филиал
         Ecr::Cashier: ECR Касса
         Ecr::Document: ECR Документ
+        ProductVatGroup: Налоговая группа товаров
     member:
       role:
         owner: 'Владелец'
