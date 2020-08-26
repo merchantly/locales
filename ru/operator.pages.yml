@@ -527,3 +527,6 @@ ru:
       cashiers:
         show:
           title_html: Кассы
+      product_vat_groups:
+        show:
+          title_html: Налоговая группа товаров

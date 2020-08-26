@@ -548,3 +548,6 @@ en:
       refund:
         show:
           title_html: Refund
+      product_vat_groups:
+        show:
+          title_html: Product tax groups

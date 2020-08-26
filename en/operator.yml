@@ -944,8 +944,13 @@ en:
         body: |+
           <p> All words and phrases used on the site can be changed in the "Customize translations" section. </p>
           <p> If you need support for other languages, contact support. </p>
-
+    product_vat_groups:
+      new_submit: New
+      updated: Product tax group updated
+      created: Product tax group created
+      destroyed:  Product tax group destroyed
     legal:
+      product_vat_groups: Edit product tax groups
       subtitle: The information is used for invoicing and when working with online cash registers.
       payment_data: Details for invoice
       contract_offer: "Offer N%{id} from %{registered_at}"
