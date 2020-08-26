@@ -39,5 +39,6 @@ ru:
         proerty_value_text_placeholder: 'Значение свойства'
       cart_autocomplete:
         placeholder: 'Найти товар'
+        total_price: 'Общая сумма: %{totalPrice}'
       categories_selectize:
         placeholder: 'Добавьте хотябы одну'

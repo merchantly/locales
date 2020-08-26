@@ -39,5 +39,6 @@ en:
         proerty_value_text_placeholder: 'Property value'
       cart_autocomplete:
         placeholder: 'Find product'
+        total_price: 'TotalPrice: %{total_price}'
       categories_selectize:
         placeholder: 'Add at least one'
