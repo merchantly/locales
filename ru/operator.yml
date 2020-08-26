@@ -1093,6 +1093,8 @@ ru:
         title: Резерв на %{brand_name_e}
         remote: Резерв на МоемСкладе
         unreserved: 'Снят с резерва:'
+      form:
+        additional_information: Остальная информация
     payment_cards:
       untie: 'Отвязать'
       untied: 'Отвязана'

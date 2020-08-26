@@ -1112,6 +1112,8 @@ en:
         title: "Reserve on %{brand_name_e}"
         remote: MyStock reserves
         unreserved: 'Out of reserve:'
+      form:
+        additional_information: Additional information
     payment_cards:
       untie: 'Unlink'
       untied: 'Unlinked'
