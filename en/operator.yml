@@ -573,6 +573,7 @@ en:
         batch_actions:
           select_categories: Select categories for a group of products
           select_tags: Select tags for a group of products
+          select_products_tax: Select tax for a group of products
 
       properties:
         index: Product properties

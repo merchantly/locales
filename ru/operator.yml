@@ -566,6 +566,7 @@ ru:
         batch_actions:
           select_categories: Выбор категорий для группы товаров
           select_tags: Выбор тегов для группы товаров
+          select_products_tax: Выбор НДС для группы товаров
 
       properties:
         index: Свойства товаров

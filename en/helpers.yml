@@ -1,9 +1,9 @@
 en:
   helpers:
-    publish: 
+    publish:
       span: 'Publish'
       title: 'Store is disabled. Click to post'
-    unpublish: 
+    unpublish:
       span: 'Unpublish'
       confirm: 'Are you sure?'
     more: More...
@@ -44,7 +44,7 @@ en:
     days: "%{count} days"
     batch_actions:
       sale: "Sale"
-      no_sale: "Remove Sale'"
+      no_sale: "Remove Sale"
       restore: 'Restore from archive'
       publicate: 'Publish'
       unpublicate: 'Hide'
@@ -60,10 +60,10 @@ en:
       confirm: 'Do you really want to delete in archive?'
     bottom_form_panel:
       mail_template_reset: 'Do we reset templates to the default state?'
-      undomain: 
+      undomain:
         title: 'Disable domain'
         confirm: 'Do you want to unlink domain?'
-      save: 
+      save:
         title: Save
         reset: Cancel
         forbidden: No change allowed
@@ -109,7 +109,7 @@ en:
       reserve: 'Make a reservation'
       unreserve: 'Remove from reserve'
       not_reserved: 'Not reserved in MyStock'
-    order_workflow: 
+    order_workflow:
       current: 'Current status'
       change: "Change status to: \"%{state}\""
     payments:
@@ -138,7 +138,7 @@ en:
         run_out: "<span class=\"text-muted %{css_class}\">has ended</span>"
         infinity: 'Accounting residues are not maintained. The product is endless'
         unknown: 'balance not set'
-      list_view_switch: 
+      list_view_switch:
         to_list: 'Switch to line view'
         to_block: 'Switch to block view'
       actual_price:
