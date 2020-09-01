@@ -318,7 +318,7 @@ en:
         client_registration_button_text: Text for customer registration button
         disabled_dictionary_entity_counters: Turn off the goods counter by properties
         redirect_to: Redirect from store to site
-        tax_type: VAT rate
+        tax_type: TAX rate
         tax_mode: Tax system
         use_as_example: "Show on the examples page?"
         https_custom_domain: Domain for which HTTPS is set
@@ -489,7 +489,7 @@ en:
       product:
         ordering_start_at: Start of sale
         ordering_end_at: End of sale
-        vat_id: VAT rate, %
+        vat_id: TAX rate, %
         is_digital: "Digital product?"
         file_url: Download link
         sale_price: Discount price

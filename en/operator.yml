@@ -251,7 +251,7 @@ en:
         archive_css: Archived css
         operator: Who changed
       sales_report:
-        good_vat_percent: VAT rate, %
+        good_vat_percent: TAX rate, %
         article: Article
         good_name: Name
         price: Price
@@ -663,8 +663,8 @@ en:
     sales_report:
       generate: Generate
       total_price: 'Total amount: %{money}'
-      total_vat_in: 'Total VAT-In: %{money}'
-      total_vat_out: 'Total VAT-Out: %{money}'
+      total_vat_in: 'Total TAX-In: %{money}'
+      total_vat_out: 'Total TAX-Out: %{money}'
       total_purchase_price: 'Total purchase amount: %{money}'
     bells:
       read: Familiarized
@@ -1074,7 +1074,7 @@ en:
       custom_delivery_price: 'Cost of delivery'
       transmitted_data: 'Transmitted data'
       browser_data: 'Browser data'
-      total_vat: VAT
+      total_vat: TAX
       total_price: Total
       send_email: 'Send by mail'
       reset_downloaded_count: 'Reset the number of downloads (used %{current} from %{total})'

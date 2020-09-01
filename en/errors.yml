@@ -1,6 +1,6 @@
 en:
   errors:
-    negative_vats: 'VAT value must be equal or large than zero: %{examples}'
+    negative_vats: 'TAX value must be equal or large than zero: %{examples}'
     format: '%{attribute} %{message}'
     import_from_spreadsheet:
       not_allowed_locale: 'First set the locale %{locale} in the settings'

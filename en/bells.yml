@@ -50,7 +50,7 @@ en:
       text: 'API token value is not set'
     RobokassaParams::TaxTypeEmptyError:
       subject: 'Robokassa error'
-      text: 'VAT amount for merchant is not set'
+      text: 'TAX amount for merchant is not set'
     RobokassaParams::TaxModeEmptyError:
       subject: 'Robokassa error'
       text: 'System of taxation for merchant is not set'
