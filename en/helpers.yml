@@ -53,6 +53,7 @@ en:
       duplicate: 'Duplicate'
       select_tags: 'Edit tags'
       select_categories: 'Change categories'
+      select_products_tax: 'Change TAX'
     archivable:
       archive: 'To archive'
       restore: 'Restore'

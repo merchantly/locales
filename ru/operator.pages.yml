@@ -530,3 +530,6 @@ ru:
       product_vat_groups:
         show:
           title_html: Налоговая группа товаров
+      warehouses:
+        show:
+          title_html: Склады

@@ -551,3 +551,6 @@ en:
       product_vat_groups:
         show:
           title_html: Product tax groups
+      warehouses:
+        show:
+          title_html: Warehouses

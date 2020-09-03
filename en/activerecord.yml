@@ -520,6 +520,7 @@ en:
         is_published: "Published?"
         tags: Tags
         multiple_choice: Possibility to put several items in the "Add to card" in the card of product
+        product_vat_group_id: TAX group
       operator:
         locale: Interface language
         password: Password

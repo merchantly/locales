@@ -1212,6 +1212,9 @@ en:
         size: 'Size: %{size}'
         date: 'Created: %{date}'
     products:
+      select_products_tax:
+        product_vat: Custom TAX
+        product_vat_group: TAX group
       adding: 'Adding goods'
       categories_select:
         title: Product Categories
@@ -1956,3 +1959,14 @@ en:
       value_number: 'N'
       dictionaries: 'Directories'
       add_button: 'Add a property'
+    warehouses:
+      archive: Archive
+      active: Active
+      new_submit: New warehouse
+      empty: Empty
+      movements: Movements
+      nomenclatures: Nomenclature
+      movements_empty: Movements empty
+      nomenclature_empty: Nomenclature empty
+      updated: Warehouse updated
+      created: Warehose created
