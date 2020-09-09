@@ -8,9 +8,11 @@ en:
       # You can uncomment the line below if you need to overwrite the whole required html.
       # When using html, text and mark won't be used.
       # html: '<abbr title="required">*</abbr>'
-    include_blank:
+    include_blanks:
       hotel:
         hotel_kind_id: 'Any'
+      product:
+        product_vat_group_id: 'Select custom TAX'
 
     error_notification:
       default_message: "Errors found, <br />please take a look at &nbsp;them"

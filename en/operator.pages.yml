@@ -554,3 +554,6 @@ en:
       warehouses:
         show:
           title_html: Warehouses
+      nomenclatures:
+        show:
+          title_html: Nomenclature

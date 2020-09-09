@@ -533,3 +533,6 @@ ru:
       warehouses:
         show:
           title_html: Склады
+      nomenclatures:
+        show:
+          title_html: Номенклатура
