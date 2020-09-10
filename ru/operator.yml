@@ -1034,6 +1034,7 @@ ru:
     slug_resources:
       callout: Пути можно настроить на страницах редактирования ресурсов (товара, категории, текстовой страницы и тп)
     orders:
+      source: 'Источник: %{source}'
       sales_report: 'Отчет о продажах'
       payment_discount: 'Скидка при оплате через "%{payment_type}"'
       buyer:
@@ -1945,3 +1946,10 @@ ru:
       value_number: 'N'
       dictionaries: 'Справочники'
       add_button: 'Добавить свойство'
+    nomenclatures:
+      filter:
+        all: Все
+    documents:
+      transactions: Транзакции
+      filter:
+        all: Все

@@ -1053,6 +1053,7 @@ en:
     slug_resources:
       callout: "Paths can be configured on resource editing pages (product, category, text page, etc.)"
     orders:
+      source: 'Type: %{source}'
       payment_discount: 'Discount on payment via with %{payment_type}'
       buyer:
         title: Customer
@@ -1970,3 +1971,10 @@ en:
       nomenclature_empty: Nomenclature empty
       updated: Warehouse updated
       created: Warehose created
+    nomenclatures:
+      filter:
+        all: All
+    documents:
+      transactions: Transactions
+      filter:
+        all: All
