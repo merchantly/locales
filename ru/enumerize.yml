@@ -86,7 +86,7 @@ ru:
         Ecr::Cashier: ECR Касса
         Ecr::Document: ECR Документ
         ProductVatGroup: Налоговая группа товаров
-        WarehouseMovement: Перемещение по складу
+        Ecr::WarehouseMovement: Перемещение по складу
     member:
       role:
         owner: 'Владелец'

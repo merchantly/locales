@@ -86,7 +86,7 @@ en:
         Ecr::Cashier: Ecr Cashier
         Ecr::Document: Ecr Document
         ProductVatGroup: Product vat group
-        WarehouseMovement: Warehouse movement
+        Ecr::WarehouseMovement: Warehouse movement
     member:
       role:
         owner: 'Owner'

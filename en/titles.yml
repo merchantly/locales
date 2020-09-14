@@ -14,6 +14,6 @@ en:
       ecr_receipt_document: Receipt
       ecr_transfer_document: Transfer
     warehouse_movement:
-      warehouse_movement_transfer: Transfer
-      warehouse_movement_receipt: Receipt
-      warehouse_movement_expense: Transfer
+      ecr_warehouse_movement_transfer: Transfer
+      ecr_warehouse_movement_receipt: Receipt
+      ecr_warehouse_movement_expense: Transfer
