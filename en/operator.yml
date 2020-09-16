@@ -1974,6 +1974,9 @@ en:
     nomenclatures:
       filter:
         all: All
+        availability:
+          in_stock: In stock
+          out_stock: Out of stock
     documents:
       transactions: Transactions
       filter:

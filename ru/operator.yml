@@ -1949,6 +1949,9 @@ ru:
     nomenclatures:
       filter:
         all: Все
+        availability:
+          in_stock: В наличии
+          out_stock: Нет в наличии
     documents:
       transactions: Транзакции
       filter:
