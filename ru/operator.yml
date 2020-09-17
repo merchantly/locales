@@ -1957,3 +1957,9 @@ ru:
       transactions: Транзакции
       filter:
         all: Все
+    balance_sheet:
+      warehouse: Склад
+      all: Все
+      period: Период
+      start_at: С %{date}
+      end_at: по %{date}

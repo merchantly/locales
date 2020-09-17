@@ -1982,3 +1982,9 @@ en:
       transactions: Transactions
       filter:
         all: All
+    balance_sheet:
+      warehouse: Warehouse
+      all: All
+      period: Period
+      start_at: From %{date}
+      end_at: To %{date}
