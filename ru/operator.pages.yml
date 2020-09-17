@@ -536,3 +536,6 @@ ru:
       nomenclatures:
         show:
           title_html: Номенклатура
+      balance_sheets:
+        show:
+          title_html: Оборотно-сальдовая ведомость

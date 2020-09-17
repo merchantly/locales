@@ -1953,6 +1953,7 @@ ru:
           in_stock: В наличии
           out_stock: Нет в наличии
     documents:
+      balance_sheet: Оборотно-сальдовой ведомости
       transactions: Транзакции
       filter:
         all: Все

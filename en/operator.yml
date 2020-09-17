@@ -1972,6 +1972,7 @@ en:
       updated: Warehouse updated
       created: Warehose created
     nomenclatures:
+      balance_sheet: Balance sheet
       filter:
         all: All
         availability:

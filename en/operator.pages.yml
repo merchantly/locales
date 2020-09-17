@@ -557,3 +557,6 @@ en:
       nomenclatures:
         show:
           title_html: Nomenclature
+      balance_sheets:
+        show:
+          title_html: Balance sheet
