@@ -87,6 +87,8 @@ en:
         Ecr::Document: Ecr Document
         ProductVatGroup: Product vat group
         Ecr::WarehouseMovement: Warehouse movement
+        QuantityUnit: QuantityUnit
+        Ecr::Nomenclature: Ecr Nomenclature
     member:
       role:
         owner: 'Owner'
@@ -246,3 +248,6 @@ en:
         sales_tax: Sales tax
         resort_fee: Resort fee
         another: Another subject
+    quantity_unit:
+      divisible: Divisible
+      indivisible: Indivisable

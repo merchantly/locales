@@ -1647,6 +1647,11 @@ en:
         title: Types of prices
         details_html: |
           <p>Types of prices</p>
+      quantity_units:
+        url: operator_quantity_units_path
+        title: Units
+        details_html: |
+          <p>Edit units</p>
     translations:
       value_redefined: 'Value redefined'
     vendor_deliveries:
@@ -1972,6 +1977,8 @@ en:
       updated: Warehouse updated
       created: Warehose created
     nomenclatures:
+      updated: Nomenclature updated
+      quantity_units: Units
       balance_sheet: Balance sheet
       filter:
         all: All
@@ -1988,3 +1995,8 @@ en:
       period: Period
       start_at: From %{date}
       end_at: To %{date}
+    quantity_units:
+      default: Default
+      new_submit: New
+      updated: Unit updated
+      created: Unit created

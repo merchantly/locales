@@ -1,3 +1,8 @@
 ru:
   units:
-    pcs: шт.
+    pcs:
+      title: Штуки
+      short: шт.
+    kg:
+      title: Килограммы
+      short: кг.

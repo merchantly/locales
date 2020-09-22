@@ -1,3 +1,8 @@
 en:
   units:
-    pcs: pcs.
+    pcs:
+      title: Pieces
+      short: pcs.
+    kg:
+      title: Kilograms
+      short: kg.

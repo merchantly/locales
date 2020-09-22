@@ -539,3 +539,8 @@ ru:
       balance_sheets:
         show:
           title_html: Оборотно-сальдовая ведомость
+      quantity_units:
+        show:
+          title_html: Единица измерения
+        index:
+          title_html: Единицы измерения

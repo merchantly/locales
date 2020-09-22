@@ -560,3 +560,8 @@ en:
       balance_sheets:
         show:
           title_html: Balance sheet
+      quantity_units:
+        show:
+          title_html: Unit
+        index:
+          title_html: Units

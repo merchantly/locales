@@ -87,6 +87,8 @@ ru:
         Ecr::Document: ECR Документ
         ProductVatGroup: Налоговая группа товаров
         Ecr::WarehouseMovement: Перемещение по складу
+        QuantityUnit: Единица измерения
+        Ecr::Nomenclature: Номенклатура
     member:
       role:
         owner: 'Владелец'
@@ -246,3 +248,6 @@ ru:
         sales_tax: Торговый сбор
         resort_fee: Курортный сбор
         another: Иной предмет расчета
+    quantity_unit:
+      divisible: Делимое
+      indivisible: Неделемое
