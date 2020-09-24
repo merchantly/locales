@@ -1135,6 +1135,8 @@ ru:
     text_blocks:
       add_button: 'Добавить текстовый блок'
     product:
+      quantity_unit: "Единица измерения: %{unit_link}"
+      nomenclature: "Номенклатура: %{nomenclature_link}"
       text_blocks: Дополнительная информация
       title: Товар
       video: Видео
@@ -1952,6 +1954,9 @@ ru:
       dictionaries: 'Справочники'
       add_button: 'Добавить свойство'
     nomenclatures:
+      product: 'Продукт: %{product_link}'
+      quantity: 'Количество: %{quantity}'
+      edit_quantity_units: Редактировать еденицы измерения
       updated: Номенклатура обновлена
       quantity_units: Единицы измерения
       filter:

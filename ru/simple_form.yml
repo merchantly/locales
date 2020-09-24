@@ -12,7 +12,8 @@ ru:
       hotel:
         hotel_kind_id: 'Любой'
       product:
-        product_vat_group_id: 'Select custom TAX'
+        product_vat_group_id: 'Выбрать пользовательский НДС'
+        vat: 'Не выбран'
 
     error_notification:
       default_message: "Обнаружены ошибки,<br /> пожалуйста, взгляните на&nbsp;них"

@@ -1154,6 +1154,8 @@ en:
     text_blocks:
       add_button: 'Add text block'
     product:
+      quantity_unit: "Unit: %{unit_link}"
+      nomenclature: "Nomenclature: %{nomenclature_link}"
       text_blocks: Additional information
       title: Product
       video: Video
@@ -1977,6 +1979,9 @@ en:
       updated: Warehouse updated
       created: Warehose created
     nomenclatures:
+      product: 'Product: %{product_link}'
+      quantity: 'Quantity: %{quantity}'
+      edit_quantity_units: Edit units
       updated: Nomenclature updated
       quantity_units: Units
       balance_sheet: Balance sheet

@@ -13,6 +13,7 @@ en:
         hotel_kind_id: 'Any'
       product:
         product_vat_group_id: 'Select custom TAX'
+        vat: 'No selected'
 
     error_notification:
       default_message: "Errors found, <br />please take a look at &nbsp;them"
