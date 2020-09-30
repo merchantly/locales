@@ -125,6 +125,8 @@ ru:
           title_html: 'Массовое изменение товаров'
         index:
           title_html: 'Товары'
+        archive:
+          title_html: 'Архив'
       tags:
         index:
           title_html: Теги
