@@ -62,8 +62,13 @@ en:
         meta_description: <meta description>
         meta_keywords: <meta keywords>
         h1: <h1>
+      ecr_nomenclature:
+        is_online: Online
+        is_offline: Offline
       ecr_nomenclature_filter:
         availability: Stock
+        is_online: Online
+        is_offline: Offline
       sales_report_form:
         till_date: End date
         from_date: Start date
