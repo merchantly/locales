@@ -1975,6 +1975,16 @@ ru:
       period: Период
       start_at: С %{date}
       end_at: по %{date}
+      inventory_item: Номенклатура
+      unit: Единица измерения
+      opening_balance: Остаток на начало
+      time_frame_change:  Движения за период
+      closing_balance:  Остаток на конец
+      incoming: Приход
+      outgoing: Расход
+      in_stock: Количество
+      total_amount: Стоимость
+      total: Итого
     quantity_units:
       default: По-умолчанию
       new_submit: Новая ед. измерения

@@ -247,6 +247,14 @@ en:
       access_keys: 'API access'
 
     th:
+      quantity_unit:
+        title: Unit Name
+        short: Short Unit Name
+      nomenclatures:
+        name: Item
+        warehouses: Warehouse
+        purchase_price: Purchase Price
+        quantity: In Stock
       archived_css:
         archive_css: Archived css
         operator: Who changed
@@ -384,8 +392,10 @@ en:
         name: Name
       branches:
         name: Name
+        cashier: Location
       cashiers:
         name: Name
+        branch: Location
       currencies:
         currencies: Currencies
         central_bank: Central bank
@@ -1155,7 +1165,7 @@ en:
       add_button: 'Add text block'
     product:
       quantity_unit: "Unit: %{unit_link}"
-      nomenclature: "Nomenclature: %{nomenclature_link}"
+      nomenclature: "Inventory Library: %{nomenclature_link}"
       text_blocks: Additional information
       title: Product
       video: Video
@@ -1973,26 +1983,29 @@ en:
       new_submit: New warehouse
       empty: Empty
       movements: Movements
-      nomenclatures: Nomenclature
+      nomenclatures: Inventory Library
       movements_empty: Movements empty
-      nomenclature_empty: Nomenclature empty
+      nomenclature_empty: Inventory Library empty
       updated: Warehouse updated
       created: Warehose created
     nomenclatures:
-      product: 'Product: %{product_link}'
+      warehouse_movements: Warehouse Movements
+      product_view: 'View Item'
+      product: 'Item: %{product_link}'
       quantity: 'Quantity: %{quantity}'
       edit_quantity_units: Edit units
       updated: Nomenclature updated
       quantity_units: Units
-      balance_sheet: Balance sheet
+      balance_sheet: Inventory Statement
       filter:
         all: All
         availability:
-          in_stock: In stock
-          out_stock: Out of stock
+          in_stock: In Stock
+          out_stock: Out of Stock
         source:
           offline: Offline
           online: Online
+          no_sale: No Sale
     documents:
       transactions: Transactions
       filter:
@@ -2000,9 +2013,19 @@ en:
     balance_sheet:
       warehouse: Warehouse
       all: All
-      period: Period
+      period: Time Frame
       start_at: From %{date}
       end_at: To %{date}
+      inventory_item: Inventory Item
+      unit: Unit
+      opening_balance: Opening Balance
+      time_frame_change: Time Frame Change
+      closing_balance: Closing Balance
+      incoming: Incoming
+      outgoing: Outgoing
+      in_stock: In Stock
+      total_amount: Total Amount
+      total: Total
     quantity_units:
       default: Default
       new_submit: New

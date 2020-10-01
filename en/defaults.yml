@@ -2,7 +2,7 @@ en:
   time:
     formats:
       default: ! '%a, %d %B %Y, %H:%M:%S %z'
-      human: '%e %B %Y in %H:%M'
+      human: '%e %B %Y, %H:%M'
       amo_csv: ! '%d.%m.%Y %H:%M'
   datetime:
     # вообще у нас нет английской локали для операторской

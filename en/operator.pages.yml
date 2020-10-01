@@ -534,7 +534,7 @@ en:
           title_html: Cash & Bank Accounts
       documents:
         show:
-          title_html: Financials
+          title_html: Transactions
       expense:
         show:
           title_html: Expense
@@ -558,10 +558,10 @@ en:
           title_html: Warehouses
       nomenclatures:
         show:
-          title_html: Nomenclature
+          title_html: Inventory Library
       balance_sheets:
         show:
-          title_html: Balance sheet
+          title_html: Inventory Statement
       quantity_units:
         show:
           title_html: Unit
