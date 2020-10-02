@@ -2027,7 +2027,7 @@ en:
       total_amount: Total Amount
       total: Total
       receipts: Receipts
-      expense: Expense
+      expenses: Expenses
     quantity_units:
       default: Default
       new_submit: New
