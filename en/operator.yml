@@ -56,7 +56,7 @@ en:
       members: 'Team and access'
       billing: 'Tariff and payment'
       bells: 'Notifications'
-      branches: 'Branches'
+      branches: 'Locations'
       cashiers: 'Cashiers'
 
     price_kinds:
@@ -391,8 +391,8 @@ en:
       client_categories:
         name: Name
       branches:
-        name: Name
-        cashier: Location
+        name: Location Name
+        cashier: Account Name
       cashiers:
         name: Name
         branch: Location
@@ -751,7 +751,7 @@ en:
     cashiers:
       created: 'Cashier created'
       updated: 'Cashier updated'
-      new_submit: New cashier
+      new_submit: New Cashier
     clients:
       empty: No customers found
       rfm_details:
@@ -2026,6 +2026,8 @@ en:
       in_stock: In Stock
       total_amount: Total Amount
       total: Total
+      receipts: Receipts
+      expense: Expense
     quantity_units:
       default: Default
       new_submit: New

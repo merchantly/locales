@@ -528,7 +528,7 @@ en:
           title_html: Customer categories
       branches:
         show:
-          title_html: Branches
+          title_html: Locations
       cashiers:
         show:
           title_html: Cash & Bank Accounts

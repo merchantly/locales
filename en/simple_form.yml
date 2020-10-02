@@ -73,6 +73,7 @@ en:
         is_offline: Offline
         query: Search
         branch_id: Location
+        source: Online/Offline Store
       ecr_balance_sheet_form:
         show_empty: Include Out of Stock Items
       sales_report_form:
