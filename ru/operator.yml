@@ -32,6 +32,7 @@ ru:
       clients: 'Клиенты'
       content: 'Управление сайтом'
       settings: 'Общие настройки'
+      ecr: 'Склад'
 
     content_navigation:
       domain: 'Адрес сайта'

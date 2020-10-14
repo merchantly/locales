@@ -25,13 +25,14 @@ en:
     w1_send_pin_code: Send
 
     navigation:
-      dashboard: 'What to do next?'
-      my_shop: 'Web site'
-      goods: 'Goods'
+      dashboard: 'Home'
+      my_shop: 'Online store'
+      goods: 'Products'
       orders: 'Orders'
       clients: 'Customers'
       content: 'Management'
       settings: 'Settings'
+      ecr: 'geideaPOS'
 
     content_navigation:
       domain: 'Website address'
