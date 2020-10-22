@@ -89,6 +89,7 @@ en:
         Ecr::WarehouseMovement: Warehouse movement
         QuantityUnit: QuantityUnit
         Ecr::Nomenclature: Ecr Nomenclature
+        Ecr::Drawer: Drawer
     member:
       role:
         owner: 'Owner'

@@ -248,6 +248,17 @@ en:
       access_keys: 'API access'
 
     th:
+      drawers:
+        opened_at: Opened at
+        closed_at: Closed at
+        open_current_balance: Open balance
+        open_actual_balance: Open actual balance
+        close_current_balance: Close balance
+        close_actual_balance: Close actual balance
+        sale_amount: Sale amount
+        refund_amount: Refund amount
+        state: State
+        description: Description
       quantity_unit:
         title: Unit Name
         short: Short Unit Name
@@ -753,6 +764,11 @@ en:
       created: 'Cashier created'
       updated: 'Cashier updated'
       new_submit: New Cashier
+      close_drawer: Close drawer
+      open_drawer: Open drawer
+      drawers: Drawers
+      documents: Financal
+      drawers_empty: Drawers empty
     clients:
       empty: No customers found
       rfm_details:
@@ -2034,3 +2050,9 @@ en:
       new_submit: New
       updated: Unit updated
       created: Unit created
+    drawers:
+      opened: Drawer opened
+      closed: Drawer closed
+      open: Open drawer
+      close: Close drawer
+      confirm: Are you sure?

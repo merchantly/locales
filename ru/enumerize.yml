@@ -89,6 +89,7 @@ ru:
         Ecr::WarehouseMovement: Перемещение по складу
         QuantityUnit: Единица измерения
         Ecr::Nomenclature: Номенклатура
+        Ecr::Drawer: Смена кассы
     member:
       role:
         owner: 'Владелец'

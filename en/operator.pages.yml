@@ -567,3 +567,6 @@ en:
           title_html: Unit
         index:
           title_html: Units
+      drawers:
+        show:
+          title_html: Drawers
