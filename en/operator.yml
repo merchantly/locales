@@ -769,6 +769,7 @@ en:
       drawers: Drawers
       documents: Financal
       drawers_empty: Drawers empty
+      documents_empty: Documents empty
     clients:
       empty: No customers found
       rfm_details:
