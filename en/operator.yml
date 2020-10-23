@@ -249,14 +249,10 @@ en:
 
     th:
       drawers:
-        opened_at: Opened at
-        closed_at: Closed at
-        open_current_balance: Open balance
-        open_actual_balance: Open actual balance
-        close_current_balance: Close balance
-        close_actual_balance: Close actual balance
-        sale_amount: Sale amount
-        refund_amount: Refund amount
+        opened_at: Start of Drawer
+        closed_at: End of Drawer
+        open: Open
+        close: Close
         state: State
         description: Description
       quantity_unit:
@@ -767,7 +763,7 @@ en:
       close_drawer: Close drawer
       open_drawer: Open drawer
       drawers: Drawers
-      documents: Financal
+      documents: Transactions
       drawers_empty: Drawers empty
       documents_empty: Documents empty
     clients:
@@ -2057,3 +2053,13 @@ en:
       open: Open drawer
       close: Close drawer
       confirm: Are you sure?
+      open_balance: 'Starting Cash'
+      open_actual_balance: 'Actual in Drawer'
+      close_balance: 'Closing Cash'
+      close_actual_balance: 'Actual in Drawer'
+      open_operator: 'Opened drawer'
+      close_operator: 'Closed drawer'
+      sale_amount: Cash Sales
+      refund_amount: Cash Refund
+      open_correct_amount: Correct Amount
+      close_correct_amount: Correct Amount

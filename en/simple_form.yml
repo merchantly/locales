@@ -63,8 +63,8 @@ en:
         meta_keywords: <meta keywords>
         h1: <h1>
       ecr_drawer:
-        open_current_balance: Open balance
-        close_current_balance: Close balance
+        open_balance: Open balance
+        close_balance: Close balance
       ecr_nomenclature:
         is_online: Online
         is_offline: Offline

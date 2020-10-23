@@ -13,6 +13,7 @@ en:
       ecr_expense_document: Expense
       ecr_receipt_document: Receipt
       ecr_transfer_document: Transfer
+      ecr_correct_document: Correct
     warehouse_movement:
       ecr_warehouse_movement_transfer: Transfer
       ecr_warehouse_movement_receipt: Receipt
