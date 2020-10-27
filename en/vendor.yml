@@ -1,5 +1,8 @@
 en:
   vendor:
+    order_form_presenter:
+      country_code:
+        default_title: Select country
     payment_discount:
       percent: '%{title} (Discount -%{discount}%)'
       fixed: '%{title} (Discount in money -%{discount})'
@@ -172,6 +175,7 @@ en:
       no_price_delivery: Price not specified
       invoice: Download invoice in PDF
       fields:
+        country_code: Country
         phone: Phone
         name: Full name
         email: Email

@@ -309,6 +309,8 @@ en:
         facebook_catalog_enabled: Export products catalog info facebook CSV every hour
         facebook_catalog_product_items_exported: Export all product items
       vendor_delivery:
+        require_country_code: Require country
+        default_country_code: Default country
         delivery_agent_type: Delivery service
         price: Cost of delivery
         free_delivery_threshold: Free shipping

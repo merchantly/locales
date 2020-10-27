@@ -1097,6 +1097,7 @@ en:
         yandex_delivery: Yandex delivery
         cdek_delivery: CDEK delivery
         agent: Delivery agent
+        country: Country
       custom_delivery_price: 'Cost of delivery'
       transmitted_data: 'Transmitted data'
       browser_data: 'Browser data'

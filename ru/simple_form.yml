@@ -288,6 +288,8 @@ ru:
         facebook_catalog_enabled: Выгружать каталог товаров в формате Facebook feed CSV каждый час
         facebook_catalog_product_items_exported: Экспортировать все варианты товаров
       vendor_delivery:
+        require_country_code: Спрашивать страну
+        default_country_code: Страна по-умолчанию
         delivery_agent_type: Служба доставки
         price: Стоимость доставки
         free_delivery_threshold: Бесплатная доставка
