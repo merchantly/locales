@@ -1,6 +1,9 @@
 en:
   operator:
     pages:
+      warehouse_movements:
+        show:
+          title_html: Warehouse Transactions
       recommended_products:
         show:
           title_html: Recommended products
