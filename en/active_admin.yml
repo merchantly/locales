@@ -67,7 +67,7 @@ en:
       action_label: "%{title} selected"
       labels:
         destroy: "Delete"
-        archive: 'To archive'
+        archive: 'Archive'
         restore: 'Restore'
     comments:
       resource_type: "Resource type"

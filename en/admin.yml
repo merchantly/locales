@@ -216,7 +216,7 @@ en:
         restore: Restore
         destroy: Delete
         destroy_confirm: "Remove the store?"
-        archive: To archive
+        archive: Archive
         double: Duplicate
         show: Store in admin panel
         screenshot: Make a screenshot

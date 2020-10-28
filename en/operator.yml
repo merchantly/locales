@@ -164,7 +164,7 @@ en:
       operator_settings: Settings
       operator_content: Site management
       products: Goods
-      operator_ecr: ECR
+      operator_ecr: geideaPOS
 
     response_states:
       no_response: 'No answer'
@@ -1936,6 +1936,15 @@ en:
         url: operator_cache_path
         details_html: 'Rarely, but sometimes you need to manually update the cache so that the latest changes are applied faster. So here you can configure the time to cache HTTP requests'
 
+    ecr_settings_widgets:
+      locations:
+        title: Locations
+        url: operator_ecr_branches_path
+        details_html: Edit locations
+      units:
+        title: Units
+        url: operator_quantity_units_path
+        details_html: Edit units
     styles_widgets:
       css:
         title: Additional Styles (CSS)
@@ -1995,10 +2004,10 @@ en:
     warehouses:
       archive: Archive
       active: Active
-      new_submit: New warehouse
+      new_submit: New Warehouse
       empty: Empty
-      movements: Movements
-      nomenclatures: Inventory Library
+      movements: Transactions
+      nomenclatures: Items
       movements_empty: Movements empty
       nomenclature_empty: Inventory Library empty
       updated: Warehouse updated

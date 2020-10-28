@@ -79,6 +79,21 @@ en:
         source: Online/Offline Store
       ecr_balance_sheet_form:
         show_empty: Include Out of Stock Items
+      ecr_warehouse_movement_form_receipt:
+        nomenclature_id: Item
+      ecr_warehouse_movement_form_transfer:
+        nomenclature_id: Item
+      ecr_warehouse_movement_form_expense:
+        nomenclature_id: Item
+      ecr_document_form_transfer:
+        from_cashier_id: From Account
+        to_cashier_id: To Cashier
+      ecr_document_form_expense:
+        cashier_id: Account
+      ecr_document_form_receipt:
+        cashier_id: Account
+      ecr_document_form_sale:
+        cashier_id: Account
       sales_report_form:
         till_date: End date
         from_date: Start date
@@ -342,6 +357,7 @@ en:
         aramex_account_pin: 'Account pin'
         aramex_account_entity: 'Account entity'
         aramex_account_country_code: 'Account country code'
+        aramex_is_test: 'Test mode'
         shipper_country_code: 'Shipper country code'
         shipper_address: 'Shipper address'
         shipper_city: 'Shipper city'
