@@ -537,7 +537,7 @@ en:
           title_html: Cash & Bank Accounts
       documents:
         show:
-          title_html: Transactions
+          title_html: Financal Transactions
       expense:
         show:
           title_html: Expense

@@ -55,7 +55,7 @@ en:
       select_categories: 'Change categories'
       select_products_tax: 'Change TAX'
     archivable:
-      archive: 'Aarchive'
+      archive: 'Archive'
       restore: 'Restore'
       archived: 'The object is in the archive.'
       confirm: 'Do you really want to delete in archive?'
