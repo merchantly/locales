@@ -232,7 +232,7 @@ en:
         weight_of_price: Weight for which the price is indicated (kg)
         items:
           size: Size
-          count: quantity
+          count: Quantity
           article: Vendor code
           article_smart: Vendor code
           custom_title: Title

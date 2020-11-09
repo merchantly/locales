@@ -1498,7 +1498,7 @@ ru:
           dictionary: Справочник
           seo: SEO
       edit:
-        dictionary_entities: Элементы справочника (#{count} шт.)
+        dictionary_entities: Элементы справочника (%{count} шт.)
       index:
         properties: Свойства товаров
         add_submit: 'Добавить справочник'

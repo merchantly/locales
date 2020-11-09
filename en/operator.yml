@@ -1180,7 +1180,7 @@ en:
       add_button: 'Add text block'
     product:
       quantity_unit: "Unit: %{unit_link}"
-      nomenclature: "Inventory Library: %{nomenclature_link}"
+      nomenclature: "Inventory Item: %{nomenclature_link}"
       text_blocks: Additional information
       title: Product
       video: Video
@@ -2013,6 +2013,7 @@ en:
       updated: Warehouse updated
       created: Warehose created
     nomenclatures:
+      products: 'Products'
       warehouse_movements: Warehouse Movements
       product_view: 'View Item'
       product: 'Item: %{product_link}'

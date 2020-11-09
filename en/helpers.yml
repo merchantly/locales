@@ -78,7 +78,8 @@ en:
     circle_buttons:
       images: 'Images'
       ignore: 'Ignore'
-      male_redirect: 'Redirect'
+      make_redirect: 'Redirect'
+      disabled_default_delete_item: 'You cannot delete the default'
     components:
       similar_product_select:  'Start typing the product name to add it.'
       other_products_select: 'Start typing the product name to add it.'

@@ -1,9 +1,9 @@
 ru:
   helpers:
-    publish: 
+    publish:
       span: 'Опубликовать'
       title: 'Магазин отключен. Нажмите что бы опубликовать'
-    unpublish: 
+    unpublish:
       span: 'Снять с публикации'
       confirm: 'Вы уверены?'
     more: Ещё...
@@ -60,10 +60,10 @@ ru:
       confirm: 'Действительно удалить в архив?'
     bottom_form_panel:
       mail_template_reset: 'Сбрасываем шаблоны в состояние по-умолчанию?'
-      undomain: 
+      undomain:
         title: 'Отключить домен'
         confirm: 'Отвязать домен?'
-      save: 
+      save:
         title: Сохранить
         reset: Отменить
         forbidden: Изменять запрещено
@@ -78,6 +78,7 @@ ru:
       images: 'Изображения'
       ignore: 'Игнорировать'
       male_redirect: 'Сделать редирект'
+      disabled_default_delete_item: 'Нельзя удалить дефолтный субъект'
     components:
       similar_product_select:  'Начните вводить наименование товара чтобы его добавить'
       other_products_select: 'Начните вводить наименование товара чтобы его добавить'
@@ -109,7 +110,7 @@ ru:
       reserve: 'Зарезервировать'
       unreserve: 'Снять с резерва'
       not_reserved: 'Не зарезервирован в МойСклад'
-    order_workflow: 
+    order_workflow:
       current: 'Текущий статус'
       change: "Сменить статус на: \"%{state}\""
     payments:
@@ -138,7 +139,7 @@ ru:
         run_out: "<span class=\"text-muted %{css_class}\">закончился</span>"
         infinity: 'Учет остатков не ведется. Товар бесконечен'
         unknown: 'остаток не установлен'
-      list_view_switch: 
+      list_view_switch:
         to_list: 'Переключить на строчный вид'
         to_block: 'Переключить на блочный вид'
       actual_price:
