@@ -79,7 +79,9 @@ en:
       images: 'Images'
       ignore: 'Ignore'
       make_redirect: 'Redirect'
-      disabled_default_delete_item: 'You cannot delete the default'
+      disabled_default_delete_item:
+        ecr_branch: 'Default location can’t be deleted'
+        ecr_cashier: 'Default cashier can’t be deleted'
     components:
       similar_product_select:  'Start typing the product name to add it.'
       other_products_select: 'Start typing the product name to add it.'
