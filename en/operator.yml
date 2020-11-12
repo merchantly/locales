@@ -2017,7 +2017,7 @@ en:
       warehouse_movements: Warehouse Movements
       product_view: 'View Item'
       product: 'Item: %{product_link}'
-      quantity: 'Quantity: %{quantity}'
+      quantity: 'Quantity: %{quantity}, of which in reserve %{reserve_quantity}'
       edit_quantity_units: Edit units
       updated: Nomenclature updated
       quantity_units: Units

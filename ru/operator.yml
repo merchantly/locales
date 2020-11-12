@@ -1957,7 +1957,7 @@ ru:
       add_button: 'Добавить свойство'
     nomenclatures:
       product: 'Продукт: %{product_link}'
-      quantity: 'Количество: %{quantity}'
+      quantity: 'Количество: %{quantity}, из них в резерве %{reserve_quantity}'
       edit_quantity_units: Редактировать еденицы измерения
       updated: Номенклатура обновлена
       quantity_units: Единицы измерения
