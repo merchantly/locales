@@ -546,3 +546,8 @@ ru:
           title_html: Единица измерения
         index:
           title_html: Единицы измерения
+      external_devices:
+        show:
+          title_html: Внешние устройства
+        index:
+          title_html: Внешние устройства

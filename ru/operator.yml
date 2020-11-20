@@ -59,6 +59,7 @@ ru:
       bells: 'Уведомления'
       branches: 'Филиалы'
       cashiers: 'Кассы'
+      external_devices: 'Внешние устройства'
 
     price_kinds:
       default: Обычная
@@ -248,6 +249,10 @@ ru:
       access_keys: 'Доступ к API'
 
     th:
+      external_devices:
+        name: Название
+        ip: Ip
+        port: Port
       archived_css:
         archive_css: CSS
         operator: Кто изменил
@@ -1992,3 +1997,6 @@ ru:
       new_submit: Новая ед. измерения
       updated: Единица измерения обновлена
       created: Единица измерения создана
+    external_devices:
+      new_submit: Создать
+      empty: Пустой

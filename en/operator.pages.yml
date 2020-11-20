@@ -573,3 +573,8 @@ en:
       drawers:
         show:
           title_html: Drawers
+      external_devices:
+        show:
+          title_html: External Device
+        index:
+          title_html: External Devices

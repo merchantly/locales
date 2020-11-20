@@ -59,6 +59,7 @@ en:
       bells: 'Notifications'
       branches: 'Locations'
       cashiers: 'Cashiers'
+      external_devices: 'External Devices'
 
     price_kinds:
       default: Обычная
@@ -248,6 +249,10 @@ en:
       access_keys: 'API access'
 
     th:
+      external_devices:
+        name: Name
+        ip: Ip
+        port: Port
       drawers:
         opened_at: Start of Drawer
         closed_at: End of Drawer
@@ -585,9 +590,9 @@ en:
         vk_export: Export to Vkontakte.Ru
         vk_export_change_group_id: Export group updated.
         ms:
-          product_items: "Product options (sizes, colors, etc.)"
+          product_items: "Product Variations (sizes, colors, etc.)"
         ordinary:
-          product_items: "Product options (sizes, colors, etc.)"
+          product_items: "Product Variations (sizes, colors, etc.)"
         batch_actions:
           select_categories: Select categories for a group of products
           select_tags: Select tags for a group of products
@@ -2074,3 +2079,6 @@ en:
       refund_amount: Cash Refund
       open_correct_amount: Correct Amount
       close_correct_amount: Correct Amount
+    external_devices:
+      new_submit: New
+      empty: Empty
