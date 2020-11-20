@@ -1185,7 +1185,7 @@ en:
       add_button: 'Add text block'
     product:
       quantity_unit: "Unit: %{unit_link}"
-      nomenclature: "Inventory Item: %{nomenclature_link}"
+      nomenclature: "Inventory Item: "
       text_blocks: Additional information
       title: Product
       video: Video

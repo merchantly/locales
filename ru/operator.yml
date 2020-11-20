@@ -1143,7 +1143,7 @@ ru:
       add_button: 'Добавить текстовый блок'
     product:
       quantity_unit: "Единица измерения: %{unit_link}"
-      nomenclature: "Номенклатура: %{nomenclature_link}"
+      nomenclature: "Номенклатура: "
       text_blocks: Дополнительная информация
       title: Товар
       video: Видео
