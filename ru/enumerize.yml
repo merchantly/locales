@@ -90,6 +90,7 @@ ru:
         QuantityUnit: Единица измерения
         Ecr::Nomenclature: Номенклатура
         Ecr::Drawer: Смена кассы
+        ExternalDevice: Внешнее устройство
     member:
       role:
         owner: 'Владелец'

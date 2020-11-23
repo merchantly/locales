@@ -90,6 +90,7 @@ en:
         QuantityUnit: QuantityUnit
         Ecr::Nomenclature: Ecr Nomenclature
         Ecr::Drawer: Drawer
+        ExternalDevice: External Device
     member:
       role:
         owner: 'Owner'
