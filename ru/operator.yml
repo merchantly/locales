@@ -1144,6 +1144,7 @@ ru:
     product:
       quantity_unit: "Единица измерения: %{unit_link}"
       nomenclature: "Номенклатура: "
+      select_nomenclature: 'Выбор номенклатуры'
       text_blocks: Дополнительная информация
       title: Товар
       video: Видео
@@ -1922,6 +1923,20 @@ ru:
         title: Интерактивный дизайн
         url: design_operator_shop_path
         details_html: Вас переключит на виджет интерактивного дизайне прямо на сайте
+
+    ecr_settings_widgets:
+      locations:
+        title: Филиалы
+        url: operator_ecr_branches_path
+        details_html: Редактирование филиалов
+      units:
+        title: Единицы измерения
+        url: operator_quantity_units_path
+        details_html: Редактирование едениц измерения
+      external_devices:
+        title: Внешние устройства
+        url: operator_external_devices_path
+        details_html: Редактирование внешних устройств
 
     orders_settings:
       workflow_states:

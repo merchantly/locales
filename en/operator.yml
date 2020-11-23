@@ -1186,6 +1186,7 @@ en:
     product:
       quantity_unit: "Unit: %{unit_link}"
       nomenclature: "Inventory Item: "
+      select_nomenclature: 'Select Inventory Item'
       text_blocks: Additional information
       title: Product
       video: Video
@@ -1950,6 +1951,10 @@ en:
         title: Units
         url: operator_quantity_units_path
         details_html: Edit units
+      external_devices:
+        title: External Devices
+        url: operator_external_devices_path
+        details_html: Edit external devices
     styles_widgets:
       css:
         title: Additional Styles (CSS)
