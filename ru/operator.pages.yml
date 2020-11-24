@@ -127,6 +127,8 @@ ru:
           title_html: 'Товары'
         archive:
           title_html: 'Архив'
+        show:
+          title_html: 'Продукт'
       tags:
         index:
           title_html: Теги

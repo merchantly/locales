@@ -133,6 +133,8 @@ en:
           title_html: 'Goods'
         archive:
           title_html: 'Archive'
+        show:
+          title_html: 'Product'
       tags:
         index:
           title_html: Tags

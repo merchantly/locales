@@ -1184,6 +1184,7 @@ en:
     text_blocks:
       add_button: 'Add text block'
     product:
+      change_sort_options_for_product: 'Change the sorting of variations for: %{product}'
       quantity_unit: "Unit: %{unit_link}"
       nomenclature: "Inventory Item: "
       select_nomenclature: 'Select Inventory Item'

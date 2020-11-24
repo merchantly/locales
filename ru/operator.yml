@@ -1142,6 +1142,7 @@ ru:
     text_blocks:
       add_button: 'Добавить текстовый блок'
     product:
+      change_sort_options_for_product: 'Изменение сортировки вариантов для: %{product}'
       quantity_unit: "Единица измерения: %{unit_link}"
       nomenclature: "Номенклатура: "
       select_nomenclature: 'Выбор номенклатуры'
