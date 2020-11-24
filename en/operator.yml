@@ -2074,16 +2074,22 @@ en:
       open: Open drawer
       close: Close drawer
       confirm: Are you sure?
-      open_balance: 'Starting Cash'
-      open_actual_balance: 'Actual in Drawer'
-      close_balance: 'Closing Cash'
-      close_actual_balance: 'Actual in Drawer'
-      open_operator: 'Opened drawer'
-      close_operator: 'Closed drawer'
-      sale_amount: Cash Sales
-      refund_amount: Cash Refund
-      open_correct_amount: Correct Amount
-      close_correct_amount: Correct Amount
+      open_balance: 'Starting Cash:'
+      open_actual_balance: 'Actual in Drawer:'
+      close_balance: 'Closing Cash:'
+      close_actual_balance: 'Actual in Drawer:'
+      open_operator: 'Opened drawer:'
+      close_operator: 'Closed drawer:'
+      sale_amount: 'Cash Sales:'
+      refund_amount: 'Cash Refund:'
+      open_correct_amount: 'Correct Amount:'
+      close_correct_amount: 'Correct Amount:'
+      opened_at: 'Opened At:'
+      closed_at: 'Closed At:'
+      title: "Drawer №%{number}"
+      description: 'Description:'
+      state: "State:"
+      cashier: 'Cashier:'
     external_devices:
       new_submit: New
       empty: Empty
