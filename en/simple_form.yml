@@ -235,7 +235,7 @@ en:
           count: Quantity
           article: Vendor code
           article_smart: Vendor code
-          custom_title: Title
+          custom_title: Variation Name
           color: Colour
       vendor_theme:
         show_similar_products: 'Show similar products'

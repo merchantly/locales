@@ -272,7 +272,8 @@ en:
         custom_value: 'Set value'
       product_item:
         fallback_title: 'Option %{id}'
-        nomenclature_id: 'Library Item'
+        nomenclature_id: 'Inventory Item'
+        nomenclature: 'Inventory Item'
       slug:
         path: 'Clear way'
         redirect_path: 'Redirect'
