@@ -2070,6 +2070,7 @@ en:
       updated: Unit updated
       created: Unit created
     drawers:
+      print: Print
       opened: Drawer opened
       closed: Drawer closed
       open: Open drawer
