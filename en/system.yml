@@ -2,6 +2,7 @@ en:
   system:
     keycloak:
       auth_required: Authorization required via keycloak
+      email_verified: Keycloak email not verified
     coupons:
       marked_as_default: marked as default
       mark_as_default: mark as default

@@ -2,6 +2,7 @@ ru:
   system:
     keycloak:
       auth_required: Требуется авторизация через keycloak
+      email_verified: Keycloak email не подтвержден
     coupons:
       marked_as_default: По-умолчанию
       mark_as_default: Использовать по-умолчанию
