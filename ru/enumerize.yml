@@ -91,7 +91,6 @@ ru:
         Ecr::Nomenclature: Номенклатура
         Ecr::Drawer: Смена кассы
         ExternalDevice: Внешнее устройство
-        ProductItem: Вариант товара
     member:
       role:
         owner: 'Владелец'
