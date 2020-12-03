@@ -249,6 +249,14 @@ en:
       access_keys: 'API access'
 
     th:
+      ecr_documents:
+        datetime: Datetime
+        type: Type
+        cashier: Cash Register
+        details: Details
+        comment: Comment
+        debit: debit
+        credit: credit
       external_devices:
         name: Name
         ip: Ip
@@ -1576,6 +1584,8 @@ en:
       invited_at: "Invited %{invited_at}"
       new_header: Invite a teammate
     roles:
+      access_to_resources: Access to resources
+      new_submit: New
       change_owner_role: The role of the owner can not be changed. Owner can do anything ;)
       callout: Contact support if you need more roles.
     members:

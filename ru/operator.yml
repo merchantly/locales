@@ -249,6 +249,14 @@ ru:
       access_keys: 'Доступ к API'
 
     th:
+      ecr_documents:
+        datetime: Время
+        type: Тип
+        cashier: Касса
+        details: Описание
+        comment: Комментарии
+        debit: Дебит
+        credit: Кредит
       external_devices:
         name: Название
         ip: Ip
@@ -1530,6 +1538,8 @@ ru:
       invited_at: Пригласили %{invited_at}
       new_header: Подключение нового сотрудника
     roles:
+      access_to_resources: Доступ к ресурсам
+      new_submit: Добавить роль
       change_owner_role: Роль владельца нельзя изменять. Владельцу можно все ;)
       callout: Свяжитесь с поддержкой если Вам нужно больше ролей.
     members:

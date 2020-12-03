@@ -80,17 +80,18 @@ en:
         DeliveryTimeRule: Time slot rule
         CouponImage: Certificate templates
         OrderItem: Order positions
-        ClientCategory: Customer category
-        PriceKind: Type of Price
-        Ecr::Branch: Ecr Branch
-        Ecr::Cashier: Ecr Cashier
-        Ecr::Document: Ecr Document
-        ProductVatGroup: Product vat group
-        Ecr::WarehouseMovement: Warehouse movement
-        QuantityUnit: QuantityUnit
-        Ecr::Nomenclature: Ecr Nomenclature
-        Ecr::Drawer: Drawer
-        ExternalDevice: External Device
+        ClientCategory: Customer categories
+        PriceKind: Types of Price
+        Ecr::Branch: Locals
+        Ecr::Cashier: Cash Accounts
+        Ecr::Document: Financal Transactions
+        ProductVatGroup: Product Tax Groups
+        Ecr::WarehouseMovement: Warehouse Transactions
+        QuantityUnit: Quantity Units
+        Ecr::Nomenclature: Inventory Items
+        Ecr::Drawer: Drawers
+        ExternalDevice: External Devices
+        ProductItem: Product Variations
     member:
       role:
         owner: 'Owner'
