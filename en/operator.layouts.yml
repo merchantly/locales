@@ -2,7 +2,7 @@ en:
   operator:
     layouts:
       header_search:
-        title: Search and filter
+        title: Search & Filter ...
       bells:
         read_all: 'Mark all as read'
         scope:
@@ -14,7 +14,7 @@ en:
         add_category: 'Add category'
         all: All clients
       orders:
-        title: Order
+        title: Orders
         search_query: Order number, comment or product
         from_at: Date from
         to_at: Date to

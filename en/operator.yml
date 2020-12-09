@@ -122,10 +122,10 @@ en:
 
     found_orders_count:
       zero: 'Orders not found'
-      one: 'The order %{count} has been found'
-      few: 'The orders %{count} have been found'
-      many: 'The orders %{count} have been found'
-      other: 'The orders %{count} have been found'
+      one: '%{count} order found'
+      few: '%{count} order found'
+      many: '%{count} order found'
+      other: '%{count} order found'
 
     orders_count:
       one: '%{count} order'
