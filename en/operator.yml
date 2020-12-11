@@ -972,8 +972,8 @@ en:
       default_locale: Default language
       select_default_locale: 'Use default'
       setup: 'Customize translations'
-      disable: Off
-      enable: On
+      disable: Disable
+      enable: Enable
       first_callout:
         body: |
           <p> Users see the site in the language that is configured on their system and is given by the browser in the HTTP header. If such a language does not support the site, then the language is set to "default". </p>

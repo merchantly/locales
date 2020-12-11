@@ -277,7 +277,7 @@ en:
         edit:
           title_html: "Category \"%{resource}\""
         new:
-          title_html: 'New category'
+          title_html: 'Add New Category'
       google_analytics:
         show:
           title_html: 'Google Analytics Integration'
