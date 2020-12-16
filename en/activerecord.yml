@@ -440,7 +440,7 @@ en:
         rfm: RFM segment
         recency: Prescription purchases (days)
         name: Name
-        total_orders_price: Amount of purchases
+        total_orders_price: Total
         currency: Currency
         orders_numbers: Order numbers
         first_order_created_at: Date of first order
@@ -449,7 +449,7 @@ en:
         products_titles: Purchased products
         products_articles: Articles of purchased products
         phones: Phones
-        emails: E-mails
+        emails: Emails
         orders_count: Number of orders
         created_at: Date of creation
         client_category_id: Category

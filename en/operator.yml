@@ -233,7 +233,7 @@ en:
       faq: FAQ
       profile: 'My profile'
       vendors: 'My stores (%{count})'
-      logout: Exit
+      logout: Sign out
       negative_balance: 'Balance: %{balance} Must be replenished'
       positive_balance: 'Balance: %{balance}'
       sms_balance: 'SMS balance: %{balance}'
@@ -243,8 +243,8 @@ en:
       vendor_was_unpublish: 'Store has been disabled %{date}'
       tariff_absent: Pay the tariff for publishing the store
       partner_program: Affiliate program
-      edit_profile: Change contacts and password
-      new_shop: Create a new store
+      edit_profile: Profile
+      new_shop: Create new store
       subscriptions: Personal subscriptions
       access_keys: 'API access'
 
@@ -333,14 +333,14 @@ en:
         created_at: Registered at
         id: ID
         name: Name
-        phones: Phones
-        emails: E-mail
+        phones: Mobile
+        emails: Email
         orders_count: Orders
         last_order: Last order
         occupation: Profession
         company_name: Company name
         first_order: First order
-        total_orders_price: 'Amount of purchases'
+        total_orders_price: 'Total'
         category: Category
         rfm: RFM
       dictionaries:
@@ -1406,8 +1406,8 @@ en:
         title: Phones
         empty: No phone
       emails:
-        title: E-mails
-        empty: No e-mail
+        title: Emails
+        empty: No email
     order:
       found_count: Orders on request
       create: Create order

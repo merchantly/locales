@@ -139,7 +139,7 @@ en:
         type: Link type
 
       client:
-        name: Name and Surname
+        name: First Name and Second Name
         phones_string: Phones
         emails_string: E-mail addresses
       order_condition:
