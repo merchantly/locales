@@ -11,7 +11,7 @@ en:
       client_denied: 'Client enabled'
 
     system_api: System API
-    choose_action: Select an action
+    choose_action: Actions
     choose_all: 'Select all %{count} position'
     mark_all_as_read: Mark all as read
     no_notifications: no notifications
@@ -115,10 +115,10 @@ en:
 
     found_products_count:
       zero: 'Goods not found'
-      one: 'The product <b>%{count}</b> has been found'
-      few: 'The products %{count} have been found'
-      many: 'The products %{count} has been found'
-      other: 'The products %{count} have been found'
+      one: '{count} product found'
+      few: '%{count} products found'
+      many: '%{count} products found'
+      other: '%{count} products found'
 
     found_orders_count:
       zero: 'Orders not found'

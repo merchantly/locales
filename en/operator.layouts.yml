@@ -30,7 +30,7 @@ en:
           filters: 'Filters'
       products:
         title: Products
-        new_button: 'Add product'
+        new_button: 'Add Product'
         search: 'Search by products'
         all: All products
         without_categories: 'Products without categories'
@@ -40,11 +40,11 @@ en:
         categories: Categories
         add_category: 'Add new category'
         settings:
-          categories: 'Product categories'
-          properties: 'Properties of the goods'
-          tags: 'Product Tags'
+          categories: 'Categories'
+          properties: 'Properties'
+          tags: 'Tags'
           dictionaries: 'Dictionaries'
-          archive: "Archive of goods (%{count} pcs.)"
+          archive: "Archive (%{count} pcs.)"
           public: 'This category on site'
           edit: 'Configure this category'
           moysklad: Data exchange with Moysklad
