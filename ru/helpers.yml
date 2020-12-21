@@ -6,7 +6,7 @@ ru:
     unpublish:
       span: 'Снять с публикации'
       confirm: 'Вы уверены?'
-    more: Ещё...
+    more: Ещё
     orders_count:
       few: заказа
       many: заказов

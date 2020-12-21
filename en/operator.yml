@@ -780,6 +780,7 @@ en:
       drawers_empty: Drawers empty
       documents_empty: Documents empty
     clients:
+      add_customer: Add Customer
       empty: No customers found
       rfm_details:
         recency:

@@ -6,7 +6,7 @@ en:
     unpublish:
       span: 'Unpublish'
       confirm: 'Are you sure?'
-    more: More...
+    more: More
     orders_count:
       few: order
       many: orders

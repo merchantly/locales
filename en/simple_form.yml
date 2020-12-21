@@ -41,7 +41,7 @@ en:
         make_delivery_on_enter: 'Do you want to run the delivery?'
         finite_state: 'Last order status'
         enter_finite_state: 'Final order status'
-        company_name: "The official name of the trading company (LLC, IP, and TP)"
+        company_name: "Registered trading company name"
         branch_category_id: Industry
         allow_sms: "Do you want to activate sending of this notification on SMS?"
         allow_email: "Do you want to activate sending of this notification on e-mail?"

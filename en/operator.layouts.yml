@@ -33,10 +33,10 @@ en:
         new_button: 'Add Product'
         search: 'Search by products'
         all: All products
-        without_categories: 'Products without categories'
-        sale: 'Discounted products'
-        is_run_out: 'Goods sold out'
-        on_welcome: 'Goods on the main page'
+        without_categories: 'Uncategorized'
+        sale: 'Discounted'
+        is_run_out: 'Sold out'
+        on_welcome: 'Main page'
         categories: Categories
         add_category: 'Add new category'
         settings:
