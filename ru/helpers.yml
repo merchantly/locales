@@ -206,3 +206,5 @@ ru:
       refresh: 'Обновить список организаций из МоегоСклада'
     operator_form_helper:
       property_dictionary_hint: 'Справочник %{dictionary}'
+    input_image:
+      text: Загрузить картинку

@@ -209,3 +209,5 @@ en:
       refresh: 'Update list of companies from MoySklad'
     operator_form_helper:
       property_dictionary_hint: 'Dictionary %{dictionary}'
+    input_image:
+      text: 'Upload image'
