@@ -169,3 +169,5 @@ en:
       not_unique_path: 'The path already exists. Delete it on the edit page of the <a href="%{resource_path}"> resource </a> '
     drawer:
       open_drawer_exist: Open drawer already exist
+      opened_at: opened_at is less closed_at of last drawers
+      closed_at: closed_at is less opened_at
