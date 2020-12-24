@@ -91,14 +91,16 @@ en:
     operator_vendors:
       title: "Stores available to you (%{count})"
       products_count: 'Goods:'
-      orderable_products_count: 'Of which are on sale:'
+      orderable_products_count: 'on sale:'
       orders_count: 'Orders:'
-      total_order_price: 'For the amount of:'
+      total_order_price: 'Total amount:'
       total_success_orders_price: 'Of them completed:'
       shop_archived: The store is in the archive
       restore: 'Restore'
       operator_url: 'Control Panel'
       role: 'Your role: %{role}'
+      th:
+
     operators:
       invite:
         title: '%{operator_inviter} invites you to join the %{link} store.'
@@ -129,26 +131,26 @@ en:
       send_pin_code: 'Get SMS with confirmation code'
       sending: 'Sending..'
     profile:
-      name: 'Your name'
+      name: 'Full name'
       password: 'Enter a password if you want to change it.'
-      phone_confirmations: 'Confirmed phones:'
+      phone_confirmations: 'Confirm Mobile:'
       phone_confirmed: (confirmed)
       phone_wait: (awaiting confirmation)
-      confirm: 'Confirm'
+      confirm: 'Resend Code'
       confirmed: 'Confirmed'
       hello: 'Hi %{name}!'
       edit_title: "This is your personal profile, you can change it."
       email: 'Email'
-      phone: 'Phone'
-      locale: 'Locale'
-      password_confirmation: 'Password confirmation'
+      phone: 'Mobile'
+      locale: 'Language'
+      password_confirmation: 'New password confirmation'
     access_keys:
       title: "Store API access keys (%{key})"
       th:
-        shop: Store
-        private_api_url: Link to merchant API (closed)
-        public_api_url: Link to customer API (public)
-        key: "Your passkey (%{key})"
+        shop: Item name
+        private_api_url: Merchant API Link
+        public_api_url: Customer API Link
+        key: "API KEY (%{key})"
       operator_api: 'Merchant API'
       client_api: 'Customer API'
     requests:

@@ -25,14 +25,21 @@ en:
     w1_send_pin_code: Send
 
     navigation:
+      profile: 'Site Admin'
       dashboard: 'Home'
-      my_shop: 'Online store'
+      my_shop: 'Online Store'
       goods: 'Products'
       orders: 'Orders'
       clients: 'Customers'
       content: 'Management'
       settings: 'Settings'
-      ecr: 'geideaPOS'
+      ecr: 'geidea POS'
+
+    profile_navigation:
+      index: 'Admin Profile'
+      vendors: 'My Stories'
+      subscriptions: 'Subscription Management'
+      access_keys: 'Access Key (API)'
 
     content_navigation:
       domain: 'Website address'
@@ -90,10 +97,10 @@ en:
 
     stucks_count:
       zero: 'No'
-      one: '%{count} piece'
-      few: '%{count} pieces'
-      many: '%{count} pieces'
-      other: '%{count} pieces'
+      one: '%{count} Piece'
+      few: '%{count} Pieces'
+      many: '%{count} Pieces'
+      other: '%{count} Pieces'
 
     dictionary_entities_count:
       one: '%{count} item'
@@ -162,6 +169,7 @@ en:
       facebook: 'Facebook authorisation '
 
     second_sidebar_headers:
+      operator_profile: Site Admin
       operator_settings: Settings
       operator_content: Site management
       products: Goods

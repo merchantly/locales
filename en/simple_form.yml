@@ -494,11 +494,11 @@ en:
       reset_form:
         login: Phone number or email
       operator:
-        name: Your name
-        phone: Phone number
-        email: E-mail
-        password: Password
-        password_confirmation: Password confirmation
+        name: Your name...
+        phone: Phone number...
+        email: E-mail...
+        password: Password...
+        password_confirmation: New password confirmation...
 
       short_vendor_registration_form:
         vendor_name: Name of store

@@ -580,3 +580,15 @@ en:
           title_html: External Device
         index:
           title_html: External Devices
+      profile:
+        show:
+          title_html: This is your personal profile, you can change it.
+      operator_vendors:
+        show:
+          title_html: Stores Available to you
+      subscriptions:
+        show:
+          title_html: Subscription Management
+      access_keys:
+        show:
+          title_html: Access Keys

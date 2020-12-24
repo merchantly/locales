@@ -25,6 +25,7 @@ ru:
     w1_send_pin_code: Выслать
 
     navigation:
+      profile: 'Профиль'
       dashboard: 'Что делать дальше?'
       my_shop: 'Магазин'
       goods: 'Товары'
@@ -33,6 +34,12 @@ ru:
       content: 'Управление сайтом'
       settings: 'Общие настройки'
       ecr: 'Склад'
+
+    profile_navigation:
+      index: 'Профиль'
+      vendors: 'Магазины'
+      subscriptions: 'Подписки'
+      access_keys: 'Ключи доступа (API)'
 
     content_navigation:
       domain: 'Адрес сайта'
@@ -162,6 +169,7 @@ ru:
       facebook: 'Авторизоваться в Facebook'
 
     second_sidebar_headers:
+      operator_profile: Профиль
       operator_ecr: Ecr
       operator_settings: Настройки
       operator_content: Управление сайтом
