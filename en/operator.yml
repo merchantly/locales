@@ -34,6 +34,7 @@ en:
       content: 'Management'
       settings: 'Settings'
       ecr: 'geidea POS'
+      disabled_content: 'Select Store'
 
     profile_navigation:
       index: 'Admin Profile'

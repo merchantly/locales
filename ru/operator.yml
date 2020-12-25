@@ -34,6 +34,7 @@ ru:
       content: 'Управление сайтом'
       settings: 'Общие настройки'
       ecr: 'Склад'
+      disabled_content: 'Выберите магазин'
 
     profile_navigation:
       index: 'Профиль'

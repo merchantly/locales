@@ -32,7 +32,7 @@ en:
         title: Products
         new_button: 'Add Product'
         search: 'Search by products'
-        all: All products
+        all: All
         without_categories: 'Uncategorized'
         sale: 'Discounted'
         is_run_out: 'Sold out'
