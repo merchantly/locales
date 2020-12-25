@@ -132,7 +132,7 @@ en:
       sending: 'Sending..'
     profile:
       name: 'Full name'
-      password: 'Enter a password if you want to change it.'
+      password: 'Enter a password if you want to change it'
       phone_confirmations: 'Confirm Mobile:'
       phone_confirmed: (confirmed)
       phone_wait: (awaiting confirmation)
