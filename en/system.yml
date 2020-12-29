@@ -8,7 +8,7 @@ en:
       mark_as_default: mark as default
     vendor_empty: 'Store empty'
     month_price: '%{currency} / month'
-    create_shop: 'Create store'
+    create_shop: 'Create new store'
     tariffs: tariffs
     default_vendor_name: Untitled
     policy_label: User agreements confirmation
@@ -138,7 +138,7 @@ en:
       phone_wait: (awaiting confirmation)
       confirm: 'Resend Code'
       confirmed: 'Confirmed'
-      hello: 'Hi %{name}!'
+      hello: 'Hello %{name}!'
       edit_title: "This is your personal profile, you can change it."
       email: 'Email'
       phone: 'Mobile'

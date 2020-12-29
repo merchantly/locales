@@ -38,7 +38,7 @@ en:
 
     profile_navigation:
       index: 'Admin Profile'
-      vendors: 'My Stories'
+      vendors: 'My Stores'
       subscriptions: 'Subscription Management'
       access_keys: 'Access Key (API)'
 
@@ -789,6 +789,7 @@ en:
       drawers_empty: Drawers empty
       documents_empty: Documents empty
     clients:
+      edit: 'Customer: %{name}'
       add_customer: Add Customer
       empty: No customers found
       rfm_details:
