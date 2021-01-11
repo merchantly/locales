@@ -400,6 +400,11 @@ en:
         amount: Quantity
         price: Price
         state: Status
+        item_name: Item Name
+        vendor_code: Vendor Code
+        stock_quantity: Stock Quantity
+        display: Display
+        edit: Edit
       properties:
         name: Name
         in_use: Used
@@ -430,6 +435,12 @@ en:
         currencies: Currencies
         central_bank: Central bank
         your_currency: Your rate
+      orders:
+        order: Order
+        price: Price
+        item: Item
+        location: Location
+        status: Status
     toggle_buttons:
       disable_with:
         making_on: Turning on..

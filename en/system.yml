@@ -100,7 +100,9 @@ en:
       operator_url: 'Control Panel'
       role: 'Your role: %{role}'
       th:
-
+        store_name: Store Name
+        goods: Goods
+        orders: Orders
     operators:
       invite:
         title: '%{operator_inviter} invites you to join the %{link} store.'

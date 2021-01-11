@@ -553,3 +553,15 @@ ru:
           title_html: Внешние устройства
         index:
           title_html: Внешние устройства
+      profile:
+        show:
+          title_html: Ваш профиль
+      operator_vendors:
+        show:
+          title_html: Магазины
+      subscriptions:
+        show:
+          title_html: Подписки
+      access_keys:
+        show:
+          title_html: Ключи доступа

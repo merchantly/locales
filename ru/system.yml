@@ -99,6 +99,10 @@ ru:
       restore: 'Восстановить'
       operator_url: 'Панель управления'
       role: 'Ваша роль: %{role}'
+      th:
+        store_name: Название
+        goods: Товары
+        orders: Заказы
     operators:
       invite:
         title: '%{operator_inviter} приглашает Вас присоединиться к магазину %{link}.'

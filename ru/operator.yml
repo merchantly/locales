@@ -377,7 +377,12 @@ ru:
         desc: Описание
         amount: Количество
         price: Цена
-        state: Состояние
+        state: Статус
+        item_name: Название
+        vendor_code: Артикул
+        stock_quantity: Количество
+        display: Опубликован
+        edit: Редактирование
       properties:
         name: Название
         in_use: Используется
@@ -406,6 +411,12 @@ ru:
         currencies: Валюты
         central_bank: Центральный банк
         your_currency: Ваш курс
+      orders:
+        order: Заказ
+        price: Цена
+        item: Позиция
+        location: Доставка
+        status: Статус
     toggle_buttons:
       disable_with:
         making_on: Включаю..
