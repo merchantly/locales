@@ -431,6 +431,16 @@ ru:
     placeholders:
       defaults:
         title: Название
+      client:
+        name: Имя
+        legal_title: Официальное название
+        company_name: Ввод имени компании
+        description: Ввод описания
+        emails_attributes:
+          email: Email
+        phones_attributes:
+          phone: Телефон
+
       cloud_payments_form:
         amount_cents: '500'
         name: IVAN IVANOV

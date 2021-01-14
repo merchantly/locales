@@ -468,6 +468,15 @@ en:
     placeholders:
       defaults:
         title: Title
+      client:
+        name: Name...
+        legal_title: Enter full name...
+        company_name: Enter full name...
+        description: Enter description...
+        emails_attributes:
+          email: Email
+        phones_attributes:
+          phone: Mobile phone
       cloud_payments_form:
         amount_cents: '500'
         name: IVAN IVANOV
