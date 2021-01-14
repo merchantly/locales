@@ -200,3 +200,6 @@ ru:
         use_existing_account: Будем использовать Ваш уже существующий аккаунт %{operator}
         email: 'Емэйл (не обязательно)'
         continue: Продолжить
+        input_phone: Телефон
+        input_email: Email
+        phone_placeholder: +7 xxxxxxxxxx

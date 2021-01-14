@@ -200,3 +200,6 @@ en:
         use_existing_account: "We will use your existing account %{operator}"
         email: 'Enter email...'
         continue: Continue
+        input_phone: Mobile number
+        input_email: Email
+        phone_placeholder: +966 xxxxxxxxxx
