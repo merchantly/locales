@@ -11,7 +11,7 @@ en:
     create_shop: 'Create new store'
     tariffs: tariffs
     default_vendor_name: Untitled
-    policy_label: User agreements confirmation
+    policy_label: I have read and confirm Terms and conditions
     call: call – %{phone}
     back: Return back
     support: Support
@@ -175,22 +175,28 @@ en:
       title: Mailings to which you are subscribed
       save: 'Save'
     vendors:
+      steps:
+        one: Store Name
+        two: Select Template
+        three: User Information
       choice_template:
         title: 'Create a new store "%{name}"'
         step: Step 2 of 3.
-        select: Choose a template suitable for your industry.
-        submit: 'Choose'
+        select: Select a template that fits your style
+        submit: 'Select'
       new:
-        title: Create a new store
-        name: Enter the name of your store
+        vendor_name: Store Name
+        partner_coupon_code: Promocode
+        title: Create New Store
+        name: Enter your store name, make it cool and catchy!
         step: Step 1.
-        example_name: 'For example: shoes store "Leonardo"'
+        example_name: 'For example Nouf Store'
         continue: 'Continue'
-        already_have_account: "Already have an account in the system?"
+        already_have_account: "Already have a store?"
       set_contacts:
         title: 'Create a new store "%{name}" with the template "%{template}"'
         phone: Specify your phone for authorization and order notifications.
         step: Step 3 (last).
         use_existing_account: "We will use your existing account %{operator}"
-        email: 'Email (not necessary)'
+        email: 'Enter email...'
         continue: Continue

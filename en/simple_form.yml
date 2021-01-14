@@ -508,7 +508,7 @@ en:
         operator_name: Your name
         phone: Phone number
         email: E-mail
-        partner_coupon_code: Promo code (if you have)
+        partner_coupon_code: Enter Promocode (if you have one)
 
       invite_form:
         name: Name
