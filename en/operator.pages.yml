@@ -588,7 +588,7 @@ en:
           title_html: Stores Available to you
       subscriptions:
         show:
-          title_html: Subscription Management
+          title_html: Events Management
       access_keys:
         show:
           title_html: Access Keys

@@ -49,7 +49,7 @@ en:
     headers:
       my_shops: "My stores (%{count})"
       profile: 'Personal profile'
-      subscriptions: 'Subscription Management'
+      subscriptions: 'Events Management'
       partner: 'Partner office'
       access_keys: 'Access keys (API)'
       create_shop: 'Create a store'

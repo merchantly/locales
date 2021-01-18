@@ -39,7 +39,7 @@ en:
     profile_navigation:
       index: 'Admin Profile'
       vendors: 'My Stores'
-      subscriptions: 'Subscription Management'
+      subscriptions: 'Events Management'
       access_keys: 'Access Key (API)'
 
     content_navigation:
