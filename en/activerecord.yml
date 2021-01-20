@@ -250,6 +250,9 @@ en:
         sberbank_is_test: Test mode
         arsenal_pay_widget: Widget
         arsenal_pay_password: Secret key
+        geidea_payment_merchant_id: Merchant ID
+        geidea_payment_api_password: Api Password
+        geidea_payment_type: Payment Type
       vendor_tariff_log_entity:
         date: 'Date'
         vendor_id: 'Store'
