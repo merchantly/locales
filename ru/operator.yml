@@ -1715,6 +1715,8 @@ ru:
         placeholders:
           city_title: 'Москва'
     vendor_payments:
+      geidea_payment:
+        title: Geidea Payment
       gsdk:
         title: GSDK
       discount_settings: Настройка скидок
