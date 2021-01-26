@@ -22,7 +22,7 @@ en:
           title_html: "SEO, redirects, security, caching, etc."
       design_settings:
         show:
-          title_html: "Website design (CSS, HTML, Logo, Fonts)"
+          title_html: "Website Design"
       elements:
         show:
           title_html: Items on site
@@ -67,7 +67,7 @@ en:
           title_html: General settings for all category pages
       pages:
         show:
-          title_html: Settings of parameters and contents of the site pages
+          title_html: Easily manage your website content
       header:
         show:
           title_html: Header options for each page of the site
@@ -148,7 +148,7 @@ en:
         sms_packs:
           title_html: SMS purchase
         show:
-          title_html: Tariff and payment
+          title_html: My Plan
         tariff_choose:
           title_html: 'Tariff selection'
       convead:
@@ -530,7 +530,7 @@ en:
           title_html: Download Products from Google Spreadsheet
       client_categories:
         show:
-          title_html: Customer categories
+          title_html: Customer Categories
       branches:
         show:
           title_html: Locations
@@ -585,7 +585,7 @@ en:
           title_html: This is your personal profile, you can change it.
       operator_vendors:
         show:
-          title_html: Stores Available to you
+          title_html: My Stores
       subscriptions:
         show:
           title_html: Events Management

@@ -43,27 +43,27 @@ en:
       access_keys: 'Access Key (API)'
 
     content_navigation:
-      domain: 'Website address'
-      pages: 'Typical pages'
-      elements: 'Items on site'
-      design: 'Design (CSS, HTML)'
+      domain: 'Website Address'
+      pages: 'Typical Pages'
+      elements: 'Items on Site'
+      design: 'Website Design'
       content_pages: 'Text Pages'
-      blog_posts: 'News or blog'
+      blog_posts: 'News/Blog'
       lookbooks: 'Lookbooks'
       subscriptions: 'E-mail Subscriptions'
       translations: 'Languages'
       other: 'SEO and other'
 
     settings_navigation:
-      legal: 'Legal information'
-      pay: 'Customer payment methods'
+      legal: 'Legal Information'
+      pay: 'Customer Payment Methods'
       delivery: 'Delivery Methods'
       orders: 'Order Settings'
       products: 'Product Settings'
       subscriptions: 'E-mail and SMS Notifications'
-      integrations: 'Integration and data sharing'
-      members: 'Team and access'
-      billing: 'Tariff and payment'
+      integrations: 'Integrations and Data Sharing'
+      members: 'Team and Access'
+      billing: 'My Plan'
       bells: 'Notifications'
       branches: 'Locations'
       cashiers: 'Cashiers'
@@ -172,7 +172,7 @@ en:
     second_sidebar_headers:
       operator_profile: Site Admin
       operator_settings: Settings
-      operator_content: Site management
+      operator_content: Management
       products: Goods
       operator_ecr: geideaPOS
 
@@ -339,17 +339,18 @@ en:
         text: Description
         datetime: Date
       clients:
+        actions: Edit
         created_at: Registered at
         id: ID
         name: Name
         phones: Mobile
         emails: Email
-        orders_count: Orders
-        last_order: Last order
+        orders_count: Total Orders
+        last_order: Previous Order
         occupation: Profession
         company_name: Company name
         first_order: First order
-        total_orders_price: 'Total'
+        total_orders_price: Total Spend
         category: Category
         rfm: RFM
       dictionaries:
@@ -402,8 +403,8 @@ en:
         state: Status
         item_name: Item Name
         vendor_code: Vendor Code
-        stock_quantity: Stock Quantity
-        display: Display
+        stock_quantity: Quantity
+        display: Publish
         edit: Edit
       properties:
         name: Name
@@ -449,7 +450,7 @@ en:
       other: SEO and other
       elements: Site elements
       design_settings: "Design (CSS, HTML, Logo, Fonts)"
-      billing: Tariff and payment
+      billing: My Plan
       transactions: Transaction list
       settings_orders:       Order settings
       languages:             Language setting
@@ -831,10 +832,10 @@ en:
         recount: Recount
         date: 'Analytics data is valid on: %{date}'
       settings:
-        subscriptions: 'Client Subscriptions'
+        subscriptions: 'Subscribed Customers'
         rfm: 'RFM Analysis'
-        client_settings: 'Client Settings'
-        client_categories: 'Customer categories'
+        client_settings: 'Customer Settings'
+        client_categories: 'Customer Categories'
         archive: "Customer Archive (%{count})"
       client_settings:
         authorization: Authorization
@@ -848,7 +849,7 @@ en:
         page: Page
         seo: SEO
       show_page: 'View on site'
-      add_button: 'Add text page'
+      add_button: 'Add Text Pages'
     coupon_images:
       coordinates: The coordinates of the certificate code on the image
       add_button: Add
@@ -1012,16 +1013,16 @@ en:
     legal:
       product_vat_groups: Edit product tax groups
       subtitle: The information is used for invoicing and when working with online cash registers.
-      payment_data: Details for invoice
+      payment_data: Invoice Details
       contract_offer: "Offer N%{id} from %{registered_at}"
       pdf_download: (Download in PDF)
       coupon_registration: 'Registered by promo code:'
       shop_is_template: This store is a template.
       form:
         labels:
-          legal_name: 'The official name of your organization'
+          legal_name: 'Registered Business Name'
           invoice_stamp_comment: 'Comment to the account'
-          invoice_stamp_image: 'Image stamp and signature for invoices'
+          invoice_stamp_image: 'Image Stamp and Signature'
           remove_invoice_stamp_image: 'Delete image?'
         hints:
           invoice_stamp_comment: 'Displayed on top. Specify here phones and additional information.'
@@ -1094,7 +1095,7 @@ en:
           response_state: 'Status'
       empty: No such pages.
     order_operator_filters:
-      add_button: 'Add filter'
+      add_button: 'Add Filter'
     recommended_products:
       title: 'Recommended products'
     order_page:
@@ -1286,7 +1287,7 @@ en:
         breadcrumbs: Breadcrumbs category
         product_item: Categories can be edited only in base product
       header:
-        is_manual_published: 'Published?'
+        is_manual_published: 'Publish'
         preview: 'View'
       other:
         show_other_products:
@@ -1301,7 +1302,7 @@ en:
           label: 'Display mode'
       price_kinds_link: 'Setting price types'
       tabs:
-        common: 'Description'
+        common: 'Item Details'
         extra: 'Additionally'
         seo: 'SEO'
         other: 'Other goods'
@@ -1893,21 +1894,21 @@ en:
         title: 'Sample code for Yandex Metrika'
     common_pages_widgets:
       welcome:
-        title: Home page
+        title: Home Page
         url: operator_welcome_page_path
-        details_html: 'Order of goods, order in one click, slider and other settings of the main page'
+        details_html: 'Manage your home page setting, such as the slideshow banner on the main page, the categories you want to display, add-to-cart buttons and more.'
       product:
-        title: Product page
+        title: Product Page
         url: operator_product_page_path
-        details_html: 'Image display position and other product page settings'
+        details_html: 'Manage product page settings, such as image position on the product pages, receive alerts about out of stock products, wish list options and more'
       category:
         title: Category Page
         url: operator_category_page_path
-        details_html: 'Category Page Settings'
+        details_html: 'Manage category page settings, such as product settings when added to a category, the view of the category page and more.'
       order:
-        title: Add to cart and order page
+        title: Add-to-Cart and Order Page
         url: operator_order_page_path
-        details_html: 'Add to cart and order page settings'
+        details_html: "Manage your store's shopping cart and order page so customers can check-out."
 
     modules_widgets:
       header:

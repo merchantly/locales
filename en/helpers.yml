@@ -43,11 +43,11 @@ en:
     years: "%{count} years."
     days: "%{count} days"
     batch_actions:
-      sale: "Sale"
-      no_sale: "Remove Sale"
+      sale: "Activate Discount"
+      no_sale: "Remove Discount"
       restore: 'Restore from archive'
       publicate: 'Publish'
-      unpublicate: 'Hide'
+      unpublicate: 'Unpublish'
       delete: 'Delete'
       merge: 'Combine'
       duplicate: 'Duplicate'

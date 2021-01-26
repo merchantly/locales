@@ -8,7 +8,7 @@ en:
       mark_as_default: mark as default
     vendor_empty: 'Store empty'
     month_price: '%{currency} / month'
-    create_shop: 'Create new store'
+    create_shop: 'Add Store'
     tariffs: tariffs
     default_vendor_name: Untitled
     policy_label: I have read and confirm Terms and conditions
@@ -133,7 +133,7 @@ en:
       send_pin_code: 'Get SMS with confirmation code'
       sending: 'Sending..'
     profile:
-      name: 'Full name'
+      name: 'Full Name'
       password: 'Enter a password if you want to change it'
       phone_confirmations: 'Confirm Mobile:'
       phone_confirmed: (confirmed)

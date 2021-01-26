@@ -2,20 +2,20 @@ en:
   operator:
     dashboard:
       help:
-        title: Any questions?
-        body: "Contacts"
+        title: Help
+        body: 'Contacts us'
       pages:
-        title: Add products
-        body: "You probably want to tell about your store, the story of how you started, just <a href=\"/operator/content_pages\" target=_blank>create a page</a> with contacts or “about us” and place it in the <a href=\"/operator/menu_items\" target=_blank>menu</a>."
+        title: It's all in the details
+        body: 'Tell your customers more <a href="/operator/content_pages" target=_blank> about your business </a>.'
       pay:
-        title: Connect payment
-        body: "Choose convenient <a href=\"/operator/vendor_payments\" target=_blank>ways to accept payment</a>, in cash, by card on the site or by transfer."
+        title: Payment options
+        body: Set up your accepted <a href="/operator/vendor_payments" target=_blank> payment methods</a>.'
       del:
-        title: Customize Delivery
-        body: "If you have couriers and you understand how and where you will deliver the goods, then simply create <a href=\"/operator/vendor_deliveries\" target=_blank>delivery methods</a>, specify the cost and describe the conditions. If not, write to us, we will prompt."
+        title: Delivery options
+        body: 'Set up your accepted <a href="/operator/vendor_deliveries" target=_blank>delivery methods</a>.'
       main:
-        title: Add products
-        body: "A store without goods is not a store. Create <a href=\"/operator/categories\" target=_blank>categories</a> and then the <a href=\"/operator/products/new?product%5Bcategory_ids%5D%5B%5D=\" target=_blank>products</a> themselves. If you have more than 100-200 items of goods, <a href=\"/operator/integration/import\" target=_blank>download them en masse from a file</a> or through <a href=\"/operator/integration/moysklad\" target=_blank>\"My Stock\"</a>, we recommend working with this service."
+        title: List your products or services
+        body: 'Create <a href="/operator/categories" target=_blank>categories</a> and upload your <a href="/operator/products/new?product%5Bcategory_ids%5D%5B%5D=" target=_blank>products</a>.'
       design:
-        title: Design your store
-        body: "To get started, upload a <a href=\"/operator/favicons\" target=_blank>logo</a>, recommended width is 120-150px and favicon. You can customize the style in an interactive <a href=\"/?anticache=1522394897&design=open&inside=true&preview=407e52766ebcfd289676d00bb6f1a3e1\" target=_blank>design widget</a>. Add basic store information - <a href=\"/operator/header\" target=_blank>contacts and a short heading</a>, customers want to know what and where you are selling."
+        title: Design your online store
+        body: Let's get started! Add your logo <a href="/operator/favicons" target=_blank>logo</a> then <a href="/?anticache=1522394897&design=open&inside=true&preview=407e52766ebcfd289676d00bb6f1a3e1" target=_blank>design your website </a>. Add information to <a href="/operator/header" target=_blank>the website header</a> to tell your customers what you sell.

@@ -80,7 +80,7 @@ en:
         DeliveryTimeRule: Time slot rule
         CouponImage: Certificate templates
         OrderItem: Order positions
-        ClientCategory: Customer categories
+        ClientCategory: Customer Categories
         PriceKind: Types of Price
         Ecr::Branch: Locals
         Ecr::Cashier: Cash Accounts
@@ -139,8 +139,8 @@ en:
     system_mail_template:
       template_type:
         tech: "Important and emergency information (a couple of times a year, we do not recommend unsubscribing)"
-        news: "Service news, marketing (no more than once a month)"
-        analytics: "Analytics own store (weekly, with sales)"
+        news: "Click here to subscribe to our monthly newsletter with news and special offers."
+        analytics: "Click here to receive weekly analytic reports."
     vendor:
       filter_apply_type:
         notice: Show the bar below

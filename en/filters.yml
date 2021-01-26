@@ -73,11 +73,11 @@ en:
         name: Directory
 
       has_ordering_goods:
-        name: Venality
+        name: Available for Sale
         values:
-          'true': For sale
-          'false': Cannot buy
-          any: Any
+          'true': Yes
+          'false': No
+          any: All
 
       has_price:
         name: Price
@@ -91,28 +91,28 @@ en:
         values:
           'true': Yes
           'false': No
-          any: Any
+          any: All
 
       is_sale:
-        name: Sale
+        name: Discounted
         values:
           'true': Yes
           'false': No
           any: Any
 
       is_run_out:
-        name: Ended
+        name: Out of Stock
         values:
-          'true': ended
+          'true': Out of Stock
           'false': Available
           any: Any
 
       has_items:
         name: Options
         values:
-          'true': Yes
-          'false': No
-          any: Any
+          'true': true
+          'false': false
+          any: All
 
       is_stock_linked:
         name: Binding to the warehouse
@@ -148,8 +148,8 @@ en:
           any: Any
 
       is_published:
-        name: Visibility
+        name: Published
         values:
-          'true': Published
-          'false': Unpublished
-          any: Any
+          'true': Yes
+          'false': No
+          any: All

@@ -317,6 +317,7 @@ ru:
         text: Описание
         datetime: Дата
       clients:
+        actions: Действия
         created_at: Дата регистрации
         id: ID
         name: Имя

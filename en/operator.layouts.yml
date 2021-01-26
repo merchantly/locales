@@ -12,7 +12,7 @@ en:
       clients:
         title: Customers
         add_category: 'Add category'
-        all: All clients
+        all: All Customers
       orders:
         title: Orders
         search_query: Order number, comment or product
@@ -21,7 +21,7 @@ en:
         search_button: 'Search'
         new_order: 'Create order'
         search: 'Search orders'
-        add_filter: 'Add filter'
+        add_filter: 'Add Filter'
         all: All orders
         settings:
           states: 'Order Status'
@@ -35,16 +35,16 @@ en:
         all: All
         without_categories: 'Uncategorized'
         sale: 'Discounted'
-        is_run_out: 'Sold out'
-        on_welcome: 'Main page'
+        is_run_out: 'Out of Stock'
+        on_welcome: 'Home Page'
         categories: Categories
-        add_category: 'Add new category'
+        add_category: 'Add category'
         settings:
           categories: 'Categories'
           properties: 'Properties'
           tags: 'Tags'
           dictionaries: 'Dictionaries'
-          archive: "Archive (%{count} pcs.)"
+          archive: "Archive (%{count} items)"
           public: 'This category on site'
           edit: 'Configure this category'
           moysklad: Data exchange with Moysklad
