@@ -2,7 +2,7 @@ ru:
   vendor:
     order_form_presenter:
       country_code:
-      default_title: Выбор страны
+        default_title: Выбор страны
     payment_discount:
       percent: '%{title} (Скидка -%{discount}%)'
       fixed: '%{title} (Скидка -%{discount})'
