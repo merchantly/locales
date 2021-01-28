@@ -134,18 +134,18 @@ en:
       sending: 'Sending..'
     profile:
       name: 'Full Name'
-      password: 'Enter a password if you want to change it'
+      password: 'Enter a new password'
       phone_confirmations: 'Confirm Mobile:'
       phone_confirmed: (confirmed)
       phone_wait: (awaiting confirmation)
       confirm: 'Resend Code'
       confirmed: 'Confirmed'
       hello: 'Hello %{name}!'
-      edit_title: "This is your personal profile, you can change it."
+      edit_title: "Feel free to update your profile"
       email: 'Email'
       phone: 'Mobile'
       locale: 'Language'
-      password_confirmation: 'New password confirmation'
+      password_confirmation: 'Confirm new password'
     access_keys:
       title: "Store API access keys (%{key})"
       th:

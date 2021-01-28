@@ -138,7 +138,7 @@ en:
         fixed: 'Fixed amount'
     system_mail_template:
       template_type:
-        tech: "Important and emergency information (a couple of times a year, we do not recommend unsubscribing)"
+        tech: "Click here to receive important information from geidea (we recommend subscribing)."
         news: "Click here to subscribe to our monthly newsletter with news and special offers."
         analytics: "Click here to receive weekly analytic reports."
     vendor:
