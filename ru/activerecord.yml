@@ -39,6 +39,10 @@ ru:
       openbill_transaction: Транзакции
       vendor_sms_log_entity: Журнал SMS
       vendor_common_transaction: Списание абонентской платы
+      dictionary: Словарь
+      dictionary_entity: Элемент словаря
+      lookbook: Лкубук
+      blog_post: Пост в блог
       dashboard_item: Шаг запуска магазина
       # Шаги в списке '5 шагов для запуска магазина'
       delivery_time_period: Время доставки
@@ -295,6 +299,7 @@ ru:
         title: Название текстового блока
         position: Позиция
       vendor:
+        meta_title_template: 'Шаблон для %{resource}'
         show_delivery_restriction_messages: Показывать сообщение об ограничениях доставок на продукт
         filter_apply_type: Применить фильтр
         show_filter_clear_button: Показать кнопку 'Сбросить все фильтры'
