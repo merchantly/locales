@@ -41,6 +41,7 @@ ru:
       vendors: 'Магазины'
       subscriptions: 'Подписки'
       access_keys: 'Ключи доступа (API)'
+      partner: 'Партнёрский кабинет'
 
     content_navigation:
       domain: 'Адрес сайта'
