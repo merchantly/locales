@@ -1,6 +1,12 @@
 en:
   operator:
     pages:
+      partner/coupons:
+        show:
+          title_html: Partner promocodes
+      partner/welcome:
+        show:
+          title_html: Partner profile
       warehouse_movements:
         show:
           title_html: Warehouse Transactions

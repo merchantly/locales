@@ -1,6 +1,12 @@
 ru:
   operator:
     pages:
+      partner/coupons:
+        show:
+          title_html: Партнёрские промокоды
+      partner/welcome:
+        show:
+          title_html: Партнёрский кабинет
       recommended_products:
         show:
           title_html: Рекомендуемые товары
