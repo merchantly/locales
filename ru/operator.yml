@@ -41,6 +41,7 @@ ru:
       vendors: 'Магазины'
       subscriptions: 'Подписки'
       access_keys: 'Ключи доступа (API)'
+      partner: 'Партнёрский кабинет'
 
     content_navigation:
       domain: 'Адрес сайта'
@@ -928,6 +929,7 @@ ru:
       walletone: 'Настройка виджета WalletOne'
       instagram: 'Лента фотографий из Instagram'
     header:
+      meta_title_template: 'Шаблоны элементов <head><title>'
       form:
         labels:
           name: 'Название магазина'
