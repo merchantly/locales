@@ -6,3 +6,5 @@ ru:
     price_kinds:
       default: Цена по-умолчанию
       sale: Цена распродажи
+    categories:
+      default_welcome_category: Главная страница

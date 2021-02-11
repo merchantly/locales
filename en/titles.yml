@@ -18,3 +18,5 @@ en:
       ecr_warehouse_movement_transfer: Transfer
       ecr_warehouse_movement_receipt: Receipt
       ecr_warehouse_movement_expense: Transfer
+    categories:
+      default_welcome_category: Home Page Category

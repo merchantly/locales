@@ -171,3 +171,5 @@ en:
       open_drawer_exist: Open drawer already exist
       opened_at: opened_at is less closed_at of last drawers
       closed_at: closed_at is less opened_at
+    category:
+      no_archive_welcome_category: 'You cannot archive welcome category. Delete it <a href="%{url}"> here</a>'
