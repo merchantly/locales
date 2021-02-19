@@ -754,6 +754,9 @@ ru:
               url: Должен быть ссылкой на файл
             video_url:
               url: Не является ссылкой
+    warnings:
+      cart_item:
+        stored_price_and_price_different: Цена для позиции изменилась (была %{old_price})
     order:
       address:
         house: д.

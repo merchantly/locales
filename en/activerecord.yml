@@ -757,6 +757,9 @@ en:
               url: "Must be a link on the file "
             video_url:
               url: Not a link
+    warnings:
+      cart_item:
+        stored_price_and_price_different: The price for the item changed (was %{old_price})
     order:
       address:
         house: Building
