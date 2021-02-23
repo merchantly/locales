@@ -11,7 +11,7 @@ en:
         system: 'API for stores and clients – %{access_keys_url}'
       errors:
         member_not_found: 'No member with such key %{api_key}'
-        operator_not_found: 'No member with such key #{api_key}'
+        operator_not_found: 'No member with such key %{api_key}'
       amo_crm:
         title: 'Methods to control integration with AmoCRM'
         settings:
@@ -22,7 +22,7 @@ en:
             desc: 'Setup new settings'
         test:
           desc: 'Test platform access  %{brand_name_e} to AmoCRM (make an authorization into AmoCRM)'
-      design_settings: 
+      design_settings:
         show:
           desc: 'Get design settings'
         update:
@@ -30,12 +30,12 @@ en:
       delivery_cities:
         list: 'City of delivery'
       delivery_time_periods:
-        list: 
+        list:
           title: 'Delivery deadlines'
           params:
             vendor_delivery_id: 'Delivery method'
       pickup_points:
-        list: 
+        list:
           title: 'Pickup point'
           params:
             vendor_delivery_id: 'Delivery method'
@@ -50,7 +50,7 @@ en:
       yandex_pickup_locations:
         list:
           title: 'Place of yandex delivery'
-          params: 
+          params:
             yandex_delivery_id: 'ID of delivery service'
       subscription_emails:
         desc: 'Create subscription'
