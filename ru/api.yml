@@ -22,7 +22,7 @@ ru:
             desc: 'Установить новые'
         test:
           desc: 'Протестировать доступ %{brand_name_e} к AmoCRM (выполняет авторизацию и accounts/current в API AmoCRM)'
-      design_settings: 
+      design_settings:
         show:
           desc: 'Возвращаем настройки дизайна'
         update:
@@ -30,12 +30,12 @@ ru:
       delivery_cities:
         list: 'Города доставки'
       delivery_time_periods:
-        list: 
+        list:
           title: 'Сроки доставки'
           params:
             vendor_delivery_id: 'Способ доставки'
       pickup_points:
-        list: 
+        list:
           title: 'Пункты выдачи'
           params:
             vendor_delivery_id: 'Способ доставки'
@@ -50,7 +50,7 @@ ru:
       yandex_pickup_locations:
         list:
           title: 'Местоположения яндекс доставки'
-          params: 
+          params:
             yandex_delivery_id: 'id службы доставки'
       subscription_emails:
         desc: 'Создание подписки'
@@ -99,6 +99,7 @@ ru:
             position: Позиция
             parent_id: ID родительской категории
             filter: Фильтр товаров
+            image: Изображение
         show:
           desc: Полные данные о категории
         edit:

@@ -20,3 +20,5 @@ en:
       ecr_warehouse_movement_expense: Transfer
     categories:
       default_welcome_category: Home Page Category
+    warehouses:
+      default: Default Warehouse

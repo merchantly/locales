@@ -99,6 +99,7 @@ en:
             position: Position
             parent_id: Parent Category ID
             filter: Product Filter
+            image: Image file (jpg, png, gif)
         show:
           desc: Complete category data
         edit:
@@ -140,6 +141,8 @@ en:
           params:
             image: "Image file (jpg, png, gif)"
       products:
+        archive:
+          desc: Archive
         autocomplete:
           desc: List of products for autocomplete
           params:

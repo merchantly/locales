@@ -8,3 +8,5 @@ ru:
       sale: Цена распродажи
     categories:
       default_welcome_category: Главная страница
+    warehouses:
+      default: Склад по-умолчанию
