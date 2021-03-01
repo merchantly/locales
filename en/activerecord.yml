@@ -26,7 +26,7 @@ en:
       partner: 'Partner'
       partner/coupon: Partner's promo code
       vendor_tariff_log_entity: History of tariff changes
-      client: Customer
+      client: Name
       system_mail_template: System mailing templates
       system_text: System text
       system_mail_delivery: Mailing of letters

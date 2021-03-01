@@ -2,25 +2,25 @@ en:
   filters:
     orders:
       source:
-        name: Type
+        name: Channel
         values:
           offline: Offline
           online: Online
           any: Any
       workflow_state_id:
-        name: 'Order Status'
+        name: Order Status
         values:
-          any: 'Any'
+          any: All
       coupon_id:
-        name: Promo code
+        name: Coupons
         values:
           any: Any
       delivery_type_id:
-        name: Shipping
+        name: Delivery Method
         values:
           any: Any
       payment_type_id:
-        name: Payment
+        name: Payment Method
         values:
           any: Any
       client_id:
@@ -29,11 +29,11 @@ en:
           any: Any
       created_at_from: Search by date
       has_reserved_items:
-        name: Reserve
+        name: Reserved Items
         values:
-          'true': yes
-          'false': No
-          any: Any
+          'true': 'Yes'
+          'false': 'No'
+          any: All
 
       delivery_state:
         name: Delivery Status
@@ -75,8 +75,8 @@ en:
       has_ordering_goods:
         name: Available for Sale
         values:
-          'true': Yes
-          'false': No
+          'true': 'Yes'
+          'false': 'No'
           any: All
 
       has_price:
@@ -89,16 +89,16 @@ en:
       has_images:
         name: Photos
         values:
-          'true': Yes
-          'false': No
+          'true': 'Yes'
+          'false': 'No'
           any: All
 
       is_sale:
         name: Discounted
         values:
-          'true': Yes
-          'false': No
-          any: Any
+          'true': 'Yes'
+          'false': 'No'
+          any: All
 
       is_run_out:
         name: Out of Stock
@@ -110,15 +110,15 @@ en:
       has_items:
         name: Options
         values:
-          'true': true
-          'false': false
+          'true': 'Yes'
+          'false': 'No'
           any: All
 
       is_stock_linked:
         name: Binding to the warehouse
         values:
-          'true': Yes
-          'false': No
+          'true': 'Yes'
+          'false': 'No'
           any: Any
 
       is_archived:
@@ -150,6 +150,6 @@ en:
       is_published:
         name: Published
         values:
-          'true': Yes
-          'false': No
+          'true': 'Yes'
+          'false': 'No'
           any: All

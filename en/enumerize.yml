@@ -41,7 +41,7 @@ en:
         MailTemplate: Letter templates
         DictionaryEntity: Directory elements
         Member: Employees
-        SubscriptionEmail: Email subscriptions
+        SubscriptionEmail: Customer subscriptions
         Lookbook: Lookbooks
         LookbookImage: Images of lookbooks
         ProductImage: Images of goods

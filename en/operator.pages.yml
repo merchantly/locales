@@ -250,7 +250,7 @@ en:
           title_html: Translation string
       subscription_emails:
         index:
-          title_html: 'Customer''s Subscriptions'
+          title_html: 'Customer Subscriptions'
       clients:
         index:
           title_html: 'Customers'
@@ -301,7 +301,7 @@ en:
           title_html: 'Downloading data to the Kiosk'
       favicons:
         index:
-          title_html: Logo and favicons
+          title_html: Logo and Favicons
 
       apidoc:
         show:

@@ -285,6 +285,7 @@ en:
         warehouses: Warehouse
         purchase_price: Purchase Price
         quantity: In Stock
+        products: Products assigned
       archived_css:
         archive_css: Archived css
         operator: Who changed
@@ -950,9 +951,9 @@ en:
         body: 'At the end of <code>&lt;head&gt;</code>'
         footer: 'Before <code>&lt;footer&gt;</code>'
     files:
-      settings_favicons: 'Logo and favicons'
+      settings_favicons: 'Logo and Favicons'
       robots: 'robots.txt'
-      asset_images: 'Images for content'
+      asset_images: 'Image Library'
     filter:
       example: Filter example
       properties_link: 'property order'
@@ -1151,7 +1152,7 @@ en:
       placeholders:
         search_form:
           query: 'Product name or customer data'
-      created_at_from: 'Date of creation'
+      created_at_from: 'Order Dates'
       order_conditions: 'Business processes'
       workflow_states: 'Wrkflow states'
       operator_filters: 'Order filters'
@@ -1939,7 +1940,7 @@ en:
           <p>Good for notification of promotions.</p>
       asset_images:
         url: operator_asset_images_path
-        title: Images for content
+        title: Image Library
         details_html: Full list of images used on the site
 
     slug_widgets:
@@ -1995,20 +1996,20 @@ en:
       css:
         title: Additional Styles (CSS)
         url: operator_css_path
-        details_html: "Customize the design of the site (styles, colors, background, fonts) to your taste."
+        details_html: Customize the design of your site (styles, colors, background, fonts) using CSS format.
       extra_html:
         title: Additional HTML
         url: operator_extra_html_path
-        details_html: Additional HTML code for each page of the site.
+        details_html: Add and edit more text content on your site using HTML format.
       logo:
-        title: Logo and favicons
+        title: Logo and Favicons
         url: operator_favicons_path
-        details_html: Logo and favicons
+        details_html: Add your company logo and favicons to increase brand presence across your web pages.
 
       design:
-        title: Interactive design
+        title: Interactive Design
         url: design_operator_shop_path
-        details_html: You will be switched to the interactive design widget right on the site.
+        details_html: Use our interactive design widget to customize your web pages (no coding required).
 
     orders_settings:
       workflow_states:
