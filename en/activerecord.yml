@@ -44,6 +44,9 @@ en:
       delivery_time_period: Time of delivery
 
     attributes:
+      quantity_unit:
+        title: Title
+        short: Short name
       certificate:
         domain: Domain
         cert_file: Certificate

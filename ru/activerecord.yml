@@ -48,6 +48,9 @@ ru:
       delivery_time_period: Время доставки
 
     attributes:
+      quantity_unit:
+        title: Название
+        short: Короткое название
       certificate:
         domain: Домен
         cert_file: Сертификат
