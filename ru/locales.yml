@@ -1,5 +1,10 @@
 ru:
   locales:
-    ru: Русский
-    en: English
-    ar_SA: عربى
+    profile_select:
+      ru: Русский
+      en: English
+      ar_SA: عربى
+    operator_select:
+      ru: Ru
+      en: En
+      ar_SA: عر

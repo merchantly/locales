@@ -301,7 +301,7 @@ en:
           title_html: 'Downloading data to the Kiosk'
       favicons:
         index:
-          title_html: Logo and Favicons
+          title_html: Logos and Favicons
 
       apidoc:
         show:

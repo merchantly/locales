@@ -134,7 +134,7 @@ en:
       sending: 'Sending..'
     profile:
       name: 'Full Name'
-      password: 'Enter a new password'
+      password: 'Change password'
       phone_confirmations: 'Confirm Mobile:'
       phone_confirmed: (confirmed)
       phone_wait: (awaiting confirmation)

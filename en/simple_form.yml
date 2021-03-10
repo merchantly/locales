@@ -265,7 +265,7 @@ en:
         favicons: Favicons
         theme:
           mstile_color: The color of the pinned site in Windows
-          page_bg_color: The background color of the entire page
+          page_bg_color: Page color
           feed_bg_color: Content Background Color
           feed_transparency: Transparency
           font_family: Font family
@@ -506,7 +506,7 @@ en:
         name: Your name...
         phone: e.g. +966 xxx xxx xxx
         email: E-mail...
-        password: Password...
+        password: Enter a new password...
         password_confirmation: Re-enter new password...
 
       short_vendor_registration_form:
@@ -643,9 +643,9 @@ en:
         order_notification_emails: 'E-mails line by line'
         order_notification_phones: 'Phones line by line, for example: +9669033891228'
         logo: >
-          You can upload files with extensions <strong>%{ext}</strong>
+          You can upload files with <strong>%{ext}</strong> extensions
         favicons: >
-          You can upload files with extensions <strong>%{ext}</strong><br>
+          You can upload files with <strong>%{ext}</strong><br> extensions
         public_offer_page_id: 'If installed, when placing an order, the buyer will be asked to accept the terms of the offer'
       category:
         show_children_products: This option disables the filter in this category.

@@ -31,29 +31,29 @@ en:
       has_reserved_items:
         name: Reserved Items
         values:
-          'true': 'Yes'
-          'false': 'No'
+          'true': 'Reserved'
+          'false': 'Available'
           any: All
 
       delivery_state:
         name: Delivery Status
         values:
-          new: expected to start
-          not_needed: Delivery Not Required
+          new: In progress
+          not_needed: No delivery needed
           delivery: Delivered
-          done: Delivered
-          canceled: Canceled
-          any: Any
+          done: Done
+          canceled: Cancelled
+          any: All
 
       payment_state:
         name: Payment Status
         values:
-          new: We are waiting for payment
-          direct: Expect payment in cash
-          paid: paid
-          failed: Rejected
-          canceled: Canceled
-          any: Any
+          new: Pending
+          direct: Cash payment (Pending)
+          paid: Paid
+          failed: Declined
+          canceled: Cancelled
+          any: All
 
     products:
       on_welcome:

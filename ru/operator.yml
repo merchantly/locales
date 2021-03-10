@@ -3,7 +3,7 @@ ru:
     locales:
       ru: Русский
       en: English
-      ar: Arabic
+      ar_SA: عربي
 
     flashes:
       rfm_updated: 'RFM метрики пересчитаны'

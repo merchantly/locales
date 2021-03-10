@@ -3,7 +3,7 @@ en:
     locales:
       ru: Русский
       en: English
-      ar: Arabic
+      ar_SA: عربي
 
     flashes:
       rfm_updated: 'RFM metrics recalculated'
@@ -33,7 +33,7 @@ en:
       clients: 'Customers'
       content: 'Management'
       settings: 'Settings'
-      ecr: 'geidea POS'
+      ecr: 'geideaPOS'
       disabled_content: 'Select Store'
 
     profile_navigation:
@@ -48,9 +48,9 @@ en:
       elements: 'Items on Site'
       design: 'Website Design'
       content_pages: 'Text Pages'
-      blog_posts: 'News/Blog'
+      blog_posts: 'News and Blogs'
       lookbooks: 'Lookbooks'
-      subscriptions: 'E-mail Subscriptions'
+      subscriptions: 'Customer Subscriptions'
       translations: 'Languages'
       other: 'SEO and other'
 
@@ -287,8 +287,8 @@ en:
         quantity: In Stock
         products: Products assigned
       archived_css:
-        archive_css: Archived css
-        operator: Who changed
+        archive_css: Archived CSS
+        operator: Archived by
       sales_report:
         good_vat_percent: TAX rate, %
         article: Article
@@ -850,7 +850,7 @@ en:
         page: Page
         seo: SEO
       show_page: 'View on site'
-      add_button: 'Add Text Pages'
+      add_button: 'Add text page'
     coupon_images:
       coordinates: The coordinates of the certificate code on the image
       add_button: Add
@@ -951,7 +951,7 @@ en:
         body: 'At the end of <code>&lt;head&gt;</code>'
         footer: 'Before <code>&lt;footer&gt;</code>'
     files:
-      settings_favicons: 'Logo and Favicons'
+      settings_favicons: 'Logos and Favicons'
       robots: 'robots.txt'
       asset_images: 'Image Library'
     filter:
@@ -967,7 +967,7 @@ en:
     header:
       form:
         labels:
-          name: 'Name of store'
+          name: 'Store name'
         hints:
           name: 'Used in the site title, in the title tag and in letters'
           is_logo_link: 'If you disable, then the logo will not link'
@@ -1525,10 +1525,10 @@ en:
         Use values from the list <a href="http://www.google.com/basepages/producttype/taxonomy-with-ids.ru-RU.xls">Google's product taxonomy </a>
     category_page:
       form:
-        header: Product List (Category)
+        header: Product View
         hints:
-          category_product_columns: 'Number of product columns'
-          category_product_rows: 'Number of product lines'
+          category_product_columns: 'Product columns'
+          category_product_rows: 'Product rows'
           show_next_resource_in_list: 'The category will display a link to the next category.'
     dashboard:
       graph_period: Orders for 3 months
@@ -1909,25 +1909,25 @@ en:
       order:
         title: Add-to-Cart and Order Page
         url: operator_order_page_path
-        details_html: "Manage your store's shopping cart and order page so customers can check-out."
+        details_html: "Manage your store's shopping cart and order page so customers can checkout."
 
     modules_widgets:
       header:
         title: Site header
         url: operator_header_path
-        details_html: 'Site header displayed on each page. Here the name of the site and contacts for communication.'
+        details_html: 'Adjust the site headers to show the name of your online store or add some additional contact information.'
       footer:
         title: Site footer
         url: operator_footer_path
         details_html: 'Site footer displayed on each page'
       menu:
-        title: Menu on the site
+        title: Site menu
         url: operator_menu_items_path
         details_html: 'On each page of the sat menu is shown. By default, it is automatically generated, but you can customize it in your own way.'
       filter:
         title: Product Filter
         url: operator_filter_path
-        details_html: 'A convenient filter of products by price, availability, and any other properties can be displayed on the main page and on the category page.'
+        details_html: 'A convenient filter of products by price, availability, and any other property can be displayed on the main page and on the category page.'
       slider:
         title: Slider on the head page
         url: operator_slider_images_path
@@ -1941,7 +1941,7 @@ en:
       asset_images:
         url: operator_asset_images_path
         title: Image Library
-        details_html: Full list of images used on the site
+        details_html: Create a database for all your images. You can upload images here and use them for later, instead of accessing them from your computer.
 
     slug_widgets:
       slug_resources:
@@ -2002,7 +2002,7 @@ en:
         url: operator_extra_html_path
         details_html: Add and edit more text content on your site using HTML format.
       logo:
-        title: Logo and Favicons
+        title: Logos and Favicons
         url: operator_favicons_path
         details_html: Add your company logo and favicons to increase brand presence across your web pages.
 

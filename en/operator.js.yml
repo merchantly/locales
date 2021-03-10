@@ -14,7 +14,7 @@ en:
         many: '%{count} seconds'
         other: '%{count} seconds'
       dropzones:
-        default_message: "Move here files for upload"
+        default_message: "Drag or upload your images here"
         file_too_big: "File is too big"
         invalid_file_type: "This kind of file extension is not supported for upload"
         cancel_upload: "Cancel uploading"
