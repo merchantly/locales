@@ -2105,6 +2105,7 @@ en:
       new_submit: New
       updated: Unit updated
       created: Unit created
+      deleted: Unit deleted
     drawers:
       print: Print
       opened: Drawer opened

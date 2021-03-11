@@ -169,3 +169,5 @@ ru:
       not_unique_path: 'Путь уже существует. Удалите его на странице редактирования <a href="%{resource_path}"> ресурса </a>'
     category:
       no_archive_welcome_category: 'Вы не можете архивать страницу для главной страницы. Сначала выберите другую <a href="%{url}">категорию</a>'
+    quantity_unit:
+      not_destroyed_with_nomenclatures: Вы не можете удалить единицу измерения пока она используется в номенклатуре

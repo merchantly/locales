@@ -2050,6 +2050,7 @@ ru:
       new_submit: Новая ед. измерения
       updated: Единица измерения обновлена
       created: Единица измерения создана
+      deleted: Eдиница измерения удалена
     external_devices:
       new_submit: Создать
       empty: Пустой
