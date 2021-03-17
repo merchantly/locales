@@ -224,6 +224,12 @@ en:
         percent: '%'
         fixed: 'Fixed amount'
     vendor_payment:
+      payment_key:
+        PAYMENT_WITH_COIN: Wallet Transfer (PAYMENT_WITH_COIN)
+        TERMINAL_PAYMENT: Card Payment (TERMINAL_PAYMENT)
+        ONLINE_PAYMENT: Online Payment (ONLINE_PAYMENT)
+        E_INVOICE: Pay by Link (E_INVOICE)
+        CASH: Cash Payment (CASH)
       online_kassa_payment_method:
         full_prepayment: 100% prepayment
         prepayment: Prepayment
