@@ -22,9 +22,9 @@ en:
     finite_state:
       any: 'Any'
       new: 'New'
-      in_process: 'In the process'
+      in_process: 'In process'
       failure: 'Failed'
-      success: 'Completed successfully'
+      success: 'Successful'
     invite:
       role:
         owner: 'Owner'

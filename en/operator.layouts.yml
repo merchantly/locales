@@ -21,7 +21,7 @@ en:
         search_button: 'Search'
         new_order: 'Create order'
         search: 'Search orders'
-        add_filter: 'Add Filter'
+        add_filter: 'Add order category'
         all: All orders
         settings:
           states: 'Order Status'

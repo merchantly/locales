@@ -27,7 +27,7 @@ en:
       prev_post: Previous post
       next_post: Next post
     not_published: Store temporarily down
-    made_in_kiiiosk: 'Build on «%{brand_name_e}»'
+    made_in_kiiiosk: 'Powered by «%{brand_name_e}»'
     tasty_product_button_text: Buy
     more: More
 

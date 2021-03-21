@@ -149,8 +149,8 @@ en:
       description_html: "Upload information about goods (names, prices, balances)"
 
     import_photos:
-      title: Download a large number of products photos
-      description_html: Download a large number of products photos
+      title: Upload a large number of product photos
+      description_html: Upload a large number of product photos
 
     yandex_metrika:
       title: Yandex Metrika

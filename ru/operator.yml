@@ -70,10 +70,6 @@ ru:
       cashiers: 'Кассы'
       external_devices: 'Внешние устройства'
 
-    price_kinds:
-      default: Обычная
-      sale: Распродажа
-
     toggle_theme_button:
       slider_visible: Показывать слайдер
       has_auto_menu: Автоматическое меню
@@ -200,18 +196,12 @@ ru:
       any: Любой
     payments:
       any: Любой
-    workflow_states:
-      any: Любой
 
     workflow_state:
       delete: Удалить
 
     mail_template:
       cancel: Сбросить все изменения
-
-    locales:
-      ru: Русский
-      en: Английский
 
     menu_view:
       auto_html: 'Выводится в меню автоматически. <a href="%{url}">Изменить</a>'
@@ -452,7 +442,6 @@ ru:
       dictionaries:          Справочники
       dictionary:            "Справочник '%{resource}'"
       members:               Сотрудники
-      coupons:               Скидочные купоны
       dictionary_dictionary_entities: "Элементы справочника '%{resource}'"
       mail_templates:        Шаблоны писем и уведомлений
       workflow_states:       Статусы закзаов
@@ -868,6 +857,7 @@ ru:
           custom_style_format: 'Формат'
       result: 'Результат в CSS'
     delivery_time_slots:
+      close: Закрыть
       time: C %{from} по %{to}
       from: С&nbsp;
       to: По&nbsp;
@@ -1630,6 +1620,8 @@ ru:
     price_kinds:
       name: Наименование
       add_button: Добавить вид цены
+      default: Обычная
+      sale: Распродажа
     sitemap:
       link: Ссылка на sitemap.xml Вашего магазина
       refresh:
@@ -1808,6 +1800,7 @@ ru:
       convead_key_empty: не установлен
       order_conditions: 'Бизнес процессы'
       add_button: Добавить статус
+      any: Любой
     base:
       product_categories_positions:
         title: Позиция товара в категориях

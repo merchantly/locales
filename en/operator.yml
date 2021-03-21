@@ -60,7 +60,7 @@ en:
       delivery: 'Delivery Methods'
       orders: 'Order Settings'
       products: 'Product Settings'
-      subscriptions: 'E-mail and SMS Notifications'
+      subscriptions: 'Email and SMS Notifications'
       integrations: 'Integrations and Data Sharing'
       members: 'Team and Access'
       billing: 'My Plan'
@@ -72,6 +72,8 @@ en:
     price_kinds:
       default: Обычная
       sale: Распродажа
+      name: Name
+      add_button: Add price type
 
     toggle_theme_button:
       slider_visible: Show slider
@@ -199,18 +201,12 @@ en:
       any: Any
     payments:
       any: Any
-    workflow_states:
-      any: Любой
 
     workflow_state:
       delete: Delete
 
     mail_template:
       cancel: Reset all changes
-
-    locales:
-      ru: Russian
-      en: English
 
     menu_view:
       auto_html: 'Displayed in the menu automatically. <a href="%{url}">Change</a>'
@@ -261,14 +257,14 @@ en:
       ecr_documents:
         datetime: Datetime
         type: Type
-        cashier: Cash Register
+        cashier: Cash register
         details: Details
         comment: Comment
         debit: debit
         credit: credit
       external_devices:
         name: Name
-        ip: Ip
+        ip: IP address
         port: Port
       drawers:
         opened_at: Start of Drawer
@@ -278,13 +274,13 @@ en:
         state: State
         description: Description
       quantity_unit:
-        title: Unit Name
-        short: Short Unit Name
+        title: Unit name
+        short: Unit symbol
       nomenclatures:
         name: Item
         warehouses: Warehouse
-        purchase_price: Purchase Price
-        quantity: In Stock
+        purchase_price: Purchase price
+        quantity: In stock
         products: Products assigned
       archived_css:
         archive_css: Archived CSS
@@ -334,7 +330,7 @@ en:
         contacts: Contacts
         role: Role
         sms: SMS notifications
-        email: E-mail Notifications
+        email: Email Notifications
       bells:
         subject: Title
         text: Description
@@ -476,7 +472,6 @@ en:
       dictionaries:          Directories
       dictionary:            "Reference '%{resource}'"
       members:               Team
-      coupons:               Скидочные купоны
       dictionary_dictionary_entities: "Directory elements '%{resource}'"
       mail_templates:        Letter and notification templates
       workflow_states:       Orders statuses
@@ -727,7 +722,7 @@ en:
       app_link:
         title: "We are proud of our project and therefore at the very bottom of every page of the store, there is an inscription that the store is made on our platform."
         help: "But if it annoys you, you can turn it off for %{price} per month."
-        disable: "Hide title \"Build on %{brand_name_e}\""
+        disable: "Hide title \"Powered by %{brand_name_e}\""
         disable_button: Off
         disabled: "Disabled until %{date}"
         disable_confirm: "Cost is %{price} per month. Do you want to disable?"
@@ -766,7 +761,7 @@ en:
         disk_space_used: 'Used disk space:'
         invoices: Accounts
       sms_packs:
-        sent_sms_log: Sent SMS Log
+        sent_sms_log: Sent SMS log
         pack_count: '%{pack_count} SMS'
         buy:  "Buy for %{price}"
     cache:
@@ -794,7 +789,7 @@ en:
     cashiers:
       created: 'Cashier created'
       updated: 'Cashier updated'
-      new_submit: New Cashier
+      new_submit: New cashier
       close_drawer: Close drawer
       open_drawer: Open drawer
       drawers: Drawers
@@ -904,6 +899,7 @@ en:
           custom_style_format: 'Format'
       result: 'Result in CSS'
     delivery_time_slots:
+      close: Cancel
       time: "From %{from} to %{to}"
       from: From&nbsp;
       to: To&nbsp;
@@ -961,7 +957,7 @@ en:
         body: "Configure %{link} &nbsp; displayed in the filter"
     footer:
       middle_html: 'HTML code between lower menu blocks'
-      app_link: 'Title "Build on %{brand_name_e}"'
+      app_link: 'Title "Powered by %{brand_name_e}"'
       walletone: 'Customize the WalletOne widget'
       instagram: 'Instagram photo feed'
     header:
@@ -975,7 +971,7 @@ en:
           title: 'Write here a brief description of the store. Indicate the actual address, if any'
           contacts: 'We recommend here to write only the phone and email. Contacts will automatically become clickable'
       see_also: 'See also:'
-      top_banner: 'Banner in the header (promotional message)'
+      top_banner: 'Create a banner'
     top_banners:
       link_url:
         label: 'Link to the page that will open when you click on the message'
@@ -994,7 +990,7 @@ en:
     languages:
       used_on_site: Used on site
       default_locale: Default language
-      select_default_locale: 'Use default'
+      select_default_locale: 'Set as default language'
       setup: 'Customize translations'
       disable: Disable
       enable: Enable
@@ -1069,12 +1065,12 @@ en:
           sms:  SMS template
           email: Email Template
       index:
-        sms_log: 'Sent SMS Log'
+        sms_log: 'Sent SMS log'
         tabs:
           settings: 'Your email address'
           clients: 'Customer notifications'
-          merchants: 'Notifications for managers'
-          system: 'Systen notifications'
+          merchants: 'Manager notifications'
+          system: 'System notifications'
         callout:
           title: 'Which teammate receive notifications?'
           body: "See on the page&nbsp; %{link}"
@@ -1096,9 +1092,7 @@ en:
           response_state: 'Status'
       empty: No such pages.
     order_operator_filters:
-      add_button: 'Add Filter'
-    recommended_products:
-      title: 'Recommended products'
+      add_button: 'Add order category'
     order_page:
       currency: 'Currency'
       form:
@@ -1285,7 +1279,7 @@ en:
       adding: 'Adding goods'
       categories_select:
         title: Product Categories
-        breadcrumbs: Breadcrumbs category
+        breadcrumbs: Main category (if product belongs to more than one category)
         product_item: Categories can be edited only in base product
       header:
         is_manual_published: 'Publish'
@@ -1402,6 +1396,7 @@ en:
     slug_redirects:
       empty: No redirects installed
     recommended_products:
+      title: 'Recommended products'
       callout: |
         This page edits the list of recommended products for the blog and the cart.</br>
         To add recommended products for a specific product (blog post). go to the product edit page (blog post).
@@ -1647,10 +1642,10 @@ en:
       files_to_upload: List of uploaded favicon files
       not_loaded: not loaded
       needsclick:
-        logo: Click here or drag logo image here
-        favicons: Click here or drag favicons files here
-        bg: Click here or drag background image here
-      preferably_vector: (preferably vector)
+        logo: Drag or upload your logo here
+        favicons: Drag or upload your favicon here
+        bg: Drag or upload a background image here
+      preferably_vector: (preferably a vector image)
       delete:
         logo: 'Remove logo'
       callout:
@@ -1672,9 +1667,6 @@ en:
       load: 'Download the list of items'
       load_empty:  No issue has been loaded yet
       load_button: 'Download'
-    price_kinds:
-      name: Name
-      add_button: Add price type
     sitemap:
       link: Link to sitemap.xml of your store
       refresh:
@@ -1690,19 +1682,19 @@ en:
         url: operator_categories_path
         title: Product categories
         details_html: |
-          <p>As a rule, products are categorized.</p>
-          <p>Categories have a tree structure, each product can be in several categories at the same time. </p>
+          <p>Add and manage your categories. All products should be categorized.</p>
+          <p>Products can be in multiple categories at the same time. </p>
       properties:
         url: operator_properties_path
-        title: Properties of goods (characteristics)
+        title: Product properties
         details_html: |
-          <p>Centrally manage the properties of the goods.</p>
-          <p>It will help to make an automatic filter of goods for customers. </p>
+          <p>Add and manage the properties of your products.</p>
+          <p>It will help customers make choices between products (e.g. size, color)</p>
       tags:
         url: operator_tags_path
-        title: Product Tags
+        title: Product tags
         details_html: |
-          List of all tags used in products.
+          Add and manage the tags used for your products. Tags make it easier to manage and categorize your products.
       dictionaries:
         url: operator_dictionaries_path
         title: Directories
@@ -1712,9 +1704,9 @@ en:
           <p>A single reference can be used in several properties.</p>
       price_kinds:
         url: operator_price_kinds_path
-        title: Types of prices
+        title: Price types
         details_html: |
-          <p>Types of prices</p>
+          <p>Add and manage the price types of your products (e.g. default price, sales price).</p>
       quantity_units:
         url: operator_quantity_units_path
         title: Units
@@ -1846,6 +1838,7 @@ en:
       convead_key_empty: not installed
       order_conditions: 'Worklfow'
       add_button: Add status
+      any: Any
     base:
       product_categories_positions:
         title: Item position in categories
@@ -1874,7 +1867,7 @@ en:
         title: 'Active redirects:'
       sms_balance:
         current: "Current SMS Balance:&nbsp;"
-        count: "%{count} pcs."
+        count: "%{count} SMS"
         disabled: (Sending SMS is disabled)
         buy: 'Buy more SMS'
       stock_info:
@@ -1919,7 +1912,7 @@ en:
       footer:
         title: Site footer
         url: operator_footer_path
-        details_html: 'Site footer displayed on each page'
+        details_html: 'Change the site footers for each page using HTML code to add text blocks, pages, or social media buttons to help customers navigate across your platforms.'
       menu:
         title: Site menu
         url: operator_menu_items_path
@@ -1929,15 +1922,15 @@ en:
         url: operator_filter_path
         details_html: 'A convenient filter of products by price, availability, and any other property can be displayed on the main page and on the category page.'
       slider:
-        title: Slider on the head page
+        title: Slider on home page
         url: operator_slider_images_path
         details_html: 'Scrolling image collection attracts attention. Displayed at the top of the home page.'
       top_banner:
-        title: Banner in the header (promotional message)
+        title: Create a banner
         url: operator_top_banner_path
         details_html: |
-          <p>This is a one-line message displayed at the top of the site. </p>
-          <p>Good for notification of promotions.</p>
+          <p>This is a one-line message displayed on top of the site.</p>
+          <p>It is useful for promotional messages and getting attention.</p>
       asset_images:
         url: operator_asset_images_path
         title: Image Library
@@ -1946,52 +1939,59 @@ en:
     slug_widgets:
       slug_resources:
         url: operator_slug_resources_path
-        title: Human readable paths
+        title: URL manager
         details_html: |
-          <p>Each object in the system can be set in a convenient way that is understandable for people.</p>
-          <p>For example, instead of <code>/products/123</code> use <code>/kofta</code></p>
+          <p>View and manage URLs of resource pages (product, category, text, etc.) that have a value in the Clear Way field.</p>
+          <p>This helps create URLs which are easy to read and understand for humans.</p>
+          <p>For example, instead of /products/123, use /blouse in the Clear Way field.</p>
       slug_redirects:
         url: operator_slug_redirects_path
-        title: Redirects (301)
+        title: Redirects
         details_html: |
-          Install redirects from pages that you have already deleted or to which the user often get so as not to lose clients.
+          Install redirects to help reduce the bounce rate of a website by redirecting your customers from expired and/or deleted pages, to another page of the website.
       robots:
         url: operator_robots_path
-        title: Robots.txt setup
-        details_html: "robots.txt is automatically generated, but you can correct something if you want"
+        title: Robots.txt
+        details_html: |
+          <p>A robots.txt file tells web crawlers how to read and index your pages for ranking. It is automatically generated, but it can be changed.</p>
+          <p>For example, if you would not like certain pages to be indexed.</p>
 
       sitemap:
         url: operator_sitemap_path
-        title: Sitemap (sitemap.xml)
+        title: Sitemap
         details_html: "The sitemap (sitemap.xml) is automatically generated, but you can correct something if you want"
 
       extra_js:
-        title: JavaScript on every page of the site
+        title: JavaScript
         url: operator_extra_js_path
-        details_html: JavaScript code for each page of the site.
+        details_html: |
+          <p> JavaScript lets you enable analytics (send user data to remote servers, like Google Analytics).</p>
+          <p> It can be used to render images and other actions, but it's not advised, as it could interfere with how the website works.</p>
       https:
-        title: Encryption and HTTPS
+        title: HTTPS and encryption
         url: operator_https_path
         details_html: 'Connected SSL encryption will allow search services to evaluate your site better, and causes great trust among customers.'
 
       cache:
         title: Caching and optimization
         url: operator_cache_path
-        details_html: 'Rarely, but sometimes you need to manually update the cache so that the latest changes are applied faster. So here you can configure the time to cache HTTP requests'
+        details_html: |
+          <p> The cache stores data so that future requests for that data can be provided faster.</p>
+          <p> It's automatically updated, but you can manually configure the time to cache HTTP requests so that newer changes can be made faster.</p>
 
     ecr_settings_widgets:
       locations:
         title: Locations
         url: operator_ecr_branches_path
-        details_html: Edit locations
+        details_html: Add and manage your branch locations, such as the cashiers operating across your branches and the warehouses that deliver goods to your branches.
       units:
         title: Units
         url: operator_quantity_units_path
-        details_html: Edit units
+        details_html: Add and manage the units of measurements for your products. This setting can be useful for products that are sold by weight.
       external_devices:
-        title: External Devices
+        title: External devices
         url: operator_external_devices_path
-        details_html: Edit external devices
+        details_html: Add and manage your external devices, such as an ECR or POS device.
     styles_widgets:
       css:
         title: Additional Styles (CSS)
@@ -2060,6 +2060,7 @@ en:
       updated: Warehouse updated
       created: Warehose created
     nomenclatures:
+      new_submit: Add inventory
       products: 'Products'
       warehouse_movements: Warehouse Movements
       product_view: 'View Item'
@@ -2068,7 +2069,7 @@ en:
       edit_quantity_units: Edit units
       updated: Nomenclature updated
       quantity_units: Units
-      balance_sheet: Inventory Statement
+      balance_sheet: Inventory statement
       filter:
         all: All
         availability:
@@ -2095,7 +2096,7 @@ en:
       closing_balance: Closing Balance
       incoming: Incoming
       outgoing: Outgoing
-      in_stock: In Stock
+      in_stock: In stock
       total_amount: Total Amount
       total: Total
       receipts: Receipts

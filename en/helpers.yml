@@ -196,7 +196,7 @@ en:
     stock:
       log_entity_state:
         started: 'In progress'
-        finished: 'Completed successfully'
+        finished: 'Successful'
         error: 'Error'
         cancel: 'Aborted'
         unknown: 'unknown status'

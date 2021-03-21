@@ -58,10 +58,10 @@ en:
         body: Comment
         city_title: City
         position: Position in the list
-        meta_title: <head><title>
-        meta_description: <meta description>
-        meta_keywords: <meta keywords>
-        h1: <h1>
+        meta_title: Title tag
+        meta_description: Meta description
+        meta_keywords: Meta keywords
+        h1: Header tag
       ecr_drawer:
         open_balance: Open balance
         close_balance: Close balance
@@ -259,7 +259,7 @@ en:
         turbolinks_enabled: Enable fast reboot (turbolinks)
         sitemap_url: Link to sitemap
         is_published: Store included
-        is_external_link_kiosk_disabled: "Hide title \"Build on %{brand_name_e}\""
+        is_external_link_kiosk_disabled: "Hide title \"Powered by %{brand_name_e}\""
         not_published_text: Text of message about stopping of work process of store
         logo: Logo
         favicons: Favicons
@@ -268,7 +268,7 @@ en:
           page_bg_color: Page color
           feed_bg_color: Content Background Color
           feed_transparency: Transparency
-          font_family: Font family
+          font_family: Font
           font_size: Font size
           font_color: Text color
           active_elements_color: Active Color
@@ -276,8 +276,8 @@ en:
           show_cart_button_in_list: Show add to cart button
           category_product_columns: Products in a row in the category
           category_product_rows: Product lines in the category
-          mainpage_product_columns: Products in a row on the main
-          mainpage_product_rows: Rows of goods on the main
+          mainpage_product_columns: Product columns
+          mainpage_product_rows: Product rows
           theme_template_key: Style
           custom_body_class: Custom CSS class in body
           custom_style_format: 'Style format'
@@ -643,9 +643,9 @@ en:
         order_notification_emails: 'E-mails line by line'
         order_notification_phones: 'Phones line by line, for example: +9669033891228'
         logo: >
-          You can upload files with <strong>%{ext}</strong> extensions
+          You can upload files with %{ext} extensions
         favicons: >
-          You can upload files with <strong>%{ext}</strong><br> extensions
+          You can upload files with %{ext} extensions
         public_offer_page_id: 'If installed, when placing an order, the buyer will be asked to accept the terms of the offer'
       category:
         show_children_products: This option disables the filter in this category.
@@ -667,7 +667,7 @@ en:
         auto_cancel_period_days: 'Notify the buyer about the cancellation of the order after the expiration date (days). Leave blank to not notify'
       vendor_email:
         email: |
-          Your customers will receive letters from this address
+          Your customers will receive emails from this address
       vendor_delivery:
         aramex_username: empty if test
         aramex_password: empty if test

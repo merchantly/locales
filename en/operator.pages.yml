@@ -18,7 +18,7 @@ en:
           title_html: Sales reports
       price_kinds:
         index:
-          title_html: Types of prices
+          title_html: Price types
         edit:
           title_html: Editing Price Type
         new:
@@ -34,7 +34,7 @@ en:
           title_html: Items on site
       https:
         show:
-          title_html: Encryption and HTTPS
+          title_html: HTTPS and encryption
       additional:
         show:
           title_html: Additional pages
@@ -383,7 +383,7 @@ en:
           title_html: Home page
       integrations:
         index:
-          title_html: Integration with third-party services and data exchange
+          title_html: Integration and data sharing with third-party services
       moysklad:
         show:
           title_html: Integration with MyStock
@@ -415,11 +415,11 @@ en:
           title_html: Human-understandable ways
       slug_redirects:
         new:
-          title_html: New Redirect (301)
+          title_html: New Redirect
         edit:
-          title_html: Edit the redirect (301)
+          title_html: Edit the redirect
         index:
-          title_html: Redirects (301)
+          title_html: Redirects
       not_founds:
         index:
           title_html: Not found pages (404)

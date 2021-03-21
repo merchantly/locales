@@ -282,7 +282,7 @@ en:
         nomenclature_id: 'Inventory Item'
         nomenclature: 'Inventory Item'
       slug:
-        path: 'Clear way'
+        path: 'URL path'
         redirect_path: 'Redirect'
       cart:
         discount_info: 'Discount %{discount}% for %{discount_price}'
@@ -390,9 +390,9 @@ en:
         custom_after_content_html: Additional html code before <footer>
         footer_menu_middle_html: HTML code in the central column of the bottom menu
         robots: Robots.txt
-        contacts: Contacts in title
+        contacts: Contact information
         order_notification_emails: E-mails for order notifications
-        support_email:  Reply-to
+        support_email:  Reply-to address
         order_notification_phones: Phones for order notifications via SMS
         pickup_address: Pickup address
         currency_iso_code: Currency
@@ -400,7 +400,7 @@ en:
         available_currencies: Additional currencies
         stock_on?: My stock
         is_published: "Published?"
-        run_out_message: Message about the sold products
+        run_out_message: Messaging for out of stock products
         package_category_id: Packing category
         show_cart_button_in_list: Display the button "Add to cart" in the list of products
         show_quantity_in_list: Display the quantity entry field in the product list
@@ -600,7 +600,7 @@ en:
         description: Description
         month_price: Cost (month)
         can_change: You can change
-        link_kiosk_disable_price: 'Price of hiding title "Build on %{brand_name_e}"'
+        link_kiosk_disable_price: 'Price of hiding title "Powered by %{brand_name_e}"'
         is_default: 'Default tariff'
         feature_edit_menu: Manual menu editing
         feature_package: Packaging
@@ -658,7 +658,7 @@ en:
         updated_at: Updated
         icon: Icon
       vendor_email:
-        email: From
+        email: Sender address
       delivery_time_rule:
         to: From
         time: Time
