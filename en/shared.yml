@@ -41,6 +41,7 @@ en:
     cart: Add to cart
     agent: Agent
     selected: Selected
+    all_select: "Select All %{resource_name}"
     from: from
     entrance: Log In
     overall: Total

@@ -254,8 +254,14 @@ en:
       access_keys: 'API access'
 
     th:
+      slug_resources:
+        url_path: URL path
+        page_type: Page type
+        name: Name
+      warehouse_movements:
+        datetime: Date and Time
       ecr_documents:
-        datetime: Datetime
+        datetime: Date and Time
         type: Type
         cashier: Cash register
         details: Details
@@ -974,7 +980,7 @@ en:
       top_banner: 'Create a banner'
     top_banners:
       link_url:
-        label: 'Link to the page that will open when you click on the message'
+        label: 'Message link'
         hint: 'Not necessary'
       subtitle:  This is a message that appears in the header of the site on each page. It is convenient to use for short messages and promotions.
     history_paths:
@@ -1916,7 +1922,7 @@ en:
       menu:
         title: Site menu
         url: operator_menu_items_path
-        details_html: 'On each page of the sat menu is shown. By default, it is automatically generated, but you can customize it in your own way.'
+        details_html: 'On each page of the site, a menu is automatically generated with your categories, but you can manually adjust it to add text pages, lookbooks, or other pages.'
       filter:
         title: Product Filter
         url: operator_filter_path
@@ -1924,7 +1930,7 @@ en:
       slider:
         title: Slider on home page
         url: operator_slider_images_path
-        details_html: 'Scrolling image collection attracts attention. Displayed at the top of the home page.'
+        details_html: "Add attractive images on your home page to grab your customer's attention."
       top_banner:
         title: Create a banner
         url: operator_top_banner_path
@@ -1959,7 +1965,9 @@ en:
       sitemap:
         url: operator_sitemap_path
         title: Sitemap
-        details_html: "The sitemap (sitemap.xml) is automatically generated, but you can correct something if you want"
+        details_html: |
+          <p> An XML sitemap makes it easier for Google to find all the relevant pages to crawl and is automatically generated.</p>
+          <p> It can be defined in the robots.txt file and can also be uploaded to the Google Search Console (which acts as a bridge between your website and Google Search).</p>
 
       extra_js:
         title: JavaScript
@@ -1970,7 +1978,9 @@ en:
       https:
         title: HTTPS and encryption
         url: operator_https_path
-        details_html: 'Connected SSL encryption will allow search services to evaluate your site better, and causes great trust among customers.'
+        details_html: |
+          <p> An SSL encryption such as HTTPS ensures data transfer is secure between parties.</p>
+          <p> An HTTPS certificate for the current domain is provided, as well as a redirect option between http:// and https:// to minimize duplicate pages.</p>
 
       cache:
         title: Caching and optimization
@@ -2051,7 +2061,7 @@ en:
     warehouses:
       archive: Archive
       active: Active
-      new_submit: New Warehouse
+      new_submit: New warehouse
       empty: Empty
       movements: Transactions
       nomenclatures: Items

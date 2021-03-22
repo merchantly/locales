@@ -385,7 +385,7 @@ en:
         cloud_payments_api_key: 'API password'
 
       category:
-        parent_id: 'Root category'
+        parent_id: 'Parent category'
         is_main: 'Products in this category are displayed on the main page'
         bottom_text: Text below the product list
       property:
@@ -431,7 +431,7 @@ en:
         phone: 'or phone'
         role: Role
       top_banner:
-        content: Promotional text (one line)
+        content: Banner message
         link_url: Link from the promotional message
       coupon:
         code: Code
@@ -597,7 +597,7 @@ en:
         package_category_id: Products from this category are offered as packaging on the order page and are excluded from the general issue on the main page.
         domain_zone: Subdomain area
         support_email: |
-          Answers from clients to your letters will be sent to this address
+          Inbound customer emails will be sent to this address
       order_conditions:
         after_time_minutes: 'If left empty, the event will start immediately.'
 

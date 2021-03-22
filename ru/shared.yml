@@ -41,6 +41,7 @@ ru:
     cart: Корзина
     agent: Агент
     selected: Выбрано
+    all_select: "Выбрать все %{resource_name}"
     from: из
     entrance: Вход
     overall: Итого

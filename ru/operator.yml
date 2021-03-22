@@ -249,6 +249,10 @@ ru:
       access_keys: 'Доступ к API'
 
     th:
+      slug_resources:
+        url_path: URL путь
+        page_type: Тип страницы
+        name: Название
       ecr_documents:
         datetime: Время
         type: Тип
