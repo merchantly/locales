@@ -263,7 +263,7 @@ ru:
         credit: Кредит
       external_devices:
         name: Название
-        ip: Ip
+        ip: IP address
         port: Port
       archived_css:
         archive_css: CSS

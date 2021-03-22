@@ -1717,7 +1717,7 @@ en:
         url: operator_quantity_units_path
         title: Units
         details_html: |
-          <p>Edit units</p>
+          <p>Add and manage the units of measurements for your products. This setting can be useful for products that are sold by weight.</p>
     translations:
       value_redefined: 'Value redefined'
     vendor_deliveries:
