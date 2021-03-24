@@ -2143,3 +2143,5 @@ en:
     external_devices:
       new_submit: New
       empty: Empty
+    vendor_single_update:
+      saved: Changes have been saved

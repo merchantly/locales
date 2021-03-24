@@ -2051,3 +2051,5 @@ ru:
     external_devices:
       new_submit: Создать
       empty: Пустой
+    vendor_single_update:
+      saved: Изменения сохранены
