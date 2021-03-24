@@ -557,7 +557,7 @@ en:
         MenuItemLookbook: Lookbook
       carts:
         index: Order baskets
-        show: 'Add to Cart %{id}'
+        show: 'Add to cart %{id}'
         created_at: 'Created — %{time}'
       categories:
         index: Categories
@@ -804,7 +804,7 @@ en:
       documents_empty: Documents empty
     clients:
       edit: 'Customer: %{name}'
-      add_customer: Add Customer
+      add_customer: Add customer
       empty: No customers found
       rfm_details:
         recency:
@@ -857,7 +857,7 @@ en:
       add_button: Add
     coupons:
       expires_at: "Until %{expires_at}"
-      coupon_groups: "Coupon Group %{count}"
+      coupon_groups: "Coupon gWeroup %{count}"
       create_processes: "Creates coupon group %{count}"
       no_used: not used
       unlimited: Duration is not limited
@@ -1894,15 +1894,15 @@ en:
         title: 'Sample code for Yandex Metrika'
     common_pages_widgets:
       welcome:
-        title: Home Page
+        title: Home page
         url: operator_welcome_page_path
         details_html: 'Manage your home page setting, such as the slideshow banner on the main page, the categories you want to display, add-to-cart buttons and more.'
       product:
-        title: Product Page
+        title: Product page
         url: operator_product_page_path
         details_html: 'Manage product page settings, such as image position on the product pages, receive alerts about out of stock products, wish list options and more'
       category:
-        title: Category Page
+        title: Category page
         url: operator_category_page_path
         details_html: 'Manage category page settings, such as product settings when added to a category, the view of the category page and more.'
       order:
@@ -1924,7 +1924,7 @@ en:
         url: operator_menu_items_path
         details_html: 'On each page of the site, a menu is automatically generated with your categories, but you can manually adjust it to add text pages, lookbooks, or other pages.'
       filter:
-        title: Product Filter
+        title: Product filter
         url: operator_filter_path
         details_html: 'A convenient filter of products by price, availability, and any other property can be displayed on the main page and on the category page.'
       slider:
@@ -1939,7 +1939,7 @@ en:
           <p>It is useful for promotional messages and getting attention.</p>
       asset_images:
         url: operator_asset_images_path
-        title: Image Library
+        title: Image library
         details_html: Create a database for all your images. You can upload images here and use them for later, instead of accessing them from your computer.
 
     slug_widgets:
@@ -2004,7 +2004,7 @@ en:
         details_html: Add and manage your external devices, such as an ECR or POS device.
     styles_widgets:
       css:
-        title: Additional Styles (CSS)
+        title: Additional styles (CSS)
         url: operator_css_path
         details_html: Customize the design of your site (styles, colors, background, fonts) using CSS format.
       extra_html:
@@ -2012,12 +2012,12 @@ en:
         url: operator_extra_html_path
         details_html: Add and edit more text content on your site using HTML format.
       logo:
-        title: Logos and Favicons
+        title: Logos and favicons
         url: operator_favicons_path
         details_html: Add your company logo and favicons to increase brand presence across your web pages.
 
       design:
-        title: Interactive Design
+        title: Interactive design
         url: design_operator_shop_path
         details_html: Use our interactive design widget to customize your web pages (no coding required).
 

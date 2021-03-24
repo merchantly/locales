@@ -133,7 +133,7 @@ en:
       send_pin_code: 'Get SMS with confirmation code'
       sending: 'Sending..'
     profile:
-      name: 'Full Name'
+      name: 'Full name'
       password: 'Change password'
       phone_confirmations: 'Confirm Mobile:'
       phone_confirmed: (confirmed)

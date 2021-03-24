@@ -9,7 +9,7 @@ en:
           title_html: Partner profile
       warehouse_movements:
         show:
-          title_html: Warehouse Transactions
+          title_html: Warehouse transactions
       recommended_products:
         show:
           title_html: Recommended products
@@ -20,7 +20,7 @@ en:
         index:
           title_html: Price types
         edit:
-          title_html: Editing Price Type
+          title_html: Editing price Type
         new:
           title_html: Creating a price view
       other:
@@ -28,7 +28,7 @@ en:
           title_html: "SEO, redirects, security, caching, etc."
       design_settings:
         show:
-          title_html: "Website Design"
+          title_html: "Website design"
       elements:
         show:
           title_html: Items on site
@@ -43,7 +43,7 @@ en:
           title_html: Currency prices and payment
       shop:
         show:
-          title_html: View Store
+          title_html: View store
       footer:
         show:
           title_html: Page footer on every page of the site
@@ -52,19 +52,19 @@ en:
           title_html: Colors and fonts on the site
       css:
         show:
-          title_html: Custom Styles (CSS)
+          title_html: Custom sstyles (CSS)
       domain:
         show:
           title_html: Website address
       filter:
         show:
-          title_html: Product Filter
+          title_html: Product filter
       order_page:
         show:
           title_html: Cart and order page settings
       product_page:
         show:
-          title_html: Product Page Settings
+          title_html: Product page settings
       cache:
         show:
           title_html: Caching settings
@@ -250,7 +250,7 @@ en:
           title_html: Translation string
       subscription_emails:
         index:
-          title_html: 'Customer Subscriptions'
+          title_html: 'Customer subscriptions'
       clients:
         index:
           title_html: 'Customers'
@@ -277,19 +277,19 @@ en:
           title_html: View Template
       categories:
         archive:
-          title_html: 'Category Archive'
+          title_html: 'Category archive'
         index:
-          title_html: 'Product Categories'
+          title_html: 'Product categories'
         edit:
           title_html: "Category \"%{resource}\""
         new:
-          title_html: 'Add New Category'
+          title_html: 'Add new category'
       google_analytics:
         show:
-          title_html: 'Google Analytics Integration'
+          title_html: 'Google analytics integration'
       yandex_metrika:
         show:
-          title_html: 'Yandex Metrika Integration'
+          title_html: 'Yandex metrika integration'
       bitrix24:
         show:
           title_html: 'Export orders to Bitrix24'
@@ -301,7 +301,7 @@ en:
           title_html: 'Downloading data to the Kiosk'
       favicons:
         index:
-          title_html: Logos and Favicons
+          title_html: Logos and favicons
 
       apidoc:
         show:
@@ -332,7 +332,7 @@ en:
           title_html: Homepage settings
       content_pages:
         index:
-          title_html: Text Pages
+          title_html: Text pages
         new:
           title_html: Create a text page
         edit:
@@ -526,26 +526,26 @@ en:
           title_html: Result of import of electronic keys
       coupon_images:
         show:
-          title_html: Certificate Image Template
+          title_html: Certificate image template
         edit:
           title_html: Editing a template
         new:
-          title_html: Create New Template
+          title_html: Create new template
       import_spread_sheet_infos:
         show:
-          title_html: Download Products from Google Spreadsheet
+          title_html: Download products from Google Spreadsheet
       client_categories:
         show:
-          title_html: Customer Categories
+          title_html: Customer categories
       branches:
         show:
           title_html: Locations
       cashiers:
         show:
-          title_html: Cash & Bank Accounts
+          title_html: Cash & bank Accounts
       documents:
         show:
-          title_html: Financal Transactions
+          title_html: Financal transactions
       expense:
         show:
           title_html: Expense
@@ -569,10 +569,10 @@ en:
           title_html: Warehouses
       nomenclatures:
         show:
-          title_html: Inventory Library
+          title_html: Inventory library
       balance_sheets:
         show:
-          title_html: Inventory Statement
+          title_html: Inventory statement
       quantity_units:
         show:
           title_html: Unit
@@ -583,18 +583,18 @@ en:
           title_html: Drawers
       external_devices:
         show:
-          title_html: External Device
+          title_html: External device
         index:
-          title_html: External Devices
+          title_html: External devices
       profile:
         show:
           title_html: Feel free to update your profile
       operator_vendors:
         show:
-          title_html: My Stores
+          title_html: My stores
       subscriptions:
         show:
-          title_html: Events Management
+          title_html: Events management
       access_keys:
         show:
-          title_html: Access Keys
+          title_html: Access keys
