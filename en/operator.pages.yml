@@ -542,7 +542,7 @@ en:
           title_html: Locations
       cashiers:
         show:
-          title_html: Cash & bank Accounts
+          title_html: Cash & bank accounts
       documents:
         show:
           title_html: Financal transactions

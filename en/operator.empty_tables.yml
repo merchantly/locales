@@ -37,6 +37,8 @@ en:
           images: Images
         coupon_image:
           image: Image
+        category:
+          title: Category
 
       empty:
         default: You have no one posts yet

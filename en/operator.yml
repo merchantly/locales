@@ -591,7 +591,7 @@ en:
         create: Item creation
         list_title: List of items
       invites:
-        list_title: "Invitation List (%{count})"
+        list_title: "Invitation list (%{count})"
         invite_member: Invite a teammate
       lookbooks:
         index: Lookbooks
@@ -835,7 +835,7 @@ en:
         recount: Recount
         date: 'Analytics data is valid on: %{date}'
       settings:
-        subscriptions: 'Subscribed customers'
+        subscriptions: 'Customer subscriptions'
         rfm: 'RFM Analysis'
         client_settings: 'Customer settings'
         client_categories: 'Customer categories'
@@ -1017,16 +1017,16 @@ en:
     legal:
       product_vat_groups: Edit product tax groups
       subtitle: The information is used for invoicing and when working with online cash registers.
-      payment_data: Invoice Details
+      payment_data: Invoice details
       contract_offer: "Offer N%{id} from %{registered_at}"
       pdf_download: (Download in PDF)
       coupon_registration: 'Registered by promo code:'
       shop_is_template: This store is a template.
       form:
         labels:
-          legal_name: 'Registered Business Name'
+          legal_name: 'Registered business name'
           invoice_stamp_comment: 'Comment to the account'
-          invoice_stamp_image: 'Image Stamp and Signature'
+          invoice_stamp_image: 'image stamp and signature'
           remove_invoice_stamp_image: 'Delete image?'
         hints:
           invoice_stamp_comment: 'Displayed on top. Specify here phones and additional information.'
@@ -1897,7 +1897,7 @@ en:
       welcome:
         title: Home page
         url: operator_welcome_page_path
-        details_html: 'Manage your home page setting, such as the slideshow banner on the main page, the categories you want to display, add-to-cart buttons and more.'
+        details_html: 'Manage your home page settings, such as the slideshow banner on the main page, the categories you want to display, add-to-cart buttons and more.'
       product:
         title: Product page
         url: operator_product_page_path
@@ -1907,7 +1907,7 @@ en:
         url: operator_category_page_path
         details_html: 'Manage category page settings, such as product settings when added to a category, the view of the category page and more.'
       order:
-        title: Add-to-Cart and Order Page
+        title: Add-to-cart and order Page
         url: operator_order_page_path
         details_html: "Manage your store's shopping cart and order page so customers can checkout."
 

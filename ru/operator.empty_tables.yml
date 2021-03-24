@@ -37,6 +37,8 @@ ru:
           images: Изображения
         coupon_image:
           image: Изображение
+        category:
+          title: Категория
 
       empty:
         default: У вас еще нет ни одной записи

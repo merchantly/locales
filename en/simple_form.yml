@@ -78,7 +78,7 @@ en:
         branch_id: Location
         source: Online/Offline Store
       ecr_balance_sheet_form:
-        show_empty: Include Out of Stock Items
+        show_empty: Include out of stock Items
       ecr_warehouse_movement_form_receipt:
         nomenclature_id: Item
       ecr_warehouse_movement_form_transfer:
@@ -187,7 +187,7 @@ en:
         coupon_code: Promo code
         email: E-mail
         delivery_type_id: Delivery type
-        payment_type_id: Payment Methods
+        payment_type_id: Payment methods
         region: Region
         house: House
         slash: Fraction
@@ -254,7 +254,7 @@ en:
         custom_max_order_similar_products_count: Maximum number of products of one kind
         custom_max_order_items_count: Maximum number of product positions
         moysklad_mirror_categories_tree: 'Mirror category tree from stock'
-        vats_list: Available TAX Rates (%)
+        vats_list: Available TAX rates (%)
         show_similar_products: 'Show similar products'
         turbolinks_enabled: Enable fast reboot (turbolinks)
         sitemap_url: Link to sitemap
@@ -266,12 +266,12 @@ en:
         theme:
           mstile_color: The color of the pinned site in Windows
           page_bg_color: Page color
-          feed_bg_color: Content Background Color
+          feed_bg_color: Content background color
           feed_transparency: Transparency
           font_family: Font
           font_size: Font size
           font_color: Text color
-          active_elements_color: Active Color
+          active_elements_color: Active color
           show_quantity_in_list: Display a field to enter the number of items to order
           show_cart_button_in_list: Show add to cart button
           category_product_columns: Products in a row in the category

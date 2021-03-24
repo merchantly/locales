@@ -374,7 +374,7 @@ en:
         city_id: City
         phone: Phone
         email: E-mail
-        mobile_title: Name of Application
+        mobile_title: Name of application
         mobile_subject: 'Application Page: Title'
         mobile_description: 'Application Page: Text'
         mobile_footer: Order button
