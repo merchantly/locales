@@ -260,6 +260,7 @@ en:
         name: Name
       warehouse_movements:
         datetime: Date and Time
+        purchase_price: Purchase price
       ecr_documents:
         datetime: Date and Time
         type: Type
