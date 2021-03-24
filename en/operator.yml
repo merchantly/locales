@@ -70,8 +70,8 @@ en:
       external_devices: 'External Devices'
 
     price_kinds:
-      default: Обычная
-      sale: Распродажа
+      default: Default
+      sale: Sale
       name: Name
       add_button: Add price type
 
@@ -274,8 +274,8 @@ en:
         ip: IP address
         port: Port
       drawers:
-        opened_at: Start of Drawer
-        closed_at: End of Drawer
+        opened_at: Start of drawer
+        closed_at: End of drawer
         open: Open
         close: Close
         state: State
@@ -298,7 +298,7 @@ en:
         good_name: Name
         price: Price
         quantity: Quantity
-        total_price: Total Amount
+        total_price: Total amount
       vendor_jobs:
         id: ID
         created_at: Created
@@ -337,7 +337,7 @@ en:
         contacts: Contacts
         role: Role
         sms: SMS notifications
-        email: Email Notifications
+        email: Email notifications
       bells:
         subject: Title
         text: Description
@@ -349,12 +349,12 @@ en:
         name: Name
         phones: Mobile
         emails: Email
-        orders_count: Total Orders
-        last_order: Previous Order
+        orders_count: Total orders
+        last_order: Previous order
         occupation: Profession
         company_name: Company name
         first_order: First order
-        total_orders_price: Total Spend
+        total_orders_price: Total spend
         category: Category
         rfm: RFM
       dictionaries:
@@ -459,19 +459,19 @@ en:
       settings_orders:       Order settings
       languages:             Language setting
       settings_others:       Catalog of other settings
-      settings_products:     Product Settings
+      settings_products:     Product settings
       tags:                  Tags
       currencies:            Exchange rates
       menu_items:            Menu
       content:               Content
       lookbooks:             Lookbooks
       slider_images:         Images for slider
-      vendor_deliveries:     Delivery Methods
-      vendor_payments:       Payment Methods
+      vendor_deliveries:     Delivery methods
+      vendor_payments:       Payment methods
       integrations:          To the list of integrations
-      integration_moysklad: Customize MyStock
+      integration_moysklad:  Customize MyStock
       blog_posts:            Other blog posts
-      categories:            Product Categories
+      categories:            Product categories
       products:              Products
       clients:               Customers
       translations:          Language and translations
@@ -497,7 +497,7 @@ en:
       bells:
         title: Notifications
       category_positions:
-        title: Item Position
+        title: Item position
       order_conditions:
         index: Rules
         edit: We edit the rule
@@ -636,7 +636,7 @@ en:
         new: New property
       selling:
         payment_method: Payment system
-        show: Sales and Payment
+        show: Sales and payment
         w1: WalletOne
         install_w1: Connecting the Wallet One payment system
         notifications: New order notifications
@@ -670,7 +670,7 @@ en:
         #filter: Фильтр
       subscriptions:
         index: Subscription
-        list_title: Active Subscriptions
+        list_title: Active subscriptions
         new: New subscription
       slider_images:
         edit: Banner editing
@@ -679,11 +679,11 @@ en:
         index_title: Banners
       vendor_deliveries:
         index: Delivery
-        index_title: Delivery Methods
+        index_title: Delivery methods
         edit: Delivery editing
         new: Delivery creation
       vendor_payments:
-        index: Payment Methods
+        index: Payment methods
         edit: Edit payment method
         new: Creating a payment method
         available_deliveries: Compatible delivery methods
@@ -835,11 +835,11 @@ en:
         recount: Recount
         date: 'Analytics data is valid on: %{date}'
       settings:
-        subscriptions: 'Subscribed Customers'
+        subscriptions: 'Subscribed customers'
         rfm: 'RFM Analysis'
-        client_settings: 'Customer Settings'
-        client_categories: 'Customer Categories'
-        archive: "Customer Archive (%{count})"
+        client_settings: 'Customer settings'
+        client_categories: 'Customer categories'
+        archive: "Customer archive (%{count})"
       client_settings:
         authorization: Authorization
         registration: Registration
@@ -1153,7 +1153,7 @@ en:
       placeholders:
         search_form:
           query: 'Product name or customer data'
-      created_at_from: 'Order Dates'
+      created_at_from: 'Order dates'
       order_conditions: 'Business processes'
       workflow_states: 'Wrkflow states'
       operator_filters: 'Order filters'
@@ -1519,7 +1519,7 @@ en:
       note: 'Categories allow you to break products into sections.'
       this: 'View category on the site'
       add_button_title: 'Add product to this category'
-      archive: "Category Archive (%{count})"
+      archive: "Category archive (%{count})"
       active: Active Categories
       products_without_categories: "Products without a category (%{count})"
       google_product_category: |
@@ -1527,7 +1527,7 @@ en:
         Use values from the list <a href="http://www.google.com/basepages/producttype/taxonomy-with-ids.ru-RU.xls">Google's product taxonomy </a>
     category_page:
       form:
-        header: Product View
+        header: Product view
         hints:
           category_product_columns: 'Product columns'
           category_product_rows: 'Product rows'
@@ -1644,7 +1644,7 @@ en:
         title: Name
         desc: Description
         price: Price
-        log: log
+        log: Log
     favicons:
       files_to_upload: List of uploaded favicon files
       not_loaded: not loaded
@@ -2067,14 +2067,14 @@ en:
       movements: Transactions
       nomenclatures: Items
       movements_empty: Movements empty
-      nomenclature_empty: Inventory Library empty
+      nomenclature_empty: Inventory library empty
       updated: Warehouse updated
       created: Warehose created
     nomenclatures:
       new_submit: Add inventory
       products: 'Products'
-      warehouse_movements: Warehouse Movements
-      product_view: 'View Item'
+      warehouse_movements: Warehouse movements
+      product_view: 'View item'
       product: 'Item: %{product_link}'
       quantity: 'Quantity: %{quantity}, of which in reserve %{reserve_quantity}'
       edit_quantity_units: Edit units
@@ -2084,12 +2084,12 @@ en:
       filter:
         all: All
         availability:
-          in_stock: In Stock
-          out_stock: Out of Stock
+          in_stock: In stock
+          out_stock: Out of stock
         source:
           offline: Offline
           online: Online
-          no_sale: No Sale
+          no_sale: No sale
     documents:
       transactions: Transactions
       filter:
@@ -2100,15 +2100,15 @@ en:
       period: Time Frame
       start_at: From %{date}
       end_at: To %{date}
-      inventory_item: Inventory Item
+      inventory_item: Inventory item
       unit: Unit
-      opening_balance: Opening Balance
-      time_frame_change: Time Frame Change
-      closing_balance: Closing Balance
+      opening_balance: Opening balance
+      time_frame_change: Time Frame change
+      closing_balance: Closing balance
       incoming: Incoming
       outgoing: Outgoing
       in_stock: In stock
-      total_amount: Total Amount
+      total_amount: Total amount
       total: Total
       receipts: Receipts
       expenses: Issues
@@ -2125,18 +2125,18 @@ en:
       open: Open drawer
       close: Close drawer
       confirm: Are you sure?
-      open_balance: 'Starting Cash:'
-      open_actual_balance: 'Actual in Drawer:'
-      close_balance: 'Closing Cash:'
-      close_actual_balance: 'Actual in Drawer:'
+      open_balance: 'Starting cash:'
+      open_actual_balance: 'Actual in drawer:'
+      close_balance: 'Closing cash:'
+      close_actual_balance: 'Actual in drawer:'
       open_operator: 'Opened drawer:'
       close_operator: 'Closed drawer:'
-      sale_amount: 'Cash Sales:'
-      refund_amount: 'Cash Refund:'
-      open_correct_amount: 'Correct Amount:'
-      close_correct_amount: 'Correct Amount:'
-      opened_at: 'Opened At:'
-      closed_at: 'Closed At:'
+      sale_amount: 'Cash sales:'
+      refund_amount: 'Cash refund:'
+      open_correct_amount: 'Correct amount:'
+      close_correct_amount: 'Correct amount:'
+      opened_at: 'Opened at:'
+      closed_at: 'Closed at:'
       title: "Drawer №%{number}"
       description: 'Description:'
       state: "State:"
