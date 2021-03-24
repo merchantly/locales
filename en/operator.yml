@@ -1907,7 +1907,7 @@ en:
         url: operator_category_page_path
         details_html: 'Manage category page settings, such as product settings when added to a category, the view of the category page and more.'
       order:
-        title: Add-to-cart and order Page
+        title: Add-to-cart and order page
         url: operator_order_page_path
         details_html: "Manage your store's shopping cart and order page so customers can checkout."
 

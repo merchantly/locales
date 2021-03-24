@@ -42,3 +42,5 @@ en:
         total_price: 'TotalPrice: %{totalPrice}'
       categories_selectize:
         placeholder: 'Add at least one'
+      product_images_upload:
+        add: 'Add image'
