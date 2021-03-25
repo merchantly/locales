@@ -555,3 +555,5 @@ en:
       saving: 'Saving...'
       save: 'Save'
       no_changes: 'No changes'
+    vendor_not_published:
+      title: 'The store is under construction. This is DEMO mode'
