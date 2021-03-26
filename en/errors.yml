@@ -5,6 +5,8 @@ en:
     import_from_spreadsheet:
       not_allowed_locale: 'First set the locale %{locale} in the settings'
       empty_product_line: 'This line does not contain an article or a product name'
+      empty_barcode: 'This line does not contain barcode'
+      empty_parent_product: 'Parent product not founded'
     cloud_payments:
       ReferToCardIssuer: Contact your bank or use another card.
       DoNotHonor: Contact your bank or use another card.

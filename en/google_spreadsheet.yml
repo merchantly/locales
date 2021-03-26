@@ -3,6 +3,9 @@ en:
     columns:
       skip : '(skip)'
       article: 'Article'
+      parent_article: 'Parent article'
+      barcode: 'Barcode'
+      parent_barcode: 'Parent barcode'
       price: 'Price'
       sale_price: 'Discount price'
       category: 'Product category'
