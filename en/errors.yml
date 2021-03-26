@@ -7,6 +7,7 @@ en:
       empty_product_line: 'This line does not contain an article or a product name'
       empty_barcode: 'This line does not contain barcode'
       empty_parent_product: 'Parent product not founded'
+      not_add_image: 'Not add image error: %{error}'
     cloud_payments:
       ReferToCardIssuer: Contact your bank or use another card.
       DoNotHonor: Contact your bank or use another card.
