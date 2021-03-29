@@ -14,4 +14,5 @@ en:
       item_title: 'Variation name'
       description: 'Product description'
       image_link: 'Product image link'
+      vat: 'Tax'
     property_title: '(property: %{title})'
