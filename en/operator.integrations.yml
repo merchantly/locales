@@ -21,7 +21,7 @@ en:
         site: 'Go to the Bitrix24 website'
         settings: |
           <p> In bitrix24, create an application (Applications / Add Application / For personal use). </p>
-          <p> Specify the name of the application (any), check the box “The application uses only the API” and tick all the access rights.</p> 
+          <p> Specify the name of the application (any), check the box “The application uses only the API” and tick all the access rights.</p>
           <p> In the field 'Specify the link' enter the public domain of the store. </p>
           <p> Enter the data in the form below </p>
         code: 'Your code: %{code}'
@@ -85,9 +85,9 @@ en:
         journal: 'Import log'
         url: 'Link to available Google Spreadsheet'
         is_this_product_items: 'Are these product options?'
-        locale: 'Document language'
+        locale: 'Header language'
         download: 'Download'
-        example: 'sample spreadsheet in google spreadsheet'
+        example: "<a href='%{url}'> Sample spreadsheet in google spreadsheet </a>"
       import_yml:
         asset: 'XML-file format Yandex Market'
         download: 'Download'

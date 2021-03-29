@@ -87,7 +87,7 @@ ru:
         is_this_product_items: 'Это варианты товаров?'
         locale: 'Язык документа'
         download: 'Загрузить'
-        example: 'пример таблицы в Google Spreadsheet'
+        example: "<a href='%{url}'> Пример таблицы в Google Spreadsheet </a>"
       import_yml:
         asset: 'XML-файл в формате Yandex Market'
         download: 'Загрузить'
