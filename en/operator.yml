@@ -1182,6 +1182,7 @@ en:
         tabs:
           select_from_existing_products: Selection from existing products
           enter_new_products: Enter new products
+        add_new_product: Add product
     payment_cards:
       untie: 'Unlink'
       untied: 'Unlinked'

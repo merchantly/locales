@@ -1134,6 +1134,7 @@ ru:
         tabs:
           select_from_existing_products: Выбор из существующих продуктов
           enter_new_products: Ввод новых продуктов
+        add_new_product: Добавить продукт
     payment_cards:
       untie: 'Отвязать'
       untied: 'Отвязана'
