@@ -44,6 +44,11 @@ en:
       delivery_time_period: Time of delivery
 
     attributes:
+      fallback_good:
+        title: Title
+        price_cents: Price
+        tax: TAX (%)
+        purchase_price: Purchase Price
       quantity_unit:
         title: Title
         short: Short name

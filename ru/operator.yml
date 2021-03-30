@@ -1131,6 +1131,9 @@ ru:
         unreserved: 'Снят с резерва:'
       form:
         additional_information: Остальная информация
+        tabs:
+          select_from_existing_products: Выбор из существующих продуктов
+          enter_new_products: Ввод новых продуктов
     payment_cards:
       untie: 'Отвязать'
       untied: 'Отвязана'

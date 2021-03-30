@@ -1179,6 +1179,9 @@ en:
         unreserved: 'Out of reserve:'
       form:
         additional_information: Additional information
+        tabs:
+          select_from_existing_products: Selection from existing products
+          enter_new_products: Enter new products
     payment_cards:
       untie: 'Unlink'
       untied: 'Unlinked'

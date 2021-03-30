@@ -48,6 +48,11 @@ ru:
       delivery_time_period: Время доставки
 
     attributes:
+      fallback_good:
+        title: Название
+        price_cents: Цена
+        tax: TAX (%)
+        purchase_price: Закупочная цена
       quantity_unit:
         title: Название
         short: Короткое название
