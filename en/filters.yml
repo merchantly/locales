@@ -101,9 +101,9 @@ en:
           any: All
 
       is_run_out:
-        name: Out of Stock
+        name: Out of stock
         values:
-          'true': Out of Stock
+          'true': Out of stock
           'false': Available
           any: Any
 

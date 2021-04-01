@@ -271,7 +271,7 @@ en:
       basket_button: Cart
       amount: Quantity
       weight: Weight
-      overall: 'Total:'
+      overall: 'Subtotal:'
       title: Cart
       clear: Delete all goods
       not_available: No longer for sale

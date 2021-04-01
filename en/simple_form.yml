@@ -643,9 +643,9 @@ en:
         order_notification_emails: 'E-mails line by line'
         order_notification_phones: 'Phones line by line, for example: +9669033891228'
         logo: >
-          You can upload files with %{ext} extensions
+          You can upload files with <b>%{ext}</b> extensions
         favicons: >
-          You can upload files with %{ext} extensions
+          You can upload files with <b>%{ext}</b> extensions
         public_offer_page_id: 'If installed, when placing an order, the buyer will be asked to accept the terms of the offer'
       category:
         show_children_products: This option disables the filter in this category.

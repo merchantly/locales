@@ -32,7 +32,7 @@ en:
     next: Continue
     sum: Amount
     product: Product
-    products: Products
+    products: products
     orders: Orders
     shops: Stores
     custom_attributes: Specifications

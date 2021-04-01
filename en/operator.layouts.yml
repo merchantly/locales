@@ -35,7 +35,7 @@ en:
         all: All
         without_categories: 'Uncategorized'
         sale: 'Discounted'
-        is_run_out: 'Out of Stock'
+        is_run_out: 'Out of stock'
         on_welcome: 'Home Page'
         categories: Categories
         add_category: 'Add category'

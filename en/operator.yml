@@ -1155,7 +1155,7 @@ en:
           query: 'Product name or customer data'
       created_at_from: 'Order dates'
       order_conditions: 'Business processes'
-      workflow_states: 'Wrkflow states'
+      workflow_states: 'Workflow states'
       operator_filters: 'Order filters'
       mail_templates: 'Order notifications'
       archive: "Orders archive (%{count} pcs.)"
@@ -1954,7 +1954,7 @@ en:
         details_html: |
           <p>View and manage URLs of resource pages (product, category, text, etc.) that have a value in the Clear Way field.</p>
           <p>This helps create URLs which are easy to read and understand for humans.</p>
-          <p>For example, instead of /products/123, use /blouse in the Clear Way field.</p>
+          <p>For example, instead of /products/123, use /blouse in the URL path.</p>
       slug_redirects:
         url: operator_slug_redirects_path
         title: Redirects
@@ -2073,7 +2073,7 @@ en:
       movements_empty: Movements empty
       nomenclature_empty: Inventory library empty
       updated: Warehouse updated
-      created: Warehose created
+      created: Warehouse created
     nomenclatures:
       new_submit: Add inventory
       products: 'Products'
