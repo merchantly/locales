@@ -978,6 +978,11 @@ ru:
       form:
         labels:
           legal_name: 'Официальное наименование Вашей организации'
+          legal_address: 'Юридический адрес'
+          legal_city: 'Город'
+          inn_text: 'ИНН'
+          receipt_top_text: 'Текст внизу чека'
+          receipt_bottom_text: 'Текст наверху чека'
           invoice_stamp_comment: 'Комментарий к счету'
           invoice_stamp_image: 'Изображение печати и подписи для счетов на оплату'
           remove_invoice_stamp_image: 'Удалить изображение?'

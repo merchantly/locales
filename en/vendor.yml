@@ -59,6 +59,7 @@ en:
     locales:
       ru: Russian
       en: English
+      ar_SA: Arabic
 
     activemodel:
       errors:

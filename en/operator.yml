@@ -1025,6 +1025,11 @@ en:
       form:
         labels:
           legal_name: 'Registered business name'
+          legal_address: 'Address'
+          legal_city: 'City'
+          inn_text: 'VAT ID'
+          receipt_top_text: 'Text on the top of receipt'
+          receipt_bottom_text: 'Text on the bottom receipt'
           invoice_stamp_comment: 'Comment to the account'
           invoice_stamp_image: 'image stamp and signature'
           remove_invoice_stamp_image: 'Delete image?'
