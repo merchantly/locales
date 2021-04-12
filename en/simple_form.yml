@@ -337,6 +337,7 @@ en:
         is_separate_name: 'Enter a separate name (first name, last name)'
         russian_post_token: 'Authorization Token (Without AccessToken)'
         russian_post_key: 'Authorization Key (Without Basic)'
+        russian_post_postoffice_code: 'Postoffice Code'
         fragile: 'Caution/Fragile'
         russian_post_mail_direct: 'Country code. You can leave it empty if it is Russia (643)'
         russian_post_mail_category: Category RPO
