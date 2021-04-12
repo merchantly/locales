@@ -2,7 +2,7 @@ en:
   operator:
     layouts:
       header_search:
-        title: Search & Filter ...
+        title: Search & filter ...
       bells:
         read_all: 'Mark all as read'
         scope:
