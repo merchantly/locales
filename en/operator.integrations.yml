@@ -157,7 +157,7 @@ en:
         login:
           warning: |
             <div> Make sure that your tariff in MyStorage allows integration with third-party services.</div>
-            <div>ИзображенийIt is not currently possible to import images.</div>
+            <div> It is not currently possible to import images.</div>
         reservation:
           linked_stock: |-
             Reserve items on MoySklad when order is created

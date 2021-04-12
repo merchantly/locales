@@ -42,7 +42,7 @@ en:
       empty: "%{model} not found"
       one: "Result: <b>1</b>%{model}"
       one_page: "Result: <b>%{n}</b>%{model}"
-      multiple: "Result: %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> из <b>%{total}"
+      multiple: "Result: %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> from <b>%{total}"
       multiple_without_total: "Result: %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b>"
       entry:
         one: "note"

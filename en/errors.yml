@@ -37,7 +37,6 @@ en:
       invalid_subdomain: "Invalid subdomain name (there should be only Latin letters, digits, -, _ without dots)"
       reserved_subdomain: already taken
       no_www: Enter a domain without www.
-      record_invalid: Испорченная запись
       invalid_range: Period end date must be greater than start date.
       intersection: "The period overlaps with another (id =% {id})"
       carrierwave_processing_error: "can not process the download file, perhaps this is not an image"

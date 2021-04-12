@@ -114,7 +114,6 @@ en:
         contractor_inn: ITN of counterparty
         vendor_id: Store ID
       order_payment:
-        state: Статус оплаты
         created_at: Time
         vendor: Store
         order: Order

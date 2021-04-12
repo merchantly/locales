@@ -129,7 +129,7 @@ en:
     products:
       inactive: 'inactive'
       archived: 'In the archive'
-      moyskad: 'МС'
+      moyskad: 'MS'
       united: "Grouped into &laquo;%{title}&raquo;"
       ordering_as_product_only:  'Sold WITHOUT modifications'
       state_switcher:

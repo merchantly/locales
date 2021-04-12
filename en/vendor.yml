@@ -413,7 +413,6 @@ en:
     client:
       auth: My account
       registration: Sign Up
-      reset_password: Новый пароль
       client_form:
         title: The choice of delivery and payment system
       company_form:
@@ -424,7 +423,6 @@ en:
         name: Your name
         new_password: New password
         occupation: Profession
-        company_name: Наименование компании
         city_title: City
         address: Address
         region: Region
@@ -451,7 +449,6 @@ en:
         login: Phone number or Email
         new_password: New password
         occupation: Profession
-        company_name: Наименование компании
         city_title: City
         address: Address
         region: Region
@@ -470,10 +467,8 @@ en:
       pin_alert:
         send: Get password
         timeout: SMS should arrive within a minute. <br>You can re-request a code throught
-      reset_password:
-        send: Сбросить пароль
       submit: Log In
-      registration_submit: ОК
+      registration_submit: OK
       no_account: "No account?"
       logged_in_with: 'You are already logged in as<br /><b>%{name}</b>.'
       continue_logged: 'Continue under this name..'

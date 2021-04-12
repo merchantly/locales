@@ -418,9 +418,6 @@ en:
         content: Article text
         short_text: Short description
         image: Picture for list
-      coupon:
-        file: Файл в формате CSV
-        skip_headers: Пропустить 1-ю строку
       operator:
         name: Name
         email: E-mail
@@ -435,6 +432,8 @@ en:
         content: Banner message
         link_url: Link from the promotional message
       coupon:
+        file: CSV
+        skip_headers: Skip headers
         code: Code
         use_count: Remaining use
         used_count: Number of uses

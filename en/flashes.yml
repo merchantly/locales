@@ -20,7 +20,7 @@ en:
       deleted: Role has been removed
       not_destroyed: Role cannot be removed
     tags:
-      created: Тег успешно создан
+      created: Tag successfully created
       updated: Tag successfully saved
       deleted: Tag has been removed
     batch_actions:
