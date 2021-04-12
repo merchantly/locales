@@ -30,7 +30,7 @@ en:
           filters: 'Filters'
       products:
         title: Products
-        new_button: 'Add Product'
+        new_button: 'Add product'
         search: 'Search by products'
         all: All
         without_categories: 'Uncategorized'
