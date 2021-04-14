@@ -56,6 +56,7 @@ ar_SA:
     locales:
       ru: روسي
       en: انجليزي
+      ar_SA: عربي
 
     activemodel:
       errors:
