@@ -1,0 +1,10 @@
+ar_SA:
+  locales:
+    profile_select:
+      ru: Русский
+      en: English
+      ar_SA: عربى
+    operator_select:
+      ru: Ru
+      en: En
+      ar_SA: عر
