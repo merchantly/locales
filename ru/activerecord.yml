@@ -444,6 +444,7 @@ ru:
       vendor/domain_aliases:
         domain: Дополнительный домен
       client:
+        birthdate: Дата рождения
         id: ID
         rfm: RFM-сегмент
         recency: Давность покупок (дн)

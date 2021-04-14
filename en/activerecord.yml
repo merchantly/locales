@@ -447,6 +447,7 @@ en:
       vendor/domain_aliases:
         domain: Additional domain
       client:
+        birthdate: Date of birth
         id: ID
         rfm: RFM segment
         recency: Prescription purchases (days)
