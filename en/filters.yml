@@ -73,7 +73,7 @@ en:
         name: Directory
 
       has_ordering_goods:
-        name: Available for Sale
+        name: Available for sale
         values:
           'true': 'Yes'
           'false': 'No'
