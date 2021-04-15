@@ -7,6 +7,7 @@ en:
         disable: disable
       enabled: Sertificate enabled
       disabled: Sertificate disabled
+    default_product_vat_group: Default TAX group
     support: Support
     reports: Report
     affiliate_program: Affilates

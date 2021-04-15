@@ -1,6 +1,7 @@
 en:
   activerecord:
     models:
+      default_product_vat_group: Default TAX group
       system_mail_recipient: Mailing recipient
       bank_incoming: Bank receipts
       bank_incoming_exclude: Excluded bank receipts

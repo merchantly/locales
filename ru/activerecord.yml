@@ -1,6 +1,7 @@
 ru:
   activerecord:
     models:
+      default_product_vat_group: Налоговая группа
       system_mail_recipient: Получатель рассылки
       bank_incoming: Банковские поступления
       bank_incoming_exclude: Исключаемые банковские поступления

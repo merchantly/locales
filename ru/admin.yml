@@ -7,6 +7,7 @@ ru:
         disable: Отключить
       enabled: Сертификат активирован
       disabled: Сертификат отключен
+    default_product_vat_group: Налоговая группа
     support: Поддержка
     reports: Отчеты
     affiliate_program: Партнеры
