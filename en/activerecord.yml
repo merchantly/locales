@@ -49,7 +49,7 @@ en:
         title: Title
         price_cents: Price
         tax: TAX (%)
-        purchase_price: Purchase Price
+        purchase_price: Cost per unit
       quantity_unit:
         title: Title
         short: Short name

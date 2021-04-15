@@ -6,7 +6,7 @@ en:
       barcode: 'Barcode'
       price: 'Price'
       sale_price: 'Discount price'
-      purchase_price: 'Purchase price'
+      purchase_price: 'Cost per unit'
       category: 'Product category'
       quantity: 'Quantity'
       new_property: '(new property)'

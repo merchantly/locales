@@ -260,7 +260,7 @@ en:
         name: Name
       warehouse_movements:
         datetime: Date and Time
-        purchase_price: Purchase price
+        purchase_price: Cost per unit
       ecr_documents:
         datetime: Date and Time
         type: Type
@@ -286,7 +286,7 @@ en:
       nomenclatures:
         name: Item
         warehouses: Warehouse
-        purchase_price: Purchase price
+        purchase_price: Cost per unit
         quantity: In stock
         products: Products assigned
       archived_css:
