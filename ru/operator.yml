@@ -986,6 +986,9 @@ ru:
           invoice_stamp_comment: 'Комментарий к счету'
           invoice_stamp_image: 'Изображение печати и подписи для счетов на оплату'
           remove_invoice_stamp_image: 'Удалить изображение?'
+          legal_phone_text: 'Телефон'
+          legal_email_text: 'Email'
+          social_media: 'Cоциальные медиа'
         hints:
           invoice_stamp_comment: 'Отображается сверху. Укажите тут телефоны и дополнительную информацию.'
         include_blank: 'Не указано'

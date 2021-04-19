@@ -1033,6 +1033,9 @@ en:
           invoice_stamp_comment: 'Comment to the account'
           invoice_stamp_image: 'image stamp and signature'
           remove_invoice_stamp_image: 'Delete image?'
+          legal_phone_text: 'Phone'
+          legal_email_text: 'Email'
+          social_media: 'Social media'
         hints:
           invoice_stamp_comment: 'Displayed on top. Specify here phones and additional information.'
         include_blank: 'Not specified'
