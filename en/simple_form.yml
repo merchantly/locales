@@ -70,6 +70,7 @@ en:
         is_offline: Offline
         product_vat_group_id: Product TAX Group
         vat: Custom TAX
+        purchase_price: Cost per unit
       ecr_nomenclature_filter:
         availability: Stock
         is_online: Online
@@ -81,6 +82,7 @@ en:
         show_empty: Include out of stock Items
       ecr_warehouse_movement_form_receipt:
         nomenclature_id: Item
+        purchase_price: Cost per unit
       ecr_warehouse_movement_form_transfer:
         nomenclature_id: Item
       ecr_warehouse_movement_form_expense:
