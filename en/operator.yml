@@ -2160,3 +2160,5 @@ en:
       empty: Empty
     vendor_single_update:
       saved: Changes have been saved
+    import_photos:
+      success: 'Images uploaded: %{count}'

@@ -2065,3 +2065,5 @@ ru:
       empty: Пустой
     vendor_single_update:
       saved: Изменения сохранены
+    import_photos:
+      success: 'Изображении загружено: %{count}'

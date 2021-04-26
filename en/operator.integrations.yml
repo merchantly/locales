@@ -65,6 +65,7 @@ en:
             products_count: Loaded goods
             state: Status
         show:
+          log: 'Import log'
           title: 'Product loading #%{id}'
           started_at: 'Started:%{started_at}'
           url: 'Address:%{url}'

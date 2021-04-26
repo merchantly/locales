@@ -65,6 +65,7 @@ ru:
             products_count: Загружено товаров
             state: Состояние
         show:
+          log: 'Журнал импорта'
           title: 'Загрузка товаров #%{id}'
           started_at: 'Запущено: %{started_at}'
           url: 'Адрес: %{url}'
