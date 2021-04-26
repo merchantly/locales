@@ -287,7 +287,7 @@ en:
         name: Item
         warehouses: Warehouse
         purchase_price: Cost per unit
-        quantity: In stock
+        quantity: In stock (Reserved)
         products: Products assigned
       archived_css:
         archive_css: Archived CSS
@@ -1230,6 +1230,7 @@ en:
     text_blocks:
       add_button: 'Add text block'
     product:
+      reserve_quantity: Reserved
       change_sort_options_for_product: 'Change the sorting of variations for: %{product}'
       quantity_unit: "Unit: %{unit_link}"
       nomenclature: "Inventory Item: "
