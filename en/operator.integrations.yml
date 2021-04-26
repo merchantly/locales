@@ -49,8 +49,8 @@ en:
         more: 'Learn more about setting up Google Ecommerce'
       import_photos:
         info: |
-          <p> Select one or more photos on the disk, the names of the photos must match the item number. Click download. </p>
-           <p> The photo is added to the product card for which the article matches its name. If such a product with such an article is not found, then a new one is created. </p>
+          <p> Select one or more photos on the disk, the names of the photos must match the product name. Click download. </p>
+           <p> The photo is added to the product card for which the name matches photo name. If such a product with such an name is not found, then a new one is created. </p>
           <p> To upload several photos one by one, add to the photo name (* number *), for example photo (1), photo (2), photo (3), etc.  </p>
       import_spread_sheet_infos:
         edit:
