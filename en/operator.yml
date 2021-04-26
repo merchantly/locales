@@ -629,7 +629,6 @@ en:
           select_categories: Select categories for a group of products
           select_tags: Select tags for a group of products
           select_products_tax: Select tax for a group of products
-
       properties:
         index: Product properties
         edit: Property editing
@@ -687,6 +686,8 @@ en:
         edit: Edit payment method
         new: Creating a payment method
         available_deliveries: Compatible delivery methods
+    check_inn:
+      flash: <a href="%{url}"> Please fill in your VAT ID on Settings –> Legal Information. With empty VAT ID you will not be able to start selling </a>
     selling:
       w1:
         notification_address: Set the following address for payment notifications in the cashier settings on the walletone
