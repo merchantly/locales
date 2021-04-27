@@ -1230,7 +1230,8 @@ en:
     text_blocks:
       add_button: 'Add text block'
     product:
-      quantity: Quantity (Reserved)
+      reserve_quantity: 'Reserve quantity: %{quantity}'
+      quantity: 'Free quantity: %{quantity}'
       change_sort_options_for_product: 'Change the sorting of variations for: %{product}'
       quantity_unit: "Unit: %{unit_link}"
       nomenclature: "Inventory Item: "
