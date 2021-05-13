@@ -694,7 +694,6 @@ ar_SA:
     sales_report:
       generate: إنشاء
       total_price: 'المبلغ الإجمالي: %{money}'
-      total_vat_in: 'إجمالي ضريبة القيمة المضافة (In): %{money}'
       total_vat_out: 'إجمالي ضريبة القيمة المضافة (Out): %{money}'
       total_purchase_price: 'إجمالي مبلغ الشراء: %{money}'
     bells:
@@ -1629,7 +1628,7 @@ ar_SA:
         url: operator_tags_path
         title: علامات المنتج
         details_html: |
-          قائمة بجميع العلامات المستخدمة في المنتجات. 
+          قائمة بجميع العلامات المستخدمة في المنتجات.
       dictionaries:
         url: operator_dictionaries_path
         title: الدلائل

@@ -22,3 +22,5 @@ en:
       default_welcome_category: Home Page Category
     warehouses:
       default: Default Warehouse
+    fallback_good:
+      default: Custom amount

@@ -687,7 +687,7 @@ en:
         new: Creating a payment method
         available_deliveries: Compatible delivery methods
     check_inn:
-      flash: <a href="%{url}"> Please fill in your VAT ID on Settings –> Legal Information. With empty VAT ID you will not be able to start selling </a>
+      flash: A "VAT ID" is required to start selling. You can add yours from the <a href="%{url}"> Legal Information</a> section.
     selling:
       w1:
         notification_address: Set the following address for payment notifications in the cashier settings on the walletone
@@ -720,7 +720,6 @@ en:
     sales_report:
       generate: Generate
       total_price: 'Total amount: %{money}'
-      total_vat_in: 'Total TAX-In: %{money}'
       total_vat_out: 'Total TAX-Out: %{money}'
       total_purchase_price: 'Total purchase amount: %{money}'
     bells:
