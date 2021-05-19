@@ -55,6 +55,14 @@ en:
           canceled: Cancelled
           any: All
 
+      refund:
+        name: Refunds
+        values:
+          any: Any
+          no_refund: No refunds
+          total_refund: Total refund
+          partial_refund: Partial refund
+
     products:
       on_welcome:
         name: Products on Main

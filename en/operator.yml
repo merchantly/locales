@@ -446,6 +446,7 @@ en:
         item: Item
         location: Location
         status: Status
+        refund: Refund
     toggle_buttons:
       disable_with:
         making_on: Turning on..
@@ -610,6 +611,7 @@ en:
         delivery: Delivery
         payment: Payment
         misc: Additionally
+        refund: Refund
       products:
         new: Add product
         edit: Editing product

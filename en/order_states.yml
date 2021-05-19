@@ -21,3 +21,8 @@ en:
 
   order_delivery_tracking_comments:
     new_state: 'Shipment tracking changes. Description: %{state.update_description}, Location: %{state.update_location}'
+
+  order_refund:
+    no_refund:
+    partial_refund: Partial refund
+    total_refund: Total refund
