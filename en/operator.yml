@@ -720,7 +720,7 @@ en:
     sales_report:
       generate: Generate
       total_price: 'Total amount: %{money}'
-      total_vat_out: 'Total TAX-Out: %{money}'
+      total_vat: 'Total TAX: %{money}'
       total_purchase_price: 'Total purchase amount: %{money}'
     bells:
       read: Familiarized
