@@ -1,6 +1,8 @@
 en:
   operator:
     js:
+      google_map_selector:
+        placeholder: Start to enter an address...
       product:
         unknown: Unknown product
         update_error: Error when changing product
