@@ -611,7 +611,7 @@ en:
         delivery: Delivery
         payment: Payment
         misc: Additionally
-        refund: Refund
+        refund: Refunded
       products:
         new: Add product
         edit: Editing product
