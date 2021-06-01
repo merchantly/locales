@@ -1,64 +1,86 @@
 ar_SA:
   activerecord:
     models:
-      system_mail_recipient: إيصال بريدي
+      default_product_vat_group: ""
+      system_mail_recipient: مستلم البريد
       bank_incoming: إيصالات البنك
-      bank_incoming_exclude: الإيصالات البنكية المستبعدة
-      bank_incoming_contractor: البنوك المقابلة الشهيرة
-      admin_user: المدراء
+      bank_incoming_exclude: الإيصالات البنكية المستثناة
+      bank_incoming_contractor: الأطراف المقابلة البنكية المعروفة
+      admin_user: المسؤولون
       user_request:
-        zero: الطلب
-        one: الطلب
-        two: الطلبين
-        few: الطلبات
-        many: الطلبات
-        other: الطلبات
-
+        zero: التطبيقات
+        one: التطبيقات
+        two: التطبيقات
+        few: التطبيقات
+        many: التطبيقات
+        other: التطبيقات
       vendor: المتاجر
-      vendor_notify_mail_template: قوالب إشعارات نظام المتجر
+      vendor_notify_mail_template: قوالب إخطار نظام المتجر
       vendor_template: قوالب المتجر
-      theme: العناوين
-      category: الأقسام
-      product: السلع
+      theme: الموضوعات
+      category: الفئات
+      product: البضائع
       content_page: صفحات النص
-      operator: المشغلين
+      operator: المشغلون
       order: الطلب
       vendor_to_operator: المتاجر
       tariff: التعريفة
-      cart: أضف إلى السلة
-      partner: 'شريك'
-      partner/coupon: الرمز الترويجي للشريك
-      vendor_tariff_log_entity: تاريخ التعريفات
+      cart: إضافة إلى عربة التسوّق
+      partner: 'الشريك'
+      partner/coupon: الرمز الترويجي الخاص بالشريك
+      vendor_tariff_log_entity: تاريخ تغييرات التعريفة
       client: العميل
-      system_mail_template: قوالب بريد النظام
+      system_mail_template: قوالب المراسلة البريدية عبر النظام
       system_text: نص النظام
-      system_mail_delivery: إرسال الرسائل
-      role: دور
+      system_mail_delivery: خطابات المراسلة البريدية
+      role: الدور
       openbill_charge: سجل الدفع المتكرر
       payment_account: البطاقات المرتبطة
       order_payment: أوامر الدفع
-      openbill_invoice: فاتورة للدفع
-      openbill_account: حسابات الفواتير
-      openbill_transaction: المعاملات
-      vendor_sms_log_entity: سجل الرسائل النصية
-      vendor_common_transaction: اتهام
-      dashboard_item: خطوات إطلاق المتجر
+      openbill_invoice: فاتورة لعملية الدفع
+      openbill_account: حسابات الفوترة
+      openbill_transaction: "المعاملات "
+      vendor_sms_log_entity: سجل الرسائل القصيرة
+      vendor_common_transaction: الإسقاط
+      dashboard_item: الخطوة المتخذة لإطلاق المتجر
       # Шаги в списке '5 шагов для запуска магазина'
-      delivery_time_period: وقت التوصيل
+      delivery_time_period: وقت التسليم
 
     attributes:
+      fallback_good:
+        title: ""
+        price_cents: ""
+        tax: ""
+        purchase_price: ""
+      quantity_unit:
+        title: ""
+        short: ""
+      certificate:
+        domain: المجال
+        cert_file: الشهادة
+        key_file: المفتاح الخاص
+        is_active: نشط؟
+        subject_name: الموضوع
+        issuer_name: المُصدِر
+        released_at: تم الإصدار في
+        expired_at: انتهت المدة في
       vendor_vat:
         percent: '%'
       client_category:
         title: الاسم
-        all_prices_available: جميع الاسعار متاحة
-        auth_for_buy_enable: "زر \"سجل الدخول لتشتري\""
+        all_prices_available: جميع الأسعار متوفرة
+        auth_for_buy_enable: "زر \"تسجيل الدخول للشراء\""
+      branch:
+        name: ""
+      cashier:
+        name: ""
+        amount: ""
       product_price:
         price: السعر
         price_kind_id: النوع
       price_kind:
         title: نوع السعر
-        ms_price_name: الاسم في المخزن الخاص بي
+        ms_price_name: الاسم في MyStock
       client_occupation:
         name: الاسم
       coupon_image:
@@ -66,36 +88,35 @@ ar_SA:
         font_size: حجم الخط
         font_color: لون الخط
         font: الخط
-        align: محاذاة النص
+        align: المواءمة
       digital_keys_import:
         states:
           fresh: جديد
-          process: تحت المعالجة
-          finish: تم بنجاح
+          process: في العملية
+          finish: مكتمل بنجاح
           error: خطأ
-        digital_keys_file: ملف مفتاح
+        digital_keys_file: ملف المفتاح
       vendor_common_transaction:
-        amount: الكمية
+        amount: المبلغ
         details: تعليق
-        current_paid_to: تاريخ انتهاء الصلاحية الحالي
-        next_paid_to: تاريخ انتهاء الصلاحية القادم
+        current_paid_to: تاريخ الانتهاء الحالي
+        next_paid_to: تاريخ الانتهاء التالي
       bank_incoming:
         contractor_name: الطرف المقابل
-        contractor_inn: المعاملات الداخلية للطرف المقابل
-        contractor: النظير المعثور عليه
+        contractor_inn: رقم التعريف الضريبي للطرف المقابل
+        contractor: العثور على نظير
         amount: المبلغ
-        title: غرض الدفع
+        title: الغرض من الدفع
         bank_transaction_date: التاريخ
-        bank_transaction_id: معرف الدفع
+        bank_transaction_id: الرقم التعريفي للدفع
         state: الحالة
-        invoice: الفاتورة الصادرة
+        invoice: تم إصدار الفاتورة
         transaction: المعاملة الناتجة
       bank_incoming_contractor:
         contractor_name: اسم الطرف المقابل
-        contractor_inn: المعاملات الداخلية للطرف المقابل
-        vendor_id: معرف المتجر
+        contractor_inn: رقم التعريف الضريبي للطرف المقابل
+        vendor_id: الرقم التعريفي للمتجر
       order_payment:
-        state: Статус оплаты
         created_at: الوقت
         vendor: المتجر
         order: الطلب
@@ -104,25 +125,25 @@ ar_SA:
         state: الحالة
         response: الإجابة
       openbill_invoice:
-        client_notified_at: تم إشعار العميل
-        notified_count: عدد الإشعارات
-        enable_notification: "إشعار العميل عن الحاجة إلى دفع الفواتير عن طريق البريد الإلكتروني / رسالة نصية؟"
-        is_autochargable: حاسب تلقائياً
-        next_notification_at: الإشعار المقبل
-        created_at: تم إنشاء الحساب
+        client_notified_at: تم إخطار العميل
+        notified_count: عدد الإخطارات
+        enable_notification: "إخطار العميل بالحاجة إلى دفع الفواتير عبر البريد الإلكتروني/الرسائل القصيرة؟"
+        is_autochargable: الرسوم التلقائية
+        next_notification_at: الإخطار التالي
+        created_at: تم إنشاء حساب
         paid?: "تم الدفع؟"
         paid_amount: المبلغ المدفوع
         number: رقم الحساب
         destination_account: حساب التسجيل
         destination_account_id: حساب التسجيل
-        has_payments?: "لديه دفعة؟"
+        has_payments?: "هل توجد مدفوعات؟"
         pay_link: الرابط إلى الدفع
-        pdf_link: فاتورة للدفع
+        pdf_link: فاتورة لعملية الدفع
         amount: المبلغ
         vendor: المتجر
         details: التفاصيل
         date: التاريخ
-        title: غرض الدفع
+        title: الغرض من الدفع
       role:
         title: الاسم
       member:
@@ -130,65 +151,65 @@ ar_SA:
         role_id: الدور
         role: الدور
       system_mail_recipient:
-        delivery: المراسلات
+        delivery: المراسلة البريدية
         operator: المشغل
         vendor: المتجر
-        send_at: اُرسلت
-        open_at: فتح
-        paid_at: دفع
-        follow_link_at: اتبع الرابط
-        unsubscribe_clicked_at: تم نقله إلى الرد الرسمي
-        created_at: أنشئ
-        updated_at: تم تحديثه
+        send_at: تم الإرسال
+        open_at: مفتوح
+        paid_at: تم الدفع
+        follow_link_at: اتباع الرابط
+        unsubscribe_clicked_at: تم التحويل إلى الرد الرسمي
+        created_at: تم الإنشاء
+        updated_at: تم التحديث
         invoice: الفاتورة
       system_mail_delivery:
         title: الاسم
-        system_mail_template: قالب
+        system_mail_template: القالب
         state: الحالة
-        created_at: أُنشئ
-        updated_at: تم تحديثه
-        recipients_count: المستفيدين
-        invoices_count: الفواتير التي صدرت
+        created_at: تم الإنشاء
+        updated_at: تم التحديث
+        recipients_count: المستلمون
+        invoices_count: تم إصدار الفواتير
         paid_invoices_count: الفواتير المدفوعة
         paid_amount: المبلغ المدفوع
       system_text:
         title: العنوان الرئيسي
-        key: إدخال النص
+        key: نوع النص
         content: النص
       tag:
         title: 'الاسم'
       system_mail_template:
-        title: 'الاسم البريدي'
+        title: 'اسمم المراسلة البريدية'
         image: 'الصورة'
-        example_vendor: متجر على سبيل المثال
-        example_vendor_id: متجر على سبيل المثال
-        example_operator: مشغل، على سبيل المثال
-        example_operator_id: مشغل، على سبيل المثال
-        subject: 'عنوان الرسالة'
+        example_vendor: المتجر كمثال
+        example_vendor_id: المتجر كمثال
+        example_operator: المشغل كمثال
+        example_operator_id: المشغل كمثال
+        subject: 'موضوع الرسالة'
         content: 'نص الرسالة'
-        template_type: نوع المراسلات
-        system_mail_deliveries_count: المراسلات
+        template_type: نوع المراسلة البريدية
+        system_mail_deliveries_count: المراسلة البريدية
       vendor_bitrix24:
-        responsible_manager_id: مدير الطلب
-        url: "رابط بوابة Bitrix24 الخاصة بك "
-        client_id: 'معرف العميل'
-        client_secret: 'سر العميل'
+        responsible_manager_id: مدير الطلبات
+        url: عنوان URL لبوابة Bitrix24
+        client_id: 'الرقم التعريفي للعميل'
+        client_secret: 'السر الخاص بالعميل'
       vendor_amo_crm:
-        url: رابط URL لحسابك في AmoCRM
-        order_delivery_custom_field_id: 'معرف الحقل من أجل عنوان الشحن'
-        order_weight_custom_field_id: 'حقول الهوية من أجل الوزن الكلي للطلب'
-        enable_goods_linking: ربط السلع بصفقة في AmoCRM
-        goods_catalog_id: 'معرف الكتالوج في AmoCRM الذي تكمن فيه السلع'
-        goods_catalog_moysklad_custom_field_id: 'حقل المعرف العالمي الموحد (UUID) في كتالوج السلع من MyStock'
-        login: 'بريدك الإلكتروني في AmoCRM'
-        apikey: 'مفتاح الوصول لواجهة برمجة التطبيق (ايضاً hash)'
-        responsible_user_id: 'معرف المدير الذي يتحمل مسؤولية تصدير المعاملة'
-        enable_sale_not_linked: 'مسموح ببيع السلع غير المرتبطة في AmoCRM'
-        initial_state_id: 'معرف المرحلة التي يتم بها إنشاء المعاملة'
-        paid_state_id: 'معرف المرحلة التي تذهب فيها المعاملة عند الدفع'
-        pipeline_id: 'معرف التحويل الذي يتم تصدير المعاملات إليه'
-        tags: 'قائمة العلامات المفصولة بفواصل أثناء معاملة التصدير. مكتوبة بصيغة واجهة برمجة تطبيق AmoCRM.'
-        is_active: "التعامل مع مبيعات التصدير من %{brand_name_a} إلى AmoCRM"
+        url: عنوان URL لحسابك عبر AmoCRM
+        order_delivery_custom_field_id: 'الرقم التعريفي للحقل لعنوان الشحن'
+        order_weight_custom_field_id: 'حقول الأرقام التعريفية لإجمالي وزن الطلب'
+        enable_goods_linking: ربط البضائع بصفقة ما في AmoCRM
+        goods_catalog_id: 'الرقم التعريفي للكتالوج في AmoCRM حيث توجد فيه البضائع'
+        goods_catalog_moysklad_custom_field_id: 'حقل الرقم التعريفي في كتالوج البضائع، الذي يخزن الرقم التعريفي (المعرف الفريد العالمي) للبضائع من MyStock'
+        login: 'بريدك الإلكتروني ضمن AmoCRM'
+        apikey: 'مفتاح الاختصار لواجهة برمجة التطبيقات (التجزئة أيضًا)'
+        responsible_user_id: 'الرقم التعريفي للمدير المسؤول عن تصدير المعاملة'
+        enable_sale_not_linked: 'يُسمح ببيع البضائع غير الموجودة (غير ذات الصلة) في AmoCRM'
+        initial_state_id: 'الرقم التعريفي للمرحلة التي تم إنشاء المعاملة من خلالها'
+        paid_state_id: 'الرقم التعريفي للمرحلة التي تمر من خلالها المعاملة عند الدفع'
+        pipeline_id: 'الرقم التعريفي للقناة التي يتم تصدير المعاملات إليها'
+        tags: 'قائمة العلامات المفصولة بفاصلة التي تم تعيينها أثناء معاملة التصدير. المُشار إليه بتنسيق واجهة برمجة تطبيقات AmoCRM '
+        is_active: "التعامل مع المبيعات الصادرة من %{brand_name_a} وإلى AmoCRM"
       subscription_email:
         email: البريد الإلكتروني
         created_at: التاريخ
@@ -196,8 +217,8 @@ ar_SA:
         name: الاسم
       partner/coupon:
         code: الرمز
-        active_days: كم يوم يتم دفع المكافأة؟
-        reward_percent: المكافآت (نسبة مئوية)
+        active_days: كم عدد الأيام التي تُدفع فيها المكافأة
+        reward_percent: المكافآت (النسبة)
         partner: الشريك
       workflow_state:
         convead_key: المفتاح في convead
@@ -207,31 +228,42 @@ ar_SA:
         color_hex: اللون
         workflow_state_id: 'حالة الطلب'
         has_reserved_items: الحجز
-        delivery_state: حالة التوصيل
+        delivery_state: حالة التسليم
         payment_state: حالة الدفع
-        delivery_type_id: التوصيل
+        delivery_type_id: التسليم
         payment_type_id: الدفع
-        row_order: الموضع
+        row_order: الموقع
       vendor_payment:
+        payment_key: ""
+        online_kassa_payment_method: طريقة الدفع
+        online_kassa_payment_object: موضوع الدفع
         is_online_kassa_test_mode: وضع الاختبار
-        online_kassa_provider: إرسال التحقق من البيانات
-        online_kassa_client_id: معرف العميل
-        online_kassa_password: كلمة السر
+        online_kassa_provider: إرسال بيانات الشيك
+        online_kassa_client_id: الرقم التعريفي_للعميل
+        online_kassa_password: كلمة المرور
         online_kassa_cert: الشهادة
         online_kassa_key: المفتاح
-        online_kassa_kassatka_address: عنوان IP
-        online_kassa_kassatka_port: منفذ http
-        show_icon: عرض أيقونة نظام الدفع أثناء الدفع
-        robokassa_login: معرف المتجر
-        robokassa_first_password: "كلمة السر #1"
-        robokassa_second_password: "كلمة السر #2"
+        online_kassa_kassatka_address: بروتوكول الإنترنت
+        online_kassa_kassatka_port: مدخل http
+        online_kassa_aqsi_client_key: مفتاح-العميل
+        online_kassa_aqsi_shop_id: الرقم التعريفي للمتجر
+        online_kassa_aqsi_client_group_uuid: الرقم التعريفي لمجموعة العملاء
+        show_icon: عرض أيقونة نظام الدفع أثناء إتمام عملية الشراء
+        robokassa_login: الرقم التعريفي للمتجر
+        robokassa_first_password: كلمة المرور رقم 1
+        robokassa_second_password: كلمة المرور رقم 2
         robokassa_has_commission: "دفع عمولة للمشتري؟ (للأفراد)"
-        tinkoff_merchantly_key: محطة
-        tinkoff_password: كلمة السر
+        tinkoff_merchantly_key: الوحدة الطرفية
+        tinkoff_password: كلمة المرور
         sberbank_login: تسجيل الدخول
-        sberbank_api_token: رمز واجهة برمجة التطبيق
-        sberbank_private_key: رمز رد الاتصال (callback)
+        sberbank_api_token: رمز واجهة برمجة التطبيقات
+        sberbank_private_key: رمز إعادة الاتصال
         sberbank_is_test: وضع الاختبار
+        arsenal_pay_widget: عنصر واجهة المستخدم
+        arsenal_pay_password: المفتاح السري
+        geidea_payment_merchant_id: ""
+        geidea_payment_api_password: ""
+        geidea_payment_type: ""
       vendor_tariff_log_entity:
         date: 'التاريخ'
         vendor_id: 'المتجر'
@@ -246,71 +278,85 @@ ar_SA:
       order_item:
         weight: الوزن
       yml:
-        asset: 'ملف XML بتنسيق yml_catalog للتنزيل'
+        asset: 'ملف XML بتنسيق yml_catalog من أجل التنزيل'
       translation:
         locale: 'اللغة'
         key: 'المفتاح'
         value: 'القيمة'
-        custom_value: 'القيمة المحددة'
+        custom_value: 'تعيين القيمة'
       product_item:
-        fallback_title: 'الاختيار %{id}'
+        fallback_title: 'الخيار% {id}'
+        nomenclature_id: ''
+        nomenclature: ''
       slug:
         path: 'طريقة واضحة'
-        redirect_path: 'إعادة توجيه'
+        redirect_path: 'إعادة التوجيه'
       cart:
-        discount_info: 'خصم %{discount} بقيمة %{discount_price}'
+        discount_info: 'خصم %{discount}% مقابل %{discount_price}'
       menu_item:
         custom_title: 'الاسم'
         slug: 'الطريقة'
         category_id: 'الفئة'
         content_page_id: 'صفحة النص'
-        link_url: 'الرابط المباشر'
-        place: 'الإعلان'
+        link_url: 'رابط مباشر'
+        place: 'الإعلانات'
         dictionary_id: 'الدليل'
         dictionary_entity_id: 'عنصر القاموس'
-        lookbook_id: 'كتاب البحث'
+        lookbook_id: 'الكتالوج'
       invite:
         phone: 'الهاتف'
         role_id: الدور
       admin_user:
         role: الدور
-        password: كلمة السر
-        password_confirmation: تأكيد كلمة السر
+        password: كلمة المرور
+        password_confirmation: تأكيد كلمة المرور
       text_blocks:
-        title: اسم مجموعة النص
+        title: اسم المربع النصي
+        position: الموضع
       vendor:
-        not_archive: ليس في الارشيف
-        allow_system_notification: تفعيل اشعارات البرنامج
-        show_currency_symbol: إظهار رمز العملة مع السعر
+        show_delivery_restriction_messages: عرض رسالة حول قيود تسليم المنتج
+        filter_apply_type: كتابة 'تطبيق عامل التصفية'
+        show_filter_clear_button: عرض زر "إعادة تعيين جميع عوامل التصفية"
+        show_product_more_content: عرض "قراءة المزيد .."
+        product_more_content_height: العودة إلى "قراءة المزيد"
+        client_authorization_type: نوع تصريح العميل
+        show_cabinet_legal_form: عرض شكل تفاصيل الشركة في الحساب الشخصي للعميل
+        show_recommended_products_in_blog: العرض عبر صفحة المدونة
+        show_recommended_products_in_cart: العرض عبر صفحة عربة التسوّق
+        show_recommended_products_cart_button: عرض زر "إضافة إلى عربة التسوّق"
+        time_zone: المنطقة الزمنية
+        not_archive: ليس ضمن الأرشيف
+        allow_system_notification: تم تمكين إخطارات المنصة
+        show_currency_symbol: عرض رمز العملة ضمن الأسعار
         client_occupation_validation: المهنة
         client_company_name_validation: اسم الشركة
-        enable_client_registration: السماح بتسجيل العملاء
-        client_registration_button_text: النص لزر تسجيل العملاء
-        disabled_dictionary_entity_counters: قم بإيقاف تشغيل عداد السلع حسب الخصائص
-        redirect_to: إعادة توجيه من المتجر إلى الموقع
+        enable_client_registration: السماح بتسجيل العميل
+        client_registration_button_text: زر نص تسجيل العميل
+        disabled_dictionary_entity_counters: إيقاف تشغيل عداد البضائع حسب الخصائص
+        redirect_to: إعادة التوجيه من المتجر إلى الموقع
         tax_type: معدل ضريبة القيمة المضافة
-        tax_mode: النظام الضريبي
-        use_as_example: "عرض في صفحة الأمثلة؟"
-        https_custom_domain: المجال الذي تم تعيين HTTPS له
+        tax_mode: نظام الضرائب
+        use_as_example: "هل تريد إظهار ذلك في صفحة الأمثلة؟"
+        https_custom_domain: المجال الذي تم تعيين HTTPS من أجله
         active_domain_unicode: العنوان المستخدم
-        enable_https_redirection: 'إعادة توجيه من //:http إلى //:https'
-        http_cache_expires_in: ذاكرة التخزين المؤقت HTTP (بالدقائق)
+        enable_https_redirection: 'إعادة التوجيه من http:// إلى https://'
+        http_cache_expires_in: ذاكرة التخزين المؤقت من أجل HTTP (بالدقائق)
         _delete_domain: فصل المجال
-        vendor_organization: المنظمة التي بالنيابة عنها يتم إنشاء الطلبات في MyStock
-        vendor_organization_id: المنظمة التي يتم إنشاء الطلبات لها في MyStock
-        vendor_group_id: قسم الموظف
-        order_warehouse_id: المخزن الذي يُحجز عنده الطلب
-        legal_name: 'الاسم الرسمي للمنظمة'
-        is_show_filter_toggle_button: 'إظهار زر "إخفاء الفلتر"'
-        filter_has_ordering_by_price: 'العنصر "ترتيب حسب السعر"'
-        is_one_click_buy: انتقل مباشرة إلى الخروج بعد إضافة السلع إلى العربة
-        is_logo_link: الشعار يؤدي إلى الصفحة الرئيسية.
-        pre_products_text: 'النص على الصفحة الرئيسية قبل قائمة السلع'
-        post_products_text: 'النص على الصفحة الرئيسية بعد قائمة السلع'
+        vendor_organization: المؤسسة التي يتم إنشاء الطلبات بالنيابة عنها في MyStock
+        vendor_organization_id: المؤسسة التي يتم إنشاء الطلبات بالنيابة عنها في MyStock
+        vendor_group_id: إدارة الموظفين
+        order_warehouse_id: المخزون المخصص لحجز الطلب
+        legal_name: 'الاسم الرسمي للمؤسسة'
+        is_show_filter_toggle_button: 'عرض زر "إخفاء الفلتر"'
+        filter_has_ordering_by_price: 'عنصر "الفرز حسب السعر"'
+        is_one_click_buy: الانتقال مباشرةً إلى إتمام عملية الشراء بعد إضافة السلع إلى عربة التسوّق
+        is_logo_link: يؤدي الشعار إلى الصفحة الرئيسية.
+        pre_products_text: 'النص الموجود على الصفحة الرئيسية قبل قائمة البضائع'
+        post_products_text: 'النص الموجود على الصفحة الرئيسية بعد قائمة البضائع'
         name: الاسم
-        title: 'عنوان قصير'
+        title: 'الاسم المختصر'
         orders_count: الطلبات
-        products_count: السلع
+        products_count: البضائع
         created_at_date: تاريخ التسجيل
         created_at_month: شهر التسجيل
         created_at_week: أسبوع التسجيل
@@ -328,9 +374,9 @@ ar_SA:
         cached_active_domain: المجال النشط
         subdomain: المجال الفرعي
         domain_zone: المنطقة
-        theme: العنوان
+        theme: الموضوع
         logo: الشعار
-        mobile_logo: شعار الهاتف
+        mobile_logo: شعار الجوال
         city: المدينة
         city_id: المدينة
         phone: الهاتف
@@ -339,173 +385,173 @@ ar_SA:
         mobile_subject: 'صفحة التطبيق: العنوان'
         mobile_description: 'صفحة التطبيق: النص'
         mobile_footer: زر الطلب
-        mobile_delivery: النص حول التسليم
-        mobile_empty_cart_alert: نص الخطأ عندما يكون الطلب خالياً
-        minimal_price: الحد الأدنى للطلب
-        delivery_price: تكلفة التوصيل
-        google_analytics_tracking_id_html: 'تتبع الهوية في <a href="%{url}" target="_blank">Google Analytics </a>'
+        mobile_delivery: نص حول التسليم
+        mobile_empty_cart_alert: يظهر نص الخطأ عندما يكون الطلب فارغًا
+        minimal_price: الحد الأدنى لمبلغ الطلب
+        delivery_price: تكلفة التسليم
+        google_analytics_tracking_id_html: 'الرقم التعريفي للتتبع في <a href="%{url}" target="_blank">Google Analytics</a>'
         yandex_metrika_tracking_id_html: 'رقم العداد في <a href="%{url}" target="_blank">Yandex Metrika</a>'
-        custom_append_html: كود HTML اضافي <body>
-        custom_product_html: كود HTML اضافي على صفحة المنتجات
-        custom_head_html: كود HTML إضافي <head>
-        custom_after_content_html: كود HTML اضافي قبل <footer>
-        footer_menu_middle_html: كود HTML في العمود المركزي من القائمة السفلية
+        custom_append_html: رمز html إضافي <body>
+        custom_product_html: رمز html إضافي عبر صفحة المنتج
+        custom_head_html: رمز html إضافي <head>
+        custom_after_content_html: رمز html إضافي قبل <footer>
+        footer_menu_middle_html: رمز HTML في العمود المركزي من القائمة السفلية
         robots: Robots.txt
         contacts: جهات الاتصال في العنوان
-        order_notification_emails: رسائل البريد الإلكتروني للاشعارات عن الطلب
+        order_notification_emails: رسائل البريد الإلكتروني لإخطارات الطلبات
         support_email:  الرد على
-        order_notification_phones: الهواتف للاشعارات عن الطلب عبر الرسائل النصية
-        pickup_address: منطقة الاستلام
+        order_notification_phones: هواتف لتلقي إخطارات الطلبات عبر الرسائل القصيرة
+        pickup_address: عنوان الالتقاط
         currency_iso_code: العملة
         default_currency: العملة
-        available_currencies: عملات إضافية
-        stock_on?: مخزني
-        is_published: "نشر؟"
-        instagram_user_id: معرف حساب انستغرام
-        run_out_message: رسائل حول المنتجات المباعة
+        available_currencies: العملات الإضافية
+        stock_on?: مخزوني
+        is_published: "تم النشر؟"
+        run_out_message: رسالة حول المنتجات المُباعة
         package_category_id: فئة التعبئة
-        show_cart_button_in_list: عرض زر "أضف إلى السلة" في قائمة المنتجات
+        show_cart_button_in_list: عرض زر "إضافة إلى عربة التسوق" في قائمة المنتجات
         show_quantity_in_list: عرض حقل إدخال الكمية في قائمة المنتجات
         has_auto_menu: القائمة التلقائية
-        show_filter_availability: 'العنصر "إمكانية الوصول"'
-        show_filter_price_range: 'العنصر "نطاق السعر"'
-        public_offer_page_id: صحفة العرض العام
-        vk_group_id: حدد مجموعة لتصدير المنتجات
-        vk_export_period: التنزيل مجدول (مرة كل "؟" أيام)
+        show_filter_availability: 'عنصر "إمكانية الوصول"'
+        show_filter_price_range: 'عنصر "نطاق السعر"'
+        public_offer_page_id: صفحة العرض العام
+        vk_group_id: تحديد مجموعة لتصدير المنتجات
+        vk_export_period: التنزيل المقرر (مرة واحدة كل عدد أيام)
         has_client_cabinet: حساب العميل
         default_locale: اللغة الافتراضية للموقع
         available_locales: اللغات المتاحة
-        has_wishlists: قائمة الأماني
+        has_wishlists: قائمة الرغبات
         show_out_of_stock_products: عرض المنتجات المنتهية
-        has_product_comments: عرض التعليقات على المنتج
-        tasty_exportable: تفريغ المنتجات في Taaasty
-        tasty_user_token: رمز المستخدم في Tasty
-        tasty_tlog_id: معرف Tumblelog للتفريغ
-        default_product_position: مكان المنتج عند إضافته إلى الفئة
+        has_product_comments: عرض تعليقات المنتج
+        tasty_exportable: إلغاء تحميل المنتجات إلى Taaasty
+        tasty_user_token: الرمز المميز لمستخدم Tasty
+        tasty_tlog_id: الرقم التعريفي للمدونة من أجل التفريغ
+        default_product_position: موضع المنتج عند إضافته إلى الفئة
         balance: الرصيد
         last_success_order_at: آخر طلب
-        last_payment_at: تاريخ آخر دفعة من العميل
+        last_payment_at: تاريخ آخر مدفوعات قدمها العميل
         registration_at: تاريخ التسجيل
-        instagram_client_id: هوية العميل
-        instagram_client_secret: سر العميل
-        partner_coupon: الكوبون
-        instagram_username: اسم المستخدم في انستغرام
-        show_full_basket_count: إجمالي عدد العناصر في أداة سلة التسوق
-        sorted_cart: "ترتيب \"أضف إلى السلة\""
+        partner_coupon: القسيمة
+        show_full_basket_count: إجمالي عدد العناصر ضمن عنصر واجهة المستخدم لعربة التسوق
+        sorted_cart: "فرز \"الإضافة إلى عربة التسوق\" "
         tariff: 'التعريفة'
-        next_month_tariff: 'التعريفة للشهر القادم'
+        next_month_tariff: 'التعريفة للشهر التالي'
         is_enabled: "مشمول؟"
-        stock_success_synced_at: تاريخ آخر تزامن مع المخزن
-        is_menu_top_desktop_sticky: 'قائمة عليا ثابتة'
-        paid_to: دفعت حتى
-        working_to: يعمل على
-        show_header_buttons_in_cart: 'عرض زر "الدفع" في رأس "أضف إلى السلة"'
+        stock_success_synced_at: تاريخ آخر مزامنة مع المخزون
+        is_menu_top_desktop_sticky: 'القائمة العلوية المثبتة'
+        paid_to: تم الدفع حتى
+        working_to: يعمل مع
+        last_archived_at: تاريخ آخر أرشيف
+        show_header_buttons_in_cart: 'عرض "إتمام عملية الشراء" في عنوان "إضافة إلى عربة التسوق"'
         show_next_resource_in_list: 'عرض رابط للمورد التالي في القوائم'
-        show_subscription_email: عرض نموذج الإشتراك الإلكتروني في القائمة السفلية.
-        convead_send_subscription_email: إرسال رسائل البريد الالكتروني موقعة إلى Convead
+        show_subscription_email: عرض نموذج البريد الإلكتروني للاشتراك في القائمة السفلية.
+        convead_send_subscription_email: إرسال رسائل البريد الإلكتروني الموقعة إلى Convead
 
       vendor/domain_aliases:
         domain: مجال إضافي
       client:
-        id: المعرف
-        rfm: قسم RFM
-        recency: مشتريات الوصفات الطبية (أيام)
+        birthdate: ""
+        id: "الرقم التعريفي "
+        rfm: شريحة RFM
+        recency: مشتريات الوصفات (بالأيام)
         name: الاسم
         total_orders_price: كمية المشتريات
         currency: العملة
-        orders_numbers: ترتيب الأرقام
+        orders_numbers: أرقام الطلبات
         first_order_created_at: تاريخ أول طلب
         last_order_created_at: تاريخ آخر طلب
-        products_count: عدد المراكز المشتراة
+        products_count: عدد المواضع المشتراة
         products_titles: المنتجات المشتراة
-        products_articles: مصنوعات المنتجات المشتراة
+        products_articles: مواد المنتجات المشتراة
         phones: الهواتف
-        emails: البرائد الإلكترونية
+        emails: رسائل البريد الإلكتروني
         orders_count: عدد الطلبات
         created_at: تاريخ الإنشاء
         client_category_id: الفئة
-        inn: رقم المعاملة الداخلية
-        kpp: IEC
-        ogrn: PSRN
-        okpo: OKPO
+        inn: رقم التعريف الضريبي
+        kpp: مصنّف شركات الصناعات (IEC)
+        ogrn: رقم تسجيل الدولة الرئيسية (PSRN)
+        okpo: التصنيف الروسي للمؤسسات والمنظمات (OKPO)
         description: الوصف
-        legal_title: الاسم الكامل
+        legal_title: الاسم بالكامل
         company_name: اسم الشركة
       theme:
         title: الاسم
       vendor_theme:
         product_image_position: موضع الصورة
         show_short_details: عرض خصائص المنتج
-        category_product_columns: المنتجات في صف واحد في الفئة
-        category_product_rows: خطوط الإنتاج في الفئة
+        category_product_columns: المنتجات الموجودة في صف في الفئة
+        category_product_rows: خطوط المنتج ضمن الفئة
         theme_template_key: النمط
-        custom_body_class: كلاس CSS مخصص في الbody
+        custom_body_class: فئة أوراق الأنماط المتتالية المخصصة في الهيئة
         custom_style_format: 'تنسيق النمط'
         custom_style: 'أنماط إضافية'
-        category_filter_visible: 'عرض فلتر المنتجات في الفئات'
-        mainpage_filter_visible: 'عرض فلتر المنتجات على الصفحة الرئيسية'
-        instagram_visible: عرض صور من انستغرام
-        banner_visible: عرض اللافتة
+        category_filter_visible: 'عرض عامل تصفية المنتج في الفئات'
+        mainpage_filter_visible: 'عرض عامل تصفية المنتج على الصفحة الرئيسية'
+        banner_visible: عرض الشعار
         slider_visible: عرض شريط التمرير
-        show_similar_products: عرض منتجات مشابهة
-        is_welcome_random: 'المنتجات على الصفحة الرئيسية بترتيب عشوائي'
-        show_children_products_on_welcome: صنف المنتجات من الفئات الرئيسية
+        show_similar_products: عرض المنتجات المماثلة
+        is_welcome_random: 'المنتجات الموجودة على الصفحة الرئيسية بترتيب عشوائي'
+        show_children_products_on_welcome: مجموعة المنتجات من الفئات الأساسية
         mainpage_product_columns: 'عدد الأعمدة'
         mainpage_product_rows: 'عدد الخطوط'
-        show_pagination_on_welcome: 'عرض ترقيم الصفحات'
+        show_pagination_on_welcome: 'عرض الصفحات'
       category:
         name: الاسم
         title: الاسم
         vendor: المتاجر
-        show_children_products: ضع المنتجات من فئات مشابهة بنفس المجموعة
+        show_children_products: مجموعة المنتجات من الفئات المماثلة
         next_resource_id: الفئة التالية
-        google_product_category_id: فئة_صنف_جوجل (google_product_category)
+        google_product_category_id: فئة_منتج_جوجل
       product:
-        vat_id: ""
-        is_digital: "المنتج رقمي؟"
+        ordering_start_at: بداية البيع
+        ordering_end_at: نهاية البيع
+        vat_id: معدل ضريبة القيمة المضافة، %
+        is_digital: "منتج رقمي؟"
         file_url: رابط التنزيل
-        sale_price: سعر الخصم
-        weight?: "هل يباع بالوزن؟"
-        id: المعرف (ID)
-        ms_uuid: المعرف العالمي الموحد في MyStock
+        sale_price: السعر بعد الخصم
+        weight?: "هل يُباع حسب الوزن؟"
+        id: "الرقم التعريفي "
+        ms_uuid: المعرف الفريد العالمي في MyStock
         externalcode: الرمز الخارجي
         title: اسم المنتج
-        category_id: معرف الفئة
+        category_id: الرقم التعريفي للفئة
         categories: فئات إضافية
         quantity: الرصيد
         images: الصور
         category: الفئة
-        video_url: الرابط للفيديو
+        video_url: رابط إلى الفيديو
         name: الاسم
         description: الوصف
         article: رمز البائع
         price_cents: السعر
-        sale_price_cents: سعر الخصم
-        is_sale: تفعيل الخصم
+        sale_price_cents: السعر بعد الخصم
+        is_sale: تمكين عملية البيع
         image: الصورة
         vendor: المتجر
-        selling_by_weight: هذا المنتج يباع بالوزن
+        selling_by_weight: يُباع هذا المنتج حسب الوزن
         price: السعر
         main_category: الفئة الرئيسية
         main_category_id: الفئة الرئيسية
-        weight_of_price: الوزن الذي يشير إليه السعر (كجم)
-        is_published: "نشر؟"
-        tags: علامات
-        multiple_choice: إمكانية وضع العديد من العناصر في "إضافة إلى السلة" في بطاقة المنتج
+        weight_of_price: الوزن الذي تم تحديد السعر من خلاله (كجم)
+        is_published: "تم النشر؟"
+        tags: العلامات
+        multiple_choice: إمكانية وضع عدة عناصر ضمن "الإضافة إلى البطاقة" في بطاقة المنتج
+        product_vat_group_id: ""
       operator:
         locale: لغة الواجهة
-        password: كلمة السر
-        password_confirmation: تأكيد كلمة السر
+        password: كلمة المرور
+        password_confirmation: تأكيد كلمة المرور
         name: الاسم
         admin_vendor_links: المتاجر
         vendors: المتاجر
-        access_key: 'مفتاح واجهة برمجة التطبيق (مفتاح-X-API)'
+        access_key: 'مفتاح واجهة برمجة التطبيقات (X-Api-Key)'
       vendor_to_operator:
         vendor: المتجر
       authentication:
         authenticatable: المستخدم
-        pin_code: الرمز
-        provider: المزود
+        pin_code: رقم التعريف الشخصي
+        provider: مقدم الخدمة
       order:
         phone: الهاتف
         city_id: المدينة
@@ -513,26 +559,26 @@ ar_SA:
         name: الاسم
         comment: تعليق
         delivery_states:
-          new: في انتظار البدأ
+          new: في انتظار البدء
           not_needed: غير مطلوب
-          delivery: قيد التوصيل
-          done: تم التوصيل
-          canceled: ألغيت
+          delivery: قيد التسليم
+          done: تم التسليم
+          canceled: تم الإلغاء
         payment_states:
           new:     في انتظار الدفع
-          direct:  في انتظار الدفع نقداً
-          paid:    مدفوع
-          failed:  ألغيت
-          canceled:  ألغيت
+          direct:  في انتظار الدفع النقدي
+          paid:    تم الدفع
+          failed:  تم الإلغاء
+          canceled:  تم الإلغاء
         states:
           new: جديد
           accepted: نشط
-          done: منجز
-          canceled: ألغيت
-        delivery_time_period_id: وقت التوصيل
+          done: تم
+          canceled: تم الإلغاء
+        delivery_time_period_id: وقت التسليم
       coupon:
         code: الرمز
-        is_discounting_package: تقديم خصم على التعبئة والتغليف
+        is_discounting_package: الحصول على خصم على التعبئة والتغليف
         use_count: الاستخدام المتبقي
         used_count: عدد الاستخدامات
         discount: الخصم
@@ -544,81 +590,81 @@ ar_SA:
       dictionary:
         custom_title: الاسم
         type: النوع
-        menu_visible: إظهار في القائمة
+        menu_visible: عرض ضمن القائمة
       property:
         custom_title: الاسم
-        show_in_filter: إظهار في الفلتر
-        use_in_short_details: اظهار في الكاتالوج
-        filter_position: إظهار في الفلتر
+        show_in_filter: عرض ضمن عامل التصفية
+        use_in_short_details: عرض ضمن الكتالوج
+        filter_position: عرض ضمن عامل التصفية
       tariff:
         state: الحالة
         published_vendors_count: المتاجر المنشورة
         vendors_count: المتاجر
         title: 'الاسم'
-        can_send_sms_with_negative_balance: 'إمكانية إرسال الرسائل النصية مع رصيد سلبي'
-        sms_price: 'تكلفة الرسائل النصية'
+        can_send_sms_with_negative_balance: 'القدرة على إرسال رسائل قصيرة ذات رصيد سالب'
+        sms_price: 'تكلفة الرسائل القصيرة'
         moysklad_price: 'تكلفة MyStock'
-        row_order: التصنيف
+        row_order: الفرز
         description: الوصف
-        month_price: التكلفة (بالشهر)
-        can_change: تستطيع تغيير
-        link_kiosk_disable_price: 'سعر إخفاء العنوان "أنشئ على %{brand_name_e}"'
+        month_price: التكلفة (شهريًا)
+        can_change: يمكنك تغيير
+        link_kiosk_disable_price: 'سعر إخفاء العنوان "بناءً على%{brand_name_e}"'
         is_default: 'التعريفة الافتراضية'
-        feature_edit_menu: تحرير القائمة يدوياً
+        feature_edit_menu: تحرير القائمة يدويًا
         feature_package: التعبئة والتغليف
-        feature_to_basket_in_list: 'زر "أضف إلى السلة" في قائمة المنتجات'
+        feature_to_basket_in_list: 'زر "إضافة إلى عربة التسوق" في قائمة المنتجات'
         feature_notify_templates: 'قوالب الإشعارات'
         feature_client_cabinet: 'حساب العميل'
-        feature_wishlist: 'قائمة الأماني'
+        feature_wishlist: 'قائمة الرغبات'
         feature_order_state: 'حالات الطلبات الفردية'
         feature_walletone: 'WalletOne'
         feature_domain: 'المجال الفردي'
-        feature_custom_css: 'تحرير CSS'
-        feature_convead: 'كونفيد (Convead)'
+        feature_custom_css: 'تحرير أوراق الأنماط المتتالية'
+        feature_convead: 'Convead'
         feature_pages: 'صفحات النص'
         feature_max_users: 'عدد الموظفين'
         feature_max_products: 'عدد المنتجات'
-        feature_instagram: 'مصدر انستغرام'
+        feature_instagram: 'موجز انستجرام'
         feature_export_data: 'تصدير البيانات'
-        feature_yandex_kassa: 'يانديكس كاش (Yandex Cash)'
+        feature_yandex_kassa: 'النقد من Yandex'
         feature_coupon: 'الرموز الترويجية'
         feature_rbk_money: RBK Money
-        feature_blog: مدونة
-        feature_lookbook: كتاب البحث
-        feature_multilanguage: متعدد اللغات
-        feature_delivery_tracking: تتبع التوصيل
-        feature_delivery_service: الربط مع خدمات التوصيل
-        feature_moysklad: الربط مع خدمة MyStock
-        feature_yandex_market: تفريغ شحنة Yandex Market
-        feature_torg_mail: تفريغ torg.mail.ru
+        feature_blog: المدونة
+        feature_lookbook: الكتالوج
+        feature_multilanguage: تعدد اللغات
+        feature_delivery_tracking: تتبع التسليم
+        feature_delivery_service: التكامل مع خدمات التسليم
+        feature_moysklad: التكامل مع خدمة MyStock
+        feature_yandex_market: التفريغ عبر Yandex Market
+        feature_torg_mail: التفريغ عبر Torg.mail.ru
         feature_amocrm: AmoCRM
-        feature_import: "استيراد البيانات من جدول بيانات جوجل وغيرها"
+        feature_import: "استيراد البيانات من جدول بيانات Google وغيرها"
         feature_slider: شريط التمرير
       tariff_order:
         from_orders_count: 'عدد الطلبات (من)'
         to_orders_count: 'عدد الطلبات (إلى)'
         per_order_price: 'تكلفة الطلب'
-        per_month_price: 'التكلفة الشهرية'
+        per_month_price: 'التكلفة لكل شهر'
       vendor_template:
         is_test: 'قيد الاختبار'
         real_vendors_count: 'متاجر حقيقية'
         name: "الاسم"
         description: "الوصف (HTML)"
         image: "لقطة الشاشة الرئيسية"
-        vendor_id: معرف المتجر المصدر
+        vendor_id: الرقم التعريفي لمتجر المصدر
         vendors_count: جميع المتاجر
         position: "الموضع في القائمة"
-        vendor: قالب متجر
-        precreated_vendors_count: متاجر تم إنشاؤها مسبقاً
+        vendor: قالب المتجر
+        precreated_vendors_count: المتاجر التي تم إنشاؤها مسبقًا
       dashboard_item:
         key: المفتاح
         title: العنوان الرئيسي
         text: النص
         position: الموضع
-        path: رابط
-        created_at: أنشئ
-        updated_at: تم تحديثه
-        icon: أيقونة
+        path: الرابط
+        created_at: تم الإنشاء
+        updated_at: تم التحديث
+        icon: الأيقونة
       vendor_email:
         email: من
       delivery_time_rule:
@@ -626,15 +672,21 @@ ar_SA:
         time: الوقت
         days_count: عدد الأيام
     errors:
-      wrong_category: لا يوجد مثل هذه الفئة
+      wrong_category: لا توجد هذه الفئة
       self_descendant: لا يمكن تداخل الفئة
-      reset_password_token_is_out_of_date: الرمز المميز لاستعادة كلمة المرور قديم. يرجى إرسال الطلب مرة أخرى
-      home_category_restriction: محاولة حذف فئة أصلية
-      operator_not_found: لم يتم العثور على مشغل يحمل هذا الهاتف او البريد الإلكتروني
+      reset_password_token_is_out_of_date: الرمز المميز لاستعادة كلمة المرور قديم. إرسال الطلب مرة أخرى
+      home_category_restriction: محاولة حذف الفئة الأصلية
+      operator_not_found: لم يتم العثور على مشغل يستخدم هذا الهاتف أو هذا البريد
       product_union:
-        price_is_not_uniqueness: أسعار المنتج ليست نفسها
-        maximum: 'الحد الأقصى لعدد المنتجات في الاتحاد: %{max}'
+        price_is_not_uniqueness: أسعار المنتجات ليست متماثلة
+        maximum: 'الحد الأقصى لعدد المنتجات في التوحيد: %{max}'
       models:
+        certificate:
+          attributes:
+            cert_file:
+              invalid_cert_file: 'شهادة غير صالحة: %{error}'
+            key_file:
+              invalid_key_file: 'مفتاح خاص غير صالح: %{error}'
         vendor_bitrix24:
           attributes:
             url:
@@ -642,67 +694,67 @@ ar_SA:
         import_spread_sheet_info:
           attributes:
             google_spreadsheet_url:
-              url: 'عنوان الجدول غير صالح'
+              url: 'عنوان جدول غير صالح'
         client_email:
           attributes:
             email:
-              email: 'البريد الإلكتروني غير صالح'
+              email: 'بريد الإلكتروني غير صالح'
         subscription_email:
           attributes:
             email:
-              email: 'البريد الإلكتروني غير صالح'
+              email: 'بريد الإلكتروني غير صالح'
         vendor:
           attributes:
             subdomain:
-              slug: "يجب أن يحتوي المجال على حروف لاتينية، أرقام، \"_\" أو \"-\" فقط"
+              slug: "يجب أن يحتوي المجال الفرعي على حروف لاتينية أو أرقام أو _ أو - فسحب"
             support_email:
-              email: "صيغة البريد الإلكتروني خاطئة"
+              email: "تنسيق بريد إلكتروني غير صالح"
         invite:
           attributes:
             email:
-              email: "صيغة البريد الإلكتروني خاطئة"
+              email: "تنسيق بريد إلكتروني غير صالح"
         user_request:
           attributes:
             email:
-              email: ليس بريد الكتروني
+              email: ليس عنوان بريد إلكتروني
         operator:
           attributes:
             email:
-              email: ليس بريد إلكتروني
+              email: ليس عنوان بريد إلكتروني
         order:
           attributes:
             email:
-              email: ليس بريد إلكتروني
+              email: ليس عنوان بريد إلكتروني
         slider_image:
           attributes:
             image:
-              file_size_is_less_than: 'حجم الصورة يجب أن لا يتعدى %{count}'
+              file_size_is_less_than: 'يجب ألا يتجاوز حجم الصورة %{count}'
             link_url:
-              url: ليس رابط
+              url: ليس رابطًا
         top_banner:
           attributes:
             link_url:
-              url: ليس رابط
+              url: ليس رابطًا
         blog_post:
           attributes:
             url:
-              url: ليس رابط
+              url: ليس رابطًا
         slug_resource:
           attributes:
             path:
-              uri_component: 'صيغة الرابط خاطئة'
+              uri_component: 'تنسيق رابط غير صالح'
             redirect_path:
-              uri_component: 'صيغة الرابط خاطئة'
+              uri_component: 'تنسيق رابط غير صالح'
         slug_redirect:
           attributes:
             path:
-              uri_component: 'صيغة الرابط خاطئة'
+              uri_component: 'تنسيق رابط غير صالح'
             redirect_path:
-              uri_component: 'صيغة الرابط خاطئة'
+              uri_component: 'تنسيق رابط غير صالح'
         menu_item:
           attributes:
             link_url:
-              url: 'يجب أن يبدأ الرابط ب //:http'
+              url: 'يجب أن يبدأ الرابط بكلمة http://'
         property:
           attributes:
             key:
@@ -710,17 +762,20 @@ ar_SA:
         domain_alias:
           attributes:
             domain:
-              taken: مأخوذ مسبقاً
+              taken: تم الحصول عليه بالفعل
         product:
           attributes:
             file_url:
-              url: "يجب أن يكون رابط في الملف"
+              url: "يجب أن يوجد رابط ما في الملف "
             video_url:
-              url: ليس رابط
+              url: ليس رابطًا
+    warnings:
+      cart_item:
+        stored_price_and_price_different: ""
     order:
       address:
-        house: ""
-        room: ""
+        house: المبنى
+        room: الشقة/المكتب
   activemodel:
     attributes:
       vendor_registration_form:
@@ -730,9 +785,9 @@ ar_SA:
         email: البريد الإلكتروني
       operator_login_form:
         phone: رقم الهاتف
-        pin_code: الرمز
+        pin_code: رقم التعريف الشخصي
       client_login_form:
         phone: رقم الهاتف أو البريد الإلكتروني
-        pin_code: الرمز
+        pin_code: رقم التعريف الشخصي
       pin_form:
         phone: الهاتف

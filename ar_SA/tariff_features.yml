@@ -2,29 +2,29 @@ ar_SA:
   tariff_features:
     feature_walletone: 'WalletOne'
     feature_domain: 'المجال الفردي'
-    feature_custom_css: 'تحرير CSS'
+    feature_custom_css: 'تحرير أوراق الأنماط المتتالية'
     feature_convead: 'Convead'
     feature_pages: 'صفحات النص'
     feature_max_users: 'عدد الموظفين - %{value}'
     feature_max_products: 'كمية البضائع - %{value}'
-    feature_instagram: 'مصدر انستغرام'
+    feature_instagram: 'موجز Instagram'
     feature_export_data: 'تصدير البيانات'
-    feature_yandex_kassa: 'يانديكس كاش'
+    feature_yandex_kassa: 'النقد من Yandex'
     feature_coupon: 'الرموز الترويجية'
     feature_rbk_money: RBK Money
     feature_blog: المدونة
-    feature_lookbook: كتاب البحث
-    feature_multilanguage: متعدد اللغات
-    feature_delivery_tracking: تتبع التوصيل
-    feature_delivery_service: الربط مع خدمات التوصيل
-    feature_moysklad: الربط مع خدمة MySklad
-    feature_yandex_market: تفريغ شحنة Yandex Market
-    feature_torg_mail: تفريغ Torg-mail
+    feature_lookbook: الكتالوج
+    feature_multilanguage: عدة لغات
+    feature_delivery_tracking: تتبع التسليم
+    feature_delivery_service: التكامل مع خدمات التسليم
+    feature_moysklad: التكامل مع خدمة MySklad
+    feature_yandex_market: التفريغ عبر Yandex Market
+    feature_torg_mail: التفريغ عبر Torg-mail
     feature_amocrm: AmoCRM
-    feature_edit_menu: تحرير القائمة يدوياً
+    feature_edit_menu: تحرير القائمة يدويًا
     feature_notify_templates: قوالب تنبيه مخصصة
-    feature_wishlist: قائمة الأماني
+    feature_wishlist: قائمة الرغبات
     feature_order_state: حالات الطلبات الفردية
     feature_client_cabinet: حساب العميل
-    feature_import: "استيراد البيانات من جدول بيانات جوجل وغيرها"
+    feature_import: "استيراد البيانات من جدول بيانات Google وغيرها"
     feature_slider: شريط التمرير

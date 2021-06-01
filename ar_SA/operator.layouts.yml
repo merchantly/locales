@@ -2,9 +2,9 @@ ar_SA:
   operator:
     layouts:
       header_search:
-        title: بحث وتصفية
+        title: البحث & والفلتر...
       bells:
-        read_all: 'أشر على الكل بأنها قرئت'
+        read_all: 'وضع علامة مقروء على الكل'
         scope:
           all: 'الكل'
           read: 'مقروء'
@@ -14,37 +14,37 @@ ar_SA:
         add_category: 'إضافة فئة'
         all: جميع العملاء
       orders:
-        title: الطلب
-        search_query: رقم الطلب، التعليق، أو المنتج
+        title: الطلبات
+        search_query: رقم الطلب أو التعليق أو المنتج
         from_at: التاريخ من
         to_at: التاريخ إلى
-        search_button: 'ابحث'
-        new_order: 'قم بإنشاء طلب'
-        search: 'البحث عن طريق الطلبات'
-        add_filter: 'إضافة فلتر'
+        search_button: 'البحث'
+        new_order: 'إنشاء طلب'
+        search: 'البحث في الطلبات'
+        add_filter: 'إضافة فئة الطلب'
         all: جميع الطلبات
         settings:
           states: 'حالة الطلب'
           conditions: القواعد
-          mail_templates: 'الإشعارات'
-          filters: 'الفلاتر'
+          mail_templates: 'الإخطارات'
+          filters: 'عوامل التصفية'
       products:
         title: المنتجات
-        new_button: 'أضف منتج'
-        search: 'البحث عن طريق المنتجات'
-        all: جميع المنتجات
-        without_categories: 'المنتجات دون فئات'
-        sale: 'المنتجات المخفضة'
-        is_run_out: 'السلع المباعة'
-        on_welcome: 'السلع على الصفحة الرئيسية'
+        new_button: 'إضافة منتج'
+        search: 'البحث حسب المنتجات'
+        all: الكل
+        without_categories: 'غير مصنف'
+        sale: 'مخصوم'
+        is_run_out: 'نفاد المخزون'
+        on_welcome: 'الصفحة الرئيسية'
         categories: الفئات
-        add_category: 'إضافة فئة جديدة'
+        add_category: 'إضافة فئة'
         settings:
-          categories: 'فئات المنتجات'
-          properties: 'خصائص السلع'
-          tags: 'علامات المنتج'
+          categories: 'الفئات'
+          properties: 'الخصائص'
+          tags: 'العلامات'
           dictionaries: 'القواميس'
-          archive: "أرشيف السلع (%{count} قطع)"
+          archive: "أرشيف (%{count} عناصر)"
           public: 'هذه الفئة في الموقع'
-          edit: 'ضبط هذه الفئة'
+          edit: 'تهيئة هذه الفئة'
           moysklad: تبادل البيانات مع Moysklad

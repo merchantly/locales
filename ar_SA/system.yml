@@ -1,186 +1,205 @@
 ar_SA:
   system:
+    keycloak:
+      auth_required: يلزم الحصول على تصريح من خلال keycloak
+      email_verified: لم يتم التحقق من البريد الإلكتروني لبرنامج Keycloak
+    coupons:
+      marked_as_default: تم وضع علامة كخيار رئيسي
+      mark_as_default: وضع علامة كخيار رئيسي
     vendor_empty: 'المتجر فارغ'
-    month_price: '%{currency} / شهر'
-    create_shop: 'إنشاء متجر'
+    month_price: '%{currency}/ الشهر'
+    create_shop: 'إضافة متجر'
     tariffs: التعريفات
     default_vendor_name: بدون عنوان
-    policy_label: تأكيد اتفاقيات المستخدم
-    call: "اتصل - %{phone}"
-    back: رجوع
+    policy_label: لقد قرأت الشروط والأحكام ووافقت عليها
+    call: "الاتصال - %{phone}"
+    back: العودة
     support: الدعم
     navigation: التنقل
-    login_as_other: تسجيل الدخول كآخر
-    login_for_managers: 'تسجيل الدخول لمديري المتجر'
+    login_as_other: تسجيل الدخول للآخرين
+    login_for_managers: 'تسجيل الدخول لمديري المتاجر'
     not_authorized_to_this_store: غير مصرح لهذا المتجر
-    you_authorzed_as: "أنت مصرح ك<em>%{name}</em>"
-    enter: 'أدخل <span class="hidden-xs hidden-sm"> لمديري المتجر</span>'
+    you_authorzed_as: "تم التصريح لك كـ <em>%{name}</em>"
+    enter: 'إدخال<span class="hidden-xs hidden-sm"> لمديري المتاجر</span>'
     flashes:
-      landing_steps: 'العملية تحتوي على <b>3 خطوات بسيطة</b> وتحتاج إلى <b>20 ثانية</b> لإنهائها'
-      you_are_welcome: "أهلاً بك، %{name}!"
-      phone_confirmed: "تم تأكيد رقم الهاتف %{phone}"
-      enter_you_phone: 'أدخل رقم هاتفك مع الرمز الدولي'
-      wrong_pin_code: الرمز السري خاطئ
+      landing_steps: 'تتضمن العملية <b>3 خطوات بسيطة </b>وتحتاج إلى <b>20 ثانية</b> لإنهاء العملية'
+      you_are_welcome: "مرحبًا، %{name}!"
+      phone_confirmed: "تم تأكيد %{phone} الهاتف"
+      enter_you_phone: 'أدخل رقم هاتفك بالتنسيق الدولي'
+      wrong_pin_code: رمز رقم التعريف الشخصي خاطئ
       subscriptions_updated: 'تم تحديث تفضيلات الاشتراك'
 
     chart:
       selling_vendors:
-        month: 'مبيعات المتاجر شهرياً'
-        week: 'المتاجر التي تبيع في الأسبوع'
+        month: 'متاجر المبيعات شهريًا'
+        week: 'بيع المتاجر أسبوعيًا'
       vendors: 'تسجيل المتاجر'
       orders:
         all: 'الطلبات'
-        paid: 'الطلبات المنتهية'
-      payments: 'الدفع للطلبات (بالروبل)'
+        paid: 'الطلبات المكتملة'
+      payments: 'الدفع مقابل الطلبات (بالروبل)'
 
     welcome_form:
-      go: البدأ
+      go: بدء
 
     titles:
-      open_store: فتح متجر
-      error: تواصل مع الدعم إذا كنت لا توافق
+      open_store: فتح المتجر
+      error: اكتب لتتلقى الدعم إذا كنت لا توافق على ذلك.
 
     headers:
-      my_shops: "متاجري (%{count})"
-      profile: 'الملف الشخصي'
-      subscriptions: 'إدارة الاشتراك'
-      partner: 'مكتب شريك'
-      access_keys: 'مفاتيح الوصول (API)'
+      my_shops: "المتاجر الخاصة بي (%{count})"
+      profile: 'ملف التعريف الشخصي'
+      subscriptions: 'إدارة الأحداث'
+      partner: 'مكتب الشريك'
+      access_keys: 'مفاتيح الاختصار (واجهة برمجة التطبيقات)'
       create_shop: 'إنشاء متجر'
-      enter_for_store: أدخل لمديري المتجر
-      logout: الخروج
+      enter_for_store: إدخال لمديري المتاجر
+      logout: خروج
     disable_with:
-      registration: 'يتم إنشاء متجر..'
-      login: 'الدخول..'
+      registration: 'جارٍ إنشاء متجر...'
+      login: 'جارٍ الإدخال...'
     vendor:
-      archive_reason: 'تم نقله إلى الأرشيف بسبب عدم النشاط'
+      archive_reason: 'تم النقل إلى الأرشيف بسبب عدم النشاط'
     invoices:
       amount: "مبلغ الدفع:&nbsp;"
-      pay: 'ادفع'
-      pdf: 'فاتورة الدفع عن طريق التحويل (PDF)'
-      test_cards: 'بطاقات التجربة 4111111111111111'
-      number: 'حساب الدفع #%{number}'
-      paid: الفاتورة مدفوعة
+      pay: 'الدفع'
+      pdf: 'فاتورة الدفع عن طريق التحويل (بصيغة PDF)'
+      test_cards: 'بطاقات الاختبار 4111111111111111'
+      number: 'رقم حساب الدفع%{number}'
+      paid: تم دفع الفاتورة
     leads:
-      title: تم قبول طلبك
-      body: "إذا لم نتصل بك مرة أخرى خلال 12 ساعة ، فيرجى الاتصال بنا"
+      title: تم قبول طلبك.
+      body: "إذا لم نعاود الاتصال بك في غضون 12 ساعة، يُرجى الاتصال"
     metrics:
-      vendor_cellers_count: 'المتاجر المباعة:'
-      weekly_orders_summ: 'فاتورة:'
+      vendor_cellers_count: 'المتاجر المُباعة:'
+      weekly_orders_summ: 'تم إصدار الفاتورة:'
       weekly_average_order_amount: 'متوسط الفاتورة:'
       weekly_payments_summ: 'الطلبات المدفوعة:'
-      monthly_orders_summ: 'فاتورة:'
+      monthly_orders_summ: 'تم إصدار الفاتورة'
       monthly_average_order_amount: 'متوسط الفاتورة:'
       monthly_payments_summ: 'الطلبات المدفوعة:'
       weekly: خلال الأسبوع
       monthly: شهرياً
-      paid_least_once: دفع على الأقل لطلب واحد كل الوقت
+      paid_least_once: تم دفع مقابل طلب واحد على الأقل طوال الوقت.
       period_options:
-        one_month: '1 شهر'
+        one_month: 'شهر واحد'
         three_months: '3 أشهر'
         six_months: '6 أشهر'
         year: 'سنة'
-      data_for_date: بيانات عن
-      refresh_to: التحديث في
+      data_for_date: البيانات عبر
+      refresh_to: تم التحديث في
     operator_vendors:
       title: "المتاجر المتاحة لك (%{count})"
-      products_count: 'السلع:'
-      orderable_products_count: 'عليها خصم:'
+      products_count: 'البضائع:'
+      orderable_products_count: 'للبيع:'
       orders_count: 'الطلبات:'
-      total_order_price: 'المبلغ:'
-      total_success_orders_price: 'مكتمل منهم:'
-      shop_archived: المتجر في الأرشيف
+      total_order_price: 'المبلغ الإجمالي:'
+      total_success_orders_price: 'اكتمل منها:'
+      shop_archived: المتجر موجود في الأرشيف
       restore: 'استعادة'
       operator_url: 'لوحة التحكم'
       role: 'دورك: %{role}'
+      th:
+        store_name: اسم المتجر
+        goods: البضائع
+        orders: الطلبات
     operators:
       invite:
-        title: '%{operator_inviter} يدعوك للانضمام إلى المتجر %{link}'
-        introduce_yourself: فضلاً قم بالتعريف عن نفسك حتى نعرف كيف أن نتصل بك
+        title: '%{operator_inviter} يدعوك للانضمام إلى %{link} المتجر.'
+        introduce_yourself: يُرجى التعريف بنفسك حتى نعرف كيفية الاتصال بك.
         phone_number: 'رقم الهاتف (اختياري)'
     payments:
       success:
-        title: شكرا للدفع!
+        title: شكرًا لك على الدفع!
         back_to_shop: 'العودة إلى المتجر'
-        kiiiosk: 'كشك الخدمة'
+        kiiiosk: 'كابينة الخدمة'
         tariff: 'التعريفة'
-        tariff_payment: 'دفع رسوم التعريفة'
+        tariff_payment: 'دفع التعريفة'
     phone_confirmations:
-      sms_should_come: ستصل الرسالة النصية خلال دقيقة
-      request: تستطيع إعادة طلب الرمز من خلال
-      resend: 'إعادة ارسال الرمز'
-      resend_help: "ستصل الرسالة النصية خلال دقيقة، إذا لم تصل،"
-      title: "قم بتأكيد الهاتف %{phone}"
-      recevied_sms: 'لقد وصلتك رسالة نصية تحتوي على رمز، فضلاً قم بإدخاله:'
-      pin_code: 'الرمز من الرسالة النصية، مثلاً: ac78'
-      confirm: 'تأكد'
-      checking: 'يتم التحقق..'
-      walletone_phone: الهاتف للاتصال بمحفظة WalletOne
-      walletone_info: تتلقى هذه المحفظة مدفوعات مقابل السلع والخدمات المباعة في الكشك.
+      sms_should_come: يجب أن يُقدم نظام الرسائل القصيرة في غضون دقيقة.
+      request: يمكنك إعادة طلب الرمز من خلال
+      resend: 'إعادة إرسال الرمز'
+      resend_help: "يجب أن يُقدم نظام الرسائل القصيرة في غضون دقيقة، وإذا لم يكن كذلك،"
+      title: "تأكيد الهاتف %{phone}"
+      recevied_sms: 'لقد تلقيت رسالة قصيرة بها رمز، أدخله:'
+      pin_code: 'الرمز من الرسالة القصيرة، على سبيل المثال: ac78'
+      confirm: 'تأكيد'
+      checking: 'جارٍ التحقق...'
+      walletone_phone: هاتف للاتصال بمحفظة WalletOne
+      walletone_info: تتلقى هذه المحفظة مدفوعات مقابل المنتجات والخدمات المُباعة في الكابينة.
       enter_phone: أدخل رقم الهاتف للتأكيد
-      phone_example: ''
-      phone_label: 'الهاتف بالتنسيق الدولي'
-      send_pin_code: 'الحصول على رسالة نصية مع رمز التأكيد'
-      sending: 'يتم الإرسال..'
+      phone_example: 'على سبيل المثال: 28 12 389 903 966+'
+      phone_label: 'رقم الهاتف بتنسيق دولي'
+      send_pin_code: 'الحصول على رسالة قصيرة تحتوي على رمز التأكيد'
+      sending: 'جارٍ الإرسال..'
     profile:
-      name: 'اسمك'
-      password: 'أدخل كلمة مرور إذا كنت تريد تغييرها.'
-      phone_confirmations: 'الهواتف المؤكدة:'
-      phone_confirmed: (مؤكد)
+      name: 'الاسم بالكامل'
+      password: 'تغيير كلمة المرور'
+      phone_confirmations: 'تأكيد رقم الجوال:'
+      phone_confirmed: (تم التأكيد)
       phone_wait: (في انتظار التأكيد)
-      confirm: 'تأكد'
-      confirmed: 'مؤكد'
-      hello: 'مرحباً %{name}!'
-      edit_title: "هذا هو ملفك الشخصي، يمكنك تغييره."
-      email: 'البريد الالكتروني'
-      phone: 'الهاتف'
-      locale: 'الموقع'
-      password_confirmation: 'تأكيد كلمة السر'
+      confirm: 'إعادة إرسال الرمز'
+      confirmed: 'تم التأكيد'
+      hello: 'مرحبًا %{name}!'
+      edit_title: "لا تتردد في تحديث الملف التعريفي الخاص بك"
+      email: 'البريد الإلكتروني'
+      phone: 'الجوال'
+      locale: 'اللغة'
+      password_confirmation: 'تأكيد كلمة المرور الجديدة'
     access_keys:
-      title: "مفاتيح وصول واجهة برمجة تطبيق المتجر (%{key})"
+      title: "مفاتيح الاختصار لواجهة برمجة التطبيقات الخاصة بالمتجر (%{key})"
       th:
-        shop: المتجر
-        private_api_url: رابط إلى واجهة برمجة تطبيق التاجر (مغلق)
-        public_api_url: رابط إلى واجهة برمجة تطبيقات العملاء (عامة)
-        key: "مفتاح المرور الخاص بك (%{key})"
-      operator_api: 'واجهة برمجة تطبيق التاجر'
-      client_api: 'واجهة برمجة تطبيق العميل'
+        shop: اسم العنصر
+        private_api_url: رابط واجهة برمجة التطبيقات الخاصة بالتجار
+        public_api_url: رابط واجهة برمجة التطبيقات الخاصة بالعملاء
+        key: "مفتاح واجهة برمجة التطبيقات (%{key})"
+      operator_api: 'واجهة برمجة التطبيقات الخاصة بالتجار'
+      client_api: 'واجهة برمجة التطبيقات الخاصة بالعملاء'
     requests:
       create: |
-        شكراً لك، %{name}. تم قبول طلبك!
-        </br>
-        </br>
-        سيتم الاتصال بك قريبًا، وفقًا للمتطلبات التي حددتها (%{email}، %{phone})
-      new: اترك طلب
+        شكرًا لك، %{name}. تم قبول طلبك!
+        </br> 
+        </br> 
+        سيتم الاتصال بك قريبًا وفقًا للمتطلبات التي حددتها (%{email}، %{phone})
+      new: قدم طلبًا
     spf_checker:
-      instruction: 'تعليمات لإعداد سجلات إطار سياسة المرسل (SPF) في DNS'
-      title: تحقق من سجلات إطار سياسة المرسل
-      availability_check: "<strong>تحقق من توفر %{domain} في مجال المستخدم"
-      email: 'البريد الإلكتروني للتأكيد'
-      check: 'تحقق'
-      success: "كل شئ على ما يرام! البريد الإلكتروني صالح ، سجل إطار سياسة المرسل فعّال"
-      error: عفواً .. لم يتم العثور على سجل إطار سياسة المرسل (SPF)
+      instruction: 'تعليمات تهيئة سجلات إطار سياسة المرسل في خدمة اسم المجال'
+      title: فحص سجلات إطار سياسية المرسل
+      availability_check: "<strong>التحقق من التوافر &nbsp; %{domain}في مجال المستخدم"
+      email: 'عنوان البريد الإلكتروني للتحقق'
+      check: 'التحقق'
+      success: "كل شيء على ما يرام! البريد الإلكتروني صالح، تم تمكين سجل إطار سياسة المرسل"
+      error: عذرًا... لم يتم العثور على سجل إطار سياسة المرسل.
     subscriptions:
-      hello: "مرحباً %{name}!"
-      title: المراسلات التي اشتركت فيها
+      hello: "مرحبًا %{name}!"
+      title: المراسلات البريدية التي اشتركت فيها
       save: 'حفظ'
     vendors:
+      steps:
+        one: اسم المتجر
+        two: تحديد قالب
+        three: معلومات المستخدم
       choice_template:
         title: 'إنشاء متجر جديد "%{name}"'
         step: الخطوة 2 من 3.
-        select: اختيار قالب مناسب لتجارتك.
-        submit: 'اختيار'
+        select: حدد قالبًا يناسب نمطك
+        submit: 'تحديد'
       new:
+        vendor_name: اسم المتجر
+        partner_coupon_code: الرمز الترويجي
         title: إنشاء متجر جديد
-        name: قم بإدخال اسم متجرك
+        name: أدخل اسم متجرك، واجعله أنيقًا وجذابًا!
         step: الخطوة 1.
-        example_name: 'على سبيل المثال: متجر الأحذية "ليوناردو"'
-        continue: 'استمرار'
-        already_have_account: "لديك حساب في النظام؟"
+        example_name: 'على سبيل المثال، متجر Nouf'
+        continue: 'متابعة'
+        already_have_account: "هل لديك متجر بالفعل؟"
       set_contacts:
-        title: 'إنشاء متجر جديد "%{name}" مع القالب "%{template}"'
-        phone: حدد هاتفك للحصول على التفويض وإشعارات الطلبات.
+        title: 'إنشاء متجر جديد "%{name}" باستخدام القالب "%{template}"'
+        phone: حدد رقم هاتفك لإخطارات التفويض والطلب.
         step: الخطوة 3 (الأخيرة).
         use_existing_account: "سنستخدم حسابك الحالي %{operator}"
-        email: 'البريد الإلكتروني (غير ضروري)'
-        continue: استمرار
+        email: 'أدخل البريد الإلكتروني...'
+        continue: متابعة
+        input_phone: رقم الجوال
+        input_email: البريد الإلكتروني
+        phone_placeholder: +966 xxxxxxxxxxxx

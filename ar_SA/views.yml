@@ -1,7 +1,7 @@
 ar_SA:
   views:
     collection:
-      empty: لا توجد نتائج مطابقة.
+      empty: لم يتم العثور على نتائج مُطابقة.
     pagination:
       first: "&laquo;"
       last: "&raquo;"
@@ -10,4 +10,4 @@ ar_SA:
       truncate: "&hellip;"
     orders:
       new:
-        title: الدفع
+        title: إتمام عملية الشراء

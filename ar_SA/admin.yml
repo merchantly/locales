@@ -1,243 +1,269 @@
 ar_SA:
   admin:
+    certificates: الشهادات(https)
+    certificate:
+      actions:
+        enable: التمكين
+        disable: التعطيل
+      enabled: تم تمكين الشهادة
+      disabled: تم تعطيل الشهادة
     support: الدعم
-    reports: تقرير
-    affiliate_program: التابعون
+    reports: التقرير
+    affiliate_program: الجهات التابعة
     coupons: 'الرموز الترويجية'
-    new_random_code: 'أنشئ رمز ترويجي عشوائياً'
-    security: الوصول
-    authentications: 'المصادقات'
-    billing: 'الفواتير'
-    analytics: 'تحليلات'
+    new_random_code: 'إنشاء رمز ترويجي عشوائي '
+    security: عمليات الوصول
+    authentications: 'عمليات المصادقة'
+    billing: 'الفوترة'
+    analytics: 'التحليلات'
     products: 'Товары'
     categories: 'الفئات'
     content: 'المحتوى'
     member: 'عضو'
     transactions: 'الدخل'
-    charges_logs: 'سجل السحب'
+    charges_logs: 'سجل عمليات السحب'
     products: 'المنتجات'
     properties: 'الخصائص'
     mail_deliveries: 'الاشتراكات'
-    mail_templates: 'قوالب البريد'
+    mail_templates: 'قوالب المراسلة البريدية'
     vendors: المتاجر
     registration_logs: 'سجل التسجيل'
-    sms_logs: 'سجل الرسائل النصية'
+    sms_logs: 'سجل الرسائل القصيرة'
     tariffes: 'التعريفات'
     bank_incoming:
-      contractors: 'وكلاء المكافحة المعروفين'
-      excludes:  'وكلاء المكافحة المتجاهلين'
-      check: 'كشف الشيك'
-      accepted: 'تم استلام الدفعة'
-      accept: تلقي الدفعة عن طريق هذه الفاتورة
-      accept_without_invoice: 'حاسب بدون فاتورة'
-      no_accept: 'لا يمكن تلقي الدفعة. لا توجد فاتورة مرتبطة'
+      contractors: 'العوامل المضادة المعروفة '
+      excludes:  'تجاهل العوامل المضادة'
+      check: 'التحقق من البيان'
+      accepted: 'تم استلام المدفوعات'
+      accept: استلام المدفوعات عن طريق هذه الفاتورة
+      accept_without_invoice: 'فرض رسوم بدون فاتورة.'
+      no_accept: 'لا يمكن استلام المدفوعات. لا توجد فاتورة مرتبطة'
       new_contractor: 'شريك جديد'
       ignore: 'تجاهل'
-      ignore_confirm: 'تجاهل جميع المعاملات من قبل INN هذا الشريك '
-      process: 'تحت المعالجة'
-      ignored: 'متجاهل'
-      create_transaction: "تم إنشاء المعاملة %{transaction}"
+      ignore_confirm: 'تجاهل جميع المعاملات من خلال رقم الشبكة الداخلية لهذا الشريك'
+      process: 'قيد التقدم'
+      ignored: 'تم التجاهل'
+      create_transaction: "تم إنشاء %{transaction}المعاملة"
     billing_dashboard:
       payments: 'المدفوعات'
       public_shops: 'المتاجر المنشورة'
-      charges: 'الدفعات المتكررة'
+      charges: 'المدفوعات المتكررة'
       by_published_at: 'المتاجر حسب تاريخ النشر'
       unpublic_by_published_at : 'المتاجر غير المنشورة حسب تاريخ النشر'
     dashboard:
-      marketing_data: 'تحويل جدول المدفوعات إلى CSV'
+      marketing_data: 'ورقة المدفوعات إلى ملف CSV'
       departed_customers: 'العملاء الذين غادروا'
       incoming_customers: 'عملاء الدخل'
       registrations: 'التسجيلات'
       orders:
-        title: 'طلبات المتجر'
+        title: 'طلبات التسوق'
         all: 'الطلبات'
         success: 'الطلبات المكتملة'
         payments: 'المدفوعات'
       new_vendors: 'المتاجر الجديدة'
       index: 'الرمز البريدي'
-      goods: "مجموع العناصر: %{total_count}"
-      reindex_all: 'الفهرسة'
-      instruction: 'تعليمات'
-      mailing_plan: 'الخطة البريدية'
+      goods: "إجمالي العناصر: %{total_count}"
+      reindex_all: 'إعادة الفهرسة'
+      instruction: 'التعليمات'
+      mailing_plan: 'خطة المراسلة البريدية'
       error_pages: 'صفحات الخطأ'
     openbill_invoice:
-      not_paid: 'غير مدفوع'
-      paid: 'مدفوع'
-      not_paid_autochargable: 'تُدفع تلقائيا'
+      not_paid: 'لم يتم الدفع'
+      paid: 'تم الدفع'
+      not_paid_autochargable: 'استحقاق الرسوم تلقائيًا'
       all: 'الكل'
-      pay_link: 'رابط الدفع'
+      pay_link: 'الرابط إلى الدفع'
       pdf_link: 'الفاتورة (PDF)'
-      report: 'تقرير مُوقع (PDF)'
-      nosign_report: 'تقرير غير موقع (PDF)'
+      report: 'التقرير الموقع (PDF)'
+      nosign_report: 'التقرير غير الموقع (PDF)'
       charges: 'الرسوم المتكررة'
-      transactions: 'المعاملات'
+      transactions: 'المعاملات '
       error_form: 'يمكن إنشاء الفواتير من صفحة المتجر'
-      number: 'معرف فريد مع أعداد ورموز بدون مسافات'
+      number: 'الرقم التعريفي الفريد ورقم ورموز بدون مسافات'
       tariff: 'التعريفة'
-      months_count: 'لأشهر'
-      is_autochargable: 'السحب تلقائياً من بطاقة مرتبطة'
-      details: 'وصف مفصل'
-      amount: 'مجموع الفترة بأكملها'
+      months_count: 'لمدة أشهر'
+      is_autochargable: 'الدفع تلقائيًا من البطاقة المرتبطة؟'
+      details: 'الوصف التفصيلي'
+      amount: 'المجموع الكلي للفترة بأكملها'
     openbill_transaction:
-      charged: 'سحب'
+      charged: 'تم السحب'
       form:
         labels:
           amount: 'المبلغ'
           tariff_id: 'التعريفة'
           details: 'تعليق'
-          current_paid_to: 'تاريخ انتهاء الصلاحية الحالي'
-          next_paid_to: 'تاريخ انتهاء الصلاحية التالي'
+          current_paid_to: 'تاريخ الانتهاء الحالي'
+          next_paid_to: 'تاريخ الانتهاء التالي'
         hints:
           amount: '%{brand_currency}'
     operators:
       actions:
-        partner_path: البرنامج التابع
-        enable_partner: تمكين الشركات التابعة
+        partner_path: برنامج الجهات التابعة
+        enable_partner: تمكين الجهات التابعة
       flashes:
-        partner_created: 'الشركات التابعة التي تم إنشاؤها'
-        lets_go: 'يفعل'
-      attributes: 'الخواص'
-      vendors: 'المؤسسات'
+        partner_created: 'الجهات التابعة التي تم أنشاؤها'
+        lets_go: 'الفعل'
+      attributes: 'السمات'
+      vendors: 'المنشآت'
     order:
       order_items: 'العناصر'
       delete: 'حذف'
+    sendgrid:
+      export: 'تصدير رسائل البريد الإلكتروني الخاصة بالتجار'
+      registration: 'التسجيل'
+      system_notify: 'إخطار المنصة'
+      some_mail: 'رسائل حول الأخطاء'
+      notify_member: 'إخطار المشغل'
+      negative_balance: 'الرصيد السالب'
+      balance_refill: 'إعادة الشحن'
+      balance_subtract: 'السحب'
+      need_payment: 'الحاجة إلى دفع الرسوم'
+      unpublish: 'إلغاء النشر'
+      not_enought_sms_money: 'إنهاء الرسائل القصيرة'
+      sms_money_limit_reached: 'لا توجد رسائل قصيرة كافية'
+      analytics: 'التحليلات'
+      reset_password: 'إعادة تعيين كلمة المرور'
+      email_confirmation: 'تأكيد كلمة المرور'
+      system_mail: 'إخطار المنصة'
+      vendor_id:  'إدخال الرقم التعريفي للمتجر'
+      submit:  'المدخلات'
     system_mail_delivery:
       drafts: 'المسودات'
-      processes: 'تحت المعالجة'
-      previews: 'اختبارات المعاينة'
-      dones: 'منجز'
-      archive: 'أرشيف'
-      restored: 'أعيد'
-      archived: 'تم نقله إلى الأرشيف'
-      recipients: 'المستفيدين'
+      processes: 'في العملية'
+      previews: 'معاينة الاختبارات'
+      dones: 'تم'
+      archive: 'الأرشيف'
+      restored: 'تمت الاستعادة'
+      archived: 'تم النقل إلى الأرشيف'
+      recipients: 'المستلمون'
       sent: 'الرسائل المرسلة'
       opened:  'الرسائل المفتوحة'
-      followed: 'ذهبت من خلال الرابط الأساسي'
-      unsubscribe_clicked: 'ألغى اشتراكه'
-      inputs_recepients: 'المستفيدين'
+      followed: 'تم الذهاب من خلال الرابط الأساسي'
+      unsubscribe_clicked: 'تم إلغاء الاشتراك'
+      inputs_recepients: 'المستلمون'
       vendor: 'المتجر: %{link}'
-      operator_id: 'معرف المشغل'
-      send_all: 'إرسال إلى جميع المشغلين، إذا لم يكن محددًا'
+      operator_id: 'الرقم التعريفي للمشغل'
+      send_all: 'يتم الإرسال إلى جميع مشغلي التاجر، إذا لم يتم التحديد'
       operator: 'المشغل: %{link}'
       templates: 'القوالب'
-      perform: 'افعل!'
-      performed: 'افعل!'
-      no_editing_allowed: 'معطل للتغيير'
+      perform: 'التأكيد!'
+      performed: 'التأكيد!'
+      no_editing_allowed: 'تعطيل للتغيير'
       add_receipient:
         hints:
-          operator_id: 'إرسال إلى جميع مشغلي التاجر، إذا لم يكن محددًا'
+          operator_id: 'يتم الإرسال إلى جميع مشغلي التاجر، إذا لم يتم التحديد'
         labels:
-          operator_id: 'معرف المشغل'
-          vendor_id: 'معرف المتجر'
+          operator_id: 'الرقم التعريفي للمشغل'
+          vendor_id: 'الرقم التعريفي للمتجر'
     system_mail_recepient:
       preview: 'معاينة'
       deliver: 'إرسال'
-      delivered: 'بدأ الإرسال'
+      delivered: 'تم بدء الإرسال'
     system_mail_template:
       preview: 'معاينة'
-      context_example: 'عينة نقل بيانات'
-      mail_examples: 'أمثلة البريد'
-      test: "تجربة توصيل (%{email})"
+      context_example: 'نقل بيانات العينة'
+      mail_examples: 'أمثلة على البريد'
+      test: "تسليم الاختبار (%{email})"
     tariff:
       public: 'صفحة التعريفة'
-      for_choose: 'متاح'
+      for_choose: 'متوفر'
       unchagable: 'فرد'
       additionally: بالإضافة إلى
-      vendors_without_tariffs: 'المتاجر بدون تعريفة: %{link}'
-      restored: 'مستعاد'
-      archived: 'انتقل إلى الأرشيف'
+      vendors_without_tariffs: 'المتاجر التي ليس لها رسوم جمركية: %{link}'
+      restored: 'تمت الاستعادة'
+      archived: 'تم النقل إلى الأرشيف'
     vendor:
-      templates: قوالب
-      not_archive: ليس في الأرشيف
+      templates: القوالب
+      not_archive: ليس ضمن الأرشيف
       with_orders: مع الطلبات
-      archived: في الأرشيف
-      published: منشور
-      no_published: غير منشور
+      archived: ضمن الأرشيف
+      published: تم النشر
+      no_published: لم يتم النشر
       settings: الإعدادات
-      all: كل
+      all: الكل
       domained: 'مع المجالات'
       as_examples: 'على سبيل المثال'
       operator: الدعم الفني
       basic_data: 'البيانات الأساسية'
-      operators: 'المشغلين'
+      operators: 'المشغلون'
       custom_email: 'Сustom email'
-      source: 'مصدر'
-      sources: 'مصادر'
-      tariff_and_billing: 'التعريفة والفواتير'
-      openbill_invoices: 'دليل الواردة'
-      new_period_openbill_invoice: 'إنشاء فاتورة اشتراك'
-      new_openbill_invoice: 'إنشاء فاتورة لأعمال إضافية'
+      source: 'المصدر'
+      sources: 'المصادر'
+      tariff_and_billing: 'التعرفة والفوترة'
+      openbill_invoices: 'الوارد يدويًا'
+      new_period_openbill_invoice: 'إنشاء فاتورة الاشتراك'
+      new_openbill_invoice: 'إنشاء فاتورة للأعمال الإضافية'
       from_main_balance: 'السحب من الحساب (أعمال إضافية)'
-      from_common_transactions: 'الاشتراك الشهري (إعداد فترة النشر)'
-      current_cards: 'بطاقات نشطة'
-      declined_cards: 'بطاقات مرفوضة'
-      charges: 'مدفوعات متكررة'
+      from_common_transactions: 'الاشتراك الشهري (فترة نشر الإعداد)'
+      current_cards: 'البطاقات النشطة'
+      declined_cards: 'البطاقات المرفوضة'
+      charges: 'الرسوم المتكررة'
       incoiming_transactions: 'الدخل'
-      outdoing_transactions: 'السحب'
+      outdoing_transactions: 'عمليات السحب'
       invoices: 'الحسابات'
-      stats: 'إحصائيات'
+      stats: 'الإحصاءات'
       legal_name: 'المعلومات القانونية'
       redirects: 'تحذير'
-      domdain: 'عنوان الموقع'
-      custom_email: 'بريد إلكتروني مخصص'
+      domdain: 'عنوان الموقع الإلكتروني'
+      custom_email: 'البريد الإلكتروني المخصص'
       theme: 'التصميم'
-      screenshots: 'لقطات للشاشة'
-      archive_confirm: 'أرشفة المتجر؟'
+      screenshots: 'لقطات الشاشة'
+      archive_confirm: 'أرشيف المتجر؟'
       batch:
-        restored: 'تم استعادة المتاجر بنجاح'
-        archived: 'متجر نٌقل إلى الأرشيف'
+        restored: 'تمت استعادة المتاجر بنجاح'
+        archived: 'تمت أرشفة المتجر'
       actions:
         restore: استعادة
         destroy: حذف
-        destroy_confirm: "حذف المتجر؟"
-        archive: للأرشيف
-        double: متكرر
-        show: المتجر في لوحة المشرف
-        screenshot: التقط لقطة شاشة
+        destroy_confirm: "هل تريد إزالة المتجر؟"
+        archive: إلى الأرشيف
+        double: التكرار
+        show: التخزين ضمن لوحة المسؤول
+        screenshot: التقاط لقطة شاشة
         reindex: 'إعادة الفهرسة'
-        reindex_all: فهرسة الجميع
+        reindex_all: إعادة فهرسة الكل
         flush_cache: 'مسح ذاكرة التخزين المؤقت'
         operator_url: الدعم الفني
         preview: معاينة المتجر
-        prolongate: إطالة المنشور لمدة أسبوع
-        registration: إرسال بريد إلكتروني حول التسجيل
-        add_vendor_to_delivery: 'إضافة إلى الاشتراك البريدي'
-        forbidden_to_edit: 'معطل للتغيير'
+        prolongate: منشور مطول لمدة أسبوع
+        registration: إرسال بريد حول التسجيل
+        add_vendor_to_delivery: 'إضافة إلى الاشتراك في المراسلات البريدية'
+        forbidden_to_edit: 'تعطيل للتغيير'
         add_confirm: 'إضافة؟'
       flashes:
         restored: تمت استعادة المتجر بنجاح
         destroy: إزالة المتجر
-        archived: المتجر مؤرشف
-        lets_go: يفعل
-        prolongated: "المتجر منشور حتى %{working_to}"
+        archived: تمت أرشفة المتجر
+        lets_go: الفعل
+        prolongated: "تم إعلان المتجر حتى %{working_to}"
         cache_cleared: 'تم مسح ذاكرة التخزين المؤقت'
-        operator_added: 'تمت إضافة التجار'
+        operator_added: 'تتم إضافة الأعضاء التجار'
     notify_mail_template:
       footer: 'تذييل الصفحة'
-      context_example: 'عينة نقل بيانات'
+      context_example: 'نقل بيانات العينة'
       actions:
         preview: معاينة
     sms_log_entity:
-      billing: 'الرسائل النصية في الفواتير'
-      analytics: 'تحليلات'
+      billing: 'الرسائل القصيرة ضمن الفوترة'
+      analytics: 'التحليلات'
     vendor_template:
       all: 'الكل'
-      published: 'منشور'
-      tests: 'اختبار'
+      published: 'تم النشر'
+      tests: 'الاختبار'
       precreate: 'إعادة إنشاء المتاجر'
-      precreate_notice: 'بدأت العملية'
-      clone: 'إنشاء متجر بناء على'
-      doc: 'توثيق'
-      created_shops: "المتاجر الحقيقية التي أنشئت: %{count} "
-      precreated_shops: "المتاجر المنشأة مسبقاً: %{count}"
-      template: "قالب متجر: %{vendor} #%{id}"
-      image: 'صورة: %{width}x%{height}'
-      available_only_for_admins: 'متاح للمشرفين فقط'
+      precreate_notice: 'تم بدء العملية'
+      clone: 'إنشاء متجر بناءً على'
+      doc: 'الوثائق'
+      created_shops: "المتاجر الحقيقية التي تم إنشاؤها: %{count}"
+      precreated_shops: "المتاجر التي تم إنشاؤها مسبقًا: %{count}"
+      template: "قالب المتجر: %{vendor} رقم%{id}"
+      image: 'الصورة %{width}س%{height}'
+      available_only_for_admins: 'متاح للمسؤولين فحسب'
     archivable:
       restore: 'استعادة'
       to_archive: 'النقل إلى الأرشيف'
-      restored: 'مستعاد'
-      archived: 'تم نقله إلى الأرشيف'
-      alive: 'نشط (حي)'
+      restored: 'تمت الاستعادة'
+      archived: 'تم النقل إلى الأرشيف'
+      alive: 'نشط (مباشر)'
       archive: 'الأرشيف'
-      html_archive: 'في الأرشيف'
+      html_archive: 'في &nbsp; الأرشيف'

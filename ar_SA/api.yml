@@ -3,57 +3,57 @@ ar_SA:
     api:
       titles:
         public: 'واجهة برمجة التطبيقات العامة'
-        operator: 'واجهة برمجة تطبيقات التاجر'
-        system: 'واجهة برمجة تطبيقات النظام للمبرمجين'
+        operator: 'واجهة برمجة التطبيقات الخاصة بالتجار'
+        system: 'واجهة برمجة تطبيقات المنصة للمطورين'
       descriptions:
-        public: 'يستخدم ملف تعريف الارتباط HTTP للترخيص'
-        operator: 'استخدم ملف تعريف الارتباط HTTP للترخيص'
+        public: 'ملف تعريف ارتباط HTTP المستخدم للتصريح'
+        operator: 'استخدام ملف تعريف ارتباط HTTP للتصريح'
         system: 'واجهة برمجة التطبيقات للمتاجر والعملاء - %{access_keys_url}'
       errors:
-        member_not_found: 'لا يوجد عضو بهذا المفتاح %{api_key}'
-        operator_not_found: 'لا يوجد عضو بهذا المفتاح {api_key}#'
+        member_not_found: 'لا يوجد عضو يحمل هذا المفتاح %{api_key}'
+        operator_not_found: 'لا يوجد عضو يحمل هذا المفتاح %{api_key}'
       amo_crm:
-        title: 'طرق للتحكم بالربط مع AmoCRM'
+        title: 'طرق التحكم في التكامل مع AmoCRM'
         settings:
-          title: 'إدارة الربط مع AmoCRM'
+          title: 'إدارة التكامل مع AmoCRM'
           get:
             desc: 'الحصول على الإعدادات الحالية'
           update:
-            desc: 'إعداد إعدادات جديدة'
+            desc: 'وضع إعدادات جديدة'
         test:
-          desc: 'اختبر وصول نظام %{brand_name_e}إلى AmoCRM (أخذ إذن إلى AmoCRM)'
-      design_settings: 
+          desc: 'اختبار إمكانية وصول المنصة %{brand_name_e} إلى AmoCRM (عمل تصريح لدى AmoCRM)'
+      design_settings:
         show:
           desc: 'الحصول على إعدادات التصميم'
         update:
           desc: 'تحديث إعدادات التصميم'
       delivery_cities:
-        list: 'مدينة التوصيل'
+        list: 'مدينة التسليم'
       delivery_time_periods:
-        list: 
-          title: 'مواعيد التوصيل'
+        list:
+          title: 'المواعيد النهائية للتسليم'
           params:
-            vendor_delivery_id: 'طريقة التوصيل'
+            vendor_delivery_id: 'طريقة التسليم'
       pickup_points:
-        list: 
+        list:
           title: 'نقطة الاستلام'
           params:
-            vendor_delivery_id: 'طريقة التوصيل'
-            delivery_city_id: 'اختر هذه المدينة إن لم يتم اختيار نقطة الاستلام'
+            vendor_delivery_id: 'طريقة التسليم'
+            delivery_city_id: 'استخدم هذه المدينة إذا لم يتم تحديد نقطة التقاط'
       yandex_deliveries:
         list:
-          title: 'طرق توصيل Yandex'
+          title: 'طرق التسليم عبر Yandex'
           params:
             city_title: 'المدينة'
-            vendor_delivery_id: 'معرف طريقة التوصيل'
-            postal_code: 'المؤشر البريدي (ZIP)'
+            vendor_delivery_id: 'الرقم التعريفي لطريقة التسليم'
+            postal_code: 'الفهرس البريدي (الرمز البريدي)'
       yandex_pickup_locations:
         list:
-          title: 'مكان توصيل Yandex'
-          params: 
-            yandex_delivery_id: 'معرف خدمة التوصيل'
+          title: 'مكان التسليم عبر yandex'
+          params:
+            yandex_delivery_id: 'الرقم التعريفي لخدمة التسليم'
       subscription_emails:
-        desc: 'انشاء اشتراك'
+        desc: 'إنشاء اشتراك'
         email: 'البريد الإلكتروني'
       operator_state:
         desc: 'حالة المشغل'
@@ -61,10 +61,10 @@ ar_SA:
         desc: 'حالة العميل'
       cart:
         show:
-          desc: أضف إلى سلة المحذوفات
+          desc: إعادة تدوير عملية الإضافة إلى عربة التسوق
       cart_item:
         create:
-          desc: إضافة إلى السلة
+          desc: إضافة إلى عربة التسوّق
       good:
         title:
           desc: اسم المنتج
@@ -75,53 +75,54 @@ ar_SA:
         items:
           desc: عنصر المنتج
         total_price:
-          desc: مجموع المشاركات
+          desc: إجمالي المنشورات
         page:
-          desc: رقم الصفحة الحالي
+          desc: رقم الصفحة الحالية
       order:
         message:
-          subject: 'تم قبول الطلب رقم %{order_id}'
-          text: سيتم التواصل معك خلال بضع دقائق
+          subject: 'رقم الطلب المقبول %{order_id}'
+          text: سيتم الاتصال بك في غضون بضع دقائق
       product:
         operator_state:
           archived: الأرشيف
-          published: موافقة
-          unpublished: تمت إزالته
+          published: موافق
+          unpublished: تمت الإزالة
       vendor:
         mobile_minimal_alert: 'الحد الأدنى للطلب من %{money}'
       categories:
-        list: قائمة الفئات
-        tree: شجرة الفئات
+        list: هذه الفئة
+        tree: مخطط الفئات
         create:
           desc: إنشاء فئة جديدة
           params:
             name: اسم الفئة
             position: الموضع
-            parent_id: معرف الفئة الأم (الفئة الأعلى)
-            filter: فلتر المنتجات
+            parent_id: الرقم التعريفي للفئة الأصلية
+            filter: عامل تصفية المنتج
+            image: ملف الصورة (jpg، png، gif)
         show:
-          desc: بيانات الفئات كاملة
+          desc: إكمال بيانات الفئة
         edit:
-          desc: تعديل الفئة
+          desc: تحرير الفئة
           params:
-            name: اسم فئة جديدة
-            position: موضع جديد
-            parent_id: "29\nوالد جديد"
+            name: اسم الفئة الجديدة
+            position: الموضع الجديد
+            parent_id: "29 \nفئة أصلية جديد"
         archive:
-          desc: الأرشفة
+          desc: عملية الأرشفة
       goods:
         autocomplete:
-          desc: قائمة منتجات لسلات الإكمال التلقائي
+          desc: قائمة المنتجات الخاصة بالسلال المركبة تلقائيًا
       product_images:
         params:
-          id: معرف الصورة
+          id: الرقم التعريفي للصورة
         add:
-          desc: يضيف صورة
+          desc: إضافة صورة
           params:
-            image: "ملف صورة (jpg, png, gif)"
-            product_id: معرف العنصر إذا عُرف
+            image: "ملف الصورة (jpg، png، gif)"
+            product_id: الرقم التعريفي للعنصر إذا كان معروفًا
         rotate:
-          desc: قلب الصورة
+          desc: عكس الصورة
           params:
             grad: درجة الدوران
         delete:
@@ -132,29 +133,31 @@ ar_SA:
             position: الموضع في بطاقة العنصر
       content_page_images:
         params:
-          id: معرف الصورة
+          id: الرقم التعريفي للصورة
         list:
           desc: قائمة الصور
         add:
-          desc: يضيف صورة
+          desc: إضافة صورة
           params:
-            image: "ملف صورة (jpg, png, gif)"
+            image: "ملف الصورة (jpg، png، gif)"
       products:
+        archive:
+          desc: الأرشيف
         autocomplete:
-          desc: قائمة منتجات للإكمال التلقائي
+          desc: قائمة المنتجات من أجل الإكمال التلقائي
           params:
-            exclude_by_ids: استثني عناصر عن طريق المعرف
-            exclude_by_categories: استثني منتجات من الفئات التالية
+            exclude_by_ids: "استبعاد العناصر حسب الرقم التعريفي "
+            exclude_by_categories: استبعاد المنتجات من الفئات التالية
         list:
           desc: قائمة المنتجات
           params:
-            category_id: الفئات التي تهتم بها المنتجات
-            exclude_by_categories: استثني المنتجات من الفئات التالية
-            exclude_subcategories: استثني العناصر من الفئات الفرعية
+            category_id: الفئات ذات الأهمية للمنتجات
+            exclude_by_categories: استبعاد المنتجات من الفئات التالية
+            exclude_subcategories: استبعاد العناصر من الفئات الفرعية
             page: رقم الصفحة
-            per_page: الرقم على الصفحة
+            per_page: الرقم داخل الصفحة
         change_category:
-          desc: نقل السلع من فئة إلى أخرى
+          desc: نقل البضائع من فئة إلى أخرى
         show:
           desc: الحصول على بيانات المنتج
         update:
@@ -164,33 +167,28 @@ ar_SA:
         image:
           desc: تحميل صورة فردية
           params:
-            image: "ملف صورة (jpg, png, gif)"
+            image: "ملف الصورة (jpg، png، gif)"
         filtered_count:
-          desc: كمية البضائع من طلب مفلتر
+          desc: كمية البضائع حسب طلب عامل التصفية
           params:
-            category_id: معرف الفئة
+            category_id: الرقم التعريفي للفئة
       coupon:
         check:
-          desc: تحقق من ملاءمة الكوبون
+          desc: التحقق من صلة القسيمة
           params:
-            code: رمز الكوبون للتحقق
+            code: رمز القسيمة من أجل التحقق
       wishlist:
         delete_item:
-          desc: محو العنصر من المفضلة
+          desc: إزالة عنصر من العناصر المفضلة
           params:
-            good_id: المعرف العالمي للمنتج
+            good_id: الرقم التعريفي العالمي للمنتج
         add_item:
-          desc: إضافة المنتج للمفضلة
+          desc: إضافة منتج إلى المنتجات المفضلة
           params:
-            good_id: المعرف العالمي للمنتج
+            good_id: الرقم التعريفي العالمي للمنتج
         remove_item:
-          desc: محو العنصر من المفضلة
+          desc: إزالة عنصر من العناصر المفضلة
           params:
-            good_id: المعرف العالمي للمنتج
+            good_id: الرقم التعريفي العالمي للمنتج
       user_requests:
         desc: طلبات الاتصال
-      instagram:
-        feed:
-          desc: مصدر انستغرام
-          params:
-            limit: عدد الصور

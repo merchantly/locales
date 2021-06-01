@@ -1,9 +1,18 @@
 ar_SA:
   validators:
     good_item:
-      must_be_good: 'السلعة يجب أن تكون منتج أو عنصر المنتج'
+      must_be_good: 'يجب أن تكون البضائع عبارة عن منتج أو عنصر منتج'
 
     phone_validator:
-      invalid_phone: ''
+      invalid_phone: 'تنسيق رقم الهاتف غير صالح. مثال: 10 32 123 913 966+'
     vendor:
-      welcome_category_package_category_not_same: 'يجب ألا تتوافق فئة الصفحة الرئيسية مع فئة الطرود.'
+      welcome_category_package_category_not_same: 'يجب ألا تتوافق فئة الصفحة الرئيسية مع فئة الحِزَم.'
+
+    tariff_validator:
+      orders_count_unique: 'يجب أن يكون عدد الطلبات (من خلال) فريدًا'
+      violated_sequence_ranges: 'تسلسل النطاقات غير صالح من حيث عدد الطلبات'
+      empty_orders_count_zero: 'لا يوجد طلبات بقيمة صفر'
+      empty_orders_count_max: "لا يوجد حد أقصى لعدد الطلبات (%{max_count})"
+
+    geometry_validator:
+      incorrect_sizes: "يجب أن تكون هندسة الصورة %{option_width}x%{option_height}، والآن %{width}x%{height}"

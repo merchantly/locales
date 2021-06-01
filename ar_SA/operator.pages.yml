@@ -1,6 +1,18 @@
 ar_SA:
   operator:
     pages:
+      partner/coupons:
+        show:
+          title_html: الرموز الترويجية للشركاء
+      partner/welcome:
+        show:
+          title_html: ملف التعريف الخاص بالشريك
+      warehouse_movements:
+        show:
+          title_html: معاملات المستودع
+      recommended_products:
+        show:
+          title_html: المنتجات الموصى بها
       sales_reports:
         show:
           title_html: تقارير المبيعات
@@ -8,21 +20,21 @@ ar_SA:
         index:
           title_html: أنواع الأسعار
         edit:
-          title_html: تحرير نوع السعر
+          title_html: تعديل نوع السعر
         new:
-          title_html: إنشاء عرض السعر
+          title_html: إنشاء عرض للسعر
       other:
         show:
-          title_html: "تحسين محرك البحث (SEO)، إعادات التوجيه، الأمن والحماية، التخزين المؤقت، إلخ."
+          title_html: "تحسين محركات البحث، إعادة التوجيه، الأمن، التخزين المؤقت، وما إلى ذلك."
       design_settings:
         show:
-          title_html: "تصميم الموقع (HTML، CSS، الشعار، الخطوط)"
+          title_html: "تصميم الموقع الإلكتروني"
       elements:
         show:
-          title_html: العناصر على الموقع
+          title_html: العناصر الموجودة في الموقع
       https:
         show:
-          title_html: التشفير و HTTPS
+          title_html: HTTPS والتشفير
       additional:
         show:
           title_html: الصفحات الإضافية
@@ -34,22 +46,22 @@ ar_SA:
           title_html: عرض المتجر
       footer:
         show:
-          title_html: تذييل الصفحة في كل صفحة من صفحات الموقع
+          title_html: تذييل الصفحة لكل صفحة من صفحات الموقع
       colors:
         show:
-          title_html: الألوان والخطوط على الموقع
+          title_html: الألوان والخطوط عبر الموقع
       css:
         show:
-          title_html: أنماط مخصصة (CSS)
+          title_html: الأنماط المخصصة (أوراق الأنماط المتتالية)
       domain:
         show:
-          title_html: عنوان الموقع
+          title_html: عنوان الموقع الإلكتروني
       filter:
         show:
-          title_html: فلتر المنتجات
+          title_html: عامل تصفية المنتج
       order_page:
         show:
-          title_html: إعدادات عربة التسوق وصفحة الطلب
+          title_html: إعدادات صفحة الطلب وعربة التسوق
       product_page:
         show:
           title_html: إعدادات صفحة المنتج
@@ -58,16 +70,16 @@ ar_SA:
           title_html: إعدادات التخزين المؤقت
       category_page:
         show:
-          title_html: إعدادات عامة لجميع صفحات الفئة
+          title_html: الإعدادات العامة لجميع صفحات الفئات
       pages:
         show:
-          title_html: إعداد المعطيات والمحتويات لصفحات الموقع
+          title_html: إدارة محتوى موقعك الإلكتروني بسهولة
       header:
         show:
-          title_html: خيارات الرأسية لكل صفحة من صفحات الموقع
+          title_html: خيارات العنوان لكل صفحة من صفحات الموقع
       payment_cards:
         index:
-          title_html: البطاقات المرتبطة للدفع
+          title_html: البطاقات المرتبطة من أجل الدفع
       transactions:
         index:
           title_html: معاملات الحساب
@@ -75,25 +87,31 @@ ar_SA:
           title_html: المعاملة
       languages:
         show:
-          title_html: دعم تعدد اللغات
+          title_html: دعم متعدد اللغات
       legal:
         show:
           title_html: المعلومات القانونية
       currencies:
         index:
-          title_html: معدلات التحويل
+          title_html: أسعار الصرف
       cloud_payments:
         show:
           title_html: قبول الدفع من خلال CloudPayments
       atol:
         show:
-          title_html: الربط مع مسجل القيمة النقدية عبر الانترنت مع atol.ru
+          title_html: التكامل مع سجل النقدية عبر الإنترنت من خلال atol.ru
       starrys:
         show:
-          title_html: الربط مع مسجلات القيمة النقدية عبر الانترنت مع starrys.ru
+          title_html: التكامل مع سجلات النقدية عبر الإنترنت من خلال starrys.ru
       life_pay:
         show:
-          title_html:  الربط مع مسجلات القيمة النقدية عبر الانترنت مع life-pay.ru
+          title_html: التكامل مع سجلات النقدية عبر الإنترنت من خلال life-pay.ru
+      kassatka:
+        show:
+          title_html: التكامل مع سجلات النقدية عبر الإنترنت من خلال kassatka.me
+      aqsi:
+        show:
+          title_html: التكامل مع سجل النقدية عبر الإنترنت من خلال aqsi.ru
       errors:
         not_found:
           title_html: لم يتم العثور على الصفحة
@@ -108,7 +126,7 @@ ar_SA:
           title_html: HTML لجميع الصفحات
       sms_log:
         index:
-          title_html: سجل الرسائل النصية المرسلة 
+          title_html: سجل الرسائل القصيرة المرسلة 
 
       products:
         new:
@@ -116,33 +134,37 @@ ar_SA:
         edit:
           title_html: 'تحرير المنتج'
         batch:
-          title_html: 'التغيير الشامل للسلع'
+          title_html: 'التغيير الشامل للبضائع'
         index:
-          title_html: 'السلع'
+          title_html: 'البضائع'
+        archive:
+          title_html: 'الأرشيف'
+        show:
+          title_html: 'المنتج'
       tags:
         index:
-          title_html: علامات
+          title_html: العلامات
         new:
           title_html: إنشاء علامة جديدة
         show:
-          title_html: "علامة %{resource}"
+          title_html: "العلامة %{resource}"
         edit:
           title_html: "تحرير العلامة %{resource}"
       billing:
         sms_packs:
-          title_html: شراء الرسائل النصية
+          title_html: شراء الرسائل القصيرة
         show:
-          title_html: التعريفة والدفع
+          title_html: خطتي
         tariff_choose:
-          title_html: 'اختيار التعريفة'
+          title_html: 'تحديد التعريفة'
       convead:
         show:
-          title_html: 'الاتصال بcovead.io'
+          title_html: 'الاتصال بموقع covead.io'
       pickup_points:
         index:
-          title_html: 'نقاط الإصدار'
+          title_html: 'النقاط المسببة للمشكلة'
         import_form:
-          title_html: "تنزيل قائمة نقاط الإصدار"
+          title_html: "تنزيل قائمة بالنقاط المسببة للمشكلات"
       cities:
         index:
           title_html: 'المدن'
@@ -156,7 +178,7 @@ ar_SA:
         edit:
           title_html: "تحرير الطلب %{resource}"
         duplicate:
-          title_html: "طلب متكرر %{resource}"
+          title_html: "تكرار الطلب %{resource}"
       packaging:
         show:
           title_html: إعداد التعبئة
@@ -169,9 +191,9 @@ ar_SA:
           title_html: الأدوار
       carts:
         index:
-          title_html: إضافة إلى السلة
+          title_html: إضافة إلى عربة التسوّق
         show:
-          title_html: إضافة إلى السلة
+          title_html: إضافة إلى عربة التسوّق
       coupons:
         index:
           title_html: الرموز الترويجية
@@ -182,7 +204,7 @@ ar_SA:
         edit:
           title_html: تحرير الرمز الترويجي
         new_import:
-          title_html: تنزيل الرموز الترويجية بصيغة CSV
+          title_html: تحميل الرموز الترويجية بتنسيق CSV
       coupon_groups:
         new:
           title_html: إنشاء مجموعة من الرموز الترويجية
@@ -207,7 +229,7 @@ ar_SA:
           title_html: "إضافة العنصر \"%{dictionary}\""
       dictionaries:
         index:
-          title_html: الدلائل
+          title_html: الأدلة
         new:
           title_html: نحصل على دليل جديد
         edit:
@@ -218,14 +240,14 @@ ar_SA:
         edit:
           title_html: تحرير خاصية المنتج
         new:
-          title_html: إنشاء خاصية لمنتج
+          title_html: إنشاء خاصية منتج
       translations:
         index:
-          title_html: ترجمة
+          title_html: الترجمات
         edit:
-          title_html: الكلمة المترجمة
+          title_html: سلسلة الترجمة
         new:
-          title_html: الكلمة المترجمة
+          title_html: سلسلة الترجمة
       subscription_emails:
         index:
           title_html: 'اشتراكات العملاء'
@@ -235,20 +257,20 @@ ar_SA:
         edit:
           title_html: 'العميل %{resource}'
         show:
-          title_html: 'إعدادات العميل'
+          title_html: 'الإعدادات الخاصة بالعميل'
       menu_items:
         index:
           title_html: 'إدارة القائمة'
         edit:
           title_html: 'تحرير عنصر القائمة'
         new:
-          title_html: 'إنشاء عنصر جديد في القائمة'
+          title_html: 'إنشاء عنصر قائمة جديد'
       analytics:
         index:
-         title_html: 'تحليلات'
+         title_html: 'التحليلات'
       mail_templates:
         index:
-          title_html: 'قوالب الخطابات والإشعارات'
+          title_html: 'قوالب الخطابات والإخطارات'
         edit:
           title_html: تحرير القالب
         show:
@@ -257,17 +279,17 @@ ar_SA:
         archive:
           title_html: 'أرشيف الفئات'
         index:
-          title_html: 'فئات المنتجات'
+          title_html: 'فئات المنتج'
         edit:
-          title_html: "الفئة \"%{resource}\""
+          title_html: "الفئة “%{resource}“"
         new:
-          title_html: 'فئة جديدة'
+          title_html: 'إضافة فئة جديدة'
       google_analytics:
         show:
-          title_html: 'الربط مع تحليلات جوجل'
+          title_html: 'تكامل Google analytics'
       yandex_metrika:
         show:
-          title_html: 'الربط مع يانديكس متريكا'
+          title_html: 'تكامل Yandex Metrika'
       bitrix24:
         show:
           title_html: 'تصدير الطلبات إلى Bitrix24'
@@ -276,14 +298,14 @@ ar_SA:
           title_html: 'تصدير الطلبات إلى AmoCRM'
       import:
         show:
-          title_html: 'تحميل الببيانات إلى Kiosk'
+          title_html: 'تنزيل البيانات إلى Kiosk'
       favicons:
         index:
-          title_html: الشعار والأيقونات المفضلة
+          title_html: الشعارات وأيقونات المفضلة
 
       apidoc:
         show:
-          title_html: واجهة برمجة تطبيق Kiosk
+          title_html: واجهة برمجة التطبيقات Kiosk
 
       top_banners:
         edit:
@@ -291,20 +313,20 @@ ar_SA:
 
       lookbooks:
         index:
-          title_html: كتب البحث
+          title_html: الكتالوجات
         new:
-          title_html: إنشاء كتاب البحث
+          title_html: إنشاء كتالوج
         show:
-          title_html: "كتاب البحث \"%{resource}\""
+          title_html: "الكتالوج \"%{resource}\""
         edit:
-          title_html: تحرير الكتاب
+          title_html: تحرير الدفتر
       order_operator_filters:
         index:
-          title_html: فلاتر الطلب
+          title_html: عوامل تصفية الطلب
         new:
-          title_html: إنشاء فلتر
+          title_html: إنشاء عامل تصفية
         edit:
-          title_html: تحرير الفلتر
+          title_html: تحرير عامل التصفية
       welcome_page:
         show:
           title_html: إعدادات الصفحة الرئيسية
@@ -318,11 +340,11 @@ ar_SA:
 
       blog_posts:
         index:
-          title_html: نشر الأخبار (المدونة)
+          title_html: نشر الأخبار (مدونة)
         new:
-          title_html: إنشاء منشور أخبار (سجل في المدونة)
+          title_html: إنشاء منشور إخباري (إدخال المدونة)
         edit:
-          title_html: تحرير منشور أخبار (سجل في المدونة)
+          title_html: تحرير منشور إخباري (إدخال المدونة)
 
       slider_images:
         index:
@@ -334,11 +356,11 @@ ar_SA:
 
       asset_images:
         index:
-          title_html: بنك صور لمحرري النصوص
+          title_html: صور البنك لمحرري النصوص
 
       robots:
         show:
-          title_html: إدارة محتوى ملف robots.txt
+          title_html: إدارة محتوى robots.txt
 
       sitemap:
         show:
@@ -348,59 +370,59 @@ ar_SA:
         orders:
           title_html: إعدادات الطلب
         products:
-          title_html: إعدادات كتالوج المنتجات
+          title_html: إعدادات كتالوج المنتج
         others:
           title_html: إعدادات أخرى
         index:
-          title_html: إعدادات عامة
+          title_html: الإعدادات العامة
         domain:
-          title_html: عنوان الموقع (المجال)
+          title_html: عنوان الموقع الإلكتروني (المجال)
         filter:
           title_html: تصفية المنتجات عبر الإنترنت
         main_page_content:
           title_html: الصفحة الرئيسية
       integrations:
         index:
-          title_html: الربط مع خدمات الطرف الثالث وتبادل البيانات
+          title_html: التكامل ومشاركة البيانات مع خدمات الجهات الخارجية
       moysklad:
         show:
-          title_html: الربط مع MyStock
+          title_html: التكامل مع MyStock
       walletone:
         show:
-          title_html: الربط مع نظام دفع walletone.com
+          title_html: التكامل مع نظام الدفع من wolfone.com
         edit:
-          title_html: الربط مع نظام دفع walletone.com
+          title_html: التكامل مع نظام الدفع من wolfone.com
       pay_pal:
         show:
-          title_html: الربط مع نظام دفع PayPal.com
+          title_html: التكامل مع نظام الدفع من PayPal.com
       yandex_kassa:
         show:
-          title_html: الربط مع نظام دفع Yandex-Cash
+          title_html: التكامل مع نظام الدفع من Yandex-Cash
       disqus:
         show:
-          title_html: الربط مع Disqus.com
+          title_html: التكامل مع Disqus.com
       stock_log_entities:
         index:
-          title_html: دفتر استيراد السلع من MyStock
+          title_html: دفتر يومية استيراد البضائع من MyStock
         show:
-          title_html: "إدخال سجل الدخول من <em>'%{resource}'</em>"
+          title_html: "إدخال سجل القيود من <em>'%{resource}'</em>"
       instagram:
         show:
-          title_html: الربط مع انستغرام
+          title_html: التكامل مع Instagram
 
       slug_resources:
         index:
-          title_html: طرق مفهومة للإنسان
+          title_html: طرق يمكن للإنسان فهمها
       slug_redirects:
         new:
-          title_html: إعادة توجيه جديدة (301)
+          title_html: عملية إعادة توجيه جديدة
         edit:
-          title_html: تحرير إعادة التوجيه (301)
+          title_html: تحرير عملية إعادة التوجيه
         index:
-          title_html: إعادات التوجيه
+          title_html: عمليات إعادة التوجيه
       not_founds:
         index:
-          title_html: الصفحات غير المعثور عليها (404)
+          title_html: لم يتم العثور على الصفحة (404)
       history_paths:
         index:
           title_html: تاريخ الزيارات
@@ -411,10 +433,10 @@ ar_SA:
 
       yandex_market:
         show:
-          title_html: صادرات السلع في yandex.market.ru
+          title_html: عمليات تصدير البضائع في yandex.market.ru
       rbk_money:
         show:
-          title_html: الاتصال بنظام الدفع RBK Money
+          title_html: الاتصال بنظام الدفع لدى RBK Money
       vendor_payments:
         index:
           title_html: طرق الدفع
@@ -425,19 +447,19 @@ ar_SA:
 
       vendor_deliveries:
         index:
-          title_html: طرق التوصيل
+          title_html: طرق التسليم
         edit:
-          title_html: "طريقة التوصيل \"%{resource}\""
+          title_html: "طريقة التسليم \"%{resource}\""
         new:
-          title_html: طريقة توصيل جديدة
+          title_html: طريقة التسليم الجديدة
 
       torg_mail:
         show:
-          title_html: صادرات السلع إلى torg@mail.ru
+          title_html: تصدير السلع من خلال torg@mail.ru
 
       workflow_states:
         index:
-          title_html:  حالات الطلبات
+          title_html:  حالات الطلب
         edit:
           title_html: "تحرير حالة الطلب \"%{resource}\""
         new:
@@ -445,15 +467,15 @@ ar_SA:
 
       facebook:
         show:
-          title_html: ربط facebook.com
+          title_html: الاتصال بموقع facebook.com
 
       vkontakte:
         show:
-          title_html: الربط مع vkontakte.ru
+          title_html: التكامل مع vkontakte.ru
 
       tasty:
         show:
-          title_html: ربط Taaasty.com
+          title_html: الاتصال بموقع Taasty.com
 
       export:
         show:
@@ -461,19 +483,19 @@ ar_SA:
 
       import_yml:
         show:
-          title_html: تحميل المنتجات من سوق Yandex
+          title_html: تحميل المنتجات من Yandex Market
 
       import_tables:
         show:
-          title_html: استيراد المنتجات من جدول بيانات Google
+          title_html: استيراد منتجات من جدول بيانات Google
 
       import_photos:
         show:
-          title_html: استيراد صور المنتجات
+          title_html: استيراد صور المنتج
 
       bells:
         show:
-          title_html: الإشعارات
+          title_html: الإخطارات
 
       robokassa:
         show:
@@ -482,6 +504,10 @@ ar_SA:
       tinkoff:
         show:
           title_html: Tinkoff
+
+      arsenal_pay:
+        show:
+          title_html: ArsenalPay
 
       sberbank:
         show:
@@ -495,14 +521,14 @@ ar_SA:
           title_html: CommerceMl
       digital_keys_import:
         show:
-          title_html: تحميل المفاتيح الإلكترونية
+          title_html: تنزيل المفاتيح الإلكترونية
         edit:
           title_html: نتيجة استيراد المفاتيح الإلكترونية
       coupon_images:
         show:
           title_html: قالب صورة الشهادة
         edit:
-          title_html: تحرير قالب
+          title_html: تحرير القالب
         new:
           title_html: إنشاء قالب جديد
       import_spread_sheet_infos:
@@ -511,3 +537,64 @@ ar_SA:
       client_categories:
         show:
           title_html: فئات العملاء
+      branches:
+        show:
+          title_html: المواقع
+      cashiers:
+        show:
+          title_html: النقد & والحسابات البنكية
+      documents:
+        show:
+          title_html: المعاملات المالية
+      expense:
+        show:
+          title_html: النفقات
+      receipt:
+        show:
+          title_html: الاستلام
+      transfer:
+        show:
+          title_html: التحويل
+      sale:
+        show:
+          title_html: البيع
+      refund:
+        show:
+          title_html: الاسترداد
+      product_vat_groups:
+        show:
+          title_html: المجموعات الضريبية للمنتج
+      warehouses:
+        show:
+          title_html: المستودعات
+      nomenclatures:
+        show:
+          title_html: مكتبة المخزون
+      balance_sheets:
+        show:
+          title_html: بيان المخزون
+      quantity_units:
+        show:
+          title_html: الوحدة
+        index:
+          title_html: الوحدات
+      drawers:
+        show:
+          title_html: الأدراج
+      external_devices:
+        show:
+          title_html: الجهاز الخارجي
+        index:
+          title_html: الأجهزة الخارجية
+      profile:
+        show:
+          title_html: لا تتردد في تحديث الملف التعريفي الخاص بك
+      operator_vendors:
+        show:
+          title_html: المتاجر الخاصة بي
+      subscriptions:
+        show:
+          title_html: إدارة الأحداث
+      access_keys:
+        show:
+          title_html: مفاتيح الاختصار

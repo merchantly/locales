@@ -1,12 +1,12 @@
 ar_SA:
   helpers:
-    publish: 
+    publish:
       span: 'نشر'
       title: 'تم تعطيل المتجر. انقر للنشر'
-    unpublish: 
+    unpublish:
       span: 'إلغاء النشر'
       confirm: 'هل أنت متأكد؟'
-    more: المزيد...
+    more: المزيد
     orders_count:
       zero: الطلب
       one: الطلب
@@ -14,22 +14,21 @@ ar_SA:
       few: الطلب
       many: الطلب
       other: الطلب
-
     target_values:
-      _blank: 'الفتح في نافذة جديدة'
-      _self: 'الفتح في النافذة الحالية'
+      _blank: 'فتح في نافذة جديدة'
+      _self: 'فتح في النافذة الحالية'
     product_state_errors:
-      has_no_orderable_goods: 'لا توجد خيارات للبيع'
+      has_no_orderable_goods: 'لا توجد خيارات بيع'
       no_price: 'لا يوجد سعر'
-      no_stock_linked: 'المنتج ليس في المخزن'
-      no_consignment_linked: 'المنتج ليس في المخزن.'
-      unpublished: 'غير منشور'
-      not_orderable_infinity: 'لم يحدد رصيد'
-      run_out: 'انتهى المنتج'
-      not_sellable: 'غير مباع'
-      no_quantity: 'انتهى'
-
-      fail: 'غير متاح لأسباب عدة'
+      no_stock_linked: 'المنتج غير متوفر في المخزون'
+      no_consignment_linked: 'المنتج غير متوفر في المخزون.'
+      unpublished: 'تم التراجع عن النشر'
+      not_orderable_infinity: 'لا يتم تعيين الرصيد'
+      run_out: 'المنتج منتهي'
+      not_sellable: 'لم يتم بيعه'
+      no_quantity: 'منتهي'
+      no_period_ordering: 'لم تبدأ فترة المبيعات أو تنتهي'
+      fail: 'غير متوفر لأسباب مختلفة.'
 
     boolean:
       empty: ''
@@ -38,39 +37,42 @@ ar_SA:
     select:
       prompt: 'اختر:'
     submit:
-      create: إنشاء
+      create: "إنشاء "
       submit: حفظ
       update: حفظ
     you: '(أنت)'
-    people: "%{count} أشخاص"
-    years: "%{count} سنوات"
+    people: "%{count} أشخاص."
+    years: "%{count} أعوام."
     days: "%{count} أيام"
     batch_actions:
+      sale: "تفعيل الخصم"
+      no_sale: "إزالة الخصم"
       restore: 'الاستعادة من الأرشيف'
       publicate: 'نشر'
-      unpublicate: 'إخفاء'
+      unpublicate: 'إلغاء النشر'
       delete: 'حذف'
-      merge: 'دمج'
-      duplicate: 'تكرار'
+      merge: 'الدمج'
+      duplicate: 'التكرار'
       select_tags: 'تحرير العلامات'
       select_categories: 'تغيير الفئات'
+      select_products_tax: 'تغيير الضريبة'
     archivable:
-      archive: 'للأرشيف'
+      archive: 'الأرشيف'
       restore: 'استعادة'
-      archived: 'العنصر في الأرشيف'
-      confirm: 'هل تريد حذف الذي في الأرشيف؟'
+      archived: 'السلعة موجودة في الأرشيف.'
+      confirm: 'هل تريد بالفعل الحذف من الأرشيف؟'
     bottom_form_panel:
-      mail_template_reset: 'إعادة القوالب للوضع الافتراضي؟'
-      undomain: 
+      mail_template_reset: 'هل نقوم بإعادة تعيين القوالب إلى الحالة الرئيسية؟'
+      undomain:
         title: 'تعطيل المجال'
         confirm: 'هل تريد إلغاء ربط المجال؟'
-      save: 
+      save:
         title: حفظ
         reset: إلغاء
-        forbidden: غير مسموح بالتغيير
+        forbidden: غير مسموح بأي تغيير
       delete:
         title: 'حذف'
-        confirm: 'هل تريد الحذف بشكل نهائي؟'
+        confirm: 'هل تريد حقًا الحذف بشكل دائم؟'
     categories:
       main_category: 'الفئة الرئيسية للمنتج'
       new: 'فئة جديدة'
@@ -78,86 +80,91 @@ ar_SA:
     circle_buttons:
       images: 'الصور'
       ignore: 'تجاهل'
-      male_redirect: 'إعادة توجيه'
+      make_redirect: 'إعادة التوجيه'
+      disabled_default_delete_item:
+        ecr_branch: 'لا يمكن حذف الموقع الرئيسي'
+        ecr_cashier: 'لا يمكن حذف الصراف الرئيسي'
     components:
-      similar_product_select:  'ابدأ بكتابة اسم المنتج لإضافته'
-      other_products_select: 'ابدأ بكتابة اسم المنتج لإضافته'
-      union_items_select: 'اسم المنتج الذي سيضاف'
+      similar_product_select:  'ابدأ بكتابة اسم المنتج لإضافته.'
+      other_products_select: 'ابدأ بكتابة اسم المنتج لإضافته.'
+      union_items_select: 'اسم المنتج المطلوب إضافته'
+      recommended_products_select: 'ابدأ بكتابة اسم المنتج لإضافته.'
     custom_title:
-      stock_title: "في المخزن: '%{title}'"
+      stock_title: "في المخزون: '%{title}'"
     favicons:
-      aws_empty: "الملف %{name} ليس في السحابة"
+      aws_empty: "الملف %{name} لا يوجد في السحابة"
     icons:
-      move: 'حرك لأعلى أو لأسفل'
+      move: 'التحرك لأعلى أو لأسفل'
     order_deliveries:
       aramex:
         code: 'الرمز: %{code}'
         description: 'الوصف: %{description}'
         location: 'الموقع: %{location}'
-        datetime: 'التاريخ والوقت: %{datetime}'
-      run: 'ابدأ الشحن'
-      external_link: 'حالة التوصيل على موقع الوكيل.'
-      walletone: 'التوصيل إلى Walletone'
-      tracking_id_blank: 'لم يحدد معرف الطلب'
+        datetime: 'الوقت والتاريخ: %{datetime}'
+      run: 'بدء الشحن'
+      external_link: 'حالة التسليم في موقع الوكيل.'
+      walletone: 'التسليم إلى walletone'
+      tracking_id_blank: 'الرقم التعريفي للطلب غير محدد'
     order_payment:
-      expect: نحن نتوقع الدفع
-      paid: 'مدفوع: %{paid_to}'
+      expect: نتوقع تقديم المدفوعات
+      paid: 'تم الدفع: %{paid_to}'
     order_reservation:
-      local_and_remote: "محجوز محلياً وفي المخزن في %{reserved_at}"
-      only_local: "محجوز محلياً في %{reserved_at}"
-      only_remote: "محجوز فقط في المخزن في %{reserved_at}"
-      reserve: 'احجز'
-      unreserve: 'إزالة من المحجوز'
-      not_reserved: 'غير محجوز في MyStock'
-    order_workflow: 
+      local_and_remote: "محجوز محليًا وفي المخزون ضمن %{reserved_at}"
+      only_local: "محجوز محليًا ضمن %{reserved_at}"
+      only_remote: "محجوز فقط في المخزون ضمن %{reserved_at}"
+      reserve: 'إجراء الحجز'
+      unreserve: 'إزالة من الحجز'
+      not_reserved: 'غير محجوز ضمن MyStock'
+    order_workflow:
       current: 'الحالة الحالية'
       change: "تغيير الحالة إلى: \"%{state}\""
     payments:
       online_kassa_collection:
         disabled: Off
-        default: 'عبر نظام الدفع'
-        starrys: 'عبر starrys.ru'
-        life_pay: 'عبر life-pay.ru'
-        kassatka: 'بواسطة kassatka.me'
+        default: 'من خلال نظام الدفع'
+        starrys: 'من خلال starrys.ru'
+        life_pay: 'من خلال life-pay.ru'
+        kassatka: 'عبر kassatka.me'
+        aqsi: 'من خلال aqsi.ru'
       billing_account_options:
         main: 'الرئيسي'
     products:
       inactive: 'غير نشط'
-      archived: 'في الأرشيف'
-      moyskad: 'MC'
+      archived: 'ضمن الأرشيف'
+      moyskad: 'التكاليف الهامشية'
       united: "مجمعة في &laquo;%{title}&raquo;"
-      ordering_as_product_only:  'تباع بدون تعديلات'
+      ordering_as_product_only:  'تم البيع بدون تعديلات'
       state_switcher:
-        title_on: 'منشور'
-        title_off: 'مخفي'
+        title_on: 'تم النشر'
+        title_off: 'تم الإخفاء'
       product_quantity:
-        infinity: 'بشكل لا نهائي'
+        infinity: 'بلا حدود'
         run_out: 'انتهى'
       good_quantity:
         run_out: "<span class=\"text-muted %{css_class}\">انتهى</span>"
-        infinity: 'لا يتم الاحتفاظ ببقايا المحاسبة. المنتج لا نهاية لكميته'
-        unknown: 'لم يحدد رصيد'
-      list_view_switch: 
+        infinity: 'لا يتم الاحتفاظ بالبقايا المحاسبية. المنتج بلا حدود'
+        unknown: 'لم يتم تعيين الرصيد'
+      list_view_switch:
         to_list: 'التبديل إلى عرض السطر'
-        to_block: 'التبديل إلى عرض القسم'
+        to_block: 'التبديل إلى عرض المجموعة'
       actual_price:
-        unknown: 'لم يتم تحديد سعر'
+        unknown: 'لم يتم تعيين السعر'
     properties:
       is_used_in_item: 'للتعديل'
-      is_used_in_product: 'للسلع'
+      is_used_in_product: 'للبضائع'
     tariff:
-      sms_price: 'السعر مقابل الرسالة النصية - %{price}'
+      sms_price: 'السعر لكل رسالة قصيرة -%{price}'
       feature:
-        no_limit: 'بدون قيود'
+        no_limit: 'دون قيود'
         value: 'إلى %{value}'
     vendor:
       sms_disabled: '(معطل)'
-      balance_more: 'انقر لرؤية التفاصيل و تعبئة الرصيد.'
-      access_only_auth: 'المتجر متاح الآن فقط للموظفين المفوضين'
+      balance_more: 'انقر لرؤية التفاصيل وتعبئة الرصيد.'
+      access_only_auth: 'الآن المتجر متاح للموظفين المصرح لهم فحسب.'
     buttons:
-      product_categories_positions_button: 'انقر لتحديد مواضع المنتج في فئاته'
+      product_categories_positions_button: 'انقر لتعيين مواضع المنتجات في فئاتها.'
     humanized_counters:
-      unknown_quantity: '؟ قطع'
+      unknown_quantity: '؟ القطع'
       empty:
         stucks: 'انتهى'
         dictionary_entities: 'لا توجد عناصر'
@@ -165,42 +172,44 @@ ar_SA:
         products: 'لا توجد منتجات'
         orders: 'لا توجد طلبات'
       labels:
-        moysklad: "تمت المزامنة مع MyStock %{synced_at}، المعرف العالمي الموحد (uuid): %{uuid}"
+        moysklad: "تمت المزامنة مع MyStock، %{synced_at}المعرف الفريد العالمي: %{uuid}"
     links:
-      walletone: 'الذهاب إلى الكاشير في Walletone'
-      unknown_url: 'لم يتم تحديد رابط'
-      category_products: "فئة المنتجات (%{count} قطعة)"
+      walletone: 'الذهاب إلى الصراف في Walletone'
+      unknown_url: 'لم يتم تحديد عنوان url'
+      category_products: "فئة المنتجات (%{count} القطع)"
     members:
-      check: 'مفعل'
-      ban: 'معطل'
-      no_confirmed: 'غير مؤكد'
-      send_email_confirmaion: 'إرسال التأكيد'
+      check: 'تم التمكين'
+      ban: 'تم التعطيل'
+      no_confirmed: 'لم يتم التأكيد'
+      send_email_confirmaion: 'إرسال تأكيد'
     product_labels:
       archive: 'تمت أرشفة الخيار'
       no_orderable: 'ليس للبيع: %{reason}'
       union: 'دمج العنصر'
       part_of_union: 'جزء من الدمج'
-      package: القطعة هي منتج للتعبئة والتغليف
-      hidden: 'مخفي'
+      package: العنصر عبارة عن منتج تعبئة وتغليف
+      hidden: 'تم الإخفاء'
       stock_linked: 'يتم استيراد العنصر من MoySklad'
     profile:
-      email_no_confirmed: 'البريد الإلكتروني غير مؤكد'
-      email_confirmed: 'البريد الإلكتروني مؤكد'
-      phone_confirmed: 'رقم الهاتف غير مؤكد'
-      phone_no_confirmed: 'رقم الهاتف غير مؤكد'
+      email_no_confirmed: 'لم يتم تأكيد البريد الإلكتروني'
+      email_confirmed: 'تم تأكيد البريد الإلكتروني'
+      phone_confirmed: 'تم تأكيد رقم الهاتف'
+      phone_no_confirmed: 'لم يتم تأكيد رقم الهاتف'
     stock:
       log_entity_state:
-        started: 'جاري'
-        finished: 'تم بنجاح'
+        started: 'قيد التقدم'
+        finished: 'ناجح'
         error: 'خطأ'
-        cancel: 'توقف'
+        cancel: 'تم الإحباط'
         unknown: 'حالة غير معروفة'
         hung: 'لا يستجيب'
       sync_info:
-        success: "المخزن متزامن %{updated_at}"
-        error: 'خطأ في التزامن %{message}'
-        process: "جاري المزامنة %{created_at}"
+        success: "تمت مزامنة المخزون %{updated_at}"
+        error: 'خطأ في المزامنة %{message}'
+        process: "المزامنة قيد التقدم %{created_at}"
     wirehouse:
       refresh: 'تحديث قائمة الشركات من MoySklad'
     operator_form_helper:
       property_dictionary_hint: 'القاموس %{dictionary}'
+    input_image:
+      text: 'تحميل صورة'

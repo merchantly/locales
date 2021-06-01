@@ -1,178 +1,262 @@
 ar_SA:
   enumerize:
     product_image_position:
-      above: فوق وصف المنتج
-      aside: بجانب وصف المنتج
+      above: وصف المنتج الوارد أعلاه
+      aside: بجوار وصف المنتج
     event:
       on_create: 'عند الطلب'
       on_workflow_change: 'عند تغيير حالة الطلب'
-      on_pay_success: 'إذا تم الدفع بنجاح'
-      on_pay_failure: 'إذا فشلت عملية الدفع'
+      on_pay_success: 'في حالة نجاح الدفع'
+      on_pay_failure: 'عند فشل الدفع'
     action:
-      delivery: 'احجز وابدأ التسليم'
-      reserve: 'احجز المنتج'
-      unreserve: 'إزالة من المحجوز'
+      delivery: 'الحجز ثم بدء التسليم'
+      reserve: 'حجز المنتج'
+      unreserve: 'إزالة من الحجز'
       change_state: تغيير حالة الطلب
-      notification: 'إرسال إشعار'
+      notification: 'إرسال إخطار'
 
     payment_state:
       any: 'أي'
-      success: 'عملية دفع ناجحة'
-      failure: 'فشلت عملية الدفع'
+      success: 'نجاح الدفع'
+      failure: 'فشل الدفع'
     finite_state:
       any: 'أي'
       new: 'جديد'
-      in_process: 'تحت المعالجة'
-      failure: 'فشل'
-      success: 'تم بنجاح'
+      in_process: 'قيد المعالجة'
+      failure: 'فشلت العملية'
+      success: 'نجحت العملية'
     invite:
       role:
         owner: 'المالك'
-        manager: 'المدير'
-        guest: 'ضيف'
+        manager: 'المسؤول'
+        guest: 'الضيف'
     role_permission:
       resource_type:
+        TextBlock: المربعات النصية
         PaymentAccount: 'عمليات الدفع'
-        Product: 'السلع'
+        Product: 'البضائع'
         Vendor: 'إعدادات أخرى'
         SliderImage: شريط التمرير
-        Translation: الترجمة
-        MailTemplate: قوالب الرسائل
+        Translation: الترجمات
+        MailTemplate: قوالب الخطابات
         DictionaryEntity: عناصر الدليل
-        Member: الموظفين
-        SubscriptionEmail: اشتراكات البريد الإلكتروني
-        Lookbook: كتب البحث
-        LookbookImage: صور كتب البحث
-        ProductImage: صور السلع
-        ContentPageImage: صور صفحات النص
+        Member: الموظفون
+        SubscriptionEmail: اشتراكات العملاء
+        Lookbook: الكتالوجات
+        LookbookImage: صور من الكتالوجات
+        ProductImage: صور البضائع
+        ContentPageImage: صور الصفحات النصية
         OperatorDashboardBuilder: الصفحة الرئيسية
-        Warehouse: المخازن
+        Warehouse: المخزون
         HistoryPath: تاريخ الانتقال
         VendorPayment: طرق الدفع
         Role: الأدوار
-        VendorProductAnalyticsDay: تحليلات
-        TopBanner: الواجهة الأعلى
+        VendorProductAnalyticsDay: التحليلات
+        TopBanner: الشعار العلوي
         MenuItem: القائمة
-        Property: خاصية
+        Property: الخاصية
         OrderCondition: قواعد الطلب
         BlogPost: المدونة
         Order: الطلبات
-        Slug: CNC
+        Slug: التحكم الرقمي باستخدام الحاسوب
         Invite: الدعوات
-        VendorSmsLogEntity: سجل الرسائل النصية
-        WorkflowState: حالات الطلبات
+        VendorSmsLogEntity: سجل الرسائل القصيرة
+        WorkflowState: حالات الطلب
         Tag: علامات المنتج
-        Coupon: كوبونات الخصم
-        VendorDelivery: طرق التوصيل
-        Dictionary: الدلائل
+        Coupon: قسائم الخصم
+        VendorDelivery: طرق التسليم
+        Dictionary: الأدلة
         ContentPage: صفحات النص
         Category: الفئات
-        Cart: إضافة إلى السلة
+        Cart: إضافة إلى عربة التسوّق
         Client: العملاء
         ActiveAdmin::Comment: 'التعليقات'
-        OrderOperatorFilter: فلاتر الطلب
+        OrderOperatorFilter: عوامل تصفية الطلبات
         Moysklad: MyStock
         AssetImage: الصور
-        VendorBells::VendorBell: الإشعارات
-        DeliveryTimeSlot: فترة زمنية
-        DeliveryTimePeriod: فرق الفترة الزمنية
-        DeliveryTimeRule: قاعدة الفترة الزمنية
-        CouponImage: قوالب الشهادات
+        VendorBells::VendorBell: الإخطارات
+        DeliveryTimeSlot: المدة الزمنية
+        DeliveryTimePeriod: الفجوة في المدة الزمنية
+        DeliveryTimeRule: قاعدة المدة الزمنية
+        CouponImage: قوالب الشهادة
         OrderItem: مواضع الطلب
-        ClientCategory: فئة العميل
-        PriceKind: نوع السعر
+        ClientCategory: فئات العملاء
+        PriceKind: أنواع الأسعار
+        Ecr::Branch: السكان المحليون
+        Ecr::Cashier: الحسابات النقدية
+        Ecr::Document: المعاملات المالية
+        ProductVatGroup: المجموعات الضريبية للمنتج
+        Ecr::WarehouseMovement: معاملات المستودع
+        QuantityUnit: وحدات الكمية
+        Ecr::Nomenclature: عناصر المخزون
+        Ecr::Drawer: الأدراج
+        ExternalDevice: الأجهزة الخارجية
+        ProductItem: الاختلافات في المنتج
     member:
       role:
         owner: 'المالك'
-        manager: 'مدير'
-        guest: 'ضيف'
+        manager: 'المسؤول'
+        guest: 'الضيف'
     vendor_job:
       state:
-        created: 'في انتظار البدأ'
-        process: 'تحت المعالجة'
-        failure: 'اكتمل مع وجود خطأ'
-        success: 'تم بنجاح'
+        created: 'في انتظار البدء'
+        process: 'في العملية'
+        failure: 'مكتمل مع وجود خطأ'
+        success: 'مكتمل بنجاح'
     vendor_walletone:
       legal_form:
         unknown: غير معروف
-        personal: فرد (عمولة 6%)
-        business: كيان قانوني (عمولة 4%)
+        personal: الفرد (العمولة 6%)
+        business: الكيان القانوني (العمولة 4%)
 
     product:
       show_similar_products:
-        'selected_only': المنتجات المثبتة فقط
-        'auto': مثبتة ومناسبة
-        'off': لا تظهر شيئاً
+        'selected_only': المنتجات المثبتة فحسب
+        'auto': مثبت ومناسب
+        'off': عدم عرض أي شيء
       show_other_products:
-        'selected_only': السلع المثبتة فقط
-        'auto': مثبتة ومناسبة
-        'off': لا تظهر شيئاً
+        'selected_only': السلع المثبتة فحسب
+        'auto': مثبت ومناسب
+        'off': عدم عرض أي شيء
     system_text:
       code:
-        partner_program: برنامج الشركاء
+        partner_program: برنامج الجهات التابعة
     system_mail_delivery:
       state:
-        draft: مسودة
-        process: تحت المعالجة
-        done: منتهي
+        draft: المسودة
+        process: في العملية
+        done: انتهى
     coupon:
       use_products_behavior:
-        include: تنطبق فقط على السلع المحددة
-        exclude: تنطبق على الجميع ما عدا السلع المحددة
+        include: ينطبق على البضائع المحددة فحسب
+        exclude: ينطبق على جميع البضائع باستثناء البضائع المحددة
       use_categories_behavior:
-        include: تنطبق فقط على الفئات المحددة
-        exclude: تنطبق على الجميع ما عدا الفئات المحددة
+        include: ينطبق على الفئات المحددة فحسب
+        exclude: ينطبق على جميع الفئات باستثناء الفئات المحددة
       discount_type:
         percent: '%'
-        fixed: 'مبلغ ثابت'
+        fixed: 'المبلغ الثابت'
     system_mail_template:
       template_type:
-        tech: "معلومات مهمة وطارئة (مرتين في السنة، لا نوصي بإلغاء الاشتراك)"
-        news: "أخبار الخدمة، التسويق (لا يزيد عن مرة واحدة في الشهر)"
-        analytics: "تحليلات المتجر الخاص (أسبوعياً، مع مبيعات)"
+        tech: "انقر هنا لتلقي معلومات مهمة من جيديا (نوصي بالاشتراك)."
+        news: "انقر هنا للاشتراك في نشرتنا الإخبارية الشهرية التي تحتوي على الأخبار والعروض الخاصة."
+        analytics: "انقر هنا لتلقي التقارير التحليلية الأسبوعية."
     vendor:
+      filter_apply_type:
+        notice: عرض الشريط أدناه
+        btn: زر بعد عامل التصفية
       default_product_position:
         first: الأول
         last: الأخير
       client_occupation_validation:
-        no_presence: لا تطلب
-        presence: طلب/ليس ضروري
-        required: طلب/ضروري
+        no_presence: عدم الطلب
+        presence: الطلب/غير ضروري
+        required: الطلب/ضروري
       client_company_name_validation:
-        no_presence: لا تطلب
-        presence: طلب/ليس ضروري
-        required: طلب/ضروري
+        no_presence: عدم الطلب
+        presence: الطلب/غير ضروري
+        required: الطلب/ضروري
+      client_authorization_type:
+        by_email_or_phone: عبر رقم الهاتف والبريد الإلكتروني
+        by_email: عبر البريد الإلكتروني فحسب
+        by_phone: عبر رقم الهاتف فحسب
 
     order_russian_post:
-      new: جديد. لإرسال النموذج إلى البريد الروسي، انقر على الزر أدناه.
-      delivery: "تم التوصيل. تم إنشاء النموذج بنجاح. معرف فارغ {order_delivery.external_id}%"
-      canceled: "ألغيت. حدث خطأ أثناء إنشاء النموذج - {order_delivery.error}%"
-      done: 'تم التوصيل'
+      new: جديد. لإرسال النموذج إلى البريد الروسي، انقر فوق الزر أدناه.
+      delivery: "تم التسليم. تم إنشاء النموذج بنجاح. رقم تعريفي فارغ %{order_delivery.external_id}"
+      canceled: "تم الإلغاء. فشل أثناء إنشاء النموذج - %{order_delivery.error}"
+      done: 'تم التسليم'
 
     order_aramex:
-      new: جديد. لإرسال النموذج إلى أرامكس، انقر على الزر أدناه.
-      delivery: "تم التوصيل. تم إنشاء النموذج بنجاح. رقم AWB %{order_delivery.external_id} "
-      canceled: "ألغيت. حدث خطأ أثناء إنشاء النموذج - {order_delivery.error}%"
-      done: 'تم التوصيل'
+      new: جديد. لإرسال النموذج إلى Aramex، انقر فوق الزر أدناه.
+      delivery: "تم التسليم. تم إنشاء النموذج بنجاح. رقم وثيقة الشحن الجوي %{order_delivery.external_id}"
+      canceled: "تم الإلغاء. فشل أثناء إنشاء النموذج - %{order_delivery.error}"
+      done: 'تم التسليم'
 
     vendor_delivery:
       use_products_behavior:
-        include: تنطبق فقط على السلع المحددة
-        exclude: تنطبق على الجميع ما عدا السلع المحددة
+        include: ينطبق على البضائع المحددة فحسب
+        exclude: ينطبق على جميع البضائع باستثناء البضائع المحددة
       use_categories_behavior:
-        include: تنطبق فقط على الفئات المحددة
-        exclude: تنطبق على الجميع ما عدا الفئات المحددة
+        include: ينطبق على الفئات المحددة فحسب
+        exclude: ينطبق على جميع الفئات باستثناء الفئات المحددة
       yandex_delivery_type:
-        todoor: التوصيل
-        pickup: نقطة الاستلام
-        post: بريد روسيا
+        todoor: شركة البريد السريع
+        pickup: نقطة الالتقاط
+        post: البريد الروسي
+      russian_post_mail_category:
+        SIMPLE: بسيط
+        ORDERED: مخصّص
+        ORDINARY: عادي
+        WITH_DECLARED_VALUE: القيمة المعلنة
+        WITH_DECLARED_VALUE_AND_CASH_ON_DELIVERY: القيمة المعلنة والدفع عند التسليم
+        WITH_DECLARED_VALUE_AND_COMPULSORY_PAYMENT: مع القيمة المعلنة والدفع الإلزامي
+        WITH_COMPULSORY_PAYMENT: الدفع الإلزامي
+      russian_post_mail_type:
+        POSTAL_PARCEL: الطرد "غير قياسي"
+        ONLINE_PARCEL: الباقة عبر الإنترنت
+        ONLINE_COURIER: البريد السريع عبر الإنترنت
+        EMS: الشحن عبر خدمات البريد السريع
+        EMS_OPTIMAL: تعتبر خدمات البريد السريع هي الأمثل
+        EMS_RT: خدمات البريد السريع في روسيا
+        EMS_TENDER: مناقصة خدمات البريد السريع
+        LETTER: الخطاب
+        LETTER_CLASS_1: خطاب الدرجة الأولى
+        BANDEROL: الطرد البريدي
+        BUSINESS_COURIER: البريد السريع للأعمال
+        BUSINESS_COURIER_ES: خدمة البريد السريع للأعمال
+        PARCEL_CLASS_1: باقة الدرجة الأولى
+        BANDEROL_CLASS_1: الطرود البريدية من الدرجة الأولى
+        VGPO_CLASS_1: البريد الداخلي السريع من الدرجة الأولى
+        SMALL_PACKET: الباقة الصغيرة
+        EASY_RETURN: سهولة الإرجاع
+        VSD: جهاز تحكم متعدد السرعات للمغادرة
+        ECOM: التجارة الإلكترونية
+        COMBINED: مجمعة
     coupon_image:
       align:
         none: No
-        center: في المركز
+        center: في المنتصف
         left: على الجانب الأيسر
         right: على الجانب الأيمن
     payment_to_delivery:
       discount_type:
         percent: '%'
-        fixed: 'مبلغ ثابت'
+        fixed: 'المبلغ الثابت'
+    vendor_payment:
+      payment_key:
+        PAYMENT_WITH_COIN: نقل المحفظة (الدفع_من خلال_العملات)
+        TERMINAL_PAYMENT: الدفع بالبطاقة (محطة_الدفع)
+        ONLINE_PAYMENT: الدفع عبر الإنترنت (الدفع_عبر الإنترنت)
+        E_INVOICE: الدفع عبر الرابط (فاتورة_إلكترونية)
+        CASH: الدفع النقدي (النقد)
+      online_kassa_payment_method:
+        full_prepayment: الدفع المسبق بنسبة 100%
+        prepayment: الدفع المسبق
+        full_payment: الدفع الكامل
+        advance: الدفعة المقدم
+        partial_payment: التسوية الجزئية والائتمان
+        credit: تحويل الرصيد
+        credit_payment: السداد عن طريق الائتمان
+      online_kassa_payment_object:
+        commodity: السلع
+        payment: الدفع
+        excise: البضائع الخاضعة للضريبة الانتقائية
+        job: الوظيفة
+        service: الخدمة
+        gambling_bet: الرهان
+        gambling_prize: الفوز بالرهان
+        lottery: ورقة اليانصيب
+        lottery_prize: الفوز باليانصيب
+        intellectual_activity: تقديم نتائج النشاط الفكري
+        agent_commission: عمولة الوكيل
+        composite: موضوع مركب للحساب
+        property_right: حق الملكية
+        nonoperating_gain: الدخل غير التشغيلي
+        insurance_premium: أقساط التأمين
+        sales_tax: ضريبة المبيعات
+        resort_fee: رسوم الوجهة
+        another: موضوع آخر
+    quantity_unit:
+      divisible: قابلة للتقسيم
+      indivisible: غير قابلة للتقسيم

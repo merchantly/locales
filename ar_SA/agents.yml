@@ -1,8 +1,8 @@
 ar_SA:
   agents:
     payment:
-      order_payment_direct: بأي طريقة أخرى
-      order_payment_invoice: حساب البنك
+      order_payment_direct: أي طريقة أخرى
+      order_payment_invoice: الحساب المصرفي
       order_payment_w1: WalletOne
       order_payment_pay_pal: PayPal
       order_payment_yandex_kassa: Yandex.Kassa
@@ -13,13 +13,15 @@ ar_SA:
       order_payment_tinkoff: Tinkoff
       order_payment_sberbank: Sberbank
       order_payment_gsdk: Gsdk
+      order_payment_arsenal_pay: ArsenalPay
+      order_payment_geidea_payment: مدفوعات جيديا
     delivery:
-      order_delivery_pickup: الاستلام
+      order_delivery_pickup: الالتقاط
       order_delivery_redexpress: Redexpress
       order_delivery_cse: CSE
       order_delivery_ems: خدمة البريد السريع
-      order_delivery_other: أخرى
-      order_delivery_digital: سلع رقمية فقط
-      order_delivery_russian_post: بريد روسيا
-      order_delivery_yandex: توصيل Yandex
-      order_delivery_aramex: اراميكس
+      order_delivery_other: غير ذلك
+      order_delivery_digital: البضائع الرقمية فحسب
+      order_delivery_russian_post: البريد الروسي
+      order_delivery_yandex: التسليم عبر Yandex
+      order_delivery_aramex: Aramex

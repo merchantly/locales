@@ -2,66 +2,66 @@ ar_SA:
   order_mailer:
     client:
       subjects:
-        new_order:    "{{vendor_name}}: طلب جديد رقم {{order.public_id}}"
-        payment_link: "{{vendor_name}}: معلومات دفع الطلب رقم {{order.public_id}}"
-        paid:         "{{vendor_name}}: تم استلام الدفعة للطلب رقم {{order.public_id}}"
-        workflow_changed: "{{vendor_name}}: الطلب رقم  {{order.public_id}} أصبحت حالته '{{order.workflow_state.title}}'"
+        new_order:    "{{vendor_name}}: رقم الطلب الجديد{{order.public_id}}"
+        payment_link: "{{vendor_name}}: رقم معلومات مدفوعات الطلب {{order.public_id}}"
+        paid:         "{{vendor_name}}: تم استلام المدفوعات للطلب رقم {{order.public_id}}"
+        workflow_changed: "{{vendor_name}}: الطلب رقم \"{{order.public_id}}\" تم استلام الحالة {{order.workflow_state.title}}"
         delivery_expired: '{{vendor_name}}: سيتم إلغاء الطلب قريبًا'
-        reminder_payment: '{{vendor_name}}: انتهاء صلاحية المحجوز'
-        client_category_changed: '{{client.vendor_name}}: لقد تم نقلك إلى مجموعة أخرى {{client.category_name}}'
+        reminder_payment: '{{vendor_name}}: انتهاء مدة الحجز'
+        client_category_changed: '{{client.vendor_name}}: تم نقلك إلى مجموعة أخرى {{client.category_name}}'
+        coupon: "شهادة هدية من المتجر {{vendor_name}}"
     merchant:
       subjects:
-        new_order:    "{{vendor_name}}: طلب جديد رقم {{order.public_id}}"
-        paid:      "{{vendor_name}}: تم استلام الدفعة للطلب رقم {{order.public_id}}"
-        workflow_changed: "{{vendor_name}}: الطلب رقم  {{order.public_id}} أصبحت حالته '{{order.workflow_state.title}}'"
-        run_out:   "{{vendor_name}}: انتهى من المخزن"
+        new_order:    "{{vendor_name}}: رقم الطلب الجديد{{order.public_id}}"
+        paid:      "{{vendor_name}}: تم استلام المدفوعات للطلب رقم {{order.public_id}}"
+        workflow_changed: "{{vendor_name}}: الطلب رقم \"{{order.public_id}}\" تم استلام الحالة {{order.workflow_state.title}}"
+        run_out:   "{{vendor_name}}: نفاد المخزون"
   invite_mailer:
     new_invite:
-      subject: "دعوة للمشروع %{vendor}"
+      subject: "مشروع الدعوة إلى %{vendor} المشروع"
   partner_mailer:
     register_vendor:
-      subject: "تم تسجيل متجر جديد %{brand_name_e} من كازاخستان"
+      subject: "متجر جديد مسجل %{brand_name_e} من كازاخستان"
+    registration:
+       subject: 'الاتصال بالجهة التابعة'
+    report:
+       subject: 'تقرير الجهة التابعة الشهري'
   vendor_mailer:
     unpublish:
-      subject: "kiiiosk.store: تم فتح المتجر %{host} "
+      subject: "kiiiosk.store: المتجر %{host} مفتوح"
     negative_balance:
-      subject: "kiiiosk.store: رصيد سلبي في الحساب في المتجر %{host}"
+      subject: "kiiiosk.store: رصيد سالب في الحساب بالمتجر %{host}"
     balance_refill:
       subject: "kiiiosk.store: زيادة الرصيد في المتجر %{host}"
     balance_subtract:
-      subject: "kiiiosk.store: رصيد الشطب في المتجر %{host}"
+      subject: "kiiiosk.store: شطب الرصيد من المتجر %{host}"
     need_payment:
-      subject: "kiiiosk.store: يجب أن تدفع بالسعر في المتجر %{host}"
+      subject: "kiiiosk.store: يجب أن تدفع بسعر المتجر %{host}"
     not_enough_sms_money:
-      subject: 'kiiiosk.store: الرصيد غير كافي لإرسال رسائل نصية في المتجر %{host}'
+      subject: 'kiiiosk.store: عدم كفاية الأموال لإرسال رسائل قصيرة في %{host} المتجر'
     sms_money_limit_reached:
-      subject: 'kiiiosk.store: يقترب رصيد الرسائل النصية الخاص بك من الحد الأدنى للإغلاق في المتجر %{host}'
+      subject: 'kiiiosk.store: يقترب رصيد الرسائل القصيرة من حد الإغلاق في %{host} المتجر'
     shop_will_archive:
-      subject: 'kiiiosk.store: المتجر {{vendor.home_url}} سيتم نقله إلى الأرشيف'
+      subject: 'kiiiosk.store: سيتم نقل المتجر {{vendor.home_url}} إلى الأرشيف'
     archive:
-      subject: 'kiiiosk.store: المتجر {{vendor.home_url}} سيتم نقله إلى الأرشيف'
+      subject: 'kiiiosk.store: سيتم نقل المتجر {{vendor.home_url}} إلى الأرشيف'
     analytics:
-      subject: 'kiiiosk.store: محلل المتجر الأسبوعي %{host}'
+      subject: 'kiiiosk.store: التحليل الأسبوعي للمتجر %{host}'
     registration:
-      subject: 'أهلا بك'
+      subject: 'مرحبًا'
     notify_shop_will_archive:
-      subject: 'إشعار الدفع'
+      subject: 'إخطار الدفع'
     vendor_archived:
-      subject: 'المتجر مؤرشف'
+      subject: 'تمت أرشفة المتجر'
   support_mailer:
     support_mail:
-      insufficient_funds: 'فشل الدفع التلقائي ل%{account_id}. لا يوجد رصيد كافي في البطاقة'
-  coupon_image_mailer:
-    send_client_mail:
-      subject: "شهادة هدية من المتجر \"%{vendor_name}\""
-      body: >
-        مرحباً! <br>شكرا لك على شراء شهادة هدية من المتجر "%{vendor_name}"!<br><br> باستخدام شهادة، يمكنك دفع جزء من مبلغ الطلب أو عملية الشراء بالكامل. عند تقديم طلب، أدخل الرمز الترويجي الفردي من الشهادة في حقل "الرمز الترويجي". بعد ذلك، سيتم خصم القيمة التي في الشهادة تلقائيًا من إجمالي مبلغ الدفع. <br><br> ملاحظة! الشهادة صالحة مرة واحدة ، وتتم إزالة الرصيد الموجود في الشهادة. نتمنى لك تسوق ممتع ومفيد! <br><a href="%{url}" target="_blank">رابط الشهادة</a>
+      insufficient_funds: 'فشل الدفع التلقائي بسبب %{account_id}. عدم كفاية الأموال على البطاقة'
   email_confirmation_mailer:
     send_url:
-      subject: "التأكيد بواسطة البريد الإلكتروني %{vendor_name}"
-      confirmation_url: رابط التأكيد بالبريد الإلكتروني
+      subject: "التحقق من البريد الإلكتروني %{vendor_name}"
+      confirmation_url: "رابط التحقق من البريد الإلكتروني "
 
   сlient_reset_password_mailer:
     send_instructions:
-      subject: "إعادة تعيين كلمة السر %{vendor_name}"
-      reset_password_url: رابط إعادة تعيين كلمة السر
+      subject: "إعادة تعيين كلمة المرور %{vendor_name}"
+      reset_password_url: رابط إعادة تعيين كلمة المرور

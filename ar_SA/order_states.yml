@@ -2,22 +2,27 @@ ar_SA:
   order_states:
     new: جديد
     in_process: نشط
-    success: منجز
-    failure: ملغى
+    success: تم
+    failure: تم الإلغاء
 
   order_log_entities:
-    changed_workflow_state: "تغيرت حالة الطلب (%{workflow_state_from} --> %{workflow_state_to})"
-    use_condition: "الشرط المطبق (#%{id}): \"%{title}\""
+    changed_workflow_state: "تم تغيير حالة الطلب (%{workflow_state_from} ->%{workflow_state_to})"
+    use_condition: "الحالة المُطبقة (رقم%{id}): \"%{title}\""
 
   order_delivery_states_comments:
-    delivery: تم تحويل الطلب للتوصيل
-    done: تم توصيل الطلب
-    canceled: تم إلغاء التوصيل
+    delivery: تم نقل الطلب للتسليم
+    done: تم تسليم الطلب
+    canceled: تم إلغاء التسليم
 
   order_payment_states_comments:
     failed: خطأ في الدفع
-    paid: الدفع المستلم
+    paid: المدفوعات المستلمة
     canceled: تم إلغاء الدفع
 
   order_delivery_tracking_comments:
-    new_state: 'تحديث في تتبع الشحنة. الوصف: %{state.update_description}، الموقع: %{state.update_location}'
+    new_state: 'تغييرات تتبع الشحنة. الوصف:  %{state.update_description}، الموقع: %{state.update_location}'
+
+  order_refund:
+    no_refund: ''
+    partial_refund: ""
+    total_refund: ""

@@ -1,57 +1,71 @@
 ar_SA:
   filters:
     orders:
-      workflow_state_id:
-        name: 'حالة الطلب'
+      source:
+        name: القناة
         values:
-          any: 'أي'
+          offline: من دون اتصال بالإنترنت
+          online: عبر الإنترنت
+          any: أي
+      workflow_state_id:
+        name: حالة الطلب
+        values:
+          any: الكل
       coupon_id:
-        name: الرمز الترويجي
+        name: قسائم
         values:
           any: أي
       delivery_type_id:
-        name: الشحن
+        name: طريقة التسليم
         values:
           any: أي
       payment_type_id:
-        name: الدفعة
+        name: طريقة الدفع
         values:
           any: أي
       client_id:
         name: العميل
         values:
           any: أي
-      created_at_from: البحث عن طريق التاريخ
+      created_at_from: البحث حسب التاريخ
       has_reserved_items:
-        name: الحجز
+        name: العناصر المحجوزة
         values:
-          'true': yes
-          'false': No
-          any: أي
+          'true': 'محجوز'
+          'false': 'متوفر'
+          any: الكل
 
       delivery_state:
-        name: حالة التوصيل
+        name: حالة التسليم
         values:
-          new: من المتوقع أن تبدأ
-          not_needed: التسليم غير مطلوب
-          delivery: تم التوصيل
-          done: تم التوصيل
-          canceled: ملغى
-          any: أي
+          new: قيد التقدم
+          not_needed: لا يلزم التسليم
+          delivery: تم التسليم
+          done: تم
+          canceled: تم الإلغاء
+          any: الكل
 
       payment_state:
         name: حالة الدفع
         values:
-          new: ننتظر الدفع
-          direct: توقع الدفع نقداً
-          paid: مدفوع
-          failed: مرفوض
-          canceled: ملغى
-          any: أي
+          new: قيد الانتظار
+          direct: الدفع النقدي (معلق)
+          paid: تم الدفع
+          failed: تم الرفض
+          canceled: تم الإلغاء
+          any: الكل
+
+      refund:
+        name: ""
+        values:
+          any: ""
+          no_refund: ""
+          total_refund: ""
+          partial_refund: ""
 
     products:
       on_welcome:
-        name: المنتجات على الرئيسية
+        name: المنتجات في القائمة الرئيسية
 
       without_categories:
         name: غير مصنف
@@ -60,59 +74,59 @@ ar_SA:
         name: الفئة
 
       property_id:
-        name: خاصية
+        name: الخاصية
         values:
           any: أي
       dictionary_entity_ids:
         name: الدليل
 
       has_ordering_goods:
-        name: قابلية الشراء
+        name: متوفر للبيع
         values:
-          'true': للبيع
-          'false': لا يستطيع الشراء
-          any: أي
+          'true': 'نعم'
+          'false': 'لا'
+          any: الكل
 
       has_price:
         name: السعر
         values:
-          'true': مثبت
-          'false': غير مضبوط
+          'true': تم التثبيت
+          'false': لم يتم التعيين
           any: أي
 
       has_images:
         name: الصور
         values:
-          'true': Yes
-          'false': No
-          any: أي
+          'true': 'نعم'
+          'false': 'لا'
+          any: الكل
 
       is_sale:
-        name: تخفيض
+        name: مخصوم
         values:
-          'true': Yes
-          'false': No
-          any: أي
+          'true': 'نعم'
+          'false': 'لا'
+          any: الكل
 
       is_run_out:
-        name: الانتهاء
+        name: نفاد المخزون
         values:
-          'true': انتهى
-          'false': متاح
+          'true': نفاد المخزون
+          'false': متوفر
           any: أي
 
       has_items:
-        name: خيارات
+        name: الخيارات
         values:
-          'true': Yes
-          'false': No
-          any: أي
+          'true': 'نعم'
+          'false': 'لا'
+          any: الكل
 
       is_stock_linked:
-        name: الربط بالمستودع
+        name: الالتزام بالموجود في المستودع
         values:
-          'true': Yes
-          'false': No
+          'true': 'نعم'
+          'false': 'لا'
           any: أي
 
       is_archived:
@@ -123,13 +137,13 @@ ar_SA:
           any: أي
 
       quanting:
-        name: التوفر
+        name: التوافر
         values:
           positive: إيجابي
           'no': صفر
           negative: سلبي
           none: غير معروف
-          infinity: لا نهائي
+          infinity: بلا حدود
           any: أي
 
       product_type:
@@ -138,12 +152,12 @@ ar_SA:
           union: مركب
           separate: مستقل
           common: مركب أو مستقل
-          part: جزء من المركب
+          part: جزء من مركب
           any: أي
 
       is_published:
-        name: الرؤية
+        name: تم النشر
         values:
-          'true': منشور
-          'false': غير منشور
-          any: أي
+          'true': 'نعم'
+          'false': 'لا'
+          any: الكل

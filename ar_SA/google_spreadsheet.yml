@@ -1,13 +1,18 @@
 ar_SA:
   google_spreadsheet:
     columns:
-      skip : '(تخطى)'
-      article: 'مقالة'
+      skip : '(تخطي)'
+      article: 'المادة'
+      barcode: 'الرمز الشريطي'
       price: 'السعر'
-      sale_price: 'سعر الخصم'
+      sale_price: 'السعر بعد الخصم'
+      purchase_price: 'سعر الشراء'
       category: 'فئة المنتج'
       quantity: 'الكمية'
       new_property: '(خاصية جديدة)'
       title: 'اسم المنتج'
-      description: 'وصف قصير'
-    property_title: '(خاصية: %{title})'
+      item_title: 'اسم المتغيّر'
+      description: 'وصف المنتج'
+      image_link: 'رابط صورة المنتج'
+      vat: 'الضريبة'
+    property_title: '(الخاصية: %{title})'

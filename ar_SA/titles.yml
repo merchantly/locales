@@ -1,9 +1,26 @@
 ar_SA:
   titles:
     client_categories:
-      anonymous: غير مصدق
-      registered: مسجل
+      anonymous: غير مُصدّق عليه
+      registered: تم التسجيل
     price_kinds:
-      default: السعر الافتراضي
-      sale: سعر الخصم
-      purchase: معدل الشراء
+      default: السعر الأساسي
+      sale: السعر بعد الخصم
+      purchase: سعر الشراء
+    ecr_documents:
+      ecr_sale_document: البيع
+      ecr_refund_document: الاسترداد
+      ecr_expense_document: النفقات
+      ecr_receipt_document: الاستلام
+      ecr_transfer_document: التحويل
+      ecr_correct_document: صحيح
+    warehouse_movement:
+      ecr_warehouse_movement_transfer: التحويل
+      ecr_warehouse_movement_receipt: الاستلام
+      ecr_warehouse_movement_expense: التحويل
+    categories:
+      default_welcome_category: فئة الصفحة الرئيسية
+    warehouses:
+      default: المستودع الأساسي
+    fallback_good:
+      default: ""

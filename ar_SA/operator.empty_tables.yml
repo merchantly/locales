@@ -13,41 +13,43 @@ ar_SA:
           color_hex: اللون
           workflow_state_id: 'حالة الطلب'
           has_reserved_items: الحجز
-          delivery_state: حالة التوصيل
+          delivery_state: حالة التسليم
           payment_state: حالة الدفع
-          delivery_type_id: التوصيل
+          delivery_type_id: التسليم
           payment_type_id: الدفع
         vendor_delivery:
-          price: الثمن
-          free_delivery_price: المبلغ للتوصيل المجاني
+          price: التكلفة
+          free_delivery_price: المبلغ المحدد لتفعيل ميزة الشحن المجاني
           available_payments: الدفع المتوافق
           cities: المدن
           pickup_points: مكان الاستلام
         vendor_payment:
-          available_deliveries: طرق التوصيل المتاحة
+          available_deliveries: طرق التسليم المتاحة
         blog_post:
           is_active: الحالة
-          published_at: تاريخ النشر
+          published_at: تم النشر
         workflow_state:
           finite_state: الحالة النهائية
-          convead_key: المفتاح في "convead"
+          convead_key: المفتاح في convead
         product:
           title: الاسم
           category: الفئة
           images: الصور
         coupon_image:
           image: الصورة
+        category:
+          title: الفئة
 
       empty:
-        default: ليس لديك مشاركات حتى الآن
-        content_page: ليس لديك منشورات حتى الآن
-        blog_post: ليس لديك منشورات حتى الآن
-        slider_image: ليس لديك صورة واحدة لشريط التمرير حتى الآن
-        lookbook: ليس لديك كتاب بحث واحد حتى الآن
-        order_condition: ليس لديك قواعد واحدة حتى الآن
-        workflow_state: ليس لديك حالة طلب واحدة حتى الآن
-        vendor_payment: لا يوجد لديك طرق دفع نشطة حتى الآن
-        vendor_delivery: لا يوجد لديك طرق توصيل نشطة حتى الآن
-        dictionary_entity: لا توجد عناصر في هذا القاموس حتى الآن
-        dictionary: لا يوجد قاموس حتى الآن
+        default: ليس لديك أي منشورات بعد
+        content_page: ليس لديك أي منشورات بعد
+        blog_post: ليس لديك أي منشورات بعد
+        slider_image: ليس لديك أي صورة لشريط التمرير بعد
+        lookbook: ليس لديك أي كتالوج بعد
+        order_condition: ليس لديك أي قواعد بعد
+        workflow_state: ليس لديك أي حالة طلب بعد
+        vendor_payment: ليس لديك أي طرق دفع مفعلة بعد
+        vendor_delivery: ليس لديك أي طرق تسليم مفعلة بعد
+        dictionary_entity: لا توجد عناصر في هذا القاموس بعد
+        dictionary: لا يوجد قاموس بعد
         category: لا توجد فئات

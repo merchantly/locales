@@ -1,46 +1,49 @@
 ar_SA:
   services:
     invite:
-      sms_text: "تمت دعوتك إلى %{vendor}، للتسجيل - %{url}"
+      sms_text: "لقد تمت دعوتك إلى %{vendor}، لتسجيل - %{url}"
     vendor_registration:
-      invalid_phone_code: رمز غير صالح
+      invalid_phone_code: رقم التعريف الشخصي غير صالح
       operator_name: "مشغل المتجر %{vendor}"
-      first_category: الفئة الرئيسية
-      cash_on_delivery: الدفع عند الاستلام
-      cash_on_selfdelivery: الدفع عند الاستلام
-      payment_w1: "الدفع عبر الانترنت (فيز/ماستركارد، QIWI، وغيره)"
-      delivery: 'بعد الاستلام'
+      first_category: الفئة الأساسية
+      cash_on_delivery: الدفع عند التسليم
+      cash_on_selfdelivery: الدفع عند التسليم
+      payment_w1: "الدفع عبر الإنترنت (الفيزا/ماستر كارد، وQIWI، وما إلى ذلك)"
+      delivery: 'بعد التسليم'
       product_name: 'اسم المنتج'
       product_description: 'وصف المنتج'
+      default_cashier: 'الرئيسي'
+      default_branch: 'الرئيسي'
+      default_product_vat_group: 'الرئيسي'
     pin_sender:
-      sms_text: 'الرمز الخاص بك للإدخال: %{pin}'
+      sms_text: 'رقم تعريفك الشخصي المطلوب إدخاله: %{pin}'
     client_pin_sender:
-      sms_text: '%{pin} الرمز الخاص بك لتسجيل الدخول إلى حسابك %{cabinet_url}'
+      sms_text: '%{pin} رمز رقم تعريفك الشخصي لتسجيل الدخول إلى حسابك %{cabinet_url}'
     tariff_payment:
       fee:
         per_month:
-          description: 'رسوم الاشتراك ل %{date} - %{amount}'
+          description: 'رسوم الاشتراك مقابل %{date} - %{amount}'
         orders:
-          description: '%{amount} للطلبات (%{per_order_amount} للطلب، %{orders_count}). %{date}'
+          description: '%{amount} حسب الطلبات (%{per_order_amount} حسب الطلب، %{orders_count}). %{date}'
         sms:
-          description: '%{amount} للرسائل النصية (%{per_sms_amount} للرسالة النصية، جميع الرسائل النصية المرسلة %{sms_count}). %{date}'
+          description: '%{amount} للرسائل القصيرة (%{per_sms_amount}لرسالة قصيرة واحدة، يتم إرسال جميع الرسائل %{sms_count} الرسائل القصيرة). %{date}'
         moysklad:
-          description: '%{amount} للربط مع خدمة MyStore'
+          description: '%{amount} للتكامل مع خدمة MyStore'
 
     vendor_notifications:
       partner_incoming:
-        sms_text: '%{name}، رصيد الشريك في kiiosk.ru تجدد بمقدار %{amount}. الرصيد الحالي: %{current_amount}'
+        sms_text: '%{name}، تم تجديد رصيد الشريك في kiiosk.ru من خلال %{amount}.  الرصيد الحالي: %{current_amount}'
       not_enough_sms_money:
-        sms_text: '%{url}: لا توجد أموال كافية لإرسال الرسائل النصية'
+        sms_text: '%{url}: لا توجد أموال كافية لإرسال الرسائل القصيرة'
       sms_money_limit_reached:
-        sms_text: '%{url}: يقترب رصيد الرسائل النصية الخاص بك من الحد الأدنى للإغلاق. الرصيد: %{amount}'
+        sms_text: '%{url}: يقترب رصيد الرسائل القصيرة الخاص بك من حد الإغلاق. الرصيد: %{amount}'
       unpublish:
-        sms_text: '%{url}: المتجر غير منشور'
+        sms_text: '%{url}: لم يتم نشر المتجر'
       negative_balance:
-        sms_text: '%{url}: رصيدك: %{balance}. مع وجود رصيد سلبي، لن يكون إرسال الرسائل النصية متاحًا.'
+        sms_text: '%{url}: رصيدك: %{balance}. في حالة وجود رصيد سالب، لن يكون إرسال رسالة قصيرة متاحًا.'
       balance_refill:
-        sms_text: '%{url}: تجدد رصيدك بمقدار %{amount}. الرصيد الحالي: %{current_amount}'
+        sms_text: '%{url}: تم تجديد رصيدك من خلال %{amount}. الرصيد الحالي: %{current_amount}'
       balance_subtract:
-        sms_text: '%{url}: رسوم بمقدار %{amount} - %{details}. الرصيد الحالي: %{current_amount}'
+        sms_text: '%{url}: رسوم بقيمة %{amount} - %{details}. الرصيد الحالي: %{current_amount}'
       need_payment:
-        sms_text: '%{url}: فترة الخدمة المدفوعة تنتهي بتاريخ %{unpublish_date}. المجموع: %{invoice_amount} - %{payment_link}'
+        sms_text: '%{url}: تنتهي فترة الخدمة المدفوعة%{unpublish_date}. الإجمالي: %{invoice_amount} - %{payment_link}'

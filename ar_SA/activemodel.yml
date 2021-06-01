@@ -5,16 +5,16 @@ ar_SA:
         vendor:
           attributes:
             domain:
-              slug: "يستطيع  المجال أن يحتوي على حروف لاتينية، أرقام، أو علامة ناقص فقط."
+              slug: "يمكن أن يحتوي المجال على حروف انكليزية أو أرقام أو علامة ناقص فحسب"
         vendor_registration_form:
           attributes:
             email:
-              email: صيغة البريد الإلكتروني غير صحيحة
+              email: تنسيق البريد الإلكتروني غير صالح
         subscription_form:
           attributes:
             email:
-              email: صيغة البريد الإلكتروني غير صحيحة
+              email: تنسيق البريد الإلكتروني غير صالح
         client_registration_form:
           attributes:
             email:
-              email: صيغة البريد الإلكتروني غير صحيحة
+              email: تنسيق البريد الإلكتروني غير صالح

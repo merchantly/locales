@@ -1,8 +1,8 @@
 ar_SA:
   order_condition:
-     title: '%{action_text}، عندما: %{conditions_text}، عند الحدث: %{event_text}'
-     default_text: 'للطلبات مع أي تسليم و دفع و حالة'
-     delivery_title: "التوصيل '%{vendor_delivery}'"
+     title: '%{action_text}، عندما: %{conditions_text}، في حدث ما: %{event_text}'
+     default_text: 'للطلبات التي تنطوي على أي تسليم ودفع وحالة'
+     delivery_title: "التسليم '%{vendor_delivery}'"
      payment_title: "الدفع '%{vendor_payment}'"
      enter_workflow_title: "الحالة '%{state}'"
      enter_finite_state_title: "الحالة النهائية '%{state}'"

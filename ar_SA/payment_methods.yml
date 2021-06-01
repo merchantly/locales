@@ -1,34 +1,34 @@
 ar_SA:
   payment_methods:
     yandex_kassa:
-      pc: الدفع من محفظة Yandex.Money
-      ac: الدفع باستخدام أي بطاقة بنك
-      mc: الدفع من فاتورة الهاتف المحمول
-      gp: الدفع نقدًا من خلال صناديق الصرافة والمحطات
-      wm: الدفع من نظام محفظة WebMoney
-      sb: 'الدفع من خلال Sberbank: عن طريق رسالة نصية أو Sberbank Online'
-      mp: الدفع باستخدام نقطة بيع
-      ab: الدفع بنقرة ألفا (Alpha Click)
+      pc: الدفع من خلال محفظة Yandex.Money
+      ac: الدفع بأي بطاقة بنكية
+      mc: الدفع من خلال فاتورة هاتف جوال
+      gp: الدفع النقدي من خلال صناديق النقد والمحطات
+      wm: الدفع من خلال نظام محفظة WebMoney
+      sb: 'الدفع من خلال Sberbank: عبر الرسائل القصيرة أو Sberbank Online'
+      mp: الدفع باستخدام جهاز نقاط بيع (نقطة البيع الخاصة بالهاتف المحمول)
+      ab: الدفع باستخدام Alpha Click
       ma: الدفع باستخدام MasterPass
-      pb: الدفع باستخدام بنك الانترنت Promsvyazbank
-      qw: الدفع باستخدام محفظة QIWI
+      pb: الدفع من خلال بنك Promsviazbank عبر الإنترنت
+      qw: الدفع باستخدام محفظة QIWI Wallet
       kv: الدفع باستخدام KupiVkredit (بنك Tinkoff)
-      qp: الدفع مع دفع الثقة على Kuppi.ru
+      qp: الدفع من خلال المدفوعات الائتمانية عبر Kuppi.ru
     rbk_money:
       rbkmoney: الدفع من محفظة RBK Money
-      bankcard: بطاقة بنك Visa/MasterCard
-      exchangers: أنظمة الدفع الالكترونية
-      terminals: محطات الدفع
-      prepaidcard: بطاقة RBK Money مدفوعة مسبقاً
-      mobilestores: صالونات الاتصالات
+      bankcard: البطاقة البنكية مثل الفيزا/ماستر كارد
+      exchangers: أنظمة الدفع الإلكترونية
+      terminals: أجهزة نقاط البيع
+      prepaidcard: بطاقة RBK Money مسبقة الدفع
+      mobilestores: أروقة التواصل
       transfers: أنظمة تحويل الأموال
-      ibank: الخدمات المصرفية عبر الإنترنت
-      sberbank: الدفع المصرفي
+      ibank: الخدمات البنكية عبر الإنترنت
+      sberbank: الدفع البنكي
       svyaznoy: Svyaznoy
       euroset: Euroset
-      contact: جهة اتصال
+      contact: الاتصال
       mts: MTS
-      uralsib: صناديق Uralsib النقدية
+      uralsib: صناديق النقد الخاصة ببنك Uralsib
       handybank: HandyBank
       ocean: Ocean Bank
-      ibankuralsib: بنك الانترنت Uralsib
+      ibankuralsib: بنك الإنترنت Uralsib

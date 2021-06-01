@@ -1,72 +1,72 @@
 ar_SA:
   shared:
-    upload_images: تحميل الصور
-    actions: الأفعال
+    upload_images: تحميل صور
+    actions: الإجراءات
     add: إضافة
     add_more: إضافة المزيد
-    create: إنشاء
+    create: "إنشاء "
     create_new: إضافة
-    show: معاينة
-    edit: تغيير
+    show: عرض
+    edit: "تغيير "
     delete: حذف
-    delete_confirm: الحذف بشكل نهائي
-    archive_confirm: "هل أنت متأكد أنك تريد الأرشفة؟"
-    archive: أرشف
+    delete_confirm: حذف نهائي
+    archive_confirm: " هل ترغب بالفعل في الأرشفة؟"
+    archive: الأرشفة
     restore: استعادة
-    reset: إعادة تعيين
+    reset: إعادة التعيين
     cancel: إلغاء
     save: حفظ
     apply: تطبيق
-    find: البحث
+    find: بحث
     set: تثبيت
-    load: تنزيل
+    load: تحميل
     is_on: On
     is_off: Off
     turn_on: On
     turn_off: Off
-    action_turn_on: انقر للتفعيل
+    action_turn_on: انقر للتمكين
     action_turn_off: انقر للتعطيل
-    amount: الكمية
+    amount: المبلغ
     go: التالي
     log_in: تسجيل الدخول
-    next: استمرار
+    next: متابعة
     sum: المبلغ
     product: المنتج
-    products: السلع
+    products: المنتجات
     orders: الطلبات
     shops: المتاجر
     custom_attributes: المواصفات
     members: الأعضاء
     coupon: الرمز الترويجي
-    cart: إضافة إلى السلة
+    cart: إضافة إلى عربة التسوّق
     agent: الوكيل
-    selected: المحدد
+    selected: المختار
+    all_select: "اختيار الكل %{resource_name}"
     from: من
     entrance: تسجيل الدخول
-    overall: المجموع
+    overall: الإجمالي
     city: المدينة
-    site_link: على الموقع
-    add_images: إضافة الصور
-    empty: إزالة
+    site_link: عبر الموقع الإلكتروني
+    add_images: إضافة صور
+    empty: مسح
     unknown: غير معروف
-    undetected: ليس معروف
+    undetected: لم يتم التعرف عليه
     request_error: "فشل الطلب (%{error})"
     article_short: فن
-    run_out: إنتهى من المخزن
-    no_matter: ليس هناك فرق
+    run_out: نفاد المخزون
+    no_matter: لا يوجد فرق
     "yes": Yes
     "no": No
     kg: كجم
-    return_back: عٌد
-    warning: إنذار
+    return_back: العودة
+    warning: تحذير
     tabs:
       current: الحالي
       archive: الأرشيف
     products_amount:
-      zero: '%{count} سلع'
-      one: '%{count} سلعة'
-      two: '%{count} سلع'
-      few: '%{count} سلع'
-      many: '%{count} سلع '
-      other: '%{count} سلع'
-
+      zero: '%{count} البضائع'
+      one: '%{count} المنتج'
+      two: '%{count} البضائع'
+      few: '%{count} البضائع'
+      many: '%{count} البضائع'
+      other: '%{count} البضائع'

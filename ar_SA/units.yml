@@ -1,3 +1,8 @@
 ar_SA:
   units:
-    pcs: قطع
+    pcs:
+      title: القِطَع
+      short: قِطَع
+    kg:
+      title: الكيلوجرامات
+      short: كجم

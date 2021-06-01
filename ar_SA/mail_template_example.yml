@@ -2,23 +2,23 @@ ar_SA:
   mail_template_example:
     client:
       name: 'اسم العميل'
-      email: 'client@example.com'
+      email: 'client@exmaple.com'
       address: 'عنوان الشارع'
       occupation_name: 'المدير'
     order:
       address: 'عنوان الشارع'
       city_title: 'المدينة'
       name: 'اسم العميل'
-      email: 'test@%{brand_host}'
+      email: 'الاختبار في%{brand_host}'
       phone: 'رقم الهاتف'
     worflow_state:
-      name: 'جاري الإرسال'
+      name: 'عند التسليم'
     payment_type:
       description: 'تفاصيل طريقة الدفع'
     delivery_type:
-      description: 'تفاصيل طريقة التوصيل'
+      description: 'تفاصيل طريقة التسليم'
     vendor:
       name: 'اسم المتجر'
     product:
       name: اسم المنتج
-      article: "الباركود %{num}"
+      article: "الرمز الشريطي %{num}"

@@ -1,247 +1,241 @@
 ar_SA:
   operator:
     locales:
-      ru: Русский
-      en: English
-      ar: Arabic
+      ru: الروسية
+      en: الإنجليزية
+      ar_SA: العربية
 
     flashes:
       rfm_updated: 'إعادة حساب مقاييس RFM'
-      client_accepted: 'العميل مقبول'
-      client_denied: 'العميل ممكَّن'
+      client_accepted: 'تم قبول العميل'
+      client_denied: 'تم تمكين العميل'
 
-    system_api: واجهة برمجة تطبيق النظام
-    choose_action: اختيار إجراء
-    choose_all: 'اختيار %{count} مواضع جميعها'
-    mark_all_as_read: اعتبار الجميع مقروء
+    system_api: واجهة برمجة تطبيقات النظام
+    choose_action: الإجراءات
+    choose_all: 'تحديد كل %{count} المواضع'
+    mark_all_as_read: وضع علامة على الكل كمقروء
     no_notifications: لا توجد إشعارات
     add_category: إضافة فئة
-    settings_instruction: إرشادات لإعداد المتجر
-    install_instruction_w1: تعليمات الاتصال
+    settings_instruction: تعليمات إعداد المتجر
+    install_instruction_w1: تعليمات التسليم
     operator: الدعم الفني
-    landing_dummy: سقف الصفحة المقصودة
-    site_ownership_note: أضافت كل الصفحات علامة تلقائياً لتأكيد ملكية الموقع.
-    per_page: عدد السلع على الصفحة
+    landing_dummy: الحد الأقصى للصفحة المقصودة
+    site_ownership_note: تمت إضافة علامة إلى جميع الصفحات تلقائيًا لتأكيد ملكية الموقع.
+    per_page: عدد المنتجات على الصفحة
     w1_send_pin_code: إرسال
 
     navigation:
-      dashboard: 'ما العمل التالي؟'
-      my_shop: 'الموقع'
-      goods: 'السلع'
+      profile: 'مسؤول الموقع'
+      dashboard: 'الصفحة الرئيسية'
+      my_shop: 'المتجر عبر الإنترنت'
+      goods: 'المنتجات'
       orders: 'الطلبات'
       clients: 'العملاء'
       content: 'الإدارة'
       settings: 'الإعدادات'
+      ecr: 'نقطة البيع الرئيسية'
+      disabled_content: 'اختيار المتجر'
+
+    profile_navigation:
+      index: 'ملف تعريف المسؤول'
+      vendors: 'متاجري'
+      subscriptions: 'إدارة الفعاليات'
+      access_keys: 'مفتاح الاختصار (API)'
 
     content_navigation:
-      domain: 'عنوان الموقع'
+      domain: 'عنوان الموقع الإلكتروني'
       pages: 'الصفحات النموذجية'
-      elements: 'العناصر على الموقع'
-      design: 'التصميم (CSS، HTML)'
+      elements: 'العناصر في الموقع'
+      design: 'تصميم الموقع الإلكتروني'
       content_pages: 'صفحات النص'
-      blog_posts: 'الأخبار أو المدونة'
-      lookbooks: 'كتب البحث'
-      subscriptions: 'اشتراكات البريد الالكتروني'
+      blog_posts: 'الأخبار والمدونات'
+      lookbooks: 'الكتالوجات'
+      subscriptions: 'اشتراكات العملاء'
       translations: 'اللغات'
-      other: 'تحسين محركات البحث وغيره'
+      other: 'تحسين محركات البحث وغيرها'
 
     settings_navigation:
       legal: 'المعلومات القانونية'
-      pay: 'طرق الدفع للعملاء'
-      delivery: 'طرق التوصيل'
+      pay: 'طرق الدفع الخاصة بالعملاء'
+      delivery: 'طرق التسليم'
       orders: 'إعدادات الطلب'
       products: 'إعدادات المنتج'
-      subscriptions: 'إشعارات البريد الالكتروني والرسائل النصية'
-      integrations: 'الربط و تبادل البيانات'
+      subscriptions: 'إشعارات البريد الإلكتروني والرسائل النصية القصيرة'
+      integrations: 'التكاملات ومشاركة البيانات'
       members: 'الفريق والوصول'
-      billing: 'التعريفة والدفع'
+      billing: 'خطتي'
       bells: 'الإشعارات'
+      branches: 'المواقع'
+      cashiers: 'الصرافون'
+      external_devices: 'الأجهزة الخارجية'
 
     price_kinds:
-      default: Обычная
-      sale: Распродажа
+      default: الرئيسي
+      sale: البيع
+      name: الاسم
+      add_button: إضافة نوع السعر
 
     toggle_theme_button:
       slider_visible: عرض شريط التمرير
       has_auto_menu: القائمة التلقائية
-      instagram_visible: عرض صور من انستغرام في نهاية الصفحة
-      banner_visible: إظهار رسالة على الموقع
+      banner_visible: إظهار الرسالة في الموقع
 
     bells_count:
-      zero: '%{count} إشعارات'
-      one: '%{count} إشعار'
-      two: '%{count} إشعار'
-      few: '%{count} إشعارات'
-      many: '%{count} إشعارات'
-      other: '%{count} إشعارات'
-
+      zero: '%{count} الإشعارات'
+      one: '%{count} الإشعار'
+      two: '%{count} الإشعارات'
+      few: '%{count} الإشعارات'
+      many: '%{count} الإشعارات'
+      other: '%{count} الإشعارات'
 
     search_options_count:
-      zero: '%{count} خيار'
-      one: '%{count} خيار'
-      two: '%{count} خيارات'
-      few: '%{count} خيارات'
-      many: '%{count} خيارات'
-      other: '%{count} خيارات'
-
+      zero: '%{count} الخيارات'
+      one: '%{count} الخيار'
+      two: '%{count} الخيارات'
+      few: '%{count} الخيارات'
+      many: '%{count} الخيارات'
+      other: '%{count} الخيارات'
 
     seconds_count:
-      zero: '%{count} ثانية'
+      zero: '%{count} ثوان'
       one: '%{count} ثانية'
-      two: 'ثانيتين'
-      few: '%{count} ثواني'
-      many: '%{count} ثواني'
-      other: '%{count} ثواني'
-
+      two: '%{count} ثوان'
+      few: '%{count} ثوان'
+      many: '%{count} ثوان'
+      other: '%{count} ثوان'
 
     stucks_count:
-      zero: '%{count} قطعة'
-      one: 'قطعة'
-      two: 'قطعتين'
-      few: '%{count} قطع'
-      many: '%{count} قطع'
-      other: '%{count} قطع'
-
+      zero: '%{count} القطع'
+      one: '%{count} القطعة'
+      two: '%{count} القطع'
+      few: '%{count} القطع'
+      many: '%{count} القطع'
+      other: '%{count} القطع'
 
     dictionary_entities_count:
-      zero: '%{count} عناصر'
-      one: 'عنصر'
-      two: 'عنصرين'
-      few: '%{count} عناصر'
-      many: '%{count} عناصر'
-      other: '%{count} عناصر'
-
+      zero: '%{count} العناصر'
+      one: '%{count} العنصر'
+      two: '%{count} العناصر'
+      few: '%{count} العناصر'
+      many: '%{count} العناصر'
+      other: '%{count} العناصر'
 
     records_count:
       zero: '%{count} ملاحظات'
-      one: 'ملاحظة'
-      two: 'ملاحظتين'
+      one: '%{count} العناصر'
+      two: '%{count} ملاحظات'
       few: '%{count} ملاحظات'
       many: '%{count} ملاحظات'
       other: '%{count} ملاحظات'
 
-
     clients_count:
-      zero: '%{count} عملاء'
-      one: 'عميل'
-      two: 'عميلين'
-      few: '%{count} عملاء'
-      many: '%{count} عملاء'
-      other: '%{count} عملاء'
-
+      zero: '%{count} العملاء'
+      one: '%{count}العملاء'
+      two: '%{count} العملاء'
+      few: '%{count} العملاء'
+      many: '%{count} العملاء'
+      other: '%{count} العملاء'
 
     found_products_count:
-      zero: 'تم إيجاد المنتج <b>%{count}</b>'
-      one: 'تم إيجاد المنتج <b>%{count}</b>'
-      two: 'تم إيجاد المنتجات %{count}'
-      few: 'تم إيجاد المنتجات %{count}'
-      many: 'تم إيجاد المنتجات %{count}'
-      other: 'تم إيجاد المنتجات %{count}'
-
+      zero: '%{count} تم العثور على منتجات'
+      one: '{count} تم العثور على المنتج'
+      two: '%{count} تم العثور على منتجات'
+      few: '%{count} تم العثور على منتجات'
+      many: '%{count} تم العثور على منتجات'
+      other: '%{count} تم العثور على منتجات'
 
     found_orders_count:
-      zero: 'تم إيجاد الطلبات %{count}'
-      one: 'تم إيجاد الطلبات %{count}'
-      two: 'تم إيجاد الطلبات %{count}'
-      few: 'تم إيجاد الطلبات %{count}'
-      many: 'تم إيجاد الطلبات %{count}'
-      other: 'تم إيجاد الطلبات %{count}'
-
+      zero: '%{count} تم العثور على الطلب'
+      one: '%{count} تم العثور على الطلب'
+      two: '%{count} تم العثور على الطلب'
+      few: '%{count} تم العثور على الطلب'
+      many: '%{count} تم العثور على الطلب'
+      other: '%{count} تم العثور على الطلب'
 
     orders_count:
-      zero: '%{count} طلب'
-      one: 'طلب'
-      two: '%{count} طلبات'
-      few: '%{count} طلبات'
-      many: '%{count} طلبات'
-      other: '%{count} طلبات'
-
+      zero: '%{count} الطلبات'
+      one: '%{count} الطلب'
+      two: '%{count} الطلبات'
+      few: '%{count} الطلبات'
+      many: '%{count} الطلبات'
+      other: '%{count} الطلبات'
 
     products_count:
-      zero: '%{count} سلعة'
-      one: '%{count} سلعة'
-      two: '%{count} سلع'
-      few: '%{count} سلع'
-      many: '%{count} سلع'
-      other: '%{count} سلع'
-
+      zero: '%{count} البضائع'
+      one: '%{count} المنتج'
+      two: '%{count} البضائع'
+      few: '%{count} البضائع'
+      many: '%{count} البضائع'
+      other: '%{count} البضائع'
 
     delivery_methods_count:
-      zero: '%{count} طريقة توصيل'
-      one: '%{count} طريقة توصيل'
-      two: '%{count} طرق توصيل'
-      few: 'طرق توصيل %{count}'
-      many: '%{count} طرق توصيل'
-      other: '%{count} طرق توصيل'
-
+      zero: '%{count} طرق التسليم'
+      one: '%{count} طرق التسليم'
+      two: '%{count} طرق التسليم'
+      few: '%{count} طرق التسليم'
+      many: '%{count} طرق التسليم'
+      other: '%{count} طرق التسليم'
 
     payment_methods_count:
-      zero: '%{count} طريقة'
-      one: '%{count} طريقة'
-      two: '%{count} طرق'
-      few: '%{count} طرق'
-      many: '%{count} طرق'
-      other: '%{count} طرق'
-
+      zero: '%{count} الطرق'
+      one: '%{count} الطرق'
+      two: '%{count} الطرق'
+      few: '%{count} الطرق'
+      many: '%{count} الطرق'
+      other: '%{count} الطرق'
 
     images_count:
-      zero: '%{count} صور'
-      one: '%{count} صور'
-      two: '%{count} صور'
-      few: '%{count} صور'
-      many: '%{count} صور'
-      other: '%{count} صور'
-
+      zero: '%{count} الصور'
+      one: '%{count} الصورة'
+      two: '%{count} الصور'
+      few: '%{count} الصور'
+      many: '%{count} الصور'
+      other: '%{count} الصور'
 
     omniauth_buttons:
       vkontakte: 'تسجيل الدخول إلى VK'
-      instagram: 'تسجيل الدخول إلى Instagram'
-      facebook: 'تفويض Facebook'
+      facebook: 'تفويض الفيسبوك '
 
     second_sidebar_headers:
+      operator_profile: مسؤول الموقع
       operator_settings: الإعدادات
-      operator_content: إدارة الموقع
-      products: السلع
+      operator_content: الإدارة
+      products: البضائع
+      operator_ecr: نقطة التركيز الرئيسية
 
     response_states:
-      no_response: 'لا توجد اجابة'
-      ignore: 'متجاهل'
+      no_response: 'لا توجد إجابة'
+      ignore: 'تجاهل'
     robots:
-      doc: 'إرشادات لrobots.txt'
-      reset: إعادة تعيين robots.txt
-      reset_confirmation: "هل أنت متأكد من إعادة تعيين robots.txt؟"
-      content: 'محتوى Robots.txt'
-      restore_default: 'استعادة ملف robots.txt إلى الوضع الافتراضي'
+      doc: 'تعليمات بشأن ملفات robots.txt'
+      reset: إعادة ضبط ملفات robots.txt
+      reset_confirmation: "هل أنت متأكد من رغبتك في إعادة تعيين ملفات rotots.txt؟"
+      content: 'محتوى ملفات Robots.txt'
+      restore_default: 'استعادة ملفات robots.txt إلى الوضع الرئيسي'
     notification_allowness:
-      "true": مسموح
-      "false": ممنوع
+      "true": مسموح به
+      "false": محظور
     placeholders:
       search: البحث
       created_at_from: من
       created_at_to: إلى
     errors:
-      js_missing_semicolon: لا تكفي فاصلة منقوطة في النهاية
+      js_missing_semicolon: لا توجد فاصلة منقوطة كافية في النهاية
 
     deliveries:
       any: أي
     payments:
       any: أي
-    workflow_states:
-      any: Любой
 
     workflow_state:
       delete: حذف
 
     mail_template:
-      cancel: إعادة ضبط كل التغييرات
-
-    locales:
-      ru: روسي
-      en: انجليزي
+      cancel: إعادة تعيين جميع التغييرات
 
     menu_view:
-      auto_html: 'عرض في القائمة تلقائياً. <a href="%{url}">تغيير</a>'
-      shown_in: عرض في عناصر القائمة
+      auto_html: 'يتم عرضها في القائمة تلقائيًا. <a href="%{url}">تغيير</a>'
+      shown_in: معروض في عناصر القائمة
       not_shown_html: 'غير معروض. <a href="%{url}">تغيير</a>'
     names:
       property:
@@ -254,220 +248,276 @@ ar_SA:
         color: الألوان
         brand: العلامات التجارية
     bells_scopes:
-      all: "الكل (%{count})"
-      unread: "غير مقروء (%{count})"
-      read: "مقروء (%{count})"
+      all: "الكل ()%{count}"
+      unread: "غير مقروء ()%{count}"
+      read: "مقروء ()%{count}"
 
     clients_scopes:
-      pending: "قيد الانتظار (%{count})"
-      accepted: "مقبول (%{count})"
-      rejected: "مرفوض (%{count})"
+      pending: "في انتظار ()%{count}"
+      accepted: "تم القبول ()%{count}"
+      rejected: "تم الرفض%{count}"
 
     topnavbar:
       notifications: الإشعارات
       new_vendor: إنشاء متجر جديد
       faq: الأسئلة الشائعة
-      profile: 'ملفي الشخصي'
-      vendors: 'متاجري (%{count})'
-      logout: الخروج
-      negative_balance: 'الرصيد: %{balance} يجب إعادة تعبئته'
+      profile: 'ملفي التعريفي'
+      vendors: 'متاجري ()%{count}'
+      logout: تسجيل الخروج
+      negative_balance: 'الرصيد: %{balance} يجب إعادة ملئها'
       positive_balance: 'الرصيد: %{balance}'
-      sms_balance: 'رصيد الرسائل النصية: %{balance}'
-      paid_to: 'التعريفة مدفوعة إلى: %{date}'
+      sms_balance: 'رصيد الرسائل القصيرة: %{balance}'
+      paid_to: 'التعريفة المدفوعة إلى: %{date}'
       need_paid: 'دفع التعريفة لنشر المتجر'
-      vendor_will_unpublish: 'دفع الخدمة حالاً. سيتم إيقاف المتجر قريباً'
+      vendor_will_unpublish: 'الدفع الفوري مقابل الخدمة. سيتم إيقاف المتجر قريبًا'
       vendor_was_unpublish: 'تم تعطيل المتجر %{date}'
       tariff_absent: دفع التعريفة لنشر المتجر
-      partner_program: برنامج الشركاء
-      edit_profile: تغيير جهات الاتصال وكلمة السر
+      partner_program: برنامج تابع
+      edit_profile: ملف التعريف
       new_shop: إنشاء متجر جديد
       subscriptions: الاشتراكات الشخصية
-      access_keys: 'الوصول إلى واجهة برمجة التطبيق'
+      access_keys: 'الوصول إلى واجهة برمجة التطبيقات'
 
     th:
+      slug_resources:
+        url_path: عنوان URL
+        page_type: نوع الصفحة
+        name: الاسم
+      warehouse_movements:
+        datetime: التاريخ والوقت
+        purchase_price: سعر الشراء
+      ecr_documents:
+        datetime: التاريخ والوقت
+        type: النوع
+        cashier: ماكينة تسجيل المدفوعات
+        details: التفاصيل
+        comment: تعليق
+        debit: مدين
+        credit: دائن
+      external_devices:
+        name: الاسم
+        ip: عنوان بروتوكول الإنترنت
+        port: المنافذ
+      drawers:
+        opened_at: بداية الدرج
+        closed_at: نهاية الدرج
+        open: مفتوح
+        close: إغلاق
+        state: الولاية
+        description: الوصف
+      quantity_unit:
+        title: اسم الوحدة
+        short: رمز الوحدة
+      nomenclatures:
+        name: العنصر
+        warehouses: المستودع
+        purchase_price: سعر الشراء
+        quantity: في المخزون
+        products: تم تعيين المنتجات
+      archived_css:
+        archive_css: CSS المؤرشف
+        operator: تم الأرشفة بواسطة
       sales_report:
-        good_vat_percent: معدل ضريبة القيمة المضافة، %
-        article: السلعة
+        good_vat_percent: معدل الضريبة، %
+        article: المقالة
         good_name: الاسم
         price: السعر
         quantity: الكمية
         total_price: المبلغ الإجمالي
       vendor_jobs:
-        id: المعرف
-        created_at: أنشئ
+        id: المعرِّف
+        created_at: تم الإنشاء
         state: الحالة
         title: الاسم
         progress: العملية
-        download: باقي
-        stats: إحصائيات
+        download: متبقي
+        stats: الإحصاءات
       transactions:
-        date: تاريخ العمل
-        amount: الكمية
+        date: تاريخ التشغيل
+        amount: المبلغ
         period: الفترة
         details: فك التشفير
       slug_redirects:
         path: الطريقة
-        resource: إعادة توجيه
-        last_at: آخر زيارة
+        resource: إعادة التوجيه
+        last_at: الزيارة الأخيرة
       roles:
-        resource_type: قسم من الموقع
-        can_read: قراءة
-        can_create: إنشاء
-        can_update: تحرير
-        can_delete: حذف
+        resource_type: قسم من الموقع الإلكتروني
+        can_read: القراءة
+        can_create: الإبداع
+        can_update: التحرير
+        can_delete: الحذف
       pickup_points:
         city: المدينة
         address: العنوان
         comment: تعليق
       not_founds:
-        last: آخر زيارة
+        last: الزيارة الأخيرة
         count: المحاولات
         path: الطريقة
-        info: المحيل / وكيل المستخدم
-        actions: الأفعال
+        info: المرجع/وكيل المستخدم
+        actions: الإجراءات
       members:
         name: الاسم
         contacts: جهات الاتصال
         role: الدور
-        sms: إشعارات الرسائل النصية
-        email: إشعارات البريد الالكتروني
+        sms: إشعارات الرسائل القصيرة
+        email: إشعارات البريد الإلكتروني
       bells:
         subject: العنوان
         text: الوصف
         datetime: التاريخ
       clients:
-        created_at: مسجل في
-        id: المعرف
+        actions: تحرير
+        created_at: تم التسجيل في
+        id: المعرِّف
         name: الاسم
-        phones: الهواتف
+        phones: الجوال
         emails: البريد الإلكتروني
-        orders_count: الطلبات
-        last_order: آخر طلب
+        orders_count: إجمالي الطلبات
+        last_order: الطلب السابق
         occupation: المهنة
         company_name: اسم الشركة
-        first_order: أول طلب
-        total_orders_price: 'مبلغ المشتريات'
+        first_order: الطلب الأول
+        total_orders_price: إجمالي الإنفاق
         category: الفئة
         rfm: RFM
       dictionaries:
         name: الاسم
         entities: العناصر
-        properties_used: المستخدمة في الخصائص
+        properties_used: تُستخدم في الخصائص
       dictionary_entities:
         title: العنوان
-        products_count: السلع
+        products_count: البضائع
         published_products_count: المنتجات المنشورة
-        archived_products_count: السلع المؤرشفة
-        actions: الأفعال
+        archived_products_count: البضائع المؤرشفة
+        actions: الإجراءات
         color: اللون
         order: الطلب
       product_secrets:
         id: المعرف / رمز البائع
         title: العنوان
-        warehouse: المخزن المصدّر
-        balance: بقايا المخزن
+        warehouse: مخزون المصدر
+        balance: بقايا المخزون
         quantity: الكمية
-        sellable: "مخفض؟"
-        showable: "معروض؟"
-        orderable: "مطلوب؟"
+        sellable: "هل تم البيع؟"
+        showable: "هل تم العرض؟"
+        orderable: "هل تم الطلب؟"
       shop:
         title: المتجر
         domain: المجال
-        products_count: السلع
-        created: تم إنشاؤها بواسطة
+        products_count: البضائع
+        created: تم الإنشاء بواسطة
         last_update: آخر تحديث للإعدادات
         orders_count: الطلبات
         operator: المشغل
-        operator_phone: هاتف المشغل
+        operator_phone: جوال المشغل
         operator_link: الدعم الفني
       carts:
-        created: أنشئ
-        changed: تغير
-        total_price: الثمن
+        created: تم الإنشاء
+        changed: تم التغيير
+        total_price: التكلفة
         city: المدينة
-        products: السلع
+        products: البضائع
       ms:
-        start: ابدأ
+        start: البدء
         time: الوقت
-        result: النتيجة
-        stats: إحصائيات
+        result: النتائج
+        stats: الإحصاءات
       products:
         image: الصورة
         desc: الوصف
         amount: الكمية
         price: السعر
         state: الحالة
+        item_name: اسم العنصر
+        vendor_code: رمز البائع
+        stock_quantity: الكمية
+        display: نشر
+        edit: تحرير
       properties:
         name: الاسم
-        in_use: مستخدم
+        in_use: المستخدم
       vendor_sms_log_entities:
         message: رسالة
-        phones: الهواتف
-        result: النتيجة
+        phones: الجوالات
+        result: النتائج
         date: التاريخ
       invoices:
         account_number: رقم الحساب
         date: التاريخ
         decryption: فك التشفير
-        to: إلى الحساب
-        amount: الكمية
+        to: الدخول إلى الحساب
+        amount: المبلغ
         status: الحالة
       cities:
-        locale: "المدينة (%{locale})"
-        pickup_points: نقاط الاصدار
+        locale: "المدينة ()%{locale}"
+        pickup_points: نقاط المشكلة
       client_categories:
         name: الاسم
+      branches:
+        name: اسم الموقع
+        cashier: اسم الحساب
+      cashiers:
+        name: الاسم
+        branch: الموقع
       currencies:
         currencies: العملات
         central_bank: البنك المركزي
-        your_currency: تسعيرتك
+        your_currency: السعر الخاص بك
+      orders:
+        order: الطلب
+        price: السعر
+        item: العنصر
+        location: الموقع
+        status: الحالة
+        refund: ""
     toggle_buttons:
       disable_with:
-        making_on: تشغيل..
-        making_off: ايقاف..
+        making_on: جارٍ التشغيل...
+        making_off: جارٍ إيقاف التشغيل..
     chevron_tooltips:
-      other: تحسين محركات البحث وغيره
+      other: تحسين محركات البحث وغيرها
       elements: عناصر الموقع
-      design_settings: "التصميم (HTML، CSS، الشعار، الخطوط)"
-      billing: التعريفة والدفع
+      design_settings: "التصميم (CSS، HTML، الشعار، الخطوط)"
+      billing: خطتي
       transactions: قائمة المعاملات
       settings_orders:       إعدادات الطلب
-      languages:             إعدادات اللغة
-      settings_others:       كتالوج الإعدادات أخرى
+      languages:             إعداد اللغة
+      settings_others:       كتالوج الإعدادات الأخرى
       settings_products:     إعدادات المنتج
-      tags:                  علامات
-      currencies:            معدلات التحويل
+      tags:                  العلامات
+      currencies:            أسعار الصرف
       menu_items:            القائمة
       content:               المحتوى
-      lookbooks:             كتب البحث
-      slider_images:         صورة لشريط التمرير
-      vendor_deliveries:     طرق التوصيل
+      lookbooks:             الكتالوجات
+      slider_images:         صور شريط التمرير
+      vendor_deliveries:     طرق التسليم
       vendor_payments:       طرق الدفع
-      integrations:          إلى قائمة الربط
-      integration_moysklad: تخصيص MyStock
-      blog_posts:            المشاركات الأخرى للمدونة
-      categories:            فئات المنتجات
+      integrations:          إلى قائمة عمليات التكامل
+      integration_moysklad:  تخصيص MyStock
+      blog_posts:            منشورات المدونة الأخرى
+      categories:            فئات المنتج
       products:              المنتجات
       clients:               العملاء
       translations:          اللغة والترجمات
       properties:            خصائص المنتج
-      dictionaries:          الدلائل
+      dictionaries:          الأدلة
       dictionary:            "المرجع '%{resource}'"
       members:               الفريق
-      coupons:               Скидочные купоны
       dictionary_dictionary_entities: "عناصر الدليل '%{resource}'"
-      mail_templates:        قوالب الرسائل والإشعارات
+      mail_templates:        قوالب الخطابات والإشعارات
       workflow_states:       حالات الطلبات
       order_conditions:      سير العمل
       coupons:               الرموز الترويجية (رموز الكوبونات)
       orders:                الطلبات
       content_pages:         صفحات النص
-      order_operator_filters: فلاتر الطلب
+      order_operator_filters: عوامل تصفية الطلب
       stock_log_entities:    سجل الاستيراد
-      settings:              إعدادات عامة
-      pages: إعدادات صفحات الموقع
+      settings:              الإعدادات العامة
+      pages: إعدادات صفحات موقع الويب
       css: الأنماط (CSS)
-      vendor_delivery:        طريقة التوصيل
+      vendor_delivery:        طريقة التسليم
 
     headings:
       bells:
@@ -476,14 +526,14 @@ ar_SA:
         title: موضع العنصر
       order_conditions:
         index: القواعد
-        edit: نحن نحرر القاعدة
+        edit: نقوم بتحرير القاعدة
         new: إضافة قاعدة
       top_banners:
-        edit: تحرير اللافتة العليا
+        edit: تحرير اللافتة العلوية
       asset_images:
         index: الصور
       stock_info:
-        title: بيانات من المخزن (MyStock)
+        title: البيانات من المخزون (MyStock)
       mail_template:
         client:
           edit: "تحرير القالب '%{key}' للعميل"
@@ -491,7 +541,7 @@ ar_SA:
         merchant:
           edit: "تحرير القالب '%{key}' للبائع"
           preview: "معاينة القالب '%{key}' للبائع"
-        index: قوالب الرسائل
+        index: قوالب الخطابات
       workflow_states:
         new: إضافة حالة طلب جديدة
         edit: تحرير حالة الطلب
@@ -499,14 +549,14 @@ ar_SA:
       slugs:
         index: مسارات تحسين محركات البحث
       ymls:
-        show: العمل مع سوق Yandex وكتالوج YML
+        show: العمل مع Yandex Market وYML Catalog
       redirects:
-        index: إعادات التوجيه ال301 الأولى
-        index_title: إعادات التوجيه النشطة
+        index: عملية إعادة توجيه رقم 301
+        index_title: عمليات إعادة التوجيه النشطة
         new: إعادة توجيه جديدة
         edit: تحرير إعادة التوجيه
       not_founds:
-        index: صفحات 404
+        index: صفحة رقم 404
       seo_block:
         title: تحسين محركات البحث
       menu_view:
@@ -514,97 +564,98 @@ ar_SA:
       clients:
         index: العملاء
         index_title: قائمة العملاء
-        edit: 'تحرير العميل #%{id}'
+        edit: 'تحرير العميل رقم %{id}'
         manager_comments: تعليقات المدراء
       translations:
-        edit: تعديل الترجمة
+        edit: تحرير الترجمة
       menu_items:
-        new: عنصر قائمة جديد
+        new: عنصر في قائمة جديدة
         index: إدارة القائمة
         edit: تحرير عنصر القائمة
-        top: القائمة العليا
-        bottom_left: القائمة أسفل اليسار
-        bottom_right: القائمة أسفل اليمين
+        top: القائمة العلوية
+        bottom_left: القائمة السفلية اليسرى
+        bottom_right: القائمة السفلية اليمنى
         MenuItemCategory: الفئة
         MenuItemDictionary: الدليل
         MenuItemDictionaryEntity: عنصر القاموس
         MenuItemPage: صفحة النص
-        MenuItemLink: الرابط المباشر
+        MenuItemLink: رابط مباشر
         MenuItemBlog: المدونة
-        MenuItemLookbook: كتاب البحث
+        MenuItemLookbook: الكتالوج
       carts:
-        index: سلات الطلبات
-        show: 'إضافة إلى السلة %{id}'
-        created_at: 'أنشئ — %{time}'
+        index: طلب السلال
+        show: 'إضافة إلى عربة التسوّق %{id}'
+        created_at: 'تم الإنشاء — %{time}'
       categories:
         index: الفئات
         edit: 'الفئة %{id}'
-        new: فئة رئيسية جديدة
-        new_sub: 'فئة فرعية في %{parent_category}'
+        new: فئة جذر جديدة
+        new_sub: 'الفئة الفرعية في %{parent_category}'
       content_pages:
         index: الصفحات
         index_title: الصفحات
         edit: تحرير صفحة نص
         new: إنشاء صفحة نص
       blog_posts:
-        index: المدونة (قسم الأخبار والمقالات)
+        index: مدونة (قسم الأخبار والمقالات)
         index_title: قائمة المنشورات
         edit: تحرير منشور
         new: إنشاء منشور
       coupons:
         index: الرموز الترويجية
-        new_import: تحميل الرموز
+        new_import: تنزيل الرموز
       dashboard:
         index_title: 5 خطوات لإطلاق متجر
       dictionaries:
-        index: الدلائل
+        index: الأدلة
         edit: تحرير الدليل
         new: إنشاء دليل
       dictionary_entities:
         index: 'عناصر الدليل %{name}'
         edit: 'تحرير عنصر مرجعي'
         new: 'إضافة عنصر مرجعي'
-        create: إنشاء العنصر
+        create: إنشاء عنصر
         list_title: قائمة العناصر
       invites:
-        list_title: "قائمة الدعوات (%{count})"
+        list_title: "قائمة الدعوات ()%{count}"
         invite_member: دعوة زميل في الفريق
       lookbooks:
-        index: كتب البحث
-        index_title: كتب البحث
+        index: الكتالوجات
+        index_title: الكتالوجات
         edit: تحرير الكتاب
-        new: كتاب بحث جديد
+        new: كتالوج جديد
       orders:
-        stock: المخزن
-        log_entities: المجلات
+        stock: المخزون
+        log_entities: المجلة
         manager_comments: تعليقات المديرين للعميل
-        items: قائمة الطلبات
-        show: 'الطلب %{id}'
-        new: الدفع
+        items: قائمة الطلب
+        show: 'الطلب%{id}'
+        new: إتمام عملية الشراء
         info: معلومات حول الطلب
         buyer: العميل
-        delivery: التوصيل
+        delivery: التسليم
         payment: الدفع
         misc: بالإضافة إلى
+        refund: ""
       products:
-        new: أضف منتج
+        new: إضافة منتج
         edit: تحرير المنتج
-        edit_union: تحرير خليط المنتجات
+        edit_union: تحرير مزيج من المنتجات
         edit_part: تحرير جزء من الاتصال
         photos: الصورة
-        part_photos: صور السلع
-        stats: إحصائيات المنتجات
-        category_index: "فئة المنتجات (%{count})"
-        vk_export: تصدير إلى Vkontakte.Ru
+        part_photos: صور البضائع
+        stats: إحصائيات المنتج
+        category_index: "فئة المنتج (%{count})"
+        vk_export: التصدير إلى Vkontakte.Ru
         vk_export_change_group_id: تم تحديث مجموعة التصدير.
         ms:
-          product_items: "خيارات المنتج (الأحجام، الألوان، إلخ.)"
+          product_items: "اختلافات المنتج (الأحجام، الألوان، إلخ)"
         ordinary:
-          product_items: "خيارات المنتج (الأحجام، الألوان، إلخ.)"
+          product_items: "اختلافات المنتج (الأحجام، الألوان، إلخ)"
         batch_actions:
-          select_categories: اختر فئات لمجموعة من المنتجات
-          select_tags: حدد علامات لمجموعة من المنتجات
-
+          select_categories: تحديد فئات لمجموعة من المنتجات
+          select_tags: تحديد علامات لمجموعة من المنتجات
+          select_products_tax: تحديد ضريبة لمجموعة من المنتجات
       properties:
         index: خصائص المنتج
         edit: تحرير الخاصية
@@ -612,9 +663,9 @@ ar_SA:
       selling:
         payment_method: نظام الدفع
         show: المبيعات والدفع
-        w1: WalletOne
-        install_w1: الاتصال بنظام الدفع Wallet One
-        notifications: إشعارات الطلبات الجديدة
+        w1: مجموعة WalletOne
+        install_w1: تسليم نظام الدفع بـ Wallet One
+        notifications: إشعارات الطلب الجديد
       #management:
         #settings:
           #index: Общие настройки
@@ -631,91 +682,93 @@ ar_SA:
         #instagram: Instagram
         #packaging: Упаковка
         #theme: Оформление
-        favicons_title: تحميل صور
+        favicons_title: تحميل الصور
         #main_page_seo: Продвижение главной страницы
         main_page_content: إعدادات الصفحة الرئيسية
         #main: Главное
         #mails: Настройка уведомлений
         #accessibility: Доступность
-        domain: عنوان الموقع
+        domain: عنوان الموقع الإلكتروني
         #other: Разное
         #products: Товары
         #extra_code: Дополнительный код
-        w1_widget: واجهة WalletOne أسفل الموقع
+        w1_widget: عنصر واجهة مستخدم WalletOne في الجزء السفلي من الموقع
         #filter: Фильтр
       subscriptions:
         index: الاشتراك
         list_title: الاشتراكات النشطة
         new: اشتراك جديد
       slider_images:
-        edit: تحرير اللافتة
+        edit: تحرير لافتة
         new: إنشاء لافتة
-        index: اللافتات
-        index_title: اللافتات
+        index: اللافتات الإعلانية
+        index_title: اللافتات الإعلانية
       vendor_deliveries:
-        index: التوصيل
-        index_title: طرق التوصيل
-        edit: تحرير التوصيل
-        new: إنشاء التوصيل
+        index: التسليم
+        index_title: طرق التسليم
+        edit: تحرير التسليم
+        new: إنشاء التسليم
       vendor_payments:
         index: طرق الدفع
         edit: تحرير طريقة الدفع
         new: إنشاء طريقة دفع
-        available_deliveries: طرق توصيل ملائمة
+        available_deliveries: طرق التسليم المتوافقة
+    check_inn:
+      flash: ""
     selling:
       w1:
-        notification_address: قم بتعيين العنوان التالي لإشعارات الدفع في إعدادات أمين الصندوق على Walletone
-        authorized_until: مفوض إلى
+        notification_address: تعيين العنوان التالي فيما يخص إشعارات الدفع في إعدادات الصراف على المحفظة
+        authorized_until: معتمد من
         unknown: غير معروف
-        expired: منتهية الصلاحية!
-        not_authorized: غير مفوض
-        authorize: تسجيل الدخول في Wallet One
+        expired: انتهاء مدة الصلاحية
+        not_authorized: غير مصرح به
+        authorize: تسجيل الدخول إلى Wallet One
       yandex_kassa:
-        notification_address: عنوان الإشعار
-        check_address: عنوان التحقق
-        success_url: عنوان النجاح
-        fail_url: عنوان الفشل
+        notification_address: عنوان URL لـ Aviso
+        check_address: التحقق من عنوان url
+        success_url: نجاح عنوان URL
+        fail_url: فشل عنوان URL
       rbk_money:
-        notification_address: إشعار الدفع
+        notification_address: تنبيه الدفع
       instagram:
-        callback_url: روابط إعادة توجيه صالحة
+        callback_url: عناوين URL صالحة لإعادة التوجيه
     settings:
-      in_use: 'مستخدم من قبل:'
+      in_use: 'المستخدم بواسطة:'
       reserve_domain: 'عنوان الحجز:'
-      go_to_category: الذهاب إلى صفحة الفئة
+      go_to_category: الانتقال إلى صفحة الفئة
     vendor_delivery:
-      api_access: الوصول إلى واجهة برمجة تطبيق خدمة التوصيل
-      empty: لا يوجد توصيل
+      api_access: الوصول إلى واجهة برمجة التطبيقات الخاصة بخدمة التسليم
+      empty: لا يوجد تسليم
     asset_images:
-      title: مستخدم في محرري النصوص
+      title: مستخدم في محررات النصوص
       empty: لا توجد صور
     vendor_sms_log_entity:
-      empty: لم يتم إرسال رسائل نصية
+      empty: لم يتم إرسال رسالة نصية قصيرة
     sales_report:
       generate: إنشاء
       total_price: 'المبلغ الإجمالي: %{money}'
-      total_vat_out: 'إجمالي ضريبة القيمة المضافة (Out): %{money}'
+      total_vat: ''
       total_purchase_price: 'إجمالي مبلغ الشراء: %{money}'
     bells:
-      read: مألوف
-      empty: إنه فارغ
+      read: تم التعريف
+      empty: فارغة
     billing:
       app_link:
-        title: "نحن فخورون بمشروعنا ، وبالتالي في أسفل كل صفحة من صفحات المتجر، هناك نقش ينص بأن المتجر أنشئ على نظامنا."
-        help: "لكن إذا يزعجك، يمكنك إخفاؤه مقابل %{price} شهرياً"
-        disable: "إخفاء العنوان \"أنشئ على %{brand_name_e}\""
+        title: "نحن فخورون بمشروعنا، وبالتالي في أسفل كل صفحة من صفحات المتجر، يوجد علامة تشير إلى أنه تم إنشاء المتجر على منصتنا."
+        help: "ولكن إذا أزعجك ذلك، يمكنك إيقاف تشغيله %{price} كل شهر."
+        disable: "إخفاء العنوان \"مشغل بواسطة %{brand_name_e}\""
         disable_button: Off
         disabled: "معطل حتى %{date}"
-        disable_confirm: "المبلغ %{price} لكل شهر. هل تريد تعطيله؟"
+        disable_confirm: "التكلفة هي %{price} شهريًا. هل تريد التعطيل؟"
       invoice_form:
-        title: 'تعبئة رصيد الحساب:'
-        submit: ادفع
-        amount_hint: "المجموع كامل (%{brand_currency})"
+        title: 'تعبئة الحساب:'
+        submit: الدفع
+        amount_hint: "إجمالي المجموع ()%{brand_currency}"
       invoices_list:
         row:
-          submit: ادفع
-          archived: مؤرشف
-          paid: مدفوع
+          submit: الدفع
+          archived: تم الأرشفة
+          paid: تم الدفع
       publication:
         header: نشر المتجر
         callout: 'عند إزالة المتجر من المنشور، سيتلقى المستخدمون الرسالة التالية:'
@@ -728,253 +781,288 @@ ar_SA:
         submit: الرابط
         current: تعريفتك الحالية
       show:
-        paid_to: "دفعت حتى"
-        shop_locked: المتجر مغلق. ادفع الأجرة لنشر المتجر.
-        expired: "انتهت فترة الخدمة (%{paid_to})"
+        paid_to: "مدفوعة حتى "
+        shop_locked: التخزين مقفل. ادفع سعر التذكرة لنشر المتجر.
+        expired: "انتهت فترة الخدمة ()%{paid_to}"
         transactions: المعاملات
         cards: البطاقات المرتبطة
         callout_expired:
-          title: خدمة منتهية الصلاحية
-          body: 'سيتم إغلاق المتجر قريباً. <br /> ادفع الأجرة بسرعة أو حدد سعر مختلف.'
+          title: الخدمة منتهية الصلاحية
+          body: 'سيتم إغلاق المتجر قريبًا. <br />ادفع الفاتورة على الفور أو حدد سعرًا مختلفًا.'
         callout_archived:
-          title: 'المتجر في الأرشيف'
-          body: 'لاسترجاع المتجر تحتاج أن تدفع تعريفة'
+          title: 'المتجر موجود في الأرشيف'
+          body: 'يلزم دفع تعريفة لاستعادة المتجر'
         disk_space_used: 'مساحة القرص المستخدمة:'
         invoices: الحسابات
       sms_packs:
-        sent_sms_log: سجل الرسائل النصية المرسلة
-        pack_count: '%{pack_count} رسائل نصية'
-        buy:  "اشتري بقيمة %{price}"
+        sent_sms_log: تم إرسال سجل الرسائل القصيرة
+        pack_count: '%{pack_count} الرسائل النصية القصيرة'
+        buy:  "اشترِ مقابل %{price}"
     cache:
       http_cache_expires_in:
-        hint: 'فترة التخزين المؤقت للصفحة في المتصفح (بالدقائق). <br/> يتم استخدامه في رأسية HTTP "Cache-control max-age =". الرقم من 1-60 دقيقة. اضبط على "0" لإلغاء التخزين المؤقت للصفحة على جانب المتصفح.'
+        hint: 'فترة التخزين المؤقت للصفحة في المتصفح (بالدقائق). <br/>يتم استخدامه في رأس HTTP "الحد الأقصى لعمر التحكم في التخزين المؤقت=". الرقم من 1 إلى 60 دقيقة. قم بالتعيين إلى 0 لإلغاء التخزين المؤقت لصفحة الويب على جانب المتصفح.'
       callout:
-        body: يتم إنشاء الرأسية <code>Strong ETag HTTP</code> تلقائياً لكل صفحة.
+        body: بالنسبة لكل صفحة، يتم إنشاء رأس <code>Strong ETag HTTP</code> تلقائيًا.
       clear: 'مسح ذاكرة التخزين المؤقت'
     cities:
       empty: قائمة المدن فارغة. قم بإنشائها من خلال تحميل نقاط الإصدار.
-      load: تحميل
-      pickup_points: "جميع نقاط الاصدار (%{count})"
-      delete_all: 'محو المدن'
-      delete_all_confirm: 'وضع جميع المدن في السلة؟'
+      load: تنزيل
+      pickup_points: "جميع نقاط الإصدار ()%{count}"
+      delete_all: 'حذف المدن'
+      delete_all_confirm: 'ضع جميع المدن في سلة المحذوفات؟'
     client_categories:
       form:
         th:
           price_kind: نوع السعر
-          available: متاح
+          available: متوفر
       new_submit: إضافة فئة عميل
+    branches:
+      created: 'تم إنشاء الفرع'
+      updated: 'تم تحديث الفرع'
+      new_submit: فرع جديد
+    cashiers:
+      created: 'تم إنشاء الصراف'
+      updated: 'تم تحديث الصراف'
+      new_submit: الصراف الجديد
+      close_drawer: إغلاق الدرج
+      open_drawer: فتح الدرج
+      drawers: الأدراج
+      documents: المعاملات
+      drawers_empty: الأدراج فارغة
+      documents_empty: المستندات فارغة
     clients:
-      empty: لا يوجد عملاء
+      edit: 'العميل: %{name}'
+      add_customer: إضافة عميل
+      empty: لم يتم العثور على عملاء
       rfm_details:
         recency:
-          title: "الحداثة - قديم، مقدار الوقت منذ آخر عملية شراء"
-          body: '%{days} أيام وأقدم'
-          other: "أخرى <span class=\"text-nowrap\">(%{days} أيام بحد أقصى)</span>"
+          title: "الترويج المستمر (R) — قديم، مقدار الوقت منذ آخر عملية شراء"
+          body: '%{days} أيام أو أقل'
+          other: "أخرى <span class=\"text-nowrap\"> (بحد أقصى %{days} أيام) </span>"
         frequence:
-          title: "التردد — التردد، إجمالي عدد المشتريات"
-          other: أخرى
-          body: '%{value} مشتريات وأكثر'
-          zero: '%{value} - %{max_orders_count} مشتريات'
+          title: "التكرار (F) — التكرار وإجمالي عدد المشتريات"
+          other: الآخرين
+          body: '%{value} المشتريات والمزيد'
+          zero: '%{value} - %{max_orders_count} الشراء'
         monetary:
-          title: "المالية — المال، المبلغ الإجمالي للمشتريات"
-          other: أخرى
-          body: '%{value} وأكثر'
-          zero: "(أقصى مبلغ %{value})"
+          title: "النقد (M) — المال، إجمالي مبلغ المشتريات"
+          other: الآخرين
+          body: '%{value} وغير ذلك الكثير'
+          zero: "(الحد الأقصى للمبلغ %{value})"
       rfm_segments_info:
         th:
-          segment: مقطع
+          segment: الشريحة
           frm: RFM
           strategy: الاستراتيجية
           clients: العملاء
-        empty: لا يوجد عملاء مماثلون
+        empty: لا يوجد مثل هؤلاء العملاء
       rfm_stats:
-        title: تقسيم الحداثة والتردد والنقد (RFM)
+        title: تقسيم RFM
         more: المزيد
-        recount: عد من جديد
+        recount: إعادة الإحصاء
         date: 'بيانات التحليلات صالحة في: %{date}'
       settings:
-        subscriptions: 'اشتراكات العميل'
-        rfm: 'تحليلات الحداثة والتردد والنقد (RFM)'
-        signup: 'إعدادات التسجيل'
-        client_categories: 'فئات العملاء'
-        archive: "أرشيف العملاء (%{count})"
-      signup_settings:
-        title: إعدادات تسجيل وتفويض العميل
+        subscriptions: 'اشتراكات العملاء'
+        rfm: 'تحليل RFM'
+        client_settings: 'إعدادات العميل'
+        client_categories: 'فئات العميل'
+        archive: "أرشيف العميل ()%{count}"
+      client_settings:
+        authorization: التفويض
+        registration: التسجيل
+        cabinet: الحساب الشخصي
         add_occupation: إضافة مهنة
     color:
-      subtitle: تتوفر هذه الإعدادات في عنصر التصميم التفاعلي.
+      subtitle: تتوفر هذه الإعدادات في مكون التصميم التفاعلي.
     content_pages:
       form:
-        page: الصفحة
+        page: الصفحة|
         seo: تحسين محركات البحث
-      show_page: 'العرض على الموقع'
+      show_page: 'عرض في الموقع'
       add_button: 'إضافة صفحة نص'
     coupon_images:
       coordinates: إحداثيات رمز الشهادة على الصورة
       add_button: إضافة
     coupons:
       expires_at: "حتى %{expires_at}"
-      coupon_groups: "مجموعة الكوبونات %{count}"
-      create_processes: "إنشاء مجموعة الكوبونات %{count}"
+      coupon_groups: "مجموعة قسائم %{count}"
+      create_processes: "إنشاء مجموعة قسائم %{count}"
       no_used: غير مستخدم
       unlimited: المدة غير محدودة
-      use: استخدام
-      use_confirm: 'تحديد هذا الكوبون على أنه مستخدم؟'
+      use: الاستخدام
+      use_confirm: 'هل تريد وضع علامة على هذه القسيمة على أنها مستخدمة؟'
       form:
         placeholders:
           description: 'تعليق'
         labels:
-          use_count: 'عدد الكوبونات المنشأة'
+          use_count: 'عدد القسائم التي تم إنشاؤها'
         hints:
-          use_count: "عدد الكوبونات المنشأة. من 1 إلى %{count}."
-          minimal_products_count: 'اتركه فارغاً لأي كمية'
-          is_check_address: 'إذا تم وضع طلب على عنوان العميل، لن يتم استخدام الكوبون'
-        restrictions: 'القيوض المفروضة على الفئات والمنتجات:'
+          use_count: "عدد القسائم التي تم إنشاؤها. من 1 إلى %{count}."
+          minimal_products_count: 'اتركه فارغًا لإضافة أي مبلغ'
+          is_check_address: 'في حالة تم تقديم طلب على عنوان العميل، فلن يتم تطبيق القسيمة'
+        restrictions: 'القيود المفروضة على الفئات والمنتجات:'
+        minimal_order_total_price: 'الحد الأدنى لإجمالي سعر الطلب'
       search: 'البحث'
-      reset: إعادة تعيين
+      reset: إعادة التعيين
       actions:
-        import: 'تحميل الكوبونات مجمعة من CSV'
-        add_coupon: 'إضافة كوبون'
-        add_coupon_group: 'إضافة مجموعة كوبونات'
-      empty: لم يوجد شيء
+        import: 'قسائم التنزيل المجمع من CSV'
+        add_coupon: 'إضافة قسيمة'
+        add_coupon_group: 'إضافة مجموعة قسائم'
+      empty: لم يتم العثور على شيء
       import_form:
         labels:
           file: 'ملف CSV'
-          skip_headers: 'تخطى العنوان'
-        example: "عينة <a href=\"%{url}\">ملف CSV</a>"
+          skip_headers: 'تخطي العنوان'
+        example: "نموذج ملف <a href=\"%{url}\"></a>CSV"
       show:
-        title: "مجموعة الكوبونات %{code}"
-        discount: 'خصم: %{discount}'
+        title: "مجموعة قسائم %{code}"
+        discount: 'الخصومات: %{discount}'
         discount_type: 'نوع الخصم: %{discount_type}'
         validity: 'الموعد النهائي: %{validity}'
-        used_count: 'عدد مرات استخدام الكوبون: %{used_count}'
-        use_count: 'لا يزال %{use_count}'
-        coupons_count: "مجموع الكوبونات في المجموعة: %{count}"
-        used_coupons_count: "مستخدم منها: %{count}"
-        list: 'قائمة الكوبونات CSV'
+        used_count: 'عدد مرات استخدام القسيمة: %{used_count}'
+        use_count: '%{use_count} لا يزال'
+        coupons_count: "إجمالي القسائم في المجموعة: %{count}"
+        used_coupons_count: "ومن بين هذه الأنواع المستخدمة: %{count}"
+        list: 'قائمة قسائم CSV'
         unlimited: 'غير محدود'
     css:
-      colors_link: 'الألوان والخطوط'
+      archives: الأرشيف
+      colors_link: 'الألوان والخط'
       form:
         labels:
           custom_style_format: 'التنسيق'
-      result: 'النتيجة في  CSS'
+      result: 'النتيجة في CSS'
     delivery_time_slots:
+      close: إلغاء
       time: "من %{from} إلى %{to}"
-      from: من&nbsp;
-      to: إلى&nbsp;
-      default: الافتراضي
+      from: من &nbsp;
+      to: إلى &nbsp;
+      default: الرئيسي
       edit:
         title: 'تحرير وقت خدمة البريد السريع'
         add_submit: 'إضافة فترة'
         save_submit: حفظ
         copy_submit: 'نسخ'
         labels:
-          delivery_time_slots_limit: 'عدد الفترات المعروضة في الطلب'
+          delivery_time_slots_limit: 'عدد الفترات الزمنية المعروضة بالترتيب'
         rules:
-          title: قواعد الفترات الزمنية
+          title: قواعد التشغيلات الزمنية
           add_submit: إضافة قاعدة
     currency:
-      currencies: 'معدلات التحويل'
+      currencies: 'أسعار الصرف'
     digital_key_import:
-      result: استيراد النتيجة
+      result: نتيجة الاستيراد
       state: الحالة
-      total_count: عدد السطور
-      processed_count: تمت معالجتها
+      total_count: إجمالي الخطوط
+      processed_count: تمت المعالجة
       form:
-        title: تحميل ملف CSV. يجب أن يحتوي الجدول على عمود 'code' مع قائمة من المفاتيح الإلكترونية.
-        submit: 'تحميل'
-        confirm: 'سيتم إتلاف جميع المفاتيح القديمة (قيم المفاتيح في الطلبات ستحفظ). هل تريد الاستمرار؟'
+        title: تنزيل ملف CSV. يجب أن يحتوي الجدول على عمود "رمز" مع قائمة بالمفاتيح الإلكترونية.
+        submit: 'تنزيل'
+        confirm: 'سيتم إتلاف جميع المفاتيح السابقة (سيتم حفظ قيم المفاتيح في الأوامر). هل تريد المتابعة؟'
     domain:
-      placeholder: 'مجال إضافي، مثلاً magazin.ru'
+      placeholder: 'مجال إضافي، على سبيل المثال magazin.ru'
       add_domain_alias: 'إضافة مجال إضافي'
-      header_title: عنوان الموقع واسمه
-      is_published: 'نشر؟'
-      view: معاينة
+      header_title: عنوان واسم الموقع الإلكتروني
+      is_published: 'هل تم النشر؟'
+      view: عرض
       instruction: '%{icon} دليل إعداد DNS'
-      current_operator_url: "العنوان الحالي للوحة التشغيل:&nbsp;"
-      current_home_url: 'العنوان الحالي للموقع:'
+      current_operator_url: "العنوان الحالي للوحة المشغل:&nbsp;"
+      current_home_url: 'العنوان الحالي (المجال) للموقع:'
       form:
         suggested_domain:
           label: 'مجال جديد (عنوان الموقع)'
-          hint: 'مجال تخطط لاستخدامه في المستقبل. سيرتبط متجرك بهذا المجال تلقائياً عندما تقوم بإعداد DNS.'
-      pending_domain_binding: 'ربط المجال المتوقع: %{link}'
-      additional_domains: مجالات إضافية
-      subdomain: "عنوان تقني (احتياطي) في المجال %{domain_zone}"
+          hint: 'المجال الذي تخطط لاستخدامه في المستقبل. سينتقل متجرك تلقائيًا إلى هذا المجال بمجرد إعداد DNS.'
+      pending_domain_binding: 'المجال المتوقع لربط: %{link}'
+      additional_domains: المجالات الإضافية
+      subdomain: "العنوان الفني (الاحتياطي) في المنطقة %{domain_zone}"
     extra_html:
       navs:
         head: 'في نهاية <code>&lt;head&gt;</code>'
         body: 'في نهاية <code>&lt;head&gt;</code>'
         footer: 'قبل <code>&lt;footer&gt;</code>'
     files:
-      settings_favicons: 'الشعار والأيقونات المفضلة'
-      robots: 'robots.txt'
-      asset_images: 'صور للمحتوى'
+      settings_favicons: 'الشعارات والوجهات'
+      robots: 'ملفات robots.txt'
+      asset_images: 'مكتبة الصور'
     filter:
-      example: مثال لفلتر
-      properties_link: 'ترتيب الخاصية'
+      example: مثال على التصفية
+      properties_link: 'طلب الخاصية'
       callout:
-        body: "ضبط %{link} &nbsp; المعروض في الفلتر"
+        body: "تكوين %{link} &nbsp; المعروض في عامل التصفية"
     footer:
-      middle_html: 'كود HTML بين أجزاء القائمة السفلية'
-      app_link: 'العنوان "أنشئ على %{brand_name_e}"'
-      walletone: 'تخصيص واجهة WalletOne'
-      instagram: 'مصدر صور انستغرام'
+      middle_html: 'رمز HTML بين كتل القائمة السفلية'
+      app_link: 'العنوان "مدعوم من %{brand_name_e}"'
+      walletone: 'تخصيص عنصر واجهة مستخدم WalletOne'
+      instagram: 'موجز الصور على Instagram'
     header:
       form:
         labels:
           name: 'اسم المتجر'
         hints:
-          name: 'مستخدم في عنوان الموقع، علامة العنوان وفي الحروف'
-          is_logo_link: 'إذا قمت بالتعطيل، لن يؤدي الشعار إلى الرابط'
-          has_client_cabinet: 'يستطيع العملاء رؤية طلباتهم، وتستطيع منحهم خصومات فردية'
-          title: 'اكتب وصف قصير عن المتجر. أشر إلى العنوان الفعلي إن وجد.'
-          contacts: 'نقترح هنا كتابة الهاتف والبريد الالكتروني فقط. ستصبح جهات الاتصال قابلة للنقر تلقائياً'
-      see_also: 'انظر أيضاً:'
-      top_banner: 'الواجهة في الرأسية (رسالة ترويجية)'
+          name: 'يُستخدم في عنوان الموقع وفي علامة العنوان وفي الحروف'
+          is_logo_link: 'إذا قمت بالتعطيل، فلن يرتبط الشعار'
+          has_client_cabinet: 'يمكن للعملاء عرض طلباتهم، ويمكنك تقديم خصومات فردية لهم.'
+          title: 'اكتب هنا وصفًا مختصرًا للمتجر. حدد العنوان الفعلي، إن وجد'
+          contacts: 'نوصي هنا بكتابة الهاتف والبريد الإلكتروني فقط. ستصبح جهات الاتصال قابلة للنقر تلقائيًا'
+      see_also: 'انظر أيضًا:'
+      top_banner: 'إنشاء لافتة'
     top_banners:
       link_url:
-        label: 'الرابط للصفحة التي ستفتح عندما تضغط على الرسالة'
-        hint: 'ليس ضروري'
-      subtitle:  هذه رسالة تظهر على رأسية الموقع على كل صفحة. انها ملائمة للرسائل النصية والترويجية.
+        label: 'رابط الرسالة'
+        hint: 'غير ضروري'
+      subtitle:  هذه رسالة تظهر في رأس الموقع في كل صفحة. من الملائم استخدامه للرسائل القصيرة والعروض الترويجية.
     history_paths:
       heading: 'تاريخ الزيارات'
-      warning: جميع المسارات معروضة هنا ما عدا الصفحة الرئيسية.
+      warning: يتم عرض جميع المسارات هنا باستثناء الصفحة الرئيسية.
     https:
       allow: 'HTTPS مثبت ومتصل بالعنوان %{url}'
       callout:
-        title: 'تحتاج إلى تثبيت شهادة HTTPS'
+        title: 'يلزم تثبيت شهادة HTTPS'
         body: |-
-          مجانية للتجار المشتركين
-      instruction: 'تعليمات لشراء شهادة SSL'
+          مجاني للتجار المشتركين
+      instruction: 'تعليمات شراء شهادة SSL'
     languages:
-      used_on_site: مستخدم في الموقع
-      default_locale: اللغة الافتراضية
-      select_default_locale: 'استخدم كافتراضي'
-      setup: 'تخصيص الترجمة'
-      disable: Off
-      enable: On
+      used_on_site: يُستخدم في الموقع
+      default_locale: اللغة الرئيسية
+      select_default_locale: 'تعيين كلغة رئيسية'
+      setup: 'تخصيص الترجمات'
+      disable: تعطيل
+      enable: تمكين
       first_callout:
         body: |
-          <p>يرى المستخدمون الموقع باللغة المضبوطة في جهازهم والتي يرسلها المتصفح في رأسية HTTP. إذا لا يدعم الموقع تلك اللغة، سيختار اللغة الافتراضية.</p>
-          <p>بالإضافة، يستطيع المستخدم تغيير اللغة بنفسه. </p>
+          <p> يظهر الموقع للمستخدمين باللغة التي تم تكوينها على نظامهم ويتم عرضها بواسطة المستعرض في رأس HTTP. إذا كانت هذه اللغة لا تدعم الموقع، يتم تعيين اللغة على "الرئيسية". </p>
+          <p>بالإضافة إلى ذلك، يمكن للمستخدم تبديل اللغة من تلقاء نفسه.  </p>
       second_callout:
         body: |
-          <p>جميع الكلمات والعبارات المستخدمة في الموقع يمكن تغييرها في قسم "تخصيص الترجمة".</p>
-          <p>إذا تحتاج لدعم لغات أخرى، تواصل مع الدعم.</p>
+          <p> يمكن تغيير جميع الكلمات والعبارات المستخدمة على الموقع في قسم "تخصيص الترجمات". </p>
+          <p> إذا كنت بحاجة إلى دعم لغات أخرى، فاتصل بالدعم. </p>
+    product_vat_groups:
+      new_submit: جديد
+      updated: تم تحديث المجموعة الضريبية للمنتج
+      created: تم إنشاء المجموعة الضريبية للمنتج
+      destroyed:  تم إتلاف المجموعة الضريبية المنتج
     legal:
-      subtitle: المعلومات مستخدمة للفواتير وعند العمل مع سجلات النقد على الإنترنت.
+      product_vat_groups: تحرير المجموعات الضريبية للمنتج
+      subtitle: تُستخدم المعلومات لإعداد الفواتير وعند التعامل مع ماكينات تسجيل النقد عبر الإنترنت.
       payment_data: تفاصيل الفاتورة
-      contract_offer: "العرض %{id} من %{registered_at}"
-      pdf_download: (تحميل بصيغة PDF)
-      coupon_registration: 'مسجل باستخدام رمز ترويجي:'
+      contract_offer: "العرض N%{id} من %{registered_at}"
+      pdf_download: (تنزيل بصيغة PDF)
+      coupon_registration: 'مسجل بواسطة الرمز الترويجي:'
       shop_is_template: هذا المتجر عبارة عن قالب.
       form:
         labels:
-          legal_name: 'الاسم الرسمي للمنظمة'
-          invoice_stamp_comment: 'تعليق إلى الحساب'
-          invoice_stamp_image: 'صورة ختم وتوقيع للفواتير'
-          remove_invoice_stamp_image: 'حذف الصورة؟'
+          legal_name: 'الاسم التجاري المسجل'
+          legal_address: ''
+          legal_city: ''
+          inn_text: ''
+          receipt_top_text: ''
+          receipt_bottom_text: ''
+          invoice_stamp_comment: 'التعليق على الحساب'
+          invoice_stamp_image: 'طابع الصورة والتوقيع'
+          remove_invoice_stamp_image: 'هل تريد حذف الصورة؟'
+          legal_phone_text: ''
+          legal_email_text: ''
+          social_media: ''
         hints:
           invoice_stamp_comment: 'معروض في الأعلى. حدد الهواتف والمعلومات الإضافية هنا.'
         include_blank: 'غير محدد'
@@ -982,132 +1070,138 @@ ar_SA:
     lookbooks:
       images_download:  'تحميل الصور'
       images: الصورة
-      add_button: 'إضافة كتاب بحث'
-      new_warning: "أنشئ كتاب بحث، ثم قم بإضافة الصور."
-      images_empty: لا توجد صور في كتاب البحث. قم بإضافة البعض.
+      add_button: 'إضافة كتالوج'
+      new_warning: "قم بإنشاء كتالوج، ثم أضف الصور."
+      images_empty: لا توجد صور في كتاب الكتالوج بعد. قم بتحميل القليل منها.
       popover:
         body: |
-          كتاب البحث هو كتالوج من الصور أنشئت لإظهار صور أصلية صنعت من ملابس المصمم واكسسوارات من علامة تجارية أو أكثر.
-          "هذا حل جاهز لمظهرك، لكل يوم، فعالية، أو مناسبة خاصة."
+          كتالوج الصور هو عبارة عن كتالوج مكون من صور تم إنشاؤه لعرض الصور الأصلية التي تم إنشاؤها من ملابس وإكسسوارات مصممة تحت علامة تجارية واحدة أو عدة علامات تجارية.
+          "هذا حل جاهز لمظهرك، لكل يوم، لفعالية منفصلة أو مناسبة خاصة."
     mail_templates:
       system:
-        callout: "السماح باستقبال إشعارات النظام (رصيد سلبي، مدفوعات الدخل، إلخ)"
+        callout: "السماح باستلام إشعارات المنصة (الرصيد السلبي، مدفوعات الدخل، وما إلى ذلك)"
       last_checkup:  'آخر تحقق في: %{last_checkup_at}'
-      success_changed: تغير البريد الالكتروني
-      no_confirmed: غير مؤكد
-      example: 'عينة نقل بيانات'
+      success_changed: تم تغيير البريد الإلكتروني
+      no_confirmed: لم يتم التأكيد
+      example: 'نقل بيانات العينة'
       mail_header:
-        from: "من:&nbsp;"
-        to: "إلى:&nbsp;"
-        subject: "سمة الرسالة:&nbsp;"
-      table_header: قالب
+        from: "من :&nbsp; "
+        to: "إلى :&nbsp;"
+        subject: "موضوع الخطاب:&nbsp;"
+      table_header: القالب
       receivers:
-        title: 'قائمة مستلمين الإشعارات الخاصة بالبائع'
-        phones: 'يتم استلام الإشعارات على الأرقام التالية في هذه اللحظة:'
-        phones_empty: لا يستلم أي أحد رسائل نصية حالياً.
-        emails: 'وبرائد الكترونية مماثلة:'
-        email_empty: لا يستلم أي أحد رسائل بريد الكتروني حالياً.
+        title: 'قائمة مستلمي الإخطارات الخاصة بالبائع'
+        phones: 'يتم استلام الإشعارات على الأرقام التالية في الوقت الحالي:'
+        phones_empty: لا يتلقى أي شخص حاليًا إشعارات الرسائل القصيرة.
+        emails: 'ورسائل البريد الإلكتروني هذه:'
+        email_empty: لا يتلقى أي شخص حاليًا إشعارات عبر البريد الإلكتروني.
       settings:
-        current_vendor_email: عنوان المرسل الحالي عند إشعار العملاء
-        add_spf: "لتغيير المجال قم بإضافة %{link} في الإعدادات عند مزود المجال"
-        spf: 'التحقق من إطار سياسة المرسل'
-        check: تحقق
+        current_vendor_email: عنوان المرسل الحالي عند إخطار العملاء
+        add_spf: "لتغيير مجال أضف %{link} ذلك في الإعداد في موفر المجال"
+        spf: 'فحص SPF'
+        check: التحقق
       edit:
         preview: 'معاينة'
         template:
           name: "اسم القالب:&nbsp;"
-          sms:  قالب رسالة نصية
-          email: قالب بريد إلكتروني
+          sms:  قالب الرسائل القصيرة
+          email: قالب البريد الإلكتروني
       index:
-        sms_log: 'سجل الرسائل النصية المرسلة'
+        sms_log: 'تم إرسال سجل الرسائل القصيرة'
         tabs:
-          settings: 'بريدك الإلكتروني'
-          clients: 'إشعارات العميل'
-          merchants: 'إشعارات المدراء'
+          settings: 'عنوان بريدك الإلكتروني'
+          clients: 'إشعارات العملاء'
+          merchants: 'إشعارات المدير'
           system: 'إشعارات النظام'
         callout:
-          title: 'من يستلم الإشعارات في الفريق؟'
+          title: 'من هو الزميل الذي يتلقى الإشعارات؟'
           body: "انظر في الصفحة&nbsp; %{link}"
           operator_members_link: 'إدارة الفريق'
       show:
         change: 'تغيير'
-        edit: 'تحرير قالب'
+        edit: 'تحرير القالب'
         tabs:
-          sms: 'الرسائل النصية'
-          html: 'البريد الالكتروني (HTML)'
-          txt: 'البريد الالكتروني (TXT)'
-        message_length: 'طول الرسالة: %{length} رموز.'
+          sms: 'الرسائل النصية القصيرة'
+          html: 'البريد الإلكتروني (HTML)'
+          txt: 'البريد الإلكتروني (TXT)'
+        message_length: 'طول الرسالة: %{length} الرموز.'
     not_founds:
       form:
         include_blank: 'أي'
-        submit: 'تصفية'
+        submit: 'عامل التصفية'
         hints:
-          content_type: 'نوع محتوى الطلب'
+          content_type: 'طلب نوع المحتوى'
           response_state: 'الحالة'
-      empty: لا توجد صفحات مماثلة.
+      empty: لا توجد مثل هذه الصفحات.
     order_operator_filters:
-      add_button: 'إضافة فلتر'
+      add_button: 'إضافة فئة الطلب'
     order_page:
       currency: 'العملة'
       form:
         include_blank:
-          package_category: '(لم يتم تحديد الفئة)'
+          package_category: '(لم يتم تعيين الفئة)'
           public_offer_page: '- غير مثبت -'
         hints:
-          show_header_buttons_in_cart: 'زر "الدفع" سيتم تكراره في رأسية السلة'
+          show_header_buttons_in_cart: 'سيتم تكرار الزر “السداد مع الخروج” في رأس سلة المحذوفات'
           sorted_cart: 'حقيبة تسوق قابلة للفرز'
           show_full_basket_count: 'الافتراضي هو عدد العناصر'
+          custom_max_order_similar_products_count: "الحد الأقصى - %{max}"
+          custom_max_order_items_count: "الحد الأقصى - %{max}"
     slug_resources:
-      callout: "يمكن ضبط المسارات في صفحات تحرير الموارد (المنتج، الفئة، صفحة النص، إلخ.)"
+      callout: "يمكن تكوين المسارات على صفحات تحرير الموارد (المنتج، الفئة، صفحة النص، إلخ)"
     orders:
-      payment_discount: 'خصم على الدفع عبر %{payment_type}'
+      source: 'النوع: %{source}'
+      payment_discount: 'خصم على الدفع بواسطة %{payment_type}'
       buyer:
         title: العميل
-        email_empty: البريد الإلكتروني غير محدد
+        email_empty: لم يتم تحديد البريد الإلكتروني
         phone_empty: الهاتف غير محدد
-        comment: 'تعليق على الطلب:'
+        comment: 'التعليق على الطلب:'
       settings:
         duplicate: 'تكرار الطلب'
-        mail_template: 'قالب رسالة العميل'
+        mail_template: 'قالب خطاب العميل'
         order_public_url: 'صفحة الطلب على الموقع'
+        notify_online_kassa: 'إخطار kassa عبر الإنترنت'
       delivery:
         city: المدينة
         address: العنوان
         postal_code: الرمز البريدي
-        delivery_time: وقت التوصيل
-        yandex_delivery: توصيل Yandex
-        agent: وكيل التوصيل
-      custom_delivery_price: 'ثمن التوصيل'
-      transmitted_data: 'البيانات المرسلة'
+        delivery_time: وقت التسليم
+        yandex_delivery: التسليم بواسطة Yandex
+        cdek_delivery: التسليم بواسطة CDEK
+        agent: وكيل التسليم
+        country: البلد
+      custom_delivery_price: 'تكلفة التسليم'
+      transmitted_data: 'البيانات المنقولة'
       browser_data: 'بيانات المتصفح'
-      total_vat: ""
-      total_price: المجموع
+      total_vat: الضريبة
+      total_price: الإجمالي
       send_email: 'إرسال بالبريد'
-      reset_downloaded_count: 'إعادة تعيين عدد التنزيلات (مستخدم %{current} من %{total})'
-      quantity: 'الرصيد:'
-      delivery_price_empty: تكلفة الشحن غير المعمول بها
-      delivery_price_warning: لا تستطيع دفع الطلب حتى يتم تحديد تكلفة التوصيل.
+      reset_downloaded_count: 'إعادة تعيين عدد التنزيلات (%{current}المستخدمة من %{total})'
+      quantity: 'الرصيد'
+      delivery_price_empty: لم يتم تحديد تكلفة الشحن
+      delivery_price_warning: لا يمكن دفع قيمة الطلب حتى يتم تحديد رسوم التسليم.
       payment_url: 'صفحة دفع طلب العميل'
       hints:
         order_payment:
-          state: 'انتباه! عند تغيير حالة الدفع يدويًا، لن يعمل سير العمل والإشعارات.'
+          state: 'انتبه! عند تغيير حالة الدفع يدويًا، لا يعمل سير العمل والإشعارات.'
       placeholders:
         search_form:
           query: 'اسم المنتج أو بيانات العميل'
-      created_at_from: 'تاريخ الإنشاء'
+      created_at_from: 'تواريخ الطلب'
       order_conditions: 'العمليات التجارية'
       workflow_states: 'حالات سير العمل'
-      operator_filters: 'فلاتر الطلب'
+      operator_filters: 'عوامل فلترة الطلبات'
       mail_templates: 'إشعارات الطلب'
-      archive: "أرشيف الطلبات (%{count} قطع)"
-      export: 'تصدير الطلبات (CSV)'
-      export_order_items: 'تصدير بضاعة الطلب (CSV)'
+      archive: "أرشيف الطلبات (%{count} قطعة)"
+      export: 'طلبات التصدير (CSV)'
+      export_order_items: 'عناصر طلب التصدير (CSV)'
       moysklad: 'الطلب في MyStock'
-      view_all: 'معاينة الجميع'
+      view_all: 'عرض الكل'
       empty: لا توجد طلبات.
-      empty_with_parameters: لا توجد طلبات بهذه المعطيات.
-      client_notify: إشعار العميل&nbsp;
-      send_order_url: 'إرسال الرابط لصفحة الطلب'
+      empty_with_parameters: لا توجد أوامر بمثل هذه المعلمات.
+      client_notify: إخطار العميل&nbsp;
+      send_order_url: 'إرسال رابط إلى صفحة الطلب'
       send_payment_url: 'إرسال رابط الدفع'
       sales_report: 'تقرير المبيعات'
       sales_reports: 'تقارير المبيعات'
@@ -1115,162 +1209,177 @@ ar_SA:
         title: "الطلب %{id}"
         subtitle: "من %{created_at}"
       stock:
-        title: "احجز على %{brand_name_e}"
-        remote: احتياطي MyStock
+        title: "محجوز في %{brand_name_e}"
+        remote: محجوزات MyStock
         unreserved: 'خارج الحجز:'
+      form:
+        additional_information: معلومات إضافية
+        tabs:
+          select_from_existing_products: الاختيار من المنتجات الحالية
+          enter_new_products: إدخال منتجات جديدة
+        add_new_product: إضافة منتج
     payment_cards:
-      untie: 'فك الربط'
-      untied: 'غير مربوط'
+      untie: 'إلغاء الارتباط'
+      untied: 'غير مرتبط'
 
     vendor_payment:
-      fix: إصلاح
-      no_deliveries: طريقة الدفع هذه غير مرتبطة بأي طريقة تسليم.
+      fix: الإصلاح
+      no_deliveries: طريقة الدفع هذه غير متصلة بأي طريقة تسليم.
       w1:
         available_payments: طرق الدفع المتاحة
 
     dictionary:
       empty: الدليل فارغ
-      empty_properties: لا توجد خواص
-      delete: حذف الدليل
+      empty_properties: لا توجد خصائص
+      delete: حذف القاموس
       add_element: إضافة عنصر
       elements: العناصر
       select_type:
-        title: اختر نوع الدليل الذي يتم إنشاؤه.
+        title: حدد نوع الدليل الذي تم إنشاؤه.
         DictionaryColor: 1. الألوان
-        Dictionary: 2. قائمة العناصر (مثلاً الأحجام أو العلامات التجارية)
+        Dictionary: 2. قائمة العناصر (مثل الأحجام أو العلامات التجارية)
 
     property:
-      delete: حذف الخاصية
-      ms_link: الربط مع MyStock
-      use_in_filter: "هل تريد استخدامه في الفلتر؟"
+      delete: إزالة خاصية
+      ms_link: الارتباط بـ MyStock
+      use_in_filter: "هل تريد استخدامه في عامل التصفية؟"
       add: إضافة خاصية
       select_type:
-        title: اختر نوع الخاصية التي يتم إنشاؤها.
+        title: حدد نوع الخاصية التي سيتم إنشاؤها.
     ms:
-      sync: 'التزامن مع MyStock:'
-      product_card: 'خريطة المنتجات'
-      stock: 'MS: واجهة برمجة التطبيق المتبقية'
-      product_not_linked: هذه القطعة ليست موصولة بالمخزن!
-      start_import: ابدأ الاستيراد الآن
-      syncing_not_set: التزامن غير مضبوط. يرجى تحديد اسم المستخدم وكلمة السر.
+      sync: 'مزامنة MyStock:'
+      product_card: 'MS: خريطة المنتج'
+      stock: 'MS: واجهة برمجة التطبيقات المتبقية'
+      product_not_linked: هذا المنتج غير مرفق بالمخزون!
+      start_import: بدء الاستيراد الآن
+      syncing_not_set: لم يتم تكوين المزامنة. تحديد اسم المستخدم وكلمة المرور.
     text_blocks:
-      add_button: 'إضافة مجموعة نص'
+      add_button: 'إضافة كتلة نصية'
     product:
+      reserve_quantity: ''
+      quantity: ''
+      change_sort_options_for_product: 'تغيير فرز الاختلافات لـ: %{product}'
+      quantity_unit: "الوحدة: %{unit_link}"
+      nomenclature: "بند المخزون: "
+      select_nomenclature: 'تحديد عنصر المخزون'
       text_blocks: معلومات إضافية
       title: المنتج
       video: الفيديو
-      public_shop_link: المنتج متصل
-      editing: تحرير
+      public_shop_link: المنتج عبر الإنترنت
+      editing: التحرير
       archived: في الأرشيف
-      default: الخيار الافتراضي
-      uuid: المعرف العالمي الموحد (UUID)
-      not_linked: لا يوجد مخزن
-      not_synced_time: لم يتم تحديد الوقت
-      found_count: المنتجات على الطلب
-      properties: خواص السلع
-      custom_attributes: الخواص
-      custom_attributes_empty: لا توجد خواص منشأة.
-      linked_custom_attributes_empty: لا توجد خواص منشأة. قم بإضافة خاصية عبر MyStock.
+      default: الخيار الرئيسي
+      uuid: UUID
+      not_linked: لا يوجد مخزون
+      not_synced_time: لم يتم ضبط الوقت
+      found_count: المنتجات حسب الطلب
+      properties: خصائص البضائع
+      custom_attributes: السمات
+      custom_attributes_empty: لا توجد خصائص محددة.
+      linked_custom_attributes_empty: لا توجد خصائص محددة. إضافة ميزات عبر MyStock.
       show_filter: فلتر
-      delete: إزالة العنصر
-      no_delete: لا يمكن حذف عنصر مؤرشف أو عنصر من my stock
-      delete_confirm: "حذف العنصر دائماً؟ (سيبقى في تاريخ الطلبات)"
+      delete: إزالة عنصر
+      no_delete: لا يمكن حذف العنصر المؤرشف أو حذفه من المخزون الخاص بي
+      delete_confirm: "هل تريد إزالة العنصر بشكل دائم؟ (سوف يظل في سجل الطلبات)"
       last_change: 'آخر تعديل: %{time}'
-      search: البحث عن طريق السلع
+      search: البحث حسب البضائع
       reindex_stats: إعادة الفهرسة
-      product_items_count: '%{count} خيارات'
-      authorized_as: مفوض باعتباره
+      product_items_count: '%{count} الخيارات'
+      authorized_as: معتمد باعتباره
       list_view: 'قائمة المنتجات'
-      blocks_view: 'السلع في المجموعات'
+      blocks_view: 'البضائع في كتل'
       union_item:
-        is_sale: تخفيض
+        is_sale: البيع
         is_published: الرؤية
       union:
         custom_attributes: الخصائص العامة
       ms:
         code: الرمز
         custom_attributes_empty: غائب
-        info_title: معلومات ممتدة من MyStock
+        info_title: معلومات موسعة من MyStock
         product_title: المنتج
-        product_card: بطاقة المنتج
+        product_card: منتج البطاقة
         weight: الوزن
-        volume: الحجم
+        volume: مستوى الصوت
         product_items: الخيارات
         product_items_empty: غائب
         sale_note: تحديد السعر في MyStock للبيع
         article: رمز البائع
-        actual_time: المعلومات ذي صلة في الوقت الحالي
+        actual_time: المعلومات ذات صلة في ذلك الوقت
         shared_info:
-          imported: مستورد
-          balance: متبقي
+          imported: تم الاستيراد
+          balance: المتبقي
           reserve: الحجز
-          stock: المخزن
+          stock: المخزون
           article: رمز البائع
-          stock_dump: مهملات المخزن
-          consignment_dump: مهملات الشحنة
+          stock_dump: تفريغ المخزون
+          consignment_dump: تفريغ الشحنة
       export:
-        start: بدأ التصدير
-        generate: أنشئ
-        no_file: لم ينشأ بعد
-        size: 'الحجم: %{size}'
-        date: 'أنشئ: %{date}'
+        start: بدء التصدير
+        generate: إنشاء
+        no_file: لم يتم إنشاؤه بعد
+        size: 'الحجم %{size}'
+        date: 'تم الإنشاء — %{date}'
     products:
-      adding: 'إضافة السلع'
+      select_products_tax:
+        product_vat: الضريبة المخصصة
+        product_vat_group: المجموعة الضريبية
+      adding: 'إضافة بضائع'
       categories_select:
-        title: فئات المنتجات
-        breadcrumbs: فئة التنقل التفصيلي
+        title: فئات المنتج
+        breadcrumbs: الفئة الرئيسية (إذا كان المنتج ينتمي إلى أكثر من فئة واحدة)
         product_item: يمكن تحرير الفئات فقط في المنتج الأساسي
       header:
-        is_manual_published: 'نشر؟'
-        preview: 'معاينة'
+        is_manual_published: 'نشر'
+        preview: 'عرض'
       other:
         show_other_products:
-          title: سلع أخرى
-          popover: معروض في صفحة المنتج في صور صغيرة أسفل وصفها.
-          callout: 'هذه المجموعة لها العنوان التالي في صفحة المنتج:'
+          title: السلع الأخرى
+          popover: تُعرض على صفحة المنتج في صور صغيرة تحت وصفها.
+          callout: 'تحمل هذه الكتلة العنوان التالي في صفحة المنتج:'
           label: 'وضع العرض'
         show_similar_products:
-          title: اشتري مع هذا المنتج
-          popover: معروض في أسفل الصفحة مع بطاقات كبيرة
-          callout: 'على صفحة المنتج، هذه المجموعة لها العنوان التالي:'
+          title: قم بشراء هذا المنتج أيضًا
+          popover: تُعرض أسفل الصفحة ببطاقات كبيرة.
+          callout: 'في صفحة المنتج، تحمل هذه الكتلة العنوان التالي:'
           label: 'وضع العرض'
-      price_kinds_link: 'تحديد أنواع السعر'
+      price_kinds_link: 'تعيين أنواع الأسعار'
       tabs:
-        common: 'الوصف'
+        common: 'تفاصيل العنصر'
         extra: 'بالإضافة إلى'
         seo: 'تحسين محركات البحث'
-        other: 'سلع أخرى'
+        other: 'السلع الأخرى'
         moysklad: 'MyStock'
       text_blocks:
-        add_button: 'إضافة مجموعة نص'
-        tags: علامات
-      digital_keys_import: 'تنزيل الملف مع المفاتيح'
-      coupon_images: 'قوالب الشهادات'
-      archive:  في الأرشيف (التعديل غير ممكن)
+        add_button: 'إضافة كتلة نصية'
+        tags: العلامات
+      digital_keys_import: 'تنزيل ملف به مفاتيح'
+      coupon_images: 'قوالب الشهادة'
+      archive:  في الأرشيف (لا يمكن التحرير)
       new_product: منتج جديد
       moysklad:
         attributes: المواصفات
-        product_title: "في المخزن: '%{title}'"
+        product_title: "في المخزون: '%{title}'"
       range: نطاق السعر
       shared:
-        show: إظهار
+        show: عرض
       id: 'المنتج #%{id}'
       ordinary:
-        stock_title: "في المخزن: '%{stock_title}'"
-        total_quantity: 'يتم تعيين بقايا البضائع بشكل فردي لكل خيار.'
+        stock_title: "في المخزون: '%{stock_title}'"
+        total_quantity: 'يتم تعيين باقي البضائع بشكل فردي لكل خيار.'
         add_item: 'إضافة خيار'
       union:
-        auto_calculation_quantity: 'محسوب تلقائياً'
+        auto_calculation_quantity: 'يتم حسابها تلقائيًا'
         different_prices: نطاق السعر
       block:
         is_manual_published: 'هل نشرت المنتج؟'
         more: المزيد
-      has_subcategories_with_products: 'لا توجد منتجات في هذه الفئة، لكن لديها فئات فرعية:'
+      has_subcategories_with_products: 'لا توجد منتجات في هذه الفئة، ولكنها تحتوي على فئات فرعية:'
       linked_categories:
-        help: يتم تعيين وأخذ الفئات من moysklad.ru
-        empty_help: لم يتم تحديد فئة. يتم تعيين وأخذ الفئات من moysklad.ru
-      load_image: 'تحميل صور'
-      list_view_unknown: "نوع غير معروف في القائمة %{list_view}"
+        help: يتم تعيين الفئات وأخذها من moysklad.ru
+        empty_help: لم يتم تحديد فئة. يتم تعيين الفئات وأخذها من moysklad.ru
+      load_image: 'تحميل الصور'
+      list_view_unknown: "عرض_قائمة أنواع غير معروفة %{list_view}"
       row:
         article: 'رمز البائع'
         is_manual_published: 'هل نشرت المنتج؟'
@@ -1279,121 +1388,127 @@ ar_SA:
       search_form_content:
         query: 'اسم المنتج أو وصفه'
       archives:
-        title: 'السلع المؤرشفة'
-        all: "جميع السلع"
+        title: 'البضائع المؤرشفة'
+        all: "جميع البضائع"
         query: 'اسم المنتج أو وصفه'
       select_categories:
-        add: 'إضافة سلع لهذه الفئة:'
-        remove: 'إزالة السلع من الفئات:'
+        add: 'إضافة بضائع إلى الفئة:'
+        remove: 'إزالة البضائع من الفئات:'
       select_tags:
-        add: 'إضافة علامات للسلع:'
-        remove: 'إزالة علامات من السلع:'
+        add: 'إضافة علامات إلى البضائع:'
+        remove: 'إزالة العلامات من البضائع:'
     tags:
       add_button: 'إضافة علامة'
     slider_images:
       alive: نشط
       archive: الأرشيف
       add: 'إضافة صورة'
-      subtitle: شريط التمرير هو عبارة عن مجموعة مقسمة إلى صفحات من الصور معروضة في الجزء العلوي من الصفحة الرئيسية للموقع.
+      subtitle: شريط التمرير عبارة عن مجموعة من الصفحات تحتوي على صور معروضة أعلى الصفحة الرئيسية للموقع.
     apps:
-      under_construction: في التطوير
+      under_construction: قيد التطوير
       refresh: تحديث التطبيقات
     carts:
       buyer: العميل
-      seen_last_time: آخر مرة كانت
+      seen_last_time: المرة الأخيرة كانت
       chart_data:
-        carts: السلات
-        declined: مرفوض
+        carts: سلال المحذوفات
+        declined: تم الرفض
         done: مكتمل
     custom_attributes:
-      not_created: لم تقم بإنشاء ملف
-      create: إنشاء خاصية
-      show_all: 'إظهار جميع الخصائص (%{count})'
+      not_created: لم تقم بإنشاء ملف تعريف.
+      create: إنشاء ميزة
+      show_all: 'إظهار جميع %{count}المواصفات'
     registration:
       title: تسجيل المشغل
-      by_invite: '(بناء على دعوة من %{vendor})'
+      by_invite: '(بدعوة من %{vendor})'
     domains:
-      not_connected: المجال غير متصل بعد.
+      not_connected: هذا المجال غير متصل بعد.
       go_to_shop: 'الذهاب إلى المتجر %{name}'
-      shop_not_connected_html: "لم يتم إرفاق أي متجر إلى هذا المجال '<b>% {domain}</b>'"
+      shop_not_connected_html: "إلى هذا المجال '<b>% {domain}</b>' لم يتم إرفاق أي متجر بعد."
       empty: لا توجد مجالات إضافية
     login:
-      already_registered: "هل سجلت بالفعل؟"
-      auth: التفويض لمالكي المتجر
+      already_registered: "هل سبق لك التسجيل؟"
+      auth: تصريح لمالكي المتاجر
       no_shop_yet: "لا يوجد متجر بعد؟"
-      already_has_shop: "هل لديك متجر؟"
-      register_operator: سجل بدون متجر
-      register: سجل
-      invited: "عن طريق دعوة؟"
+      already_has_shop: "هل لديك متجر بالفعل؟"
+      register_operator: التسجيل بدون متجر
+      register: التسجيل
+      invited: "هل سجلت عن طريق الدعوة؟"
       no_account: "لا يوجد حساب؟"
-      logged_in_with: 'أنت مسجل الدخول بحساب <br /><b>%{name}</b>.'
-      continue_logged: 'الاستمرار بهذا الاسم..'
+      logged_in_with: 'لقد قمت بتسجيل الدخول بالفعل.<br /><b>%{name}</b>.'
+      continue_logged: 'المتابعة تحت هذا الاسم..'
       accept_invite: 'قبول الدعوة'
 
-      forgot_password: "هل نسيت كلمة السر؟"
-      restore_password: استعادة
+      forgot_password: "هل نسيت كلمة المرور؟"
+      restore_password: الاستعادة
     slug_redirects:
-      empty: لا يوجد إعادة توجيه مثبتة
+      empty: لم يتم تثبيت أي عمليات إعادة توجيه
+    recommended_products:
+      title: 'المنتجات الموصى بها'
+      callout: |
+        تقوم هذه الصفحة بتحرير قائمة المنتجات الموصى بها للمدونة وعربة التسوق.</br> 
+        لإضافة منتجات موصى بها لمنتج معين (منشور في مدونة). انتقل إلى صفحة تحرير المنتج (منشور في مدونة).
     blog_post:
-      prev_post: المشاركة السابقة
-      next_post: المشاركة التالية
+      prev_post: المنشور السابق
+      next_post: المنشور التالي
       status:
         active: 'نشط'
         hidden: 'مخفي'
       form:
+        recommended_products: المنتجات الموصى بها
         tabs:
-          content: مشاركة في المدونة
+          content: منشور في المدونة
           seo: تحسين محركات البحث
       new_submit: 'إضافة منشور'
     subscription_email:
       export: 'تصدير إلى CSV'
     show_subscription_email:
-      title: 'هل ترغب في جمع رسائل البريد الإلكتروني؟'
-      tooltip: 'جمع رسائل البريد الإلكتروني للعملاء المحتملين للمزيد من نشر المعلومات الترويجية'
+      title: 'هل تريد جمع عناوين البريد الإلكتروني؟ '
+      tooltip: 'جمع عناوين البريد الإلكتروني للعملاء المحتملين يتيح توزيع المزيد من الإعلانات والمعلومات الترويجية'
       empty:  لم يشترك أحد بعد.
     client:
-      found_count: العملاء الموجودون
+      found_count: العملاء الذين تم العثور عليهم
       export: تصدير إلى CSV
       phones:
-        title: الهواتف
-        empty: لا يوجد هاتف
+        title: الجوالات
+        empty: لا يوجد رقم جوال
       emails:
-        title: البرائد الالكترونية
+        title: رسائل البريد الإلكتروني
         empty: لا يوجد بريد إلكتروني
     order:
-      found_count: الأوامر عند الطلب
+      found_count: الطلبات عند الطلب
       create: إنشاء طلب
-      items: قائمة الطلبات
-      overall_items: مجموع السلع
-      delivery_price: ثمن التوصيل
-      payment_link: رابط إلى الدفع للعميل
+      items: قائمة الطلب
+      overall_items: إجمالي السلع
+      delivery_price: تكلفة التسليم
+      payment_link: رابط الدفع الخاص بالعميل
       created_at: 'تم إنشاء الطلب — %{time}'
-      will_cancel_at: 'إلغاء تلقائي — %{time}'
+      will_cancel_at: 'الإلغاء التلقائي — %{time}'
       will_cancel_at_tooltip: 'تاريخ الإلغاء التلقائي'
-      external_id: 'رقم خارجي — <strong>%{external_id}</strong>'
+      external_id: 'الرقم الخارجي — <strong>%{external_id}</strong>'
       send_payment_link: 'إرسال للدفع'
-      duplicate: مكرر
+      duplicate: تكرار
       unknown_time: الوقت غير معروف
-      no_such_order: لا يوجد طلب مماثل
+      no_such_order: لا يوجد مثل هذا الطلب
       unknown_state: حالة غير معروفة
-      amocrm_export: تصدير إلى (AmoCRM (CSV
-      client_phones: 'هواتف العميل: %{phones}'
+      amocrm_export: التصدير إلى AmoCRM (CSV)
+      client_phones: 'جوالات العملاء: %{phones}'
       actions:
         accept: تم قبول الطلب
-        done: تم اكتمال الطلب
+        done: اكتمل الطلب
         cancel: إلغاء
         cancel_order: إلغاء الطلب
         cancel_confirm: "هل تريد إلغاء الطلب؟"
       labels:
         reserved_badge: محجوز
         reserved: محجوز
-        local_reserved: "محجوز على %{brand_name_e}"
-        remote_reserved: محجوز على MyStock
+        local_reserved: "محجوز في %{brand_name_e}"
+        remote_reserved: محجوز في MyStock
         not_reserved: غير محجوز
-        reserve: الحجز في المخزن
+        reserve: محجوز في المخزون
         show_ms_order: عرض الطلب في MyStock
       buttons:
-        accept_and_deliver: قبول وإرسال للتسليم
+        accept_and_deliver: القبول والإرسال للتسليم
         accept: قبول
       data:
         client: العميل
@@ -1402,107 +1517,107 @@ ar_SA:
         phone: الهاتف
         city: المدينة
         address: العنوان
-        comment: تعليق على الطلب
-        delivery_name: طريقة التوصيل
+        comment: التعليق على الطلب
+        delivery_name: طريقة التسليم
         payment_method: طريقة الدفع
         payment_external_id: "رقم الحساب في %{agent}"
-        delivery_state: حالة التوصيل
+        delivery_state: حالة التسليم
         delivery_agent_state: "حالة الطلب في %{agent}"
         agent: الوكيل
-        agent_notified: تم إشعار الوكيل
-        agent_notify_state: "حالة عملية الإشعار %{state}"
+        agent_notified: تم إخطار الوكيل
+        agent_notify_state: "الحالة الخاصة بعملية الإخطار %{state}"
         external_id: رقم الطلب الخارجي
         delivery_tracking_id: "تتبع رقم الطلب في %{agent}"
-        ip: عنوان IP
-        ip_location: مكان IP
-        user_agent: وكيل المستخدم
+        ip: عنوان بروتوكول الإنترنت
+        ip_location: موقع بروتوكول الإنترنت
+        user_agent: وكيل مستخدم
     stock_log_entities:
       state: الحالة
-      period: المهلة
-      stats: إحصائيات
+      period: زمن التداخل
+      stats: الإحصاءات
     shop:
       create: إنشاء متجر
-      creation_title: يتم إنشاء متجر
-      w1_registration: يتم إنشاء محفظة في WalletOne
+      creation_title: إنشاء متجر
+      w1_registration: إنشاء محفظة في WalletOne
       yours_title: متاجرك
     password_reset:
-      title: استعادة كلمة السر
-      get_password: الحصول على كلمة السر
-      remembered_password: "تذكر كلمة السر؟"
-      email_instruction_html: 'تم إرسال بريد إلكتروني إلى <b>%{login}</b>به تعليمات استعادة كلمة السر'
-      phone_instruction_html: 'تم إرسال الرمز السري إلى الهاتف <b>%{login}</b>'
-      wait_for_email: انتظر الرسالة التي بها تعليمات لاستعادة كلمة المرور
-      pincode_received: "هل وصل الرمز؟"
+      title: استعادة كلمة المرور
+      get_password: الحصول على كلمة المرور
+      remembered_password: "هل تتذكر كلمة المرور؟"
+      email_instruction_html: 'تم إرسال بريد إلكتروني إلى تعليمات استعادة <b>%{login}</b> كلمة المرور'
+      phone_instruction_html: 'تم إرسال رقم التعريف الشخصي إلى الهاتف <b>%{login}</b>'
+      wait_for_email: انتظر الخطاب الذي يحتوي على تعليمات لاستعادة كلمة المرور
+      pincode_received: "هل استلمت رقم التعريف الشخصي؟"
     categories:
       create: فئة جديدة
       create_subcategory: فئة فرعية جديدة
-      main: الفئة للصفحة الرئيسية
-      archived: فئة مؤرشفة
-      archive_confirm: "هل تريد أرشفة فئة للأبد؟"
-      in_nested_categories: "فئات الشركات التابعة (%{count})"
-      not_contain_products: لا توجد منتجات في هذه الفئة مباشرة.
-      product_saved: '<a href="%{backurl}">تم حفظ المنتج %{name} بنجاح</a>'
-      note: 'تسمح لك الفئات بتقسيم المنتجات إلى أقسام.'
-      this: 'معاينة الفئة على الموقع'
-      add_button_title: 'إضافة منتج لهذه الفئة'
-      archive: "أرشيف الفئات (%{count})"
+      main: فئة الصفحة الرئيسية
+      archived: الفئة المؤرشفة
+      archive_confirm: "هل تريد أرشفة فئة إلى الأبد؟"
+      in_nested_categories: "فئات الشركات التابعة ()%{count}"
+      not_contain_products: لا توجد منتجات في هذه الفئة مباشرةً.
+      product_saved: '<a href="%{backurl}">تم %{name} حفظ المنتج بنجاح</a>'
+      note: 'تتيح لك الفئات تقسيم المنتجات إلى أقسام.'
+      this: 'عرض الفئة على الموقع'
+      add_button_title: 'إضافة منتج إلى هذه الفئة'
+      archive: "أرشيف الفئات ()%{count}"
       active: الفئات النشطة
-      products_without_categories: "المنتجات دون فئة (%{count})"
+      products_without_categories: "المنتجات بدون فئة ()%{count}"
       google_product_category: |
-        هذا المعطى مستخدم لتصدير الفئة إلى كتالوج فيسبوك. </br>
-        استخدم القيم من القائمة <a href="http://www.google.com/basepages/producttype/taxonomy-with-ids.ru-RU.xls">تصنيف منتجات Google</a>
+        تُستخدم هذه المعلمة لتصدير الفئة إلى كتالوج facebook. </br> 
+        استخدام القيم من قائمة تصنيف منتجات <a href="http://www.google.com/basepages/producttype/taxonomy-with-ids.ru-RU.xls">Google </a>
     category_page:
       form:
-        header: قائمة المنتجات في الفئة
+        header: عرض المنتج
         hints:
-          category_product_columns: 'عدد أعمدة المنتجات'
-          category_product_rows: 'عدد صفوف المنتجات'
-          show_next_resource_in_list: 'ستعرض الفئة رابط للفئة التالية.'
+          category_product_columns: 'أعمدة المنتج'
+          category_product_rows: 'صفوف المنتج'
+          show_next_resource_in_list: 'ستعرض الفئة رابطًا للفئة التالية.'
     dashboard:
-      graph_period: أوامر لمدة 3 أشهر
+      graph_period: الطلبات لمدة 3 أشهر
     menu_items:
-      vendor_blog_path: 'صفحة المدونة (قائمة المنشورات)'
+      vendor_blog_path: 'صفحة المدونة (قائمة النشر)'
       form:
         hints:
-          custom_title: 'اسم عنصر القائمة'
+          custom_title: 'اسم العنصر في القائمة'
       empty: لا توجد عناصر في القائمة
-      current_link: "يؤدي الرابط من عنصر القائمة هذه إلى &rarr;"
-      add_button: 'إضافة عنصر للقائمة'
+      current_link: "من عنصر القائمة هذا، يؤدي الرابط إلى &rarr;"
+      add_button: 'إضافة عنصر إلى القائمة'
       is_menu_top_desktop_sticky:
-        title: 'قائمة ثابتة'
-        tooltip: 'عند التمرير للأسفل، ستبقى القائمة دائماً في الأعلى'
+        title: 'قائمة مثبتة'
+        tooltip: 'عند التمرير لأسفل ستظل القائمة دائمًا في الأعلى'
       auto_menu:
         disable: 'تعطيل القائمة التلقائية'
-        enable: 'تفعيل القائمة التلقائية'
+        enable: 'تمكين القائمة التلقائية'
       callout:
-        title: 'القائمة تتكون تلقائياً'
+        title: 'يتم تكوين القائمة تلقائيًا'
         body: |+
-          <p>يتم عرض الفئات العليا مع المنتجات المنشورة في القائمة العلوية.</p>
-          <p>تعرض القائمة السفلية روابط إلى الصفحات النصية.</p>
-          <p>قم بتعطيل الوضع التلقائي إذا كنت ترغب في تخصيص عناصر القائمة بنفسك.</p>
+          <p> يتم عرض أعلى الفئات مع المنتجات المنشورة في القائمة العلوية.  </p>
+          <p> تعرض القائمة السفلية روابط إلى صفحات نصية. </p>
+          <p> قم بتعطيل الوضع التلقائي إذا كنت تريد تخصيص عناصر القائمة بنفسك. </p>
 
-      new_menu_item_link: 'ما سيشير إليه عنصر القائمة الجديد:'
+      new_menu_item_link: 'ما الذي سيشير إليه عنصر القائمة الجديد:'
     order_conditions:
       titles:
-        event: '1. عندما يحدث حدث للطلب:'
-        condition: '2. وإذا طابق الطلب الشروط التالية:'
-        action: '3. إذاً نفذ العمل:'
-      never: أبداً
-      stats: إحصائيات
-      no_used: لم يتم تطبيق هذه القاعدة.
+        event: '1. عند حدوث حدث لطلب ما:'
+        condition: '2. وإذا كان الطلب يستوفي الشروط التالية:'
+        action: '3. ثم قم بتنفيذ الإجراء:'
+      never: لا أقوم أبداً
+      stats: الإحصاءات
+      no_used: لم يتم تطبيق هذه القاعدة مطلقًا.
       add_button: 'إنشاء قاعدة'
-      alert: "تسمح لك القواعد بإطلاق توصيل أو حجز منتج في المخزن تلقائيًا عند حدوث أحداث معينة (وضع طلب، تغيير حالة الطلب أو الدفع) ووضع شروط (طريقة التوصيل، الدفع)"
+      alert: "تسمح لك القواعد ببدء تسليم أو حجز منتج في المخزون تلقائيًا عند وقوع أحداث معينة (تقديم طلب أو تغيير حالة الطلب أو الدفع) وتحديد الشروط (طريقة التسليم، الدفع)"
       index:
         event:
-          title: حدث&nbsp;
-          explanation: (متى)
+          title: الحدث&nbsp;
+          explanation: (في حالة)
         condition:
           title: الشروط&nbsp;
-          explanation: (في تلك الحالة)
+          explanation: (في هذه الحالة)
         action:
-          title: حدث&nbsp;
-          explanation: (ماذا أفعل)
-        applied: مطبق
+          title: الإجراء&nbsp;
+          explanation: (ما يجب فعله)
+        applied: تم التطبيق
     dictionaries:
       empty: لا يوجد دليل
       no_used: غير مستخدم
@@ -1511,9 +1626,9 @@ ar_SA:
           dictionary: الدليل
           seo: تحسين محركات البحث
       edit:
-        dictionary_entities: "عناصر الدليل (#{count} قطع)"
+        dictionary_entities: "عناصر الدليل (عدد{count} قطعة)"
       index:
-        properties: خواص المنتج
+        properties: خصائص المنتج
         add_submit: 'إضافة دليل'
     dictionary_entities:
       form:
@@ -1521,28 +1636,30 @@ ar_SA:
           dictionary_entity: عنصر الدليل
           seo: تحسين محركات البحث
       index:
-        sort: 'رتب ترتيب أبجدي'
+        sort: 'فرز حسب الترتيب الأبجدي'
         add_button: 'إضافة عنصر'
       empty: لا توجد عناصر
       tooltips:
-        products_count: المجموع
-        published_products_count: منشور
+        products_count: الإجمالي
+        published_products_count: تم النشر
         archived_products_count: في الأرشيف
     invites:
       invite: دعوة
       invite_link: رابط الدعوة
       empty: لا توجد دعوات
       cancel: "هل تريد إلغاء الدعوة؟"
-      invited_at: "مدعو %{invited_at}"
+      invited_at: "تمت الدعوة %{invited_at}"
       new_header: دعوة زميل في الفريق
     roles:
-      change_owner_role: دور المالك لا يمكن أن يتغير. يستطيع المالك فعل كل شيء ;)
-      callout: تواصل مع الدعم إذا كنت تريد أدوار إضافية.
+      access_to_resources: الوصول إلى الموارد
+      new_submit: جديد
+      change_owner_role: لا يمكن تغيير دور المالك. يمكن للمالك القيام بأي شيء ;)
+      callout: اتصل بالدعم إذا كنت بحاجة إلى المزيد من الأدوار.
     members:
-      disable_access: "تعطيل وصول الشخص إلى المتجر؟"
+      disable_access: "هل تريد تعطيل وصول الجهة إلى المتجر؟"
       edit:
         name: 'الاسم:'
-        phone: 'الهاتف:'
+        phone: 'الجوال:'
         email: 'البريد الإلكتروني'
       index:
         roles: 'الأدوار'
@@ -1550,18 +1667,18 @@ ar_SA:
     product_page:
       form:
         labels:
-          show_similar_products: 'عرض منتجات مشابهة'
+          show_similar_products: 'إظهار المنتجات المماثلة'
         hints:
-          show_similar_products: 'إذا كان مفعلاً، سيتم عرض الواجهة "اشتري مع هذا المنتج" في صفحة المنتج طبقاً للإعدادات المحددة للمنتج. إذا كان معطلاً، لن يتم عرض الواجهة.'
-          has_wishlists: 'يستطيع العملاء إضافة المنتجات لقائمة الأمنيات ومشاركتهم.'
+          show_similar_products: 'إذا تم تمكينه، فسيتم عرض كتلة “تم شراء هذا المنتج أيضًا” في صفحة المنتج وفقًا للإعدادات الفردية للمنتج. في حالة التعطيل، لن يتم عرض هذه الكتلة مطلقًا.'
+          has_wishlists: 'يمكن للعملاء إضافة منتجات إلى قوائم الرغبات ومشاركتها.'
           custom_product_html: 'مثبت فقط على صفحة المنتج'
-      html_title: 'كود HTML اضافي في <code>&lt;body&gt</code>'
+      html_title: 'رمز HTML إضافي في <code>&lt;body&gt;</code>'
     google_drive_import:
       errors:
-        no_access: "أدخل اسم المستخدم، كلمة السر، و مفتاح جدول البيانات"
-        prices_conflict: 'سعر المنتج الذي تم إنشاؤه %{product_article} (%{product_price}) لا يساوي سعر الخيار المضاف %{item_article} (%{item_price})'
+        no_access: "أدخل مفتاح تسجيل الدخول وكلمة المرور وجدول البيانات"
+        prices_conflict: 'لا يساوي سعر المنتج %{product_article}الذي تم إنشاؤه (%{product_price}) سعر الخيار المضاف %{item_article} (%{item_price})'
         no_category: الفئة غير محددة
-        no_required_column: "ليس عمود إلزامي '%{c}'"
+        no_required_column: "لا يوجد عمود إلزامي '%{c}'"
       cols:
         category: الفئة
         article: رمز البائع
@@ -1570,208 +1687,218 @@ ar_SA:
         price: السعر
         log: السجل
     favicons:
-      files_to_upload: قائمة ملفات الأيقونة المفضلة
+      files_to_upload: قائمة ملفات أيقونة المفضلة التي تم تحميلها
       not_loaded: لم يتم التحميل
       needsclick:
-        logo: انقر هنا أو قم بسحب صورة الشعار
-        favicons: انقر هنا أو قم بسحب ملفات الأيقونة المفضلة
-        bg: انقر هنا أو قم بسحب صورة الخلفية
-      preferably_vector: (يفضل أن تكون متجه)
+        logo: اسحب شعارك أو قم بتحميله من هنا
+        favicons: اسحب أو قم بتحميل أيقونتك المفضلة من هنا
+        bg: اسحب صورة خلفية أو قم بتحميلها من هنا
+      preferably_vector: (يفضل صورة متجه)
       delete:
         logo: 'إزالة الشعار'
       callout:
-        title: 'استخدم خدمات طرف ثالث لإنشاء الأيقونات'
-        body: 'إنشاء الأيقونات المفضلة هنا تلقائياً: <a href="http://realfavicongenerator.net" target="_blank">realfavicongenerator.net</a>'
+        title: 'استخدام خدمات الطرف الثالث لإنشاء الأيقونات المفضلة'
+        body: 'إنشاء أيقونات المفضلة تلقائيًا هنا: <a href="http://realfavicongenerator.net" target="_blank">realvavicongenerator.net</a>'
     cloudpayments:
       subscription_desc: 'الاشتراك الشهري في الخدمة %{brand_host}'
     pickup_points:
-      title: "نقاط الإصدار في مدينة %{city} (%{count})"
+      title: "نقاط إصدار المدينة '%{city}' ()%{count}"
       empty: لا توجد نقاط إصدار عند الطلب
       import_form:
-        empty: لا توجد لديك أي نقاط إصدار متاحة حتى الآن. تنزيل.
-        submit: 'تحميل'
+        empty: ليس لديك أي نقاط إصدار متاحة بعد. تنزيل
+        submit: 'تنزيل'
         file: 'ملف CSV'
-      all: "جميع العناصر (%{count})"
+      all: "جميع العناصر (%{عدد))"
       delete_all:
-        confirm: 'هل تريد إرسال جميع القطع في هذه المدينة لسلة المشتريات؟'
-        text: 'ضع هذه العناصر في السلة'
-      load: 'تنزيل قائمة العناصر'
-      load_empty:  لم يتم تحميل أي إصدار حتى الآن
-      load_button: 'تنزيل'
-    price_kinds:
-      name: الاسم
-      add_button: إضافة نوع سعر
+        confirm: 'هل تريد نقل جميع العناصر في هذه المدينة إلى عربة التسوق؟'
+        text: 'تخلص من هذه العناصر في سلة المحذوفات'
+      load: 'تحميل قائمة العناصر'
+      load_empty:  لم يتم تحميل أي إصدار بعد
+      load_button: 'تحميل'
     sitemap:
-      link: رابط إلى sitemap.xml الخاص بمتجرك
+      link: ربط ملف sitemap.xml بمتجرك
       refresh:
-        title: 'تردد تحديث Sitemap.xml'
-        product_changes: إذا كانت هناك تغييرات في المنتجات والبقايا، يتم تحديث <code>sitemap.xml</code> كل 15 دقيقة
-        generated_at: آخر ملف منشأ
-        empty: لم يتم تكوين الملف بعد.
+        title: 'تكرار تحديث ملف Sitemap.xml'
+        product_changes: في حالة وجود تغييرات في المنتجات والبقايا، يتم تحديث <code>ملف sitemap.xml</code> كل 15 دقيقة
+        generated_at: آخر ملف تم إنشاؤه
+        empty: لم يتم إنشاء الملف بعد.
       useful_links: 'روابط مفيدة:'
-      yandex_checker: 'تحقق من sitemap.xml على Yandex Webmaster'
-      doc: 'توثيق Sitemap.xml'
+      yandex_checker: 'تحقق من ملف sitemap.xml على Yandex Webmaster'
+      doc: 'توثيق ملف sitemap.xml'
     products_settings:
       categories:
-        url: operator_categories_path
-        title: فئات المنتجات
+        url: مسار_فئات_المشغل
+        title: فئات المنتج
         details_html: |
-          <p>كقاعدة عامة ، يتم تصنيف المنتجات.</p>
-          <p>الفئات لها هيكل شجرة، يمكن أن يكون كل منتج في عدة فئات في نفس الوقت.</p>
+          <p>إضافة وإدارة الفئات الخاصة بك. يجب تصنيف جميع المنتجات.</p>
+          <p>يمكن أن تكون المنتجات في فئات متعددة في نفس الوقت. </p>
       properties:
-        url: operator_properties_path
-        title: خصائص السلع
+        url: مسار_خصائص_المشغل
+        title: خصائص المنتج
         details_html: |
-          <p>قم بإدارة مركزية لخصائص البضائع.</p>
-          <p>هذا سيساعد على عمل فلتر تلقائي للبضائع ليستخدمه العملاء. </p>
+          <p>إضافة خصائص منتجاتك وإدارتها.</p>
+          <p>ستساعد العملاء على الاختيار بين المنتجات (مثل الحجم واللون)</p>
       tags:
-        url: operator_tags_path
+        url: مسار_علامات_المشغل
         title: علامات المنتج
         details_html: |
-          قائمة بجميع العلامات المستخدمة في المنتجات.
+          أضف العلامات المستخدمة لمنتجاتك وقم بإدارتها. تسهل العلامات عملية إدارة منتجاتك وتصنيفها.
       dictionaries:
-        url: operator_dictionaries_path
-        title: الدلائل
+        url: مسار_قواميس_المشغل
+        title: الأدلة
         details_html: |
-          <p>الكتاب المرجعي هو قائمة قيم الخصائص لمنتج ما.</p>
-          <p>على سبيل المثال ، قائمة للعلامات التجارية أو الأحجام.</p>
+          <p>الكتاب المرجعي هو قائمة تحتوي على قيم خاصية لمنتج ما.</p>
+          <p>على سبيل المثال، قائمة بالعلامات التجارية أو الأحجام.</p>
           <p>يمكن استخدام مرجع واحد في العديد من الخصائص.</p>
       price_kinds:
-        url: operator_price_kinds_path
+        url: مسار_أنواع_أسعار_المشغل
         title: أنواع الأسعار
         details_html: |
-          <p>أنواع الأسعار</p>
+          <p>أضف أنواع الأسعار الخاصة بمنتجاتك وقم بإدارتها (على سبيل المثال، السعر الرئيسي، سعر المبيعات).</p>
+      quantity_units:
+        url: مسار_وحدات_الكمية_للمشغل
+        title: الوحدات
+        details_html: |
+          <p>أضف وحدات القياس الخاصة بمنتجاتك وقم بإدارتها. يمكن أن يكون هذا الإعداد مفيدًا للمنتجات التي يتم بيعها حسب الوزن.</p>
     translations:
       value_redefined: 'إعادة تعريف القيمة'
     vendor_deliveries:
-      aramex_settings: إعدادات حساب اراميكس
+      cdek_auth_settings: إذا لم يتم تحديد التفويض، فإن حساب التسليم يكون من شخص خاص.
+      aramex_settings: إعدادات حساب Aramex
       shipper: بيانات الشاحن
-      yandex_settings: 'لوضع القيم ننظر إلى Yandex.Delivery'
-      restrictions: 'الحد حسب الفئات والمنتجات'
+      yandex_settings: 'لإعداد القيم، انظر إلى Yandex.Delivery'
+      restrictions: 'التحديد حسب الفئات والمنتجات'
       alive: نشط
       archive: الأرشيف
-      add_button: 'إضافة طريقة توصيل'
+      add_button: 'إضافة طريقة تسليم'
       cities_zero: لا يوجد
       pickup_points_zero: لا يوجد
       no_compatible_payment:
-        title: 'قم بتعيين طريقة دفع متوافقة، أو لن يتمكن التوصيل من استخدامها'
-        label: لا توجد دفعة متوافقة!
-      any_city_required: أي مطلوب
-      available_agents: وكلاء الشحن المتاحون
+        title: 'تعيين طريقة دفع ملائمة، وإلا فلن تكون طريقة التسليم هذه صالحة للاستخدام.'
+        label: لا توجد طريقة دفع ملائمة!
+      any_city_required: أي شيء مطلوب
+      available_agents: وكلاء الشحن المتوفرون
       form:
-        change_delivery_times: 'ضع وقت محدد'
-        edit_delivery_time_after_save: تستطيع تعديل وقت خدمة البريد السريع بعد الحفظ فقط
+        change_delivery_times: 'تعيين وقت محدد'
+        edit_delivery_time_after_save: لا يمكنك تحرير وقت خدمة البريد السريع إلا بعد الحفظ
         is_comment_required: 'حقل إضافي في نموذج الطلب (تعليق)'
         actions:
-          delivery_cities: "المدن (%{count})"
-          delivery_pickup_points: "نقاط الاصدار (%{count})"
+          delivery_cities: "المدن(%{count})"
+          delivery_pickup_points: "نقاط الإصدار ()%{count}"
         labels:
-          is_comment_required: 'حقل التعليق إجباري؟'
+          is_comment_required: 'هل حقل التعليق مطلوب؟'
           comment_field_title: 'اسم الحقل'
-          comment_field_placeholder: 'تلميح في الحقل'
-          mail_comment: 'تعليق التوصيل للرسائل'
+          comment_field_placeholder: 'إشارة في الحقل'
+          mail_comment: 'تعليق على تسليم الخطابات'
         hints:
-          city_title: 'التوصيل داخل المدينة. اتركه فارغاً إن لم تكن هناك ضوابط.'
-          price: "السعر في %{currency}. اتركه فارغاً إذا كان سيتم تحديد تكلفة الشحن بعد الطلب."
+          city_title: 'التسليم داخل المدينة. اتركه فارغًا في حالة عدم وجود قيود.'
+          price: "السعر في %{currency}. اتركه فارغًا إذا كانت تكلفة الشحن سيتم تحديدها بعد الطلب "
         placeholders:
           city_title: 'موسكو'
     vendor_payments:
+      geidea_payment:
+        title: الدفع باستخدام نظام Geidea
       gsdk:
         title: GSDK
       discount_settings: إعدادات الخصم
-      discount_warning: قم بحفظ طرق الدفع للبدء
+      discount_warning: حفظ طرق الدفع للبدء
       alive: نشط
       archive: الأرشيف
-      currency_settings: "إعدادات العملة (%{currency})"
-      add_button:  'إضافة طريقة دفع'
+      currency_settings: "إعداد العملة (%{currency})"
+      add_button:  'إضافة طريقة الدفع'
       no_available_deliveries:
-        title: 'قم بتعيين طريقة توصيل متوافقة، أو لن تتمكن هذه الدفعة من استخدامها'
-        body: لا يوجد شحن متوافق!
+        title: 'تعيين طريقة تسليم ملائمة، وإلا فلن تتمكن من استخدام هذه الدفعة'
+        body: لا يوجد شحن ملائم!
       available_agents: وكلاء الدفع المتوفرون
-      available_deliveries: 'جميع طرق التوصيل'
-      available_deliveries_settings: يتم إعداد توافق التسليم و الدفع على صفحة تحرير التوصيل.
+      available_deliveries: 'جميع طرق التسليم'
+      available_deliveries_settings: يتم تعيين ملائمة تسليم الدفع في صفحة تحرير التسليم.
       cloud_payments:
         settings: إعدادات CloudPayments
         notifications:
-          title: اضبط الروابط التالية للإشعارات في إعدادات CloudPayments على الموقع
+          title: قم بتعيين الروابط التالية للإشعارات في إعدادات CloudPayments على الموقع
           pay: 'إعدادات إشعارات الدفع:'
-          fail: 'إعدادات إشعارات الفشل:'
+          fail: 'إعدادات إشعارات فشل العملية:'
       custom_form:
         content:
-          title: القالب في صفحة الدفع
-          help: تعرض صفحة الدفع رسالة عن عملية شراء ناجحة. ولكن يمكنك تعيين قالب فردي أدناه.
+          title: قالب خاص بصفحة الدفع
+          help: تعرض صفحة الدفع رسالة بشأن نجاح عملية الشراء. ولكن يمكنك تعيين قالب فردي أدناه.
         payment_template:
-          title: عينة قالب
-          help: 'إذا قمت بتثبيت أداة JavaScript على صفحة القالب (عبر Yandex.Money مثلاً)، لا تنسَ تعيين الرابط إلى الصفحة بمعلومات حول الدفع الناجح في إعدادات نظام الدفع. وأيضاً قم بإنشاء مثل هذه الصفحة في المتجر. يوصى باستخدام رابط مشابه للصفحة: <code>payments/success/</code>'
+          title: نموذج القالب
+          help: 'إذا قمت، في صفحة القالب، بتثبيت عنصر واجهة مستخدم JavaScript للدفع (على سبيل المثال، من خلال Yandex.Money)، فلا تنسَ تعيين الرابط إلى الصفحة بمعلومات حول نجاح عملية الدفع في إعدادات نظام الدفع. وأيضًا إنشاء مثل هذه الصفحة في المتجر. يوصى باستخدام رابط للصفحة للقيام بذلك: <code>/المدفوعات/عملية نجاح</code>'
       online_kassa:
-        title: إعداد مسجلة المدفوعات النقدية
-        life_pay: الإعدادات التالية تنطبق فقط على life-pay.ru
-        starrys: الإعدادات التالية تنطبق فقط على starrys
+        title: إعداد سجل نقد عبر الإنترنت
+        life_pay: الإعدادات التالية خاصة بـ Life-pay.ru فقط
+        starrys: الإعدادات التالية خاصة بـ starrys فقط
         hints:
-          online_kassa_cert: 'يبدأ في: ----- بدأ الشهادة ----'
-          online_kassa_key: 'يبدأ في: ----- بدأ المفتاح السري ----'
+          online_kassa_cert: 'يبدأ في: ----- بدء الشهادة -----'
+          online_kassa_key: 'يبدأ في: ----- بدء المفتاح الخاص -----'
       rbk_money:
         title: إعدادات RBK Money
       robokassa:
         title: إعدادات Robokassa
         notifications:
-          title: اضبط الروابط التالية في إعدادات Robokassa على الموقع
-          success: 'عنوان النجاح (GET):'
-          fail: 'عنوان النجاح (Fail):'
-          result: 'عنوان النتيجة (POST):'
+          title: قم بتعيين الروابط التالية في إعدادات Robokassa على الموقع
+          success: 'نجاح عنوان Url (الحصول عليه):'
+          fail: 'فشل عنوان Url (الحصول عليه):'
+          result: 'نتيجة عنوان URL (النشر):'
       sberbank:
-        title: إعدادات Sberbank
+        title: إعداد Sberbank
         notifications:
           title: استخدم الروابط التالية
-          callback: 'عنوان رد الاتصال:'
+          callback: 'عنوان URL الخاص بإعادة الاتصال:'
       tinkoff:
         title: إعدادات Tinkoff
         notification:
-          title: اضبط الروابط التالية في حسابك في Tinkoff
+          title: قم بتعيين الروابط التالية في حسابك على Tinkoff
+      arsenal_pay:
+        title: إعدادات ArsenalPay
+        notification:
+          title: قم بتعيين الروابط التالية في حساب ArsenalPay الخاص بك
       walletone:
         title: إعدادات Walletone
-        redexpress: "إذا كنت تريد أن يقبل مسؤول تسليم Redexpress الدفع ، فحدد <b>RedCashRUB</b> بالطرق المسموح بها."
+        redexpress: "إذا كنت تريد أن يقبل مسؤول تسليم Redexpress الدفع، فحدد <b>RedCashRUB</b> في الطرق المسموح بها."
         payment_methods: 'قيم طرق الدفع في Walletone'
       yandex_kassa:
         title: إعدادات Yandex Kassa
     walletone:
       created: |-
         <h1>تهانينا!</h1>
-        <p>لقد تم تسجيلك بنجاح في %{brand_host} والحصول على محفظة في Wallet One مع رقم الهاتف %{phone}</p>
+        <p>تم تسجيلك بنجاح %{brand_host} وحصلت على محفظة في Walletone برقم هاتف %{phone}</p>
         </br>
-      load_products: 'الاستمرار في تحميل البضائع &rarr;'
+      load_products: 'المضي قدمًا في تحميل البضائع؛&rarr;'
       form:
-        title: سجل محفظة في WalletOne
-        submit: 'سجل'
-        disable_with: 'يتم التسجيل..'
-      method_payments: طرق الدفع
+        title: محفظة التسجيل في Walletone
+        submit: 'التسجيل'
+        disable_with: 'جارٍ التسجيل..'
+      method_payments: طريق الدفع
     welcome_page:
-      welcome_and_categories_settings: 'إعدادات للصفحة الرئيسية وصفحة الفئات:'
-      only_welcome_settings: 'فقط على الصفحة الرئيسية:'
-      all_products: 'جميع السلع'
+      welcome_and_categories_settings: 'إعدادات الصفحة الرئيسية وصفحة الفئة:'
+      only_welcome_settings: 'في الصفحة الرئيسية فقط:'
+      all_products: 'جميع البضائع'
       faq: 'الأسئلة الشائعة'
-      products_sort: 'كيف تحدد ترتيب السلع على الصفحة الرئيسية؟'
-      slider: شريط التمرير هو عبارة عن مجموعة مقسمة إلى صفحات من الصور معروضة في الجزء العلوي من الصفحة الرئيسية للموقع.
+      products_sort: 'كيف يتم تحديد ترتيب البضائع في الصفحة الرئيسية؟'
+      slider: شريط التمرير عبارة عن مجموعة من الصفحات تحتوي على صور معروضة أعلى الصفحة الرئيسية للموقع.
       tabs:
-        products: 'قائمة السلع'
+        products: 'قائمة البضائع'
         texts: 'النصوص'
         seo: 'تحسين محركات البحث'
     workflow_states:
-      convead_key_empty: غير مثبت
-      order_conditions: 'سير العمل'
+      convead_key_empty: لم يتم التثبيت
+      order_conditions: 'مسار العمل'
       add_button: إضافة حالة
+      any: أي
     base:
       product_categories_positions:
         title: موضع العنصر في الفئات
-        save_product_warning: "إن لم تكن هناك فئات كافية، احفظ المنتج أولاً."
+        save_product_warning: "إذا لم تكن هناك فئات كافية، فاحفظ المنتج أولاً."
         category: الفئة
         position: موضع العنصر في الفئة
       balance:
         callout: |
-          الرصيد الحالي::&nbsp;
+          الرصيد الحالي:&nbsp;
           <b>%{balance}<b>
-      google_analytics_example: 'عينة كود لجوجل للتجارة الإلكترونية (Google E-Commerce) '
-      reset_filter: 'إعادة تعيين الفلتر'
+      google_analytics_example: 'نموذج رمز للتجارة الإلكترونية من Google'
+      reset_filter: 'إعادة تعيين عامل التصفية'
       ibox_widget:
         more: 'المزيد'
       manager_comments:
@@ -1779,154 +1906,174 @@ ar_SA:
       moysklad_info:
         stock_synced_at: وقت المزامنة
       search:
-        reset: 'إعادة تعيين'
+        reset: 'إعادة التعيين'
       search_form:
-        button: 'بحث'
+        button: 'البحث'
       select_page:
-        title: 'الصفحة'
+        title: 'الصفحة|'
       slug_redirects:
-        title: 'إعادات التوجيه النشطة:'
+        title: 'عمليات إعادة التوجيه النشطة:'
       sms_balance:
-        current: "رصيد الرسائل النصية الحالي:&nbsp;"
-        count: "%{count} قطع"
-        disabled: (إرسال الرسائل النصية معطل)
-        buy: 'اشتري المزيد من رسائل نصية'
+        current: "رصيد الرسائل القصيرة الحالية:&nbsp;"
+        count: "%{count} الرسائل النصية القصيرة"
+        disabled: (تم تعطيل إرسال الرسائل القصيرة)
+        buy: 'شراء المزيد من الرسائل النصية القصيرة'
       stock_info:
         stock_synced_at: تاريخ المزامنة
-        stock_stores: المخازن
-        stock_dump:  مخلفات البيانات
+        stock_stores: المخزونات
+        stock_dump:  تفريغ البيانات
       translation_sample:
-        change: 'تغيير'
+        change: 'التغيير'
       vendor_jobs:
-        title:  سجل التنزيل
+        title:  تنزيل السجل
         complete: اكتمل التحميل
-        speed: "%{count} قطعة في الساعة"
+        speed: "%{count} عناصر كل ساعة"
       walletone:
         callout: |
-          سيتم إضافة علامة تعريف <code>w1-verification</code> تلقائياً لتأكيد ملكية الموقع
+          ستتم إضافة علامة تعريف تحمل اسم <code>w1-تحقق</code> لتأكيد ملكية الموقع تلقائيًا 
           بعد إدخال رقم المحفظة والمفتاح السري في نظام الدفع Walletone
       yandex_metrika_example:
-        title: 'عينة كود ل Yandex Metrika'
+        title: 'نموذج كود لـ Yandex Metrika'
     common_pages_widgets:
       welcome:
         title: الصفحة الرئيسية
-        url: operator_welcome_page_path
-        details_html: 'ترتيب السلع، الطلب في نقرة واحدة، شريط التمرير وإعدادات أخرى للصفحة الرئيسية'
+        url: مسار_صفحة_ترحيب_المشغل
+        details_html: 'قم بإدارة إعدادات الصفحة الرئيسية، مثل لافتة عرض الشرائح على الصفحة الرئيسية، والفئات التي تريد عرضها، وأزرار الإضافة إلى عربة التسوق، والمزيد.'
       product:
         title: صفحة المنتج
-        url: operator_product_page_path
-        details_html: 'موضع عرض الصورة وإعدادات صفحة المنتج الأخرى'
+        url: مسار_صفحة_منتج_المشغل
+        details_html: 'إدارة إعدادات صفحة المنتج، مثل موضع الصورة على صفحات المنتج، وتلقي تنبيهات حول المنتجات غير المتوفرة بالمخزون، وخيارات قائمة الرغبات، والمزيد'
       category:
         title: صفحة الفئة
-        url: operator_category_page_path
-        details_html: 'إعدادات صفحة الفئة'
+        url: مسار_صفحة_فئة_المشغل
+        details_html: 'إدارة إعدادات صفحة الفئة، مثل إعدادات المنتج عند إضافتها إلى فئة، وعرض صفحة الفئة، والمزيد.'
       order:
-        title: إضافة إلى عربة التسوق وصفحة الطلب
-        url: operator_order_page_path
-        details_html: 'إضافة إلى عربة التسوق وإعدادات صفحة الطلب'
+        title: صفحة الإضافة إلى عربة التسوق والطلب
+        url: مسار_صفحة_طلب_المشغل
+        details_html: "قم بإدارة عربة التسوق وصفحة الطلب في متجرك بحيث يمكن للعملاء إكمال عملية الشراء."
 
     modules_widgets:
       header:
-        title: رأسية الموقع
-        url: operator_header_path
-        details_html: 'تعرض رأسية الموقع في كل صفحة. تحتوي على اسم الموقع وجهات الاتصال.'
+        title: عنوان الموقع
+        url: مسار_رأس_المشغل
+        details_html: 'اضبط عناوين الموقع لإظهار اسم متجرك عبر الإنترنت أو أضف بعض معلومات الاتصال الإضافية.'
       footer:
         title: تذييل الموقع
-        url: operator_footer_path
-        details_html: 'يعرض تذييل الموقع في كل صفحة'
+        url: مسار_تذييل_المشغل
+        details_html: 'قم بتغيير تذييلات الموقع لكل صفحة باستخدام رمز HTML لإضافة كتل نصية أو صفحات أو أزرار وسائل التواصل الاجتماعي لمساعدة العملاء على التنقل عبر منصاتك.'
       menu:
-        title: القائمة في الموقع
-        url: operator_menu_items_path
-        details_html: 'في كل صفحة تظهر قائمة الموقع. يتم إنشاؤها تلقائيًا، ولكن يمكنك تخصيصها.'
+        title: قائمة الموقع
+        url: مسار_عناصر_قائمة_المشغل
+        details_html: 'في كل صفحة من صفحات الموقع، يتم إنشاء قائمة تلقائيًا بفئاتك، ولكن يمكنك ضبطها يدويًا لإضافة صفحات نصية أو كتالوجات أو صفحات أخرى.'
       filter:
-        title: فلتر المنتجات
-        url: operator_filter_path
-        details_html: 'يمكن عرض فلتر مناسب للمنتجات حسب السعر والتوافر وأي خصائص أخرى على الصفحة الرئيسية وعلى صفحة الفئة.'
+        title: فلتر المنتج
+        url: مسار_عامل_تصفية_المشغل
+        details_html: 'يمكن عرض عامل تصفية مناسب للمنتجات حسب السعر والتوافر وأي خاصية أخرى على الصفحة الرئيسية وعلى صفحة الفئة.'
       slider:
-        title: شريط التمرير في رأس الصفحة
-        url: operator_slider_images_path
-        details_html: 'عرض شرائح الصور يجذب الانتباه. يعرض في أعلى الصفحة.'
+        title: شريط التمرير على الصفحة الرئيسية
+        url: مسار_صور_المشغل_الممرير
+        details_html: "أضف صورًا جذابة على صفحتك الرئيسية لجذب انتباه عميلك."
       top_banner:
-        title: لافتة في رأس الصفحة (رسالة ترويجية)
-        url: operator_top_banner_path
+        title: إنشاء لافتة
+        url: مسار_لافتة_أعلى_المشغل
         details_html: |
-          <p>هذه رسالة من سطر واحد معروضة في أعلى الموقع. </p>
-          <p>مفيدة للإشعارات الترويجية.</p>
+          <p>هذه رسالة من سطر واحد تظهر أعلى الموقع.</p>
+          <p>وهو مفيد للرسائل الترويجية وجذب الانتباه.</p>
       asset_images:
-        url: operator_asset_images_path
-        title: الصور للمحتوى
-        details_html: قائمة كاملة للصور المستخدمة في الموقع
+        url: مسار_صور_أصول_المشغل
+        title: مكتبة الصور
+        details_html: قم بإنشاء قاعدة بيانات لجميع صورك. يمكنك تحميل الصور هنا واستخدامها لاحقًا، بدلاً من الوصول إليها من جهاز الكمبيوتر الخاص بك.
 
     slug_widgets:
       slug_resources:
-        url: operator_slug_resources_path
-        title: مسارات مقروءة للإنسان
+        url: مسار_موارد_العميل_المشغل
+        title: مدير عنوان URL
         details_html: |
-          <p>يمكن تعيين كل عنصر في النظام بطريقة ملائمة يسهل فهمها.</p>
-          <p>مثلاً، بدلاً من استخدام <code>products/123/</code> استخدم <code>kofta/</code></p>
+          <p>قم بعرض وإدارة عناوين URL لصفحات الموارد (المنتج، الفئة، النص، إلخ) التي لها قيمة في حقل Clear Way.</p>
+          <p>يساعد ذلك في إنشاء عناوين URL يسهل قراءتها وفهمها.</p>
+          <p>على سبيل المثال، بدلاً من /منتجات/123، استخدم /بلوزة في مسار URL.</p>
       slug_redirects:
-        url: operator_slug_redirects_path
-        title: إعادات التوجيه (301)
+        url: مسار_إعادة_توجيه_التحميل_للمشغل
+        title: إعادة التوجيه
         details_html: |
-          قم بتثبيت عمليات إعادة التوجيه من الصفحات التي قمت بحذفها بالفعل أو التي يحصل عليها المستخدم غالبًا حتى لا يفقد العملاء.
+          قم بتثبيت عمليات إعادة التوجيه للمساعدة في تقليل معدل الارتداد لموقع الويب من خلال إعادة توجيه عملائك من الصفحات المنتهية الصلاحية و/أو المحذوفة إلى صفحة أخرى من موقع الويب.
       robots:
-        url: operator_robots_path
-        title: إعداد Robots.txt
-        details_html: "يتم إنشاء ملف robots.txt تلقائيًا ، لكن يمكنك تصحيح شيء ما إذا أردت"
-
+        url: مسار_روبوتات_المشغل
+        title: ملف Robots.txt
+        details_html: |
+          <p>يخبر ملف Robots.txt زاحفي الويب بكيفية قراءة الصفحات وفهرستها للترتيب. يتم إنشاؤه تلقائيًا، ولكن يمكن تغييره.</p>
+          <p>على سبيل المثال، إذا كنت لا ترغب في فهرسة صفحات معينة.</p>
       sitemap:
-        url: operator_sitemap_path
-        title: خريطة الموقع (sitemap.xml)
-        details_html: "يتم إنشاء ملف خريطة الموقع (sitemap.xml) تلقائيًا، لكن يمكنك تصحيح شيء ما إذا أردت"
-
+        url: مسار_خريطة_مشغل_الموقع
+        title: خريطة الموقع
+        details_html: |
+          <p> تسهل خريطة موقع XML على Google العثور على جميع الصفحات ذات الصلة للزحف ويتم إنشاؤها تلقائيًا.</p>
+          <p> ويمكن تعريفه في ملف roters.txt ويمكن تحميله أيضًا إلى وحدة تحكم البحث في Google (التي تعمل كنقطة اتصال بين موقعك الإلكتروني وGoogle Search).</p>
       extra_js:
-        title: JavaScript لجميع الصفحات على الموقع
-        url: operator_extra_js_path
-        details_html: كود JavaScript لجميع الصفحات على الموقع
+        title: JavaScript
+        url: مسار_المشغل_الإضافي_js
+        details_html: |
+          <p> يتيح لك JavaScript تمكين التحليلات (إرسال بيانات المستخدم إلى الخوادم البعيدة، مثل Google Analytics).</p>
+          <p> ويمكن استخدامه لعرض الصور والإجراءات الأخرى، ولكن لا يُنصح به، لأنه قد يتداخل مع طريقة عمل الموقع الإلكتروني.</p>
       https:
-        title: التشفير و HTTPS
-        url: operator_https_path
-        details_html: 'سيسمح تشفير SSL المتصل بخدمات البحث بتقييم موقعك على نحو أفضل، ويمنح ثقة كبيرة من العملاء.'
-
+        title: HTTPS والتشفير
+        url: مسار_المشغل_https
+        details_html: |
+          <p> يضمن تشفير SSL مثل HTTPS نقل البيانات بأمان بين الأطراف.</p>
+          <p> يتم توفير شهادة HTTPS للمجال الحالي، بالإضافة إلى خيار إعادة التوجيه بين http:// وhttps:// لتصغير الصفحات المكررة.</p>
       cache:
         title: التخزين المؤقت والتحسين
-        url: operator_cache_path
-        details_html: 'نادرًا ، ولكن في بعض الأحيان تحتاج إلى تحديث ذاكرة التخزين المؤقت يدويًا بحيث يتم تطبيق أحدث التغييرات بشكل أسرع. هنا يمكنك إعداد الوقت لذاكرة التخزين المؤقت لطلبات HTTP'
-
+        url: مسار_ذاكرة_التخزين المؤقت_للمشغل
+        details_html: |
+          <p> تقوم ذاكرة التخزين المؤقت بتخزين البيانات بحيث يمكن توفير الطلبات المستقبلية لهذه البيانات بشكل أسرع.</p>
+          <p> يتم تحديثه تلقائيًا، ولكن يمكنك تكوين وقت تخزين طلبات HTTP مؤقتًا يدويًا بحيث يمكن إجراء التغييرات الأحدث بشكل أسرع.</p>
+    ecr_settings_widgets:
+      locations:
+        title: المواقع
+        url: مسار_فروع_المشغل_ecr
+        details_html: أضف مواقع فروعك وقم بإدارتها، مثل الصرافين الذين يعملون في جميع فروعك والمستودعات التي تقوم بتسليم البضائع إلى الفروع.
+      units:
+        title: الوحدات
+        url: مسار_وحدات_الكمية_للمشغل
+        details_html: أضف وحدات القياس الخاصة بمنتجاتك وقم بإدارتها. يمكن أن يكون هذا الإعداد مفيدًا للمنتجات التي يتم بيعها حسب الوزن.
+      external_devices:
+        title: الأجهزة الخارجية
+        url: مسار_أجهزة_المشغل_الخارجي
+        details_html: أضف أجهزتك الخارجية وقم بإدارتها، مثل جهاز ECR أو POS.
     styles_widgets:
       css:
-        title: أنماط اضافية (CSS)
-        url: operator_css_path
-        details_html: "تخصيص تصميم الموقع (الأنماط والألوان والخلفية والخطوط) حسب ذوقك."
+        title: أنماط إضافية (CSS)
+        url: مسار_المشغل_css
+        details_html: قم بتخصيص تصميم موقعك (الأنماط، الألوان، الخلفية، الخطوط) باستخدام تنسيق CSS.
       extra_html:
-        title: HTML اضافي
-        url: operator_extra_html_path
-        details_html: كود HTML اضافي لجميع الصفحات على الموقع.
+        title: HTML إضافي
+        url: مسار_إضافي_للمشغل_html
+        details_html: إضافة المزيد من المحتوى النصي وتحريره على موقعك باستخدام تنسيق HTML.
       logo:
-        title: الشعار والأيقونات المفضلة
-        url: operator_favicons_path
-        details_html: الشعار والأيقونات المفضلة
+        title: الشعارات وأيقونات المفضلة
+        url: مسار_الأيقونات المفضلة_للمشغل
+        details_html: أضف شعار شركتك وأيقوناتها المفضلة لزيادة وجود العلامة التجارية عبر صفحات الويب الخاصة بك.
 
       design:
-        title: التصميم التفاعلي
-        url: design_operator_shop_path
-        details_html: سيتم تحويلك إلى أداة التصميم التفاعلي مباشرة على الموقع.
+        title: تصميم تفاعلي
+        url: مسار_متجر_مشغل_التصميم
+        details_html: استخدم عنصر واجهة مستخدم التصميم التفاعلي لتخصيص صفحات الويب الخاصة بك (بدون تشفير).
 
     orders_settings:
       workflow_states:
-        url: operator_workflow_states_path
+        url: مسار_حالات_سير_العمل_للمشغل
         title: حالات الطلب
-        details_html: قم بضبط حالات الطلب التي تناسبك.
+        details_html: قم بتعيين حالات الطلب التي تناسبك.
 
       order_operator_filters:
-        url: operator_order_operator_filters_path
-        title: فلاتر الطلب
-        details_html: فلاتر المنتجات التي أنشأها المشغل.
+        url: مسار_مشغل_عوامل تصفية_الطلب_للمشغل
+        title: عوامل تصفية الطلب
+        details_html: عوامل تصفية المنتجات التي أنشأها المشغل لنفسه.
 
       order_conditions:
-        url: operator_order_conditions_path
-        title: سير العمل
-        details_html: هذه هي القواعد التي تتحرك بها الطلبات في المسار.
+        url: مسار_شروط_طلب_المشغل
+        title: مسار العمل
+        details_html: هذه هي القواعد التي تتحرك بها الطلبات في مسار التحويل.
 
       #notify_templates:
         #feature: notify_templates
@@ -1935,17 +2082,106 @@ ar_SA:
         #details_html: Настраивайте условия и тексты шаблонов SMS и email уведомлений о заказах для клиентов и менеджеров.
 
       coupons:
-        feature: الكوبون
-        url: operator_coupons_path
-        title: الكوبونات
-        details_html: كوبونات الخصم (رموز ترويجية) لعملائك.
+        feature: قسيمة
+        url: مسار_قسيمات_المشغل
+        title: قسيمات الخصم
+        details_html: قسيمات الخصم (الرموز الترويجية) لعملائك.
 
     properties:
-      show_in_filter: "هل تريد أن تظهر في الفلتر؟"
-      use_in_short_details: "هل تريد أن تظهر في وصف البضائع <br/>في الكتالوج وعلى الرئيسية؟"
-      display_order: الترتيب الذي يتم عرض الخاصية به في الفلتر
-      values: "قيم الخاصية (%{count})"
+      show_in_filter: "هل تريد إدخال عامل التصفية؟"
+      use_in_short_details: "هل تريد إدخال وصف البضائع <br/> في الكتالوج وعلى الصفحة الرئيسية؟"
+      display_order: الترتيب الذي يتم به عرض الخاصية في عامل التصفية
+      values: "قيم الخاصية ()%{count}"
       value: القيمة
-      value_number: 'ن'
-      dictionaries: 'الدلائل'
+      value_number: 'N'
+      dictionaries: 'الأدلة'
       add_button: 'إضافة خاصية'
+    warehouses:
+      archive: الأرشيف
+      active: نشط
+      new_submit: مستودع جديد
+      empty: فارغ
+      movements: المعاملات
+      nomenclatures: العناصر
+      movements_empty: الحركات فارغة
+      nomenclature_empty: مكتبة المخزون فارغة
+      updated: تم تحديث المستودع
+      created: تم إنشاء المستودع
+    nomenclatures:
+      new_submit: إضافة مخزون
+      products: 'المنتجات'
+      warehouse_movements: حركات المستودع
+      product_view: 'عرض العنصر'
+      product: 'العنصر: %{product_link}'
+      quantity: 'الكمية: %{quantity}، منها ما هو قيد الحجز %{reserve_quantity}'
+      edit_quantity_units: تحرير الوحدات
+      updated: تم تحديث المصطلحات
+      quantity_units: الوحدات
+      balance_sheet: بيان المخزون
+      filter:
+        all: الكل
+        availability:
+          in_stock: في المخزون
+          out_stock: خارج المخزون
+        source:
+          offline: غير متصل بالإنترنت
+          online: عبر الإنترنت
+          no_sale: لا يوجد بيع
+    documents:
+      transactions: المعاملات
+      filter:
+        all: الكل
+    balance_sheet:
+      warehouse: المستودع
+      all: الكل
+      period: الإطار الزمني
+      start_at: "من %{date}"
+      end_at: "إلى %{date}"
+      inventory_item: عنصر المخزون
+      unit: الوحدة
+      opening_balance: الرصيد الافتتاحي
+      time_frame_change: تغيير الإطار الزمني
+      closing_balance: الرصيد الختامي
+      incoming: الوارد
+      outgoing: الصادر
+      in_stock: في المخزون
+      total_amount: المبلغ الإجمالي
+      total: الإجمالي
+      receipts: الإيصالات
+      expenses: الإصدارات
+    quantity_units:
+      default: الرئيسي
+      new_submit: جديد
+      updated: تم تحديث الوحدة
+      created: تم إنشاء الوحدة
+      deleted: تم حذف الوحدة
+    drawers:
+      print: طباعة
+      opened: الدرج مفتوح
+      closed: الدرج مغلق
+      open: فتح الدرج
+      close: إغلاق الدرج
+      confirm: هل أنت متأكد؟
+      open_balance: 'بدء النقد:'
+      open_actual_balance: 'الفعلي في الدرج:'
+      close_balance: 'النقد الختامي:'
+      close_actual_balance: 'الفعلي في الدرج:'
+      open_operator: 'الدرج المفتوح:'
+      close_operator: 'الدرج المغلق:'
+      sale_amount: 'المبيعات النقدية:'
+      refund_amount: 'الاسترداد النقدي:'
+      open_correct_amount: 'المبلغ الصحيح:'
+      close_correct_amount: 'المبلغ الصحيح:'
+      opened_at: 'تم الافتتاح في:'
+      closed_at: 'مغلق في:'
+      title: "رقم الدرج%{number}"
+      description: 'الوصف:'
+      state: "الولاية:"
+      cashier: 'الصراف:'
+    external_devices:
+      new_submit: جديد
+      empty: فارغ
+    vendor_single_update:
+      saved: تم حفظ التغييرات
+    import_photos:
+      success: ''

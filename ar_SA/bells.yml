@@ -1,76 +1,77 @@
 ar_SA:
   bells:
-    InstagramFeed::NoInstagramUserId:
-      subject: "لم يتم ادخال معرف حساب انستغرام، لكن محتوى انستغرام معروض على الموقع."
-      text: "يرجى إدخال حساب انستغرام صحيح في إعدادات المتجر أو تعطيل محتوى انستغرام"
-    InstagramFeed::NotFound:
-      subject: "لم يوجد حساب انستغرام بمعرف {instagram_user_id} %"
-      text: "لقد ادخلت معرف حساب انستغرام خاطئ في إعدادات المتجر"
     Moysklad::Client::ResourceForbidden:
-      subject: 'الاستيراد التلقائي للسلع من MyStock معطّل'
-      text: "لا يمكن الوصول إلى استيراد السلع من MyStock.\nبوضوح، لم يتم تنشيط التعريفة في MoiSklad.ru التي تسمح لك بالعمل مع واجهة برمجة التطبيق أو أن المستخدم (%{login}) ليس لديه صلاحيات كافية."
+      subject: 'تم تعطيل الاستيراد التلقائي للبضائع من MyStock'
+      text: "لا توجد إمكانية وصول لاستيراد البضائع من MyStock.\nمن الواضح أنك لم تقم بتنشيط التعريفة في MoiSklad.ru التي تسمح لك بالعمل مع واجهة برمجة التطبيقات أو أن المستخدم الخاص بك (%{login}) ليس لديه حقوق كافية."
     Moysklad::Client::UnauthorizedError:
       subject: 'Automatic import of goods from MyStock disabled'
       text: 'Authorization error in the MyStock service: check the correctness of the login/password and your tariff on MyStock'
     MoyskladImporting:NoLogin:
-      subject: 'الاستيراد التلقائي للسلع من MyStock معطّل'
-      text: 'أدخل اسم المستخدم وكلمة السر للوصول إلى متجري'
+      subject: 'تم تعطيل الاستيراد التلقائي للبضائع من MyStock'
+      text: 'إدخال معلومات تسجيل الدخول وكلمة المرور من أجل الوصول إلى MyStore'
     hello:
-      subject: 'مرحباً!'
-      text: 'سيتم استقبال الرسائل عن عمل المتجر هنا.'
+      subject: 'مرحبًا!'
+      text: 'ستتلقى رسائل حول تشغيل المتجر الخاص بك هنا.'
     domain_attached:
       subject: 'المجال متصل'
-      text: 'المجال %{domain} اتصل بالمتجر بنجاح.'
+      text: 'تم توصيل %{domain} المجال بالمتجر بنجاح.'
     convead_invalid_or_outdate:
-      subject: 'الاتصال ب convead.io خاطئ أو قديم'
-      text: 'لقد أدخلت مفتاح خاطئ للتطبيق (%{convead_app_key}) أو لم تدفع لخدمات convead.io. الربط معطّل'
-    OpenURI::HTTPError:
-      subject: 'اسم مستخدم انستغرام خاطئ'
-      text: 'لقد أدخلت اسم مستخدم انستغرام خاطئ (%{username})'
+      subject: 'الاتصال بموقع convead.io خاطئ أو قديم'
+      text: 'لقد أدخلت مفتاح_تطبيق (%{convead_app_key}) غير صحيح أو لم تدفع مقابل خدمات convead.io. تم تعطيل عملية التكامل'
     PayPal::InvalidByteError:
-      subject: 'خطأ في قبول الدفع'
-      text: 'أدخل ترميز UTF-8 في المميزات الإضافية في إعدادات حساب PayPal الخاص بك.'
+      subject: 'خطأ في قبول المدفوعات'
+      text: 'أدخل ترميز UTF-8 في الميزات الإضافية في إعدادات حساب PayPal'
     W1::PaymentService::NoSignature:
-      subject: 'خطأ في معالجة الدفع للطلب رقم %{order_id}'
-      text: 'يجب أن تختار طريقة التوقيع الرقمي MD5 في إعدادات WalletOne.
-
-        اعرف المزيد - https://www.walletone.com/ru/merchant/documentation/#step3'
+      subject: 'خطأ في معالجة المدفوعات للطلب رقم %{order_id}'
+      text: 'يجب تحديد طريقة تكوين توقيع رقمي من خللا MD5 في إعدادات WalletOne. تعرف على المزيد من خلال- https://www.walletone.com/ru/merchant/documentation/#step3'
     System::AmoCRM::ExportOrder::InvalidAmoCrmError:
-      subject: 'خطأ في تصدير الطلب إلى AmoCRM'
-      text: 'تحقق من إعدادات AmoCRM'
+      subject: 'خطأ في تصدير الطلب إلى AmoCrm'
+      text: 'تحقق من إعدادات AmoCrm'
     AmoCRM::Client::Error:
-      subject: 'خطأ للعميل في AmoCRM'
-      text: 'تحقق من إعدادات AmoCRM'
+      subject: 'خطأ خاص بالعميل في AmoCrm'
+      text: 'تحقق من إعدادات AmoCrm'
     RussianPost::ResponseError:
-      subject: 'خطأ في "Post of Russia"'
-      text: 'خطأ: %{error}'
+      subject: 'خطأ لدى البريد الروسي'
+      text: '%{error}'
     Starrys::FatalResponseError:
-      subject: 'خطأ في Starrys'
-      text: 'خطأ: %{error}'
+      subject: 'خطأ لدى Starrys'
+      text: '%{error}'
     spf_check_fail:
       subject: 'خطأ في إطار سياسة المرسل'
-      text: 'بريدك {email}# لم يجتاز فحص إطار سياسة المرسل'
+      text: 'لم يجتز رقم{email} بريدك الفحص ضمن إطار سياسة المرسل'
     Bitrix24::Client::AuthorizationCodeError:
-      subject: 'خطأ في Bitrix24'
-      text: 'خطأ: %{error}'
+      subject: 'خطأ لدى Bitrix24 '
+      text: '%{error}'
     Sberbank::Requestor::ResponseError:
-      subject: 'خطأ في Sberbank'
-      text: 'الطلب مع نظام دفع Sberbank لم ينجح. الرجاء التحقق من تفاصيل دفعتك أو تواصل مع الدعم'
+      subject: 'خطأ لدى Sberbank'
+      text: 'فشل الطلب ضمن نظام الدفع Sberbank. يُرجى التحقق من تفاصيل الدفع أو الاتصال بالدعم'
     Sberbank::Requestor::ApiTokenEmptyError:
-      subject: 'خطأ في Sberbank'
-      text: 'لم يتم تعيين قيمة الرمز المميز لواجهة برمجة التطبيق'
+      subject: 'خطأ لدى Sberbank'
+      text: 'لم يتم تعيين قيمة الرمز المميز لواجهة برمجة التطبيقات'
     RobokassaParams::TaxTypeEmptyError:
-      subject: 'خطأ في Robokassa'
-      text: 'لم يتم تعيين قيمة الضريبة المضافة للتاجر'
+      subject: 'خطأ لدى Robokassa'
+      text: 'لم يتم تعيين مبلغ ضريبة القيمة المضافة للتجار'
     RobokassaParams::TaxModeEmptyError:
-      subject: 'خطأ في Robokassa'
-      text: 'لم يتم تعيين نظام الضرائب للتاجر'
+      subject: 'خطأ لدى Robokassa'
+      text: 'لم يتم تعيين نظام الضرائب للتجار'
     Moysklad::Client::UnauthorizedError:
-      subject: 'خطأ في MoySklad'
-      text: 'الحساب معطل. يرجى التواصل مع مدير الحساب'
+      subject: 'خطأ لدى MoySklad'
+      text: 'تم إلغاء تنشيط الحساب. يُرجى الاتصال بمسؤول الحساب  '
     Kassatka::Requestor::TokenEmptyError:
-      subject: 'خطأ في Kassatka'
-      text: 'لم يتم تعيين قيمة الرمز'
+      subject: 'خطأ لدى Kassatka'
+      text: 'لم يتم تعيين قيمة الرمز المميز '
     Kassatka::Requestor::ResponseError:
-      subject: 'خطأ في Kassatka'
-      text: 'خطأ: %{error}'
+      subject: 'خطأ لدى Kassatka'
+      text: '%{error}'
+    Aqsi::Requestor::ClientKeyEmptyError:
+      subject: 'خطأ لدى Aqsi'
+      text: 'لم يتم تعيين مفتاح العميل '
+    Aqsi::Requestor::ResponseError:
+      subject: 'خطأ لدى Aqsi'
+      text: '%{error}'
+    ProductsMerger::MaximumUnionsError:
+      subject: 'خطأ في دمج المنتجات'
+      text: 'عدد المنتجات المراد توحيدها أكثر من الحد الوارد في %{max}'
+    disable_convead:
+      subject: 'تم قطع الاتصال بموقع convead.io'
+      text: 'لاستئناف التكامل مع convead.io، حدد مفتاح_تطبيق'
