@@ -125,7 +125,7 @@ en:
 
     found_products_count:
       zero: 'Goods not found'
-      one: '{count} product found'
+      one: '%{count} product found'
       few: '%{count} products found'
       many: '%{count} products found'
       other: '%{count} products found'
@@ -1321,7 +1321,7 @@ en:
       price_kinds_link: 'Setting price types'
       tabs:
         common: 'Item Details'
-        extra: 'Additionally'
+        extra: 'Promotions'
         seo: 'SEO'
         other: 'Other goods'
         moysklad: 'MyStock'
