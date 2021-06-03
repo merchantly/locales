@@ -14,6 +14,7 @@ ru:
       unreserve: 'Снимать с резерва'
       change_state: Сменить статус заказа
       notification: 'Отправить уведомление'
+      issue_from_warehouse: 'Списание из склада'
 
     payment_state:
       any: 'Любое'
