@@ -17,7 +17,7 @@ en:
     warehouse_movement:
       ecr_warehouse_movement_transfer: Transfer
       ecr_warehouse_movement_receipt: Receipt
-      ecr_warehouse_movement_expense: Transfer
+      ecr_warehouse_movement_expense: Issue
     categories:
       default_welcome_category: Home Page Category
     warehouses:
