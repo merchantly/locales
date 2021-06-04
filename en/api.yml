@@ -8,12 +8,12 @@ en:
       descriptions:
         public: 'Used HTTP cookie for authorization'
         operator: |
-          Use HTTP cookie for authorization
-          For multilocale fields send param field_locales=en,ar_SA
-          For send request with mulilocale fields use special input fields:
-            POST /products - custom_title_*, custom_description_*
-            POST /categories - custom_title_*, description_*, bottom_text_*
-          where * - locale (en, ar_SA, ru, ...etc)
+          <p> Use HTTP cookie for authorization</p>
+          <p> For multilocale fields send param field_locales=en,ar_SA</p>
+          <p> For send request with mulilocale fields use special input fields:</p>
+          <p> POST /products - custom_title_*, custom_description_* </p>
+          <p> POST /categories - custom_title_*, description_*, bottom_text_* </p>
+          <p> where * - locale (en, ar_SA, ru, ...etc) </p>
         system: 'API for stores and clients – %{access_keys_url}'
       errors:
         member_not_found: 'No member with such key %{api_key}'
