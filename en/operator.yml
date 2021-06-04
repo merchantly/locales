@@ -24,6 +24,15 @@ en:
     per_page: Number of goods on the page
     w1_send_pin_code: Send
 
+    ecr_navigation:
+      cashiers: 'Cash & Bank Accounts'
+      documents: 'Financial Transactions'
+      orders: 'Orders'
+      warehouses: 'Warehouses'
+      warehouse_movements: 'Warehouse Transactions'
+      nomenclature: 'Inventory Library'
+      settings: 'Settings'
+
     navigation:
       profile: 'Site Admin'
       dashboard: 'Home'
