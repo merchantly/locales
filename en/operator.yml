@@ -1702,36 +1702,30 @@ en:
       doc: 'Sitemap.xml documentation'
     products_settings:
       categories:
-        url: operator_categories_path
         title: Product categories
         details_html: |
           <p>Add and manage your categories. All products should be categorized.</p>
           <p>Products can be in multiple categories at the same time. </p>
       properties:
-        url: operator_properties_path
         title: Product properties
         details_html: |
           <p>Add and manage the properties of your products.</p>
           <p>It will help customers make choices between products (e.g. size, color)</p>
       tags:
-        url: operator_tags_path
         title: Product tags
         details_html: |
           Add and manage the tags used for your products. Tags make it easier to manage and categorize your products.
       dictionaries:
-        url: operator_dictionaries_path
         title: Directories
         details_html: |
           <p>A reference book is a list of property values ​​for a product.</p>
           <p>For example, a list of brands or sizes.</p>
           <p>A single reference can be used in several properties.</p>
       price_kinds:
-        url: operator_price_kinds_path
         title: Price types
         details_html: |
           <p>Add and manage the price types of your products (e.g. default price, sales price).</p>
       quantity_units:
-        url: operator_quantity_units_path
         title: Units
         details_html: |
           <p>Add and manage the units of measurements for your products. This setting can be useful for products that are sold by weight.</p>
@@ -1912,75 +1906,60 @@ en:
     common_pages_widgets:
       welcome:
         title: Home page
-        url: operator_welcome_page_path
         details_html: 'Manage your home page settings, such as the slideshow banner on the main page, the categories you want to display, add-to-cart buttons and more.'
       product:
         title: Product page
-        url: operator_product_page_path
         details_html: 'Manage product page settings, such as image position on the product pages, receive alerts about out of stock products, wish list options and more'
       category:
         title: Category page
-        url: operator_category_page_path
         details_html: 'Manage category page settings, such as product settings when added to a category, the view of the category page and more.'
       order:
         title: Add-to-cart and order page
-        url: operator_order_page_path
         details_html: "Manage your store's shopping cart and order page so customers can checkout."
 
     modules_widgets:
       header:
         title: Site header
-        url: operator_header_path
         details_html: 'Adjust the site headers to show the name of your online store or add some additional contact information.'
       footer:
         title: Site footer
-        url: operator_footer_path
         details_html: 'Change the site footers for each page using HTML code to add text blocks, pages, or social media buttons to help customers navigate across your platforms.'
       menu:
         title: Site menu
-        url: operator_menu_items_path
         details_html: 'On each page of the site, a menu is automatically generated with your categories, but you can manually adjust it to add text pages, lookbooks, or other pages.'
       filter:
         title: Product filter
-        url: operator_filter_path
         details_html: 'A convenient filter of products by price, availability, and any other property can be displayed on the main page and on the category page.'
       slider:
         title: Slider on home page
-        url: operator_slider_images_path
         details_html: "Add attractive images on your home page to grab your customer's attention."
       top_banner:
         title: Create a banner
-        url: operator_top_banner_path
         details_html: |
           <p>This is a one-line message displayed on top of the site.</p>
           <p>It is useful for promotional messages and getting attention.</p>
       asset_images:
-        url: operator_asset_images_path
         title: Image library
         details_html: Create a database for all your images. You can upload images here and use them for later, instead of accessing them from your computer.
 
     slug_widgets:
       slug_resources:
-        url: operator_slug_resources_path
         title: URL manager
         details_html: |
           <p>View and manage URLs of resource pages (product, category, text, etc.) that have a value in the Clear Way field.</p>
           <p>This helps create URLs which are easy to read and understand for humans.</p>
           <p>For example, instead of /products/123, use /blouse in the URL path.</p>
       slug_redirects:
-        url: operator_slug_redirects_path
         title: Redirects
         details_html: |
           Install redirects to help reduce the bounce rate of a website by redirecting your customers from expired and/or deleted pages, to another page of the website.
       robots:
-        url: operator_robots_path
         title: Robots.txt
         details_html: |
           <p>A robots.txt file tells web crawlers how to read and index your pages for ranking. It is automatically generated, but it can be changed.</p>
           <p>For example, if you would not like certain pages to be indexed.</p>
 
       sitemap:
-        url: operator_sitemap_path
         title: Sitemap
         details_html: |
           <p> An XML sitemap makes it easier for Google to find all the relevant pages to crawl and is automatically generated.</p>
@@ -1988,20 +1967,17 @@ en:
 
       extra_js:
         title: JavaScript
-        url: operator_extra_js_path
         details_html: |
           <p> JavaScript lets you enable analytics (send user data to remote servers, like Google Analytics).</p>
           <p> It can be used to render images and other actions, but it's not advised, as it could interfere with how the website works.</p>
       https:
         title: HTTPS and encryption
-        url: operator_https_path
         details_html: |
           <p> An SSL encryption such as HTTPS ensures data transfer is secure between parties.</p>
           <p> An HTTPS certificate for the current domain is provided, as well as a redirect option between http:// and https:// to minimize duplicate pages.</p>
 
       cache:
         title: Caching and optimization
-        url: operator_cache_path
         details_html: |
           <p> The cache stores data so that future requests for that data can be provided faster.</p>
           <p> It's automatically updated, but you can manually configure the time to cache HTTP requests so that newer changes can be made faster.</p>
@@ -2009,60 +1985,42 @@ en:
     ecr_settings_widgets:
       locations:
         title: Locations
-        url: operator_ecr_branches_path
         details_html: Add and manage your branch locations, such as the cashiers operating across your branches and the warehouses that deliver goods to your branches.
       units:
         title: Units
-        url: operator_quantity_units_path
         details_html: Add and manage the units of measurements for your products. This setting can be useful for products that are sold by weight.
       external_devices:
         title: External devices
-        url: operator_external_devices_path
         details_html: Add and manage your external devices, such as an ECR or POS device.
     styles_widgets:
       css:
         title: Additional styles (CSS)
-        url: operator_css_path
         details_html: Customize the design of your site (styles, colors, background, fonts) using CSS format.
       extra_html:
         title: Additional HTML
-        url: operator_extra_html_path
         details_html: Add and edit more text content on your site using HTML format.
       logo:
         title: Logos and favicons
-        url: operator_favicons_path
         details_html: Add your company logo and favicons to increase brand presence across your web pages.
-
       design:
         title: Interactive design
-        url: design_operator_shop_path
         details_html: Use our interactive design widget to customize your web pages (no coding required).
-
     orders_settings:
       workflow_states:
-        url: operator_workflow_states_path
         title: Order statuses
         details_html: Set the order statuses that are convenient for you.
-
       order_operator_filters:
-        url: operator_order_operator_filters_path
         title: Order filters
         details_html: Filters of products that the operator has created for themselves.
-
       order_conditions:
-        url: operator_order_conditions_path
         title: Worklfow
         details_html: These are the rules by which orders move in the funnel.
-
       #notify_templates:
         #feature: notify_templates
-        #url: operator_mail_templates_path
         #title: Уведомления
         #details_html: Настраивайте условия и тексты шаблонов SMS и email уведомлений о заказах для клиентов и менеджеров.
-
       coupons:
         feature: coupon
-        url: operator_coupons_path
         title: Coupons
         details_html: Discount coupons (promotional codes) for your customers.
 
