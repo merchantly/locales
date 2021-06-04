@@ -1725,6 +1725,10 @@ en:
         title: Price types
         details_html: |
           <p>Add and manage the price types of your products (e.g. default price, sales price).</p>
+      recommended_products:
+        title: Recommended products
+        details_html:
+          <p> Recommended products settings </p>
       quantity_units:
         title: Units
         details_html: |
