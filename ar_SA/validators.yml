@@ -1,7 +1,7 @@
 ar_SA:
   validators:
     good_item:
-      must_be_good: 'يجب أن تكون البضائع عبارة عن منتج أو عنصر منتج'
+      must_be_good: ''
 
     phone_validator:
       invalid_phone: 'تنسيق رقم الهاتف غير صالح. مثال: 10 32 123 913 966+'

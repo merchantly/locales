@@ -2,7 +2,7 @@ ar_SA:
   operator:
     js:
       google_map_selector:
-        placeholder: ""
+        placeholder: البدء أو إدخال عنوان
       product:
         unknown: منتج غير معروف
         update_error: حدث خطأ عند تغيير المنتج

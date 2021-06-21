@@ -2,7 +2,7 @@ ar_SA:
   vendor:
     order_form_presenter:
       country_code:
-        default_title: ""
+        default_title: اختيار البلد
     payment_discount:
       percent: '%{title} (الخصم -%{discount}%)'
       fixed: '%{title} (الخصم من المبلغ -%{discount})'
@@ -59,7 +59,7 @@ ar_SA:
     locales:
       ru: الروسية
       en: الإنجليزية
-      ar_SA: ""
+      ar_SA: العربية
 
     activemodel:
       errors:
@@ -178,7 +178,7 @@ ar_SA:
       no_price_delivery: السعر غير محدد
       invoice: تنزيل الفاتورة بصيغة PDF
       fields:
-        country_code: ""
+        country_code: البلد
         phone: الهاتف
         name: الاسم بالكامل
         email: البريد الإلكتروني
@@ -554,4 +554,4 @@ ar_SA:
       save: 'حفظ'
       no_changes: 'لا توجد تغييرات'
     vendor_not_published:
-      title: ''
+      title: 'المتجر قيد الإنشاء. هذه وضعية التجربة.'

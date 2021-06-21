@@ -5,9 +5,9 @@ ar_SA:
     import_from_spreadsheet:
       not_allowed_locale: 'قم أولاً بتعيين الإعدادات المحلية %{locale} في الإعدادات'
       empty_product_line: 'لا يحتوي هذا السطر على محتوى أو اسم منتج'
-      empty_barcode: ''
-      empty_parent_product: ''
-      not_add_image: ''
+      empty_barcode: 'هذا المنتج ليس لديه باركود'
+      empty_parent_product: 'لم يتم العثور على المنتج الرئيسي'
+      not_add_image: 'خطأ في عدم إضافة صورة %{error}'
     cloud_payments:
       ReferToCardIssuer: اتصل بالبنك الذي تتعامل معه أو استخدم بطاقة أخرى.
       DoNotHonor: اتصل بالبنك الذي تتعامل معه أو استخدم بطاقة أخرى.
@@ -180,10 +180,10 @@ ar_SA:
     slug:
       not_unique_path: 'هذا المسار موجود بالفعل. احذفه من صفحة تحرير <a href="%{resource_path}"> المورد </a> '
     drawer:
-      open_drawer_exist: ""
-      opened_at: ""
-      closed_at: ""
+      open_drawer_exist: لائحة فتح مخزون جديد متوافرة سابقاً
+      opened_at: opened_at أقل من closed_at لائحة المخزون الأخير
+      closed_at: closed_at أقل من opened_at
     category:
       no_archive_welcome_category: ''
     quantity_unit:
-      not_destroyed_with_nomenclatures: ""
+      not_destroyed_with_nomenclatures: لا يمكنك حذف أداة قياس يتم استخدامها كمقياس كمّي في عناصر القائمة.

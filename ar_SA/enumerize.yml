@@ -14,6 +14,7 @@ ar_SA:
       unreserve: 'إزالة من الحجز'
       change_state: تغيير حالة الطلب
       notification: 'إرسال إخطار'
+      issue_from_warehouse: 'اصدر من المستودع'
 
     payment_state:
       any: 'أي'

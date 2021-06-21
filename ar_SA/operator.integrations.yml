@@ -58,7 +58,7 @@ ar_SA:
             products_count: السلع المحملة
             state: الحالة
         show:
-          log: ''
+          log: 'استيراد السجل'
           title: 'تحميل المنتج #%{id}'
           started_at: 'بدأت: %{started_at}'
           url: 'العنوان: %{url}'
@@ -79,9 +79,9 @@ ar_SA:
         journal: 'سجل الاستيراد'
         url: 'رابط إلى جدول بيانات Google المتاح'
         is_this_product_items: 'هل هذه خيارات للمنتج؟'
-        locale: ''
+        locale: 'لغة الواجهة'
         download: 'تحميل'
-        example: ""
+        example: "<a href='%{url}'>مثال جدول في جداول جوجل</a>"
       import_yml:
         asset: 'صيغة ملف XML سوق ياندكس'
         download: 'تحميل'
@@ -136,7 +136,7 @@ ar_SA:
         label:
           phone: 'رقم الهاتف لتحديد المحفظة'
         placeholder:
-          phone: ''
+          phone: 'مثلاً: +9669033891228'
         doc: 'التوثيق'
         settings: 'إعداد بيانات البائع'
         title: إعداد مسجلة المدفوعات النقدية

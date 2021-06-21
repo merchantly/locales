@@ -1,7 +1,7 @@
 ar_SA:
   activerecord:
     models:
-      default_product_vat_group: ""
+      default_product_vat_group: المجموعة الرئيسية للضرائب
       system_mail_recipient: مستلم البريد
       bank_incoming: إيصالات البنك
       bank_incoming_exclude: الإيصالات البنكية المستثناة
@@ -48,13 +48,13 @@ ar_SA:
 
     attributes:
       fallback_good:
-        title: ""
-        price_cents: ""
-        tax: ""
-        purchase_price: ""
+        title: الاسم
+        price_cents: السعر
+        tax: الضريبة (%)
+        purchase_price: تكلفة الوحدة
       quantity_unit:
-        title: ""
-        short: ""
+        title: اسم القياس
+        short: الاختصارالاسم
       certificate:
         domain: المجال
         cert_file: الشهادة
@@ -71,10 +71,10 @@ ar_SA:
         all_prices_available: جميع الأسعار متوفرة
         auth_for_buy_enable: "زر \"تسجيل الدخول للشراء\""
       branch:
-        name: ""
+        name: الاسم
       cashier:
-        name: ""
-        amount: ""
+        name: الاسم
+        amount: "الموازنة "
       product_price:
         price: السعر
         price_kind_id: النوع
@@ -234,7 +234,7 @@ ar_SA:
         payment_type_id: الدفع
         row_order: الموقع
       vendor_payment:
-        payment_key: ""
+        payment_key: مفتاح الدفع
         online_kassa_payment_method: طريقة الدفع
         online_kassa_payment_object: موضوع الدفع
         is_online_kassa_test_mode: وضع الاختبار
@@ -261,9 +261,9 @@ ar_SA:
         sberbank_is_test: وضع الاختبار
         arsenal_pay_widget: عنصر واجهة المستخدم
         arsenal_pay_password: المفتاح السري
-        geidea_payment_merchant_id: ""
-        geidea_payment_api_password: ""
-        geidea_payment_type: ""
+        geidea_payment_merchant_id: مفتاح التاجر
+        geidea_payment_api_password: "كلمة مرور واجهة برمجة التطبيق "
+        geidea_payment_type: طريقة الدفع
       vendor_tariff_log_entity:
         date: 'التاريخ'
         vendor_id: 'المتجر'
@@ -286,8 +286,8 @@ ar_SA:
         custom_value: 'تعيين القيمة'
       product_item:
         fallback_title: 'الخيار% {id}'
-        nomenclature_id: ''
-        nomenclature: ''
+        nomenclature_id: 'منتج اللائحة'
+        nomenclature: 'منتج اللائحة'
       slug:
         path: 'طريقة واضحة'
         redirect_path: 'إعادة التوجيه'
@@ -450,7 +450,7 @@ ar_SA:
       vendor/domain_aliases:
         domain: مجال إضافي
       client:
-        birthdate: ""
+        birthdate: تاريخ الولادة
         id: "الرقم التعريفي "
         rfm: شريحة RFM
         recency: مشتريات الوصفات (بالأيام)
@@ -537,7 +537,7 @@ ar_SA:
         is_published: "تم النشر؟"
         tags: العلامات
         multiple_choice: إمكانية وضع عدة عناصر ضمن "الإضافة إلى البطاقة" في بطاقة المنتج
-        product_vat_group_id: ""
+        product_vat_group_id: مجموعة الضرائب
       operator:
         locale: لغة الواجهة
         password: كلمة المرور

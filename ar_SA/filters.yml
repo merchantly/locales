@@ -56,12 +56,12 @@ ar_SA:
           any: الكل
 
       refund:
-        name: ""
+        name: الاسترجاعات
         values:
-          any: ""
-          no_refund: ""
-          total_refund: ""
-          partial_refund: ""
+          any: الكل
+          no_refund: لا يوجد أي استرجاعات
+          total_refund: استرجاع كامل
+          partial_refund: استرجاع جزئي
 
     products:
       on_welcome:

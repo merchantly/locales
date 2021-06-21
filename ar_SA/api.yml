@@ -7,7 +7,7 @@ ar_SA:
         system: 'واجهة برمجة تطبيقات المنصة للمطورين'
       descriptions:
         public: 'ملف تعريف ارتباط HTTP المستخدم للتصريح'
-        operator: 'استخدام ملف تعريف ارتباط HTTP للتصريح'
+        operator: |
         system: 'واجهة برمجة التطبيقات للمتاجر والعملاء - %{access_keys_url}'
       errors:
         member_not_found: 'لا يوجد عضو يحمل هذا المفتاح %{api_key}'
