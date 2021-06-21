@@ -1,7 +1,7 @@
 en:
   validators:
     good_item:
-      must_be_good: 'Good must be Product or ProductItem'
+      must_be_good: 'Good must be Product or ProductItem (%{klass})'
 
     phone_validator:
       invalid_phone: 'Invalid phone number format. Example: +966 913 123 32 10'
