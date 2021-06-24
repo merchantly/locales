@@ -1638,6 +1638,9 @@ ru:
       add_button: Добавить вид цены
       default: Обычная
       sale: Распродажа
+      updated: Вид цены успешно обновлен
+      deleted: Вид цены успешно удален
+      created: Вид цены успешно создан
     sitemap:
       link: Ссылка на sitemap.xml Вашего магазина
       refresh:

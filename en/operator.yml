@@ -83,6 +83,9 @@ en:
       sale: Sale
       name: Name
       add_button: Add price type
+      updated: Price kind has been successfully updated
+      deleted:  Price kind has been successfully deleted
+      created:  Price kind has been successfully created
 
     toggle_theme_button:
       slider_visible: Show slider
