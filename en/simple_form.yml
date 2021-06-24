@@ -12,8 +12,8 @@ en:
       hotel:
         hotel_kind_id: 'Any'
       product:
-        product_vat_group_id: 'Select custom TAX'
-        vat: 'No selected'
+        product_vat_group_id: 'Select custom VAT rate'
+        vat: 'Not selected'
 
     error_notification:
       default_message: "Errors found, <br />please take a look at &nbsp;them"
@@ -27,7 +27,7 @@ en:
         adding: Adding...
     labels:
       defaults:
-        vat: TAX
+        vat: VAT, %
         package_category_id: Packed category
         currency_iso_code: 'General currency'
         role: Role
@@ -68,8 +68,8 @@ en:
       ecr_nomenclature:
         is_online: Online
         is_offline: Offline
-        product_vat_group_id: Product TAX Group
-        vat: Custom TAX
+        product_vat_group_id: Product VAT Group
+        vat: Custom VAT rate
         purchase_price: Cost per unit
       ecr_nomenclature_filter:
         availability: Stock
@@ -204,7 +204,7 @@ en:
         package_good_global_id: Packaging
         delivery_time_period_id: Time of delivery
       product:
-        vat: Custom TAX
+        vat: Custom VAT rate
         reserve: Reserved
         price: "Price (%{currency})"
         sale_price: "Discount price (%{currency})"
@@ -256,7 +256,7 @@ en:
         custom_max_order_similar_products_count: Maximum number of products of one kind
         custom_max_order_items_count: Maximum number of product positions
         moysklad_mirror_categories_tree: 'Mirror category tree from stock'
-        vats_list: Available TAX rates (%)
+        vats_list: Available VAT rates (%)
         show_similar_products: 'Show similar products'
         turbolinks_enabled: Enable fast reboot (turbolinks)
         sitemap_url: Link to sitemap

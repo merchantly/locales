@@ -86,7 +86,7 @@ en:
         Ecr::Branch: Locals
         Ecr::Cashier: Cash Accounts
         Ecr::Document: Financal Transactions
-        ProductVatGroup: Product Tax Groups
+        ProductVatGroup: Product VAT Groups
         Ecr::WarehouseMovement: Warehouse Transactions
         QuantityUnit: Quantity Units
         Ecr::Nomenclature: Inventory Items

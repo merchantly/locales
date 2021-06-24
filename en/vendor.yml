@@ -213,7 +213,7 @@ en:
         first_name: Alexander
         second_name: Ivanov
         patronymic: Olegovych
-      total_vat: (Including TAX %{total_vat})
+      total_vat: (Including VAT %{total_vat})
       submit: Checkout
       pickup_address: 'Pickup address:'
       title: "Order №%{number} in %{vendor}"

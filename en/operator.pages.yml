@@ -563,7 +563,9 @@ en:
           title_html: Refund
       product_vat_groups:
         show:
-          title_html: Product tax groups
+          title_html: VAT groups
+        edit:
+          title_html: VAT group
       warehouses:
         show:
           title_html: Warehouses

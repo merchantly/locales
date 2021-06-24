@@ -1,7 +1,7 @@
 en:
   activerecord:
     models:
-      default_product_vat_group: Default TAX group
+      default_product_vat_group: Default VAT group
       system_mail_recipient: Mailing recipient
       bank_incoming: Bank receipts
       bank_incoming_exclude: Excluded bank receipts
@@ -48,7 +48,7 @@ en:
       fallback_good:
         title: Title
         price_cents: Price
-        tax: TAX (%)
+        tax: VAT (%)
         purchase_price: Cost per unit
       quantity_unit:
         title: Title
@@ -504,7 +504,7 @@ en:
       product:
         ordering_start_at: Start of sale
         ordering_end_at: End of sale
-        vat_id: TAX rate, %
+        vat_id: VAT rate, %
         is_digital: "Digital product?"
         file_url: Download link
         sale_price: Discount price
@@ -535,7 +535,7 @@ en:
         is_published: "Published?"
         tags: Tags
         multiple_choice: Possibility to put several items in the "Add to card" in the card of product
-        product_vat_group_id: TAX group
+        product_vat_group_id: VAT group
       operator:
         locale: Interface language
         password: Password
