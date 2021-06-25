@@ -564,5 +564,25 @@ ru:
       saving: 'Сохраняем...'
       save: 'Сохранить'
       no_changes: 'Изменений нет'
+      in_row_count:
+        one: '1 ряд'
+        two: '2 ряда'
+        three: '3 ряда'
+        four: '4 ряда'
+      product_page_photo:
+        above: 'Сверху'
+        aside: 'Сбоку'
+      colors:
+        white: 'Белый'
+        black: 'Черный'
+        orange: 'Оранжевый'
+        grey: 'Серый'
+        beige: 'Бежевый'
+        light_green: 'Салатовый'
+        red: 'Красный'
+      dimensions:
+        sm: 'Маленький'
+        md: 'Средний'
+        lg: 'Большой'
     vendor_not_published:
       title: 'Магазин находится в разработке. Это ДЕМО-режим'

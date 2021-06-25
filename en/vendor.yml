@@ -551,5 +551,25 @@ en:
       saving: 'Saving...'
       save: 'Save'
       no_changes: 'No changes'
+      in_row_count:
+        one: '1 row'
+        two: '2 rows'
+        three: '3 rows'
+        four: '4 rows'
+      product_page_photo:
+        above: 'Above'
+        aside: 'Aside'
+      colors:
+        white: 'White'
+        black: 'Black'
+        orange: 'Orange'
+        grey: 'Grey'
+        beige: 'Beige'
+        light_green: 'Light green'
+        red: 'Red'
+      dimensions:
+        sm: 'Small'
+        md: 'Medium'
+        lg: 'Big'
     vendor_not_published:
       title: 'The store is under construction. This is DEMO mode'
