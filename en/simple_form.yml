@@ -68,7 +68,7 @@ en:
       ecr_nomenclature:
         is_online: Online
         is_offline: Offline
-        product_vat_group_id: Product VAT Group
+        product_vat_group_id: Product VAT group
         vat: Custom VAT rate
         purchase_price: Cost per unit
       ecr_nomenclature_filter:

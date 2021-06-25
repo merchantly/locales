@@ -266,6 +266,8 @@ en:
       access_keys: 'API access'
 
     th:
+      product_vat_groups:
+        vat: VAT
       slug_resources:
         url_path: URL path
         page_type: Page type
