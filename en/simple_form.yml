@@ -217,7 +217,7 @@ en:
         other_products: 'Other goods'
         union_items: Linked goods (options)
         title: Product Name
-        quantity: Quantity
+        quantity: In stock
         total_quantity: Total quantity
         is_manual_published: Published
         is_new: New
@@ -239,6 +239,8 @@ en:
           article_smart: Vendor code
           custom_title: Variation Name
           color: Colour
+      product_item:
+        quantity: In stock
       vendor_theme:
         show_similar_products: 'Show similar products'
         theme_template_key: Style

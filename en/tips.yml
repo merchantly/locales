@@ -10,14 +10,8 @@ en:
         content: 'The video for this link will be displayed on the product page.'
 
       quantity:
-        title: 'Number of items in stock (residues)'
-        content: |
-          <h4>Available for sale quantity of goods.</h4>
-          <p>The customer will not be able to order goods more than entered in this field. If the quantity is zero or has a negative value, then the product is no more and it is not for sale.</p>
-          <h4>Endless goods</h4>
-          <p>If your product never ends or you monitor its residues, leave this field blank. An empty field means that the product is not finished and its balance will not be taken into account when ordering.</p>
-          <h4>Reservation</h4>
-          <p>Write-off of balances (reservation) occurs either at the time of order creation or at the time of receipt of payment. It depends on the payment method settings.</p>
+        title: 'Initial arrival at the warehouse'
+        content:
         placement: top
 
       is_sale:
