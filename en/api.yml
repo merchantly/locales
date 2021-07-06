@@ -9,12 +9,12 @@ en:
         public: 'Used HTTP cookie for authorization'
         operator: |
           <p> Use HTTP cookie for authorization</p>
-          <h3> Style <h3>
+          <h3> Style </h3>
           <p> All params in snake_case style.</p>
           <p> All fields of response in camelCase style </p>
-          <h3> Multilocal <h3>>
+          <h3> Multilocal </h3>
           <p> For multilocale fields send param field_locales=en,ar_SA</p>
-          <p> For send request with mulilocale fields use special input fields:</p>
+          <p> For send request with multilocale fields use special input fields:</p>
           <p> POST /products - custom_title_*, custom_description_* </p>
           <p> POST /categories - custom_title_*, description_*, bottom_text_* </p>
           <p> where * - locale (en, ar_SA, ru, ...etc) </p>
