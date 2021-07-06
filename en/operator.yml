@@ -1554,7 +1554,7 @@ en:
       products_without_categories: "Products without a category (%{count})"
       google_product_category: |
         This parameter is used to export category into facebook catalog. </br>
-        Use values from the list <a href="http://www.google.com/basepages/producttype/taxonomy-with-ids.ru-RU.xls">Google's product taxonomy </a>
+        Use values from the list <a href="https://www.google.com/basepages/producttype/taxonomy-with-ids.en-US.xls">Google's product taxonomy </a>
     category_page:
       form:
         header: Product view
