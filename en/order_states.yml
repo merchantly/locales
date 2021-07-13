@@ -8,6 +8,7 @@ en:
   order_log_entities:
     changed_workflow_state: "Order status was changed (%{workflow_state_from} ->%{workflow_state_to})"
     use_condition: "Applied condition (#%{id}): \"%{title}\""
+    order_attrs_updated: 'Updated order attrs {%{attrs}}'
 
   order_delivery_states_comments:
     delivery: The order has been transferred for delivery
