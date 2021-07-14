@@ -327,6 +327,9 @@ ru:
     other_product:
       title: Другие товары
 
+    history_product:
+      title: Просмотренные товары
+
     product:
       more_content:
         open: Читать далее

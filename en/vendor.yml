@@ -319,6 +319,9 @@ en:
     other_product:
       title: Other goods
 
+    history_product:
+      title: Viewed products
+
     product:
       more_content:
         open: Read more
