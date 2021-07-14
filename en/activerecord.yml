@@ -476,6 +476,8 @@ en:
       theme:
         title: Name
       vendor_theme:
+        show_history_products_on_welcome: Show viewed products
+        show_history_products_on_category: Show viewed products
         product_image_position: Image position
         show_short_details: Show product properties
         category_product_columns: Products in a row in the category
