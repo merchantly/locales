@@ -473,6 +473,7 @@ ru:
       theme:
         title: Название
       vendor_theme:
+        history_products_count: Кол-во просмотренных товаров
         show_history_products_on_welcome: Показать просмотренные товары
         show_history_products_on_category: Показать просмотренные товары
         product_image_position: Позиция изображения

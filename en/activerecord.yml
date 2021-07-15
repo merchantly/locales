@@ -476,6 +476,7 @@ en:
       theme:
         title: Name
       vendor_theme:
+        history_products_count: Viewed products count
         show_history_products_on_welcome: Show viewed products
         show_history_products_on_category: Show viewed products
         product_image_position: Image position
