@@ -167,6 +167,7 @@ ru:
         package_good_global_id: Упаковка
         delivery_time_period_id: Время доставки
       product:
+        first_purchase_price: Закупочная цена (%{currency})
         reserve: Зарезервировано
         price: Цена (%{currency})
         sale_price: Цена распродажи (%{currency})
@@ -201,6 +202,8 @@ ru:
           article_smart: Артикул
           custom_title: Название
           color: Цвет
+      product_item:
+        first_purchase_price: "Закупочная цена (%{currency})"
       vendor_theme:
         show_similar_products: 'Показывать подобные товары'
         theme_template_key: Стиль
