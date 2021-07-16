@@ -283,6 +283,7 @@ en:
         value: 'Value'
         custom_value: 'Set value'
       product_item:
+        first_purchase_price: Cost per unit
         fallback_title: 'Option %{id}'
         nomenclature_id: 'Inventory Item'
         nomenclature: 'Inventory Item'
@@ -505,6 +506,7 @@ en:
         next_resource_id: Next category
         google_product_category_id: google_product_category
       product:
+        first_purchase_price: Cost per unit
         ordering_start_at: Start of sale
         ordering_end_at: End of sale
         vat_id: VAT rate, %

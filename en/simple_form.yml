@@ -204,6 +204,7 @@ en:
         package_good_global_id: Packaging
         delivery_time_period_id: Time of delivery
       product:
+        first_purchase_price: Cost per unit (%{currency})
         vat: Custom VAT rate
         reserve: Reserved
         price: "Price (%{currency})"
@@ -241,6 +242,7 @@ en:
           color: Colour
       product_item:
         quantity: In stock
+        first_purchase_price: "Cost per unit (%{currency})"
       vendor_theme:
         show_similar_products: 'Show similar products'
         theme_template_key: Style
