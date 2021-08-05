@@ -1165,6 +1165,8 @@ en:
       browser_data: 'Browser data'
       total_vat: VAT
       total_price: Total
+      total_with_delivery_price: Total with delivery
+      total_without_vat_price: Total without VAT
       send_email: 'Send by mail'
       reset_downloaded_count: 'Reset the number of downloads (used %{current} from %{total})'
       quantity: 'Balance:'

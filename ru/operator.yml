@@ -1101,7 +1101,9 @@ ru:
       transmitted_data: 'Передаваемые данные'
       browser_data: 'Данные браузера'
       total_price: Итого
+      total_with_delivery_price: Итого с доставкой
       total_vat: НДС
+      total_without_vat_price: Итого без НДС
       send_email: 'Выслать на почту'
       reset_downloaded_count: 'Сброс кол-ва загрузок (исп. %{current} из %{total})'
       quantity: 'Остаток:'
