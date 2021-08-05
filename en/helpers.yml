@@ -7,6 +7,8 @@ en:
       span: 'Unpublish'
       confirm: 'Are you sure?'
     more: More
+    order:
+      pay_and_delivery: Paid and delivered
     orders_count:
       few: order
       many: orders

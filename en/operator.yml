@@ -1139,6 +1139,7 @@ en:
     slug_resources:
       callout: "Paths can be configured on resource editing pages (product, category, text page, etc.)"
     orders:
+      paid_and_delivered: Order updated success
       source: 'Type: %{source}'
       payment_discount: 'Discount on payment via with %{payment_type}'
       buyer:

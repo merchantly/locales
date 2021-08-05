@@ -1075,6 +1075,7 @@ ru:
     slug_resources:
       callout: Пути можно настроить на страницах редактирования ресурсов (товара, категории, текстовой страницы и тп)
     orders:
+      paid_and_delivered: Заказ обновлен успешно
       source: 'Источник: %{source}'
       sales_report: 'Отчет о продажах'
       payment_discount: 'Скидка при оплате через "%{payment_type}"'

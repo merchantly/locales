@@ -7,6 +7,8 @@ ru:
       span: 'Снять с публикации'
       confirm: 'Вы уверены?'
     more: Ещё
+    order:
+      pay_and_delivery: Оплачен и доставлен
     orders_count:
       few: заказа
       many: заказов
