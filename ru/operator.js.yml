@@ -1,6 +1,13 @@
 ru:
   operator:
     js:
+      category_tree_selector:
+        createButtonTitle: 'Создать'
+        cancelButtonTitle: 'Назад'
+        modalCreateTitle: 'Создание категории'
+        modalShowTitle: 'Выбор категорий'
+        parentCategoryText: 'Родительская категория'
+        nameText: 'Название'
       product:
         unknown: Неизвестный товар
         update_error: Ошибка изменения товара

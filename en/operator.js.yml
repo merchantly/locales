@@ -1,6 +1,13 @@
 en:
   operator:
     js:
+      category_tree_selector:
+        createButtonTitle: 'Create'
+        cancelButtonTitle: 'Back'
+        modalCreateTitle: 'Create category'
+        modalShowTitle: 'Select category'
+        parentCategoryText: 'Parent category'
+        nameText: 'Name'
       google_map_selector:
         placeholder: Start to enter an address...
       product:
