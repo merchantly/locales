@@ -213,7 +213,7 @@ en:
         first_name: Alexander
         second_name: Ivanov
         patronymic: Olegovych
-      total_vat: (Including VAT %{total_vat})
+      total_vat: '(Including VAT %{total_vat}, Total w/o VAT: %{total_without_vat})'
       submit: Checkout
       pickup_address: 'Pickup address:'
       title: "Order №%{number} in %{vendor}"
@@ -273,6 +273,8 @@ en:
       amount: Quantity
       weight: Weight
       overall: 'Subtotal:'
+      vat_amount: 'Total VAT:'
+      total_without_amount: 'Total, w/o Tax:'
       title: Cart
       clear: Delete all goods
       not_available: No longer for sale
