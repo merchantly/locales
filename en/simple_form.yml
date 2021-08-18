@@ -177,7 +177,7 @@ en:
         city_title: Delivery City
         address: Delivery address
         comment: Comment
-        coupon_code: Promo code
+        coupon_code: Promotion
         email: Email
       operator_order:
         phone: Phone
@@ -186,7 +186,7 @@ en:
         city_title: Delivery City
         address: Delivery address
         comment: Comment
-        coupon_code: Promo code
+        coupon_code: Promotion
         email: E-mail
         delivery_type_id: Delivery type
         payment_type_id: Payment methods
