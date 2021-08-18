@@ -205,6 +205,13 @@ en:
           title_html: Edit the promo code
         new_import:
           title_html: Download promotional codes in CSV format
+      promotions:
+        index:
+          title_html: Promotions
+        new:
+          title_html: New promotion
+        edit:
+          title_html: Edit the promotion
       coupon_groups:
         new:
           title_html: Create a group of promotional codes

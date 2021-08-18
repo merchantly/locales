@@ -811,7 +811,13 @@ ru:
     coupon_images:
       coordinates: Координаты расположения кода сертификата на изображении
       add_button: Добавить
+    promotions:
+      archive: Архив
+      active: Активные
+      actions:
+        add_promotion: Добавить промоакцию
     coupons:
+      start_at: От %{start_at}
       expires_at: До %{expires_at}
       coupon_groups: Группа купонов %{count}
       create_processes: Создается группа купонов %{count}

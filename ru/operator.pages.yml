@@ -199,6 +199,13 @@ ru:
           title_html: Редактируем промокод
         new_import:
           title_html: Загружаем промо-коды в формате CSV
+      promotions:
+        index:
+          title_html: Промоакции
+        new:
+          title_html: Новая промоакция
+        edit:
+          title_html: Редактирование промоакции
       coupon_groups:
         new:
           title_html: Создаем группу промокодов

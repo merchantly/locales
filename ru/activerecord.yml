@@ -581,6 +581,7 @@ ru:
         used_count: Кол-во использований
         discount: Скидка
         discount_type: Тип скидки
+        start_at: Действует от
         expires_at: Действует до
       dictionary_entity:
         custom_title: Название

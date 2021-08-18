@@ -586,6 +586,7 @@ en:
         used_count: Number of uses
         discount: Discount
         discount_type: Discount type
+        start_at: Valid from
         expires_at: Valid until
       dictionary_entity:
         custom_title: Name

@@ -872,7 +872,13 @@ en:
     coupon_images:
       coordinates: The coordinates of the certificate code on the image
       add_button: Add
+    promotions:
+      archive: Archive
+      active: Active
+      actions:
+        add_promotion: Add promotion
     coupons:
+      start_at: "From %{start_at}"
       expires_at: "Until %{expires_at}"
       coupon_groups: "Coupon gWeroup %{count}"
       create_processes: "Creates coupon group %{count}"
