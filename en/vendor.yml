@@ -97,7 +97,7 @@ en:
         max_order_similar_products_count: The quantity of one type of product in the order exceeds the limit in %{max_count}
       coupon:
         not_found: 'Non-existing %{code} promo code'
-        expired: 'Promo Code Overdue %{code}'
+        expired: 'Promotion Overdue %{code}'
       order:
         house: 'House number must be 5 or 5A'
         yandex_kassa_max_items_count: 'Too many goods for Yandex Kassa. Maximum: %{max_count}'
@@ -119,7 +119,7 @@ en:
         need_to_pay: 'Pay order first'
 
     placeholders:
-      coupon: Promo code (if any)
+      coupon: Promotion
       search: Search
 
     alerts:
@@ -183,7 +183,7 @@ en:
         city_title: Delivery City
         address: Delivery address
         comment: Comment
-        coupon_code: Promo code
+        coupon_code: Promotion
         delivery_city_id: City of issue
         pickup_point_id: Point of issue
         region: Region
