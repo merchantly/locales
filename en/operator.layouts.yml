@@ -10,6 +10,7 @@ en:
           read: 'Read'
           unread: 'Unread'
       clients:
+        search: 'Search by clients'
         title: Customers
         add_category: 'Add category'
         all: All Customers

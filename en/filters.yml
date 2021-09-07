@@ -1,5 +1,18 @@
 en:
   filters:
+    clients:
+      name:
+        name: Name
+        placeholder: Alex
+      address:
+        name: Address
+        placeholder: Academic Vavilov 12-10
+      email:
+        name: Email
+        placeholder: example@gmail.com
+      phone:
+        name: Phone number
+        placeholder: +966 913 123 32 10
     orders:
       source:
         name: Channel

@@ -149,6 +149,13 @@ en:
       many: '%{count} order found'
       other: '%{count} order found'
 
+    found_clients_count:
+      zero: 'Clients not found'
+      one: '%{count} client found'
+      few: '%{count} client found'
+      many: '%{count} client found'
+      other: '%{count} client found'
+
     orders_count:
       one: '%{count} order'
       few: '%{count} orders'
@@ -357,11 +364,12 @@ en:
         text: Description
         datetime: Date
       clients:
+        average_orders_price: Average spend
         actions: Edit
         created_at: Registered at
         id: ID
         name: Name
-        phones: Mobile
+        phones: Phone number
         emails: Email
         orders_count: Total orders
         last_order: Previous order
@@ -820,6 +828,8 @@ en:
       drawers_empty: Drawers empty
       documents_empty: Documents empty
     clients:
+      filter:
+        name:
       edit: 'Customer: %{name}'
       add_customer: Add customer
       empty: No customers found

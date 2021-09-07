@@ -132,6 +132,13 @@ ru:
       many: 'Найдено <b>%{count}</b> заказов'
       other: 'Найдено <b>%{count}</b> заказов'
 
+    found_clients_count:
+      zero: 'Клиенты не найдены'
+      one: '%{count} клиент найден'
+      few: '%{count} клиентов найдено'
+      many: '%{count} клиентов найдено'
+      other: '%{count} клиентов найдено'
+
     orders_count:
       one: '%{count} заказ'
       few: '%{count} заказа'
@@ -312,6 +319,7 @@ ru:
         text: Описание
         datetime: Дата
       clients:
+        average_orders_price: Средняя сумма
         actions: Действия
         created_at: Дата регистрации
         id: ID
