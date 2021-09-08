@@ -313,6 +313,7 @@ en:
         title: Text block name
         position: Position
       vendor:
+        vat_calculation_version: VAT amount calculation version
         show_delivery_restriction_messages: Show message about product delivery restrictions
         filter_apply_type: Type 'Apply filter'
         show_filter_clear_button: Show the 'Reset All Filters' button
