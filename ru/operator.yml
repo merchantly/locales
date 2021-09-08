@@ -1405,6 +1405,8 @@ ru:
     client:
       found_count: Найдено клиентов
       export: Экспорт в CSV
+      print: Печать
+      export_pdf: Экспорт в PDF
       phones:
         title: Телефоны
         empty: Нет ни одного телефона

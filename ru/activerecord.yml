@@ -445,6 +445,8 @@ ru:
       vendor/domain_aliases:
         domain: Дополнительный домен
       client:
+        area: Площадь
+        floor: Этаж
         birthdate: Дата рождения
         id: ID
         rfm: RFM-сегмент

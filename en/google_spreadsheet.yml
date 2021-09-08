@@ -16,3 +16,15 @@ en:
       image_link: 'Product image link'
       vat: 'Tax'
     property_title: '(property: %{title})'
+  clients_google_spreadsheet:
+    columns:
+      name: 'Name'
+      phones: 'Phones'
+      emails: 'Emails'
+      address: 'Address'
+      city: 'City'
+      area: 'Area'
+      street: 'Street'
+      house: 'Building'
+      floor: 'Floor'
+      room: 'Appartment number'

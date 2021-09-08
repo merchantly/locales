@@ -265,6 +265,10 @@ en:
           title_html: 'Customer %{resource}'
         show:
           title_html: 'Customer settings'
+        import_form:
+          title_html: 'Customers import'
+        import:
+          title_html: 'Customers import'
       menu_items:
         index:
           title_html: 'Menu management'

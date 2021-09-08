@@ -449,6 +449,8 @@ en:
       vendor/domain_aliases:
         domain: Additional domain
       client:
+        area: Area
+        floor: Floor
         birthdate: Date of birth
         id: ID
         rfm: RFM segment

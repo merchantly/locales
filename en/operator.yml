@@ -828,6 +828,15 @@ en:
       drawers_empty: Drawers empty
       documents_empty: Documents empty
     clients:
+      import: Import
+      import_result:
+        total_rows_count: Total rows count %{count}
+        imported_clients_count: Imported clients count %{count}
+        empty_errors: Empty errors
+        error_messages: Error messages
+        row_num: Row number
+        message: message
+        row: row
       filter:
         name:
       edit: 'Customer: %{name}'
@@ -1476,7 +1485,9 @@ en:
       empty:  No one has subscribed yet.
     client:
       found_count: Found customers
-      export: Export to CSV
+      export: Export to Excel
+      export_pdf: Export to PDF
+      print: Print
       phones:
         title: Phones
         empty: No phone

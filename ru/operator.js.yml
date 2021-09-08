@@ -49,5 +49,7 @@ ru:
         total_price: 'Общая сумма: %{totalPrice}'
       categories_selectize:
         placeholder: 'Добавьте хотябы одну'
+      client_selectize:
+        placeholder: 'Пустой клиент'
       product_images_upload:
         add: 'Добавить изображение'
