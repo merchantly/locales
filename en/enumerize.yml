@@ -1,5 +1,8 @@
 en:
   enumerize:
+    vat_calculation_version:
+      v1: price * vat
+      v2: (price * vat) / (1 + vat)
     product_image_position:
       above: Above product description
       aside: Next to the product description
