@@ -1199,6 +1199,7 @@ en:
       delivery_price_empty: Shipping cost not established
       delivery_price_warning: The order can not be paid until the delivery fee is determined.
       payment_url: 'Customer order payment page'
+      is_credit: 'Order is Credit'
       hints:
         order_payment:
           state: 'Attention! When changing the payment status manually, workflow and notifications do not work.'
