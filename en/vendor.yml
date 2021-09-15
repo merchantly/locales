@@ -300,6 +300,7 @@ en:
       no_package: Do not add
 
     payment:
+      is_credit: Is credit
       w1:
         failure:
           title: Payment failed

@@ -306,6 +306,7 @@ ru:
       no_package: Не добавлять
 
     payment:
+      is_credit: Is credit
       w1:
         failure:
           title: Оплата не прошла
