@@ -450,6 +450,10 @@ en:
       vendor/domain_aliases:
         domain: Additional domain
       client:
+        address: Address
+        street: Street
+        house: House
+        room: Room
         area: Area
         floor: Floor
         birthdate: Date of birth

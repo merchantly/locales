@@ -2,16 +2,16 @@ ru:
   filters:
     clients:
       name:
-        name: Name
+        name: Имя
         placeholder: Alex
       address:
-        name: Address
+        name: Адрес
         placeholder: Academic Vavilov 12-10
       email:
         name: Email
         placeholder: example@gmail.com
       phone:
-        name: Phone number
+        name: Телефон
         placeholder: +966 913 123 32 10
     orders:
       source:

@@ -445,6 +445,10 @@ ru:
       vendor/domain_aliases:
         domain: Дополнительный домен
       client:
+        address: Адрес
+        street: Улица
+        house: Дом
+        room: Квартира
         area: Площадь
         floor: Этаж
         birthdate: Дата рождения
