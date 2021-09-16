@@ -97,6 +97,7 @@ en:
       invalid_phone: "Invalid phone number, enter the correct number or <a href=\"%{registration_url}\">register</a>"
     vendor_registration:
       not_unique_phone: "This phone is already registered, <a href=\"%{login_url}\">enter the site</a>"
+      min_period: 'You just created a store'
     vendor_order_form:
       no_payment: "There are not available payment methods "
     robots:
