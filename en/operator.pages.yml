@@ -559,6 +559,8 @@ en:
           title_html: Cash & bank accounts
       documents:
         show:
+          title_html: Financal transaction
+        index:
           title_html: Financal transactions
       expense:
         show:
