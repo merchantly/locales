@@ -308,6 +308,7 @@ ru:
         title: Название текстового блока
         position: Позиция
       vendor:
+        legal_country_code: Country Code
         meta_title_template: 'Шаблон для %{resource}'
         show_delivery_restriction_messages: Показывать сообщение об ограничениях доставок на продукт
         filter_apply_type: Применить фильтр

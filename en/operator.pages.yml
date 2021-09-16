@@ -1,6 +1,9 @@
 en:
   operator:
     pages:
+      zatca:
+        show:
+          title_html: Zatca
       partner/coupons:
         show:
           title_html: Partner promocodes

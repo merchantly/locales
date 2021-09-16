@@ -183,3 +183,7 @@ en:
     apidoc:
       title: 'API %{brand_name_a}'
       description_html: Full access to store data through the REST JSON API.
+
+    zatca:
+      title: 'Zatca'
+      description_html: Zatca
