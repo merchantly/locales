@@ -767,6 +767,7 @@ ru:
       updated: 'Касса успешно обновлена'
       new_submit: Добавить кассу
     clients:
+      import: 'Импорт'
       edit: 'Клиент: %{name}'
       add_customer: Добавить клиента
       empty: Клиентов не нашлось
