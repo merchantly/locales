@@ -319,7 +319,7 @@ ru:
         text: Описание
         datetime: Дата
       clients:
-        average_orders_price: Средняя сумма
+        average_orders_price: Средняя сумма покупки
         actions: Действия
         created_at: Дата регистрации
         id: ID
