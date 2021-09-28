@@ -10,7 +10,7 @@ en:
     month_price: '%{currency} / month'
     create_shop: 'Add Store'
     tariffs: tariffs
-    default_vendor_name: Untitled
+    default_vendor_name: My Store
     policy_label: I have read and confirm Terms and conditions
     call: call – %{phone}
     back: Return back

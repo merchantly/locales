@@ -1495,7 +1495,7 @@ en:
       empty:  No one has subscribed yet.
     client:
       found_count: Found customers
-      export: Export to Excel
+      export: Export to CSV
       export_pdf: Export to PDF
       print: Print
       phones:
