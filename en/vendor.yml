@@ -106,6 +106,7 @@ en:
         has_unorderable_goods: 'In the order are inaccessible products'
         no_items: 'There are no products in the order.'
         unavailable_currency: Cannot order in selected currency
+        unavailable_geidea_payment: You cannot pay with geidea payment now.
         comment: The comment cannot be empty.
         client_payment:
           unavailable: "Payment system %{payment_title} specified in the personal account is not available %{cabinet_path}"
