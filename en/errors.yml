@@ -46,7 +46,7 @@ en:
       carrierwave_processing_error: "can not process the download file, perhaps this is not an image"
       carrierwave_integrity_error: unresolved file type
       carrierwave_download_error: can not download the file from the network
-      extension_white_list_error: "Invalid extension of the file %{extension}, only allowed: %{allowed_types}"
+      extension_whitelist_error: "Invalid extension of the file %{extension}, only allowed: %{allowed_types}"
       extension_black_list_error: "Invalid extension of the file %{extension}, only allowed: %{allowed_types}"
       mime_types_processing_error: "Can't recognize MIME :: Types of file: %{e}"
       url_error: Invalid download URL

@@ -40,7 +40,7 @@ ru:
       carrierwave_processing_error: не могу обработать загружаемый файл, возможно это не изображение
       carrierwave_integrity_error: неразрешенный тип файла
       carrierwave_download_error: не могу загрузить файл из сети
-      extension_white_list_error: "Неверное расширение файла %{extension}, разрешены только: %{allowed_types}"
+      extension_whitelist_error: "Неверное расширение файла %{extension}, разрешены только: %{allowed_types}"
       extension_black_list_error: "Неверное расширение файла %{extension}, запрещенные расширения: %{prohibited_types}"
       mime_types_processing_error: "Не могу распознать MIME::Types файла: %{e}"
       url_error: Неверный URL для загрузки
