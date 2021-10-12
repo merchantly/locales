@@ -42,7 +42,7 @@ ar_SA:
       carrierwave_processing_error: "لا يمكن معالجة ملف التنزيل، ربما هذه ليست صورة"
       carrierwave_integrity_error: نوع الملف ‏‏غير محلول
       carrierwave_download_error: لا يمكن تنزيل الملف من خلال الشبكة
-      extension_white_list_error: "امتداد غير صالح للملف %{extension}، مسموح به فحسب: %{allowed_types}"
+      extension_whitelist_error: "امتداد غير صالح للملف %{extension}، مسموح به فحسب: %{allowed_types}"
       extension_black_list_error: "امتداد غير صالح للملف %{extension}، مسموح به فحسب: %{allowed_types}"
       mime_types_processing_error: "لا يمكن التعرف على امتداد MIME :: أنواع الملفات: %{e}"
       url_error: عنوان URL للتنزيل غير صالح
