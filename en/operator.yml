@@ -1648,6 +1648,7 @@ en:
           explanation: (what to do)
         applied: Applied
     dictionaries:
+      archive: Dictionaries archive
       empty: No directory
       no_used: Not used
       form:

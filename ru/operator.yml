@@ -1557,6 +1557,7 @@ ru:
           explanation: (что делать)
         applied: Применялось
     dictionaries:
+      archive: Архив справочников
       empty: Справочников нет
       no_used: Не используется
       form:
