@@ -185,4 +185,4 @@ en:
     vendor_payment:
       agent_not_found_by_key: Agent not found by key %{key}
     document:
-      equal_cashier: 'Cashier can`t be equal'
+      equal_cashier: 'can`t be equal from account'
