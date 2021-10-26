@@ -184,3 +184,5 @@ en:
       not_destroyed_with_nomenclatures: You cannot delete a unit of measure if it is used in library items
     vendor_payment:
       agent_not_found_by_key: Agent not found by key %{key}
+    document:
+      equal_cashier: 'Cashier can`t be equal'
