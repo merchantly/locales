@@ -171,3 +171,5 @@ ru:
       no_archive_welcome_category: 'Вы не можете архивать страницу для главной страницы. Сначала выберите другую <a href="%{url}">категорию</a>'
     quantity_unit:
       not_destroyed_with_nomenclatures: Вы не можете удалить единицу измерения пока она используется в номенклатуре
+    document:
+      equal_cashier: 'Кассиры не могут быть одинаковыми'
