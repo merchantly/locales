@@ -2059,6 +2059,7 @@ ru:
           out_stock: Нет в наличии
     documents:
       balance_sheet: Оборотно-сальдовой ведомости
+      successful_transaction: Транзакция прошла успешно
       transactions: Транзакции
       filter:
         all: Все
