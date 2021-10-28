@@ -2124,6 +2124,7 @@ en:
           online: Online
           no_sale: No sale
     documents:
+      successful_transaction: Successful transaction
       transactions: Transactions
       filter:
         all: All
