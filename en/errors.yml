@@ -186,3 +186,4 @@ en:
       agent_not_found_by_key: Agent not found by key %{key}
     document:
       equal_cashier: 'can`t be equal from account'
+      not_enough_balance: "doesn't have enough balance"
