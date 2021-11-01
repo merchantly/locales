@@ -173,3 +173,4 @@ ru:
       not_destroyed_with_nomenclatures: Вы не можете удалить единицу измерения пока она используется в номенклатуре
     document:
       equal_cashier: 'и счет не должны быть одинаковыми'
+      not_enough_balance: 'превышен баланс счета'
