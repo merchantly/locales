@@ -81,8 +81,6 @@ en:
                 blank: You must accept the terms of the public offer
 
     validators:
-      name: 'Valid characters A-Z, `, -'
-      address: 'Valid characters A-Z, 0-9, `, -, /, .'
       available_quantity:
         no_quantity:
           one: 'Only 1 item left in stock. Change the amount.'

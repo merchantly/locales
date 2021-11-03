@@ -1,5 +1,7 @@
 ru:
   errors:
+    address_validator: 'Допустимые символы А-Я, A-Z, 0-9, `, -, /, .'
+    name_validator: 'Допустимые символы А-Я, A-Z, `, -'
     negative_vats: 'НДС должен быть больше или равен нулю: %{examples}'
     format: ! '%{attribute} %{message}'
     import_from_spreadsheet:
