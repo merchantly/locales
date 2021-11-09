@@ -2042,9 +2042,6 @@ en:
           <p> It's automatically updated, but you can manually configure the time to cache HTTP requests so that newer changes can be made faster.</p>
 
     ecr_settings_widgets:
-      zatca:
-        title: Zatca
-        details_html: Zatca
       locations:
         title: Locations
         details_html: Add and manage your branch locations, such as the cashiers operating across your branches and the warehouses that deliver goods to your branches.

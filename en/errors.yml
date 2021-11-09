@@ -37,6 +37,7 @@ en:
       AuthenticationUnavailable: Contact your bank or use another card.
       AntiFraud: Use another card
     messages:
+      embeding_url_invalid: 'Embeding service support only %{patterns}'
       domain_dns_incorrected: 'You have not configured correctly DNS entities'
       is_not_agree: 'We can''t create a store for you if you a not accept our conditions'
       invalid_domain: Invalid domain name
