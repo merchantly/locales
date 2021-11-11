@@ -309,6 +309,7 @@ ru:
         info: Referer / User Agent
         actions: Действия
       members:
+        position: Должность
         name: Имя
         contacts: Контакты
         role: Роль

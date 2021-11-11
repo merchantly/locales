@@ -432,6 +432,7 @@ en:
         date_from: Delivery time (from)
         date_till: Delivery time (up to)
       invite:
+        position: Position
         phone: 'or phone'
         role: Role
       top_banner:

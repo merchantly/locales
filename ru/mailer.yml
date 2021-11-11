@@ -1,4 +1,7 @@
 ru:
+  member_mailer:
+    pin_code:
+      subject: 'Пин код для доступа к %{vendor}'
   order_mailer:
     client:
       subjects:

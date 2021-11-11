@@ -1,4 +1,7 @@
 en:
+  member_mailer:
+    pin_code:
+      subject: 'PIN code to access %{vendor}'
   order_mailer:
     client:
       subjects:

@@ -395,6 +395,7 @@ ru:
         date_from: Время доставки (от)
         date_till: Время доставки (до)
       invite:
+        position: Должность
         phone: 'или телефон'
         role: Роль
       top_banner:

@@ -145,6 +145,7 @@ en:
       role:
         title: Name
       member:
+        position: Position
         vendor: Store
         role_id: Role
         role: Role
@@ -303,6 +304,7 @@ en:
         dictionary_entity_id: 'Dictionary item'
         lookbook_id: 'Lookbook'
       invite:
+        position: Position
         phone: 'Phone'
         role_id: Role
       admin_user:

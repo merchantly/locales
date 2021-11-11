@@ -354,6 +354,7 @@ en:
         info: Referer / User Agent
         actions: Actions
       members:
+        position: Position
         name: Name
         contacts: Contacts
         role: Role

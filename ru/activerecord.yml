@@ -147,6 +147,7 @@ ru:
       role:
         title: Название
       member:
+        position: Должность
         vendor: Магазин
         role_id: Роль
         role: Роль
@@ -298,6 +299,7 @@ ru:
         dictionary_entity_id: 'Элемент словаря'
         lookbook_id: 'Лукбук'
       invite:
+        position: Должность
         phone: 'Телефон'
         role_id: Роль
       admin_user:
