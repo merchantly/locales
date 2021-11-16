@@ -52,6 +52,6 @@ en:
       categories_selectize:
         placeholder: 'Add at least one'
       client_selectize:
-        placeholder: 'Empty Client'
+        placeholder: 'Search client'
       product_images_upload:
         add: 'Add image'
