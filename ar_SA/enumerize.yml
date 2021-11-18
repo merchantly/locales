@@ -31,6 +31,8 @@ ar_SA:
         owner: 'المالك'
         manager: 'المسؤول'
         guest: 'الضيف'
+        seller: 'Seller'
+        cashier: 'Cashier'
     role_permission:
       resource_type:
         TextBlock: المربعات النصية
@@ -98,6 +100,8 @@ ar_SA:
         owner: 'المالك'
         manager: 'المسؤول'
         guest: 'الضيف'
+        seller: 'Seller'
+        cashier: 'Cashier'
     vendor_job:
       state:
         created: 'في انتظار البدء'

@@ -40,6 +40,8 @@ en:
         owner: 'Owner'
         manager: 'Administrator'
         guest: 'Guest'
+        seller: 'Seller'
+        cashier: 'Cashier'
     role_permission:
       resource_type:
         TextBlock: Text blocks
@@ -107,6 +109,8 @@ en:
         owner: 'Owner'
         manager: 'Administrator'
         guest: 'Guest'
+        seller: 'Seller'
+        cashier: 'Cashier'
     vendor_job:
       state:
         created: 'Waiting to start'

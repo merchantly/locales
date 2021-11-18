@@ -34,6 +34,8 @@ ru:
         owner: 'Владелец'
         manager: 'Администратор'
         guest: 'Гость'
+        seller: 'Продавец'
+        cashier: 'Кассир'
     role_permission:
       resource_type:
         TextBlock: 'Текстовые блоки'
@@ -101,6 +103,8 @@ ru:
         owner: 'Владелец'
         manager: 'Администратор'
         guest: 'Гость'
+        seller: 'Продавец'
+        cashier: 'Кассир'
     vendor_job:
       state:
         created: 'Ожидает запуска'
