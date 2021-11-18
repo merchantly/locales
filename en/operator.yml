@@ -828,6 +828,7 @@ en:
       open_drawer: Open drawer
       drawers: Drawers
       documents: Transactions
+      daily_reports: Daily reports
       drawers_empty: Drawers empty
       documents_empty: Documents empty
     clients:
