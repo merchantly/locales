@@ -2160,22 +2160,22 @@ en:
       open: Open drawer
       close: Close drawer
       confirm: Are you sure?
-      open_balance: 'Starting cash:'
-      open_actual_balance: 'Actual in drawer:'
-      close_balance: 'Closing cash:'
+      open_actual_balance: 'Starting cash:'
+      close_balance: 'Expected in drawer:'
       close_actual_balance: 'Actual in drawer:'
       open_operator: 'Opened drawer:'
       close_operator: 'Closed drawer:'
       sale_amount: 'Cash sales:'
       refund_amount: 'Cash refund:'
       open_correct_amount: 'Correct amount:'
-      close_correct_amount: 'Correct amount:'
+      close_correct_amount: 'Loss/Gian:'
       opened_at: 'Opened at:'
       closed_at: 'Closed at:'
       title: "Drawer №%{number}"
       description: 'Description:'
       state: "State:"
       cashier: 'Cashier:'
+      close_net_balance: 'Net Balance'
     external_devices:
       new_submit: New
       empty: Empty
