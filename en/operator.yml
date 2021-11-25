@@ -24,6 +24,11 @@ en:
     per_page: Number of goods on the page
     w1_send_pin_code: Send
 
+    reports_navigation:
+      dashboard: 'Dashboard'
+      sales: 'Sales Report'
+      inventory: 'Inventory Report'
+
     ecr_navigation:
       cashiers: 'Cash & Bank Accounts'
       documents: 'Financial Transactions'
@@ -44,6 +49,7 @@ en:
       settings: 'Settings'
       ecr: 'geideaPOS'
       disabled_content: 'Select Store'
+      reports: 'Reports'
 
     profile_navigation:
       index: 'Admin Profile'
@@ -194,6 +200,7 @@ en:
       operator_profile: Site Admin
       operator_settings: Settings
       operator_content: Management
+      operator_reports: Reports
       products: Goods
       operator_ecr: geideaPOS
 
@@ -2184,3 +2191,8 @@ en:
       saved: Changes have been saved
     import_photos:
       success: 'Images uploaded: %{count}'
+    reports:
+      period:
+        daily: Today
+        weekly: Last 7 days
+        monthly: Last 30 days

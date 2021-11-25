@@ -1,6 +1,13 @@
 en:
   operator:
     pages:
+      reports:
+        dashboard:
+          title_html: Dashboard
+        sales:
+          title_html: Sales Report
+        inventory:
+          title_html: Inventory Report
       zatca:
         show:
           title_html: Zatca
