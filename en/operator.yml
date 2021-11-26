@@ -2196,3 +2196,11 @@ en:
         daily: Today
         weekly: Last 7 days
         monthly: Last 30 days
+      top_table:
+        title: Title
+        total: Total
+      inventory_changes:
+        item_name: Item Name
+        start_inventory: Start Inventory
+        end_inventory: Env Inventory
+        change: Change
