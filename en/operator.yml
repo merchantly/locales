@@ -347,7 +347,7 @@ en:
       roles:
         resource_type: Section of the website
         can_read: Reading
-        can_create: Creature
+        can_create: Creation
         can_update: Editing
         can_delete: Deletion
       pickup_points:

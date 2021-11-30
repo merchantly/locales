@@ -2,6 +2,7 @@ en:
   errors:
     address_validator: 'Valid characters A-Z, 0-9, `, -, /, .'
     name_validator: 'Valid characters A-Z, `, -'
+    title_validator: 'Valid characters A-Z, 0-9, `, -'
     geidea_payment_config:
       merchant_id_invalid_error:
         message: 'Merchant id is invalid for geieda payment'
