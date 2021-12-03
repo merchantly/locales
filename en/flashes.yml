@@ -118,6 +118,7 @@ en:
     vk:
       will_be_exported: Selected items will be exported soon
     operator:
+      regenerate_pin_code: 'Pin code has been updated'
       regenerate_api_key: 'Your API key has been updated %{api}'
       confirmed: Email has been successfully confirmed
       not_confirmed: No operator found with this e-mail

@@ -1695,6 +1695,7 @@ en:
       change_owner_role: The role of the owner can not be changed. Owner can do anything ;)
       callout: Contact support if you need more roles.
     members:
+      regenerate_pin_code: 'Regenerate pin code'
       disable_access: "Disable party access to the store?"
       edit:
         name: 'Name:'
