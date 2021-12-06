@@ -15,6 +15,8 @@ en:
       default_cashier: 'Default'
       default_branch: 'Default'
       default_product_vat_group: 'Default'
+      default_cash: 'Cash'
+      default_pickup: 'Pickup'
     pin_sender:
       sms_text: 'Your PIN to enter: %{pin}'
     client_pin_sender:
