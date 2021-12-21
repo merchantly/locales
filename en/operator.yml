@@ -2170,6 +2170,7 @@ en:
       close: Close drawer
       confirm: Are you sure?
       open_actual_balance: 'Starting cash:'
+      open_balance: 'Open balance:'
       close_balance: 'Expected in drawer:'
       close_actual_balance: 'Actual in drawer:'
       open_operator: 'Opened drawer:'
@@ -2177,7 +2178,7 @@ en:
       sale_amount: 'Cash sales:'
       refund_amount: 'Cash refund:'
       open_correct_amount: 'Correct amount:'
-      close_correct_amount: 'Loss/Gian:'
+      close_correct_amount: 'Loss/Gain:'
       opened_at: 'Opened at:'
       closed_at: 'Closed at:'
       title: "Drawer №%{number}"
