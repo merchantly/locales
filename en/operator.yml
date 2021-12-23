@@ -720,8 +720,8 @@ en:
         available_deliveries: Compatible delivery methods
     check_currencies:
       flash: "%{currency_symbol} is disabled for %{payment_name} due to Geidea Payment Gate settings. Please contact your manager in Geidea to get more details."
-    check_inn:
-      flash: A "VAT ID" is required to start selling. You can add yours from the <a href="%{url}"> Legal Information</a> section.
+    geidea_selling_error:
+      flash: A "VAT ID" and detailed address is required to start selling. You can add yours from the <a href="%{url}"> Legal Information</a> section. 
     selling:
       w1:
         notification_address: Set the following address for payment notifications in the cashier settings on the walletone
@@ -1097,6 +1097,7 @@ en:
           legal_country_code: 'Country code'
         hints:
           invoice_stamp_comment: 'Displayed on top. Specify here phones and additional information.'
+          zatca_required: '* required for electronic invoices'
         include_blank: 'Not specified'
       vendor_vats:
     lookbooks:
