@@ -13,6 +13,8 @@ en:
       phone:
         name: Phone number
         placeholder: +966 913 123 32 10
+      scope:
+        name: Scope
     orders:
       source:
         name: Channel
