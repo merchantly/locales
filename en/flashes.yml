@@ -99,6 +99,7 @@ en:
       reserved: Order placed in reserve
       start_delivery: 'Delivery has been started'
       online_kassa_notified: 'Online kassa notified'
+      notify_client: 'The letter has been sent'
     products:
       created: Product has been added
       updated: Product has been changed
