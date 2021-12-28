@@ -2032,6 +2032,7 @@ ru:
         url: operator_order_conditions_path
         title: Бизнес-процессы
         details_html: Это правила по которым заказы передвигаются в воронке.
+        used_count: "%{used_count} раз"
 
       #notify_templates:
         #feature: notify_templates
