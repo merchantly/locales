@@ -1255,6 +1255,9 @@ en:
           select_from_existing_products: Selection from existing products
           enter_new_products: Enter new products
         add_new_product: Add product
+      log:
+        payment_form: 'Generating a payment form through %{order_payment}'
+        customer_checked: 'Customer viewed order page'
     payment_cards:
       untie: 'Unlink'
       untied: 'Unlinked'
@@ -2085,6 +2088,7 @@ en:
       order_conditions:
         title: Worklfow
         details_html: These are the rules by which orders move in the funnel.
+        used_count: "%{used_count} times"
       #notify_templates:
         #feature: notify_templates
         #title: Уведомления

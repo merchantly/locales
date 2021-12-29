@@ -1169,6 +1169,9 @@ ru:
           select_from_existing_products: Выбор из существующих продуктов
           enter_new_products: Ввод новых продуктов
         add_new_product: Добавить продукт
+      log:
+        payment_form: 'Генерация формы оплаты через %{order_payment}'
+        customer_checked: 'Пользователь просмотрел страницу заказа'
     payment_cards:
       untie: 'Отвязать'
       untied: 'Отвязана'
@@ -2032,6 +2035,7 @@ ru:
         url: operator_order_conditions_path
         title: Бизнес-процессы
         details_html: Это правила по которым заказы передвигаются в воронке.
+        used_count: "%{used_count} раз"
 
       #notify_templates:
         #feature: notify_templates

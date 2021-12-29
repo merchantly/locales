@@ -99,6 +99,7 @@ ru:
       reserved: Заказ поставлен в резерв
       start_delivery: 'Доставка запущена'
       online_kassa_notified: 'Онлайн касса уведомлена'
+      notify_client: 'Письмо отправлено'
     products:
       created: Товар добавлен
       updated: Товар изменен
