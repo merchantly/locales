@@ -1,0 +1,6 @@
+en:
+  csv:
+    operator:
+      orders:
+        headers: 'Trade name,Trade budget,Responsible for the trade,Creation date (trade),Who created the trade,Trade tag,Trade note,Trade note,Trade note,Trade note,Trade note,Trade status,Full name ( contact),Position (contact),Work phone (contact),Home phone (contact),Mobile phone (contact),Fax (contact),Other phone (contact),Work email (contact),Personal email (contact),Other email (contact),Name (company),Address (company),Company website,Work phone (company),Mobile phone (company),Fax (company),Other phone (company),Work email (company),Personal email ( company),Other email (company),ICQ (contact),Jabber (contact),Google Talk (contact),Skype (contact),MSN (contact),Other IM (contact)'
+        item_headers: ['Order number', 'Product', 'Article', 'Price', 'Quantity', 'Amount', 'Buyer', 'Order date', 'Order status', 'Payment status']
