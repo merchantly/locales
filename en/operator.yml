@@ -1255,6 +1255,9 @@ en:
           select_from_existing_products: Selection from existing products
           enter_new_products: Enter new products
         add_new_product: Add product
+      log:
+        payment_form: 'Generating a payment form through %{order_payment}'
+        customer_checked: 'Customer viewed order page'
     payment_cards:
       untie: 'Unlink'
       untied: 'Unlinked'
