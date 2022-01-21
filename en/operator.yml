@@ -1464,7 +1464,7 @@ en:
     domains:
       not_connected: This domain is not connected yet.
       go_to_shop: 'Go to the store %{name}'
-      shop_not_connected_html: "To this '<b>% {domain}</b>' domain no store has yet been attached."
+      shop_not_connected_html: "To this '<b>%{domain}</b>' domain no store has yet been attached."
       empty: No additional domains
     login:
       already_registered: "Have you already registered?"
