@@ -399,7 +399,7 @@ en:
       to_wishlist: 'Add to "Wish List"'
       remove_from_wish_list: 'Remove from "Wish List"'
       adding_to_wish_list: 'Adding ..'
-      already: Already in the card
+      already: Already in the cart
       auth_for_buy: Sign in to buy
       publish_shop:
         text: Post
