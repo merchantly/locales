@@ -141,6 +141,8 @@ en:
       nothing_to_export_html: 'No products were found ready for unloading. <a href="%{url}">Add</a> at least one product and try again.'
       price:
         currencies_conflict: 'The currency of the item does not match the currency of the seller %{product_currency}<>%{vendor_currency}'
+      ordering_period: 'The end of sale cannot be earlier than start'
+      beginning_of_ordering_period: 'Start of sale cannot be further than %{time_now}'
     image:
       no_files: Not all images are on the disc.
       width_not_fits: 'Image width must be exactly %{width}'

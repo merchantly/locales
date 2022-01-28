@@ -134,6 +134,8 @@ ru:
       nothing_to_export_html: 'Не найдены товары, готовые к выгрузке. <a href="%{url}">Добавьте</a> хотя бы один товар и попробуйте ещё раз.'
       price:
         currencies_conflict: 'Валюта товара не совпадает с валютой продавца %{product_currency}<>%{vendor_currency}'
+      ordering_period: 'Конец распродажи не может быть раньше ее начала'
+      beginning_of_ordering_period: 'Начало распродажи не может быть раньше чем %{time_now}'
     image:
       no_files: Не все изображения присутствуют на диске
       width_not_fits: 'Ширина изображения должна быть ровно %{width}'
