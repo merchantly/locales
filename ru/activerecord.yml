@@ -513,6 +513,7 @@ ru:
         next_resource_id: Следующая категория
         google_product_category_id: google_product_category
       product:
+        first_purchase_price_cents: Закупочная цена
         ordering_start_at: Старт продажи
         ordering_end_at: Конец продажи
         is_digital: Цифровой товар?
