@@ -17,6 +17,7 @@ en:
           <p> For send request with multilocale fields use special input fields:</p>
           <p> POST /products - custom_title_*, custom_description_* </p>
           <p> POST /categories - custom_title_*, description_*, bottom_text_* </p>
+          <p> PUT  /legal - legal_city_*, legal_street_*, legal_region_*, legal_province_*, inn_text_*
           <p> where * - locale (en, ar_SA, ru, ...etc) </p>
         system: 'API for stores and clients – %{access_keys_url}'
       errors:
@@ -202,3 +203,14 @@ en:
             good_id: GlobalID of product
       user_requests:
         desc: Connection requests
+      legal:
+        params:
+          inn_text: 'Seller VAT registration number must contain 15 digits. The first and the last digits are “3”',
+          legal_additional_number: 'Seller Address Additional number must be 4 digits',
+          legal_street: 'Seller street ',
+          legal_building_number: 'The seller address building number must contain 4 digits.',
+          legal_post_code: 'Seller postal code must be 5 digits',
+          legal_city: 'Seller city',
+          legal_province: 'Seller Neighborhood',
+          legal_region: 'Seller province',
+          legal_country_code: 'Example: SA'
