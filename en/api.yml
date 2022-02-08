@@ -205,12 +205,12 @@ en:
         desc: Connection requests
       legal:
         params:
-          inn_text: 'Seller VAT registration number must contain 15 digits. The first and the last digits are “3”',
-          legal_additional_number: 'Seller Address Additional number must be 4 digits',
-          legal_street: 'Seller street ',
-          legal_building_number: 'The seller address building number must contain 4 digits.',
-          legal_post_code: 'Seller postal code must be 5 digits',
-          legal_city: 'Seller city',
-          legal_province: 'Seller Neighborhood',
-          legal_region: 'Seller province',
+          inn_text: 'Seller VAT registration number must contain 15 digits. The first and the last digits are “3”'
+          legal_additional_number: 'Seller Address Additional number must be 4 digits'
+          legal_street: 'Seller street '
+          legal_building_number: 'The seller address building number must contain 4 digits.'
+          legal_post_code: 'Seller postal code must be 5 digits'
+          legal_city: 'Seller city'
+          legal_province: 'Seller Neighborhood'
+          legal_region: 'Seller province'
           legal_country_code: 'Example: SA'
