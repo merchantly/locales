@@ -421,6 +421,7 @@ en:
     client:
       auth: My account
       registration: Sign Up
+      restore_password: Restore password
       client_form:
         title: The choice of delivery and payment system
       company_form:
