@@ -211,6 +211,6 @@ en:
           legal_building_number: 'The seller address building number must contain 4 digits.'
           legal_post_code: 'Seller postal code must be 5 digits'
           legal_city: 'Seller city'
-          legal_province: 'Seller Neighborhood'
-          legal_region: 'Seller province'
+          legal_province: 'Seller Province'
+          legal_region: 'Seller Neighborhood'
           legal_country_code: 'Example: SA'
