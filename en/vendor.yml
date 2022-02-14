@@ -475,7 +475,7 @@ en:
         ogrn: PSRN
       pin_alert:
         send: Get password
-        timeout: SMS should arrive within a minute. <br>You can re-request a code throught
+        timeout: SMS should arrive within a minute. <br>You can re-request a code throught %{timeout}
       submit: Log In
       registration_submit: OK
       no_account: "No account?"
