@@ -159,6 +159,7 @@ ru:
     vendor_theme_form:
       analytics_js: '^JavaScript код для аналитики не должен содержать тега script, непосредственно код аналитики можно вставить в поле "Дополнительный HTML-код в <head> на всех страницах"'
     client_login_form:
+      login_error: Неверный email или телефон
       invalid_login: Введите телефон или email
     client_registration_form:
       required: Обязательное поле

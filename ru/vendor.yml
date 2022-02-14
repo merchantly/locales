@@ -426,6 +426,7 @@ ru:
     client:
       auth: Личный кабинет
       registration: Регистрация
+      restore_password: Получить новый пароль
       reset_password: Новый пароль
       client_form:
         title: Выбор доставки и платежной системы

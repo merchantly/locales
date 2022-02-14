@@ -166,6 +166,7 @@ en:
     vendor_theme_form:
       analytics_js: '^ JavaScript code for analytics should not contain a script tag, directly analytic code can be inserted in the "Additional HTML code <head>in on all pages"'
     client_login_form:
+      login_error: Invalid email or phone
       invalid_login: Enter phone or email
     client_registration_form:
       required: Obligatory field
