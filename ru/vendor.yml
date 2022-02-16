@@ -507,6 +507,7 @@ ru:
         payment_select:
           blank: Выберие платежную систему
       reset_password_submit: Сохранить
+      restore_password_submit: Отправить
       confirmed: Подтвержден
       no_confirmed: Не подтвержден
       reset_password: Сбросить пароль

@@ -497,6 +497,7 @@ en:
         payment_select:
           blank: Choose payment system
       reset_password_submit: Save
+      restore_password_submit: Send
       confirmed: Confirmed by
       no_confirmed: Not confirmed
       reset_password: Reset the password
