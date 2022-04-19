@@ -672,6 +672,8 @@ ar_SA:
         time: الوقت
         days_count: عدد الأيام
     errors:
+      messages:
+        record_invalid: "%{errors}"
       wrong_category: لا توجد هذه الفئة
       self_descendant: لا يمكن تداخل الفئة
       reset_password_token_is_out_of_date: الرمز المميز لاستعادة كلمة المرور قديم. إرسال الطلب مرة أخرى
