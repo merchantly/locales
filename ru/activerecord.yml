@@ -681,6 +681,8 @@ ru:
         time: Время
         days_count: Кол-во дней
     errors:
+      messages:
+        record_invalid: "%{errors}"
       wrong_category: Такой категории не существует
       self_descendant: Категория не может быть вложена сама в себя
       reset_password_token_is_out_of_date: Токен для восстановления пароля устарел. Закажите еще раз

@@ -690,6 +690,8 @@ en:
         time: Time
         days_count: Number of days
     errors:
+      messages:
+        record_invalid: "%{errors}"
       wrong_category: There is no such category
       self_descendant: Category cannot be nested
       reset_password_token_is_out_of_date: Password recovery token is outdated. Send request again
