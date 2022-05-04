@@ -1,6 +1,6 @@
 en:
   active_admin:
-    dashboard: "Control panel"
+    dashboard: "Control Panel"
     dashboard_welcome:
       welcome: "Welcome to Active Admin. This is the standard site management page."
       call_to_action: "Look in 'app/admin/dashboard.rb' to add something here"
