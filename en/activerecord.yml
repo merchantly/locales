@@ -518,6 +518,10 @@ en:
         show_children_products: Group products from silimar categories
         next_resource_id: Next category
         google_product_category_id: google_product_category
+        custom_title: Name category
+        custom_title_ru: Name category
+        custom_title_en: Name category
+        custom_title_ar_SA: Name category
       product:
         first_purchase_price_cents: Cost per unit
         first_purchase_price: Cost per unit
