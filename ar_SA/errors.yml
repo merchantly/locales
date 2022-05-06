@@ -1,27 +1,12 @@
 ar_SA:
   errors:
-    address_validator: 'لقد حدث خطأ
-
-
-      الرجاء المحاولة لاحقاً!'
-    name_validator: 'لقد حدث خطأ
-
-
-      الرجاء المحاولة لاحقاً!'
-    title_validator: 'لقد حدث خطأ
-
-
-      الرجاء المحاولة لاحقاً!'
+    address_validator: 'لقد حدث خطأ الرجاء المحاولة لاحقاً!'
+    name_validator: 'قد حدث خطأ الرجاء المحاولة لاحقاً!'
+    title_validator: قد حدث خطأ الرجاء المحاولة لاحقاً!'
     geidea_payment_config:
       merchant_id_invalid_error:
-        message: 'لقد حدث خطأ
-
-
-          الرجاء المحاولة لاحقاً!'
-    negative_vats: 'لقد حدث خطأ
-
-
-      الرجاء المحاولة لاحقاً!'
+        message: 'قد حدث خطأ الرجاء المحاولة لاحقاً!'
+    negative_vats: قد حدث خطأ الرجاء المحاولة لاحقاً!'
     format: '%{attribute} %{message}'
     import_from_spreadsheet:
       not_allowed_locale: 'قم أولاً بتعيين الإعدادات المحلية %{locale} في الإعدادات'
@@ -53,14 +38,8 @@ ar_SA:
       AuthenticationUnavailable: اتصل بالبنك الذي تتعامل معه أو استخدم بطاقة أخرى.
       AntiFraud: استخدام بطاقة أخرى
     messages:
-      embeding_url_invalid: 'لقد حدث خطأ
-
-
-        الرجاء المحاولة لاحقاً!'
-      domain_dns_incorrected: 'لقد حدث خطأ
-
-
-        الرجاء المحاولة لاحقاً!'
+      embeding_url_invalid: قد حدث خطأ الرجاء المحاولة لاحقاً!'
+      domain_dns_incorrected: قد حدث خطأ الرجاء المحاولة لاحقاً!'
       is_not_agree: 'لا يمكننا إنشاء متجر لك إذا لم توافق على الشروط والأحكام'
       invalid_domain: اسم مجال غير صالح
       invalid_subdomain: "اسم مجال فرعي غير صالح (يجب أن يكون هناك أحرف لاتينية، وأرقام، و-، و_ ومن دون نقاط)"
@@ -133,10 +112,7 @@ ar_SA:
       invalid_phone: "رقم هاتف غير صالح، أدخل الرقم الصحيح أو <a href=\"%{registration_url}\">قم بالتسجيل</a>"
     vendor_registration:
       not_unique_phone: "هذا الهاتف مسجل بالفعل، <a href=\"%{login_url}\">أدخل إلى الموقع</a>"
-      min_period: 'لقد حدث خطأ
-
-
-        الرجاء المحاولة لاحقاً!'
+      min_period: قد حدث خطأ الرجاء المحاولة لاحقاً!'
     vendor_order_form:
       no_payment: "لا توجد طرق دفع متاحة "
     robots:
@@ -217,17 +193,11 @@ ar_SA:
       opened_at: opened_at أقل من closed_at لائحة المخزون الأخير
       closed_at: closed_at أقل من opened_at
     category:
-      no_archive_welcome_category: 'لقد حدث خطأ
-
-
-        الرجاء المحاولة لاحقاً!'
+      no_archive_welcome_category: قد حدث خطأ الرجاء المحاولة لاحقاً!'
     quantity_unit:
       not_destroyed_with_nomenclatures: لا يمكنك حذف أداة قياس يتم استخدامها كمقياس كمّي في عناصر القائمة.
     vendor_payment:
       agent_not_found_by_key: "لقد حدث خطأ\n\nالرجاء المحاولة لاحقاً!"
     document:
-      equal_cashier: 'لقد حدث خطأ
-
-
-        الرجاء المحاولة لاحقاً!'
+      equal_cashier: قد حدث خطأ الرجاء المحاولة لاحقاً!'
       not_enough_balance: "لقد حدث خطأ\n\nالرجاء المحاولة لاحقاً!"

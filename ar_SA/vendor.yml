@@ -99,15 +99,9 @@ ar_SA:
         max_order_similar_products_count: "تتجاوز كمية نوع واحد من المنتج في الطلب الحد المسموح به بـ %{max_count}"
       coupon:
         not_found: 'رمز %{code} ترويجي غير موجود'
-        expired: 'لقد حدث خطأ
-
-
-          الرجاء المحاولة لاحقاً!'
+        expired: قد حدث خطأ الرجاء المحاولة لاحقاً!'
       order:
-        house: 'لقد حدث خطأ
-
-
-          الرجاء المحاولة لاحقاً!'
+        house: قد حدث خطأ الرجاء المحاولة لاحقاً!'
         yandex_kassa_max_items_count: 'منتجات كثيرة جدًا لـ Yandex Kassa. الحد الأقصى: %{max_count}'
         no_price_delivery: 'يتم حساب تكلفة الشحن بعد الطلب.'
         invalid_form: 'لم يتم قبول الطلب بعد، قم بتصحيح الأخطاء في النموذج'
