@@ -869,7 +869,7 @@ ar_SA:
       import_result:
         total_rows_count: ""
         imported_clients_count: ""
-        empty_errors: "لقد حدث خطأ\n\nالرجاء المحاولة لاحقاً!"
+        empty_errors: لقد حدث خطأ الرجاء المحاولة لاحقاً!
         error_messages: ""
         row_num: ""
         message: ""

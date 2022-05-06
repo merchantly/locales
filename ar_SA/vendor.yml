@@ -108,7 +108,7 @@ ar_SA:
         has_unorderable_goods: 'في الطلب منتجات لا يمكن الوصول إليها'
         no_items: 'لا توجد منتجات في الطلب.'
         unavailable_currency: لا يمكن الطلب بالعملة المختارة.
-        unavailable_geidea_payment: "لقد حدث خطأ\n\nالرجاء المحاولة لاحقاً!"
+        unavailable_geidea_payment: لقد حدث خطأ الرجاء المحاولة لاحقاً!
         comment: لا يمكن أن يكون التعليق فارغًا.
         client_payment:
           unavailable: "نظام الدفع %{payment_title} المُحدد في الحساب الشخصي غير متوفر %{cabinet_path}"
