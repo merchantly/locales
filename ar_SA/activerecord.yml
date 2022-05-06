@@ -1,7 +1,7 @@
 ar_SA:
   activerecord:
     models:
-      default_product_vat_group: المجموعة الرئيسية للضرائب
+      default_product_vat_group: ""
       system_mail_recipient: مستلم البريد
       bank_incoming: إيصالات البنك
       bank_incoming_exclude: الإيصالات البنكية المستثناة
@@ -50,7 +50,7 @@ ar_SA:
       fallback_good:
         title: الاسم
         price_cents: السعر
-        tax: الضريبة (%)
+        tax: ""
         purchase_price: تكلفة الوحدة
       quantity_unit:
         title: اسم القياس
@@ -147,6 +147,7 @@ ar_SA:
       role:
         title: الاسم
       member:
+        position: ""
         vendor: المتجر
         role_id: الدور
         role: الدور
@@ -285,6 +286,7 @@ ar_SA:
         value: 'القيمة'
         custom_value: 'تعيين القيمة'
       product_item:
+        first_purchase_price: ""
         fallback_title: 'الخيار% {id}'
         nomenclature_id: 'منتج اللائحة'
         nomenclature: 'منتج اللائحة'
@@ -304,6 +306,7 @@ ar_SA:
         dictionary_entity_id: 'عنصر القاموس'
         lookbook_id: 'الكتالوج'
       invite:
+        position: ""
         phone: 'الهاتف'
         role_id: الدور
       admin_user:
@@ -314,6 +317,11 @@ ar_SA:
         title: اسم المربع النصي
         position: الموضع
       vendor:
+        zatca_api_key: ""
+        zatca_seller_type: ""
+        zatca_seller_value: ""
+        zatca_enabled: ""
+        vat_calculation_version: ""
         show_delivery_restriction_messages: عرض رسالة حول قيود تسليم المنتج
         filter_apply_type: كتابة 'تطبيق عامل التصفية'
         show_filter_clear_button: عرض زر "إعادة تعيين جميع عوامل التصفية"
@@ -450,6 +458,12 @@ ar_SA:
       vendor/domain_aliases:
         domain: مجال إضافي
       client:
+        address: ""
+        street: ""
+        house: ""
+        room: ""
+        area: ""
+        floor: ""
         birthdate: تاريخ الولادة
         id: "الرقم التعريفي "
         rfm: شريحة RFM
@@ -478,6 +492,9 @@ ar_SA:
       theme:
         title: الاسم
       vendor_theme:
+        history_products_count: ""
+        show_history_products_on_welcome: ""
+        show_history_products_on_category: ""
         product_image_position: موضع الصورة
         show_short_details: عرض خصائص المنتج
         category_product_columns: المنتجات الموجودة في صف في الفئة
@@ -503,10 +520,16 @@ ar_SA:
         show_children_products: مجموعة المنتجات من الفئات المماثلة
         next_resource_id: الفئة التالية
         google_product_category_id: فئة_منتج_جوجل
+        custom_title: ""
+        custom_title_ru: ""
+        custom_title_en: ""
+        custom_title_ar_SA: ""
       product:
+        first_purchase_price_cents: ""
+        first_purchase_price: ""
         ordering_start_at: بداية البيع
         ordering_end_at: نهاية البيع
-        vat_id: معدل ضريبة القيمة المضافة، %
+        vat_id: ""
         is_digital: "منتج رقمي؟"
         file_url: رابط التنزيل
         sale_price: السعر بعد الخصم
@@ -537,7 +560,7 @@ ar_SA:
         is_published: "تم النشر؟"
         tags: العلامات
         multiple_choice: إمكانية وضع عدة عناصر ضمن "الإضافة إلى البطاقة" في بطاقة المنتج
-        product_vat_group_id: مجموعة الضرائب
+        product_vat_group_id: ""
       operator:
         locale: لغة الواجهة
         password: كلمة المرور
@@ -583,6 +606,7 @@ ar_SA:
         used_count: عدد الاستخدامات
         discount: الخصم
         discount_type: نوع الخصم
+        start_at: ""
         expires_at: صالح حتى
       dictionary_entity:
         custom_title: الاسم
@@ -673,7 +697,7 @@ ar_SA:
         days_count: عدد الأيام
     errors:
       messages:
-        record_invalid: "%{errors}"
+        record_invalid: ""
       wrong_category: لا توجد هذه الفئة
       self_descendant: لا يمكن تداخل الفئة
       reset_password_token_is_out_of_date: الرمز المميز لاستعادة كلمة المرور قديم. إرسال الطلب مرة أخرى

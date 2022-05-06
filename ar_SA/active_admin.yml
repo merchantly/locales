@@ -1,6 +1,6 @@
 ar_SA:
   active_admin:
-    dashboard: "لوحة التحكم"
+    dashboard: ""
     dashboard_welcome:
       welcome: "مرحبًا بك عند المسؤول النشط. هذه هي الصفحة الرئيسية لإدارة الموقع."
       call_to_action: "ابحث في 'app/admin/dashboard.rb' لإضافة شيء ما هنا"

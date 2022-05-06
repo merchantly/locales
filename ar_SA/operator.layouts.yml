@@ -10,6 +10,7 @@ ar_SA:
           read: 'مقروء'
           unread: 'غير مقروء'
       clients:
+        search: ''
         title: العملاء
         add_category: 'إضافة فئة'
         all: جميع العملاء
@@ -48,3 +49,4 @@ ar_SA:
           public: 'هذه الفئة في الموقع'
           edit: 'تهيئة هذه الفئة'
           moysklad: تبادل البيانات مع Moysklad
+          promotions: ''

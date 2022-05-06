@@ -10,7 +10,7 @@ ar_SA:
     month_price: '%{currency}/ الشهر'
     create_shop: 'إضافة متجر'
     tariffs: التعريفات
-    default_vendor_name: بدون عنوان
+    default_vendor_name: ""
     policy_label: لقد قرأت الشروط والأحكام ووافقت عليها
     call: "الاتصال - %{phone}"
     back: العودة

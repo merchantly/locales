@@ -24,6 +24,11 @@ ar_SA:
     per_page: عدد المنتجات على الصفحة
     w1_send_pin_code: إرسال
 
+    reports_navigation:
+      dashboard: ''
+      sales: ''
+      inventory: ''
+
     ecr_navigation:
       cashiers: ''
       documents: ''
@@ -44,6 +49,7 @@ ar_SA:
       settings: 'الإعدادات'
       ecr: 'نقطة البيع الرئيسية'
       disabled_content: 'اختيار المتجر'
+      reports: ''
 
     profile_navigation:
       index: 'ملف تعريف المسؤول'
@@ -83,6 +89,9 @@ ar_SA:
       sale: البيع
       name: الاسم
       add_button: إضافة نوع السعر
+      updated: ""
+      deleted:  ""
+      created:  ""
 
     toggle_theme_button:
       slider_visible: عرض شريط التمرير
@@ -161,6 +170,14 @@ ar_SA:
       many: '%{count} تم العثور على الطلب'
       other: '%{count} تم العثور على الطلب'
 
+    found_clients_count:
+      zero: ''
+      one: ''
+      two: ''
+      few: ''
+      many: ''
+      other: ''
+
     orders_count:
       zero: '%{count} الطلبات'
       one: '%{count} الطلب'
@@ -209,6 +226,7 @@ ar_SA:
       operator_profile: مسؤول الموقع
       operator_settings: الإعدادات
       operator_content: الإدارة
+      operator_reports: ""
       products: البضائع
       operator_ecr: نقطة التركيز الرئيسية
 
@@ -288,6 +306,8 @@ ar_SA:
       access_keys: 'الوصول إلى واجهة برمجة التطبيقات'
 
     th:
+      product_vat_groups:
+        vat: ""
       slug_resources:
         url_path: عنوان URL
         page_type: نوع الصفحة
@@ -327,7 +347,7 @@ ar_SA:
         archive_css: CSS المؤرشف
         operator: تم الأرشفة بواسطة
       sales_report:
-        good_vat_percent: معدل الضريبة، %
+        good_vat: ""
         article: المقالة
         good_name: الاسم
         price: السعر
@@ -353,7 +373,7 @@ ar_SA:
       roles:
         resource_type: قسم من الموقع الإلكتروني
         can_read: القراءة
-        can_create: الإبداع
+        can_create: ""
         can_update: التحرير
         can_delete: الحذف
       pickup_points:
@@ -367,6 +387,7 @@ ar_SA:
         info: المرجع/وكيل المستخدم
         actions: الإجراءات
       members:
+        position: ""
         name: الاسم
         contacts: جهات الاتصال
         role: الدور
@@ -377,11 +398,12 @@ ar_SA:
         text: الوصف
         datetime: التاريخ
       clients:
+        average_orders_price: ""
         actions: تحرير
         created_at: تم التسجيل في
         id: المعرِّف
         name: الاسم
-        phones: الجوال
+        phones: ""
         emails: البريد الإلكتروني
         orders_count: إجمالي الطلبات
         last_order: الطلب السابق
@@ -722,8 +744,10 @@ ar_SA:
         edit: تحرير طريقة الدفع
         new: إنشاء طريقة دفع
         available_deliveries: طرق التسليم المتوافقة
-    check_inn:
-      flash: "رقم ضريبة القيمة المضافة مطلوب ليكون بالامكان بدء عمليات البيع. يمكنك إضافة الرقم الخاص بك في قسم <a href=\"%{url}\"> المعلومات القانونية</a>."
+    check_currencies:
+      flash: ""
+    geidea_selling_error:
+      flash: "" 
     selling:
       w1:
         notification_address: تعيين العنوان التالي فيما يخص إشعارات الدفع في إعدادات الصراف على المحفظة
@@ -756,7 +780,7 @@ ar_SA:
     sales_report:
       generate: إنشاء
       total_price: 'المبلغ الإجمالي: %{money}'
-      total_vat: 'مجموع الضريبة: %{money}'
+      total_vat: ''
       total_purchase_price: 'إجمالي مبلغ الشراء: %{money}'
     bells:
       read: تم التعريف
@@ -837,9 +861,21 @@ ar_SA:
       open_drawer: فتح الدرج
       drawers: الأدراج
       documents: المعاملات
+      daily_reports: ""
       drawers_empty: الأدراج فارغة
       documents_empty: المستندات فارغة
     clients:
+      import: ""
+      import_result:
+        total_rows_count: ""
+        imported_clients_count: ""
+        empty_errors: "لقد حدث خطأ\n\nالرجاء المحاولة لاحقاً!"
+        error_messages: ""
+        row_num: ""
+        message: ""
+        row: ""
+      filter:
+        name:
       edit: 'العميل: %{name}'
       add_customer: إضافة عميل
       empty: لم يتم العثور على عملاء
@@ -892,7 +928,13 @@ ar_SA:
     coupon_images:
       coordinates: إحداثيات رمز الشهادة على الصورة
       add_button: إضافة
+    promotions:
+      archive: ""
+      active: ""
+      actions:
+        add_promotion: ""
     coupons:
+      start_at: ""
       expires_at: "حتى %{expires_at}"
       coupon_groups: "مجموعة قسائم %{count}"
       create_processes: "إنشاء مجموعة قسائم %{count}"
@@ -1047,11 +1089,11 @@ ar_SA:
           <p> إذا كنت بحاجة إلى دعم لغات أخرى، فاتصل بالدعم. </p>
     product_vat_groups:
       new_submit: جديد
-      updated: تم تحديث المجموعة الضريبية للمنتج
-      created: تم إنشاء المجموعة الضريبية للمنتج
-      destroyed:  تم إتلاف المجموعة الضريبية المنتج
+      updated: ""
+      created: ""
+      destroyed: ""
     legal:
-      product_vat_groups: تحرير المجموعات الضريبية للمنتج
+      product_vat_groups: ""
       subtitle: تُستخدم المعلومات لإعداد الفواتير وعند التعامل مع ماكينات تسجيل النقد عبر الإنترنت.
       payment_data: تفاصيل الفاتورة
       contract_offer: "العرض N%{id} من %{registered_at}"
@@ -1060,20 +1102,28 @@ ar_SA:
       shop_is_template: هذا المتجر عبارة عن قالب.
       form:
         labels:
+          legal_region: ''
+          legal_province: ''
+          legal_street: ''
           legal_name: 'الاسم التجاري المسجل'
           legal_address: 'العنوان'
           legal_city: 'المدينة'
-          inn_text: 'رقم ضريبة القيمة المضافة'
+          legal_post_code: ''
+          legal_country_code: ''
+          legal_phone_text: 'رقم الهاتف'
+          legal_email_text: 'البريد الالكتروني'
           receipt_top_text: 'النص في أعلى الإيصال'
           receipt_bottom_text: 'النص في أسفل الإيصال'
           invoice_stamp_comment: 'التعليق على الحساب'
           invoice_stamp_image: 'طابع الصورة والتوقيع'
           remove_invoice_stamp_image: 'هل تريد حذف الصورة؟'
-          legal_phone_text: 'رقم الهاتف'
-          legal_email_text: 'البريد الالكتروني'
           social_media: 'الإعلام الاجتماعي'
+          additional_number: ''
+          building_number: ''
+          inn_text: 'رقم ضريبة القيمة المضافة'
         hints:
           invoice_stamp_comment: 'معروض في الأعلى. حدد الهواتف والمعلومات الإضافية هنا.'
+          zatca_required: ''
         include_blank: 'غير محدد'
       vendor_vats:
     lookbooks:
@@ -1159,6 +1209,7 @@ ar_SA:
     slug_resources:
       callout: "يمكن تكوين المسارات على صفحات تحرير الموارد (المنتج، الفئة، صفحة النص، إلخ)"
     orders:
+      paid_and_delivered: ""
       source: 'النوع: %{source}'
       payment_discount: 'خصم على الدفع بواسطة %{payment_type}'
       buyer:
@@ -1183,14 +1234,17 @@ ar_SA:
       custom_delivery_price: 'تكلفة التسليم'
       transmitted_data: 'البيانات المنقولة'
       browser_data: 'بيانات المتصفح'
-      total_vat: الضريبة
+      total_vat: ""
       total_price: الإجمالي
+      total_with_delivery_price: ""
+      total_without_vat_price: ""
       send_email: 'إرسال بالبريد'
       reset_downloaded_count: 'إعادة تعيين عدد التنزيلات (%{current}المستخدمة من %{total})'
       quantity: 'الرصيد'
       delivery_price_empty: لم يتم تحديد تكلفة الشحن
       delivery_price_warning: لا يمكن دفع قيمة الطلب حتى يتم تحديد رسوم التسليم.
       payment_url: 'صفحة دفع طلب العميل'
+      is_credit: ''
       hints:
         order_payment:
           state: 'انتبه! عند تغيير حالة الدفع يدويًا، لا يعمل سير العمل والإشعارات.'
@@ -1227,6 +1281,9 @@ ar_SA:
           select_from_existing_products: الاختيار من المنتجات الحالية
           enter_new_products: إدخال منتجات جديدة
         add_new_product: إضافة منتج
+      log:
+        payment_form: ''
+        customer_checked: ''
     payment_cards:
       untie: 'إلغاء الارتباط'
       untied: 'غير مرتبط'
@@ -1331,8 +1388,8 @@ ar_SA:
         date: 'تم الإنشاء — %{date}'
     products:
       select_products_tax:
-        product_vat: الضريبة المخصصة
-        product_vat_group: المجموعة الضريبية
+        product_vat: ""
+        product_vat_group: ""
       adding: 'إضافة بضائع'
       categories_select:
         title: فئات المنتج
@@ -1477,7 +1534,9 @@ ar_SA:
       empty:  لم يشترك أحد بعد.
     client:
       found_count: العملاء الذين تم العثور عليهم
-      export: تصدير إلى CSV
+      export: ""
+      export_pdf: ""
+      print: ""
       phones:
         title: الجوالات
         empty: لا يوجد رقم جوال
@@ -1573,8 +1632,6 @@ ar_SA:
       active: الفئات النشطة
       products_without_categories: "المنتجات بدون فئة ()%{count}"
       google_product_category: |
-        تُستخدم هذه المعلمة لتصدير الفئة إلى كتالوج facebook. </br> 
-        استخدام القيم من قائمة تصنيف منتجات <a href="http://www.google.com/basepages/producttype/taxonomy-with-ids.ru-RU.xls">Google </a>
     category_page:
       form:
         header: عرض المنتج
@@ -1628,6 +1685,7 @@ ar_SA:
           explanation: (ما يجب فعله)
         applied: تم التطبيق
     dictionaries:
+      archive: ""
       empty: لا يوجد دليل
       no_used: غير مستخدم
       form:
@@ -1665,6 +1723,7 @@ ar_SA:
       change_owner_role: لا يمكن تغيير دور المالك. يمكن للمالك القيام بأي شيء ;)
       callout: اتصل بالدعم إذا كنت بحاجة إلى المزيد من الأدوار.
     members:
+      regenerate_pin_code: ''
       disable_access: "هل تريد تعطيل وصول الجهة إلى المتجر؟"
       edit:
         name: 'الاسم:'
@@ -2049,6 +2108,7 @@ ar_SA:
       order_conditions:
         title: مسار العمل
         details_html: هذه هي القواعد التي تتحرك بها الطلبات في مسار التحويل.
+        used_count: ""
       #notify_templates:
         #feature: notify_templates
         #title: Уведомления
@@ -2099,6 +2159,7 @@ ar_SA:
           online: عبر الإنترنت
           no_sale: لا يوجد بيع
     documents:
+      successful_transaction: ""
       transactions: المعاملات
       filter:
         all: الكل
@@ -2133,22 +2194,23 @@ ar_SA:
       open: فتح الدرج
       close: إغلاق الدرج
       confirm: هل أنت متأكد؟
-      open_balance: 'بدء النقد:'
-      open_actual_balance: 'الفعلي في الدرج:'
-      close_balance: 'النقد الختامي:'
+      open_actual_balance: ''
+      open_balance: ''
+      close_balance: ''
       close_actual_balance: 'الفعلي في الدرج:'
       open_operator: 'الدرج المفتوح:'
       close_operator: 'الدرج المغلق:'
       sale_amount: 'المبيعات النقدية:'
       refund_amount: 'الاسترداد النقدي:'
       open_correct_amount: 'المبلغ الصحيح:'
-      close_correct_amount: 'المبلغ الصحيح:'
+      close_correct_amount: ''
       opened_at: 'تم الافتتاح في:'
       closed_at: 'مغلق في:'
       title: "رقم الدرج%{number}"
       description: 'الوصف:'
       state: "الولاية:"
       cashier: 'الصراف:'
+      close_net_balance: ''
     external_devices:
       new_submit: جديد
       empty: فارغ
@@ -2156,3 +2218,16 @@ ar_SA:
       saved: تم حفظ التغييرات
     import_photos:
       success: 'تم تحميل الصور: %{count}'
+    reports:
+      period:
+        daily: ""
+        weekly: ""
+        monthly: ""
+      top_table:
+        title: ""
+        total: ""
+      inventory_changes:
+        item_name: ""
+        start_inventory: ""
+        end_inventory: ""
+        change: ""

@@ -99,15 +99,22 @@ ar_SA:
         max_order_similar_products_count: "تتجاوز كمية نوع واحد من المنتج في الطلب الحد المسموح به بـ %{max_count}"
       coupon:
         not_found: 'رمز %{code} ترويجي غير موجود'
-        expired: 'تجاوز تاريخ استحقاق الرمز الترويجي %{code}'
+        expired: 'لقد حدث خطأ
+
+
+          الرجاء المحاولة لاحقاً!'
       order:
-        house: ''
+        house: 'لقد حدث خطأ
+
+
+          الرجاء المحاولة لاحقاً!'
         yandex_kassa_max_items_count: 'منتجات كثيرة جدًا لـ Yandex Kassa. الحد الأقصى: %{max_count}'
         no_price_delivery: 'يتم حساب تكلفة الشحن بعد الطلب.'
         invalid_form: 'لم يتم قبول الطلب بعد، قم بتصحيح الأخطاء في النموذج'
         has_unorderable_goods: 'في الطلب منتجات لا يمكن الوصول إليها'
         no_items: 'لا توجد منتجات في الطلب.'
         unavailable_currency: لا يمكن الطلب بالعملة المختارة.
+        unavailable_geidea_payment: "لقد حدث خطأ\n\nالرجاء المحاولة لاحقاً!"
         comment: لا يمكن أن يكون التعليق فارغًا.
         client_payment:
           unavailable: "نظام الدفع %{payment_title} المُحدد في الحساب الشخصي غير متوفر %{cabinet_path}"
@@ -121,7 +128,7 @@ ar_SA:
         need_to_pay: 'قم بسداد قيمة الطلب أولاً'
 
     placeholders:
-      coupon: الرمز الترويجي (إن وُجد)
+      coupon: ""
       search: البحث
 
     alerts:
@@ -185,7 +192,7 @@ ar_SA:
         city_title: مدينة التسليم
         address: عنوان التسليم
         comment: تعليق
-        coupon_code: الرمز الترويجي
+        coupon_code: ""
         delivery_city_id: مدينة الإصدار
         pickup_point_id: نقطة الإصدار
         region: المنطقة
@@ -215,7 +222,7 @@ ar_SA:
         first_name: ألكسندر
         second_name: إيفانوف
         patronymic: أوليجوفيش
-      total_vat: "(بما في ذلك ضريبة القيمة %{total_vat}المضافة)"
+      total_vat: ''
       submit: إتمام عملية الشراء
       pickup_address: 'عنوان الاستلام:'
       title: "رقم%{number} الطلب في %{vendor}"
@@ -275,6 +282,8 @@ ar_SA:
       amount: الكمية
       weight: الوزن
       overall: 'الإجمالي:'
+      vat_amount: ''
+      total_without_amount: ''
       title: عربة التسوق
       clear: حذف جميع المنتجات
       not_available: لم تعد متاحة للبيع
@@ -300,6 +309,7 @@ ar_SA:
       no_package: لا تقم بالإضافة
 
     payment:
+      is_credit: ""
       w1:
         failure:
           title: فشل الدفع
@@ -320,6 +330,9 @@ ar_SA:
       title: اشترِ هذا المنتج أيضاً
     other_product:
       title: البضائع الأخرى
+
+    history_product:
+      title: ""
 
     product:
       more_content:
@@ -469,7 +482,7 @@ ar_SA:
         ogrn: PSRN
       pin_alert:
         send: الحصول على كلمة المرور
-        timeout: من المفترض أن تصل الرسائل النصية القصيرة في غضون دقيقة. <br>يمكنك إعادة طلب رمز من خلال %{timeout}
+        timeout: من المفترض أن تصل الرسائل النصية القصيرة في غضون دقيقة. <br>يمكنك إعادة طلب رمز من خلال
       submit: تسجيل الدخول
       registration_submit: حسناً
       no_account: "لا يوجد حساب؟"
@@ -553,5 +566,25 @@ ar_SA:
       saving: 'جارٍ الحفظ...'
       save: 'حفظ'
       no_changes: 'لا توجد تغييرات'
+      in_row_count:
+        one: ''
+        two: ''
+        three: ''
+        four: ''
+      product_page_photo:
+        above: ''
+        aside: ''
+      colors:
+        white: ''
+        black: ''
+        orange: ''
+        grey: ''
+        beige: ''
+        light_green: ''
+        red: ''
+      dimensions:
+        sm: ''
+        md: ''
+        lg: ''
     vendor_not_published:
       title: 'المتجر قيد الإنشاء. هذه وضعية التجربة.'

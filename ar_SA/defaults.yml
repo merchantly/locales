@@ -4,7 +4,7 @@ ar_SA:
       default: '%a, %d %B %Y, %H:%M:%S %z'
       human: '%e %B %Y, %H:%M'
       amo_csv: '%d.%m.%Y %H:%M'
-      datetimepicker: '%d.%m.%Y %H:%M'
+      datetimepicker: ''
   datetime:
     # вообще у нас нет английской локали для операторской
     # но иногда в bugsnag по какой то причине попадают ошибки

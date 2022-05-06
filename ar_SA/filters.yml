@@ -1,5 +1,20 @@
 ar_SA:
   filters:
+    clients:
+      name:
+        name: ""
+        placeholder: ""
+      address:
+        name: ""
+        placeholder: ""
+      email:
+        name: ""
+        placeholder: ""
+      phone:
+        name: ""
+        placeholder: ""
+      scope:
+        name: ""
     orders:
       source:
         name: القناة

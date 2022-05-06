@@ -1,6 +1,16 @@
 ar_SA:
   operator:
     pages:
+      reports:
+        dashboard:
+          title_html: ""
+        sales:
+          title_html: ""
+        inventory:
+          title_html: ""
+      zatca:
+        show:
+          title_html: ""
       partner/coupons:
         show:
           title_html: الرموز الترويجية للشركاء
@@ -205,6 +215,13 @@ ar_SA:
           title_html: تحرير الرمز الترويجي
         new_import:
           title_html: تحميل الرموز الترويجية بتنسيق CSV
+      promotions:
+        index:
+          title_html: ""
+        new:
+          title_html: ""
+        edit:
+          title_html: ""
       coupon_groups:
         new:
           title_html: إنشاء مجموعة من الرموز الترويجية
@@ -258,6 +275,10 @@ ar_SA:
           title_html: 'العميل %{resource}'
         show:
           title_html: 'الإعدادات الخاصة بالعميل'
+        import_form:
+          title_html: ''
+        import:
+          title_html: ''
       menu_items:
         index:
           title_html: 'إدارة القائمة'
@@ -545,7 +566,9 @@ ar_SA:
           title_html: النقد & والحسابات البنكية
       documents:
         show:
-          title_html: المعاملات المالية
+          title_html: ""
+        index:
+          title_html: ""
       expense:
         show:
           title_html: النفقات
@@ -563,7 +586,9 @@ ar_SA:
           title_html: الاسترداد
       product_vat_groups:
         show:
-          title_html: المجموعات الضريبية للمنتج
+          title_html: ""
+        edit:
+          title_html: ""
       warehouses:
         show:
           title_html: المستودعات

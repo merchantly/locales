@@ -16,3 +16,15 @@ ar_SA:
       image_link: 'رابط صورة المنتج'
       vat: 'الضريبة'
     property_title: '(الخاصية: %{title})'
+  clients_google_spreadsheet:
+    columns:
+      name: ''
+      phones: ''
+      emails: ''
+      address: ''
+      city: ''
+      area: ''
+      street: ''
+      house: ''
+      floor: ''
+      room: ''

@@ -7,6 +7,8 @@ ar_SA:
       span: 'إلغاء النشر'
       confirm: 'هل أنت متأكد؟'
     more: المزيد
+    order:
+      pay_and_delivery: ""
     orders_count:
       zero: الطلب
       one: الطلب
@@ -55,7 +57,7 @@ ar_SA:
       duplicate: 'التكرار'
       select_tags: 'تحرير العلامات'
       select_categories: 'تغيير الفئات'
-      select_products_tax: 'تغيير الضريبة'
+      select_products_tax: ''
     archivable:
       archive: 'الأرشيف'
       restore: 'استعادة'

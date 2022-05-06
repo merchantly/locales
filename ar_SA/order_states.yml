@@ -8,6 +8,7 @@ ar_SA:
   order_log_entities:
     changed_workflow_state: "تم تغيير حالة الطلب (%{workflow_state_from} ->%{workflow_state_to})"
     use_condition: "الحالة المُطبقة (رقم%{id}): \"%{title}\""
+    order_attrs_updated: ''
 
   order_delivery_states_comments:
     delivery: تم نقل الطلب للتسليم

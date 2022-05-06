@@ -99,6 +99,7 @@ ar_SA:
       reserved: تم وضع الطلب في الحجز
       start_delivery: 'تم بدء التسليم'
       online_kassa_notified: 'تم إخطار kassa عبر الإنترنت'
+      notify_client: ''
     products:
       created: تمت إضافة المنتج
       updated: تم تغيير المنتج
@@ -118,6 +119,7 @@ ar_SA:
     vk:
       will_be_exported: سيتم تصدير العناصر المختارة قريبًا
     operator:
+      regenerate_pin_code: ''
       regenerate_api_key: 'تم تحديث مفتاح واجهة برمجة التطبيقات الخاص بك %{api}'
       confirmed: تم تأكيد البريد الإلكتروني بنجاح
       not_confirmed: لم يتم العثور على مشغل بخصوص هذا البريد الإلكتروني

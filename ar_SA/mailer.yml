@@ -1,4 +1,7 @@
 ar_SA:
+  member_mailer:
+    pin_code:
+      subject: ''
   order_mailer:
     client:
       subjects:

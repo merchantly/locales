@@ -1,5 +1,14 @@
 ar_SA:
   enumerize:
+    seller_type:
+      CRN: ""
+      MOM: ""
+      MLS: ""
+      SAG: ""
+      OTH: ""
+    vat_calculation_version:
+      v1: ""
+      v2: ""
     product_image_position:
       above: وصف المنتج الوارد أعلاه
       aside: بجوار وصف المنتج
@@ -31,8 +40,8 @@ ar_SA:
         owner: 'المالك'
         manager: 'المسؤول'
         guest: 'الضيف'
-        seller: 'Seller'
-        cashier: 'Cashier'
+        seller: ''
+        cashier: ''
     role_permission:
       resource_type:
         TextBlock: المربعات النصية
@@ -88,7 +97,7 @@ ar_SA:
         Ecr::Branch: السكان المحليون
         Ecr::Cashier: الحسابات النقدية
         Ecr::Document: المعاملات المالية
-        ProductVatGroup: المجموعات الضريبية للمنتج
+        ProductVatGroup: ""
         Ecr::WarehouseMovement: معاملات المستودع
         QuantityUnit: وحدات الكمية
         Ecr::Nomenclature: عناصر المخزون
@@ -100,8 +109,8 @@ ar_SA:
         owner: 'المالك'
         manager: 'المسؤول'
         guest: 'الضيف'
-        seller: 'Seller'
-        cashier: 'Cashier'
+        seller: ''
+        cashier: ''
     vendor_job:
       state:
         created: 'في انتظار البدء'

@@ -1,6 +1,13 @@
 ar_SA:
   operator:
     js:
+      category_tree_selector:
+        createButtonTitle: ''
+        cancelButtonTitle: ''
+        modalCreateTitle: ''
+        modalShowTitle: ''
+        parentCategoryText: ''
+        nameText: ''
       google_map_selector:
         placeholder: البدء أو إدخال عنوان
       product:
@@ -45,5 +52,7 @@ ar_SA:
         total_price: 'السعر الإجمالي: %{totalPrice}'
       categories_selectize:
         placeholder: 'إضافة واحد على الأقل'
+      client_selectize:
+        placeholder: ''
       product_images_upload:
         add: 'إضافة صورة'
