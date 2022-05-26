@@ -19,7 +19,7 @@ en:
       ecr_warehouse_movement_receipt: Receipt
       ecr_warehouse_movement_expense: Issue
     categories:
-      default_welcome_category: Home Page Category
+      default_welcome_category: Default Category
     warehouses:
       default: Default Warehouse
     fallback_good:
