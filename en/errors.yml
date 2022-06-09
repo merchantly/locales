@@ -187,6 +187,7 @@ en:
       closed_at: closed_at is less opened_at
     category:
       no_archive_welcome_category: 'You cannot archive welcome category. Delete it <a href="%{url}"> here</a>'
+      already_exists: 'Already Exists. Please try with the Different Category Name'
     quantity_unit:
       not_destroyed_with_nomenclatures: You cannot delete a unit of measure if it is used in library items
     vendor_payment:
