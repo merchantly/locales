@@ -27,6 +27,7 @@ ru:
         adding: Добавляем...
     labels:
       defaults:
+        cashiers: Свободные Кассиры
         vat: НДС
         package_category_id: Категория c упаковками
         currency_iso_code: 'Основная валюта'
