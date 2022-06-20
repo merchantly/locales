@@ -27,6 +27,7 @@ en:
         adding: Adding...
     labels:
       defaults:
+        cashiers: Available Cashiers
         vat: VAT, %
         package_category_id: Packed category
         currency_iso_code: 'General currency'
