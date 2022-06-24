@@ -2213,6 +2213,11 @@ en:
         start_inventory: Start Inventory
         end_inventory: End Inventory
         change: Change
+        details:
+          transfer: 'Transfer from warehouse %{from_url} to %{to_url}'
+          expense: 'Expense %{title} from warehouse %{url}'
+          order: 'Order: %{url}'
+          receipt: 'Receipt to warehouse %{url}'
       apply: Apply
       last_orders:
         order_id: 'Order: %{order_id}'
