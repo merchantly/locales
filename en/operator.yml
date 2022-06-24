@@ -2199,6 +2199,7 @@ en:
     import_photos:
       success: 'Images uploaded: %{count}'
     reports:
+      no_sales: No Sales
       period:
         daily: Today
         weekly: Last 7 days
@@ -2207,7 +2208,62 @@ en:
         title: Title
         total: Total
       inventory_changes:
+        title: Inventory Changes
         item_name: Item Name
         start_inventory: Start Inventory
-        end_inventory: Env Inventory
+        end_inventory: End Inventory
         change: Change
+      apply: Apply
+      last_orders:
+        order_id: 'Order: %{order_id}'
+        order_date: 'Order date: %{created_at}'
+        basket_size: 'Basket size: %{count} items'
+        basket_value: 'Basket Value: %{total_price}'
+      sales_months:
+        title: |
+          <h3>
+            <b> Monthly progress </b>
+          </h3>
+          <p> Current month vs. previous month based on the day of the month </p>
+      sales_payments:
+        payment_type: Payment Type
+        payment_value: Value
+      sales_today:
+        sales: Sales
+        orders_count: No. of orders
+        average_basket: Average basket
+        top_selling_items: Top selling items
+        selling_orders_count: '%{count} orders'
+      sales_top:
+        top_selling_items: Top 5 Selling Items
+        top_grossing_items: Top 5 Grossing Items
+        top_selling_categories: Top 5 Selling Category
+        top_grossing_categories: Top 5 Grossing Category
+        item_name: Item Name
+        total: Total
+        total_with_currency: "Total (%{currency})"
+      sales_week:
+        title: |
+          <h3>
+            <b> Last 7 days trends </b>
+          </h3>
+          <p> The numbers of orders in the last 7 days </p>
+      dashboard:
+        hi: 'Hi %{name}!'
+      items_table_headers:
+        datetime: 'Date/Time'
+        order_id: 'Order #'
+        total_sales: 'Total Sales (%{currency})'
+        total_vat: 'Total Vat (%{currency})'
+        item_id: 'ITEM ID'
+        item_price: 'Item Price (%{currency})'
+        item_vat: 'Item Vat (%{currency})'
+        quantity: 'Quantity'
+        tid: 'TID'
+        payment_method: 'Payment Method'
+      transactions_table_headers:
+        datetime: 'Date/Time'
+        type: 'Transaction Type'
+        details: 'Details'
+        cost: 'Cost per Unit'
+        quantity: 'Quantity'
