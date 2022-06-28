@@ -5,7 +5,7 @@ en:
     title_validator: 'Valid characters A-Z, 0-9, `, -'
     geidea_payment_config:
       merchant_id_invalid_error:
-        message: 'Merchant id is invalid for geidea payment'
+        message: 'Invalid Merchant ID. Please contact your Geidea manager'
     negative_vats: 'VAT value must be equal or large than zero: %{examples}'
     format: '%{attribute} %{message}'
     import_from_spreadsheet:
