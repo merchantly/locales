@@ -25,9 +25,9 @@ ar_SA:
     w1_send_pin_code: إرسال
 
     reports_navigation:
-      dashboard: ''
-      sales: ''
-      inventory: ''
+      dashboard: 'واجهة المعلومات'
+      sales: 'تقرير المبيعات'
+      inventory: 'تقرير المخزون'
 
     ecr_navigation:
       cashiers: ''
@@ -49,7 +49,7 @@ ar_SA:
       settings: 'الإعدادات'
       ecr: 'نقطة البيع الرئيسية'
       disabled_content: 'اختيار المتجر'
-      reports: ''
+      reports: 'التقارير'
 
     profile_navigation:
       index: 'ملف تعريف المسؤول'
@@ -226,7 +226,7 @@ ar_SA:
       operator_profile: مسؤول الموقع
       operator_settings: الإعدادات
       operator_content: الإدارة
-      operator_reports: ""
+      operator_reports: التقارير
       products: البضائع
       operator_ecr: نقطة التركيز الرئيسية
 
@@ -861,7 +861,7 @@ ar_SA:
       open_drawer: فتح الدرج
       drawers: الأدراج
       documents: المعاملات
-      daily_reports: ""
+      daily_reports: التقارير اليوميه
       drawers_empty: الأدراج فارغة
       documents_empty: المستندات فارغة
     clients:
@@ -1490,7 +1490,7 @@ ar_SA:
     domains:
       not_connected: هذا المجال غير متصل بعد.
       go_to_shop: 'الذهاب إلى المتجر %{name}'
-      shop_not_connected_html: "إلى هذا المجال '<b>% {domain}</b>' لم يتم إرفاق أي متجر بعد."
+      shop_not_connected_html: ""
       empty: لا توجد مجالات إضافية
     login:
       already_registered: "هل سبق لك التسجيل؟"
@@ -2219,15 +2219,76 @@ ar_SA:
     import_photos:
       success: 'تم تحميل الصور: %{count}'
     reports:
+      no_sales: لا يوجد مبيعات
       period:
-        daily: ""
-        weekly: ""
-        monthly: ""
+        daily: اليوم
+        weekly: أخر ٧ أيام
+        monthly: أخر ٣٠ يوم
       top_table:
-        title: ""
-        total: ""
+        title: العنوان
+        total: الإجمالي
       inventory_changes:
-        item_name: ""
-        start_inventory: ""
-        end_inventory: ""
-        change: ""
+        title: التغيرات في المخزون
+        item_name: إسم المنتج
+        start_inventory: بداية المخزون
+        end_inventory: إنتهاء المخزون
+        change: تغيير
+        details:
+          transfer: 'تحويل منتج من المستودع %{from_url} إلي المستودع %{to_url}'
+          expense: 'مصاريف %{title} من المستودع %{url}'
+          order: 'الطلب: %{url}'
+          receipt: 'تم إستلام المنتج من المستودع %{url}'
+      apply: الإستمرار
+      last_orders:
+        order_id: 'الطلب: %{order_id}'
+        order_date: 'تاريخ الطلب: %{created_at}'
+        basket_size: 'حجم السله : %{count} منتجات'
+        basket_value: 'قيمة السله: %{total_price}'
+      sales_months:
+        title: |
+          <h3>
+            <b>الأداء الشهري</b>
+          </h3>
+          <p>تقرير مقارنة الشهر الحالي مقابل الشهر السابق بناءً على اليوم في الشهر الحالي</p>
+      sales_payments:
+        payment_type: نوع الدفع
+        payment_value: القيمه
+      sales_today:
+        sales: المبيعات
+        orders_count: عدد الطلبات
+        average_basket: متوسط قيمة السله
+        top_selling_items: أكثر المنتجات مبيعا
+        selling_orders_count: 'عدد الطلبات %{count}'
+      sales_top:
+        top_selling_items: أعلى ٥ منتجات مبيعا
+        top_grossing_items: أعلى ٥ منتجات نموا
+        top_selling_categories: أعلى ٥ أصناف مبيعا
+        top_grossing_categories: أعلى ٥ أصناف نموا
+        item_name: إسم المنتج
+        total: الإجمالي
+        total_with_currency: "الإجمالي (%{currency})"
+      sales_week:
+        title: |
+          <h3>
+            <b>أخر ٧ أيام
+          </h3>
+          <p>عدد الطلبات في آخر ٧ أيام</p>
+      dashboard:
+        hi: '%{name} ، مرحبا '
+      items_table_headers:
+        datetime: 'التاريخ / الوقت'
+        order_id: 'رقم الطلب#'
+        total_sales: 'إجمالي المبيعات (%{currency})'
+        total_vat: 'إجمالي مبالغ ضريبة القيمه المضافه (%{currency})'
+        item_id: 'رقم المنتج'
+        item_price: 'سعر المنتج (%{currency})'
+        item_vat: 'مبلغ ضريبة القيمه المضافه للمنتج (%{currency})'
+        quantity: 'الكميه'
+        tid: 'رقم جهاز مدى'
+        payment_method: 'طريقة الدفع'
+      transactions_table_headers:
+        datetime: 'التاريخ / الوقت'
+        type: 'نوع العمليه'
+        details: 'التفاصيل'
+        cost: 'التكلفه لكل وحده'
+        quantity: 'الكميه'

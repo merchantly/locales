@@ -2224,6 +2224,7 @@ en:
         order_date: 'Order date: %{created_at}'
         basket_size: 'Basket size: %{count} items'
         basket_value: 'Basket Value: %{total_price}'
+        title: 'Your last orders'
       sales_months:
         title: |
           <h3>
@@ -2234,6 +2235,7 @@ en:
         payment_type: Payment Type
         payment_value: Value
       sales_today:
+        today: Today
         sales: Sales
         orders_count: No. of orders
         average_basket: Average basket

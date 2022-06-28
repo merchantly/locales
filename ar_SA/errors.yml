@@ -5,7 +5,7 @@ ar_SA:
     title_validator: 'لقد حدث خطأ الرجاء المحاولة لاحقاً!'
     geidea_payment_config:
       merchant_id_invalid_error:
-        message: 'لقد حدث خطأ الرجاء المحاولة لاحقاً!'
+        message: ''
     negative_vats: 'لقد حدث خطأ الرجاء المحاولة لاحقاً!'
     format: '%{attribute} %{message}'
     import_from_spreadsheet:
@@ -151,6 +151,8 @@ ar_SA:
       nothing_to_export_html: 'لم يتم العثور على منتجات جاهزة للتفريغ. <a href="%{url}">أضف</a> منتجًا واحدًا على الأقل وحاول مرة أخرى.'
       price:
         currencies_conflict: 'لا تتطابق عملة العنصر مع عملة البائع %{product_currency}<>%{vendor_currency}'
+      ordering_period: ''
+      beginning_of_ordering_period: ''
     image:
       no_files: لا توجد جميع الصور على القرص.
       width_not_fits: 'يجب أن يكون عرض الصورة دقيقًا %{width}'
@@ -174,6 +176,7 @@ ar_SA:
     vendor_theme_form:
       analytics_js: '^ يجب ألا يحتوي رمز JavaScript للتحليلات على علامة برنامج نصي، ويمكن إدراج رمز تحليلي مباشر في "رمز HTML إضافي <head>في جميع الصفحات"'
     client_login_form:
+      login_error: ""
       invalid_login: أدخل رقم الهاتف أو البريد الإلكتروني
     client_registration_form:
       required: حقل إلزامي
@@ -194,6 +197,7 @@ ar_SA:
       closed_at: closed_at أقل من opened_at
     category:
       no_archive_welcome_category: 'لقد حدث خطأ الرجاء المحاولة لاحقاً!'
+      already_exists: ''
     quantity_unit:
       not_destroyed_with_nomenclatures: لا يمكنك حذف أداة قياس يتم استخدامها كمقياس كمّي في عناصر القائمة.
     vendor_payment:

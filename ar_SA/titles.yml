@@ -17,9 +17,9 @@ ar_SA:
     warehouse_movement:
       ecr_warehouse_movement_transfer: التحويل
       ecr_warehouse_movement_receipt: الاستلام
-      ecr_warehouse_movement_expense: ""
+      ecr_warehouse_movement_expense: إصدار
     categories:
-      default_welcome_category: فئة الصفحة الرئيسية
+      default_welcome_category: ""
     warehouses:
       default: المستودع الأساسي
     fallback_good:

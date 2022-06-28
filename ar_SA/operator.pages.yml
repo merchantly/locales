@@ -7,7 +7,7 @@ ar_SA:
         sales:
           title_html: ""
         inventory:
-          title_html: ""
+          title_html: تقرير المخزون
       zatca:
         show:
           title_html: ""
