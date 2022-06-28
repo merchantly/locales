@@ -2244,6 +2244,7 @@ ar_SA:
         order_date: 'تاريخ الطلب: %{created_at}'
         basket_size: 'حجم السله : %{count} منتجات'
         basket_value: 'قيمة السله: %{total_price}'
+        title: 'الطلبات الأخيرة الخاصة بك'
       sales_months:
         title: |
           <h3>
@@ -2254,6 +2255,7 @@ ar_SA:
         payment_type: نوع الدفع
         payment_value: القيمه
       sales_today:
+        today: اليو
         sales: المبيعات
         orders_count: عدد الطلبات
         average_basket: متوسط قيمة السله
