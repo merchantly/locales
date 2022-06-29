@@ -15,8 +15,9 @@ ar_SA:
       default_cashier: 'الرئيسي'
       default_branch: 'الرئيسي'
       default_product_vat_group: 'الرئيسي'
-      default_cash: ''
+      default_cash: 'نقدي'
       default_pickup: ''
+      default_card: 'بطاقه'
     pin_sender:
       sms_text: 'رقم تعريفك الشخصي المطلوب إدخاله: %{pin}'
     client_pin_sender:
