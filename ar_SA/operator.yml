@@ -2282,6 +2282,7 @@ ar_SA:
         order_id: 'رقم الطلب#'
         total_sales: 'إجمالي المبيعات (%{currency})'
         total_vat: 'إجمالي مبالغ ضريبة القيمه المضافه (%{currency})'
+        item_name: 'إسم المنتج'
         item_id: 'رقم المنتج'
         item_price: 'سعر المنتج (%{currency})'
         item_vat: 'مبلغ ضريبة القيمه المضافه للمنتج (%{currency})'

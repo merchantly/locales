@@ -2262,6 +2262,7 @@ en:
         order_id: 'Order #'
         total_sales: 'Total Sales (%{currency})'
         total_vat: 'Total Vat (%{currency})'
+        item_name: 'Item Name'
         item_id: 'ITEM ID'
         item_price: 'Item Price (%{currency})'
         item_vat: 'Item Vat (%{currency})'
