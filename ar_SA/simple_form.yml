@@ -613,8 +613,6 @@ ar_SA:
       vendor_payment:
         auto_delivery: "يرسل هذا الخيار بيانات الطلب إلى W1 (WMI_طلب_التسليم = 1، وغير ذلك) للتسليم التلقائي"
         canceling_timeout_minutes: 0 - لا تقم بالإلغاء
-      vendor_delivery:
-        auto_cancel_period_days: 'Notify the buyer about the cancellation of the order after the expiration date (days). Leave blank to not notify'
       vendor_email:
         email: |
           سيتلقى عملاؤك خطابات من هذا العنوان
@@ -628,3 +626,4 @@ ar_SA:
         aramex_account_country_code: فارغ في حالة الاختبار
         cdek_sender_city_id: 'https://cdek.ru/storage/source/document/1/CDEK_city.zip'
         cdek_sender_city_post_code: 'https://cdek.ru/storage/source/document/1/CDEK_city.zip'
+        auto_cancel_period_days: 'Notify the buyer about the cancellation of the order after the expiration date (days). Leave blank to not notify'
