@@ -54,6 +54,8 @@ ru:
       subject: 'Добро пожаловать'
     notify_shop_will_archive:
       subject: 'Уведомление об оплате'
+    notify_shop_will_delete:
+      subject: 'Уведомление об оплате'
     vendor_archived:
       subject: 'Магазин в архиве'
   support_mailer:
