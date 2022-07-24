@@ -2049,6 +2049,11 @@ ru:
         title: Купоны
         details_html: Скидочные купоны (промокоды) для Ваших покупателей.
 
+      allowances:
+        url: operator_allowance_path
+        title: Надбавки
+        details_html: Настройка минимума и максимума надбавок.
+
     properties:
       show_in_filter: Показывать в фильтре?
       use_in_short_details: Показывать в описании товаров, <br/> в каталоге и на главной?

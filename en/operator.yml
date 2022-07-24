@@ -2097,6 +2097,10 @@ en:
         feature: coupon
         title: Coupons
         details_html: Discount coupons (promotional codes) for your customers.
+      allowances:
+        url: operator_allowance_path
+        title: Allowance
+        details_html: Setting the minimum and maximum allowances.
 
     properties:
       show_in_filter: "Do you want to show in the filter?"

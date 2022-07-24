@@ -188,6 +188,9 @@ ru:
           title_html: Корзины
         show:
           title_html: Корзина
+      allowance:
+        show:
+          title_html: Надбавки
       coupons:
         index:
           title_html: Промокоды
