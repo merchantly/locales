@@ -623,3 +623,6 @@ en:
       access_keys:
         show:
           title_html: Access keys
+      allowance:
+        show:
+          title_html: Allowances settings
