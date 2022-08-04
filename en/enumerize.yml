@@ -1,5 +1,24 @@
 en:
   enumerize:
+    vat_category:
+      S: Standard rate (S), 15%
+      E: Exempt from Tax (E), 0%
+      Z: Zero rated goods (Z), 0%
+    reason:
+      VATEX-SA-29: Financial services mentioned in Article 29 of the VAT Regulations (VATEX-SA-29)
+      VATEX-SA-29-7: Life insurance services mentioned in Article 29 of the VAT Regulations (VATEX-SA-29-7)
+      VATEX-SA-30: Real estate transactions mentioned in Article 30 of the VAT Regulations (VATEX-SA-30)
+      VATEX-SA-32: Export of goods (VATEX-SA-32)
+      VATEX-SA-33: Export of services (VATEX-SA-33)
+      VATEX-SA-34-1: The international transport of Goods (VATEX-SA-34-1)
+      VATEX-SA-34-2: International transport of passengers (VATEX-SA-34-2)
+      VATEX-SA-34-3: Services directly connected and incidental to a Supply of international passenger transport (VATEX-SA-34-3)
+      VATEX-SA-34-4: Supply of a qualifying means of transport (VATEX-SA-34-4)
+      VATEX-SA-34-5: Any services relating to Goods or passenger transportation, as defined in article twenty five of these Regulations (VATEX-SA-34-5)
+      VATEX-SA-35: Medicines and medical equipment (VATEX-SA-35)
+      VATEX-SA-36: Qualifying metals (VATEX-SA-36)
+      VATEX-SA-EDU: Private education to citizen (VATEX-SA-EDU)
+      VATEX-SA-HEA: Private healthcare to citizen (VATEX-SA-HEA)
     seller_type:
       CRN: Commercial registration number
       MOM: Momra license
