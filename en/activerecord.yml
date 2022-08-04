@@ -315,6 +315,7 @@ en:
         title: Text block name
         position: Position
       vendor:
+        tin: TIN
         zatca_api_key: API Key
         zatca_seller_type: Seller type
         zatca_seller_value: Seller value
