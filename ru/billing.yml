@@ -9,6 +9,7 @@ ru:
     buyer_name: "%{legal_name} (абонент #%{vendor_id})"
 
     sms_packet: "Пакет SMS (%{sms_count} шт.)"
+    cert: "За HTTP сертификат для домена %{domain}"
     negative_balance: "Задолженность за обслуживание %{vendor}"
     next_month_invoice_by_period: "Оплата за обслуживание интернет-магазина %{vendor} по тарифу %{tariff} с %{invoice_date} по %{next_date} (на %{months_count} мес.)"
     next_month_invoice: "Оплата за обслуживание интернет-магазина %{vendor} по тарифу %{tariff} на %{months_count} мес."
