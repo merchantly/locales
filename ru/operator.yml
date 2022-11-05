@@ -911,7 +911,7 @@ ru:
       is_published: 'Опубликован?'
       view: Просмотр
       instruction: '%{icon} Инструкция по настройке DNS'
-      current_operator_url: Текущий адрес операторской панели:&nbsp;
+      current_operator_url: Операторская панель:&nbsp;
       current_home_url: 'Текущий адрес (домен) сайта:'
       form:
         suggested_domain:
@@ -962,7 +962,7 @@ ru:
       warning: Тут отображаются все пути кроме главной страницы.
     https:
       allow: 'HTTPS установлен и подключен для адреса %{url}'
-      expiration_date: 'Срок действия сертификата %{date}'
+      expiration_date: 'Срок оконвания действия HTTPS сертификата %{date}'
       callout:
         title: 'Необходимо установить HTTPS сертификат'
         body: |
