@@ -15,6 +15,7 @@ ru:
       order_payment_gsdk: Gsdk
       order_payment_geidea_payment: Geidea Payment
       order_payment_arsenal_pay: ArsenalPay
+      order_payment_crypto_cloud: CryptoCloud.plus
     delivery:
       order_delivery_pickup: Самовывоз
       order_delivery_redexpress: Redexpress

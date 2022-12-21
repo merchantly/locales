@@ -1807,6 +1807,11 @@ ru:
           success: 'Success Url (GET):'
           fail: 'Fail Url (GET):'
           result: 'Result Url (POST):'
+      cryptocloud:
+        title: Настройка CryptoCloud
+        notifications:
+          title: Используйте следующие ссылки
+          callback: 'Callback URL:'
       sberbank:
         title: Настройка Сбербанк
         notifications:
