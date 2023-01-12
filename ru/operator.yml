@@ -895,7 +895,7 @@ ru:
           add_submit: Добавить правило
     currency:
       currencies: 'Курс валют'
-    digital_key_import:
+    digital_keys_import:
       result: Результат импорта
       state: Состояние
       total_count: Всего строк
