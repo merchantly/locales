@@ -1810,6 +1810,7 @@ ru:
       cryptocloud:
         title: Настройка CryptoCloud
         notifications:
+          success: Получили уведомление об оплате
           title: Используйте следующие ссылки
           callback: 'Callback URL:'
       sberbank:
