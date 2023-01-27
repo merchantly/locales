@@ -1811,6 +1811,7 @@ ru:
         title: Настройка CryptoCloud
         notifications:
           success: Получили уведомление об оплате
+          failure: Оплата не прошла
           title: Используйте следующие ссылки
           callback: 'Callback URL:'
       sberbank:
