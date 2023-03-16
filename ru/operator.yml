@@ -700,7 +700,8 @@ ru:
       app_link:
         title: Мы городимся своим проектом и поэтому в самом низу каждой страницы магазина, есть надпись о том, что магазин сделан на нашей платформе.
         help: "Но если Вас она очень раздражает, можете отключить ее за %{price} в месяц."
-        disable: Отключить надпись "Сделано на %{brand_name_e}"
+        hint: Эту надпись можно отключить после перехода на платный тариф.
+        disable: Надпись "Сделано на %{brand_name_e}"
         disable_button: Отключить
         disabled: Отключена до %{date}
         disable_confirm: "Стоимость %{price} в месяц. Отключить?"
@@ -1807,6 +1808,13 @@ ru:
           success: 'Success Url (GET):'
           fail: 'Fail Url (GET):'
           result: 'Result Url (POST):'
+      alfabank:
+        title: Настройка АльфаБанк (paykeeper)
+        notifications:
+          success: Получили уведомление об оплате
+          failure: Оплата не прошла
+          title: Используйте следующие ссылки
+          callback: 'Callback URL:'
       cryptocloud:
         title: Настройка CryptoCloud
         notifications:
