@@ -645,6 +645,6 @@ ru:
         aramex_account_pin: Оставьте пустым, если тест
         aramex_account_entity: Оставьте пустым, если тест
         aramex_account_country_code: Оставьте пустым, если тест
-        cdek_sender_city_id: 'Коды городов https://cdek.ru/storage/source/document/1/CDEK_city.zip'
-        cdek_sender_city_post_code: 'Список индексов https://cdek.ru/storage/source/document/1/CDEK_city.zip'
+        cdek_sender_city_id: 'Коды городов https://api-docs.cdek.ru/29923918.html'
+        cdek_sender_city_post_code: 'Список индексов https://api-docs.cdek.ru/29923918.html'
         auto_cancel_period_days: 'Уведомлять покупателя об отмене заказа по истечении срока (дней). Оставьте пустым, чтобы не уведомлять'
