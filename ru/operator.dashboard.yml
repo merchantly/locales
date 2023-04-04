@@ -3,7 +3,7 @@ ru:
     dashboard:
       help:
         title: Оформите дизайн магазина
-        body: Пишите <a title="support@kiiiosk.store" href="mailto:support@kiiiosk.store">support@kiiiosk.store</a> Звоните <a href="tel:88007755661">8 (800) 77-55-661</a>.</br><a target="_blank" title="Частые вопросы" href="http://feedback.kiiiosk.store">Частые вопросы</a>, <a target="_blank" title="" tooltip="true" href="https://www.facebook.com/kiiiosk">Facebook</a>, <a target="_blank" title="" tooltip="true" href="https://vk.com/kiiiosk">VK</a>
+        body: Пишите <a title="support@kiiiosk.store" href="mailto:support@kiiiosk.store">support@kiiiosk.store</a>.</br><a target="_blank" title="Частые вопросы" href="http://feedback.kiiiosk.store">Частые вопросы</a>, <a target="_blank" title="" tooltip="true" href="https://www.facebook.com/kiiiosk">Facebook</a>, <a target="_blank" title="" tooltip="true" href="https://vk.com/kiiiosk">VK</a>
       pages:
         title: Добавьте товары
         body: Вы наверняка хотите рассказать о своем магазине, историю того как вы начинали, просто <a href="/operator/content_pages" target=_blank>создайте страницу</a> с контактами или “о нас” и разместите ее в  <a href="/operator/menu_items" target=_blank>меню</a>.
