@@ -541,6 +541,7 @@ ru:
         content: Текст
     hints:
       defaults:
+        paykeeper_server_url: 'Обычно что-то типа https://ВАШ_ID.server.paykeeper.ru/'
         vats_list: 'Например: 0, 15'
         run_out_message: В случае если товар закончится, в карточке товара будет выводиться эта информация
         meta_keywords: Слова через запятую
