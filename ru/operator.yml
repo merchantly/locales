@@ -576,6 +576,7 @@ ru:
         edit: Редактируем лукбук
         new: Новый лукбук
       orders:
+        user_code: Код получения
         stock: Склад
         log_entities: Журнал
         manager_comments: Комментарии менеджеров для клиента
@@ -1428,6 +1429,7 @@ ru:
         title: E-mails
         empty: Нет ни одного e-mail'а
     order:
+      user_code: Код получения
       found_count: Заказов по запросу
       create: Создать заказ
       items: Состав заказа
