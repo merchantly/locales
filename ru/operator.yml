@@ -1767,6 +1767,11 @@ ru:
     vendor_payments:
       geidea_payment:
         title: Geidea Payment
+      yoo_money:
+        title: Настройки подключения
+        notifications:
+          title: Установите эту ссылку в настройках уведомления об оплате
+          callback: Callback URL
       gsdk:
         title: GSDK
       discount_settings: Настройка скидок

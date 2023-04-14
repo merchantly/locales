@@ -17,6 +17,7 @@ ru:
       order_payment_arsenal_pay: ArsenalPay
       order_payment_crypto_cloud: CryptoCloud.plus
       order_payment_alfabank: Альфа-банк/Paykeeper
+      order_payment_yoo_money: YooMoney
     delivery:
       order_delivery_pickup: Самовывоз
       order_delivery_redexpress: Redexpress
