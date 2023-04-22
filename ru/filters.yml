@@ -1,6 +1,9 @@
 ru:
   filters:
     clients:
+      query:
+        name: Искать по всему
+        placeholder: Alex
       name:
         name: Имя
         placeholder: Alex
