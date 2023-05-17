@@ -1688,6 +1688,9 @@ ru:
       yandex_checker: 'Проверка sitemap.xml на Yandex Webmaster'
       doc: 'Документация по sitemap.xml'
     products_settings:
+      product_page:
+        title: Настройки страницы товара
+        details_html:
       categories:
         url: operator_categories_path
         title: Категории товаров

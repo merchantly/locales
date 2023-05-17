@@ -313,7 +313,7 @@ ru:
         legal_country_code: Код страны
         meta_title_template: 'Шаблон для %{resource}'
         show_delivery_restriction_messages: Показывать сообщение об ограничениях доставок на продукт
-        not_found_status: 'HTTP статус страницы товара в архиве'
+        unavailable_product_status: 'HTTP статус страницы товара в архиве'
         filter_apply_type: Применить фильтр
         show_filter_clear_button: Показать кнопку 'Сбросить все фильтры'
         show_product_more_content: Показать 'Читать далее...'
