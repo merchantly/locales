@@ -1690,7 +1690,7 @@ ru:
     products_settings:
       product_page:
         title: Настройки страницы товара
-        details_html:
+        details_html: Настройки страницы товара
       categories:
         url: operator_categories_path
         title: Категории товаров
