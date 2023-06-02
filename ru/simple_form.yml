@@ -333,7 +333,7 @@ ru:
         shipper_name: 'Shipper name'
         shipper_phone: 'Shipper phone'
         shipper_email: 'Shipper email'
-        cdek_tariff_id: 'Способ доставки'
+        cdek_tariff_id: 'Номер тарифа'
         cdek_sender_city_id: 'Код города отправителя'
         cdek_sender_city_post_code: 'Индекс отправителя'
         cdek_login: 'СДЭК логин для интеграции'
@@ -541,6 +541,7 @@ ru:
         content: Текст
     hints:
       defaults:
+        cdek_tariff_id: 'Номер тарифа <a href="https://api-docs.cdek.ru/63345430.html" target="_blank">отсюда</a>'
         paykeeper_server_url: 'Обычно что-то типа https://ВАШ_ID.server.paykeeper.ru/'
         vats_list: 'Например: 0, 15'
         run_out_message: В случае если товар закончится, в карточке товара будет выводиться эта информация
