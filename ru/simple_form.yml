@@ -27,6 +27,7 @@ ru:
         adding: Добавляем...
     labels:
       defaults:
+        is_home_delivery: 'Доставка до адреса?'
         cashiers: Свободные Кассиры
         vat: НДС
         package_category_id: Категория c упаковками
@@ -541,6 +542,7 @@ ru:
         content: Текст
     hints:
       defaults:
+        is_home_delivery: 'Если да, то в заказе потребуется ввести адрес доставки. Иначе будет выбор пунктов выдачи.'
         cdek_tariff_id: 'Номер тарифа <a href="https://api-docs.cdek.ru/63345430.html" target="_blank">отсюда</a>'
         paykeeper_server_url: 'Обычно что-то типа https://ВАШ_ID.server.paykeeper.ru/'
         vats_list: 'Например: 0, 15'
