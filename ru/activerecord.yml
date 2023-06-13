@@ -311,7 +311,9 @@ ru:
         position: Позиция
       vendor:
         legal_country_code: Код страны
-        meta_title_template: 'Шаблон для %{resource}'
+        meta_title_templates: 'Шаблон для %{resource}'
+        meta_description_templates: 'Шаблон для %{resource}'
+        meta_keywords_templates: 'Шаблон для %{resource}'
         show_delivery_restriction_messages: Показывать сообщение об ограничениях доставок на продукт
         unavailable_product_status: 'HTTP статус страницы товара в архиве'
         filter_apply_type: Применить фильтр

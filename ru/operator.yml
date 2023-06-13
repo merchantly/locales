@@ -942,7 +942,9 @@ ru:
       walletone: 'Настройка виджета WalletOne'
       instagram: 'Лента фотографий из Instagram'
     header:
-      meta_title_template: 'Шаблоны элементов <head><title>'
+      meta_title_templates: 'Шаблоны элементов <head><title>'
+      meta_description_templates: 'Шаблоны элементов <meta name="description">'
+      meta_keywords_templates: 'Шаблоны элементов <meta name="keywords"'
       form:
         labels:
           name: 'Название магазина'
