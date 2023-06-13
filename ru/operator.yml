@@ -944,7 +944,7 @@ ru:
     header:
       meta_title_templates: 'Шаблоны элементов <head><title>'
       meta_description_templates: 'Шаблоны элементов <meta name="description">'
-      meta_keywords_templates: 'Шаблоны элементов <meta name="keywords"'
+      meta_keywords_templates: 'Шаблоны элементов <meta name="keywords">'
       form:
         labels:
           name: 'Название магазина'
