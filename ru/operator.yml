@@ -1777,6 +1777,8 @@ ru:
         notifications:
           title: Установите эту ссылку в настройках уведомления об оплате
           callback: Callback URL
+      dolyame:
+        title: Настройка подключения
       gsdk:
         title: GSDK
       discount_settings: Настройка скидок
