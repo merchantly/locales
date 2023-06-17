@@ -235,6 +235,9 @@ ru:
         payment_type_id: Оплата
         row_order: Позиция
       vendor_payment:
+        private_key: Приватный ключ
+        dolyame_username: Имя пользователя
+        dolyame_password: Пароль
         online_kassa_payment_method: Признак способа расчёта
         online_kassa_payment_object: Признак предмета расчёта
         online_kassa_aqsi_client_key: Client-key

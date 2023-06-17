@@ -1,5 +1,6 @@
 ru:
   flashes:
+    payment_failed: Платеж не прошёл
     activeadmin:
       balance:
         income: Баланс пополнен

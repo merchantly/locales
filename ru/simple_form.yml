@@ -643,6 +643,7 @@ ru:
       vendor_payment:
         auto_delivery: Эта опция отправляет в W1 данные о заказе (WMI_DELIVERY_REQUEST=1 и тп) для автоматической доставки
         canceling_timeout_minutes: 0 - не отменять
+        private_key: 'Начинается с -----BEGIN PRIVATE KEY-----'
       vendor_email:
         email: |
           Ваши клиенты получат письма с этого адреса
