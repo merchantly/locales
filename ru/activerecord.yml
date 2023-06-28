@@ -235,6 +235,7 @@ ru:
         payment_type_id: Оплата
         row_order: Позиция
       vendor_payment:
+        manual_confirm: Подтверждать в ручную?
         private_key: Приватный ключ
         dolyame_username: Имя пользователя
         dolyame_password: Пароль
@@ -584,6 +585,7 @@ ru:
           paid:    Оплачен
           failed:  Отклонена
           canceled:  Отменена
+          wait_for_commit: Ожидает подтверждение
         states:
           new: Новый
           accepted: Действующий
