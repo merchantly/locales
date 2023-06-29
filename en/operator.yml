@@ -55,6 +55,7 @@ en:
       index: 'Admin Profile'
       vendors: 'My Stores'
       subscriptions: 'Events Management'
+      partner: 'Partner'
       access_keys: 'Access Key (API)'
 
     content_navigation:
@@ -721,7 +722,7 @@ en:
     check_currencies:
       flash: "%{currency_symbol} is disabled for %{payment_name} due to Geidea Payment Gate settings. Please contact your manager in Geidea to get more details."
     geidea_selling_error:
-      flash: A "VAT ID", TIN and detailed address is required to start selling. You can add yours from the <a href="%{url}"> Legal Information</a> section. 
+      flash: A "VAT ID", TIN and detailed address is required to start selling. You can add yours from the <a href="%{url}"> Legal Information</a> section.
     selling:
       w1:
         notification_address: Set the following address for payment notifications in the cashier settings on the walletone
