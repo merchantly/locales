@@ -92,6 +92,7 @@ ru:
       already_importing: Товары уже импортируются
       import_started: Импорт товаров запущен в очередь
     orders:
+      commit: Заказ подтверждён
       updated: Заказ отредактирован
       created: Заказ создан
       accepted: Заказ принят

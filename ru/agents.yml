@@ -15,7 +15,7 @@ ru:
       order_payment_gsdk: Gsdk
       order_payment_geidea_payment: Geidea Payment
       order_payment_arsenal_pay: ArsenalPay
-      order_payment_crypto_cloud: CryptoCloud.plus
+      order_payment_cryptocloud: CryptoCloud.plus
       order_payment_alfabank: Альфа-банк/Paykeeper
       order_payment_yoo_money: YooMoney
       order_payment_dolyame: Долями

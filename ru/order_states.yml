@@ -19,6 +19,7 @@ ru:
     failed: Оплата не прошла
     paid: Оплата поступила
     canceled: Оплата отменена
+    wait_for_commit: Оплата одобрена, ожидает подтверджение
 
   order_delivery_tracking_comments:
     new_state: 'Изменение в службе доставки. Описание: %{state.update_description}, Локация: %{state.update_location}'
