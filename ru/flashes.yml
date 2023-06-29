@@ -93,6 +93,7 @@ ru:
       import_started: Импорт товаров запущен в очередь
     orders:
       commit: Заказ подтверждён
+      cancel: Отмена
       updated: Заказ отредактирован
       created: Заказ создан
       accepted: Заказ принят

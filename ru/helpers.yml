@@ -103,6 +103,11 @@ ru:
       walletone: 'Доставка на walletone'
       tracking_id_blank: 'Не указан ID заказа'
     order_payment:
+      state:
+        new: Ожидает оплату
+        paid: Оплачен
+        wait_for_commit: Ожидает подтверждение
+        canceled: Отменена
       expect: Ожидаем оплату
       paid: 'Оплачено: %{paid_to}'
     order_reservation:
