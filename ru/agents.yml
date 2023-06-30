@@ -3,7 +3,7 @@ ru:
     payment:
       order_payment_direct: Любой другой способ
       order_payment_invoice: По счёту
-      order_payment_w1: WalletOne
+      order_payment_walletone: WalletOne
       order_payment_pay_pal: PayPal
       order_payment_yandex_kassa: Yandex Kassa
       order_payment_rbk_money: RBK Money
