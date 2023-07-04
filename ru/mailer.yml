@@ -13,12 +13,14 @@ ru:
         reminder_payment: '{{vendor_name}}: Истекает резерв'
         client_category_changed: '{{client.vendor_name}}: Вас перевели в другую группу {{client.category_name}}'
         coupon: 'Подарочный сертификат от магазина {{vendor_name}}'
+        wait_for_commit: 'Одобрен платежной системной. Ожидает подтверждение магазином'
     merchant:
       subjects:
         new_order:    "{{vendor_name}}: Новый заказ №{{order.public_id}}"
         paid:      "{{vendor_name}}: Поступила оплата заказа №{{order.public_id}}"
         workflow_changed: "{{vendor_name}}: Заказ №{{order.public_id}} получил статус '{{order.workflow_state.title}}'"
         run_out:   "{{vendor_name}}: Закончился товар"
+        wait_for_commit: 'Одобрен платежной системной. Ожидает подтверждение магазином'
   invite_mailer:
     new_invite:
       subject: "Приглашение в проект %{vendor}"
