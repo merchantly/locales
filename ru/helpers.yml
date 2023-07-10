@@ -108,6 +108,7 @@ ru:
         paid: Оплачен
         wait_for_commit: Ожидает подтверждение
         canceled: Отменена
+        direct: Наличными
       expect: Ожидаем оплату
       paid: 'Оплачено: %{paid_to}'
     order_reservation:
