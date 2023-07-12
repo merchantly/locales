@@ -1,6 +1,9 @@
 ru:
   operator:
     pages:
+      order_payment:
+        show:
+          title_html: "Статус оплаты и возврата заказа %{order_id} от платежной системы"
       partner/coupons:
         show:
           title_html: Партнёрские промокоды
