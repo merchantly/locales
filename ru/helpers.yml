@@ -109,6 +109,7 @@ ru:
         wait_for_commit: Ожидает подтверждение
         canceled: Отменена
         direct: Наличными
+        failed: Отклонена
       expect: Ожидаем оплату
       paid: 'Оплачено: %{paid_to}'
     order_reservation:
