@@ -1,6 +1,9 @@
 ru:
   operator:
     pages:
+      refund:
+        new:
+          title_html: "Возврат оплаты заказа %{order_id}"
       order_payment:
         show:
           title_html: "Статус оплаты и возврата заказа %{order_id} от платежной системы"
