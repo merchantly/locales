@@ -1,6 +1,7 @@
 ru:
   flashes:
     payment_failed: Платеж не прошёл
+    clients_export_started: Запущен экспорт клиентов
     activeadmin:
       balance:
         income: Баланс пополнен
