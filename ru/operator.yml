@@ -1780,6 +1780,10 @@ ru:
           callback: Callback URL
       dolyame:
         title: Настройка подключения
+      yandex_split:
+        title: Яндекс Сплит
+        notifications:
+          callback: 'Callback URL:'
       gsdk:
         title: GSDK
       discount_settings: Настройка скидок
