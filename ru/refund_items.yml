@@ -1,0 +1,6 @@
+ru:
+  refund_item:
+    type:
+      delivery: Доставка
+      good: Товар
+      package: Упаковка
