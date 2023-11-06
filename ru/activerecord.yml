@@ -195,6 +195,8 @@ ru:
         url: URL адрес Вашего портала на Bitrix24
         client_id: 'CLIENT ID'
         client_secret: 'CLIENT SECRET'
+      delivery_city:
+        title: Город
       vendor_amo_crm:
         url: URL адрес вашего кабиента в AmoCRM
         order_delivery_custom_field_id: 'ID поля в заказе для адреса доставки'
