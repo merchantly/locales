@@ -9,6 +9,7 @@ ru:
       rfm_updated: 'RFM метрики пересчитаны'
       client_accepted: 'Клиент успешно подтвержден'
       client_denied: 'Клиент успешно подтвержден'
+      clients_export_started: 'Запущена выгрузка клиентов'
 
     system_api: Системное API
     choose_action: Выберите действие
@@ -772,6 +773,7 @@ ru:
       updated: 'Касса успешно обновлена'
       new_submit: Добавить кассу
     clients:
+      export: Экспорт
       import: 'Импорт'
       edit: 'Клиент: %{name}'
       add_customer: Добавить клиента
@@ -1422,7 +1424,6 @@ ru:
       empty:  Еще никто не подписался.
     client:
       found_count: Найдено клиентов
-      export: Экспорт в CSV
       print: Печать
       export_pdf: Экспорт в PDF
       phones:
@@ -1926,7 +1927,7 @@ ru:
         change: 'изменить'
       vendor_jobs:
         title:  Журнал загрузки
-        complete: Загрузка завершена
+        complete: Завершено
         speed: "%{count} позиций в час"
       walletone:
         callout: |
