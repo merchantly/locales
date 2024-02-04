@@ -241,6 +241,8 @@ ru:
         max_amount_price: Максимальная сумма заказа
         manual_confirm: Подтверждать в ручную?
         private_key: Приватный ключ
+        podeli_login: Логин
+        podeli_password: Пароль
         dolyame_username: Имя пользователя
         dolyame_password: Пароль
         online_kassa_payment_method: Признак способа расчёта

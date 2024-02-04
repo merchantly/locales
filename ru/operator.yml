@@ -1779,6 +1779,8 @@ ru:
         notifications:
           title: Установите эту ссылку в настройках уведомления об оплате
           callback: Callback URL
+      podeli:
+        title: Настройка подключения
       dolyame:
         title: Настройка подключения
       yandex_split:

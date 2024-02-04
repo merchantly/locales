@@ -19,6 +19,7 @@ ru:
       order_payment_alfabank: Альфа-банк/Paykeeper
       order_payment_yoo_money: YooMoney
       order_payment_dolyame: Долями
+      order_payment_podeli: Подели
       order_payment_yandex_split: Yandex Split
     delivery:
       order_delivery_pickup: Самовывоз
