@@ -11,6 +11,7 @@ ru:
       on_workflow_change: 'При изменении статуса заказа'
       on_pay_success: 'При удачной оплате'
       on_pay_failure: 'При НЕ состоявшейся оплате'
+      on_wait_for_commit: 'Ожидание подтверждения'
     action:
       delivery: 'Резервировать и запустить доставку'
       reserve: 'Резервировать товар'
