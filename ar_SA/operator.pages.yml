@@ -204,6 +204,9 @@ ar_SA:
           title_html: إضافة إلى عربة التسوّق
         show:
           title_html: إضافة إلى عربة التسوّق
+      allowance:
+        show:
+          title_html: Allowance
       coupons:
         index:
           title_html: الرموز الترويجية
