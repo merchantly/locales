@@ -54,6 +54,8 @@ ar_SA:
       subject: 'مرحبًا'
     notify_shop_will_archive:
       subject: 'إخطار الدفع'
+    notify_shop_will_delete:
+      subject: 'إخطار الدفع'
     vendor_archived:
       subject: 'تمت أرشفة المتجر'
   support_mailer:
