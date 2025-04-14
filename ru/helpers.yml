@@ -132,6 +132,7 @@ ru:
         aqsi: 'Через aqsi.ru'
         atol: 'АТОЛ'
         cloud_kassir: 'CloudKassir'
+        orange_data: 'OrangeData'
       billing_account_options:
         main: 'Основной'
     products:
