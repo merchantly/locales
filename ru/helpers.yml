@@ -130,6 +130,8 @@ ru:
         life_pay: 'Через life-pay.ru'
         kassatka: 'Через kassatka.me'
         aqsi: 'Через aqsi.ru'
+        atol: 'АТОЛ'
+        cloud_kassir: 'CloudKassir'
       billing_account_options:
         main: 'Основной'
     products:
