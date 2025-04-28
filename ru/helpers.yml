@@ -24,6 +24,7 @@ ru:
       no_consignment_linked: 'Товар не оприходован на складе'
       unpublished: 'Снят с публикации'
       not_orderable_infinity: 'Не установлен остаток'
+      orderable_infinity: 'Заказываемый товар без остатка'
       run_out: 'Товар закончился'
       not_sellable: 'Не продаваемый'
       no_quantity: 'Закончился'
