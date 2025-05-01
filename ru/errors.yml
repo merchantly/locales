@@ -147,7 +147,7 @@ ru:
       no_consignment_for_good: "Не найдена накладная %{consignment_id} для элемента %{type}#%{id}"
     favicon_uploader:
       filename: Неверное имя файла (%{name})
-    active_admin_comment:
+    admin_comment:
       not_found: Комментарий не найден
     slug_redirect:
       path_equals_to_redirect: Путь не может быть переадресован сам на себя

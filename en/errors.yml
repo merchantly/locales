@@ -154,7 +154,7 @@ en:
       no_consignment_for_good: "Not found invoice %{consignment_id} for element %{type}#%{id}"
     favicon_uploader:
       filename: "Invalid file name (%{name})"
-    active_admin_comment:
+    admin_comment:
       not_found: Comment not found
     slug_redirect:
       path_equals_to_redirect: The way cannot be redirected to itself
