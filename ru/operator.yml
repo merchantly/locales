@@ -10,6 +10,7 @@ ru:
       client_accepted: 'Клиент успешно подтвержден'
       client_denied: 'Клиент успешно подтвержден'
       clients_export_started: 'Запущена выгрузка клиентов'
+      comment_deleted: 'Коментарий удалён'
 
     system_api: Системное API
     choose_action: Выберите действие
