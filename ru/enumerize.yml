@@ -77,7 +77,7 @@ ru:
         Category: Категории
         Cart: Корзины
         Client: Клиенты
-        ActiveAdmin::Comment: 'Комментарии'
+        AdminComment: Комментарии
         OrderOperatorFilter: Фильтры заказов
         Moysklad: МойСклад
         AssetImage: Изображения
