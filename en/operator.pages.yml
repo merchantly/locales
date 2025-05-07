@@ -204,6 +204,9 @@ en:
           title_html: Add to Cart
         show:
           title_html: Add to Cart
+      allowance:
+        show:
+          title_html: Allowance
       coupons:
         index:
           title_html: Promo codes
