@@ -48,6 +48,7 @@ ru:
         company_name: Официальное название торгующей компании (ООО, ИП, и тп)
         branch_category_id: Отрасль
         allow_sms: Отправлять это уведомление по SMS?
+        allow_telegram: Отправлять это уведомление в Telegram?
         allow_email: Отправлять это уведомление по Email?
         ms_workflow_state_uuid: UUID (Workflow/States)
         reserve_on_linked_stock: Резервировать на удаленном складе
