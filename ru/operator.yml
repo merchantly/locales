@@ -1064,6 +1064,7 @@ ru:
           name: Название шаблона:&nbsp;
           sms:  Шаблон SMS
           email: Шаблон Email
+          telegram: Шаблон Telegram
       index:
         sms_log: 'Журнал отправленных SMS'
         tabs:
