@@ -1081,6 +1081,7 @@ ru:
         edit: 'Редактировать шаблон'
         tabs:
           sms: 'SMS'
+          telegram: 'Telegram'
           html: 'Email (HTML)'
           txt: 'Email (TXT)'
         message_length: 'Длина сообщения: %{length} символов.'
