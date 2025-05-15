@@ -64,7 +64,7 @@ ru:
       delivery: 'Способы доставки'
       orders: 'Настройки заказов'
       products: 'Настройки товаров'
-      subscriptions: 'Уведомления по Email и SMS'
+      subscriptions: 'Уведомления (email, sms, telegram)'
       integrations: 'Интеграция и обмен данными'
       members: 'Сотрудники и права доступа'
       billing: 'Тариф и оплата'
