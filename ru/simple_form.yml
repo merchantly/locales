@@ -35,6 +35,7 @@ ru:
         currency_iso_code: 'Основная валюта'
         role: Роль
         sms_notification: Принимать уведомления по SMS
+        telegram_notification: Принимать уведомления в Telegram
         email_notification: Принимать уведомления по email
         analytics_js: 'Дополнительный JavaScript для аналитики'
         vendor_delivery_id: 'Способ доставки'
