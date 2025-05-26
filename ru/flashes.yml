@@ -105,7 +105,8 @@ ru:
       reserved: Заказ поставлен в резерв
       start_delivery: 'Доставка запущена'
       online_kassa_notified: 'Онлайн касса уведомлена'
-      notify_client: 'Письмо отправлено'
+      notify_client: 'Письмо отправлено по каналам: %{channels}'
+      no_notify_client: 'Уведомить клиента не удалось. Проверьте доступные каналы уведомления'
     products:
       created: Товар добавлен
       updated: Товар изменен
