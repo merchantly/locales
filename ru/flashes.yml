@@ -93,6 +93,7 @@ ru:
       already_importing: Товары уже импортируются
       import_started: Импорт товаров запущен в очередь
     orders:
+      receipt_correction: Отправляется коррекция чека
       refund: Оформлен возврат
       commit: Заказ подтверждён
       cancel: Отмена
