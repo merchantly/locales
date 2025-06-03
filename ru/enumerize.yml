@@ -39,6 +39,7 @@ ru:
         cashier: 'Кассир'
     role_permission:
       resource_type:
+        ReceiptCorrection: 'Корректировки чеков'
         TextBlock: 'Текстовые блоки'
         PaymentAccount: 'Управление оплатой'
         Product: 'Товары'
