@@ -19,6 +19,7 @@ ru:
       category: Категории
       product: Товары
       content_page: Текстовые страницы
+      custom_page: Кастомные страницы
       operator: Операторы
       order: Заказ
       vendor_to_operator: Заведение
@@ -281,6 +282,11 @@ ru:
       content_page:
         title: Название
         content: Описание
+      custom_page:
+        key: Ключ страницы
+        content: Содержание
+        is_active: Активна
+        vendor: Магазин
       cart_item:
         weight: Вес
       order_item:

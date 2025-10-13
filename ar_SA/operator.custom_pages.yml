@@ -1,0 +1,17 @@
+ar_SA:
+  operator:
+    custom_pages:
+      add_button: "إضافة صفحة"
+      show_page: "عرض الصفحة"
+      form:
+        page: "الصفحة"
+      title: "الصفحات المخصصة"
+      new: "صفحة جديدة"
+      edit: "تعديل الصفحة"
+      delete: "حذف الصفحة"
+      delete_confirm: "هل أنت متأكد من أنك تريد حذف هذه الصفحة؟"
+      activate: "تفعيل"
+      deactivate: "إلغاء التفعيل"
+      status: "الحالة"
+      active: "نشط"
+      inactive: "غير نشط"

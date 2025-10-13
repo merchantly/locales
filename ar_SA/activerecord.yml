@@ -21,6 +21,7 @@ ar_SA:
       category: الفئات
       product: البضائع
       content_page: صفحات النص
+      custom_page: الصفحات المخصصة
       operator: المشغلون
       order: الطلب
       vendor_to_operator: المتاجر
@@ -274,6 +275,11 @@ ar_SA:
       content_page:
         title: الاسم
         content: الوصف
+      custom_page:
+        key: مفتاح الصفحة
+        content: المحتوى
+        is_active: نشط
+        vendor: المتجر
       cart_item:
         weight: الوزن
       order_item:

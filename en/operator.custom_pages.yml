@@ -1,0 +1,17 @@
+en:
+  operator:
+    custom_pages:
+      add_button: "Add page"
+      show_page: "View page"
+      form:
+        page: "Page"
+      title: "Custom Pages"
+      new: "New page"
+      edit: "Edit page"
+      delete: "Delete page"
+      delete_confirm: "Are you sure you want to delete this page?"
+      activate: "Activate"
+      deactivate: "Deactivate"
+      status: "Status"
+      active: "Active"
+      inactive: "Inactive"

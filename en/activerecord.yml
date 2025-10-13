@@ -19,6 +19,7 @@ en:
       category: Categories
       product: Goods
       content_page: Text Pages
+      custom_page: Custom Pages
       operator: Operators
       order: Order
       vendor_to_operator: Stores
@@ -272,6 +273,11 @@ en:
       content_page:
         title: Name
         content: Description
+      custom_page:
+        key: Page key
+        content: Content
+        is_active: Active
+        vendor: Store
       cart_item:
         weight: Weight
       order_item:
