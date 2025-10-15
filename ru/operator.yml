@@ -52,6 +52,7 @@ ru:
       elements: 'Элементы на сайте'
       design: 'Оформление (CSS, HTML)'
       content_pages: 'Текстовые страницы'
+      custom_pages: 'Кастомные HTML-страницы'
       blog_posts: 'Новости или блог'
       lookbooks: 'Лукбуки'
       subscriptions: 'Email-подписки'
