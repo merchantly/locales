@@ -100,6 +100,7 @@ ru:
         Ecr::Drawer: Смена кассы
         ExternalDevice: Внешнее устройство
         ProductItem: Вариант продукта
+        CustomPage: Кастомные страницы
     member:
       role:
         owner: 'Владелец'
