@@ -1,5 +1,169 @@
 ru:
   operator:
     api:
+      titles:
+        operator: "API для операторов"
+        public: "Публичный API"
+        system: "Системный API"
+      descriptions:
+        operator: "API для управления магазином"
+        system: "API для интеграций"
       orders:
-        desc: ""
+        desc: "Заказы"
+      good_result:
+        items:
+          desc: "Список товаров"
+        total_count:
+          desc: "Общее количество"
+        page:
+          desc: "Номер страницы"
+      good:
+        title:
+          desc: "Название товара"
+      goods:
+        autocomplete:
+          desc: "Автодополнение товаров"
+      products:
+        autocomplete:
+          desc: "Автодополнение товаров"
+        list:
+          desc: "Список товаров"
+          params:
+            category_id: "ID категории"
+            exclude_by_categories: "Исключить категории"
+            exclude_subcategories: "Исключить подкатегории"
+            page: "Номер страницы"
+            per_page: "Товаров на странице"
+        change_category:
+          desc: "Изменить категорию товара"
+        show:
+          desc: "Показать товар"
+        update:
+          desc: "Обновить товар"
+        image:
+          desc: "Изображение товара"
+          params:
+            image: "Файл изображения"
+        filtered_count:
+          desc: "Количество отфильтрованных товаров"
+          params:
+            category_id: "ID категории"
+      product:
+        operator_state:
+          archived: "В архиве"
+          published: "Опубликован"
+          unpublished: "Не опубликован"
+      product_images:
+        add:
+          desc: "Добавить изображение"
+          params:
+            image: "Файл изображения"
+            product_id: "ID товара"
+        params:
+          id: "ID изображения"
+        rotate:
+          desc: "Повернуть изображение"
+          params:
+            grad: "Угол поворота в градусах"
+        delete: "Удалить изображение"
+        position: "Изменить позицию изображения"
+      categories:
+        list: "Список категорий"
+        tree: "Дерево категорий"
+        show:
+          desc: "Показать категорию"
+        edit:
+          desc: "Редактировать категорию"
+          params:
+            name: "Название"
+            position: "Позиция"
+            parent_id: "ID родительской категории"
+        create:
+          params:
+            name: "Название"
+            position: "Позиция"
+            parent_id: "ID родительской категории"
+            image: "Изображение категории"
+        archive:
+          desc: "Архивировать категорию"
+      operator_state:
+        desc: "Статус оператора"
+      design_settings:
+        show:
+          desc: "Настройки дизайна"
+        update:
+          desc: "Обновить настройки дизайна"
+      cart:
+        show:
+          desc: "Показать корзину"
+      cart_item:
+        create:
+          desc: "Добавить товар в корзину"
+      client_state:
+        desc: "Статус клиента"
+      coupon:
+        check:
+          desc: "Проверить купон"
+          params:
+            code: "Код купона"
+      subscription_emails:
+        desc: "Подписка на рассылку"
+        email: "Email адрес"
+      wishlist:
+        add_item:
+          desc: "Добавить товар в избранное"
+          params:
+            good_id: "ID товара"
+        delete_item:
+          desc: "Удалить товар из избранного"
+          params:
+            good_id: "ID товара"
+      package:
+        items:
+          desc: "Товары в упаковке"
+      pickup_points:
+        list:
+          title: "Пункты самовывоза"
+          params:
+            vendor_delivery_id: "ID способа доставки"
+            delivery_city_id: "ID города доставки"
+      delivery_cities:
+        list:
+          title: "Города доставки"
+          params:
+            vendor_delivery_id: "ID способа доставки"
+      delivery_time_periods:
+        list:
+          title: "Временные слоты доставки"
+          params:
+            vendor_delivery_id: "ID способа доставки"
+      yandex_pickup_locations:
+        list:
+          title: "Пункты выдачи Яндекс"
+          params:
+            yandex_delivery_id: "ID доставки Яндекс"
+      user_requests:
+        desc: "Запросы пользователей"
+      amo_crm:
+        title: "Интеграция с AmoCRM"
+        settings:
+          title: "Настройки AmoCRM"
+          get:
+            desc: "Получить настройки AmoCRM"
+          update:
+            desc: "Обновить настройки AmoCRM"
+        test:
+          desc: "Тестирование подключения AmoCRM"
+      legal:
+        params:
+          legal_name: "Юридическое название"
+          inn_text: "ИНН"
+          legal_additional_number: "Дополнительный номер"
+          legal_street: "Улица"
+          legal_building_number: "Номер здания"
+          legal_post_code: "Почтовый индекс"
+          legal_city: "Город"
+          legal_province: "Провинция"
+          legal_region: "Регион"
+          legal_country_code: "Код страны"
+          tin: "ИНН (TIN)"

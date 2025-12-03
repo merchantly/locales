@@ -2,6 +2,7 @@ ar_SA:
   validators:
     good_item:
       must_be_good: ''
+      weight_not_allowed: 'لا يمكن تحديد الوزن للمنتجات التي لا تباع بالوزن'
 
     phone_validator:
       invalid_phone: 'تنسيق رقم الهاتف غير صالح. مثال: 10 32 123 913 966+'

@@ -2,6 +2,7 @@ ru:
   validators:
     good_item:
       must_be_good: 'Good должен быть Product или ProductItem'
+      weight_not_allowed: 'Вес нельзя указывать для товаров, не продающихся на вес'
 
     phone_validator:
       invalid_phone: 'Неверный формат телефона. Прим.: +7 913 123 32 10'

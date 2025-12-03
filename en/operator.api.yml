@@ -1,5 +1,169 @@
 en:
   operator:
     api:
+      titles:
+        operator: "Operator API"
+        public: "Public API"
+        system: "System API"
+      descriptions:
+        operator: "API for store management"
+        system: "API for integrations"
       orders:
-        desc: Sorted by creation time paid orders (last is first)
+        desc: "Sorted by creation time paid orders (last is first)"
+      good_result:
+        items:
+          desc: "Product list"
+        total_count:
+          desc: "Total count"
+        page:
+          desc: "Page number"
+      good:
+        title:
+          desc: "Product title"
+      goods:
+        autocomplete:
+          desc: "Product autocomplete"
+      products:
+        autocomplete:
+          desc: "Product autocomplete"
+        list:
+          desc: "Product list"
+          params:
+            category_id: "Category ID"
+            exclude_by_categories: "Exclude categories"
+            exclude_subcategories: "Exclude subcategories"
+            page: "Page number"
+            per_page: "Products per page"
+        change_category:
+          desc: "Change product category"
+        show:
+          desc: "Show product"
+        update:
+          desc: "Update product"
+        image:
+          desc: "Product image"
+          params:
+            image: "Image file"
+        filtered_count:
+          desc: "Filtered products count"
+          params:
+            category_id: "Category ID"
+      product:
+        operator_state:
+          archived: "Archived"
+          published: "Published"
+          unpublished: "Unpublished"
+      product_images:
+        add:
+          desc: "Add image"
+          params:
+            image: "Image file"
+            product_id: "Product ID"
+        params:
+          id: "Image ID"
+        rotate:
+          desc: "Rotate image"
+          params:
+            grad: "Rotation angle in degrees"
+        delete: "Delete image"
+        position: "Change image position"
+      categories:
+        list: "Categories list"
+        tree: "Categories tree"
+        show:
+          desc: "Show category"
+        edit:
+          desc: "Edit category"
+          params:
+            name: "Name"
+            position: "Position"
+            parent_id: "Parent category ID"
+        create:
+          params:
+            name: "Name"
+            position: "Position"
+            parent_id: "Parent category ID"
+            image: "Category image"
+        archive:
+          desc: "Archive category"
+      operator_state:
+        desc: "Operator state"
+      design_settings:
+        show:
+          desc: "Design settings"
+        update:
+          desc: "Update design settings"
+      cart:
+        show:
+          desc: "Show cart"
+      cart_item:
+        create:
+          desc: "Add item to cart"
+      client_state:
+        desc: "Client state"
+      coupon:
+        check:
+          desc: "Check coupon"
+          params:
+            code: "Coupon code"
+      subscription_emails:
+        desc: "Email subscription"
+        email: "Email address"
+      wishlist:
+        add_item:
+          desc: "Add item to wishlist"
+          params:
+            good_id: "Product ID"
+        delete_item:
+          desc: "Remove item from wishlist"
+          params:
+            good_id: "Product ID"
+      package:
+        items:
+          desc: "Package items"
+      pickup_points:
+        list:
+          title: "Pickup points"
+          params:
+            vendor_delivery_id: "Delivery method ID"
+            delivery_city_id: "Delivery city ID"
+      delivery_cities:
+        list:
+          title: "Delivery cities"
+          params:
+            vendor_delivery_id: "Delivery method ID"
+      delivery_time_periods:
+        list:
+          title: "Delivery time slots"
+          params:
+            vendor_delivery_id: "Delivery method ID"
+      yandex_pickup_locations:
+        list:
+          title: "Yandex pickup locations"
+          params:
+            yandex_delivery_id: "Yandex delivery ID"
+      user_requests:
+        desc: "User requests"
+      amo_crm:
+        title: "AmoCRM integration"
+        settings:
+          title: "AmoCRM settings"
+          get:
+            desc: "Get AmoCRM settings"
+          update:
+            desc: "Update AmoCRM settings"
+        test:
+          desc: "Test AmoCRM connection"
+      legal:
+        params:
+          legal_name: "Legal name"
+          inn_text: "Tax ID"
+          legal_additional_number: "Additional number"
+          legal_street: "Street"
+          legal_building_number: "Building number"
+          legal_post_code: "Postal code"
+          legal_city: "City"
+          legal_province: "Province"
+          legal_region: "Region"
+          legal_country_code: "Country code"
+          tin: "TIN"

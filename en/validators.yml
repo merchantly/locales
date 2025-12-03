@@ -2,6 +2,7 @@ en:
   validators:
     good_item:
       must_be_good: 'Good must be Product or ProductItem (%{klass})'
+      weight_not_allowed: 'Weight cannot be set for products not sold by weight'
 
     phone_validator:
       invalid_phone: 'Invalid phone number format. Example: +966 913 123 32 10'
