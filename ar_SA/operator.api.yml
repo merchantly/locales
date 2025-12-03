@@ -1,5 +1,169 @@
 ar_SA:
   operator:
     api:
+      titles:
+        operator: "واجهة برمجة التطبيقات للمشغلين"
+        public: "واجهة برمجة التطبيقات العامة"
+        system: "واجهة برمجة التطبيقات للنظام"
+      descriptions:
+        operator: "واجهة برمجة التطبيقات لإدارة المتجر"
+        system: "واجهة برمجة التطبيقات للتكاملات"
       orders:
-        desc: تم التصنيف حسب وقت إنشاء الطلبات المدفوعة (بحيث يكون الأخير هو الأول)
+        desc: "تم التصنيف حسب وقت إنشاء الطلبات المدفوعة (بحيث يكون الأخير هو الأول)"
+      good_result:
+        items:
+          desc: "قائمة المنتجات"
+        total_count:
+          desc: "العدد الإجمالي"
+        page:
+          desc: "رقم الصفحة"
+      good:
+        title:
+          desc: "عنوان المنتج"
+      goods:
+        autocomplete:
+          desc: "الإكمال التلقائي للمنتجات"
+      products:
+        autocomplete:
+          desc: "الإكمال التلقائي للمنتجات"
+        list:
+          desc: "قائمة المنتجات"
+          params:
+            category_id: "معرف الفئة"
+            exclude_by_categories: "استبعاد الفئات"
+            exclude_subcategories: "استبعاد الفئات الفرعية"
+            page: "رقم الصفحة"
+            per_page: "المنتجات لكل صفحة"
+        change_category:
+          desc: "تغيير فئة المنتج"
+        show:
+          desc: "عرض المنتج"
+        update:
+          desc: "تحديث المنتج"
+        image:
+          desc: "صورة المنتج"
+          params:
+            image: "ملف الصورة"
+        filtered_count:
+          desc: "عدد المنتجات المفلترة"
+          params:
+            category_id: "معرف الفئة"
+      product:
+        operator_state:
+          archived: "مؤرشف"
+          published: "منشور"
+          unpublished: "غير منشور"
+      product_images:
+        add:
+          desc: "إضافة صورة"
+          params:
+            image: "ملف الصورة"
+            product_id: "معرف المنتج"
+        params:
+          id: "معرف الصورة"
+        rotate:
+          desc: "تدوير الصورة"
+          params:
+            grad: "زاوية الدوران بالدرجات"
+        delete: "حذف الصورة"
+        position: "تغيير موضع الصورة"
+      categories:
+        list: "قائمة الفئات"
+        tree: "شجرة الفئات"
+        show:
+          desc: "عرض الفئة"
+        edit:
+          desc: "تعديل الفئة"
+          params:
+            name: "الاسم"
+            position: "الموضع"
+            parent_id: "معرف الفئة الأم"
+        create:
+          params:
+            name: "الاسم"
+            position: "الموضع"
+            parent_id: "معرف الفئة الأم"
+            image: "صورة الفئة"
+        archive:
+          desc: "أرشفة الفئة"
+      operator_state:
+        desc: "حالة المشغل"
+      design_settings:
+        show:
+          desc: "إعدادات التصميم"
+        update:
+          desc: "تحديث إعدادات التصميم"
+      cart:
+        show:
+          desc: "عرض السلة"
+      cart_item:
+        create:
+          desc: "إضافة عنصر إلى السلة"
+      client_state:
+        desc: "حالة العميل"
+      coupon:
+        check:
+          desc: "التحقق من القسيمة"
+          params:
+            code: "رمز القسيمة"
+      subscription_emails:
+        desc: "الاشتراك بالبريد الإلكتروني"
+        email: "عنوان البريد الإلكتروني"
+      wishlist:
+        add_item:
+          desc: "إضافة عنصر إلى المفضلة"
+          params:
+            good_id: "معرف المنتج"
+        delete_item:
+          desc: "إزالة عنصر من المفضلة"
+          params:
+            good_id: "معرف المنتج"
+      package:
+        items:
+          desc: "عناصر الحزمة"
+      pickup_points:
+        list:
+          title: "نقاط الاستلام"
+          params:
+            vendor_delivery_id: "معرف طريقة التوصيل"
+            delivery_city_id: "معرف مدينة التوصيل"
+      delivery_cities:
+        list:
+          title: "مدن التوصيل"
+          params:
+            vendor_delivery_id: "معرف طريقة التوصيل"
+      delivery_time_periods:
+        list:
+          title: "فترات وقت التوصيل"
+          params:
+            vendor_delivery_id: "معرف طريقة التوصيل"
+      yandex_pickup_locations:
+        list:
+          title: "مواقع استلام ياندكس"
+          params:
+            yandex_delivery_id: "معرف توصيل ياندكس"
+      user_requests:
+        desc: "طلبات المستخدمين"
+      amo_crm:
+        title: "تكامل AmoCRM"
+        settings:
+          title: "إعدادات AmoCRM"
+          get:
+            desc: "الحصول على إعدادات AmoCRM"
+          update:
+            desc: "تحديث إعدادات AmoCRM"
+        test:
+          desc: "اختبار اتصال AmoCRM"
+      legal:
+        params:
+          legal_name: "الاسم القانوني"
+          inn_text: "الرقم الضريبي"
+          legal_additional_number: "الرقم الإضافي"
+          legal_street: "الشارع"
+          legal_building_number: "رقم المبنى"
+          legal_post_code: "الرمز البريدي"
+          legal_city: "المدينة"
+          legal_province: "المقاطعة"
+          legal_region: "المنطقة"
+          legal_country_code: "رمز البلد"
+          tin: "الرقم الضريبي"
