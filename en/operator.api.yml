@@ -66,7 +66,10 @@ en:
           params:
             grad: "Rotation angle in degrees"
         delete: "Delete image"
-        position: "Change image position"
+        position:
+          desc: "Change image position"
+          params:
+            position: "Image position"
       categories:
         list: "Categories list"
         tree: "Categories tree"
