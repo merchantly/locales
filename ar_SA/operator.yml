@@ -1829,6 +1829,8 @@ ar_SA:
     translations:
       value_redefined: 'إعادة تعريف القيمة'
     vendor_deliveries:
+      list:
+        title: طرق التسليم
       cdek_auth_settings: إذا لم يتم تحديد التفويض، فإن حساب التسليم يكون من شخص خاص.
       aramex_settings: إعدادات حساب Aramex
       shipper: بيانات الشاحن

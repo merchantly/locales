@@ -1806,6 +1806,8 @@ en:
     translations:
       value_redefined: 'Value redefined'
     vendor_deliveries:
+      list:
+        title: Delivery methods
       cdek_auth_settings: If authorization is not specified, then the calculation of delivery is from a private person.
       aramex_settings: Aramex account settings
       shipper: Shipper data
