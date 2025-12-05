@@ -1905,6 +1905,7 @@ ru:
         callout: |
           Текущий баланс:&nbsp;
           <b>%{balance}<b>
+        pay_from_balance: Оплатить с баланса
       google_analytics_example: 'Пример кода для Google E-Commerce'
       reset_filter: 'Сбросить фильтр'
       ibox_widget:

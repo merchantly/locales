@@ -144,6 +144,11 @@ ru:
       charged: Оплата прошла успешно
       choose_tariff: Выберите тариф
       choose_account_billing: Выберите пополняемый счет
+    billing:
+      pay_from_balance:
+        success: Оплата успешно списана с баланса
+        insufficient_balance: Недостаточно средств на балансе
+        no_tariff: Не выбран тариф
     publish:
       select_tariff: 'Для публикации необходимо выбрать и оплатить тариф'
       success: Магазин успешно опубликован
