@@ -1,0 +1,8 @@
+ru:
+  operator:
+    vendor_deliveries:
+      list:
+        title: Расчет доставки
+        city_title: Город
+        vendor_delivery_id: ID способа доставки
+        postal_code: Почтовый индекс
