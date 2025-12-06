@@ -116,6 +116,8 @@ ru:
         error: Ошибка экспорта
     products_stats:
       reindex_started: Переиндексация запущена
+    product_stats:
+      reindex_started: Переиндексация запущена
     password_reset:
       change_password: 'Вы авторизованы как %{operator}. Переустановите пароль.'
     sessions:

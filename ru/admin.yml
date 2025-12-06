@@ -155,6 +155,7 @@ ru:
       restored: 'Восстановили'
       archived: 'Кинули в архив'
     vendor:
+      domain: Домен
       templates: Шаблоны
       not_archive: Не архивировать
       with_orders: С заказами
@@ -205,6 +206,7 @@ ru:
         reindex: 'Переиндексировать'
         reindex_all: Переиндексировать всех
         flush_cache: 'Очистить кеш'
+        operator: Операторская
         operator_url: Операторская
         preview: Предпросмотр магазина
         prolongate: Прологнировать на неделю
@@ -223,6 +225,9 @@ ru:
     notify_mail_template:
       footer: 'Футер'
       context_example: 'Пример передаваемых данных'
+      actions:
+        preview: Предпросмотр
+    notify_mail_templates:
       actions:
         preview: Предпросмотр
     sms_log_entity:

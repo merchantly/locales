@@ -1,0 +1,95 @@
+ru:
+  operator:
+    bells_count:
+      one: '%{count} уведомление'
+      few: '%{count} уведомления'
+      many: '%{count} уведомлении'
+      other: '%{count} уведомлении'
+
+    search_options_count:
+      one: '%{count} опция'
+      few: '%{count} опции'
+      many: '%{count} опций'
+      other: '%{count} опций'
+
+    seconds_count:
+      one: '%{count} секунду'
+      few: '%{count} секунды'
+      many: '%{count} секунд'
+      other: '%{count} секунд'
+
+    stucks_count:
+      zero: 'Нет'
+      one: '%{count} штука'
+      few: '%{count} штуки'
+      many: '%{count} штук'
+      other: '%{count} штук'
+
+    dictionary_entities_count:
+      one: '%{count} элемент'
+      few: '%{count} элемента'
+      many: '%{count} элементов'
+      other: '%{count} элементов'
+
+    records_count:
+      one: '%{count} запись'
+      few: '%{count} записи'
+      many: '%{count} записей'
+      other: '%{count} записей'
+
+    clients_count:
+      one: '%{count} клиент'
+      few: '%{count} клиента'
+      many: '%{count} клиентов'
+      other: '%{count} клиентов'
+
+    found_products_count:
+      zero: 'Товары не найдены'
+      one: 'Найден <b>%{count}</b> товар'
+      few: 'Найдено <b>%{count}</b> товара'
+      many: 'Найдено <b>%{count}</b> товаров'
+      other: 'Найдено <b>%{count}</b> товаров'
+
+    found_orders_count:
+      zero: 'Заказы не найдены'
+      one: 'Найден <b>%{count}</b> заказ'
+      few: 'Найдено <b>%{count}</b> заказа'
+      many: 'Найдено <b>%{count}</b> заказов'
+      other: 'Найдено <b>%{count}</b> заказов'
+
+    found_clients_count:
+      zero: 'Клиенты не найдены'
+      one: '%{count} клиент найден'
+      few: '%{count} клиентов найдено'
+      many: '%{count} клиентов найдено'
+      other: '%{count} клиентов найдено'
+
+    orders_count:
+      one: '%{count} заказ'
+      few: '%{count} заказа'
+      many: '%{count} заказов'
+      other: '%{count} заказов'
+
+    products_count:
+      one: '%{count} товар'
+      few: '%{count} товара'
+      many: '%{count} товаров'
+      other: '%{count} товаров'
+
+    delivery_methods_count:
+      one: '%{count} способ доставки'
+      few: '%{count} способа доставки'
+      many: '%{count} способов доставки'
+      other: '%{count} способов доставки'
+
+    payment_methods_count:
+      one: '%{count} способ'
+      few: '%{count} способа'
+      many: '%{count} способов'
+      other: '%{count} способов'
+
+    images_count:
+      one: '%{count} изображение'
+      few: '%{count} изображения'
+      many: '%{count} изображений'
+      other: '%{count} изображений'

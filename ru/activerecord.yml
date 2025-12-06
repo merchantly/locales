@@ -757,6 +757,10 @@ ru:
           attributes:
             email:
               email: не является email адресом
+            delivery_type:
+              required: Обязательное поле
+            payment_type:
+              required: Обязательное поле
         slider_image:
           attributes:
             image:

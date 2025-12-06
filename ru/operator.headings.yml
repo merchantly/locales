@@ -1,0 +1,175 @@
+ru:
+  operator:
+    headings:
+      bells:
+        title: Уведомления
+      category_positions:
+        title: Позиция товара
+      order_conditions:
+        index: Правила
+        edit: Редактируем правило
+        new: Добавляем правило
+      top_banners:
+        edit: Редактируем верхний баннер
+      asset_images:
+        index: Изображения
+      stock_info:
+        title: Данные со склада (МойСклад)
+      mail_template:
+        client:
+          edit: Редактируем шаблон '%{key}' для клиента
+          preview: Предпросмотр шаблона '%{key}' для клиента
+        merchant:
+          edit: Редактируем шаблон '%{key}' для продавца
+          preview: Предпросмотр шаблона '%{key}' для продавца
+        index: Шаблоны писем
+      workflow_states:
+        new: Добавляем новый статус заказа
+        edit: Редактируем статус заказа
+        index: Статусы заказов
+      slugs:
+        index: SEO-пути
+      ymls:
+        show: Работа с Yandex Market и YML Catalog
+      redirects:
+        index: 301-е редиректы
+        index_title: Активные редиректы
+        new: Новый редирект
+        edit: Редактируем редирект
+        archive_confirm: Архивировать редирект?
+      not_founds:
+        index: 404-е страницы
+      seo_block:
+        title: SEO
+      menu_view:
+        title: Отображение в меню
+      clients:
+        index: Клиенты
+        index_title: Список клиентов
+        edit: 'Редактируем клиента #%{id}'
+        manager_comments: Комментарии менеджеров
+      translations:
+        edit: Редактируем перевод
+      menu_items:
+        new: Новый элемент меню
+        index: Управление меню
+        edit: Редактируем элемент меню
+        top: Верхнее меню
+        bottom_left: Нижнее левое меню
+        bottom_right: Нижнее правое меню
+        MenuItemCategory: Категория
+        MenuItemDictionary: Справочник
+        MenuItemDictionaryEntity: Элемент словаря
+        MenuItemPage: Текстовая страница
+        MenuItemLink: Прямая ссылка
+        MenuItemBlog: Блог
+        MenuItemLookbook: Лукбук
+      carts:
+        index: Корзины к заказам
+        show: 'Корзина %{id}'
+        created_at: 'Создана — %{time}'
+      categories:
+        index: Категории
+        edit: 'Категория %{id}'
+        new: Новая корневая категория
+        new_sub: 'Подкатегория в %{parent_category}'
+      content_pages:
+        index: Cтраницы
+        index_title: Cтраницы
+        edit: Редактирование текстовой страницы
+        new: Создание текстовой страницы
+      blog_posts:
+        index: Блог (раздел новостей и статей)
+        index_title: Список публикаций
+        edit: Редактирование публикации
+        new: Создание публикации
+      coupons:
+        index: Промокоды
+        new_import: Загрузка промокодов
+      dashboard:
+        index_title: 5 шагов для запуска магазина
+      dictionaries:
+        index: Справочники
+        edit: Редактирование справочника
+        new: Создание справочника
+      dictionary_entities:
+        index: 'Элементы справочника %{name}'
+        edit: 'Редактирование элемента справочника'
+        new: 'Добавляем элемент справочника'
+        create: Создание элемента
+        list_title: Список элементов
+      invites:
+        list_title: Список приглашений (%{count})
+        invite_member: Подключить нового сотрудника
+      lookbooks:
+        index: Лукбуки
+        index_title: Лукбуки
+        edit: Редактируем лукбук
+        new: Новый лукбук
+      orders:
+        user_code: Код получения
+        stock: Склад
+        log_entities: Журнал
+        manager_comments: Комментарии менеджеров для клиента
+        items: Состав заказа
+        show: 'Заказ %{id}'
+        new: Оформление заказа
+        info: Информация о заказе
+        buyer: Покупатель
+        delivery: Доставка
+        payment: Оплата
+        misc: Дополнительно
+      products:
+        new: Добавить товар
+        edit: Редактирование товара
+        edit_union: Редактирование соединения товаров
+        edit_part: Редактирование части соединения
+        photos: Фотографии
+        part_photos: Фотографии вложенных товаров
+        stats: Статистика товаров
+        category_index: Товары категории (%{count})
+        vk_export: Экспорт во Vkontakte.Ru
+        vk_export_change_group_id: Группа для экспорта обновлена.
+        ms:
+          product_items: Варианты товара (размеры, цвета и т.п.)
+        ordinary:
+          product_items: Варианты товара (размеры, цвета и т.п.)
+        batch_actions:
+          select_categories: Выбор категорий для группы товаров
+          select_tags: Выбор тегов для группы товаров
+          select_products_tax: Выбор НДС для группы товаров
+
+      properties:
+        index: Свойства товаров
+        edit: Редактирование свойства
+        new: Новое свойство
+      selling:
+        payment_method: Платежная система
+        show: Продажи и оплата
+        w1: WalletOne
+        install_w1: Подключение платежной системы Wallet One
+        notifications: Уведомления о новых заказа
+      settings:
+        favicons_title: Загрузить изображения
+        main_page_content: Настройки главной страницы
+        domain: Адрес сайта
+        w1_widget: Виджет WalletOne в нижней части сайта
+      subscriptions:
+        index: Подписка
+        list_title: Активные подписки
+        new: Новая подписка
+      slider_images:
+        edit: Редактирование баннера
+        new: Создание баннера
+        index: Баннеры
+        index_title: Баннеры
+      vendor_deliveries:
+        index: Доставка
+        index_title: Способы доставки
+        edit: Редактирование доставки
+        new: Создание доставки
+      vendor_payments:
+        index: Способы оплаты
+        edit: Редактирование способа оплаты
+        new: Создание способа оплаты
+        available_deliveries: Совместимые методы доставки

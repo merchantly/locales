@@ -1,0 +1,54 @@
+ru:
+  operator:
+    toggle_theme_button:
+      slider_visible: Показывать слайдер
+      has_auto_menu: Автоматическое меню
+      banner_visible: Показывать сообщение на сайте
+
+    toggle_buttons:
+      disable_with:
+        making_on: Включаю..
+        making_off: Выключаю..
+
+    chevron_tooltips:
+      other: SEO и прочее
+      elements: Элементы сайта
+      design_settings: Оформление (CSS, HTML, Логотип, Шрифты)
+      billing: Тариф и оплата
+      transactions: Список транзакций
+      settings_orders:       Настройки заказов
+      languages:             Настройка языков
+      settings_others:       Каталог прочих настроек
+      settings_products:     Настройки товаров
+      tags:                  Теги
+      currencies:            Курсы валют
+      menu_items:            Меню
+      content:               Контент
+      lookbooks:             Лукбуки
+      slider_images:         Изображения для слайдера
+      vendor_deliveries:     Способы доставки
+      vendor_payments:       Способы оплаты
+      integrations:          В список интеграций
+      integration_moysklad: Настройка МойСклад
+      blog_posts:            Другие публикации в блог
+      categories:            Категории товаров
+      products:              Товары
+      clients:               Клиенты
+      translations:          Язык и переводы
+      properties:            Свойства товаров
+      dictionaries:          Справочники
+      dictionary:            "Справочник '%{resource}'"
+      members:               Сотрудники
+      dictionary_dictionary_entities: "Элементы справочника '%{resource}'"
+      mail_templates:        Шаблоны писем и уведомлений
+      workflow_states:       Статусы закзаов
+      order_conditions:      Бизнес процессы
+      coupons:               Промокоды (скидочные купоны)
+      orders:                Заказы
+      content_pages:         Текстовые страницы
+      order_operator_filters: Фильтры заказов
+      stock_log_entities:    Журнал импорта
+      settings:              Общие настройки
+      pages: Настройки страниц сайта
+      css: Стили (CSS)
+      vendor_delivery:        Способ доставки

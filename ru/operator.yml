@@ -4,17 +4,17 @@ ru:
       ru: Русский
       en: English
       ar_SA: عربي
-
+    redirects:
+      archive_confirm: Архивировать редирект?
     flashes:
-      rfm_updated: 'RFM метрики пересчитаны'
-      client_accepted: 'Клиент успешно подтвержден'
-      client_denied: 'Клиент успешно подтвержден'
-      clients_export_started: 'Запущена выгрузка клиентов'
-      comment_deleted: 'Коментарий удалён'
-
+      rfm_updated: RFM метрики пересчитаны
+      client_accepted: Клиент успешно подтвержден
+      client_denied: Клиент успешно подтвержден
+      clients_export_started: Запущена выгрузка клиентов
+      comment_deleted: Коментарий удалён
     system_api: Системное API
     choose_action: Выберите действие
-    choose_all: 'Выбрать все %{count} позиций'
+    choose_all: Выбрать все %{count} позиций
     mark_all_as_read: Отметить все как прочитанные
     no_notifications: нет уведомлений
     add_category: добавить категорию
@@ -25,205 +25,50 @@ ru:
     site_ownership_note: На все страницы автоматически добавлен тег для подтверждения владения сайтом
     per_page: Количество товаров на странице
     w1_send_pin_code: Выслать
-
-    navigation:
-      profile: 'Профиль'
-      dashboard: 'Что делать дальше?'
-      my_shop: 'Магазин'
-      goods: 'Товары'
-      orders: 'Заказы'
-      clients: 'Клиенты'
-      content: 'Управление сайтом'
-      settings: 'Общие настройки'
-      ecr: 'Склад'
-      reports: 'Отчеты'
-      disabled_content: 'Выберите магазин'
-
-    profile_navigation:
-      index: 'Профиль'
-      vendors: 'Магазины'
-      subscriptions: 'Подписки'
-      access_keys: 'Ключи доступа (API)'
-      partner: 'Партнёрский кабинет'
-
-    content_navigation:
-      domain: 'Адрес сайта'
-      pages: 'Типовые страницы'
-      elements: 'Элементы на сайте'
-      design: 'Оформление (CSS, HTML)'
-      content_pages: 'Текстовые страницы'
-      custom_pages: 'Кастомные HTML-страницы'
-      blog_posts: 'Новости или блог'
-      lookbooks: 'Лукбуки'
-      subscriptions: 'Email-подписки'
-      translations: 'Тексты на сайте'
-      other: 'SEO и прочее'
-
-    settings_navigation:
-      legal: 'Юридическая информация'
-      pay: 'Прием оплаты от клиентов'
-      delivery: 'Способы доставки'
-      orders: 'Настройки заказов'
-      products: 'Настройки товаров'
-      subscriptions: 'Уведомления (email, sms, telegram)'
-      integrations: 'Интеграция и обмен данными'
-      members: 'Сотрудники и права доступа'
-      billing: 'Тариф и оплата'
-      bells: 'Уведомления'
-      branches: 'Филиалы'
-      cashiers: 'Кассы'
-      external_devices: 'Внешние устройства'
-
-    toggle_theme_button:
-      slider_visible: Показывать слайдер
-      has_auto_menu: Автоматическое меню
-      banner_visible: Показывать сообщение на сайте
-
-    bells_count:
-      one: '%{count} уведомление'
-      few: '%{count} уведомления'
-      many: '%{count} уведомлении'
-      other: '%{count} уведомлении'
-
-    search_options_count:
-      one: '%{count} опция'
-      few: '%{count} опции'
-      many: '%{count} опций'
-      other: '%{count} опций'
-
-    seconds_count:
-      one: '%{count} секунду'
-      few: '%{count} секунды'
-      many: '%{count} секунд'
-      other: '%{count} секунд'
-
-    stucks_count:
-      zero: 'Нет'
-      one: '%{count} штука'
-      few: '%{count} штуки'
-      many: '%{count} штук'
-      other: '%{count} штук'
-
-    dictionary_entities_count:
-      one: '%{count} элемент'
-      few: '%{count} элемента'
-      many: '%{count} элементов'
-      other: '%{count} элементов'
-
-    records_count:
-      one: '%{count} запись'
-      few: '%{count} записи'
-      many: '%{count} записей'
-      other: '%{count} записей'
-
-    clients_count:
-      one: '%{count} клиент'
-      few: '%{count} клиента'
-      many: '%{count} клиентов'
-      other: '%{count} клиентов'
-
-    found_products_count:
-      zero: 'Товары не найдены'
-      one: 'Найден <b>%{count}</b> товар'
-      few: 'Найдено <b>%{count}</b> товара'
-      many: 'Найдено <b>%{count}</b> товаров'
-      other: 'Найдено <b>%{count}</b> товаров'
-
-    found_orders_count:
-      zero: 'Заказы не найдены'
-      one: 'Найден <b>%{count}</b> заказ'
-      few: 'Найдено <b>%{count}</b> заказа'
-      many: 'Найдено <b>%{count}</b> заказов'
-      other: 'Найдено <b>%{count}</b> заказов'
-
-    found_clients_count:
-      zero: 'Клиенты не найдены'
-      one: '%{count} клиент найден'
-      few: '%{count} клиентов найдено'
-      many: '%{count} клиентов найдено'
-      other: '%{count} клиентов найдено'
-
-    orders_count:
-      one: '%{count} заказ'
-      few: '%{count} заказа'
-      many: '%{count} заказов'
-      other: '%{count} заказов'
-
-    products_count:
-      one: '%{count} товар'
-      few: '%{count} товара'
-      many: '%{count} товаров'
-      other: '%{count} товаров'
-
-    delivery_methods_count:
-      one: '%{count} способ доставки'
-      few: '%{count} способа доставки'
-      many: '%{count} способов доставки'
-      other: '%{count} способов доставки'
-
-    payment_methods_count:
-      one: '%{count} способ'
-      few: '%{count} способа'
-      many: '%{count} способов'
-      other: '%{count} способов'
-
-    images_count:
-      one: '%{count} изображение'
-      few: '%{count} изображения'
-      many: '%{count} изображений'
-      other: '%{count} изображений'
-
     omniauth_buttons:
-      vkontakte: 'Авторизоваться во Вконтакте'
-      facebook: 'Авторизоваться в Facebook'
-
+      vkontakte: Авторизоваться во Вконтакте
+      facebook: Авторизоваться в Facebook
     second_sidebar_headers:
       operator_profile: Профиль
       operator_ecr: Ecr
       operator_settings: Настройки
       operator_content: Управление сайтом
       products: Товары
-
     response_states:
-      no_response: 'Без ответа'
-      ignore: 'Игнорируются'
+      no_response: Без ответа
+      ignore: Игнорируются
     robots:
-      doc: 'Документация по robots.txt'
+      doc: Документация по robots.txt
       reset: Сбросить robots.txt
       reset_confirmation: Вы действительно хотите сбросить robots.txt?
-      content: 'Содержимое robots.txt'
-      restore_default: 'Восстановить robots.txt по умолчанию'
+      content: Содержимое robots.txt
+      restore_default: Восстановить robots.txt по умолчанию
     notification_allowness:
-      "true": Разрешено
-      "false": Запрещено
+      'true': Разрешено
+      'false': Запрещено
     placeholders:
       search: Поиск
       created_at_from: От
       created_at_to: До
     errors:
       js_missing_semicolon: Не хватает точки с запятой в конце
-
     deliveries:
       any: Любой
     payments:
       any: Любой
-
     workflow_state:
       delete: Удалить
-
     mail_template:
       cancel: Сбросить все изменения
-
     menu_view:
-      auto_html: 'Выводится в меню автоматически. <a href="%{url}">Изменить</a>'
+      auto_html: Выводится в меню автоматически. <a href="%{url}">Изменить</a>
       shown_in: Отображается в элементах меню
-      not_shown_html: 'Не отображается. <a href="%{url}">Изменить</a>'
+      not_shown_html: Не отображается. <a href="%{url}">Изменить</a>
     names:
       property:
         size: Размер
         color: Цвет
         brand: Бренд
-
       dictionary:
         size: Международные размеры
         color: Цвета
@@ -232,444 +77,30 @@ ru:
       all: Все (%{count})
       unread: Непрочитанные (%{count})
       read: Прочитанные (%{count})
-
     clients_scopes:
       pending: Ожидающие (%{count})
       accepted: Принятые (%{count})
       rejected: Отклоненные (%{count})
-
     topnavbar:
       notifications: Уведомления
       new_vendor: Создать новый магазин
       faq: Частые вопросы
-      profile: 'Мой профиль'
-      vendors: 'Мои магазины (%{count})'
+      profile: Мой профиль
+      vendors: Мои магазины (%{count})
       logout: Выход
       negative_balance: 'Баланс: %{balance} Необходимо пополнить'
       positive_balance: 'Баланс: %{balance}'
       sms_balance: 'SMS баланс: %{balance}'
       paid_to: 'Тариф оплачен до: %{date}'
-      need_paid: 'Оплатите тариф для публикации магазина'
-      vendor_will_unpublish: 'Срочно оплатите обслуживание. Магазин скоро будет остановлен'
-      vendor_was_unpublish: 'Магазин был отключен %{date}'
+      need_paid: Оплатите тариф для публикации магазина
+      vendor_will_unpublish: Срочно оплатите обслуживание. Магазин скоро будет остановлен
+      vendor_was_unpublish: Магазин был отключен %{date}
       tariff_absent: Оплатите тариф для публикации магазина
       partner_program: Партнерская программа
       edit_profile: Сменить контакты и пароль
       new_shop: Открыть новый магазин
       subscriptions: Личные подписки
-      access_keys: 'Доступ к API'
-
-    th:
-      slug_resources:
-        url_path: URL путь
-        page_type: Тип страницы
-        name: Название
-      ecr_documents:
-        datetime: Время
-        type: Тип
-        cashier: Касса
-        details: Описание
-        comment: Комментарии
-        debit: Дебит
-        credit: Кредит
-      external_devices:
-        name: Название
-        ip: IP address
-        port: Port
-      archived_css:
-        archive_css: CSS
-        operator: Кто изменил
-      vendor_jobs:
-        id: ID
-        created_at: Создано
-        state: Статус
-        title: Название
-        progress: Процесс
-        download: Осталось
-        stats: Статистика
-      transactions:
-        date: Дата операции
-        amount: Сумма
-        period: Период
-        details: Расшифровка
-      slug_redirects:
-        path: Путь
-        resource: Редирект
-        last_at: Последний заход
-      roles:
-        resource_type: Раздел сайта
-        can_read: Чтение
-        can_create: Создание
-        can_update: Редактирование
-        can_delete: Удаление
-      pickup_points:
-        city: Город
-        address: Адрес
-        comment: Комментарий
-      not_founds:
-        last: Последний заход
-        count: Попыток
-        path: Путь
-        info: Referer / User Agent
-        actions: Действия
-      members:
-        position: Должность
-        name: Имя
-        contacts: Контакты
-        role: Роль
-        sms: Уведомления на SMS
-        telegram: Уведомления на Telegram
-        email: Уведомления на Email
-      bells:
-        subject: Название
-        text: Описание
-        datetime: Дата
-      clients:
-        average_orders_price: Средняя сумма покупки
-        actions: Действия
-        created_at: Дата регистрации
-        id: ID
-        name: Имя
-        phones: Телефоны
-        emails: E-mail
-        orders_count: Заказов
-        last_order: Последний заказ
-        occupation: Профессия
-        company_name: Наименование компании
-        first_order: Первый заказ
-        total_orders_price: 'Сумма покупок'
-        category: Категория
-        rfm: RFM
-      dictionaries:
-        name: Наименование
-        entities: Элементы
-        properties_used: Используется в свойствах
-      dictionary_entities:
-        title: Название
-        products_count: Товаров
-        published_products_count: Опубликованных товаров
-        archived_products_count: Архивированных товаров
-        actions: Действия
-        color: Цвет
-        order: Порядок
-      product_secrets:
-        id: ID / Артикул
-        title: Название
-        warehouse: Склад-источник
-        balance: Склад-остатки
-        quantity: Количество
-        sellable: Продаваемо?
-        showable: Показываемо?
-        orderable: Заказываемо?
-      shop:
-        title: Магазин
-        domain: Домен
-        products_count: Товаров
-        created: Создан
-        last_update: Последние обновления настроек
-        orders_count: Заказов
-        operator: Оператор
-        operator_phone: Телефон оператора
-        operator_link: Операторская
-      carts:
-        created: Создана
-        changed: Изменена
-        total_price: Стоимость
-        city: Город
-        products: Товары
-      ms:
-        start: Старт
-        time: Время
-        result: Результат
-        stats: Статистика
-      products:
-        image: Изображение
-        desc: Описание
-        amount: Количество
-        price: Цена
-        state: Статус
-        item_name: Название
-        vendor_code: Артикул
-        stock_quantity: Количество
-        display: Опубликован
-        edit: Редактирование
-      properties:
-        name: Название
-        in_use: Используется
-      vendor_sms_log_entities:
-        message: Сообщение
-        phones: Телефоны
-        result: Результат
-        date: Дата
-      invoices:
-        account_number: Номер счета
-        date: Дата
-        decryption: Расшифровка
-        to: На счет
-        amount: Сумма
-        status: Статус
-      cities:
-        locale: Город (%{locale})
-        pickup_points: Пункты выдачи
-      client_categories:
-        name: Наименование
-      branches:
-        name: Название
-      cashier:
-        name: Название
-      currencies:
-        currencies: Валюты
-        central_bank: Центральный банк
-        your_currency: Ваш курс
-      orders:
-        order: Заказ
-        price: Цена
-        item: Позиция
-        location: Доставка
-        payment_status: Статус оплаты
-        status: Статус
-    toggle_buttons:
-      disable_with:
-        making_on: Включаю..
-        making_off: Выключаю..
-    chevron_tooltips:
-      other: SEO и прочее
-      elements: Элементы сайта
-      design_settings: Оформление (CSS, HTML, Логотип, Шрифты)
-      billing: Тариф и оплата
-      transactions: Список транзакций
-      settings_orders:       Настройки заказов
-      languages:             Настройка языков
-      settings_others:       Каталог прочих настроек
-      settings_products:     Настройки товаров
-      tags:                  Теги
-      currencies:            Курсы валют
-      menu_items:            Меню
-      content:               Контент
-      lookbooks:             Лукбуки
-      slider_images:         Изображения для слайдера
-      vendor_deliveries:     Способы доставки
-      vendor_payments:       Способы оплаты
-      integrations:          В список интеграций
-      integration_moysklad: Настройка МойСклад
-      blog_posts:            Другие публикации в блог
-      categories:            Категории товаров
-      products:              Товары
-      clients:               Клиенты
-      translations:          Язык и переводы
-      properties:            Свойства товаров
-      dictionaries:          Справочники
-      dictionary:            "Справочник '%{resource}'"
-      members:               Сотрудники
-      dictionary_dictionary_entities: "Элементы справочника '%{resource}'"
-      mail_templates:        Шаблоны писем и уведомлений
-      workflow_states:       Статусы закзаов
-      order_conditions:      Бизнес процессы
-      coupons:               Промокоды (скидочные купоны)
-      orders:                Заказы
-      content_pages:         Текстовые страницы
-      order_operator_filters: Фильтры заказов
-      stock_log_entities:    Журнал импорта
-      settings:              Общие настройки
-      pages: Настройки страниц сайта
-      css: Стили (CSS)
-      vendor_delivery:        Способ доставки
-
-    headings:
-      bells:
-        title: Уведомления
-      category_positions:
-        title: Позиция товара
-      order_conditions:
-        index: Правила
-        edit: Редактируем правило
-        new: Добавляем правило
-      top_banners:
-        edit: Редактируем верхний баннер
-      asset_images:
-        index: Изображения
-      stock_info:
-        title: Данные со склада (МойСклад)
-      mail_template:
-        client:
-          edit: Редактируем шаблон '%{key}' для клиента
-          preview: Предпросмотр шаблона '%{key}' для клиента
-        merchant:
-          edit: Редактируем шаблон '%{key}' для продавца
-          preview: Предпросмотр шаблона '%{key}' для продавца
-        index: Шаблоны писем
-      workflow_states:
-        new: Добавляем новый статус заказа
-        edit: Редактируем статус заказа
-        index: Статусы заказов
-      slugs:
-        index: SEO-пути
-      ymls:
-        show: Работа с Yandex Market и YML Catalog
-      redirects:
-        index: 301-е редиректы
-        index_title: Активные редиректы
-        new: Новый редирект
-        edit: Редактируем редирект
-      not_founds:
-        index: 404-е страницы
-      seo_block:
-        title: SEO
-      menu_view:
-        title: Отображение в меню
-      clients:
-        index: Клиенты
-        index_title: Список клиентов
-        edit: 'Редактируем клиента #%{id}'
-        manager_comments: Комментарии менеджеров
-      translations:
-        edit: Редактируем перевод
-      menu_items:
-        new: Новый элемент меню
-        index: Управление меню
-        edit: Редактируем элемент меню
-        top: Верхнее меню
-        bottom_left: Нижнее левое меню
-        bottom_right: Нижнее правое меню
-        MenuItemCategory: Категория
-        MenuItemDictionary: Справочник
-        MenuItemDictionaryEntity: Элемент словаря
-        MenuItemPage: Текстовая страница
-        MenuItemLink: Прямая ссылка
-        MenuItemBlog: Блог
-        MenuItemLookbook: Лукбук
-      carts:
-        index: Корзины к заказам
-        show: 'Корзина %{id}'
-        created_at: 'Создана — %{time}'
-      categories:
-        index: Категории
-        edit: 'Категория %{id}'
-        new: Новая корневая категория
-        new_sub: 'Подкатегория в %{parent_category}'
-      content_pages:
-        index: Cтраницы
-        index_title: Cтраницы
-        edit: Редактирование текстовой страницы
-        new: Создание текстовой страницы
-      blog_posts:
-        index: Блог (раздел новостей и статей)
-        index_title: Список публикаций
-        edit: Редактирование публикации
-        new: Создание публикации
-      coupons:
-        index: Промокоды
-        new_import: Загрузка промокодов
-      dashboard:
-        index_title: 5 шагов для запуска магазина
-      dictionaries:
-        index: Справочники
-        edit: Редактирование справочника
-        new: Создание справочника
-      dictionary_entities:
-        index: 'Элементы справочника %{name}'
-        edit: 'Редактирование элемента справочника'
-        new: 'Добавляем элемент справочника'
-        create: Создание элемента
-        list_title: Список элементов
-      invites:
-        list_title: Список приглашений (%{count})
-        invite_member: Подключить нового сотрудника
-      lookbooks:
-        index: Лукбуки
-        index_title: Лукбуки
-        edit: Редактируем лукбук
-        new: Новый лукбук
-      orders:
-        user_code: Код получения
-        stock: Склад
-        log_entities: Журнал
-        manager_comments: Комментарии менеджеров для клиента
-        items: Состав заказа
-        show: 'Заказ %{id}'
-        new: Оформление заказа
-        info: Информация о заказе
-        buyer: Покупатель
-        delivery: Доставка
-        payment: Оплата
-        misc: Дополнительно
-      products:
-        new: Добавить товар
-        edit: Редактирование товара
-        edit_union: Редактирование соединения товаров
-        edit_part: Редактирование части соединения
-        photos: Фотографии
-        part_photos: Фотографии вложенных товаров
-        stats: Статистика товаров
-        category_index: Товары категории (%{count})
-        vk_export: Экспорт во Vkontakte.Ru
-        vk_export_change_group_id: Группа для экспорта обновлена.
-        ms:
-          product_items: Варианты товара (размеры, цвета и т.п.)
-        ordinary:
-          product_items: Варианты товара (размеры, цвета и т.п.)
-        batch_actions:
-          select_categories: Выбор категорий для группы товаров
-          select_tags: Выбор тегов для группы товаров
-          select_products_tax: Выбор НДС для группы товаров
-
-      properties:
-        index: Свойства товаров
-        edit: Редактирование свойства
-        new: Новое свойство
-      selling:
-        payment_method: Платежная система
-        show: Продажи и оплата
-        w1: WalletOne
-        install_w1: Подключение платежной системы Wallet One
-        notifications: Уведомления о новых заказа
-      #management:
-        #settings:
-          #index: Общие настройки
-        #integrations:
-          #show: Интеграция со сторонними сервисами
-
-        #walletone:
-          #show: Интеграция с платежной системной walletone.com
-          #edit: Изменение данных интеграции с walletone.com
-      settings:
-        #cache: Настройки кеша
-        #robots: robots.txt
-        #analytics: Аналитика
-        #instagram: Instagram
-        #packaging: Упаковка
-        #theme: Оформление
-        favicons_title: Загрузить изображения
-        #main_page_seo: Продвижение главной страницы
-        main_page_content: Настройки главной страницы
-        #main: Главное
-        #mails: Настройка уведомлений
-        #accessibility: Доступность
-        domain: Адрес сайта
-        #other: Разное
-        #products: Товары
-        #extra_code: Дополнительный код
-        w1_widget: Виджет WalletOne в нижней части сайта
-        #filter: Фильтр
-      subscriptions:
-        index: Подписка
-        list_title: Активные подписки
-        new: Новая подписка
-      slider_images:
-        edit: Редактирование баннера
-        new: Создание баннера
-        index: Баннеры
-        index_title: Баннеры
-      vendor_deliveries:
-        index: Доставка
-        index_title: Способы доставки
-        edit: Редактирование доставки
-        new: Создание доставки
-      vendor_payments:
-        index: Способы оплаты
-        edit: Редактирование способа оплаты
-        new: Создание способа оплаты
-        available_deliveries: Совместимые методы доставки
+      access_keys: Доступ к API
     selling:
       w1:
         notification_address: В настройках кассы на walletone установите следующий адрес для уведомлений об оплате
@@ -705,12 +136,12 @@ ru:
     billing:
       app_link:
         title: Мы гордимся своим проектом и поэтому в самом низу каждой страницы магазина, есть надпись о том, что магазин сделан на нашей платформе.
-        help: "Но если Вас она очень раздражает, можете отключить ее за %{price} в месяц."
+        help: Но если Вас она очень раздражает, можете отключить ее за %{price} в месяц.
         hint: Эту надпись можно отключить после перехода на платный тариф.
         disable: Надпись "Сделано на %{brand_name_e}"
         disable_button: Отключить
         disabled: Отключена до %{date}
-        disable_confirm: "Стоимость %{price} в месяц. Отключить?"
+        disable_confirm: Стоимость %{price} в месяц. Отключить?
       invoice_form:
         title: 'Пополнить счет:'
         submit: Оплатить
@@ -739,28 +170,28 @@ ru:
         cards: Привязанные карты
         callout_expired:
           title: Истек срок обслуживания
-          body: 'Магазин скоро будет заблокирован. <br /> Срочно оплатите счёт или выберите другой тариф.'
+          body: Магазин скоро будет заблокирован. <br /> Срочно оплатите счёт или выберите другой тариф.
         callout_archived:
-          title: 'Магазин находится в архиве'
-          body: 'Для его восстановления нужно оплатить тариф'
+          title: Магазин находится в архиве
+          body: Для его восстановления нужно оплатить тариф
         disk_space_used: 'Использовано дискового пространства:'
         invoices: Счета
       sms_packs:
         sent_sms_log: Журнал отправленных SMS
         pack_count: '%{pack_count} SMS'
-        buy:  Купить за %{price}
+        buy: Купить за %{price}
     cache:
       http_cache_expires_in:
-        hint: 'Период кеширования страницы в браузере (в минутах).<br/>Используется в HTTP заголовке "Cache-Control max-age=". Число от 1 до 60 минут. Установите 0, чтобы отменить кеширование веб-страницы на стороне браузера.'
+        hint: Период кеширования страницы в браузере (в минутах).<br/>Используется в HTTP заголовке "Cache-Control max-age=". Число от 1 до 60 минут. Установите 0, чтобы отменить кеширование веб-страницы на стороне браузера.
       callout:
         body: Для каждой страницы автоматически генерируется <code>Strong ETag</code> HTTP заголовок.
-      clear: 'Очистить кеш'
+      clear: Очистить кеш
     cities:
       empty: Список городов пуст. Создайте его через загрузку пунктов выдачи.
       load: Загрузить
       pickup_points: Все пункты выдачи (%{count})
-      delete_all: 'Удалить города'
-      delete_all_confirm: 'Кинуть все города в корзину?'
+      delete_all: Удалить города
+      delete_all_confirm: Кинуть все города в корзину?
     client_categories:
       form:
         th:
@@ -768,16 +199,16 @@ ru:
           available: Доступно
       new_submit: Добавить категорию клиента
     branches:
-      created: 'Филиал успешно создан'
-      updated: 'Филиал успешно обновлен'
+      created: Филиал успешно создан
+      updated: Филиал успешно обновлен
       new_submit: Добавить филиал
     cashiers:
-      created: 'Касса успешно создана'
-      updated: 'Касса успешно обновлена'
+      created: Касса успешно создана
+      updated: Касса успешно обновлена
       new_submit: Добавить кассу
     clients:
       export: Экспорт
-      import: 'Импорт'
+      import: Импорт
       edit: 'Клиент: %{name}'
       add_customer: Добавить клиента
       empty: Клиентов не нашлось
@@ -809,10 +240,10 @@ ru:
         recount: Пересчитать
         date: 'Данные аналитики верны на: %{date}'
       settings:
-        subscriptions: 'Клиентские подписки'
-        rfm: 'RFM-Анализ'
-        client_settings: 'Настройки клиента'
-        client_categories: 'Категории клиентов'
+        subscriptions: Клиентские подписки
+        rfm: RFM-Анализ
+        client_settings: Настройки клиента
+        client_categories: Категории клиентов
         archive: Архив клиентов (%{count})
       client_settings:
         authorization: Авторизация
@@ -825,8 +256,8 @@ ru:
       form:
         page: Страница
         seo: SEO
-      show_page: 'Просмотр на сайте'
-      add_button: 'Добавить текстовую страницу'
+      show_page: Просмотр на сайте
+      add_button: Добавить текстовую страницу
     coupon_images:
       coordinates: Координаты расположения кода сертификата на изображении
       add_button: Добавить
@@ -843,29 +274,29 @@ ru:
       no_used: не использовался
       unlimited: Срок действия не ограничен
       use: Использовать
-      use_confirm: 'Отметить этот купон как использованный?'
+      use_confirm: Отметить этот купон как использованный?
       form:
         placeholders:
-          description: 'Комментарий'
+          description: Комментарий
         labels:
-          use_count: 'Количество генерируемых купонов'
+          use_count: Количество генерируемых купонов
         hints:
-          use_count: "Количество генерируемых купонов. От 1 до %{count}."
-          minimal_products_count: 'Оставьте пустым для любого количества'
-          is_check_address: 'Если по адресу клиента ранее был осуществлен заказ - купон не будет применен'
+          use_count: Количество генерируемых купонов. От 1 до %{count}.
+          minimal_products_count: Оставьте пустым для любого количества
+          is_check_address: Если по адресу клиента ранее был осуществлен заказ - купон не будет применен
         restrictions: 'Ограничения по категориям и товарам:'
-        minimal_order_total_price: 'Минимальная сумма заказа'
-      search: 'Комментарий'
+        minimal_order_total_price: Минимальная сумма заказа
+      search: Комментарий
       reset: сбросить
       actions:
-        import: 'Массовая загрузка купонов из CSV'
-        add_coupon: 'Добавить купон'
-        add_coupon_group: 'Добавить группу купонов'
+        import: Массовая загрузка купонов из CSV
+        add_coupon: Добавить купон
+        add_coupon_group: Добавить группу купонов
       empty: Ничего не найдено
       import_form:
         labels:
-          file: 'Файл в формате CSV'
-          skip_headers: 'Пропускать заголовок'
+          file: Файл в формате CSV
+          skip_headers: Пропускать заголовок
         example: Пример <a href="%{url}">файла в CSV</a>
       show:
         title: Группа купонов %{code}
@@ -874,17 +305,17 @@ ru:
         validity: 'Срок: %{validity}'
         used_count: 'Купон использовался раз: %{used_count}'
         use_count: 'Еще осталось: %{use_count}'
-        coupons_count: "Всего купонов в группе: %{count}"
-        used_coupons_count: "Из них использовано: %{count}"
-        list: 'Список купонов в CSV'
-        unlimited: 'бессрочная'
+        coupons_count: 'Всего купонов в группе: %{count}'
+        used_coupons_count: 'Из них использовано: %{count}'
+        list: Список купонов в CSV
+        unlimited: бессрочная
     css:
       archives: Архив
-      colors_link: 'Цвета и шрифты'
+      colors_link: Цвета и шрифты
       form:
         labels:
-          custom_style_format: 'Формат'
-      result: 'Результат в CSS'
+          custom_style_format: Формат
+      result: Результат в CSS
     delivery_time_slots:
       close: Закрыть
       time: C %{from} по %{to}
@@ -892,17 +323,17 @@ ru:
       to: По&nbsp;
       default: По-умолчанию
       edit:
-        title: 'Редактирование времени курьерской службы'
-        add_submit: 'Добавить период'
+        title: Редактирование времени курьерской службы
+        add_submit: Добавить период
         save_submit: Сохранить
-        copy_submit: 'Копировать'
+        copy_submit: Копировать
         labels:
-          delivery_time_slots_limit: 'Кол-во отображаемых таймслотов в заказе'
+          delivery_time_slots_limit: Кол-во отображаемых таймслотов в заказе
         rules:
           title: Правила для таймслотов
           add_submit: Добавить правило
     currency:
-      currencies: 'Курс валют'
+      currencies: Курс валют
     digital_keys_import:
       result: Результат импорта
       state: Состояние
@@ -910,202 +341,211 @@ ru:
       processed_count: Обработано
       form:
         title: Загрузите файл формата CSV. В таблице обязательно должен быть столбец 'code' с списком электронных ключей.
-        submit: 'Загрузить'
-        confirm: 'Все прошлые ключи будут уничтожены (значения ключей в заказах сохранятся), продолжить?'
+        submit: Загрузить
+        confirm: Все прошлые ключи будут уничтожены (значения ключей в заказах сохранятся), продолжить?
     domain:
-      placeholder: 'Дополнительный домен, например magazin.ru'
-      add_domain_alias: 'Добавить дополнительный домен'
+      placeholder: Дополнительный домен, например magazin.ru
+      add_domain_alias: Добавить дополнительный домен
       header_title: Адрес и наименование сайта
-      is_published: 'Опубликован?'
+      is_published: Опубликован?
       view: Просмотр
       instruction: '%{icon} Инструкция по настройке DNS'
       current_operator_url: Операторская панель:&nbsp;
       current_home_url: 'Текущий адрес (домен) сайта:'
       form:
         suggested_domain:
-          label: 'Новый домен (адрес сайта)'
-          hint: 'Домен, который Вы планируете использовать в дальнейшем. Ваш магазин автоматически перейдет на этот домен, как только вы настроите DNS.'
+          label: Новый домен (адрес сайта)
+          hint: Домен, который Вы планируете использовать в дальнейшем. Ваш магазин автоматически перейдет на этот домен, как только вы настроите DNS.
       pending_domain_binding: 'Ожидается привязка домена: %{link}'
       additional_domains: Дополнительные домены
       subdomain: Технический (резервный) адрес в зоне %{domain_zone}
     extra_html:
       navs:
-        head: 'В конце <code>&lt;head&gt;</code>'
-        body: 'В конце <code>&lt;body&gt;</code>'
-        footer: 'Перед <code>&lt;footer&gt;</code>'
+        head: В конце <code>&lt;head&gt;</code>
+        body: В конце <code>&lt;body&gt;</code>
+        footer: Перед <code>&lt;footer&gt;</code>
     files:
-      settings_favicons: 'Логотип и favicons'
-      robots: 'robots.txt'
-      asset_images: 'Изображения для контента'
+      settings_favicons: Логотип и favicons
+      robots: robots.txt
+      asset_images: Изображения для контента
     filter:
       example: Пример фильтра
-      properties_link: 'порядок свойств'
+      properties_link: порядок свойств
       callout:
         body: Настройте %{link} &nbsp; отображаемых в фильтре
     footer:
-      middle_html: 'HTML-код между нижними блоками меню'
-      app_link: 'Надпись "Сделано на %{brand_name_e}"'
-      walletone: 'Настройка виджета WalletOne'
-      instagram: 'Лента фотографий из Instagram'
+      middle_html: HTML-код между нижними блоками меню
+      app_link: Надпись "Сделано на %{brand_name_e}"
+      walletone: Настройка виджета WalletOne
+      instagram: Лента фотографий из Instagram
     header:
-      meta_title_templates: 'Шаблоны элементов <head><title>'
-      meta_description_templates: 'Шаблоны элементов <meta name="description">'
-      meta_keywords_templates: 'Шаблоны элементов <meta name="keywords">'
+      meta_title_templates: Шаблоны элементов <head><title>
+      meta_description_templates: Шаблоны элементов <meta name="description">
+      meta_keywords_templates: Шаблоны элементов <meta name="keywords">
       form:
         labels:
-          name: 'Название магазина'
+          name: Название магазина
         hints:
-          name: 'Используется в заголовке сайта, в теге title и в письмах'
-          is_logo_link: 'Если отключить, то с логотипа не будет ссылки'
-          has_client_cabinet: 'Клиенты могут просматривать свои заказы, а вы сможете делать им индивидуальные скидки'
-          title: 'Напишите тут краткое описание магазина. Укажите фактический адрес, если есть'
-          contacts: 'Рекомендуем тут писать только телефон и email. Контакты автоматически станут кликабельны'
+          name: Используется в заголовке сайта, в теге title и в письмах
+          is_logo_link: Если отключить, то с логотипа не будет ссылки
+          has_client_cabinet: Клиенты могут просматривать свои заказы, а вы сможете делать им индивидуальные скидки
+          title: Напишите тут краткое описание магазина. Укажите фактический адрес, если есть
+          contacts: Рекомендуем тут писать только телефон и email. Контакты автоматически станут кликабельны
       see_also: 'Смотрите также:'
-      top_banner: 'Баннер в шапке (промо-сообщение)'
+      top_banner: Баннер в шапке (промо-сообщение)
     top_banners:
       link_url:
-        label: 'Ссылка на страницу, которая будет открываться при клике на сообщение'
-        hint: 'Не обязательно'
-      subtitle:  Это сообщение которое показывается в шапке сайта на каждой его странице. Его удобно использовать для коротких сообщений и промо-акций.
+        label: Ссылка на страницу, которая будет открываться при клике на сообщение
+        hint: Не обязательно
+      subtitle: Это сообщение которое показывается в шапке сайта на каждой его странице. Его удобно использовать для коротких сообщений и промо-акций.
     history_paths:
-      heading: 'История посещений'
+      heading: История посещений
       warning: Тут отображаются все пути кроме главной страницы.
     https:
-      allow: 'HTTPS установлен и подключен для адреса %{url}'
-      expiration_date: 'Срок оконвания действия HTTPS сертификата %{date}'
+      allow: HTTPS установлен и подключен для адреса %{url}
+      expiration_date: Срок оконвания действия HTTPS сертификата %{date}
       callout:
-        title: 'Необходимо установить HTTPS сертификат'
-        body: |
-          <p> Для магазинов в зоне %{brand_host} – бесплатно. </p>
+        title: Необходимо установить HTTPS сертификат
+        body: '<p> Для магазинов в зоне %{brand_host} – бесплатно. </p>
+
           <p> Для индивидуальных доменов – 5400 %{brand_currency} за 3 года. </p>
+
           <p> %{instruction_url} </p>
-      instruction: 'Инструкция по приобретению SSL-сертификата'
+
+          '
+      instruction: Инструкция по приобретению SSL-сертификата
     languages:
       used_on_site: Используется на сайте
       default_locale: Язык по-умолчанию
-      select_default_locale: 'Использовать по умолчанию'
-      setup: 'Настроить переводы'
+      select_default_locale: Использовать по умолчанию
+      setup: Настроить переводы
       disable: Отключить
       enable: Подключить
       first_callout:
-        body: |
-          <p> Пользователи видят сайт в том языке, который настроен у них в системе и отдается браузером в HTTP заголовке. Если такой язык не поддерживает сайтом, то используется язык установленный "по умолчанию".</p>
+        body: '<p> Пользователи видят сайт в том языке, который настроен у них в системе и отдается браузером в HTTP заголовке. Если такой язык не поддерживает сайтом, то используется язык установленный "по умолчанию".</p>
+
           <p> Кроме того, пользователь может переключить язык самостоятельно. </p>
+
+          '
       second_callout:
-        body: |
-          <p> Все слова и фразы, используемые на сайте можно изменить в разделе "Настроить переводы" </p>
+        body: '<p> Все слова и фразы, используемые на сайте можно изменить в разделе "Настроить переводы" </p>
+
           <p> Если Вам нужна поддержка других языков – обратитесь в поддержку. </p>
+
+          '
     legal:
       product_vat_groups: Редактировать налоговую группу товаров
       subtitle: Информация используется для выставления счета и при работе с online-кассами.
       payment_data: Данные для счета на оплату
-      contract_offer: "Договор оферты N%{id} от %{registered_at}"
+      contract_offer: Договор оферты N%{id} от %{registered_at}
       pdf_download: (Скачать в формате PDF)
       coupon_registration: 'Зарегистрирован по промокоду:'
       shop_is_template: Этот магазин - шаблон.
       form:
         labels:
-          legal_name: 'Официальное наименование Вашей организации'
-          legal_address: 'Юридический адрес'
-          legal_city: 'Город'
-          legal_post_code: 'Почтовый индекс'
-          legal_phone_text: 'Телефон'
-          legal_email_text: 'Email'
-          legal_region: 'Регион'
-          legal_province: 'Провинция'
-          legal_street: 'Улица'
-          inn_text: 'ИНН'
-          receipt_top_text: 'Текст внизу чека'
-          receipt_bottom_text: 'Текст наверху чека'
-          invoice_stamp_comment: 'Комментарий к счету'
-          invoice_stamp_image: 'Изображение печати и подписи для счетов на оплату'
-          remove_invoice_stamp_image: 'Удалить изображение?'
-          social_media: 'Cоциальные медиа'
-          additional_number: 'Дробь'
-          building_number: 'Дом'
+          legal_name: Официальное наименование Вашей организации
+          legal_address: Юридический адрес
+          legal_city: Город
+          legal_post_code: Почтовый индекс
+          legal_phone_text: Телефон
+          legal_email_text: Email
+          legal_region: Регион
+          legal_province: Провинция
+          legal_street: Улица
+          inn_text: ИНН
+          receipt_top_text: Текст внизу чека
+          receipt_bottom_text: Текст наверху чека
+          invoice_stamp_comment: Комментарий к счету
+          invoice_stamp_image: Изображение печати и подписи для счетов на оплату
+          remove_invoice_stamp_image: Удалить изображение?
+          social_media: Cоциальные медиа
+          additional_number: Дробь
+          building_number: Дом
         hints:
-          invoice_stamp_comment: 'Отображается сверху. Укажите тут телефоны и дополнительную информацию.'
-        include_blank: 'Не указано'
+          invoice_stamp_comment: Отображается сверху. Укажите тут телефоны и дополнительную информацию.
+        include_blank: Не указано
     lookbooks:
-      images_download:  'Загрузить изображения'
+      images_download: Загрузить изображения
       images: Изображение
-      add_button: 'Добавить лукбук'
+      add_button: Добавить лукбук
       new_warning: Создайте лукбук, а затем добавьте изображения.
       images_empty: В лукбуке еще нет ни одного изображения, загрузите несколько.
       popover:
-        body: |
-          Lookbook (лукбук) – это каталог фотографий, созданный с целью продемонстрировать оригинальные образы, созданные из дизайнерской одеждой и аксессуарами одного или нескольких брендов.
+        body: 'Lookbook (лукбук) – это каталог фотографий, созданный с целью продемонстрировать оригинальные образы, созданные из дизайнерской одеждой и аксессуарами одного или нескольких брендов.
+
           Это готовое решение вашего внешнего вида, на каждый день, отдельное событие или особый случай.
+
+          '
     mail_templates:
       system:
         callout: Данная настройка позволяет получать системные уведомления (отрицательный счет, пополнение баланса и тд)
-      last_checkup:  'Последний раз проверялся: %{last_checkup_at}"'
+      last_checkup: 'Последний раз проверялся: %{last_checkup_at}"'
       success_changed: Email успешно изменен
       no_confirmed: Не подтвержден
-      example: 'Пример передаваемых данных'
+      example: Пример передаваемых данных
       mail_header:
         from: От кого:&nbsp;
         to: Кому:&nbsp;
         subject: Тема письма:&nbsp;
       table_header: Шаблон
       receivers:
-        title: 'Список получателей уведомлений для продавца'
+        title: Список получателей уведомлений для продавца
         phones: 'На данный момент уведомления поступают на следующие номера:'
         phones_empty: На данный момент уведомления по SMS никто не получает
         emails: 'и такие email-ы:'
         email_empty: На данный момент уведомления по Email никто не получает.
       settings:
         current_vendor_email: Текущий адрес отправителя при уведомлении клиентов
-        add_spf: "Для изменения адреса добавьте %{link} в настройках регистратора домена"
-        spf: 'SPF запись'
+        add_spf: Для изменения адреса добавьте %{link} в настройках регистратора домена
+        spf: SPF запись
         check: Проверить
       edit:
-        preview: 'Предосмотр'
+        preview: Предосмотр
         template:
           name: Название шаблона:&nbsp;
-          sms:  Шаблон SMS
+          sms: Шаблон SMS
           email: Шаблон Email
           telegram: Шаблон Telegram
       index:
-        sms_log: 'Журнал отправленных SMS'
+        sms_log: Журнал отправленных SMS
         tabs:
-          settings: 'Ваш адрес email'
-          clients: 'Уведомления для клиентов'
-          merchants: 'Уведомления для менеджеров'
-          system: 'Системные уведомления'
+          settings: Ваш адрес email
+          clients: Уведомления для клиентов
+          merchants: Уведомления для менеджеров
+          system: Системные уведомления
         callout:
-          title: 'Кто из сотрудников получает уведомления?'
+          title: Кто из сотрудников получает уведомления?
           body: Смотрите на странице&nbsp; %{link}
-          operator_members_link: 'управления сотрудниками'
+          operator_members_link: управления сотрудниками
       show:
-        change: 'Изменить'
-        edit: 'Редактировать шаблон'
+        change: Изменить
+        edit: Редактировать шаблон
         tabs:
-          sms: 'SMS'
-          telegram: 'Telegram'
-          html: 'Email (HTML)'
-          txt: 'Email (TXT)'
+          sms: SMS
+          telegram: Telegram
+          html: Email (HTML)
+          txt: Email (TXT)
         message_length: 'Длина сообщения: %{length} символов.'
     not_founds:
       form:
-        include_blank: 'Любой'
-        submit: 'Отфильтровать'
+        include_blank: Любой
+        submit: Отфильтровать
         hints:
-          content_type: 'Content-Type запроса'
-          response_state: 'Статус'
+          content_type: Content-Type запроса
+          response_state: Статус
       empty: Нет таких страниц.
     order_operator_filters:
-      add_button: 'Добавить фильтр'
+      add_button: Добавить фильтр
     order_page:
-      currency: 'Валюта'
+      currency: Валюта
       form:
         include_blank:
-          package_category: '(категория не установлена)'
+          package_category: (категория не установлена)
           public_offer_page: '- не установлена -'
         hints:
-          show_header_buttons_in_cart: 'Кнопка "Оформить заказ" будет дублироваться в шапке корзины'
-          sorted_cart: 'Сортируемая корзина покупок'
-          show_full_basket_count: 'По умолчанию отображается количество товарных позиций'
+          show_header_buttons_in_cart: Кнопка "Оформить заказ" будет дублироваться в шапке корзины
+          sorted_cart: Сортируемая корзина покупок
+          show_full_basket_count: По умолчанию отображается количество товарных позиций
           custom_max_order_similar_products_count: Maксимально - %{max}
           custom_max_order_items_count: Maксимально - %{max}
     slug_resources:
@@ -1113,18 +553,18 @@ ru:
     orders:
       paid_and_delivered: Заказ обновлен успешно
       source: 'Источник: %{source}'
-      sales_report: 'Отчет о продажах'
-      payment_discount: 'Скидка при оплате через "%{payment_type}"'
+      sales_report: Отчет о продажах
+      payment_discount: Скидка при оплате через "%{payment_type}"
       buyer:
         title: Покупатель
         email_empty: Email не указан
         phone_empty: Телефон не указан
         comment: 'Комментарий к заказу:'
       settings:
-        duplicate: 'Дублировать заказ'
-        mail_template: 'Шаблон письма для клиента'
-        order_public_url: 'Страница заказа на сайте'
-        notify_online_kassa: 'Уведомить онлайн кассу'
+        duplicate: Дублировать заказ
+        mail_template: Шаблон письма для клиента
+        order_public_url: Страница заказа на сайте
+        notify_online_kassa: Уведомить онлайн кассу
       delivery:
         city: Город
         address: Адрес
@@ -1134,41 +574,41 @@ ru:
         cdek_delivery: СДЭК
         agent: Агент доставки
         country: Страна
-      custom_delivery_price: 'Стоимость доставки'
-      transmitted_data: 'Передаваемые данные'
-      browser_data: 'Данные браузера'
+      custom_delivery_price: Стоимость доставки
+      transmitted_data: Передаваемые данные
+      browser_data: Данные браузера
       total_price: Итого
       total_with_delivery_price: Итого с доставкой
       total_vat: НДС
       total_without_vat_price: Итого без НДС
-      send_email: 'Выслать на почту'
-      reset_downloaded_count: 'Сброс кол-ва загрузок (исп. %{current} из %{total})'
+      send_email: Выслать на почту
+      reset_downloaded_count: Сброс кол-ва загрузок (исп. %{current} из %{total})
       quantity: 'Остаток:'
       delivery_price_empty: Стоимость доставки не установлена
       delivery_price_warning: Заказ не может быть оплачен, пока не установлена стоимость доставки.
-      payment_url: 'Страница оплаты заказа для клиента'
+      payment_url: Страница оплаты заказа для клиента
       hints:
         order_payment:
-          state: 'Внимание! При ручном изменении статуса оплаты не срабатывают бизнес-процессы и уведомления'
+          state: Внимание! При ручном изменении статуса оплаты не срабатывают бизнес-процессы и уведомления
       placeholders:
         search_form:
-          query: 'Наименование товара или данные клиента'
-      created_at_from: 'Дата создания'
-      order_conditions: 'Бизнес процессы'
-      workflow_states: 'Статусы заказов'
-      operator_filters: 'Фильтры заказов'
-      mail_templates: 'Уведомления о заказах'
-      archive: "Архив заказов (%{count} шт.)"
-      export: 'Экспорт заказов (CSV)'
-      export_order_items: 'Экспорт позиций заказов (CSV)'
-      moysklad: 'Заказ на МоемСкладе'
-      view_all: 'Посмотреть все'
+          query: Наименование товара или данные клиента
+      created_at_from: Дата создания
+      order_conditions: Бизнес процессы
+      workflow_states: Статусы заказов
+      operator_filters: Фильтры заказов
+      mail_templates: Уведомления о заказах
+      archive: Архив заказов (%{count} шт.)
+      export: Экспорт заказов (CSV)
+      export_order_items: Экспорт позиций заказов (CSV)
+      moysklad: Заказ на МоемСкладе
+      view_all: Посмотреть все
       empty: Нет заказов.
       empty_with_parameters: Нет заказов с такими параметрами.
       client_notify: Уведомить клиента&nbsp;
-      send_order_url: 'Отправить ссылку на страницу заказа'
-      send_payment_url: 'Отправить ссылку на оплату'
-      sales_reports: 'Отчеты по продажам'
+      send_order_url: Отправить ссылку на страницу заказа
+      send_payment_url: Отправить ссылку на оплату
+      sales_reports: Отчеты по продажам
       show:
         title: Заказ %{id}
         subtitle: от %{created_at}
@@ -1183,18 +623,16 @@ ru:
           enter_new_products: Ввод новых продуктов
         add_new_product: Добавить продукт
       log:
-        payment_form: 'Генерация формы оплаты через %{order_payment}'
-        customer_checked: 'Пользователь просмотрел страницу заказа'
+        payment_form: Генерация формы оплаты через %{order_payment}
+        customer_checked: Пользователь просмотрел страницу заказа
     payment_cards:
-      untie: 'Отвязать'
-      untied: 'Отвязана'
-
+      untie: Отвязать
+      untied: Отвязана
     vendor_payment:
       fix: Исправить
       no_deliveries: Этот метод оплаты не подключен ни к одному способу доставки.
       w1:
         available_payments: Доступные методы оплаты
-
     dictionary:
       empty: Справочник пуст
       empty_properties: Нет свойств
@@ -1205,7 +643,6 @@ ru:
         title: Выберите тип создаваемого справочника
         DictionaryColor: 1. Цвета
         Dictionary: 2. Список элементов (например размеры или бренды)
-
     property:
       delete: Удалить свойство
       ms_link: Привязка к МойСклад
@@ -1221,12 +658,12 @@ ru:
       start_import: Запустить импорт прямо сейчас
       syncing_not_set: Синхронизация не настроена. Укажите логин и пароль.
     text_blocks:
-      add_button: 'Добавить текстовый блок'
+      add_button: Добавить текстовый блок
     product:
       change_sort_options_for_product: 'Изменение сортировки вариантов для: %{product}'
-      quantity_unit: "Единица измерения: %{unit_link}"
-      nomenclature: "Номенклатура: "
-      select_nomenclature: 'Выбор номенклатуры'
+      quantity_unit: 'Единица измерения: %{unit_link}'
+      nomenclature: 'Номенклатура: '
+      select_nomenclature: Выбор номенклатуры
       text_blocks: Дополнительная информация
       title: Товар
       video: Видео
@@ -1251,8 +688,8 @@ ru:
       reindex_stats: Переиндексировать
       product_items_count: '%{count} вариантов'
       authorized_as: Авторизован как
-      list_view: 'Товары списком'
-      blocks_view: 'Товары блоками'
+      list_view: Товары списком
+      blocks_view: Товары блоками
       union_item:
         is_sale: Распродажа
         is_published: Видимость
@@ -1286,73 +723,73 @@ ru:
         size: 'Размер: %{size}'
         date: 'Создан: %{date}'
     products:
-      adding: 'Добавление товаров'
+      adding: Добавление товаров
       categories_select:
         title: Категории товара
         breadcrumbs: Категория для хлебных крошек
         product_item: Категории редактируются только в основном товаре
       header:
-        is_manual_published: 'Опубликован?'
-        preview: 'Просмотр'
+        is_manual_published: Опубликован?
+        preview: Просмотр
       other:
         show_other_products:
           title: Другие товары
           popover: Отображаются на странице товара небольшими фотографиями под его описанием.
           callout: 'На странице товара этот блок имеет такой заголовок:'
-          label: 'Режим отображения'
+          label: Режим отображения
         show_similar_products:
           title: С этим товаром покупают также
           popover: Отображаются внизу страницы большими карточками
           callout: 'На странице товара этот блок имеет такой заголовок:'
-          label: 'Режим отображения'
-      price_kinds_link: 'Настройка видов цен'
+          label: Режим отображения
+      price_kinds_link: Настройка видов цен
       tabs:
-        common: 'Описание'
-        extra: 'Дополнительно'
-        seo: 'SEO'
-        other: 'Другие товары'
-        moysklad: 'МойСклад'
+        common: Описание
+        extra: Дополнительно
+        seo: SEO
+        other: Другие товары
+        moysklad: МойСклад
       text_blocks:
-        add_button: 'Добавить текстовый блок'
+        add_button: Добавить текстовый блок
         tags: Тэги
-      digital_keys_import: 'Загрузка файла с ключами'
-      coupon_images: 'Шаблоны для сертификатов'
-      archive:  В архиве (редактирование невозможно)
+      digital_keys_import: Загрузка файла с ключами
+      coupon_images: Шаблоны для сертификатов
+      archive: В архиве (редактирование невозможно)
       new_product: Новый товар
       moysklad:
         attributes: Характеристики
-        product_title: "На складе: '%{title}'"
+        product_title: 'На складе: ''%{title}'''
       range: Диапазон цен
       shared:
         show: показать
       id: 'Товар #%{id}'
       ordinary:
-        stock_title: "На складе: '%{stock_title}'"
-        total_quantity: 'Остатки товаров устанавливаются индивидуально у каждого варианта'
-        add_item: 'Добавить вариант'
+        stock_title: 'На складе: ''%{stock_title}'''
+        total_quantity: Остатки товаров устанавливаются индивидуально у каждого варианта
+        add_item: Добавить вариант
       union:
-        auto_calculation_quantity: 'Высчитывается автоматически'
+        auto_calculation_quantity: Высчитывается автоматически
         different_prices: Диапазон цен
       block:
-        is_manual_published: 'Товар опубликован?'
+        is_manual_published: Товар опубликован?
         more: подробнее
       has_subcategories_with_products: 'В этой категории нет товаров, но у нее есть подкатегории:'
       linked_categories:
         help: Категории устанавливаются и забираются из moysklad.ru
         empty_help: Не указана ни одна категория. Категории устанавливаются и забираются из moysklad.ru
-      load_image: 'Загрузить изображения'
-      list_view_unknown: "Неизвестный тип list_view %{list_view}"
+      load_image: Загрузить изображения
+      list_view_unknown: Неизвестный тип list_view %{list_view}
       row:
-        article: 'Артикул'
-        is_manual_published: 'Товар опубликован?'
+        article: Артикул
+        is_manual_published: Товар опубликован?
         more: подробнее
         is_product_item: Вариант товара
       search_form_content:
-        query: 'Наименование или описание товара'
+        query: Наименование или описание товара
       archives:
-        title: 'Архивные товары'
-        all: "Все продукты"
-        query: 'Наименование или описание товара'
+        title: Архивные товары
+        all: Все продукты
+        query: Наименование или описание товара
       select_categories:
         add: 'Добавить товары в категории:'
         remove: 'Убрать товары из категорий:'
@@ -1360,11 +797,11 @@ ru:
         add: 'Добавить к товарам теги:'
         remove: 'Убрать из товаров теги:'
     tags:
-      add_button: 'Добавить тег'
+      add_button: Добавить тег
     slider_images:
       alive: Активные
       archive: Архив
-      add: 'Добавить изображение'
+      add: Добавить изображение
       subtitle: Слайдер это листаемая коллекция изображений, отображаемая в верхней части главной страницы сайта.
     apps:
       under_construction: В разработке
@@ -1379,14 +816,14 @@ ru:
     custom_attributes:
       not_created: Вы не создали характеристики
       create: Создать характеристику
-      show_all: 'Показать все %{count} характеристик'
+      show_all: Показать все %{count} характеристик
     registration:
       title: Регистрация оператора
-      by_invite: '(по приглашению %{vendor})'
+      by_invite: (по приглашению %{vendor})
     domains:
       not_connected: Этот домен ещё не подключен
-      go_to_shop: 'Перейти в магазин %{name}'
-      shop_not_connected_html: "К этому '<b>%{domain}</b>' домену ещё не привязан никакой магазин."
+      go_to_shop: Перейти в магазин %{name}
+      shop_not_connected_html: К этому '<b>%{domain}</b>' домену ещё не привязан никакой магазин.
       empty: Нет дополнительных доменов
     login:
       already_registered: Уже зарегистрированы?
@@ -1397,36 +834,37 @@ ru:
       register: Зарегистрироваться
       invited: По приглашению?
       no_account: Нет аккаунта?
-      logged_in_with: 'Вы уже авторизованы под именем<br /> <b>%{name}</b>.'
-      continue_logged: 'Продолжить под этим именем..'
-      accept_invite: 'Принять приглашение'
-
+      logged_in_with: Вы уже авторизованы под именем<br /> <b>%{name}</b>.
+      continue_logged: Продолжить под этим именем..
+      accept_invite: Принять приглашение
       forgot_password: Забыли пароль?
       restore_password: Восстановить
     slug_redirects:
       empty: Нет установленных редиректов
     recommended_products:
-      callout: |
-        На этой странице редактируются список рекомендуемых товаров для блога и корзины.</br>
+      callout: 'На этой странице редактируются список рекомендуемых товаров для блога и корзины.</br>
+
         Чтобы добавить рекомендуемые товары для конкретного товара(блог-поста). перейдите на страницу редактирования товара(блог-поста).
+
+        '
     blog_post:
       prev_post: Предыдущий пост
       next_post: Следующий пост
       status:
-        active: 'Активен'
-        hidden: 'Скрыт'
+        active: Активен
+        hidden: Скрыт
       form:
         recommended_products: Рекомендуемые товары
         tabs:
           content: Запись в блог
           seo: SEO
-      new_submit: 'Добавить публикацию'
+      new_submit: Добавить публикацию
     subscription_email:
-      export: 'Экспорт в CSV'
+      export: Экспорт в CSV
     show_subscription_email:
-      title: 'Собирать емэйлы?'
-      tooltip: 'Собирать емэйлы потенциальных клиентов для дальнейшей рассылки промо-информации'
-      empty:  Еще никто не подписался.
+      title: Собирать емэйлы?
+      tooltip: Собирать емэйлы потенциальных клиентов для дальнейшей рассылки промо-информации
+      empty: Еще никто не подписался.
     client:
       found_count: Найдено клиентов
       print: Печать
@@ -1445,11 +883,11 @@ ru:
       overall_items: Всего товаров
       delivery_price: Стоимость доставки
       payment_link: Ссылка на оплату для клиента
-      created_at: 'Заказ создан — %{time}'
-      will_cancel_at: 'Автоматическая отмена — %{time}'
-      will_cancel_at_tooltip: 'Дата автоматической отмены'
-      external_id: 'Внешний номер — <strong>%{external_id}</strong>'
-      send_payment_link: 'Отправить на оплату'
+      created_at: Заказ создан — %{time}
+      will_cancel_at: Автоматическая отмена — %{time}
+      will_cancel_at_tooltip: Дата автоматической отмены
+      external_id: Внешний номер — <strong>%{external_id}</strong>
+      send_payment_link: Отправить на оплату
       duplicate: Дублировать
       unknown_time: Время неизвестно
       no_such_order: Нет такого заказа
@@ -1507,8 +945,8 @@ ru:
       title: Восстановление пароля
       get_password: Получить пароль
       remembered_password: Вспомнил пароль?
-      email_instruction_html: 'На электронную почту <b>%{login}</b> отправлена инструкция для восстановления пароля'
-      phone_instruction_html: 'На телефон <b>%{login}</b> отправлен pin-код для входа'
+      email_instruction_html: На электронную почту <b>%{login}</b> отправлена инструкция для восстановления пароля
+      phone_instruction_html: На телефон <b>%{login}</b> отправлен pin-код для входа
       wait_for_email: Дождитесь письма с инструкцией для восстановления пароля
       pincode_received: Пришел pin-код?
     categories:
@@ -1519,45 +957,50 @@ ru:
       archive_confirm: Архив категорию насовсем?
       in_nested_categories: В дочерних категориях (%{count})
       not_contain_products: В этой категории не лежат товары напрямую
-      product_saved: '<a href="%{backurl}">Товар %{name} успешно сохранен</a>'
-      note: 'Категории позволяют разбить товары на разделы.'
-      this: 'Эта категория на сайте'
-      add_button_title: 'Добавить товар в эту категорию'
+      product_saved: <a href="%{backurl}">Товар %{name} успешно сохранен</a>
+      note: Категории позволяют разбить товары на разделы.
+      this: Эта категория на сайте
+      add_button_title: Добавить товар в эту категорию
       archive: Архив категории (%{count})
       active: Активные категории
       products_without_categories: Товары без категории (%{count})
-      google_product_category: |
-        Данный параметр нужен для экспорта категории в каталог товаров для Facebook.</br>
-        Параметр принимает значения из списка <a href="http://www.google.com/basepages/producttype/taxonomy-with-ids.ru-RU.xls">Google's product taxonomy</a>
+      google_product_category: 'Данный параметр нужен для экспорта категории в каталог товаров для Facebook.</br>
+
+        Параметр принимает значения из списка <a href="http://www.google.com/basepages/producttype/taxonomy-with-ids.ru-RU.xls">Google''s product taxonomy</a>
+
+        '
     category_page:
       form:
         header: Список товаров (Категория)
         hints:
-          category_product_columns: 'Количество колонок товароа'
-          category_product_rows: 'Количество строк товароа'
-          show_next_resource_in_list: 'В категории будет отображаться ссылка на следующую категорию'
+          category_product_columns: Количество колонок товароа
+          category_product_rows: Количество строк товароа
+          show_next_resource_in_list: В категории будет отображаться ссылка на следующую категорию
     dashboard:
       graph_period: Заказы за 3 месяца
     menu_items:
-      vendor_blog_path: 'Страница блога (список публикаций)'
+      vendor_blog_path: Страница блога (список публикаций)
       form:
         hints:
-          custom_title: 'Название пункта меню'
+          custom_title: Название пункта меню
       empty: В меню пунктов нет
       current_link: С данного пункта меню ссылка ведет &rarr;
-      add_button: 'Добавить пункт меню'
+      add_button: Добавить пункт меню
       is_menu_top_desktop_sticky:
-        title: 'Липкое меню'
-        tooltip: 'При прокрутке страницы вниз меню будет оставаться всегда наверху'
+        title: Липкое меню
+        tooltip: При прокрутке страницы вниз меню будет оставаться всегда наверху
       auto_menu:
-        disable: 'Отключить автоматическое меню'
-        enable: 'Включить автоматическое меню'
+        disable: Отключить автоматическое меню
+        enable: Включить автоматическое меню
       callout:
-        title: 'Меню формируется автоматически'
-        body: |
-          <p> В верхнем меню отображаются верхние категории имеющие опубликованные товары. </p>
+        title: Меню формируется автоматически
+        body: '<p> В верхнем меню отображаются верхние категории имеющие опубликованные товары. </p>
+
           <p> В нижнем меню отображаются ссылки на текстовые страницы. </p>
+
           <p> Отключите автоматический режим, если хотите настроить пункты меню самостоятельно. </p>
+
+          '
       new_menu_item_link: 'На что будет ссылаться новый пункт меню:'
     order_conditions:
       titles:
@@ -1567,7 +1010,7 @@ ru:
       never: никогда
       stats: Статистика
       no_used: Данное правило никогда не применялось.
-      add_button: 'Создать правило'
+      add_button: Создать правило
       alert: Правила позволяют автоматически запускать доставку или резервировать товар на складе при возникновении определенных событий (формирование заказа, изменение статуса заказа или оплата) и установленных условиях (способ доставки, оплаты)
       index:
         event:
@@ -1592,15 +1035,15 @@ ru:
         dictionary_entities: Элементы справочника (%{count} шт.)
       index:
         properties: Свойства товаров
-        add_submit: 'Добавить справочник'
+        add_submit: Добавить справочник
     dictionary_entities:
       form:
         tabs:
           dictionary_entity: Элемент справочника
           seo: SEO
       index:
-        sort: 'Отсортировать по алфавиту'
-        add_button: 'Добавить элемент'
+        sort: Отсортировать по алфавиту
+        add_button: Добавить элемент
       empty: Элементов нет
       tooltips:
         products_count: Всего
@@ -1623,25 +1066,25 @@ ru:
       edit:
         name: 'Имя:'
         phone: 'Телефон:'
-        email: 'Email'
+        email: Email
       index:
-        roles: 'Роли сотрудников'
+        roles: Роли сотрудников
         current_members: 'Текущие сотрудники:'
     product_page:
       form:
         labels:
-          show_similar_products: 'Показывать подобные товары'
+          show_similar_products: Показывать подобные товары
         hints:
-          show_similar_products: 'Если включено, то на странице товара будет показываться блок "С этим товаром покупают также" согласно индивидуальным настройкам товара. Если отключено, то это блок не будет показываться никогда'
-          has_wishlists: 'Клиeнты могут добавлять товары в списки желаний и делиться ими'
-          custom_product_html: 'Устанавливается только на странице товара'
-      html_title: 'Дополнительный HTML код в <code>&lt;body&gt;</code>'
+          show_similar_products: Если включено, то на странице товара будет показываться блок "С этим товаром покупают также" согласно индивидуальным настройкам товара. Если отключено, то это блок не будет показываться никогда
+          has_wishlists: Клиeнты могут добавлять товары в списки желаний и делиться ими
+          custom_product_html: Устанавливается только на странице товара
+      html_title: Дополнительный HTML код в <code>&lt;body&gt;</code>
     google_drive_import:
       errors:
         no_access: Укажите login, password и spreadsheet_key
-        prices_conflict: 'Цена созданного товара %{product_article} (%{product_price}) не равна цене добавляемого варианта %{item_article} (%{item_price})'
+        prices_conflict: Цена созданного товара %{product_article} (%{product_price}) не равна цене добавляемого варианта %{item_article} (%{item_price})
         no_category: Не указана категория
-        no_required_column: "Нет обязательной колонки '%{c}'"
+        no_required_column: Нет обязательной колонки '%{c}'
       cols:
         category: Категория
         article: Артикул
@@ -1658,26 +1101,26 @@ ru:
         bg: Кликните тут или перетащите сюда изображение фона
       preferably_vector: (желательно векторное)
       delete:
-        logo: 'Удалить логотип'
+        logo: Удалить логотип
       callout:
-        title: 'Используйте сторонние сервисы для генерации favicons'
+        title: Используйте сторонние сервисы для генерации favicons
         body: 'Автоматически сгенерировать favicons можно здесь: <a href="http://realfavicongenerator.net" target="_blank">realfavicongenerator.net</a>'
     cloudpayments:
-      subscription_desc: 'Ежемесячная подписка на сервис %{brand_host}'
+      subscription_desc: Ежемесячная подписка на сервис %{brand_host}
     pickup_points:
       title: Пункты выдачи города '%{city}' (%{count})
       empty: Нет пунктов выдачи по запросу
       import_form:
         empty: У вас пока нет ни одного доступного пункта выдачи. Загрузите.
-        submit: 'Загрузить'
-        file: 'CSV-файл'
-      all: "Все пункты (%{count))"
+        submit: Загрузить
+        file: CSV-файл
+      all: Все пункты (%{count))
       delete_all:
-        confirm: 'Перенести все пункты в этом городе в корзину?'
-        text: 'Кинуть эти пункты в корзину'
-      load: 'Загрузить список пунктов'
-      load_empty:  Еще не загружен ни один пункт выдачи
-      load_button: 'Загрузить'
+        confirm: Перенести все пункты в этом городе в корзину?
+        text: Кинуть эти пункты в корзину
+      load: Загрузить список пунктов
+      load_empty: Еще не загружен ни один пункт выдачи
+      load_button: Загрузить
     price_kinds:
       name: Наименование
       add_button: Добавить вид цены
@@ -1689,13 +1132,13 @@ ru:
     sitemap:
       link: Ссылка на sitemap.xml Вашего магазина
       refresh:
-        title: 'Частота обновлений sitemap.xml'
+        title: Частота обновлений sitemap.xml
         product_changes: При наличии изменений в товарах и остатках <code>sitemap.xml</code> обновляется каждые 15 минут
         generated_at: Последний раз файл генерировался
         empty: Файл еще не генерировался.
       useful_links: 'Полезные ссылки:'
-      yandex_checker: 'Проверка sitemap.xml на Yandex Webmaster'
-      doc: 'Документация по sitemap.xml'
+      yandex_checker: Проверка sitemap.xml на Yandex Webmaster
+      doc: Документация по sitemap.xml
     products_settings:
       product_page:
         title: Настройки страницы товара
@@ -1703,81 +1146,88 @@ ru:
       categories:
         url: operator_categories_path
         title: Категории товаров
-        details_html: |
-          <p>Как правило, товары разложены по категориям.</p>
+        details_html: '<p>Как правило, товары разложены по категориям.</p>
+
           <p>Категории имеют древовидную структуру, каждый товар может находиться одновременно в нескольких категориях.</p>
+
+          '
       properties:
         url: operator_properties_path
         title: Свойства товаров (характеристики)
-        details_html: |
-          <p>Централизовано управляйте свойствами товаров.</p>
+        details_html: '<p>Централизовано управляйте свойствами товаров.</p>
+
           <p>Это поможет сделать автоматический фильтр товаров для клиентов.</p>
 
+          '
       tags:
         url: operator_tags_path
         title: Теги товаров
-        details_html: |
-          Список всех тегов, используемых в товарах.
+        details_html: 'Список всех тегов, используемых в товарах.
 
+          '
       dictionaries:
         url: operator_dictionaries_path
         title: Справочники
-        details_html: |
-          <p>Справочник это список значений свойств товар.</p>
+        details_html: '<p>Справочник это список значений свойств товар.</p>
+
           <p>Например список брендов или размеров.</p>
+
           <p>Один справочник может использоваться в нескольких свойствах.</p>
+
+          '
       price_kinds:
         url: operator_price_kinds_path
         title: Виды цен
-        details_html: |
-          <p>Виды цен</p>
+        details_html: '<p>Виды цен</p>
+
+          '
       recommended_products:
         url: operator_recommended_products_path
         title: Рекомендуемые товары
-        details_html:
-          <p> Настройки рекомендуемых товаров </p>
+        details_html: <p> Настройки рекомендуемых товаров </p>
       quantity_units:
         url: operator_quantity_units_path
         title: Единицы измерения
-        details_html: |
-          <p>Редактирование единиц измерении</p>
+        details_html: '<p>Редактирование единиц измерении</p>
+
+          '
     translations:
-      value_redefined: 'Значение переопределено'
+      value_redefined: Значение переопределено
     vendor_deliveries:
       list:
         title: Способы доставки
       cdek_auth_settings: Если не указан логин и пароль, то расчет обычной доставки идет от частного лица. Тарифы для ИМ требуют обязательной авторизации.
-      yandex_settings: 'Значения можно получить в личном кабинете Яндекс.Доставки, в разделе Настройки, на вкладке Интеграция → API'
+      yandex_settings: Значения можно получить в личном кабинете Яндекс.Доставки, в разделе Настройки, на вкладке Интеграция → API
       aramex_settings: Aramex account
       shipper: Данные отправителя
-      restrictions: 'Ограничения по категориям и товарам'
+      restrictions: Ограничения по категориям и товарам
       alive: Активные
       archive: Архив
-      add_button: 'Добавить способ доставки'
+      add_button: Добавить способ доставки
       cities_zero: Нет
       pickup_points_zero: Нет
       no_compatible_payment:
-        title: 'Установите совместимую оплату, иначе этой доставкой не смогут воспользоваться'
+        title: Установите совместимую оплату, иначе этой доставкой не смогут воспользоваться
         label: Нет совместимой оплаты!
       any_city_required: Требуется любой
       available_agents: Доступные агенты по доставке
       form:
-        change_delivery_times: 'Назначить определенное время'
+        change_delivery_times: Назначить определенное время
         edit_delivery_time_after_save: Редактировать время курьерской службы можно только после сохранения
-        is_comment_required: 'Дополнительное поле в форме заказа (комментарий)'
+        is_comment_required: Дополнительное поле в форме заказа (комментарий)
         actions:
-          delivery_cities: "Города (%{count})"
-          delivery_pickup_points: "Пункты выдачи (%{count})"
+          delivery_cities: Города (%{count})
+          delivery_pickup_points: Пункты выдачи (%{count})
         labels:
-          is_comment_required: 'Поле комментария обязательно?'
-          comment_field_title: 'Название поля'
-          comment_field_placeholder: 'Подсказка в поле'
-          mail_comment: 'Комментарий к доставке для писем'
+          is_comment_required: Поле комментария обязательно?
+          comment_field_title: Название поля
+          comment_field_placeholder: Подсказка в поле
+          mail_comment: Комментарий к доставке для писем
         hints:
-          city_title: 'Доставка в пределах данного города. Оставьте пустым если нет ограничений.'
-          price: "Цена в %{currency}. Оставьте пустым, если стоимость доставки будете определять после совершения заказа"
+          city_title: Доставка в пределах данного города. Оставьте пустым если нет ограничений.
+          price: Цена в %{currency}. Оставьте пустым, если стоимость доставки будете определять после совершения заказа
         placeholders:
-          city_title: 'Москва'
+          city_title: Москва
     vendor_payments:
       geidea_payment:
         title: Geidea Payment
@@ -1801,12 +1251,12 @@ ru:
       alive: Активные
       archive: Архив
       currency_settings: Настройка валюты (%{currency})
-      add_button:  'Добавить способ оплаты'
+      add_button: Добавить способ оплаты
       no_available_deliveries:
-        title: 'Установите совместимый метод доставки, иначе этой оплатой не смогут воспользоваться'
+        title: Установите совместимый метод доставки, иначе этой оплатой не смогут воспользоваться
         body: Нет совместимой доставки!
       available_agents: Доступные агенты по приему оплаты
-      available_deliveries: 'Все способы доставки'
+      available_deliveries: Все способы доставки
       available_deliveries_settings: Настройка совместимости оплаты с доставкой осуществляется на странице редактирования доставки
       cloud_payments:
         settings: Настройка CloudPayments
@@ -1827,7 +1277,7 @@ ru:
         starrys: Следующие настройки только для starrys
         hints:
           online_kassa_cert: 'Начинается на: -----BEGIN CERTIFICATE-----'
-          online_kassa_key: 'Начинается на:-----BEGIN PRIVATE KEY-----'
+          online_kassa_key: Начинается на:-----BEGIN PRIVATE KEY-----
       rbk_money:
         title: Настройка RBK Money
       robokassa:
@@ -1867,34 +1317,37 @@ ru:
       walletone:
         title: Настройка Walletone
         redexpress: В случае, если вы хотите чтобы доставщик Redexpress принимал оплату, укажите в разрешенных методах <b>RedCashRUB</b>.
-        payment_methods: 'Значения методов оплаты в Walletone'
+        payment_methods: Значения методов оплаты в Walletone
       yandex_kassa:
         title: Настройка Yandex Kassa
     walletone:
-      created: |
-        <h1> Поздравляем! </h1>
+      created: '<h1> Поздравляем! </h1>
+
         <p> Вы успешно зарегистрировались в %{brand_host} и подключили кошелек в Walletone на номер %{phone} </p>
+
         </br>
-      load_products: 'Приступить к загрузке товаров &rarr;'
+
+        '
+      load_products: Приступить к загрузке товаров &rarr;
       form:
         title: Регистрируем кошелек в Walletone
-        submit: 'Зарегистрировать'
-        disable_with: 'Регистрируем..'
+        submit: Зарегистрировать
+        disable_with: Регистрируем..
       method_payments: способы оплаты
     welcome_page:
       welcome_and_categories_settings: 'Настройки для главной страницы и страницы категории:'
       only_welcome_settings: 'Только на главной странице:'
-      all_products: 'Все товары'
-      faq: 'Частые вопросы'
-      products_sort: 'Как устанавливать порядок товаров на главной странице?'
+      all_products: Все товары
+      faq: Частые вопросы
+      products_sort: Как устанавливать порядок товаров на главной странице?
       slider: Слайдер это листаемая коллекция изображений, отображаемая в верхней части главной страницы сайта.
       tabs:
-        products: 'Список товаров'
-        texts: 'Тексты'
-        seo: 'SEO'
+        products: Список товаров
+        texts: Тексты
+        seo: SEO
     workflow_states:
       convead_key_empty: не установлен
-      order_conditions: 'Бизнес процессы'
+      order_conditions: Бизнес процессы
       add_button: Добавить статус
       any: Любой
     base:
@@ -1904,206 +1357,79 @@ ru:
         category: Категория
         position: Позиция товара в категории
       balance:
-        callout: |
-          Текущий баланс:&nbsp;
+        callout: 'Текущий баланс:&nbsp;
+
           <b>%{balance}<b>
+
+          '
         pay_from_balance: Оплатить с баланса
-      google_analytics_example: 'Пример кода для Google E-Commerce'
-      reset_filter: 'Сбросить фильтр'
+      google_analytics_example: Пример кода для Google E-Commerce
+      reset_filter: Сбросить фильтр
       ibox_widget:
-        more: 'подробнее'
+        more: подробнее
       manager_comments:
-        add_button: 'Добавить'
+        add_button: Добавить
       moysklad_info:
         stock_synced_at: Время синхронизации
       search:
-        reset: 'сбросить'
+        reset: сбросить
       search_form:
-        button: 'Найти'
+        button: Найти
       select_page:
-        title: 'Страница'
+        title: Страница
       slug_redirects:
         title: 'Действующие редиректы:'
       sms_balance:
         current: Текущий баланс SMS:&nbsp;
-        count: "%{count} шт."
+        count: '%{count} шт.'
         disabled: (Отправка SMS отключена)
-        buy: 'Купить еще SMS'
+        buy: Купить еще SMS
       stock_info:
         stock_synced_at: Дата синхронизации
         stock_stores: Склады
-        stock_dump:  Дамп данных
+        stock_dump: Дамп данных
       translation_sample:
-        change: 'изменить'
+        change: изменить
       vendor_jobs:
-        title:  Журнал загрузки
+        title: Журнал загрузки
         complete: Завершено
-        speed: "%{count} позиций в час"
+        speed: '%{count} позиций в час'
       walletone:
-        callout: |
-          Мета-тег с именем <code>w1-verification</code> для подтверждения владения сайтом, добавится автоматически
+        callout: 'Мета-тег с именем <code>w1-verification</code> для подтверждения владения сайтом, добавится автоматически
+
           после ввода номера кошелька и секретного ключа в платежной системе Walletone
+
+          '
       yandex_metrika_example:
-        title: 'Пример кода для Yandex Metrika'
-    common_pages_widgets:
-      welcome:
-        title: Главная страница
-        url: operator_welcome_page_path
-        details_html: 'Порядок товаров, заказ в один клик, слайдер и другие настройки главной страницы'
-      product:
-        title: Страница товара
-        url: operator_product_page_path
-        details_html: 'Позиция отображения изображения и другие настройки страницы товара'
-      category:
-        title: Страница категории
-        url: operator_category_page_path
-        details_html: 'Настройки страницы категории'
-      order:
-        title: Страница корзины и заказа
-        url: operator_order_page_path
-        details_html: 'Настройки страницы корзины и заказа'
-
-    modules_widgets:
-      header:
-        title: Шапка сайта
-        url: operator_header_path
-        details_html: 'Шапка сайта, отображающаяся на каждой странице. Тут название сайта и контакты для связи.'
-      footer:
-        title: Подвал сайта
-        url: operator_footer_path
-        details_html: 'Подвал сайта, отображающийся на каждой странице'
-      menu:
-        title: Меню на сайте
-        url: operator_menu_items_path
-        details_html: 'На каждой странице сата показывается меню. По-умолчанию оно генерируется автоматически, но Вы можете его настроить на свой лад'
-      filter:
-        title: Фильтр товаров
-        url: operator_filter_path
-        details_html: 'На главной странице и на странице категории может показываться удобный фильтр товаров по цене, наличию и любым другим свойствам'
-      slider:
-        title: Слайдер на главой странице
-        url: operator_slider_images_path
-        details_html: 'Листаемая коллекция изображений привлекающая внимание. Отображается в верхней части главной страницы сайта.'
-      top_banner:
-        title: Баннер в шапке (промо-сообщение)
-        url: operator_top_banner_path
-        details_html: |
-          <p>Это сообщение в одну строку отображаемое в верхней части сайта.</p>
-          <p>Хорошо подходит для уведомления о промо-акциях.</p>
-      asset_images:
-        url: operator_asset_images_path
-        title: Изображения для контента
-        details_html: Полный список изображений, используемых на сайте
-
-    slug_widgets:
-      slug_resources:
-        url: operator_slug_resources_path
-        title: Человеко-читаемые пути
-        details_html: |
-          <p>Каждому объектву в системе можно задать удобный путь, понятный для людей.</p>
-          <p>Например, вместо <code>/products/123</code> использовать <code>/kofta</code></p>
-
-      slug_redirects:
-        url: operator_slug_redirects_path
-        title: Редиректы (301)
-        details_html: |
-          Установите редиректы со страниц, которые Вы уже удалили или на которые пользователя часто попадают, чтобы не терять клиентов.
-
-      robots:
-        url: operator_robots_path
-        title: Настройка robots.txt
-        details_html: robots.txt автоматически генерируется, но Вы можете что-то подправить, если хотите
-
-      sitemap:
-        url: operator_sitemap_path
-        title: Карта сайта (sitemap.xml)
-        details_html: Карта сайта (sitemap.xml) автоматически генерируется, но Вы можете что-то подправить, если хотите
-
-      extra_js:
-        title: JavaScript на каждой странице сайта
-        url: operator_extra_js_path
-        details_html: JavaScript код на каждую страницу сайта.
-      https:
-        title: Шифрование и HTTPS
-        url: operator_https_path
-        details_html: 'Подключенное шифрование по протоколу SSL позволит поисковым сервисам выше оценить ваш сайт, а у клиентов вызывает большое доверие'
-
-      cache:
-        title: Кеширование и оптимизация
-        url: operator_cache_path
-        details_html: 'Редко, но иногда необходимо вручную обновить кеш, чтобы быстрее применились последние изменения. Так-же тут можно настроить время кеширования HTTP-запросов'
-
-    styles_widgets:
-      css:
-        title: Дополнительные стили (CSS)
-        url: operator_css_path
-        details_html: Настраивайте оформление сайта (стили, цвета, фон, шрифты) на свой вкус.
-      extra_html:
-        title: Дополнительный HTML
-        url: operator_extra_html_path
-        details_html: Дополнительный HTML код на каждую страницу сайта.
-      logo:
-        title: Логотип и favicons
-        url: operator_favicons_path
-        details_html: Логотип и favicons
-
-      design:
-        title: Интерактивный дизайн
-        url: design_operator_shop_path
-        details_html: Вас переключит на виджет интерактивного дизайне прямо на сайте
-
-    ecr_settings_widgets:
-      locations:
-        title: Филиалы
-        url: operator_ecr_branches_path
-        details_html: Редактирование филиалов
-      units:
-        title: Единицы измерения
-        url: operator_quantity_units_path
-        details_html: Редактирование едениц измерения
-      external_devices:
-        title: Внешние устройства
-        url: operator_external_devices_path
-        details_html: Редактирование внешних устройств
-
+        title: Пример кода для Yandex Metrika
     orders_settings:
       workflow_states:
         url: operator_workflow_states_path
         title: Статусы заказов
         details_html: Установите такие статусы заказов, которые Вам удобны.
-
       order_operator_filters:
         url: operator_order_operator_filters_path
         title: Фильтры заказов
         details_html: Фильтры товаров, которые оператор создал для себя.
-
       order_conditions:
         url: operator_order_conditions_path
         title: Бизнес-процессы
         details_html: Это правила по которым заказы передвигаются в воронке.
-        used_count: "%{used_count} раз"
-
-      #notify_templates:
-        #feature: notify_templates
-        #url: operator_mail_templates_path
-        #title: Уведомления
-        #details_html: Настраивайте условия и тексты шаблонов SMS и email уведомлений о заказах для клиентов и менеджеров.
-
+        used_count: '%{used_count} раз'
       coupons:
         feature: coupon
         url: operator_coupons_path
         title: Купоны
         details_html: Скидочные купоны (промокоды) для Ваших покупателей.
-
     properties:
       show_in_filter: Показывать в фильтре?
       use_in_short_details: Показывать в описании товаров, <br/> в каталоге и на главной?
       display_order: Порядок отображения свойства в фильтре
       values: Значения свойства (%{count})
       value: Значение
-      value_number: 'N'
-      dictionaries: 'Справочники'
-      add_button: 'Добавить свойство'
+      value_number: N
+      dictionaries: Справочники
+      add_button: Добавить свойство
     nomenclatures:
       product: 'Продукт: %{product_link}'
       quantity: 'Количество: %{quantity}, из них в резерве %{reserve_quantity}'
@@ -2130,8 +1456,8 @@ ru:
       inventory_item: Номенклатура
       unit: Единица измерения
       opening_balance: Остаток на начало
-      time_frame_change:  Движения за период
-      closing_balance:  Остаток на конец
+      time_frame_change: Движения за период
+      closing_balance: Остаток на конец
       incoming: Приход
       outgoing: Расход
       in_stock: Количество

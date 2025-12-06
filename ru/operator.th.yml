@@ -1,0 +1,171 @@
+ru:
+  operator:
+    th:
+      slug_resources:
+        url_path: URL путь
+        page_type: Тип страницы
+        name: Название
+      ecr_documents:
+        datetime: Время
+        type: Тип
+        cashier: Касса
+        details: Описание
+        comment: Комментарии
+        debit: Дебит
+        credit: Кредит
+      external_devices:
+        name: Название
+        ip: IP address
+        port: Port
+      archived_css:
+        archive_css: CSS
+        operator: Кто изменил
+      vendor_jobs:
+        id: ID
+        created_at: Создано
+        state: Статус
+        title: Название
+        progress: Процесс
+        download: Осталось
+        stats: Статистика
+      transactions:
+        date: Дата операции
+        amount: Сумма
+        period: Период
+        details: Расшифровка
+      slug_redirects:
+        path: Путь
+        resource: Редирект
+        last_at: Последний заход
+      roles:
+        resource_type: Раздел сайта
+        can_read: Чтение
+        can_create: Создание
+        can_update: Редактирование
+        can_delete: Удаление
+      pickup_points:
+        city: Город
+        address: Адрес
+        comment: Комментарий
+      not_founds:
+        last: Последний заход
+        count: Попыток
+        path: Путь
+        info: Referer / User Agent
+        actions: Действия
+      members:
+        position: Должность
+        name: Имя
+        contacts: Контакты
+        role: Роль
+        sms: Уведомления на SMS
+        telegram: Уведомления на Telegram
+        email: Уведомления на Email
+      bells:
+        subject: Название
+        text: Описание
+        datetime: Дата
+      clients:
+        average_orders_price: Средняя сумма покупки
+        actions: Действия
+        created_at: Дата регистрации
+        id: ID
+        name: Имя
+        phones: Телефоны
+        emails: E-mail
+        orders_count: Заказов
+        last_order: Последний заказ
+        occupation: Профессия
+        company_name: Наименование компании
+        first_order: Первый заказ
+        total_orders_price: 'Сумма покупок'
+        category: Категория
+        rfm: RFM
+      dictionaries:
+        name: Наименование
+        entities: Элементы
+        properties_used: Используется в свойствах
+      dictionary_entities:
+        title: Название
+        products_count: Товаров
+        published_products_count: Опубликованных товаров
+        archived_products_count: Архивированных товаров
+        actions: Действия
+        color: Цвет
+        order: Порядок
+      product_secrets:
+        id: ID / Артикул
+        title: Название
+        warehouse: Склад-источник
+        balance: Склад-остатки
+        quantity: Количество
+        sellable: Продаваемо?
+        showable: Показываемо?
+        orderable: Заказываемо?
+      shop:
+        title: Магазин
+        domain: Домен
+        products_count: Товаров
+        created: Создан
+        last_update: Последние обновления настроек
+        orders_count: Заказов
+        operator: Оператор
+        operator_phone: Телефон оператора
+        operator_link: Операторская
+      carts:
+        created: Создана
+        changed: Изменена
+        total_price: Стоимость
+        city: Город
+        products: Товары
+      ms:
+        start: Старт
+        time: Время
+        result: Результат
+        stats: Статистика
+      products:
+        image: Изображение
+        desc: Описание
+        amount: Количество
+        price: Цена
+        state: Статус
+        item_name: Название
+        vendor_code: Артикул
+        stock_quantity: Количество
+        display: Опубликован
+        edit: Редактирование
+      properties:
+        name: Название
+        in_use: Используется
+      vendor_sms_log_entities:
+        message: Сообщение
+        phones: Телефоны
+        result: Результат
+        date: Дата
+      invoices:
+        account_number: Номер счета
+        date: Дата
+        decryption: Расшифровка
+        to: На счет
+        amount: Сумма
+        status: Статус
+      cities:
+        locale: Город (%{locale})
+        pickup_points: Пункты выдачи
+      client_categories:
+        name: Наименование
+      branches:
+        name: Название
+      cashier:
+        name: Название
+      currencies:
+        currencies: Валюты
+        central_bank: Центральный банк
+        your_currency: Ваш курс
+      orders:
+        order: Заказ
+        price: Цена
+        item: Позиция
+        location: Доставка
+        payment_status: Статус оплаты
+        status: Статус

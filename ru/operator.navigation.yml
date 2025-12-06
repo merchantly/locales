@@ -1,0 +1,49 @@
+ru:
+  operator:
+    navigation:
+      profile: 'Профиль'
+      dashboard: 'Что делать дальше?'
+      my_shop: 'Магазин'
+      goods: 'Товары'
+      orders: 'Заказы'
+      clients: 'Клиенты'
+      content: 'Управление сайтом'
+      settings: 'Общие настройки'
+      ecr: 'Склад'
+      reports: 'Отчеты'
+      disabled_content: 'Выберите магазин'
+
+    profile_navigation:
+      index: 'Профиль'
+      vendors: 'Магазины'
+      subscriptions: 'Подписки'
+      access_keys: 'Ключи доступа (API)'
+      partner: 'Партнёрский кабинет'
+
+    content_navigation:
+      domain: 'Адрес сайта'
+      pages: 'Типовые страницы'
+      elements: 'Элементы на сайте'
+      design: 'Оформление (CSS, HTML)'
+      content_pages: 'Текстовые страницы'
+      custom_pages: 'Кастомные HTML-страницы'
+      blog_posts: 'Новости или блог'
+      lookbooks: 'Лукбуки'
+      subscriptions: 'Email-подписки'
+      translations: 'Тексты на сайте'
+      other: 'SEO и прочее'
+
+    settings_navigation:
+      legal: 'Юридическая информация'
+      pay: 'Прием оплаты от клиентов'
+      delivery: 'Способы доставки'
+      orders: 'Настройки заказов'
+      products: 'Настройки товаров'
+      subscriptions: 'Уведомления (email, sms, telegram)'
+      integrations: 'Интеграция и обмен данными'
+      members: 'Сотрудники и права доступа'
+      billing: 'Тариф и оплата'
+      bells: 'Уведомления'
+      branches: 'Филиалы'
+      cashiers: 'Кассы'
+      external_devices: 'Внешние устройства'

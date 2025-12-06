@@ -1,0 +1,122 @@
+ru:
+  operator:
+    common_pages_widgets:
+      welcome:
+        title: Главная страница
+        url: operator_welcome_page_path
+        details_html: 'Порядок товаров, заказ в один клик, слайдер и другие настройки главной страницы'
+      product:
+        title: Страница товара
+        url: operator_product_page_path
+        details_html: 'Позиция отображения изображения и другие настройки страницы товара'
+      category:
+        title: Страница категории
+        url: operator_category_page_path
+        details_html: 'Настройки страницы категории'
+      order:
+        title: Страница корзины и заказа
+        url: operator_order_page_path
+        details_html: 'Настройки страницы корзины и заказа'
+
+    modules_widgets:
+      header:
+        title: Шапка сайта
+        url: operator_header_path
+        details_html: 'Шапка сайта, отображающаяся на каждой странице. Тут название сайта и контакты для связи.'
+      footer:
+        title: Подвал сайта
+        url: operator_footer_path
+        details_html: 'Подвал сайта, отображающийся на каждой странице'
+      menu:
+        title: Меню на сайте
+        url: operator_menu_items_path
+        details_html: 'На каждой странице сата показывается меню. По-умолчанию оно генерируется автоматически, но Вы можете его настроить на свой лад'
+      filter:
+        title: Фильтр товаров
+        url: operator_filter_path
+        details_html: 'На главной странице и на странице категории может показываться удобный фильтр товаров по цене, наличию и любым другим свойствам'
+      slider:
+        title: Слайдер на главой странице
+        url: operator_slider_images_path
+        details_html: 'Листаемая коллекция изображений привлекающая внимание. Отображается в верхней части главной страницы сайта.'
+      top_banner:
+        title: Баннер в шапке (промо-сообщение)
+        url: operator_top_banner_path
+        details_html: |
+          <p>Это сообщение в одну строку отображаемое в верхней части сайта.</p>
+          <p>Хорошо подходит для уведомления о промо-акциях.</p>
+      asset_images:
+        url: operator_asset_images_path
+        title: Изображения для контента
+        details_html: Полный список изображений, используемых на сайте
+
+    slug_widgets:
+      slug_resources:
+        url: operator_slug_resources_path
+        title: Человеко-читаемые пути
+        details_html: |
+          <p>Каждому объектву в системе можно задать удобный путь, понятный для людей.</p>
+          <p>Например, вместо <code>/products/123</code> использовать <code>/kofta</code></p>
+
+      slug_redirects:
+        url: operator_slug_redirects_path
+        title: Редиректы (301)
+        details_html: |
+          Установите редиректы со страниц, которые Вы уже удалили или на которые пользователя часто попадают, чтобы не терять клиентов.
+
+      robots:
+        url: operator_robots_path
+        title: Настройка robots.txt
+        details_html: robots.txt автоматически генерируется, но Вы можете что-то подправить, если хотите
+
+      sitemap:
+        url: operator_sitemap_path
+        title: Карта сайта (sitemap.xml)
+        details_html: Карта сайта (sitemap.xml) автоматически генерируется, но Вы можете что-то подправить, если хотите
+
+      extra_js:
+        title: JavaScript на каждой странице сайта
+        url: operator_extra_js_path
+        details_html: JavaScript код на каждую страницу сайта.
+      https:
+        title: Шифрование и HTTPS
+        url: operator_https_path
+        details_html: 'Подключенное шифрование по протоколу SSL позволит поисковым сервисам выше оценить ваш сайт, а у клиентов вызывает большое доверие'
+
+      cache:
+        title: Кеширование и оптимизация
+        url: operator_cache_path
+        details_html: 'Редко, но иногда необходимо вручную обновить кеш, чтобы быстрее применились последние изменения. Так-же тут можно настроить время кеширования HTTP-запросов'
+
+    styles_widgets:
+      css:
+        title: Дополнительные стили (CSS)
+        url: operator_css_path
+        details_html: Настраивайте оформление сайта (стили, цвета, фон, шрифты) на свой вкус.
+      extra_html:
+        title: Дополнительный HTML
+        url: operator_extra_html_path
+        details_html: Дополнительный HTML код на каждую страницу сайта.
+      logo:
+        title: Логотип и favicons
+        url: operator_favicons_path
+        details_html: Логотип и favicons
+
+      design:
+        title: Интерактивный дизайн
+        url: design_operator_shop_path
+        details_html: Вас переключит на виджет интерактивного дизайне прямо на сайте
+
+    ecr_settings_widgets:
+      locations:
+        title: Филиалы
+        url: operator_ecr_branches_path
+        details_html: Редактирование филиалов
+      units:
+        title: Единицы измерения
+        url: operator_quantity_units_path
+        details_html: Редактирование едениц измерения
+      external_devices:
+        title: Внешние устройства
+        url: operator_external_devices_path
+        details_html: Редактирование внешних устройств

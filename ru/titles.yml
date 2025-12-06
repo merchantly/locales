@@ -10,3 +10,5 @@ ru:
       default_welcome_category: Главная страница
     warehouses:
       default: Склад по-умолчанию
+    fallback_good:
+      default: Товар
