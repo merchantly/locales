@@ -157,6 +157,12 @@ ru:
             desc: "Обновить настройки AmoCRM"
         test:
           desc: "Тестирование подключения AmoCRM"
+      vendor_deliveries:
+        list:
+          title: "Способы доставки"
+          city_title: "Название города"
+          vendor_delivery_id: "ID способа доставки"
+          postal_code: "Почтовый индекс"
       legal:
         params:
           legal_name: "Юридическое название"

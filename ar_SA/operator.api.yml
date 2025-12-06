@@ -157,6 +157,12 @@ ar_SA:
             desc: "تحديث إعدادات AmoCRM"
         test:
           desc: "اختبار اتصال AmoCRM"
+      vendor_deliveries:
+        list:
+          title: "طرق التوصيل"
+          city_title: "اسم المدينة"
+          vendor_delivery_id: "معرف طريقة التوصيل"
+          postal_code: "الرمز البريدي"
       legal:
         params:
           legal_name: "الاسم القانوني"

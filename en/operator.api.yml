@@ -157,6 +157,12 @@ en:
             desc: "Update AmoCRM settings"
         test:
           desc: "Test AmoCRM connection"
+      vendor_deliveries:
+        list:
+          title: "Delivery methods"
+          city_title: "City name"
+          vendor_delivery_id: "Delivery method ID"
+          postal_code: "Postal code"
       legal:
         params:
           legal_name: "Legal name"
