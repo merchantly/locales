@@ -11,4 +11,4 @@ ru:
     warehouses:
       default: Склад по-умолчанию
     fallback_good:
-      default: Товар
+      default: Товар по-умолчанию

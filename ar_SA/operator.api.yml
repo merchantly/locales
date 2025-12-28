@@ -69,7 +69,7 @@ ar_SA:
         position:
           desc: "تغيير موضع الصورة"
           params:
-            position: "موضع الصورة"
+            position: "الموضع الجديد"
       categories:
         list: "قائمة الفئات"
         tree: "شجرة الفئات"
@@ -157,12 +157,6 @@ ar_SA:
             desc: "تحديث إعدادات AmoCRM"
         test:
           desc: "اختبار اتصال AmoCRM"
-      vendor_deliveries:
-        list:
-          title: "طرق التوصيل"
-          city_title: "اسم المدينة"
-          vendor_delivery_id: "معرف طريقة التوصيل"
-          postal_code: "الرمز البريدي"
       legal:
         params:
           legal_name: "الاسم القانوني"
@@ -176,3 +170,9 @@ ar_SA:
           legal_region: "المنطقة"
           legal_country_code: "رمز البلد"
           tin: "الرقم الضريبي"
+      vendor_deliveries:
+        list:
+          title: "طرق توصيل ياندكس"
+          city_title: "اسم المدينة"
+          vendor_delivery_id: "معرف طريقة التوصيل"
+          postal_code: "الرمز البريدي"

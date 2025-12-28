@@ -69,7 +69,7 @@ ru:
         position:
           desc: "Изменить позицию изображения"
           params:
-            position: "Позиция изображения"
+            position: "Новая позиция"
       categories:
         list: "Список категорий"
         tree: "Дерево категорий"
@@ -157,12 +157,6 @@ ru:
             desc: "Обновить настройки AmoCRM"
         test:
           desc: "Тестирование подключения AmoCRM"
-      vendor_deliveries:
-        list:
-          title: "Способы доставки"
-          city_title: "Название города"
-          vendor_delivery_id: "ID способа доставки"
-          postal_code: "Почтовый индекс"
       legal:
         params:
           legal_name: "Юридическое название"
@@ -176,3 +170,9 @@ ru:
           legal_region: "Регион"
           legal_country_code: "Код страны"
           tin: "ИНН (TIN)"
+      vendor_deliveries:
+        list:
+          title: "Способы доставки Яндекс"
+          city_title: "Название города"
+          vendor_delivery_id: "ID способа доставки"
+          postal_code: "Почтовый индекс"

@@ -69,7 +69,7 @@ en:
         position:
           desc: "Change image position"
           params:
-            position: "Image position"
+            position: "New position"
       categories:
         list: "Categories list"
         tree: "Categories tree"
@@ -157,12 +157,6 @@ en:
             desc: "Update AmoCRM settings"
         test:
           desc: "Test AmoCRM connection"
-      vendor_deliveries:
-        list:
-          title: "Delivery methods"
-          city_title: "City name"
-          vendor_delivery_id: "Delivery method ID"
-          postal_code: "Postal code"
       legal:
         params:
           legal_name: "Legal name"
@@ -176,3 +170,9 @@ en:
           legal_region: "Region"
           legal_country_code: "Country code"
           tin: "TIN"
+      vendor_deliveries:
+        list:
+          title: "Yandex delivery methods"
+          city_title: "City name"
+          vendor_delivery_id: "Delivery method ID"
+          postal_code: "Postal code"
