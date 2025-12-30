@@ -113,14 +113,8 @@ en:
         OrderItem: Order positions
         ClientCategory: Customer Categories
         PriceKind: Types of Price
-        Ecr::Branch: Locals
-        Ecr::Cashier: Cash Accounts
-        Ecr::Document: Financal Transactions
         ProductVatGroup: Product VAT Groups
-        Ecr::WarehouseMovement: Warehouse Transactions
         QuantityUnit: Quantity Units
-        Ecr::Nomenclature: Inventory Items
-        Ecr::Drawer: Drawers
         ExternalDevice: External Devices
         ProductItem: Product Variations
     member:

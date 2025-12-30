@@ -94,14 +94,8 @@ ar_SA:
         OrderItem: مواضع الطلب
         ClientCategory: فئات العملاء
         PriceKind: أنواع الأسعار
-        Ecr::Branch: السكان المحليون
-        Ecr::Cashier: الحسابات النقدية
-        Ecr::Document: المعاملات المالية
         ProductVatGroup: ""
-        Ecr::WarehouseMovement: معاملات المستودع
         QuantityUnit: وحدات الكمية
-        Ecr::Nomenclature: عناصر المخزون
-        Ecr::Drawer: الأدراج
         ExternalDevice: الأجهزة الخارجية
         ProductItem: الاختلافات في المنتج
     member:

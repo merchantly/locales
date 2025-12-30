@@ -90,14 +90,8 @@ ru:
         OrderItem: Позиции заказа
         ClientCategory: Категория клиента
         PriceKind: Тип Цены
-        Ecr::Branch: ECR Филиал
-        Ecr::Cashier: ECR Касса
-        Ecr::Document: ECR Документ
         ProductVatGroup: Налоговая группа товаров
-        Ecr::WarehouseMovement: Перемещение по складу
         QuantityUnit: Единица измерения
-        Ecr::Nomenclature: Номенклатура
-        Ecr::Drawer: Смена кассы
         ExternalDevice: Внешнее устройство
         ProductItem: Вариант продукта
         CustomPage: Кастомные страницы
