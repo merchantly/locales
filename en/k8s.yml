@@ -1,0 +1,9 @@
+en:
+  k8s:
+    errors:
+      dns_not_configured: 'Domain DNS is not configured to IP 5.188.138.96'
+      cert_timeout: 'SSL certificate issuance timeout'
+      domain_conflict: 'Domain is already used by another store'
+      k8s_unavailable: 'Kubernetes API is unavailable'
+      ingress_create_failed: 'Failed to create Ingress'
+      cert_failed: 'SSL certificate issuance failed'

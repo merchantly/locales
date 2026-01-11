@@ -1,0 +1,9 @@
+ru:
+  k8s:
+    errors:
+      dns_not_configured: 'DNS домена не настроен на IP 5.188.138.96'
+      cert_timeout: 'Таймаут выпуска SSL сертификата'
+      domain_conflict: 'Домен уже используется другим магазином'
+      k8s_unavailable: 'Kubernetes API недоступен'
+      ingress_create_failed: 'Ошибка создания Ingress'
+      cert_failed: 'Ошибка выпуска SSL сертификата'
