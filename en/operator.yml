@@ -997,7 +997,7 @@ en:
       form:
         suggested_domain:
           label: 'New domain (site address)'
-          hint: 'Domain that you plan to use in the future. Your store will automatically go to this domain as soon as you set up DNS.'
+          hint: 'Domain that you plan to use in the future. Set up an A record for your domain pointing to IP: %{dns_ip}. Your store will automatically switch to this domain once DNS is configured.'
       pending_domain_binding: 'Domain linking expected: %{link}'
       additional_domains: Additional domains
       subdomain: "Technical (backup) address in the zone %{domain_zone}"
