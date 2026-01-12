@@ -29,16 +29,6 @@ ar_SA:
       wrong_pin_code: رمز رقم التعريف الشخصي خاطئ
       subscriptions_updated: 'تم تحديث تفضيلات الاشتراك'
 
-    chart:
-      selling_vendors:
-        month: 'متاجر المبيعات شهريًا'
-        week: 'بيع المتاجر أسبوعيًا'
-      vendors: 'تسجيل المتاجر'
-      orders:
-        all: 'الطلبات'
-        paid: 'الطلبات المكتملة'
-      payments: 'الدفع مقابل الطلبات (بالروبل)'
-
     welcome_form:
       go: بدء
 
@@ -70,24 +60,6 @@ ar_SA:
     leads:
       title: تم قبول طلبك.
       body: "إذا لم نعاود الاتصال بك في غضون 12 ساعة، يُرجى الاتصال"
-    metrics:
-      vendor_cellers_count: 'المتاجر المُباعة:'
-      weekly_orders_summ: 'تم إصدار الفاتورة:'
-      weekly_average_order_amount: 'متوسط الفاتورة:'
-      weekly_payments_summ: 'الطلبات المدفوعة:'
-      monthly_orders_summ: 'تم إصدار الفاتورة'
-      monthly_average_order_amount: 'متوسط الفاتورة:'
-      monthly_payments_summ: 'الطلبات المدفوعة:'
-      weekly: خلال الأسبوع
-      monthly: شهرياً
-      paid_least_once: تم دفع مقابل طلب واحد على الأقل طوال الوقت.
-      period_options:
-        one_month: 'شهر واحد'
-        three_months: '3 أشهر'
-        six_months: '6 أشهر'
-        year: 'سنة'
-      data_for_date: البيانات عبر
-      refresh_to: تم التحديث في
     operator_vendors:
       title: "المتاجر المتاحة لك (%{count})"
       products_count: 'البضائع:'

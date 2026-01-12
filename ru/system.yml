@@ -29,16 +29,6 @@ ru:
       wrong_pin_code: 'Неверный код, посмотрите внимательнее'
       subscriptions_updated: 'Настройки подписок сохранены'
 
-    chart:
-      selling_vendors:
-        month: 'Продающих мерчантов в месяц'
-        week: 'Продающих мерчантов в неделю'
-      vendors: 'Регистрация мерчантов'
-      orders:
-        all: 'Заказы'
-        paid: 'Заказы выполненные'
-      payments: 'Оплата заказов (%{brand_currency})'
-
     welcome_form:
       go: Поехали!
 
@@ -70,24 +60,6 @@ ru:
     leads:
       title: Ваша заявка принята.
       body: Если мы не перезвоним Вам в течении 12 часов, пожалуйста, наберите
-    metrics:
-      vendor_cellers_count: 'Продававших мерчантов:'
-      weekly_orders_summ: 'Выставлено счетов:'
-      weekly_average_order_amount: 'Средний чек:'
-      weekly_payments_summ: 'Оплачено заказов:'
-      monthly_orders_summ: 'Выставлено счетов'
-      monthly_average_order_amount: 'Средний чек:'
-      monthly_payments_summ: 'Оплачено заказов:'
-      weekly: За неделю
-      monthly: За месяц
-      paid_least_once: Оплачен хотя бы один заказ за все время
-      period_options:
-        one_month: '1 месяц'
-        three_months: '3 месяца'
-        six_months: '6 месяцев'
-        year: 'Год'
-      data_for_date: Данные на
-      refresh_to: Обновление в
     operator_vendors:
       title: Доступные Вам магазины (%{count})
       products_count: 'Товаров: '

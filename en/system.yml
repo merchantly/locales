@@ -29,16 +29,6 @@ en:
       wrong_pin_code: Wrong pin code
       subscriptions_updated: 'Subscription preferences are updated'
 
-    chart:
-      selling_vendors:
-        month: 'Sales stores per month'
-        week: 'Selling stores a week'
-      vendors: 'Registration of stores'
-      orders:
-        all: 'Orders'
-        paid: 'Orders completed'
-      payments: 'Payment for orders (in rubles)'
-
     welcome_form:
       go: Start
 
@@ -70,24 +60,6 @@ en:
     leads:
       title: Your application is accepted.
       body: "If we do not call you back within 12 hours, please dial"
-    metrics:
-      vendor_cellers_count: 'Sold stores:'
-      weekly_orders_summ: 'Billed:'
-      weekly_average_order_amount: 'Average bill:'
-      weekly_payments_summ: 'Paid orders:'
-      monthly_orders_summ: 'Billed'
-      monthly_average_order_amount: 'Average bill:'
-      monthly_payments_summ: 'Paid orders:'
-      weekly: During the week
-      monthly: Per month
-      paid_least_once: Paid at least one order for all time.
-      period_options:
-        one_month: '1 month'
-        three_months: '3 months'
-        six_months: '6 months'
-        year: 'Year'
-      data_for_date: Data on
-      refresh_to: Update in
     operator_vendors:
       title: "Stores available to you (%{count})"
       products_count: 'Goods:'
