@@ -54,6 +54,8 @@ en:
       subject: 'Welcome'
     notify_shop_will_archive:
       subject: 'Payment Notification'
+    notify_shop_will_delete:
+      subject: 'Store Deletion Notification'
     vendor_archived:
       subject: 'Store archived'
   support_mailer:

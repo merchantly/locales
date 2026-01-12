@@ -2119,6 +2119,10 @@ ar_SA:
         feature: قسيمة
         title: قسيمات الخصم
         details_html: قسيمات الخصم (الرموز الترويجية) لعملائك.
+      allowances:
+        url: operator_allowance_path
+        title: الرسوم الإضافية
+        details_html: تكوين الحد الأدنى والحد الأقصى للرسوم الإضافية.
 
     properties:
       show_in_filter: "هل تريد إدخال عامل التصفية؟"
