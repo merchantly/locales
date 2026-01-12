@@ -282,6 +282,8 @@ ru:
       amount: Количество
       weight: Вес
       overall: 'Итого:'
+      vat_amount: 'В том числе НДС:'
+      total_without_amount: 'Сумма без НДС:'
       title: Корзина
       clear: Очистить корзину
       not_available: Больше не продается
