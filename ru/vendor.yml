@@ -256,6 +256,7 @@ ru:
       free_delivery_tooltip: Бесплатная доставка
       processing: 'Заказ оформляется. Подождите минутку'
       wait: 'Подождите...'
+      total_vat: '(в т.ч. НДС: %{total_vat}, без НДС: %{total_without_vat})'
 
     blog:
       read_more: Читать далее..

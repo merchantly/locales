@@ -216,7 +216,7 @@ ar_SA:
         first_name: ألكسندر
         second_name: إيفانوف
         patronymic: أوليجوفيش
-      total_vat: ''
+      total_vat: '(ضريبة القيمة المضافة: %{total_vat}، بدون الضريبة: %{total_without_vat})'
       submit: إتمام عملية الشراء
       pickup_address: 'عنوان الاستلام:'
       title: "رقم%{number} الطلب في %{vendor}"
