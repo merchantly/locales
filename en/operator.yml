@@ -2100,6 +2100,10 @@ en:
         feature: coupon
         title: Coupons
         details_html: Discount coupons (promotional codes) for your customers.
+      allowances:
+        url: operator_allowance_path
+        title: Surcharges
+        details_html: Configure minimum and maximum surcharges.
 
     properties:
       show_in_filter: "Do you want to show in the filter?"
