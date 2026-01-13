@@ -1067,6 +1067,10 @@ en:
       updated: VAT group updated
       created: VAT group created
       destroyed: VAT group destroyed
+      tax_type_without_vat_warning_html: >-
+        Your store uses a "no VAT" taxation system.
+        Setting a default VAT group is not available.
+        <a href="%{legal_url}">Change taxation settings</a>
     legal:
       product_vat_groups: Edit VAT groups
       subtitle: The information is used for invoicing and when working with online cash registers.

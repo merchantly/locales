@@ -7,6 +7,12 @@ en:
       merchant_id_invalid_error:
         message: 'Invalid Merchant ID. Please contact your Geidea manager'
     negative_vats: 'VAT value must be equal or large than zero: %{examples}'
+    vendor:
+      vat_group_incompatible_with_tax_type: >-
+        VAT group cannot be set for a store with "no VAT" taxation system.
+        Change the taxation system in legal settings.
+      vat_group_must_be_zero_for_zero_vat_tax_type: >-
+        For "VAT 0%" taxation system, you must select a VAT group with zero rate.
     format: '%{attribute} %{message}'
     import_from_spreadsheet:
       not_allowed_locale: 'First set the locale %{locale} in the settings'
