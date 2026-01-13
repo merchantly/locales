@@ -7,6 +7,8 @@ ru:
       vat_group_incompatible_with_tax_type: >-
         Группа НДС не может быть установлена для магазина с системой налогообложения «без НДС».
         Измените систему налогообложения в юридических настройках.
+      vat_group_must_be_zero_for_zero_vat_tax_type: >-
+        Для системы налогообложения «НДС 0%» необходимо выбрать группу НДС с нулевой ставкой.
     format: ! '%{attribute} %{message}'
     import_from_spreadsheet:
       not_allowed_locale: 'Сначало установите локаль %{locale} в настройках'
