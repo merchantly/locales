@@ -3,6 +3,10 @@ ru:
     address_validator: 'Допустимые символы А-Я, A-Z, 0-9, `, -, /, .'
     name_validator: 'Допустимые символы А-Я, A-Z, `, -'
     negative_vats: 'НДС должен быть больше или равен нулю: %{examples}'
+    vendor:
+      vat_group_incompatible_with_tax_type: >-
+        Группа НДС не может быть установлена для магазина с системой налогообложения «без НДС».
+        Измените систему налогообложения в юридических настройках.
     format: ! '%{attribute} %{message}'
     import_from_spreadsheet:
       not_allowed_locale: 'Сначало установите локаль %{locale} в настройках'
