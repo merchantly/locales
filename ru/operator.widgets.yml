@@ -78,10 +78,6 @@ ru:
         title: JavaScript на каждой странице сайта
         url: operator_extra_js_path
         details_html: JavaScript код на каждую страницу сайта.
-      https:
-        title: Шифрование и HTTPS
-        url: operator_https_path
-        details_html: 'Подключенное шифрование по протоколу SSL позволит поисковым сервисам выше оценить ваш сайт, а у клиентов вызывает большое доверие'
 
       cache:
         title: Кеширование и оптимизация
