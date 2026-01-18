@@ -40,6 +40,7 @@ ru:
       openbill_account: Биллинговые счета
       openbill_transaction: Транзакции
       vendor_sms_log_entity: Журнал SMS
+      vendor_smtp_settings: Настройки SMTP
       vendor_common_transaction: Списание абонентской платы
       dictionary: Словарь
       dictionary_entity: Элемент словаря
@@ -701,6 +702,37 @@ ru:
         to: До
         time: Время
         days_count: Кол-во дней
+      vendor_smtp_settings:
+        host: SMTP сервер
+        port: Порт
+        username: Логин
+        password: Пароль
+        encryption: Шифрование
+        from_email: Email отправителя
+        from_name: Имя отправителя
+        reply_to_email: Адрес для ответов
+        authentication: Аутентификация
+        helo_domain: HELO домен
+        open_timeout: Таймаут подключения (сек)
+        read_timeout: Таймаут чтения (сек)
+        ssl_verify: Проверять SSL-сертификат
+        status: Статус
+        last_verified_at: Последняя проверка
+        enabled_at: Включено с
+        last_error: Последняя ошибка
+        encryption_options:
+          none: Без шифрования
+          ssl: SSL/TLS
+          starttls: STARTTLS
+        authentication_options:
+          plain: PLAIN
+          login: LOGIN
+          cram_md5: CRAM-MD5
+        status_options:
+          pending_verification: Ожидает проверки
+          verification_failed: Проверка не пройдена
+          verified: Проверен
+          enabled: Включен
     errors:
       messages:
         record_invalid: "%{errors}"

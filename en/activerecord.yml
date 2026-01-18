@@ -40,6 +40,7 @@ en:
       openbill_account: Billing accounts
       openbill_transaction: Transactions
       vendor_sms_log_entity: SMS log
+      vendor_smtp_settings: SMTP Settings
       vendor_common_transaction: Charge off
       dashboard_item: Step for store launch
       # Шаги в списке '5 шагов для запуска магазина'
@@ -700,6 +701,37 @@ en:
         to: From
         time: Time
         days_count: Number of days
+      vendor_smtp_settings:
+        host: SMTP Server
+        port: Port
+        username: Username
+        password: Password
+        encryption: Encryption
+        from_email: From Email
+        from_name: From Name
+        reply_to_email: Reply-To Email
+        authentication: Authentication
+        helo_domain: HELO Domain
+        open_timeout: Connection Timeout (sec)
+        read_timeout: Read Timeout (sec)
+        ssl_verify: Verify SSL Certificate
+        status: Status
+        last_verified_at: Last Verified
+        enabled_at: Enabled At
+        last_error: Last Error
+        encryption_options:
+          none: No Encryption
+          ssl: SSL/TLS
+          starttls: STARTTLS
+        authentication_options:
+          plain: PLAIN
+          login: LOGIN
+          cram_md5: CRAM-MD5
+        status_options:
+          pending_verification: Pending Verification
+          verification_failed: Verification Failed
+          verified: Verified
+          enabled: Enabled
     errors:
       messages:
         record_invalid: "%{errors}"

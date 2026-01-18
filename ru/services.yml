@@ -47,3 +47,84 @@ ru:
         sms_text: '%{url}: произошло списание средств на сумму %{amount} - %{details}. Текущий баланс: %{current_amount}'
       need_payment:
         sms_text: '%{url}: Заканчивается оплаченный период обслуживания %{unpublish_date}. К оплате %{invoice_amount} - %{payment_link}'
+
+    vendor_smtp_verification:
+      steps:
+        connection: 'Подключение к серверу'
+        encryption: 'Настройка шифрования'
+        authentication: 'Аутентификация'
+        send_test: 'Отправка тестового письма'
+      messages:
+        connection_established: 'Подключение к %{host}:%{port} установлено'
+        encryption_not_required: 'Шифрование не требуется'
+        ssl_active: 'SSL/TLS шифрование активировано'
+        starttls_active: 'STARTTLS шифрование активировано'
+        auth_success: 'Аутентификация успешна для %{username}'
+        test_sent: 'Тестовое письмо отправлено на %{email}'
+      errors:
+        connection_timeout: 'Время ожидания подключения к %{host}:%{port} истекло'
+        connection_refused: 'Соединение отклонено %{host}:%{port}'
+        host_unreachable: 'Хост %{host} недоступен'
+        ssl_error: 'Ошибка SSL: %{message}'
+        dns_error: 'Ошибка DNS: %{message}'
+        connection_error: 'Ошибка подключения: %{message}'
+        starttls_not_supported: 'Сервер не поддерживает STARTTLS'
+        starttls_error: 'Ошибка STARTTLS: %{message}'
+        auth_error: 'Ошибка аутентификации: %{message}'
+        server_rejected: 'Сервер отклонил: %{message}'
+        server_busy: 'Сервер занят: %{message}'
+        send_timeout: 'Время ожидания отправки истекло'
+        unexpected: 'Непредвиденная ошибка: %{message}'
+      hints:
+        connection_timeout:
+          wrong_host: 'Проверьте правильность адреса SMTP-сервера'
+          wrong_port: 'Попробуйте другой порт (25, 465, 587, 2525)'
+          firewall: 'Возможно, соединение блокируется файрволом'
+          server_unavailable: 'Сервер может быть временно недоступен'
+        connection_refused:
+          not_accepting: 'SMTP-сервер не принимает подключения на этом порту'
+          try_other_port: 'Попробуйте другой порт'
+        host_unreachable:
+          check_address: 'Проверьте правильность адреса сервера'
+          temporary: 'Возможно, это временная проблема с сетью'
+          check_dns: 'Проверьте DNS-настройки домена'
+        ssl_error:
+          encryption_mismatch: 'Настройки шифрования не соответствуют требованиям сервера'
+          port_encryption: 'Порт 465 обычно требует SSL, а 587 — STARTTLS'
+          try_change: 'Попробуйте изменить режим шифрования'
+          self_signed: 'Если сервер использует самоподписанный сертификат, отключите проверку SSL'
+        auth_failed:
+          wrong_credentials: 'Проверьте правильность логина и пароля'
+          app_password: 'Некоторые сервисы (Gmail, Yandex) требуют пароль приложения'
+          two_factor: 'При двухфакторной аутентификации используйте пароль приложения'
+          less_secure: 'Убедитесь, что доступ для приложений разрешен в настройках почты'
+        sender_rejected:
+          not_allowed: 'Сервер не позволяет отправлять письма от этого адреса'
+          same_email: 'Обычно адрес отправителя должен совпадать с логином'
+          aliases: 'Проверьте настройки алиасов в почтовом сервисе'
+        recipient_rejected:
+          check_email: 'Проверьте корректность адреса получателя'
+        server_busy:
+          try_later: 'Повторите попытку через несколько минут'
+        send_timeout:
+          slow_response: 'Сервер отвечает слишком медленно'
+          increase_timeout: 'Попробуйте увеличить таймаут в расширенных настройках'
+          server_overloaded: 'Сервер может быть перегружен'
+        connection_error:
+          unknown: 'Произошла неизвестная ошибка соединения'
+          check_settings: 'Проверьте все настройки SMTP'
+          contact_support: 'Обратитесь в поддержку почтового сервиса'
+        unexpected:
+          retry: 'Попробуйте повторить проверку'
+          contact_support: 'Если ошибка повторяется, обратитесь в поддержку'
+      test_email:
+        subject: 'Тестовое письмо от %{vendor}'
+        body: |
+          Это тестовое письмо от магазина "%{vendor}".
+
+          Если вы получили это письмо, значит SMTP-настройки работают корректно.
+
+          Параметры подключения:
+          - Сервер: %{host}
+          - Порт: %{port}
+          - Отправитель: %{from_email}

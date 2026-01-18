@@ -50,3 +50,84 @@ en:
         sms_text: '%{url}: A charge of %{amount} - %{details}. Current balance: %{current_amount}'
       need_payment:
         sms_text: '%{url}: The paid service period ends %{unpublish_date}. Total: %{invoice_amount} - %{payment_link}'
+
+    vendor_smtp_verification:
+      steps:
+        connection: 'Server Connection'
+        encryption: 'Encryption Setup'
+        authentication: 'Authentication'
+        send_test: 'Test Email Delivery'
+      messages:
+        connection_established: 'Connected to %{host}:%{port}'
+        encryption_not_required: 'No encryption required'
+        ssl_active: 'SSL/TLS encryption enabled'
+        starttls_active: 'STARTTLS encryption enabled'
+        auth_success: 'Authentication successful for %{username}'
+        test_sent: 'Test email sent to %{email}'
+      errors:
+        connection_timeout: 'Connection to %{host}:%{port} timed out'
+        connection_refused: 'Connection refused by %{host}:%{port}'
+        host_unreachable: 'Host %{host} is unreachable'
+        ssl_error: 'SSL error: %{message}'
+        dns_error: 'DNS error: %{message}'
+        connection_error: 'Connection error: %{message}'
+        starttls_not_supported: 'Server does not support STARTTLS'
+        starttls_error: 'STARTTLS error: %{message}'
+        auth_error: 'Authentication error: %{message}'
+        server_rejected: 'Server rejected: %{message}'
+        server_busy: 'Server busy: %{message}'
+        send_timeout: 'Send operation timed out'
+        unexpected: 'Unexpected error: %{message}'
+      hints:
+        connection_timeout:
+          wrong_host: 'Check the SMTP server address'
+          wrong_port: 'Try a different port (25, 465, 587, 2525)'
+          firewall: 'Connection may be blocked by a firewall'
+          server_unavailable: 'Server may be temporarily unavailable'
+        connection_refused:
+          not_accepting: 'SMTP server is not accepting connections on this port'
+          try_other_port: 'Try a different port'
+        host_unreachable:
+          check_address: 'Check the server address'
+          temporary: 'This may be a temporary network issue'
+          check_dns: 'Check the domain DNS settings'
+        ssl_error:
+          encryption_mismatch: 'Encryption settings do not match server requirements'
+          port_encryption: 'Port 465 usually requires SSL, port 587 requires STARTTLS'
+          try_change: 'Try changing the encryption mode'
+          self_signed: 'Disable SSL verification if server uses self-signed certificate'
+        auth_failed:
+          wrong_credentials: 'Check username and password'
+          app_password: 'Some services (Gmail, Yandex) require app password'
+          two_factor: 'Use app password with two-factor authentication'
+          less_secure: 'Ensure app access is allowed in email settings'
+        sender_rejected:
+          not_allowed: 'Server does not allow sending from this address'
+          same_email: 'Sender address usually must match username'
+          aliases: 'Check alias settings in email service'
+        recipient_rejected:
+          check_email: 'Check recipient email address'
+        server_busy:
+          try_later: 'Try again in a few minutes'
+        send_timeout:
+          slow_response: 'Server is responding too slowly'
+          increase_timeout: 'Try increasing timeout in advanced settings'
+          server_overloaded: 'Server may be overloaded'
+        connection_error:
+          unknown: 'Unknown connection error occurred'
+          check_settings: 'Check all SMTP settings'
+          contact_support: 'Contact email service support'
+        unexpected:
+          retry: 'Try verifying again'
+          contact_support: 'Contact support if error persists'
+      test_email:
+        subject: 'Test email from %{vendor}'
+        body: |
+          This is a test email from "%{vendor}".
+
+          If you received this email, SMTP settings are working correctly.
+
+          Connection settings:
+          - Server: %{host}
+          - Port: %{port}
+          - Sender: %{from_email}

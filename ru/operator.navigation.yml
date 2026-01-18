@@ -40,6 +40,7 @@ ru:
       orders: 'Настройки заказов'
       products: 'Настройки товаров'
       subscriptions: 'Уведомления (email, sms, telegram)'
+      smtp_settings: 'Свой SMTP сервер'
       integrations: 'Интеграция и обмен данными'
       members: 'Сотрудники и права доступа'
       billing: 'Тариф и оплата'
