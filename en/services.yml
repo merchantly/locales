@@ -70,6 +70,7 @@ en:
         host_unreachable: 'Host %{host} is unreachable'
         ssl_error: 'SSL error: %{message}'
         dns_error: 'DNS error: %{message}'
+        blocked_ip: 'IP address %{host} is blocked for security reasons'
         connection_error: 'Connection error: %{message}'
         starttls_not_supported: 'Server does not support STARTTLS'
         starttls_error: 'STARTTLS error: %{message}'
