@@ -17,3 +17,4 @@ ru:
       reminder_payment: 'Напоминание о платеже'
       client_category_changed: Изменение категории клиента
       coupon: Подарочный купон
+      tracking_set: Заказ отправлен (трек-номер)

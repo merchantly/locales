@@ -36,6 +36,7 @@ ru:
       openbill_charge: Журнал рекурентных платежей
       payment_account: Привязанные карты
       order_payment: Оплаты заказов
+      order_delivery: Доставка заказов
       openbill_invoice: Счет на оплату
       openbill_account: Биллинговые счета
       openbill_transaction: Транзакции
@@ -736,6 +737,7 @@ ru:
     errors:
       messages:
         record_invalid: "%{errors}"
+        no_spaces: не должен содержать пробелов
       wrong_category: Такой категории не существует
       self_descendant: Категория не может быть вложена сама в себя
       reset_password_token_is_out_of_date: Токен для восстановления пароля устарел. Закажите еще раз

@@ -898,6 +898,22 @@ ru:
         empty: Нет ни одного e-mail'а
     order:
       user_code: Код получения
+      tracking:
+        edit:
+          title: Указать трек-номер доставки
+          order_number: Заказ #%{id}
+          delivery_type: Доставка: %{name}
+          tracking_id_label: Трек-номер
+          tracking_id_hint: Оставьте пустым для удаления
+          warning_auto_tracking: Для этой службы трек-номер может получаться автоматически. Ручной ввод перезапишет данные.
+          cancel: Отмена
+          save: Сохранить
+        update:
+          success: Трек-номер сохранён
+          invalid_params: Неверные параметры запроса
+          unexpected_error: Произошла непредвиденная ошибка. Попробуйте ещё раз.
+        errors:
+          no_delivery: У заказа отсутствует информация о доставке
       found_count: Заказов по запросу
       create: Создать заказ
       items: Состав заказа

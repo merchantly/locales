@@ -36,6 +36,7 @@ en:
       openbill_charge: Recurring payment log
       payment_account: Linked cards
       order_payment: Payment orders
+      order_delivery: Order delivery
       openbill_invoice: An invoice for payment
       openbill_account: Billing accounts
       openbill_transaction: Transactions
@@ -735,6 +736,7 @@ en:
     errors:
       messages:
         record_invalid: "%{errors}"
+        no_spaces: cannot contain spaces
       wrong_category: There is no such category
       self_descendant: Category cannot be nested
       reset_password_token_is_out_of_date: Password recovery token is outdated. Send request again

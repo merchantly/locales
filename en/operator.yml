@@ -1211,6 +1211,22 @@ en:
         cdek_delivery: CDEK delivery
         agent: Delivery agent
         country: Country
+      tracking:
+        edit:
+          title: Specify tracking number
+          order_number: Order #%{id}
+          delivery_type: Delivery: %{name}
+          tracking_id_label: Tracking number
+          tracking_id_hint: Leave blank to remove
+          warning_auto_tracking: For this service, tracking number may be obtained automatically. Manual input will overwrite data.
+          cancel: Cancel
+          save: Save
+        update:
+          success: Tracking number saved
+          invalid_params: Invalid request parameters
+          unexpected_error: An unexpected error occurred. Please try again.
+        errors:
+          no_delivery: Order has no delivery information
       custom_delivery_price: 'Cost of delivery'
       transmitted_data: 'Transmitted data'
       browser_data: 'Browser data'

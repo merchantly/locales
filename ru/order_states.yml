@@ -9,6 +9,7 @@ ru:
     changed_workflow_state: "Изменен статус заказа (%{workflow_state_from} -> %{workflow_state_to})"
     use_condition: "Применено условие (#%{id}): \"%{title}\""
     order_attrs_updated: "Данные заказа обновлены %{attrs}"
+    tracking_set: "Указан трек-номер: %{tracking_id}"
 
   order_delivery_states_comments:
     delivery: Заказ передан на доставку

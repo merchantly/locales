@@ -36,6 +36,7 @@ en:
       on_workflow_change: 'When changing the status of the order'
       on_pay_success: 'If successful payment'
       on_pay_failure: 'When payment failed'
+      on_tracking_set: 'When tracking number is set'
     action:
       delivery: 'Reserve and start delivery'
       reserve: 'Reserve product'
