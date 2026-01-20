@@ -504,10 +504,22 @@ ru:
         emails: 'и такие email-ы:'
         email_empty: На данный момент уведомления по Email никто не получает.
       settings:
+        # TODO: DEPRECATED - Remove after 2026-06-01
+        # These keys are part of vendor_email functionality which is replaced by SMTP settings
         current_vendor_email: Текущий адрес отправителя при уведомлении клиентов
         add_spf: Для изменения адреса добавьте %{link} в настройках регистратора домена
         spf: SPF запись
         check: Проверить
+        # New email delivery settings
+        email_delivery:
+          title: Настройки отправки email
+          method: Способ отправки писем
+          use_platform: Email платформы
+          platform_hint: 'Письма отправляются от имени: %{from}'
+          use_smtp: Свой SMTP сервер
+          smtp_hint: Настройте собственный SMTP для отправки от вашего домена
+          smtp_active: Активен
+        support_email_hint: Email для обратной связи (Reply-To в письмах)
       edit:
         preview: Предосмотр
         template:
@@ -1537,3 +1549,4 @@ ru:
         verify_first: Сначала пройдите проверку настроек
       disable:
         disabled: SMTP-сервер отключен. Письма отправляются через стандартный сервер
+        not_enabled: SMTP-сервер не был включен

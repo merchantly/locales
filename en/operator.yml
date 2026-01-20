@@ -2335,3 +2335,4 @@ en:
         verify_first: Please verify settings first
       disable:
         disabled: SMTP server disabled. Emails sent via standard server
+        not_enabled: SMTP server is not enabled
