@@ -1544,6 +1544,7 @@ ru:
         test_email_invalid: Некорректный email адрес
         save_first: Сначала сохраните настройки SMTP
         rate_limited: Слишком много попыток. Подождите минуту
+        unexpected_error: Произошла непредвиденная ошибка. Попробуйте позже
       enable:
         enabled: SMTP-сервер включен
         verify_first: Сначала пройдите проверку настроек
