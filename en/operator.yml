@@ -1215,7 +1215,7 @@ en:
         edit:
           title: Specify tracking number
           order_number: Order #%{id}
-          delivery_type: Delivery: %{name}
+          delivery_type: "Delivery: %{name}"
           tracking_id_label: Tracking number
           tracking_id_hint: Leave blank to remove
           warning_auto_tracking: For this service, tracking number may be obtained automatically. Manual input will overwrite data.

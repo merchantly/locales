@@ -902,7 +902,7 @@ ru:
         edit:
           title: Указать трек-номер доставки
           order_number: Заказ #%{id}
-          delivery_type: Доставка: %{name}
+          delivery_type: "Доставка: %{name}"
           tracking_id_label: Трек-номер
           tracking_id_hint: Оставьте пустым для удаления
           warning_auto_tracking: Для этой службы трек-номер может получаться автоматически. Ручной ввод перезапишет данные.
