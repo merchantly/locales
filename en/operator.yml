@@ -1539,6 +1539,11 @@ en:
       emails:
         title: Emails
         empty: No email
+    orders:
+      tracking:
+        track: Track
+        edit: Edit
+        set_tracking_number: Specify tracking number
     order:
       found_count: Orders on request
       create: Create order

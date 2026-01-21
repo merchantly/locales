@@ -896,6 +896,11 @@ ru:
       emails:
         title: E-mails
         empty: Нет ни одного e-mail'а
+    orders:
+      tracking:
+        track: Отследить
+        edit: Изменить
+        set_tracking_number: Указать трек-номер
     order:
       user_code: Код получения
       tracking:
