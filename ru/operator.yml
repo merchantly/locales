@@ -897,6 +897,7 @@ ru:
         title: E-mails
         empty: Нет ни одного e-mail'а
     orders:
+      order_conditions: Бизнес процессы
       tracking:
         track: Отследить
         edit: Изменить
