@@ -646,6 +646,10 @@ ru:
       log:
         payment_form: Генерация формы оплаты через %{order_payment}
         customer_checked: Пользователь просмотрел страницу заказа
+      tracking:
+        track: Отследить
+        edit: Изменить
+        set_tracking_number: Указать трек-номер
     payment_cards:
       untie: Отвязать
       untied: Отвязана
@@ -896,12 +900,6 @@ ru:
       emails:
         title: E-mails
         empty: Нет ни одного e-mail'а
-    orders:
-      order_conditions: Бизнес процессы
-      tracking:
-        track: Отследить
-        edit: Изменить
-        set_tracking_number: Указать трек-номер
     order:
       user_code: Код получения
       tracking:
