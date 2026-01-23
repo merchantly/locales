@@ -15,6 +15,7 @@ ru:
         coupon: 'Подарочный сертификат от магазина {{vendor_name}}'
         wait_for_commit: 'Одобрен платежной системной. Ожидает подтверждение магазином'
         custom: '{{vendor_name}}: Письмо с интетнет-магазина'
+        tracking_set: '{{vendor_name}}: Трек-номер для заказа №{{order.public_id}}'
     merchant:
       subjects:
         new_order:    "{{vendor_name}}: Новый заказ №{{order.public_id}}"

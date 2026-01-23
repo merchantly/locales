@@ -13,6 +13,7 @@ en:
         reminder_payment: '{{vendor_name}}: Reserve expires'
         client_category_changed: '{{client.vendor_name}}: you were transferred to another group {{client.category_name}}'
         coupon: "Gift certificate from the store {{vendor_name}}"
+        tracking_set: '{{vendor_name}}: Tracking number for order No.{{order.public_id}}'
     merchant:
       subjects:
         new_order:    "{{vendor_name}}: New order No.{{order.public_id}}"
