@@ -22,6 +22,7 @@ ru:
       order_payment_podeli: Подели
       order_payment_yandex_split: Yandex Split
     delivery:
+      order_delivery: Доставка
       order_delivery_pickup: Самовывоз
       order_delivery_redexpress: Redexpress
       order_delivery_cse: CSE
