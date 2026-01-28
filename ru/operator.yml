@@ -1571,3 +1571,17 @@ ru:
       disable:
         disabled: SMTP-сервер отключен. Письма отправляются через стандартный сервер
         not_enabled: SMTP-сервер не был включен
+      providers:
+        yandex:
+          title: Настройка Яндекс.Почты
+          description_html: |
+            Для подключения SMTP через Яндекс.Почту используйте следующие параметры:
+            <ul>
+              <li><strong>SMTP сервер:</strong> smtp.yandex.ru</li>
+              <li><strong>Порт:</strong> 465</li>
+              <li><strong>Шифрование:</strong> SSL/TLS</li>
+              <li><strong>Логин:</strong> ваш полный email (например, shop@yandex.ru или shop@yourdomain.ru)</li>
+              <li><strong>Пароль:</strong> <a href="https://id.yandex.ru/security/app-passwords" target="_blank" rel="noopener">пароль приложения</a> (не основной пароль от почты)</li>
+            </ul>
+          app_password_note: "Важно: для работы SMTP необходимо создать пароль приложения в настройках Яндекс ID."
+          app_password_link: Как создать пароль приложения
