@@ -769,12 +769,18 @@ ru:
           attributes:
             email:
               email: 'Неверный Email'
+        client:
+          attributes:
+            telegram_user_id:
+              already_linked: уже связан с другим клиентом в этом магазине
         vendor:
           attributes:
             subdomain:
               slug: "Поддомен должен содержать только латинские буквы, цифры, _ или -"
             support_email:
               email: "Неверный формат email"
+            telegram_bot_token:
+              invalid: Невалидный токен бота
         invite:
           attributes:
             email:

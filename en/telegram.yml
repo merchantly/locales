@@ -1,0 +1,42 @@
+en:
+  telegram:
+    errors:
+      invalid_token: Invalid bot token
+      unauthorized: Unauthorized
+      forbidden: Bot was blocked by the user
+      rate_limit_exceeded: Rate limit exceeded
+      expired_auth_date: Expired auth_date
+      invalid_hash: Invalid hash
+      missing_vendor_token: Missing vendor token
+      malformed_init_data: Malformed init_data
+      invalid_origin: Invalid origin
+      connection_error: Connection error
+    settings:
+      title: Telegram Integration
+      bot_section: Connect Bot
+      miniapp_section: Mini App Settings
+      bot_token_label: Telegram Bot Token
+      bot_token_placeholder: "123456789:ABCdefGHI..."
+      bot_token_hint: "Get token from @BotFather in Telegram"
+      verify_button: Verify
+      save_button: Save
+      bot_connected: "Bot connected"
+      bot_not_configured: Bot not configured
+      bot_not_verified: Token not verified
+      menu_button_label: Menu button text
+      menu_button_hint: "(max 12 characters)"
+      menu_button_default: Catalog
+      setup_miniapp_button: Setup Mini App
+      miniapp_disabled_hint: Connect bot first
+      miniapp_setup_success: Mini App configured successfully
+      instructions:
+        title: How to create a bot
+        step1: Open @BotFather in Telegram
+        step2: Send /newbot and follow instructions
+        step3: Copy token and paste below
+    api:
+      validate_init_data:
+        success: Authorization successful
+        error: Authorization error
+    notifications:
+      bell_invalid_token: "Telegram bot: invalid token. Check settings in Integrations → Telegram"

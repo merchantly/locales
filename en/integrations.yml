@@ -31,6 +31,10 @@ en:
       other:
         title: Other
 
+      messaging:
+        title: Messaging
+        details: Messenger integrations for notifications and sales
+
       import:
         title: Data import
         details: "Loading information about goods, orders and customers in the %{brand_name}"
@@ -183,3 +187,7 @@ en:
     apidoc:
       title: 'API %{brand_name_a}'
       description_html: Full access to store data through the REST JSON API.
+
+    telegram:
+      title: Telegram
+      description_html: Send notifications to customers via the store's Telegram bot and support Mini App for shopping directly in the messenger.

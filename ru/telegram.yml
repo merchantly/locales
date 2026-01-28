@@ -1,0 +1,42 @@
+ru:
+  telegram:
+    errors:
+      invalid_token: Невалидный токен бота
+      unauthorized: Неавторизован
+      forbidden: Бот заблокирован пользователем
+      rate_limit_exceeded: Превышен лимит запросов
+      expired_auth_date: Истёк срок действия авторизации
+      invalid_hash: Невалидная подпись
+      missing_vendor_token: Токен бота не настроен
+      malformed_init_data: Некорректный формат initData
+      invalid_origin: Недопустимый источник запроса
+      connection_error: Ошибка соединения
+    settings:
+      title: Telegram интеграция
+      bot_section: Подключение бота
+      miniapp_section: Настройка Mini App
+      bot_token_label: Telegram Bot Token
+      bot_token_placeholder: "123456789:ABCdefGHI..."
+      bot_token_hint: "Получите токен у @BotFather в Telegram"
+      verify_button: Проверить
+      save_button: Сохранить
+      bot_connected: "Бот подключён"
+      bot_not_configured: Бот не настроен
+      bot_not_verified: Токен не проверен
+      menu_button_label: Название кнопки в боте
+      menu_button_hint: "(макс. 12 символов)"
+      menu_button_default: Каталог
+      setup_miniapp_button: Настроить Mini App
+      miniapp_disabled_hint: Сначала подключите бота выше
+      miniapp_setup_success: Mini App успешно настроен
+      instructions:
+        title: Как создать бота
+        step1: Откройте @BotFather в Telegram
+        step2: Отправьте /newbot и следуйте инструкциям
+        step3: Скопируйте токен и вставьте ниже
+    api:
+      validate_init_data:
+        success: Авторизация успешна
+        error: Ошибка авторизации
+    notifications:
+      bell_invalid_token: "Telegram бот: невалидный токен. Проверьте настройки в Интеграции → Telegram"

@@ -31,6 +31,10 @@ ru:
       other:
         title: Прочее
 
+      messaging:
+        title: Мессенджеры
+        details: Интеграция с мессенджерами для уведомлений и продаж
+
       import:
         title: Импорт данных
         details: Загрузка информации о товарах, заказах и клиентах в %{brand_name}
@@ -184,3 +188,7 @@ ru:
     apidoc:
       title: 'API %{brand_name_a}'
       description_html: Полный доступ к данным магазина через REST JSON API.
+
+    telegram:
+      title: Telegram
+      description_html: Отправка уведомлений клиентам через Telegram-бота магазина и поддержка Mini App для покупок прямо в мессенджере.
