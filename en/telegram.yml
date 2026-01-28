@@ -11,6 +11,7 @@ en:
       malformed_init_data: Malformed init_data
       invalid_origin: Invalid origin
       connection_error: Connection error
+      internal_error: Internal server error
     settings:
       title: Telegram Integration
       bot_section: Connect Bot
