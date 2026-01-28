@@ -11,6 +11,7 @@ ru:
       malformed_init_data: Некорректный формат initData
       invalid_origin: Недопустимый источник запроса
       connection_error: Ошибка соединения
+      internal_error: Внутренняя ошибка сервера
     settings:
       title: Telegram интеграция
       bot_section: Подключение бота
