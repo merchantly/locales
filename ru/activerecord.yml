@@ -616,6 +616,21 @@ ru:
         discount_type: Тип скидки
         start_at: Действует от
         expires_at: Действует до
+        min_items_from_list: Минимум товаров из списка
+        count_mode: Режим подсчёта
+        discount_target: К чему применять скидку
+      coupon_min_products:
+        code: Код
+        is_discounting_package: Делать скидку на упаковку
+        use_count: Остаток использования
+        used_count: Кол-во использований
+        discount: Скидка
+        discount_type: Тип скидки
+        start_at: Действует от
+        expires_at: Действует до
+        min_items_from_list: Минимум товаров из списка
+        count_mode: Режим подсчёта
+        discount_target: К чему применять скидку
       dictionary_entity:
         custom_title: Название
         next_resource_id: Следующий элемент справочника
@@ -747,6 +762,10 @@ ru:
         price_is_not_uniqueness: Цены товаров неодинаковы
         maximum: 'Максимальное количество товаров в объединении: %{max}'
       models:
+        coupon_min_products:
+          attributes:
+            base:
+              no_products_or_categories: Выберите хотя бы 1 товар или категорию
         certificate:
           attributes:
             cert_file:

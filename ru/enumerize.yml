@@ -142,6 +142,28 @@ ru:
       discount_type:
         percent: '%'
         fixed: 'Фиксированная сумма'
+      count_mode:
+        quantity: Общее количество товаров
+        unique: Уникальные товары (по product_id)
+      discount_target:
+        list_items: Только к товарам из списка
+        whole_order: Ко всему заказу
+    coupon_min_products:
+      use_products_behavior:
+        include: Применить только к выбранным товарам
+        exclude: Применять ко всем кроме выбранных товаров
+      use_categories_behavior:
+        include: Применить только к выбранным категориям
+        exclude: Применять ко всем кроме выбранных категорий
+      discount_type:
+        percent: '%'
+        fixed: 'Фиксированная сумма'
+      count_mode:
+        quantity: Общее количество товаров
+        unique: Уникальные товары (по product_id)
+      discount_target:
+        list_items: Только к товарам из списка
+        whole_order: Ко всему заказу
     system_mail_template:
       template_type:
         tech: Важная и экстренная информация (пару раз в год, не рекомендуем отписываться)
