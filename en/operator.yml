@@ -2350,7 +2350,7 @@ en:
         test_email_required: Please enter email for test message
         test_email_invalid: Invalid email address
         save_first: Please save SMTP settings first
-        rate_limited: Too many attempts. Please wait a minute
+        rate_limited: Please wait 10 seconds before next verification
         unexpected_error: An unexpected error occurred. Please try again later
       enable:
         enabled: SMTP server enabled

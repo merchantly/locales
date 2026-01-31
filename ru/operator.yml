@@ -1563,7 +1563,7 @@ ru:
         test_email_required: Введите email для тестового письма
         test_email_invalid: Некорректный email адрес
         save_first: Сначала сохраните настройки SMTP
-        rate_limited: Слишком много попыток. Подождите минуту
+        rate_limited: Подождите 10 секунд перед следующей проверкой
         unexpected_error: Произошла непредвиденная ошибка. Попробуйте позже
       enable:
         enabled: SMTP-сервер включен
