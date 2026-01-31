@@ -134,6 +134,7 @@ ar_SA:
       wait_for_pay_notify: 'شكرًا على الدفع! نتوقع تأكيدًا من البنك!'
       no_delivery_price: 'لا يمكنك الدفع مقابل طلب لا يتضمن رسوم شحن.'
       thanks_for_pay: 'شكرًا على الدفع!'
+      payment_failed: فشلت عملية الدفع
       good_added_to_basket: 'تمت إضافة المنتج "%{title}" إلى عربة التسوق  '
       goods_added_to_basket: 'المنتجات المُضافة إلى العربة'
       client:
