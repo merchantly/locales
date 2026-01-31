@@ -1573,15 +1573,28 @@ ru:
         not_enabled: SMTP-сервер не был включен
       providers:
         yandex:
-          title: Настройка Яндекс.Почты
-          description_html: |
-            Для подключения SMTP через Яндекс.Почту используйте следующие параметры:
-            <ul>
-              <li><strong>SMTP сервер:</strong> smtp.yandex.ru</li>
-              <li><strong>Порт:</strong> 465</li>
-              <li><strong>Шифрование:</strong> SSL/TLS</li>
-              <li><strong>Логин:</strong> ваш полный email (например, shop@yandex.ru или shop@yourdomain.ru)</li>
-              <li><strong>Пароль:</strong> <a href="https://id.yandex.ru/security/app-passwords" target="_blank" rel="noopener">пароль приложения</a> (не основной пароль от почты)</li>
-            </ul>
-          app_password_note: "Важно: для работы SMTP необходимо создать пароль приложения в настройках Яндекс ID."
-          app_password_link: Как создать пароль приложения
+          title: Как создать пароль приложения в Яндексе?
+          summary: Показать пошаговую инструкцию
+          step1_title: Включите двухфакторную аутентификацию
+          step1_note: (если ещё не включена)
+          step1_action1: Перейдите на
+          step1_link1: id.yandex.ru/security
+          step1_action2: Включите «Двухфакторная аутентификация»
+          step2_title: Создайте пароль приложения
+          step2_action1: Перейдите на
+          step2_link1: id.yandex.ru/security/app-passwords
+          step2_action2: Нажмите «Создать пароль приложения»
+          step2_action3: Выберите тип «Почта» (или «Почтовые программы»)
+          step2_action4: Придумайте название (например, «SMTP сервер»)
+          step2_action5: Скопируйте сгенерированный пароль
+          step3_title: Используйте в настройках выше
+          step3_smtp_server: "SMTP сервер:"
+          step3_smtp_server_value: smtp.yandex.ru
+          step3_port: "Порт:"
+          step3_port_value: 465 (SSL) или 587 (TLS)
+          step3_login: "Логин:"
+          step3_login_value: ваш email (например, shop@yandex.ru)
+          step3_password: "Пароль:"
+          step3_password_value: сгенерированный пароль приложения
+          app_password_note: "Важно: Обычный пароль от почты не работает для SMTP — нужен именно пароль приложения."
+          app_password_link: Создать пароль приложения
