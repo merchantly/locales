@@ -2339,6 +2339,7 @@ en:
         can_enable_now: You can now enable your custom SMTP server
         suggestions: 'Possible solutions:'
         network_error: Network error. Check your internet connection
+        unknown_error: An unknown error occurred
         last_verified: 'Last verified:'
         last_error: 'Last error:'
         enable_button: Enable
