@@ -153,6 +153,7 @@ ru:
         few: 'Для активации купона добавьте минимум %{count} товара из акционного списка'
         many: 'Для активации купона добавьте минимум %{count} товаров из акционного списка'
         other: 'Для активации купона добавьте минимум %{count} товаров из акционного списка'
+      all_products_archived: 'Все товары в списке купона %{coupon_code} архивированы'
     ms:
       relative_element_not_found: 'Не найден родственный элемент %{type}#%{id} в %{entity_class}#%{entity_id}'
       local_relative_element_not_found: 'Не найден локальный родственный элемент %{type}#%{id} в %{entity_class}#%{entity_id}'
