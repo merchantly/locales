@@ -2342,8 +2342,8 @@ en:
         last_verified: 'Last verified:'
         last_error: 'Last error:'
         enable_button: Enable
+        enabling: Verifying and enabling...
         disable_button: Disable
-        verify_first_hint: First save settings and verify them
       update:
         saved: SMTP settings saved
       verify:

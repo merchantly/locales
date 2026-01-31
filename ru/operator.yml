@@ -1555,8 +1555,8 @@ ru:
         last_verified: 'Последняя проверка:'
         last_error: 'Последняя ошибка:'
         enable_button: Включить
+        enabling: Проверяем и включаем...
         disable_button: Отключить
-        verify_first_hint: Сначала сохраните настройки и пройдите проверку
       update:
         saved: Настройки SMTP сохранены
       verify:
