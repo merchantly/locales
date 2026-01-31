@@ -130,6 +130,7 @@ ru:
       wait_for_pay_notify: 'Спасибо за оплату! Ожидаем подтверждение от банка!'
       no_delivery_price: 'Нельзя оплатить заказ, в котором не установлена стоимость доставки'
       thanks_for_pay: 'Спасибо за оплату!'
+      payment_failed: Платёж не прошёл
       good_added_to_basket: 'Товар "%{title}" добавлен в корзину'
       goods_added_to_basket: 'Товары добавлены в корзину'
       client:

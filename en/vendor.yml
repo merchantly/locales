@@ -132,6 +132,7 @@ en:
       wait_for_pay_notify: 'Thanks for paying! We expect confirmation from the bank!'
       no_delivery_price: 'You cannot pay for an order that does not have a shipping charge.'
       thanks_for_pay: 'Thanks for paying!'
+      payment_failed: Payment failed
       good_added_to_basket: 'Product "%{title}" added to cart  '
       goods_added_to_basket: 'Products added to cart'
       client:
