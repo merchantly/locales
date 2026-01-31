@@ -35,6 +35,8 @@ ru:
         step1: Откройте @BotFather в Telegram
         step2: Отправьте /newbot и следуйте инструкциям
         step3: Скопируйте токен и вставьте ниже
+    warnings:
+      token_not_verified: Токен сохранён, но не проверен — Telegram API временно недоступен. Попробуйте проверить токен позже.
     api:
       validate_init_data:
         success: Авторизация успешна

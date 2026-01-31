@@ -35,6 +35,8 @@ en:
         step1: Open @BotFather in Telegram
         step2: Send /newbot and follow instructions
         step3: Copy token and paste below
+    warnings:
+      token_not_verified: Token saved but not verified — Telegram API temporarily unavailable. Please verify the token later.
     api:
       validate_init_data:
         success: Authorization successful
