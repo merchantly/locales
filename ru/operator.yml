@@ -1573,6 +1573,7 @@ ru:
       enable:
         enabled: SMTP-сервер включен
         verify_first: Сначала пройдите проверку настроек
+        verification_failed: Проверка настроек не пройдена
       disable:
         disabled: SMTP-сервер отключен. Письма отправляются через стандартный сервер
         not_enabled: SMTP-сервер не был включен

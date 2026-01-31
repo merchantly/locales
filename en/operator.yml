@@ -2355,6 +2355,7 @@ en:
       enable:
         enabled: SMTP server enabled
         verify_first: Please verify settings first
+        verification_failed: Settings verification failed
       disable:
         disabled: SMTP server disabled. Emails sent via standard server
         not_enabled: SMTP server is not enabled
