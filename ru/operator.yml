@@ -290,7 +290,7 @@ ru:
         restrictions: 'Ограничения по категориям и товарам:'
         products_list: 'Список товаров для акции:'
         minimal_order_total_price: Минимальная сумма заказа
-      search: Комментарий
+      search: Найти
       reset: сбросить
       actions:
         import: Массовая загрузка купонов из CSV
