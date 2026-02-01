@@ -1143,6 +1143,19 @@ en:
         add_spf: "To change domain add %{link} in the setting in domain provider"
         spf: 'SPF check'
         check: Check
+        email_delivery:
+          title: Email delivery settings
+          method: Email delivery method
+          use_platform: Platform email
+          platform_hint: 'Emails are sent from: %{from}'
+          use_smtp: Custom SMTP server
+          smtp_hint: Configure your own SMTP to send from your domain
+          smtp_active: Active
+          smtp_configured: SMTP server is configured.
+          smtp_not_configured: Custom SMTP server cannot be used until configured.
+          smtp_setup_link: Configure SMTP server →
+          smtp_edit_link: Edit settings →
+        support_email_hint: Reply-To email for customer feedback
       edit:
         preview: 'Preview'
         template:
@@ -1152,7 +1165,7 @@ en:
       index:
         sms_log: 'Sent SMS log'
         tabs:
-          settings: 'Your email address'
+          settings: 'Email delivery method'
           clients: 'Customer notifications'
           merchants: 'Manager notifications'
           system: 'System notifications'

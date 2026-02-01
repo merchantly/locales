@@ -524,6 +524,10 @@ ru:
           use_smtp: Свой SMTP сервер
           smtp_hint: Настройте собственный SMTP для отправки от вашего домена
           smtp_active: Активен
+          smtp_configured: SMTP сервер настроен.
+          smtp_not_configured: Свой SMTP сервер нельзя использовать, пока он не настроен.
+          smtp_setup_link: Настроить SMTP сервер →
+          smtp_edit_link: Изменить настройки →
         support_email_hint: Email для обратной связи (Reply-To в письмах)
       edit:
         preview: Предосмотр
@@ -535,7 +539,7 @@ ru:
       index:
         sms_log: Журнал отправленных SMS
         tabs:
-          settings: Ваш адрес email
+          settings: Способ отправки писем
           clients: Уведомления для клиентов
           merchants: Уведомления для менеджеров
           system: Системные уведомления
