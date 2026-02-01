@@ -39,6 +39,10 @@ en:
         title: Data import
         details: "Loading information about goods, orders and customers in the %{brand_name}"
 
+      devices:
+        title: Equipment
+        details: External devices — ECR and POS terminals
+
     import_spread_sheet_infos:
       title: 'Download goods from Google Spreadsheet'
       description_html: ''
@@ -191,3 +195,7 @@ en:
     telegram:
       title: Telegram
       description_html: Send notifications to customers via the store's Telegram bot and support Mini App for shopping directly in the messenger.
+
+    external_devices:
+      title: External Devices
+      description_html: Manage ECR and POS devices connected via network.

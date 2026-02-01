@@ -39,6 +39,10 @@ ru:
         title: Импорт данных
         details: Загрузка информации о товарах, заказах и клиентах в %{brand_name}
 
+      devices:
+        title: Оборудование
+        details: Внешние устройства — ECR и POS терминалы
+
     import_spread_sheet_infos:
       title: 'Загрузка товаров из Google Spreadsheet'
       description_html: ''
@@ -192,3 +196,7 @@ ru:
     telegram:
       title: Telegram
       description_html: Отправка уведомлений клиентам через Telegram-бота магазина и поддержка Mini App для покупок прямо в мессенджере.
+
+    external_devices:
+      title: Внешние устройства
+      description_html: Управление ECR и POS устройствами, подключёнными по сети.

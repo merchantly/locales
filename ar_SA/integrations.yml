@@ -35,6 +35,10 @@ ar_SA:
         title: استيراد البيانات
         details: "تحميل معلومات حول المنتجات، والطلبات، والعملاء في %{brand_name}"
 
+      devices:
+        title: الأجهزة
+        details: الأجهزة الخارجية - ECR ومحطات نقاط البيع
+
     import_spread_sheet_infos:
       title: 'تنزيل السلع من جدول بيانات Google'
       description_html: ''
@@ -183,3 +187,7 @@ ar_SA:
     apidoc:
       title: 'واجهة برمجة التطبيقات %{brand_name_a}'
       description_html: وصول كامل لمتجر البيانات من خلال واجهة برمجة تطبيقات REST JSON.
+
+    external_devices:
+      title: الأجهزة الخارجية
+      description_html: إدارة أجهزة ECR و POS المتصلة عبر الشبكة.
