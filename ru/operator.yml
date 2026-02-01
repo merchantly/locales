@@ -1604,3 +1604,82 @@ ru:
           step3_password_value: сгенерированный пароль приложения
           app_password_note: "Важно: Обычный пароль от почты не работает для SMTP — нужен именно пароль приложения."
           app_password_link: Создать пароль приложения
+    integrations:
+      smtp_settings:
+        title: Свой SMTP сервер
+        show:
+          description: Настройка SMTP
+          current_sender: 'Текущий отправитель:'
+          status:
+            enabled: SMTP-сервер включен и используется для отправки писем
+          section:
+            connection: Параметры подключения
+            sender: Параметры отправителя
+            advanced: Расширенные настройки
+            verification: Проверка настроек
+          hints:
+            host: Адрес SMTP-сервера (например, smtp.gmail.com)
+            password_unchanged: Оставьте пустым, чтобы не менять пароль
+            from_email: Email, от имени которого будут отправляться письма
+            reply_to: Email для ответов на письма (необязательно)
+            timeout: Время ожидания ответа от сервера в секундах
+            helo_domain: Домен для приветствия SMTP (необязательно)
+            ssl_verify: Отключите, если сервер использует самоподписанный сертификат
+          warning_from_mismatch: 'Внимание: адрес отправителя отличается от логина. Некоторые SMTP-серверы могут блокировать такие письма.'
+          test_email_label: Email для тестового письма
+          test_email_required: Введите email для тестового письма
+          verify_button: Проверить
+          verifying: Проверяем...
+          verification_in_progress: Выполняется проверка настроек...
+          verification_success: Все проверки пройдены успешно!
+          verification_failed: Проверка не пройдена
+          can_enable_now: Теперь вы можете включить использование своего SMTP-сервера
+          suggestions: 'Возможные решения:'
+          network_error: Ошибка сети. Проверьте подключение к интернету
+          unknown_error: Произошла неизвестная ошибка
+          last_verified: 'Последняя проверка:'
+          last_error: 'Последняя ошибка:'
+          enable_button: Включить
+          enabling: Проверяем и включаем...
+          disable_button: Отключить
+        update:
+          saved: Настройки SMTP сохранены
+        verify:
+          test_email_required: Введите email для тестового письма
+          test_email_invalid: Некорректный email адрес
+          save_first: Сначала сохраните настройки SMTP
+          rate_limited: Подождите 10 секунд перед следующей проверкой
+          unexpected_error: Произошла непредвиденная ошибка. Попробуйте позже
+        enable:
+          enabled: SMTP-сервер включен
+          verify_first: Сначала пройдите проверку настроек
+          verification_failed: Проверка настроек не пройдена
+        disable:
+          disabled: SMTP-сервер отключен. Письма отправляются через стандартный сервер
+          not_enabled: SMTP-сервер не был включен
+        providers:
+          yandex:
+            summary: Как создать пароль приложения в Яндексе?
+            step1_title: Включите двухфакторную аутентификацию
+            step1_note: (если ещё не включена)
+            step1_action1: Перейдите на
+            step1_link1: id.yandex.ru/security
+            step1_action2: Включите «Двухфакторная аутентификация»
+            step2_title: Создайте пароль приложения
+            step2_action1: Перейдите на
+            step2_link1: id.yandex.ru/security/app-passwords
+            step2_action2: Нажмите «Создать пароль приложения»
+            step2_action3: Выберите тип «Почта» (или «Почтовые программы»)
+            step2_action4: Придумайте название (например, «SMTP сервер»)
+            step2_action5: Скопируйте сгенерированный пароль
+            step3_title: Используйте в настройках выше
+            step3_smtp_server: "SMTP сервер:"
+            step3_smtp_server_value: smtp.yandex.ru
+            step3_port: "Порт:"
+            step3_port_value: 465 (SSL) или 587 (TLS)
+            step3_login: "Логин:"
+            step3_login_value: ваш email (например, shop@yandex.ru)
+            step3_password: "Пароль:"
+            step3_password_value: сгенерированный пароль приложения
+            app_password_note: "Важно: Обычный пароль от почты не работает для SMTP — нужен именно пароль приложения."
+            app_password_link: Создать пароль приложения

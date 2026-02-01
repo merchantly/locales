@@ -1,6 +1,9 @@
 ru:
   integrations:
     groups:
+      communication:
+        title: Коммуникации
+        details: Настройка каналов связи с клиентами — email, мессенджеры, SMS
       payment:
         title: Платежные системы
         details: Платежные системы используются для приёма оплаты от покупателей. За свои услуги, как привило, берут от 2 до 4%.
@@ -200,3 +203,7 @@ ru:
     external_devices:
       title: Внешние устройства
       description_html: Управление ECR и POS устройствами, подключёнными по сети.
+
+    smtp_settings:
+      title: Собственный SMTP сервер
+      description_html: Используйте свой SMTP сервер для отправки писем клиентам

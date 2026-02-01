@@ -1,6 +1,9 @@
 en:
   integrations:
     groups:
+      communication:
+        title: Communication
+        details: Configure communication channels — email, messengers, SMS
       payment:
         title: Payment systems
         details: "Payment systems are used to receive payment from customers. As a rule, they take from 2 to 4% for services."
@@ -199,3 +202,7 @@ en:
     external_devices:
       title: External Devices
       description_html: Manage ECR and POS devices connected via network.
+
+    smtp_settings:
+      title: Custom SMTP Server
+      description_html: Use your own SMTP server for sending emails to customers

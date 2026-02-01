@@ -2360,3 +2360,56 @@ en:
       disable:
         disabled: SMTP server disabled. Emails sent via standard server
         not_enabled: SMTP server is not enabled
+    integrations:
+      smtp_settings:
+        title: Custom SMTP Server
+        show:
+          description: Configure your own SMTP server to send emails from your domain
+          current_sender: 'Current sender:'
+          status:
+            enabled: SMTP server is enabled and used for sending emails
+          section:
+            connection: Connection Settings
+            sender: Sender Settings
+            advanced: Advanced Settings
+            verification: Verify Settings
+          hints:
+            host: SMTP server address (e.g., smtp.gmail.com)
+            password_unchanged: Leave empty to keep current password
+            from_email: Email address for sending messages
+            reply_to: Reply-to email address (optional)
+            timeout: Server response timeout in seconds
+            helo_domain: HELO domain for SMTP greeting (optional)
+            ssl_verify: Disable if server uses self-signed certificate
+          warning_from_mismatch: 'Warning: sender email differs from username. Some SMTP servers may block such emails.'
+          test_email_label: Email for test message
+          test_email_required: Please enter email for test message
+          verify_button: Verify
+          verifying: Verifying...
+          verification_in_progress: Checking settings...
+          verification_success: All checks passed successfully!
+          verification_failed: Verification failed
+          can_enable_now: You can now enable your custom SMTP server
+          suggestions: 'Possible solutions:'
+          network_error: Network error. Check your internet connection
+          unknown_error: An unknown error occurred
+          last_verified: 'Last verified:'
+          last_error: 'Last error:'
+          enable_button: Enable
+          enabling: Verifying and enabling...
+          disable_button: Disable
+        update:
+          saved: SMTP settings saved
+        verify:
+          test_email_required: Please enter email for test message
+          test_email_invalid: Invalid email address
+          save_first: Please save SMTP settings first
+          rate_limited: Please wait 10 seconds before next verification
+          unexpected_error: An unexpected error occurred. Please try again later
+        enable:
+          enabled: SMTP server enabled
+          verify_first: Please verify settings first
+          verification_failed: Settings verification failed
+        disable:
+          disabled: SMTP server disabled. Emails sent via standard server
+          not_enabled: SMTP server is not enabled
