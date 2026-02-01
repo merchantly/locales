@@ -114,5 +114,5 @@ ru:
         details_html: Редактирование едениц измерения
       external_devices:
         title: Внешние устройства
-        url: operator_external_devices_path
+        url: operator_integration_external_devices_path
         details_html: Редактирование внешних устройств
