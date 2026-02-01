@@ -26,6 +26,7 @@ en:
         many: 'Balance:% {count}'
         other: 'Balance:% {count}'
         infinite: 'Reusable'
+        exhausted: 'Exhausted'
       used_count:
         zero: 'Unused'
         one: 'Used% {count} times'
