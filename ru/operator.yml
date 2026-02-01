@@ -289,6 +289,7 @@ ru:
           discount_target: К каким товарам применять скидку
         restrictions: 'Ограничения по категориям и товарам:'
         products_list: 'Список товаров для акции:'
+        list_conditions: 'Условия по списку товаров'
         minimal_order_total_price: Минимальная сумма заказа
       search: Найти
       reset: сбросить
@@ -296,7 +297,6 @@ ru:
         import: Массовая загрузка купонов из CSV
         add_coupon: Добавить купон
         add_coupon_group: Добавить группу купонов
-        add_coupon_min_products: Добавить купон "N товаров"
       empty: Ничего не найдено
       import_form:
         labels:

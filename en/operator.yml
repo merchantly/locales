@@ -926,8 +926,12 @@ en:
         hints:
           use_count: "The number of coupons generated. From 1 to %{count}."
           minimal_products_count: 'Leave blank for any amount'
-          is_check_address: 'If an order has been placed at the client’s address, the coupon will not be applied'
+          is_check_address: "If an order has been placed at the client's address, the coupon will not be applied"
+          min_items_from_list: 'Minimum number of items from the list to activate the coupon'
+          count_mode: 'How to count items - total quantity or unique products'
+          discount_target: 'Which items to apply the discount to'
         restrictions: 'Restrictions on categories and products:'
+        list_conditions: 'Conditions for product list'
         minimal_order_total_price: 'Minimal order total_price'
       search: 'Search'
       reset: Reset
